@@ -91,7 +91,8 @@ h6 {
 @media (max-width: 768px) {
   .covid {
     margin-top: 50px;
-    margin-left: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
   }
 
   .back-to-top {
