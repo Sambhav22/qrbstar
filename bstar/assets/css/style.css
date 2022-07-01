@@ -915,14 +915,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 480px) {
   #schedule .nav-tabs a {
     padding: 8px 10px;
-    font-size: 14px;
+    font-size: 10px;
   }
-  .go {
-    margin-left: 15px;
-  }
-  .covid {
-    margin-top: 50px;
-    margin-left: 15px;
+}
+
+@media (max-width: 340px) {
+  #schedule .nav-tabs a {
+    padding: 5px 8px;
+    font-size: 10px;
   }
 }
 
