@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 2: Clean and Green All Around ";
+export const chapter = "Chapter - 3: Our Body ";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
@@ -6,28 +6,28 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        question: "We should reduce the use of __________ ",
-        optionA: "Food",
-        optionB: "Vehicles",
-        optionC: "None",
+        question: "Our eyes help us to __________ ",
+        optionA: "Hear",
+        optionB: "Speak",
+        optionC: "See",
 
         correctAnswer: "",
       },
 
       {
-        question: "The 'Clean India Mission' was launched by our __________",
-        optionA: "None",
-        optionB: "Chief Minister",
-        optionC: "Prime Minister",
+        question: "We can run with the help of our __________",
+        optionA: "Hands",
+        optionB: "Legs",
+        optionC: "Toes",
 
         correctAnswer: "",
       },
 
       {
-        question: "Dirty surroundings can lead to ____________ ",
-        optionA: "Hygiene",
-        optionB: "Diseases",
-        optionC: "Both",
+        question: "Our hands help us to ____________ ",
+        optionA: "Talk",
+        optionB: "Walk",
+        optionC: "Hold Things",
 
         correctAnswer: "",
       },
@@ -40,7 +40,7 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blanks:",
     questions: [
       {
-        question: "________and _____ system should be checked regularly",
+        question: "We have _____ eyes",
         optionA: "",
         optionB: "",
         optionC: "",
@@ -49,8 +49,7 @@ if (localStorage.getItem("activityNumber") == 2) {
       },
 
       {
-        question:
-          "We should throw the household waste in municipal _______ or __________",
+        question: "We can hear with our __________",
         optionA: "",
         optionB: "",
         optionC: "",
@@ -59,8 +58,7 @@ if (localStorage.getItem("activityNumber") == 2) {
       },
 
       {
-        question:
-          "We should plant more __________ to keep the environment green.",
+        question: "We use our hands to _______ ",
         optionA: "",
         optionB: "",
         optionC: "",
@@ -78,7 +76,7 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
       {
-        question: "We should throw the waste in bins",
+        question: "Chest is an external body part",
         optionA: "True",
         optionB: "False",
 
@@ -86,7 +84,7 @@ if (localStorage.getItem("activityNumber") == 3) {
       },
 
       {
-        question: "Planting more trees may lead to pollution",
+        question: "We can use our ears to see the world",
         optionA: "True",
         optionB: "False",
 
@@ -94,7 +92,7 @@ if (localStorage.getItem("activityNumber") == 3) {
       },
 
       {
-        question: "We should check for the drains and sewage system regularly",
+        question: "We can smell with our nose",
         optionA: "True",
         optionB: "False",
 

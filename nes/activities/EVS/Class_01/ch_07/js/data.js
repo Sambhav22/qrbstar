@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 2: Clean and Green All Around ";
+export const chapter = "Chapter - 7: Food We Eat ";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
@@ -6,28 +6,28 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        question: "We should reduce the use of __________ ",
-        optionA: "Food",
-        optionB: "Vehicles",
-        optionC: "None",
+        question: " We get eggs from _________",
+        optionA: "hen/duck",
+        optionB: "none",
+        optionC: "cow/buffalo",
 
         correctAnswer: "",
       },
 
       {
-        question: "The 'Clean India Mission' was launched by our __________",
-        optionA: "None",
-        optionB: "Chief Minister",
-        optionC: "Prime Minister",
+        question: "We take breakfast in/at ________ ",
+        optionA: "afternoon",
+        optionB: "night",
+        optionC: "morning",
 
         correctAnswer: "",
       },
 
       {
-        question: "Dirty surroundings can lead to ____________ ",
-        optionA: "Hygiene",
-        optionB: "Diseases",
-        optionC: "Both",
+        question: "_________ is our basic need",
+        optionA: "food",
+        optionB: "both",
+        optionC: "egg",
 
         correctAnswer: "",
       },
@@ -40,7 +40,7 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blanks:",
     questions: [
       {
-        question: "________and _____ system should be checked regularly",
+        question: "We get cereals from ________",
         optionA: "",
         optionB: "",
         optionC: "",
@@ -49,8 +49,7 @@ if (localStorage.getItem("activityNumber") == 2) {
       },
 
       {
-        question:
-          "We should throw the household waste in municipal _______ or __________",
+        question: "We take _________ at noon",
         optionA: "",
         optionB: "",
         optionC: "",
@@ -59,8 +58,7 @@ if (localStorage.getItem("activityNumber") == 2) {
       },
 
       {
-        question:
-          "We should plant more __________ to keep the environment green.",
+        question: "_________ gives us energy to do work",
         optionA: "",
         optionB: "",
         optionC: "",
@@ -78,7 +76,7 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
       {
-        question: "We should throw the waste in bins",
+        question: "We get milk from the cow",
         optionA: "True",
         optionB: "False",
 
@@ -86,7 +84,7 @@ if (localStorage.getItem("activityNumber") == 3) {
       },
 
       {
-        question: "Planting more trees may lead to pollution",
+        question: "We get vegetables from the plants",
         optionA: "True",
         optionB: "False",
 
@@ -94,7 +92,7 @@ if (localStorage.getItem("activityNumber") == 3) {
       },
 
       {
-        question: "We should check for the drains and sewage system regularly",
+        question: "We should take only one type of food",
         optionA: "True",
         optionB: "False",
 

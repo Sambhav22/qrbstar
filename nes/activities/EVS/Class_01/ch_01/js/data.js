@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 2: Clean and Green All Around ";
+export const chapter = "Chapter - 1: Plant More Trees ";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
@@ -6,28 +6,28 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        question: "We should reduce the use of __________ ",
-        optionA: "Food",
-        optionB: "Vehicles",
-        optionC: "None",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "The 'Clean India Mission' was launched by our __________",
-        optionA: "None",
-        optionB: "Chief Minister",
-        optionC: "Prime Minister",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Dirty surroundings can lead to ____________ ",
-        optionA: "Hygiene",
-        optionB: "Diseases",
+        question: "We get fruits and vegetables from ",
+        optionA: "Animals",
+        optionB: "Trees",
         optionC: "Both",
+
+        correctAnswer: "",
+      },
+
+      {
+        question: "Shrubs have __________ ",
+        optionA: "Woody Stems",
+        optionB: "Both",
+        optionC: "Strong Stems",
+
+        correctAnswer: "",
+      },
+
+      {
+        question: "Big and strong plants are called ____________ ",
+        optionA: "Herbs",
+        optionB: "Trees",
+        optionC: "Shrubs",
 
         correctAnswer: "",
       },
@@ -40,7 +40,7 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blanks:",
     questions: [
       {
-        question: "________and _____ system should be checked regularly",
+        question: "Trees give _________ to birds and animals",
         optionA: "",
         optionB: "",
         optionC: "",
@@ -49,8 +49,7 @@ if (localStorage.getItem("activityNumber") == 2) {
       },
 
       {
-        question:
-          "We should throw the household waste in municipal _______ or __________",
+        question: "_________ give us oxygen",
         optionA: "",
         optionB: "",
         optionC: "",
@@ -59,8 +58,7 @@ if (localStorage.getItem("activityNumber") == 2) {
       },
 
       {
-        question:
-          "We should plant more __________ to keep the environment green.",
+        question: "Small sized plants with woody stems are called ___________ ",
         optionA: "",
         optionB: "",
         optionC: "",
@@ -78,7 +76,7 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
       {
-        question: "We should throw the waste in bins",
+        question: "Very small sized plants with woody stems are called herbs",
         optionA: "True",
         optionB: "False",
 
@@ -86,7 +84,7 @@ if (localStorage.getItem("activityNumber") == 3) {
       },
 
       {
-        question: "Planting more trees may lead to pollution",
+        question: "Big and strong plants are called shrubs",
         optionA: "True",
         optionB: "False",
 
@@ -94,7 +92,7 @@ if (localStorage.getItem("activityNumber") == 3) {
       },
 
       {
-        question: "We should check for the drains and sewage system regularly",
+        question: "We get fruits from plants",
         optionA: "True",
         optionB: "False",
 

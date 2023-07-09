@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 2: Clean and Green All Around ";
+export const chapter = "Chapter - 12: Air ";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
@@ -6,28 +6,28 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        question: "We should reduce the use of __________ ",
-        optionA: "Food",
-        optionB: "Vehicles",
-        optionC: "None",
+        question: " ________ is necessary for living",
+        optionA: "cooking",
+        optionB: "dancing",
+        optionC: "air",
 
         correctAnswer: "",
       },
 
       {
-        question: "The 'Clean India Mission' was launched by our __________",
-        optionA: "None",
-        optionB: "Chief Minister",
-        optionC: "Prime Minister",
+        question: "We use air for _________ ",
+        optionA: "both",
+        optionB: "drinking",
+        optionC: "breathing",
 
         correctAnswer: "",
       },
 
       {
-        question: "Dirty surroundings can lead to ____________ ",
-        optionA: "Hygiene",
-        optionB: "Diseases",
-        optionC: "Both",
+        question: "_________ air is good for our health",
+        optionA: "polluted",
+        optionB: "none",
+        optionC: "fresh",
 
         correctAnswer: "",
       },
@@ -40,7 +40,7 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blanks:",
     questions: [
       {
-        question: "________and _____ system should be checked regularly",
+        question: "________ is used to fly a kite",
         optionA: "",
         optionB: "",
         optionC: "",
@@ -49,8 +49,7 @@ if (localStorage.getItem("activityNumber") == 2) {
       },
 
       {
-        question:
-          "We should throw the household waste in municipal _______ or __________",
+        question: "_________ is all around us",
         optionA: "",
         optionB: "",
         optionC: "",
@@ -59,8 +58,7 @@ if (localStorage.getItem("activityNumber") == 2) {
       },
 
       {
-        question:
-          "We should plant more __________ to keep the environment green.",
+        question: "_________ need air to grow",
         optionA: "",
         optionB: "",
         optionC: "",
@@ -78,7 +76,7 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
       {
-        question: "We should throw the waste in bins",
+        question: "Air is not a basic need",
         optionA: "True",
         optionB: "False",
 
@@ -86,7 +84,7 @@ if (localStorage.getItem("activityNumber") == 3) {
       },
 
       {
-        question: "Planting more trees may lead to pollution",
+        question: "We need air for breathing",
         optionA: "True",
         optionB: "False",
 
@@ -94,7 +92,7 @@ if (localStorage.getItem("activityNumber") == 3) {
       },
 
       {
-        question: "We should check for the drains and sewage system regularly",
+        question: "Air is used for drinking",
         optionA: "True",
         optionB: "False",
 

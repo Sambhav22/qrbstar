@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 2: Clean and Green All Around ";
+export const chapter = "Chapter - 15: Let's Communicate ";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
@@ -6,28 +6,28 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        question: "We should reduce the use of __________ ",
-        optionA: "Food",
-        optionB: "Vehicles",
-        optionC: "None",
+        question: " Sending and receiving of messages is called _________ ",
+        optionA: "communication",
+        optionB: "both",
+        optionC: "transport",
 
         correctAnswer: "",
       },
 
       {
-        question: "The 'Clean India Mission' was launched by our __________",
-        optionA: "None",
-        optionB: "Chief Minister",
-        optionC: "Prime Minister",
+        question: "_________is the oldest means of communication",
+        optionA: "radio",
+        optionB: "letter",
+        optionC: "mobile",
 
         correctAnswer: "",
       },
 
       {
-        question: "Dirty surroundings can lead to ____________ ",
-        optionA: "Hygiene",
-        optionB: "Diseases",
-        optionC: "Both",
+        question: "We use ________ for chatting",
+        optionA: "mobile",
+        optionB: "none",
+        optionC: "e-mail",
 
         correctAnswer: "",
       },
@@ -40,7 +40,7 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blanks:",
     questions: [
       {
-        question: "________and _____ system should be checked regularly",
+        question: "________ is the oldest means of communication",
         optionA: "",
         optionB: "",
         optionC: "",
@@ -49,8 +49,7 @@ if (localStorage.getItem("activityNumber") == 2) {
       },
 
       {
-        question:
-          "We should throw the household waste in municipal _______ or __________",
+        question: "Sending and receiving of messages is known as _________ ",
         optionA: "",
         optionB: "",
         optionC: "",
@@ -59,8 +58,7 @@ if (localStorage.getItem("activityNumber") == 2) {
       },
 
       {
-        question:
-          "We should plant more __________ to keep the environment green.",
+        question: "We go to the _________ to post a letter",
         optionA: "",
         optionB: "",
         optionC: "",
@@ -78,7 +76,7 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
       {
-        question: "We should throw the waste in bins",
+        question: "We use telephone for watching TV",
         optionA: "True",
         optionB: "False",
 
@@ -86,7 +84,7 @@ if (localStorage.getItem("activityNumber") == 3) {
       },
 
       {
-        question: "Planting more trees may lead to pollution",
+        question: "E-mail is used for sending mails",
         optionA: "True",
         optionB: "False",
 
@@ -94,7 +92,7 @@ if (localStorage.getItem("activityNumber") == 3) {
       },
 
       {
-        question: "We should check for the drains and sewage system regularly",
+        question: "We use mobile for talking",
         optionA: "True",
         optionB: "False",
 
