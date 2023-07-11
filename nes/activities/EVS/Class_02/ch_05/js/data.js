@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 5: Our Basic Needs ";
+export const chapter = "Chapter - 5: Food For All ";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
