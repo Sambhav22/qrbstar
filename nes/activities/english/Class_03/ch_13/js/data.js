@@ -1,90 +1,80 @@
-export const chapter = "Chapter - 13: How We Fall Sick";
+export const chapter = "Chapter - 1: God Bless Me";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
-        {
-          question:
-            "What is the main cause of the disease mentioned in the text?",
-          optionA: "Bacteria",
-          optionB: "Virus",
-          optionC: "Fungus",
-          correctAnswer: "Virus",
-        },
-        {
-          question: "How can you protect yourself from the mentioned disease?",
-          optionA: "Wearing a mask",
-          optionB: "Regular handwashing and social distancing",
-          optionC: "Eating snacks",
-          correctAnswer: "Regular handwashing and social distancing",
-        },
-        {
-          question: "What is the importance of hygiene mentioned in the text?",
-          optionA: "It helps in making friends",
-          optionB: "It keeps diseases away",
-          optionC: "It improves physical fitness",
-          correctAnswer: "It keeps diseases away",
-        },
-        {
-          question:
-            "What should you do when you enter the house from outside according to the text?",
-          optionA: "Brush your teeth",
-          optionB: "Wash your hands with soap",
-          optionC: "Take a nap",
-          correctAnswer: "Wash your hands with soap",
-        },
-        {
-          question:
-            "Which of the following is NOT mentioned as a way to maintain cleanliness in the text?",
-          optionA: "Wearing clean clothes",
-          optionB: "Trimming nails and hair regularly",
-          optionC: "Brushing your teeth twice a week",
-          correctAnswer: "Brushing your teeth twice a week",
-        },
-        {
-          question:
-            "What is a recommended way to take a rest for your brain, according to the text?",
-          optionA: "Sleeping",
-          optionB: "Playing games",
-          optionC: "Eating snacks",
-          correctAnswer: "Playing games",
-        },
-        {
-          question:
-            "Which of the following is NOT a type of physical exercise mentioned in the text?",
-          optionA: "Running",
-          optionB: "Yoga",
-          optionC: "Watching TV",
-          correctAnswer: "Watching TV",
-        },
-        {
-          question:
-            "Why are snacks not considered good for your health in the text?",
-          optionA: "They are too expensive",
-          optionB: "They contain too much sugar and salt",
-          optionC: "They are too filling",
-          correctAnswer: "They contain too much sugar and salt",
-        },
-        {
-          question:
-            "What is recommended for a healthy diet according to the text?",
-          optionA: "Eating snacks from the market",
-          optionB: "Eating homemade food",
-          optionC: "Consuming as much sugar and salt as you like",
-          correctAnswer: "Eating homemade food",
-        },
-        {
-          question:
-            "What is the benefit of sleeping early and rising early according to the text?",
-          optionA: "It helps in weight loss",
-          optionB: "It gives rest to the body and the brain",
-          optionC: "It increases stress levels",
-          correctAnswer: "It gives rest to the body and the brain",
-        },
-      ],
+      {
+        question: "In the poem, what is the speaker wishing upon?",
+        optionA: "The sun",
+        optionB: "The moon",
+        optionC: "The stars",
+        correctAnswer: "The stars",
+      },
+      {
+        question: "How does the poem begin?",
+        optionA: "Moonlight, moonlight",
+        optionB: "Star light, star bright",
+        optionC: "Sunshine, sunshine",
+        correctAnswer: "Star light, star bright",
+      },
+      {
+        question: "According to the poem, when does the speaker make a wish?",
+        optionA: "In the morning",
+        optionB: "During the day",
+        optionC: "At night",
+        correctAnswer: "At night",
+      },
+      {
+        question: "What does the speaker wish for in the poem?",
+        optionA: "To see the moon",
+        optionB: "To have a bright star",
+        optionC: "To have their wish granted",
+        correctAnswer: "To have their wish granted",
+      },
+      {
+        question: "Who does the speaker ask God to bless in the poem?",
+        optionA: "Only themselves",
+        optionB: "The moon and themselves",
+        optionC: "The stars and themselves",
+        correctAnswer: "The moon and themselves",
+      },
+      {
+        question: "What is the first line of the second stanza of the poem?",
+        optionA: "I see the moon,",
+        optionB: "I wish upon a star,",
+        optionC: "The sun is setting,",
+        correctAnswer: "I see the moon,",
+      },
+      {
+        question: "According to the poem, what does the moon do?",
+        optionA: "It makes wishes come true",
+        optionB: "It blesses the speaker",
+        optionC: "It sees the speaker",
+        correctAnswer: "It sees the speaker",
+      },
+      {
+        question: "What time of day is mentioned in the poem?",
+        optionA: "Morning",
+        optionB: "Noon",
+        optionC: "Night",
+        correctAnswer: "Night",
+      },
+      {
+        question: "How many wishes does the speaker make in the poem?",
+        optionA: "One wish",
+        optionB: "Two wishes",
+        optionC: "Three wishes",
+        correctAnswer: "Two wishes",
+      },
+      {
+        question: "What is the central theme of this poem?",
+        optionA: "The beauty of the moon",
+        optionB: "Making wishes upon stars",
+        optionC: "Blessings and wishes",
+        correctAnswer: "Blessings and wishes",
+      },
     ],
   };
 }
@@ -93,66 +83,80 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
-        {
-          question: "__________ is a new disease caused by a virus.",
-          options: ["Influenza", "COVID-19", "Malaria"],
-          correctAnswer: "COVID-19",
-        },
-        {
-          question:
-            "Good ____________ and social distancing can help protect you from the disease.",
-          options: ["Nutrition", "Hygiene", "Fitness"],
-          correctAnswer: "Hygiene",
-        },
-        {
-          question: "Most diseases arise because people are not ____________.",
-          options: ["Active", "Careful", "Knowledgeable"],
-          correctAnswer: "Careful",
-        },
-        {
-          question:
-            "Regular handwashing with soap, keeping nails and hair ____________, and wearing clean clothes are simple ways to maintain ____________.",
-          options: ["Long, fitness", "Short, hygiene", "Clean, health"],
-          correctAnswer: "Short, hygiene",
-        },
-        {
-          question:
-            "Physical exercise can include activities like running, playing games, and practicing ____________.",
-          options: ["Yoga", "Martial arts", "Singing"],
-          correctAnswer: "Yoga",
-        },
-        {
-          question:
-            "Snacks sold in the market are not good for your health because they often contain excessive ____________ and ____________.",
-          options: ["Sugar, salt", "Fiber, vitamins", "Protein, antioxidants"],
-          correctAnswer: "Sugar, salt",
-        },
-        {
-          question:
-            "It is good to sleep early and rise early as it gives rest to the body and the ____________.",
-          options: ["Mind", "Muscles", "Stomach"],
-          correctAnswer: "Mind",
-        },
-        {
-          question:
-            "Apart from sleeping, ____________, reading, and playing games are mentioned as methods to take a rest.",
-          options: ["Studying", "Exercising", "Thinking"],
-          correctAnswer: "Thinking",
-        },
-        {
-          question:
-            "According to the text, maintaining cleanliness is essential because a large number of diseases are caused due to ____________.",
-          options: ["Negligence", "Dirtiness", "Poor diet"],
-          correctAnswer: "Dirtiness",
-        },
-        {
-          question:
-            "The text emphasizes the value of true ____________ and selflessness.",
-          options: ["Wealth", "Friendship", "Power"],
-          correctAnswer: "Friendship",
-        },
-      ],
+      {
+        question: "The ___________ is the largest planet in our solar system.",
+        optionA: "Earth",
+        optionB: "Mars",
+        optionC: "Jupiter",
+        correctAnswer: "Jupiter",
+      },
+      {
+        question:
+          "The process of photosynthesis converts carbon dioxide and water into glucose and ___________.",
+        optionA: "Oxygen",
+        optionB: "Nitrogen",
+        optionC: "Hydrogen",
+        correctAnswer: "Oxygen",
+      },
+      {
+        question: "The currency of Japan is called the Japanese ___________.",
+        optionA: "Yen",
+        optionB: "Euro",
+        optionC: "Dollar",
+        correctAnswer: "Yen",
+      },
+      {
+        question:
+          "The United Nations was founded in ___________ after World War II.",
+        optionA: "1945",
+        optionB: "1955",
+        optionC: "1965",
+        correctAnswer: "1945",
+      },
+      {
+        question:
+          "The human brain consists of approximately 86 billion ___________.",
+        optionA: "Neurons",
+        optionB: "Cells",
+        optionC: "Muscles",
+        correctAnswer: "Neurons",
+      },
+      {
+        question:
+          "The Statue of Liberty was a gift from ___________ to the United States.",
+        optionA: "France",
+        optionB: "England",
+        optionC: "Spain",
+        correctAnswer: "France",
+      },
+      {
+        question: "The ___________ is the world's largest mammal.",
+        optionA: "Elephant",
+        optionB: "Blue Whale",
+        optionC: "Giraffe",
+        correctAnswer: "Blue Whale",
+      },
+      {
+        question: "The Eiffel Tower is located in the city of ___________.",
+        optionA: "London",
+        optionB: "Paris",
+        optionC: "Rome",
+        correctAnswer: "Paris",
+      },
+      {
+        question: "The capital of Australia is ___________.",
+        optionA: "Sydney",
+        optionB: "Melbourne",
+        optionC: "Canberra",
+        correctAnswer: "Canberra",
+      },
+      {
+        question: "Water boils at ___________ degrees Celsius at sea level.",
+        optionA: "100",
+        optionB: "0",
+        optionC: "50",
+        correctAnswer: "100",
+      },
     ],
   };
 }
@@ -161,76 +165,66 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
-        {
-          question: "The disease mentioned in the text is caused by a virus.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        },
-        {
-          question:
-            "Maintaining cleanliness is not essential for preventing diseases.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question:
-            "The text recommends eating snacks from the market for a healthy diet.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question:
-            "Physical exercise can include activities like running and playing games.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        },
-        {
-          question:
-            "Brushing your teeth and taking a bath daily are mentioned as ways to maintain cleanliness.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        },
-        {
-          question:
-            "It is essential to wash your hands with soap when entering the house from outside.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        },
-        {
-          question:
-            "The text suggests that sleeping late and rising late is beneficial for health.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question:
-            "Snacks are considered good for health because they are tasty to eat.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question: "Maintaining hygiene can help keep diseases away.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        },
-        {
-          question:
-            "According to the text, thinking is a method to take a rest for the brain.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        },
-      ],
+      {
+        question: "The Earth is flat.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+      {
+        question: "Birds can breathe underwater.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+      {
+        question: "The sun rises in the west.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+      {
+        question: "Pluto is considered a planet in our solar system.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+      {
+        question: "Cats are reptiles.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+      {
+        question: "The capital of France is London.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+      {
+        question: "The Moon is made of cheese.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+      {
+        question: "Humans can survive without oxygen.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+      {
+        question: "Mount Everest is located in Africa.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+      {
+        question: "Water boils at room temperature.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
     ],
   };
 }
