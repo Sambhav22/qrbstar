@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz</title>
+  <link rel="stylesheet" href="./css/line-awesome.min.css">
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/custom.css" />
+  <!-- <script defer src="./js/alpine.min.js"></script> -->
+</head>
+
+<body>
+  <div class="root" id="app">
+
+    <ul class="container mx-auto sm:px-5">
+      <section class="flex flex-col items-center">
+        <p class="my-2 text-3xl font-bold" href="./">{{chapter}}</p>
+        <ul class="flex items-center justify-center">
+          <li class="flex items-center">
+            <svg aria-hidden="true" class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+        <a href="./">Home</a>
+         </li>
+          <li class="flex items-center">
+            <svg aria-hidden="true" class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+            <h1 class="font-bold font-2xl">Quiz {{activityNumber}}</h1>
+          </li>
+        </ul>
+        
+        <header class="p-4 mx-2 my-4 bg-red-600 rounded-md sm:w-full sm:mx-5">
+          <h1 class="text-2xl font-extrabold text-center text-white">{{activity}}</h1>
+        </header>
+        <main id="main" class="p-5 mx-2 rounded-md bg-white-transparent sm:h-auto sm:w-4/5">
+          <section class="w-full p-4 bg-yellow-400 rounded-lg shadow-lg">
+            <h1 class="text-lg font-bold text-center">{{question}}</h1>
+          </section>
+          <section class="my-4">
+            <ul class="flex flex-col items-center options">
+              <li v-if="optionA" class="flex items-center justify-center w-2/3">
+                <div class="resIcon hidden p-2 ml-[-2em]"><i class="inline las la-check"></i></div>
+                <div class="resIcon hidden p-2 ml-[-2em]"><i class="las la-times"></i></div>
+                <div class="w-full p-2 my-2 text-center text-white bg-blue-400 rounded-sm">
+                  <input class="hidden optionInput" type="radio" name="answer" id="optionA" :value="optionA">
+                  <button id="optionABtn" class="w-full optionBtn">{{optionA}}</button>
+                </div>
+              </li>
+              <li v-if="optionB" class="flex items-center justify-center w-2/3">
+                <div class="resIcon hidden p-2 ml-[-2em]"><i class="inline las la-check"></i></div>
+                <div class="resIcon hidden p-2 ml-[-2em]"><i class="las la-times"></i></div>
+                <div class="w-full p-2 my-2 text-center text-white bg-blue-400 rounded-sm">
+                  <input class="hidden optionInput" type="radio" name="answer" id="optionB" :value="optionB">
+                  <button id="optionBBtn" class="w-full optionBtn">{{optionB}}</button>
+                </div>
+              </li>
+              <li v-if="optionC" class="flex items-center justify-center w-2/3">
+                <div class="resIcon hidden p-2 ml-[-2em]"><i class="inline las la-check"></i></div>
+                <div class="resIcon hidden p-2 ml-[-2em]"><i class="las la-times"></i></div>
+                <div class="w-full p-2 my-2 text-center text-white bg-blue-400 rounded-sm">
+                  <input class="hidden optionInput" type="radio" name="answer" id="optionC" :value="optionC">
+                  <button id="optionCBtn" class="w-full optionBtn">{{optionC}}</button>
+                </div>
+              </li>
+              <li v-if="optionD" class="flex items-center justify-center w-2/3">
+                <div class="resIcon hidden p-2 ml-[-2em]"><i class="inline las la-check"></i></div>
+                <div class="resIcon hidden p-2 ml-[-2em]"><i class="las la-times"></i></div>
+                <div class="w-full p-2 my-2 text-center text-white bg-blue-400 rounded-sm">
+                  <input class="hidden optionInput" type="radio" name="answer" id="optionD" :value="optionD">
+                  <button id="optionDBtn" class="w-full optionBtn">{{optionD}}</button>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <section class="flex flex-wrap justify-around">
+            <button @click="submit()" id="submitBtn"
+              class="w-40 px-3 py-2 m-2 text-lg text-white uppercase bg-red-600 border border-white rounded-md">Submit</button>
+            <button @click="answer()" id="answerBtn"
+              class="w-40 px-3 py-2 m-2 text-lg text-white uppercase bg-gray-400 border border-white rounded-md"
+              disabled>Answer</button>
+              <button @click="next()" id="nextBtn"
+              class="w-40 px-3 py-2 m-2 text-lg text-white uppercase bg-gray-400 border border-white rounded-md"
+              disabled>Next</button>
+              <button @click="reset()" id="resetBtn"
+                class="w-40 px-3 py-2 m-2 text-lg text-white uppercase bg-gray-400 border border-white rounded-md"
+                disabled>Reset Quiz</button>
+              <button @click="answerKey()" id="answerKeyBtn"
+              class="hidden w-40 px-3 py-2 m-2 text-lg text-white uppercase bg-red-600 border border-white rounded-md"
+              >Answer Key</button>
+          </section>
+        </main>
+    </div>
+  </div>
+
+  <script src="./js/vue.global.prod.js"></script>
+  <script type="module" src="./js/app.js"></script>
+</body>
+
+</html>
