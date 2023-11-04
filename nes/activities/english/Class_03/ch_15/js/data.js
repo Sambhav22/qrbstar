@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What did the mice do in the house?",
           optionA: "They invited a cat to live with them.",
@@ -82,8 +81,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "They wanted to organize a party with the cat.",
           correctAnswer: "They realized their lives were at the cat's mercy.",
         },
-      ],
-    ],
+],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           "question": "The mice enjoyed their life well. They roamed about the house wherever they liked. They stole food from the __________ and from the dining table.",
           "options": ["Fridge", "Shelf", "Oven"],
@@ -153,7 +150,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           "question": "The disease mentioned in the text is caused by a virus.",
           "optionA": "True",
