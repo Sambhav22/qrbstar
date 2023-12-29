@@ -69,8 +69,6 @@ if (localStorage.getItem("activityNumber") == 1) {
             options: ["Pushing", "Clicking", "Tapping"],
             answer: "Clicking",
           },
-        ],
-      },
     ],
   };
 }
@@ -141,8 +139,6 @@ if (localStorage.getItem("activityNumber") == 2) {
             options: ["Hard surface", "Soft surface", "Mat"],
             answer: "Hard surface",
           },
-        ],
-      },
     ],
   };
 }
@@ -151,8 +147,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      {
-        questions: [
           {
             question: "A computer mouse is connected to the CPU wirelessly.",
             options: ["True", "False"],
@@ -210,8 +204,6 @@ if (localStorage.getItem("activityNumber") == 3) {
             options: ["True", "False"],
             answer: "True",
           },
-        ],
-      },
     ],
   };
 }

@@ -76,8 +76,6 @@ if (localStorage.getItem("activityNumber") == 1) {
             options: ["Four", "Three", "Two"],
             answer: "Three",
           },
-        ],
-      },
     ],
   };
 }
@@ -140,8 +138,6 @@ if (localStorage.getItem("activityNumber") == 2) {
             options: ["core", "surface", "interior"],
             answer: "surface",
           },
-        ],
-      },
     ],
   };
 }
@@ -203,8 +199,6 @@ if (localStorage.getItem("activityNumber") == 3) {
             options: ["True", "False"],
             answer: "False",
           },
-        ],
-      },
     ],
   };
 }
