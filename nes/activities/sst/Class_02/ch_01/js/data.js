@@ -92,97 +92,77 @@ if (localStorage.getItem("activityNumber") == 2) {
       {
         question:
           "We all eat food to live. It gives us energy to work. It helps us to ________.",
-        options: {
-          optionA: "learn",
-          optionB: "grow",
-          optionC: "sleep",
-        },
+        optionA: "learn",
+        optionB: "grow",
+        optionC: "sleep",
         correctAnswer: "grow",
       },
       {
         question:
           "Foods such as pulses, milk, beans, eggs, etc. build our bones and muscles and make them ________.",
-        options: {
-          optionA: "strong",
-          optionB: "tall",
-          optionC: "colorful",
-        },
+        optionA: "strong",
+        optionB: "tall",
+        optionC: "colorful",
         correctAnswer: "strong",
       },
       {
         question:
           "Foods such as cereals, potato, oil, ghee, sugar, etc. give us energy to do different ________.",
-        options: {
-          optionA: "hobbies",
-          optionB: "activities",
-          optionC: "jobs",
-        },
+        optionA: "hobbies",
+        optionB: "activities",
+        optionC: "jobs",
         correctAnswer: "activities",
       },
       {
         question:
           "A balanced diet is very important to keep us ________ and fit.",
-        options: {
-          optionA: "wealthy",
-          optionB: "unhealthy",
-          optionC: "healthy",
-        },
+        optionA: "wealthy",
+        optionB: "unhealthy",
+        optionC: "healthy",
         correctAnswer: "healthy",
       },
       {
         question: "Sometimes, we eat food more for taste than for ________.",
-        options: {
-          optionA: "knowledge",
-          optionB: "health",
-          optionC: "fun",
-        },
+        optionA: "knowledge",
+        optionB: "health",
+        optionC: "fun",
         correctAnswer: "health",
       },
       {
         question: "Foods that taste good are not necessarily ________.",
-        options: {
-          optionA: "enjoyable",
-          optionB: "nutritious",
-          optionC: "expensive",
-        },
+        optionA: "enjoyable",
+        optionB: "nutritious",
+        optionC: "expensive",
         correctAnswer: "nutritious",
       },
       {
         question: "Milk, honey, eggs, and meat are obtained from ________.",
-        options: {
-          optionA: "plants",
-          optionB: "humans",
-          optionC: "animals",
-        },
+        optionA: "plants",
+        optionB: "humans",
+        optionC: "animals",
         correctAnswer: "animals",
       },
       {
         question:
           "Foods such as fruits, vegetables, some kinds of nuts, etc., make us healthy and fit and keep us away from ________.",
-        options: {
-          optionA: "traffic",
-          optionB: "pollution",
-          optionC: "diseases",
-        },
+        optionA: "traffic",
+        optionB: "pollution",
+        optionC: "diseases",
         correctAnswer: "diseases",
       },
       {
         question:
           "All the foods that we have in a day are called our ________.",
-        options: {
-          optionA: "daily intake",
-          optionB: "diet",
-          optionC: "groceries",
-        },
+        optionA: "daily intake",
+        optionB: "diet",
+        optionC: "groceries",
         correctAnswer: "diet",
       },
       {
         question: "Milk is used to make ghee, butter, curd, and ________.",
-        options: {
-          optionA: "vegetables",
-          optionB: "fruits",
-          optionC: "other dairy products",
-        },
+        optionA: "vegetables",
+        optionB: "fruits",
+        optionC: "other dairy products",
         correctAnswer: "other dairy products",
       },
     ],

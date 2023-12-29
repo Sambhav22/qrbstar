@@ -92,100 +92,80 @@ if (localStorage.getItem("activityNumber") == 2) {
     questions: [
       {
         question: "Analog computers are used to process _______ data.",
-        options: {
-          optionA: "Numeric",
-          optionB: "Discrete",
-          optionC: "Analog",
-        },
+        optionA: "Numeric",
+        optionB: "Discrete",
+        optionC: "Analog",
         correctAnswer: "Analog",
       },
       {
         question:
           "Hybrid computers combine the features of _______ and _______ computers.",
-        options: {
-          optionA: "Analog, Supercomputers",
-          optionB: "Digital, Analog",
-          optionC: "Microcomputers, Mainframe Computers",
-        },
+        optionA: "Analog, Supercomputers",
+        optionB: "Digital, Analog",
+        optionC: "Microcomputers, Mainframe Computers",
         correctAnswer: "Digital, Analog",
       },
       {
         question:
           "Microcomputers are mainly used at _______, schools, offices, shops, and banks.",
-        options: {
-          optionA: "Hospitals",
-          optionB: "Homes",
-          optionC: "Petrol pumps",
-        },
+        optionA: "Hospitals",
+        optionB: "Homes",
+        optionC: "Petrol pumps",
         correctAnswer: "Homes",
       },
       {
         question: "Laptops and notebooks are powered by rechargeable _______.",
-        options: {
-          optionA: "Batteries",
-          optionB: "Microprocessors",
-          optionC: "Capacitors",
-        },
+        optionA: "Batteries",
+        optionB: "Microprocessors",
+        optionC: "Capacitors",
         correctAnswer: "Batteries",
       },
       {
         question:
           "Tablet PCs are equipped with a camera, microphone, and _______.",
-        options: {
-          optionA: "Keyboard",
-          optionB: "Touch screen",
-          optionC: "Mouse",
-        },
+        optionA: "Keyboard",
+        optionB: "Touch screen",
+        optionC: "Mouse",
         correctAnswer: "Touch screen",
       },
       {
         question:
           "PDAs refer to Personal Digital Assistants, which use _______ technology instead of a keyboard.",
-        options: {
-          optionA: "Touch screen",
-          optionB: "Voice recognition",
-          optionC: "Stylus input",
-        },
+        optionA: "Touch screen",
+        optionB: "Voice recognition",
+        optionC: "Stylus input",
         correctAnswer: "Touch screen",
       },
       {
         question:
           "Minicomputers are more powerful than _______ and can support more than one user at a time.",
-        options: {
-          optionA: "Microcomputers",
-          optionB: "Mainframe Computers",
-          optionC: "Analog Computers",
-        },
+        optionA: "Microcomputers",
+        optionB: "Mainframe Computers",
+        optionC: "Analog Computers",
         correctAnswer: "Microcomputers",
       },
       {
         question:
           "Mainframe computers are primarily used by large organizations to perform _______ tasks.",
-        options: {
-          optionA: "Scientific",
-          optionB: "Critical",
-          optionC: "Networking",
-        },
+        optionA: "Scientific",
+        optionB: "Critical",
+        optionC: "Networking",
         correctAnswer: "Critical",
       },
       {
         question:
           "Supercomputers are employed for specialized applications such as _______ and scientific simulation.",
-        options: {
-          optionA: "Web browsing",
-          optionB: "Word processing",
-          optionC: "Weather forecasting",
-        },
+        optionA: "Web browsing",
+        optionB: "Word processing",
+        optionC: "Weather forecasting",
         correctAnswer: "Weather forecasting",
       },
       {
         question:
           "Wearable computers provide constant computer and user interaction and are useful for applications requiring more complex _______ support.",
-        options: {
-          optionA: "Arithmetic",
-          optionB: "Computational",
-          optionC: "Graphic design",
-        },
+        optionA: "Arithmetic",
+        optionB: "Computational",
+        optionC: "Graphic design",
         correctAnswer: "Computational",
       },
     ],
@@ -198,89 +178,69 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
       {
         question: "Analog computers are used to process digital data.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Hybrid computers combine the features of analog and digital computers.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Microcomputers are mainly used in hospitals and petrol pumps.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Laptops and notebooks are powered by non-rechargeable batteries.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Tablet PCs are equipped with a touch screen, camera, and microphone.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "Minicomputers are less powerful than microcomputers.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Mainframe computers are primarily used for non-critical tasks.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Supercomputers are employed for applications such as weather forecasting and scientific simulation.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Wearable computers provide constant user interaction and are useful for applications requiring simple computational support.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "The latitude of the North Pole is 90°N.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
     ],

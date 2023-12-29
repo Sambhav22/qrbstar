@@ -102,7 +102,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "a single",
           B: "multiple",
           C: "a powerful",
-        },
         correctAnswer: "A) a single",
       },
       {
@@ -112,7 +111,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "truth",
           B: "reality",
           C: "understanding",
-        },
         correctAnswer: "A) truth",
       },
       {
@@ -122,7 +120,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "economic",
           B: "administrative",
           C: "royal",
-        },
         correctAnswer: "C) royal",
       },
       {
@@ -132,7 +129,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "agriculture",
           B: "land",
           C: "industry",
-        },
         correctAnswer: "B) land",
       },
       {
@@ -141,7 +137,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "jaziya",
           B: "property tax",
           C: "sales tax",
-        },
         correctAnswer: "A) jaziya",
       },
       {
@@ -151,7 +146,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "trade",
           B: "literature",
           C: "military tactics",
-        },
         correctAnswer: "B) literature",
       },
       {
@@ -161,7 +155,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "trade",
           B: "courage",
           C: "artistry",
-        },
         correctAnswer: "B) courage",
       },
       {
@@ -171,7 +164,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Krishnadeva Raya",
           B: "Vijnaneswara",
           C: "Zainul Abidin",
-        },
         correctAnswer: "B) Vijnaneswara",
       },
       {
@@ -181,7 +173,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Mewar",
           B: "Vijayanagara",
           C: "Malwa",
-        },
         correctAnswer: "B) Vijayanagara",
       },
       {
@@ -191,7 +182,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "ministers",
           B: "landlords",
           C: "relatives",
-        },
         correctAnswer: "B) landlords",
       },
     ],
@@ -208,7 +198,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B) False",
       },
       {
@@ -217,7 +206,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A) True",
       },
       {
@@ -226,7 +214,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B) False",
       },
       {
@@ -235,7 +222,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A) True",
       },
       {
@@ -244,7 +230,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B) False",
       },
       {
@@ -253,7 +238,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B) False",
       },
       {
@@ -262,7 +246,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A) True",
       },
       {
@@ -271,7 +254,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A) True",
       },
       {
@@ -280,7 +262,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B) False",
       },
       {
@@ -289,7 +270,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A) True",
       },
     ],

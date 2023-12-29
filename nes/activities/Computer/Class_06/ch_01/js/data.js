@@ -90,100 +90,80 @@ if (localStorage.getItem("activityNumber") == 2) {
       {
         question:
           "__________, Central Processing Unit (CPU), and Output Devices are the three essential components required for computer processes.",
-        options: {
-          optionA: "Software",
-          optionB: "Input Devices",
-          optionC: "Storage Devices",
-        },
+        optionA: "Software",
+        optionB: "Input Devices",
+        optionC: "Storage Devices",
         correctAnswer: "Input Devices",
       },
       {
         question:
           "An __________ is used to detect pen/pencil marks of pre-specified shape on a sheet of paper.",
-        options: {
-          optionA: "Optical Mark Reader (OMR)",
-          optionB: "Magnetic Ink Character Reader (MICH)",
-          optionC: "Barcode Reader",
-        },
+        optionA: "Optical Mark Reader (OMR)",
+        optionB: "Magnetic Ink Character Reader (MICH)",
+        optionC: "Barcode Reader",
         correctAnswer: "Optical Mark Reader (OMR)",
       },
       {
         question:
           "A ________ is used to read special characters printed on documents like cheques using special magnetic ink.",
-        options: {
-          optionA: "Card Reader",
-          optionB: "Magnetic Ink Character Reader (MICH)",
-          optionC: "Trackball",
-        },
+        optionA: "Card Reader",
+        optionB: "Magnetic Ink Character Reader (MICH)",
+        optionC: "Trackball",
         correctAnswer: "Magnetic Ink Character Reader (MICH)",
       },
       {
         question:
           "A ________ is an electronic visual display that the user can control through simple or multi-touch gestures.",
-        options: {
-          optionA: "Touchpad",
-          optionB: "Touch Screen",
-          optionC: "Graphic Tablet",
-        },
+        optionA: "Touchpad",
+        optionB: "Touch Screen",
+        optionC: "Graphic Tablet",
         correctAnswer: "Touch Screen",
       },
       {
         question:
           "An output device is an electro-mechanical device that converts computer information into a form that a user can ___________.",
-        options: {
-          optionA: "Process",
-          optionB: "Understand",
-          optionC: "Store",
-        },
+        optionA: "Process",
+        optionB: "Understand",
+        optionC: "Store",
         correctAnswer: "Understand",
       },
       {
         question: "The quality of a printer is determined by its ___________.",
-        options: {
-          optionA: "Cost",
-          optionB: "Resolution",
-          optionC: "Speed",
-        },
+        optionA: "Cost",
+        optionB: "Resolution",
+        optionC: "Speed",
         correctAnswer: "Resolution",
       },
       {
         question:
           "A ________ is an output device used to produce high-quality graphics, charts, and diagrams.",
-        options: {
-          optionA: "Printer",
-          optionB: "Plotter",
-          optionC: "LCD Projector",
-        },
+        optionA: "Printer",
+        optionB: "Plotter",
+        optionC: "LCD Projector",
         correctAnswer: "Plotter",
       },
       {
         question:
           "________ are also known as secondary, auxiliary, permanent, and mass storage devices.",
-        options: {
-          optionA: "SSD (Solid State Drive)",
-          optionB: "Hard Disk",
-          optionC: "Storage Devices",
-        },
+        optionA: "SSD (Solid State Drive)",
+        optionB: "Hard Disk",
+        optionC: "Storage Devices",
         correctAnswer: "Storage Devices",
       },
       {
         question:
           "The main function of the Central Processing Unit (CPU) is to execute instructions stored in a computer program and process ________ according to given instructions.",
-        options: {
-          optionA: "Software",
-          optionB: "Data",
-          optionC: "Output",
-        },
+        optionA: "Software",
+        optionB: "Data",
+        optionC: "Output",
         correctAnswer: "Data",
       },
       {
         question:
           "________ refers to a set of programs written for the proper functioning of the computer system, managing various tasks and controlling different operations.",
-        options: {
-          optionA: "Application Software",
-          optionB: "System Software",
-          optionC: "Operating System",
-        },
+        optionA: "Application Software",
+        optionB: "System Software",
+        optionC: "Operating System",
         correctAnswer: "System Software",
       },
     ],
@@ -197,91 +177,71 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "The CPU is responsible for inputting data and generating output in a computer system.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "false",
       },
       {
         question:
           "An Optical Mark Reader (OMR) detects pen/pencil marks on paper and is commonly used for objective-type tests.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "true",
       },
       {
         question:
           "A Touch Screen requires a physical keyboard for user interaction.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "false",
       },
       {
         question:
           "Resolution does not play a role in determining the quality of a printer.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "false",
       },
       {
         question:
           "System Software manages various tasks and controls different operations of a computer system.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "true",
       },
       {
         question:
           "Output devices convert computer information into forms that users can't understand.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "false",
       },
       {
         question:
           "Data processing is not a primary function of the Central Processing Unit (CPU).",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "false",
       },
       {
         question:
           "Application Software enhances the efficiency of hardware components in a computer system.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "false",
       },
       {
         question:
           "Storage Devices are primarily used for processing data in a computer system.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "false",
       },
       {
         question:
           "Input Devices play a crucial role in providing data and instructions to the Central Processing Unit (CPU) for processing.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "true",
       },
     ],

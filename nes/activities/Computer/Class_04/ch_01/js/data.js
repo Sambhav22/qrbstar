@@ -88,98 +88,78 @@ if (localStorage.getItem("activityNumber") == 2) {
       {
         question:
           "The ________ was the first calculating device, invented over 5,000 years ago by the Chinese.",
-        options: {
-          optionA: "Abacus",
-          optionB: "Pascaline",
-          optionC: "Slide Rule",
-        },
+        optionA: "Abacus",
+        optionB: "Pascaline",
+        optionC: "Slide Rule",
         correctAnswer: "Abacus",
       },
       {
         question:
           "Napier's Bones, invented by Sir John Napier, used a set of rods made up of ________ to multiply numbers.",
-        options: {
-          optionA: "Wood",
-          optionB: "Stones",
-          optionC: "Bones",
-        },
+        optionA: "Wood",
+        optionB: "Stones",
+        optionC: "Bones",
         correctAnswer: "Bones",
       },
       {
         question:
           "The slide rule, developed by William Oughtred, was based on the principles of ________.",
-        options: {
-          optionA: "Addition",
-          optionB: "Logarithms",
-          optionC: "Multiplication",
-        },
+        optionA: "Addition",
+        optionB: "Logarithms",
+        optionC: "Multiplication",
         correctAnswer: "Logarithms",
       },
       {
         question:
           "Blaise Pascal invented the ________, considered as the first real mechanical calculator.",
-        options: {
-          optionA: "Abacus",
-          optionB: "Pascaline",
-          optionC: "Napier's Bones",
-        },
+        optionA: "Abacus",
+        optionB: "Pascaline",
+        optionC: "Napier's Bones",
         correctAnswer: "Pascaline",
       },
       {
         question:
           "Gottfried Wilhelm Leibniz invented the 'Stepped Reckoner' employing ________ arranged around their circumference.",
-        options: {
-          optionA: "Gears",
-          optionB: "Fluted drums",
-          optionC: "Rotating wheels",
-        },
+        optionA: "Gears",
+        optionB: "Fluted drums",
+        optionC: "Rotating wheels",
         correctAnswer: "Fluted drums",
       },
       {
         question: "The Jacquard Loom was controlled by ________.",
-        options: {
-          optionA: "Rotating gears",
-          optionB: "Punched cards",
-          optionC: "Sliding rods",
-        },
+        optionA: "Rotating gears",
+        optionB: "Punched cards",
+        optionC: "Sliding rods",
         correctAnswer: "Punched cards",
       },
       {
         question:
           "Charles Babbage is known for inventing the ________, an early form of a computing device capable of difficult calculations.",
-        options: {
-          optionA: "Abacus",
-          optionB: "Analytical Engine",
-          optionC: "Slide Rule",
-        },
+        optionA: "Abacus",
+        optionB: "Analytical Engine",
+        optionC: "Slide Rule",
         correctAnswer: "Analytical Engine",
       },
       {
         question:
           "The Tabulating Machine developed by Herman Hollerith was based on the use of ________.",
-        options: {
-          optionA: "Analog technology",
-          optionB: "Punched cards",
-          optionC: "Rotating cylinders",
-        },
+        optionA: "Analog technology",
+        optionB: "Punched cards",
+        optionC: "Rotating cylinders",
         correctAnswer: "Punched cards",
       },
       {
         question: "ENIAC, the first modern computer, stands for ________.",
-        options: {
-          optionA: "Electronic Numerical Integrator And Computer",
-          optionB: "Electronic Network Interface And Control",
-          optionC: "Electronic Number Indicator And Calculator",
-        },
+        optionA: "Electronic Numerical Integrator And Computer",
+        optionB: "Electronic Network Interface And Control",
+        optionC: "Electronic Number Indicator And Calculator",
         correctAnswer: "Electronic Numerical Integrator And Computer",
       },
       {
         question: "The ENIAC was constructed at the ________.",
-        options: {
-          optionA: "Harvard University",
-          optionB: "University of Pennsylvania",
-          optionC: "MIT (Massachusetts Institute of Technology)",
-        },
+        optionA: "Harvard University",
+        optionB: "University of Pennsylvania",
+        optionC: "MIT (Massachusetts Institute of Technology)",
         correctAnswer: "University of Pennsylvania",
       },
     ],
@@ -193,85 +173,65 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "The Abacus was invented by the Chinese over 5,000 years ago.",
-        options: {
-          optionA: "Abacus",
-          optionB: "Pascaline",
-        },
+        optionA: "Abacus",
+        optionB: "Pascaline",
         correctAnswer: "Abacus",
       },
       {
         question: "Napier's Bones were named after Sir Isaac Newton.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The slide rule, invented by William Oughtred, was based on the principles of addition.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "The Pascaline was the first mechanical calculator.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Gottfried Wilhelm Leibniz invented the 'Stepped Reckoner' employing rotating gears.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "The Jacquard Loom was controlled by punched cards.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "The Analytical Engine was invented by Charles Babbage.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Herman Hollerith developed the Tabulating Machine based on analog technology.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "ENIAC stands for Electronic Network Interface And Control.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "The ENIAC was constructed at Harvard University.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
     ],

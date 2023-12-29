@@ -101,7 +101,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Arial",
           B: "Times New Roman",
           C: "Calibri",
-        },
         correctAnswer: "C",
       },
       {
@@ -111,7 +110,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Format",
           B: "Font Size",
           C: "Font",
-        },
         correctAnswer: "C",
       },
       {
@@ -121,7 +119,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Normal line of type",
           B: "Bold line",
           C: "Italic line",
-        },
         correctAnswer: "A",
       },
       {
@@ -131,7 +128,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Left",
           B: "Center",
           C: "Right",
-        },
         correctAnswer: "B",
       },
       {
@@ -141,7 +137,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Format",
           B: "Home",
           C: "Insert",
-        },
         correctAnswer: "B",
       },
       {
@@ -151,7 +146,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Atmospheric pressure changes; Wind patterns",
           B: "Wind patterns; Sea breezes",
           C: "Sea breezes; Land breezes",
-        },
         correctAnswer: "C",
       },
       {
@@ -161,7 +155,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Bold",
           B: "Highlighting",
           C: "Italic",
-        },
         correctAnswer: "B",
       },
       {
@@ -171,7 +164,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Insert",
           B: "Format",
           C: "Home",
-        },
         correctAnswer: "C",
       },
       {
@@ -181,7 +173,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Formatting",
           B: "Alignment",
           C: "Highlighting",
-        },
         correctAnswer: "B",
       },
       {
@@ -191,7 +182,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Font",
           B: "Style",
           C: "Color",
-        },
         correctAnswer: "C",
       },
     ],
@@ -208,7 +198,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B",
       },
       {
@@ -217,7 +206,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B",
       },
       {
@@ -226,7 +214,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B",
       },
       {
@@ -235,7 +222,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A",
       },
       {
@@ -244,7 +230,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A",
       },
       {
@@ -253,7 +238,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B",
       },
       {
@@ -262,7 +246,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B",
       },
       {
@@ -271,7 +254,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B",
       },
       {
@@ -280,7 +262,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A",
       },
       {
@@ -289,7 +270,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B",
       },
     ],

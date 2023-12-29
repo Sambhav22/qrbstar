@@ -97,7 +97,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Word",
           b: "Spreadsheet",
           c: "Database",
-        },
         correctAnswer: "b",
       },
       {
@@ -107,7 +106,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Financial",
           b: "Statistical",
           c: "Graphical",
-        },
         correctAnswer: "a",
       },
       {
@@ -116,7 +114,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Cells",
           b: "Functions",
           c: "Charts",
-        },
         correctAnswer: "a",
       },
       {
@@ -126,7 +123,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Workbook",
           b: "Worksheet",
           c: "Cell",
-        },
         correctAnswer: "c",
       },
       {
@@ -136,7 +132,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Charts",
           b: "Commands",
           c: "Functions",
-        },
         correctAnswer: "b",
       },
       {
@@ -145,7 +140,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Alphabetic",
           b: "Numeric",
           c: "Graphic",
-        },
         correctAnswer: "b",
       },
       {
@@ -155,7 +149,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Active cell",
           b: "Entire worksheet",
           c: "Entire workbook",
-        },
         correctAnswer: "a",
       },
       {
@@ -165,7 +158,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Systematic",
           b: "Proper",
           c: "Random",
-        },
         correctAnswer: "b",
       },
       {
@@ -175,7 +167,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Link",
           b: "Formula",
           c: "Function",
-        },
         correctAnswer: "b",
       },
       {
@@ -185,7 +176,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Auto Fill",
           b: "Auto Sum",
           c: "Auto Calculate",
-        },
         correctAnswer: "b",
       },
     ],
@@ -201,7 +191,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "b",
       },
       {
@@ -210,7 +199,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -219,7 +207,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -228,7 +215,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "b",
       },
       {
@@ -237,7 +223,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -246,7 +231,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -254,7 +238,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "b",
       },
       {
@@ -262,7 +245,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "b",
       },
       {
@@ -270,7 +252,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -279,7 +260,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "b",
       },
     ],

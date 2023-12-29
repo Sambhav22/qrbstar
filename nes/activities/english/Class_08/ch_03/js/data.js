@@ -103,7 +103,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Maze",
           b: "Riddle",
           c: "Chinese puzzle",
-        },
         correctAnswer: "c",
       },
       {
@@ -113,7 +112,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Literary",
           b: "Extravagant",
           c: "Peaceable",
-        },
         correctAnswer: "c",
       },
       {
@@ -123,7 +121,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Harmony",
           b: "Friction",
           c: "Laughter",
-        },
         correctAnswer: "b",
       },
       {
@@ -133,7 +130,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Upcoming election date",
           b: "Vaccination debate",
           c: "Football match",
-        },
         correctAnswer: "a",
       },
       {
@@ -143,7 +139,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Side-issues",
           b: "Major conflicts",
           c: "Political debates",
-        },
         correctAnswer: "a",
       },
       {
@@ -153,7 +148,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Nationalism",
           b: "Vivisection",
           c: "Football",
-        },
         correctAnswer: "b",
       },
       {
@@ -163,7 +157,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Handwritten",
           b: "Typewritten reply",
           c: "Blank",
-        },
         correctAnswer: "b",
       },
       {
@@ -173,7 +166,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Support",
           b: "Opposition",
           c: "Indifference",
-        },
         correctAnswer: "b",
       },
       {
@@ -183,7 +175,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Engaging in civil discussions",
           b: "Having heated arguments",
           c: "Bonding over their love for football",
-        },
         correctAnswer: "b",
       },
       {
@@ -193,7 +184,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Politics",
           b: "Religion",
           c: "North Korea vs. South Korea",
-        },
         correctAnswer: "c",
       },
     ],
@@ -210,7 +200,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -219,7 +208,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -227,7 +215,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -236,7 +223,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -245,7 +231,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -254,7 +239,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -262,7 +246,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -271,7 +254,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "b",
       },
       {
@@ -279,7 +261,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -287,7 +268,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
     ],

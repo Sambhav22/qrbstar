@@ -85,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Aurangzeb",
           B: "Akbar",
           C: "Jahangir",
-        },
         correctAnswer: "B",
       },
       {
@@ -95,7 +94,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Chinese and Indian",
           B: "Indian and Persian",
           C: "Persian and Greek",
-        },
         correctAnswer: "B",
       },
       {
@@ -105,7 +103,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "African and Indian",
           B: "Persian and Indian",
           C: "Indian and Chinese",
-        },
         correctAnswer: "B",
       },
       {
@@ -115,7 +112,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Granite",
           B: "Marble",
           C: "Sandstone",
-        },
         correctAnswer: "B",
       },
       {
@@ -125,7 +121,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Hindu and Roman",
           B: "Indian and Persian",
           C: "Greek and Egyptian",
-        },
         correctAnswer: "B",
       },
       {
@@ -135,7 +130,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Greek and Roman",
           B: "Persian and Indian",
           C: "Chinese and Egyptian",
-        },
         correctAnswer: "B",
       },
       {
@@ -145,7 +139,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Music; Art",
           B: "Literature; Sculpture",
           C: "Science; Mathematics",
-        },
         correctAnswer: "A",
       },
       {
@@ -155,7 +148,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Greek",
           B: "Persian",
           C: "Roman",
-        },
         correctAnswer: "B",
       },
       {
@@ -165,7 +157,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Solarium Mantar",
           B: "Jantar Mantar",
           C: "Astro Mantar",
-        },
         correctAnswer: "B",
       },
       {
@@ -175,7 +166,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Granite",
           B: "Marble",
           C: "Sandstone",
-        },
         correctAnswer: "B",
       },
     ],
@@ -192,7 +182,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           True: true,
           False: false,
-        },
         correctAnswer: true,
       },
       {
@@ -201,7 +190,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           True: true,
           False: false,
-        },
         correctAnswer: true,
       },
       {
@@ -210,7 +198,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           True: true,
           False: false,
-        },
         correctAnswer: false,
       },
       {
@@ -219,7 +206,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           True: true,
           False: false,
-        },
         correctAnswer: false,
       },
       {
@@ -228,7 +214,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           True: true,
           False: false,
-        },
         correctAnswer: false,
       },
       {
@@ -237,7 +222,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           True: true,
           False: false,
-        },
         correctAnswer: false,
       },
       {
@@ -246,7 +230,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           True: true,
           False: false,
-        },
         correctAnswer: true,
       },
       {
@@ -255,7 +238,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           True: true,
           False: false,
-        },
         correctAnswer: true,
       },
       {
@@ -264,7 +246,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           True: true,
           False: false,
-        },
         correctAnswer: true,
       },
       {
@@ -273,7 +254,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           True: true,
           False: false,
-        },
         correctAnswer: true,
       },
     ],

@@ -99,7 +99,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Ancient",
           b: "Medieval",
           c: "Modern",
-        },
         correctAnswer: "a",
       },
       {
@@ -109,7 +108,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Ancient",
           b: "Medieval",
           c: "Modern",
-        },
         correctAnswer: "b",
       },
       {
@@ -119,7 +117,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Afghanistan",
           b: "India",
           c: "Bhutan",
-        },
         correctAnswer: "b",
       },
       {
@@ -129,7 +126,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Lucknow",
           b: "Varanasi",
           c: "Faizabad",
-        },
         correctAnswer: "c",
       },
       {
@@ -139,7 +135,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Akbar",
           b: "Aurangzeb",
           c: "Shahjahan",
-        },
         correctAnswer: "c",
       },
       {
@@ -149,7 +144,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Persia",
           b: "al-Hind",
           c: "Afghanistan",
-        },
         correctAnswer: "b",
       },
       {
@@ -159,7 +153,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Literary",
           b: "Visual",
           c: "Oral",
-        },
         correctAnswer: "a",
       },
       {
@@ -169,7 +162,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Manuscripts",
           b: "Coins",
           c: "Rocks",
-        },
         correctAnswer: "b",
       },
       {
@@ -179,7 +171,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Vasco da Gama",
           b: "Christopher Columbus",
           c: "Nicolo",
-        },
         correctAnswer: "c",
       },
       {
@@ -189,7 +180,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Khilji-nama",
           b: "Khazainulfutuh",
           c: "Babur-nama",
-        },
         correctAnswer: "b",
       },
     ],
@@ -206,7 +196,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -215,7 +204,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -224,7 +212,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -233,7 +220,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -242,7 +228,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "b",
       },
       {
@@ -251,7 +236,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -260,7 +244,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "b",
       },
       {
@@ -269,7 +252,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -278,7 +260,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "b",
       },
       {
@@ -287,7 +268,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "b",
       },
     ],

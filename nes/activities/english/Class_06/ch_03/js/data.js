@@ -96,7 +96,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Find a job",
           b: "Go in search of brides",
           c: "Explore the forest",
-        },
         correctAnswer: "b",
       },
       {
@@ -105,7 +104,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "East",
           b: "North",
           c: "South",
-        },
         correctAnswer: "b",
       },
       {
@@ -114,7 +112,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "East",
           b: "North",
           c: "South",
-        },
         correctAnswer: "c",
       },
       {
@@ -123,7 +120,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Vinnie",
           b: "Veikko",
           c: "Viktor",
-        },
         correctAnswer: "b",
       },
       {
@@ -133,7 +129,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Grow",
           b: "Ebb",
           c: "Soar",
-        },
         correctAnswer: "b",
       },
       {
@@ -142,7 +137,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Bear",
           b: "Hut",
           c: "River",
-        },
         correctAnswer: "b",
       },
       {
@@ -152,7 +146,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Squirrel",
           b: "Mouse",
           c: "Bird",
-        },
         correctAnswer: "b",
       },
       {
@@ -162,7 +155,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Horses",
           b: "Daughters",
           c: "Cows",
-        },
         correctAnswer: "b",
       },
       {
@@ -171,7 +163,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Wheat bread",
           b: "Rye bread",
           c: "Barley bread",
-        },
         correctAnswer: "b",
       },
       {
@@ -181,7 +172,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Barley",
           b: "Rye",
           c: "White",
-        },
         correctAnswer: "c",
       },
     ],
@@ -197,7 +187,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -205,7 +194,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "b",
       },
       {
@@ -213,7 +201,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -222,7 +209,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -231,7 +217,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -240,7 +225,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "b",
       },
       {
@@ -249,7 +233,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -258,7 +241,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "b",
       },
       {
@@ -267,7 +249,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -275,7 +256,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
     ],

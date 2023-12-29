@@ -89,100 +89,80 @@ if (localStorage.getItem("activityNumber") == 2) {
       {
         question:
           "The ____________ is the primary source of life on Earth. It gives us heat and light.",
-        options: {
-          optionA: "Moon",
-          optionB: "Sun",
-          optionC: "Planets",
-        },
+        optionA: "Moon",
+        optionB: "Sun",
+        optionC: "Planets",
         correctAnswer: "Sun",
       },
       {
         question: "The family of the Sun is called the ____________.",
-        options: {
-          optionA: "Milky Way",
-          optionB: "Solar System",
-          optionC: "Galaxy",
-        },
+        optionA: "Milky Way",
+        optionB: "Solar System",
+        optionC: "Galaxy",
         correctAnswer: "Solar System",
       },
       {
         question:
           "The Sun is very hot because of the continuous huge explosions of ____________ happening in it.",
-        options: {
-          optionA: "Air",
-          optionB: "Water",
-          optionC: "Gases",
-        },
+        optionA: "Air",
+        optionB: "Water",
+        optionC: "Gases",
         correctAnswer: "Gases",
       },
       {
         question:
           "The Sun is approximately 100 times bigger than the ____________.",
-        options: {
-          optionA: "Moon",
-          optionB: "Earth",
-          optionC: "Jupiter",
-        },
+        optionA: "Moon",
+        optionB: "Earth",
+        optionC: "Jupiter",
         correctAnswer: "Earth",
       },
       {
         question:
           "It takes approximately ____________ for sunlight to reach the Earth.",
-        options: {
-          optionA: "1 minute",
-          optionB: "8 minutes",
-          optionC: "24 hours",
-        },
+        optionA: "1 minute",
+        optionB: "8 minutes",
+        optionC: "24 hours",
         correctAnswer: "8 minutes",
       },
       {
         question:
           "After the Sun, the most important members of the Solar System are the ____________.",
-        options: {
-          optionA: "Comets",
-          optionB: "Stars",
-          optionC: "Planets",
-        },
+        optionA: "Comets",
+        optionB: "Stars",
+        optionC: "Planets",
         correctAnswer: "Planets",
       },
       {
         question:
           "Planets in the Solar System move around the Sun in their fixed ____________.",
-        options: {
-          optionA: "Galaxies",
-          optionB: "Orbits",
-          optionC: "Moons",
-        },
+        optionA: "Galaxies",
+        optionB: "Orbits",
+        optionC: "Moons",
         correctAnswer: "Orbits",
       },
       {
         question:
           "The Earth has only one natural satellite, the ____________, which shines in the sky at night.",
-        options: {
-          optionA: "Sun",
-          optionB: "Venus",
-          optionC: "Moon",
-        },
+        optionA: "Sun",
+        optionB: "Venus",
+        optionC: "Moon",
         correctAnswer: "Moon",
       },
       {
         question:
           "The Moon has no light of its own. It is lit up by the light from the ____________.",
-        options: {
-          optionA: "Stars",
-          optionB: "Planets",
-          optionC: "Sun",
-        },
+        optionA: "Stars",
+        optionB: "Planets",
+        optionC: "Sun",
         correctAnswer: "Sun",
       },
       {
         question:
           "The time taken by the Moon to complete one rotation on its axis and revolution around the Earth is the same, which is ____________ days.",
-        options: {
-          optionA: "30 days",
-          optionB: "27½ days",
-          optionC: "365 days",
-        },
+        optionA: "30 days",
+        optionB: "27½ days",
+        optionC: "365 days",
         correctAnswer: "27½ days",
       },
     ],
@@ -195,87 +175,67 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
       {
         question: "The Sun is a planet.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "All planets in the Solar System have their own light source.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "The Moon is a natural satellite of the Earth.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "Planets in the Solar System move around the Earth.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "The Sun is about 100 times smaller than the Earth.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "It takes approximately 8 hours for sunlight to reach the Earth.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The Solar System consists of the Sun, eight planets, and their moons.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "The Moon has its own light source.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The time of rotation and revolution of each planet in the Solar System is the same.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The Earth is the only planet in the Solar System with a natural satellite.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
     ],

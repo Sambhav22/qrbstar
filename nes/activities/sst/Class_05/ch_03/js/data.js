@@ -98,7 +98,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Nitrogen",
           B: "Carbon dioxide",
           C: "Oxygen",
-        },
         correctAnswer: "C",
       },
       {
@@ -108,7 +107,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Sunshine",
           B: "Visibility",
           C: "Cloudiness",
-        },
         correctAnswer: "C",
       },
       {
@@ -118,7 +116,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Altitude above Sea Level",
           B: "Distance from the Sea",
           C: "Latitude or Distance from the Equator",
-        },
         correctAnswer: "C",
       },
       {
@@ -128,7 +125,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "More",
           B: "Less",
           C: "The same amount of",
-        },
         correctAnswer: "B",
       },
       {
@@ -138,7 +134,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Mountains",
           B: "Air",
           C: "Rivers",
-        },
         correctAnswer: "B",
       },
       {
@@ -148,7 +143,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Warmer",
           B: "Cooler",
           C: "Windy",
-        },
         correctAnswer: "A",
       },
       {
@@ -158,7 +152,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Cools",
           B: "Heats",
           C: "Rains",
-        },
         correctAnswer: "B",
       },
       {
@@ -168,7 +161,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Europe",
           B: "Tibet",
           C: "Africa",
-        },
         correctAnswer: "B",
       },
       {
@@ -178,7 +170,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Frigid Zone",
           B: "Torrid Zone",
           C: "Temperate Zone",
-        },
         correctAnswer: "B",
       },
       {
@@ -188,7 +179,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Visibility",
           B: "Humidity",
           C: "Altitude",
-        },
         correctAnswer: "B",
       },
     ],
@@ -205,7 +195,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A",
       },
       {
@@ -214,7 +203,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A",
       },
       {
@@ -223,7 +211,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A",
       },
       {
@@ -232,7 +219,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B",
       },
       {
@@ -240,7 +226,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B",
       },
       {
@@ -249,7 +234,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A",
       },
       {
@@ -257,7 +241,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A",
       },
       {
@@ -266,7 +249,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A",
       },
       {
@@ -275,7 +257,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B",
       },
       {
@@ -284,7 +265,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A",
       },
     ],

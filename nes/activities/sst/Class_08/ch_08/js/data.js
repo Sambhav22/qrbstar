@@ -100,7 +100,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "prevalent",
           B: "abolished",
           C: "humiliating",
-        },
         correctAnswer: "C",
       },
       {
@@ -110,7 +109,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "1850",
           B: "1875",
           C: "1900",
-        },
         correctAnswer: "B",
       },
       {
@@ -120,7 +118,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "sons",
           B: "cousins",
           C: "relatives",
-        },
         correctAnswer: "A",
       },
       {
@@ -130,7 +127,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "14",
           B: "18",
           C: "21",
-        },
         correctAnswer: "B",
       },
       {
@@ -140,7 +136,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "caste discrimination",
           B: "polygamy",
           C: "dowry system",
-        },
         correctAnswer: "B",
       },
       {
@@ -150,7 +145,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Muslims",
           B: "Christians",
           C: "Buddhists",
-        },
         correctAnswer: "A",
       },
       {
@@ -160,7 +154,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "village",
           B: "family",
           C: "country",
-        },
         correctAnswer: "B",
       },
       {
@@ -170,7 +163,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "South",
           B: "North",
           C: "West",
-        },
         correctAnswer: "B",
       },
       {
@@ -180,7 +172,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "children",
           B: "men",
           C: "women",
-        },
         correctAnswer: "C",
       },
       {
@@ -190,7 +181,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "caste discrimination",
           B: "dowry",
           C: "purdah",
-        },
         correctAnswer: "C",
       },
     ],
@@ -206,7 +196,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B",
       },
       {
@@ -215,7 +204,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A",
       },
       {
@@ -224,7 +212,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B",
       },
       {
@@ -233,7 +220,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B",
       },
       {
@@ -242,7 +228,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B",
       },
       {
@@ -251,7 +236,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B",
       },
       {
@@ -260,7 +244,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A",
       },
       {
@@ -269,7 +252,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "B",
       },
       {
@@ -277,7 +259,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A",
       },
       {
@@ -285,7 +266,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "A",
       },
     ],

@@ -100,7 +100,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Raggedy Ann",
           b: "Thomas",
           c: "Susan",
-        },
         correctAnswer: "a",
       },
       {
@@ -110,7 +109,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Glass eyes",
           b: "Shoe-button eyes",
           c: "Plastic eyes",
-        },
         correctAnswer: "b",
       },
       {
@@ -120,7 +118,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Golden yellow",
           b: "Bright red",
           c: "Jet black",
-        },
         correctAnswer: "a",
       },
       {
@@ -130,7 +127,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Laughed at them",
           b: "Pulled at his yarn mustache",
           c: "Hugged them",
-        },
         correctAnswer: "b",
       },
       {
@@ -140,7 +136,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Games",
           b: "Adventures",
           c: "Secrets",
-        },
         correctAnswer: "b",
       },
       {
@@ -150,7 +145,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "Hats",
           b: "Nighties",
           c: "Shoes",
-        },
         correctAnswer: "b",
       },
       {
@@ -160,7 +154,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "She liked the cold floor",
           b: "She was stuffed with soft cotton",
           c: "She didn't like beds",
-        },
         correctAnswer: "b",
       },
       {
@@ -170,7 +163,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "They hugged Raggedy Ann",
           b: "They left the room",
           c: "They laughed at her",
-        },
         correctAnswer: "a",
       },
       {
@@ -180,7 +172,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "They called her a scarecrow",
           b: "They praised her for her beauty",
           c: "They were silent",
-        },
         correctAnswer: "b",
       },
       {
@@ -190,7 +181,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           a: "She always had a sweet tooth",
           b: "She wanted to remind everyone to love each other",
           c: "It was part of her charm and kindness",
-        },
         correctAnswer: "c",
       },
     ],
@@ -207,7 +197,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -216,7 +205,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -224,7 +212,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -233,7 +220,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -242,7 +228,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -251,7 +236,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -259,7 +243,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -268,7 +251,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "b",
       },
       {
@@ -276,7 +258,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
       {
@@ -284,7 +265,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           a: "True",
           b: "False",
-        },
         correctAnswer: "a",
       },
     ],

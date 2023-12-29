@@ -86,100 +86,80 @@ if (localStorage.getItem("activityNumber") == 2) {
       {
         question:
           "The globe is a visual representation of the physical characteristics of the _______. It is also known by the names Hindustan and Bharat.",
-        options: {
-          optionA: "Sun",
-          optionB: "Earth",
-          optionC: "Moon",
-        },
+        optionA: "Sun",
+        optionB: "Earth",
+        optionC: "Moon",
         correctAnswer: "Earth",
       },
       {
         question:
           "The axis of the globe represents the imaginary line on which the Earth _______.",
-        options: {
-          optionA: "Spins",
-          optionB: "Orbits the Moon",
-          optionC: "Stays stationary",
-        },
+        optionA: "Spins",
+        optionB: "Orbits the Moon",
+        optionC: "Stays stationary",
         correctAnswer: "Spins",
       },
       {
         question:
           "The horizontal lines on the globe, called _______, divide the Earth's surface into a grid.",
-        options: {
-          optionA: "Meridians",
-          optionB: "Equators",
-          optionC: "Latitudes",
-        },
+        optionA: "Meridians",
+        optionB: "Equators",
+        optionC: "Latitudes",
         correctAnswer: "Latitudes",
       },
       {
         question:
           "The latitude at the biggest circumference of the Earth is known as the _______, and is measured as 0°.",
-        options: {
-          optionA: "Prime Meridian",
-          optionB: "Tropic of Cancer",
-          optionC: "Equator",
-        },
+        optionA: "Prime Meridian",
+        optionB: "Tropic of Cancer",
+        optionC: "Equator",
         correctAnswer: "Equator",
       },
       {
         question: "The latitude of the North Pole is _______.",
-        options: {
-          optionA: "66½°N",
-          optionB: "0°",
-          optionC: "90°N",
-        },
+        optionA: "66½°N",
+        optionB: "0°",
+        optionC: "90°N",
         correctAnswer: "90°N",
       },
       {
         question:
           "The Tropic of Cancer is a line of latitude circling the Earth at _______ north of the Equator.",
-        options: {
-          optionA: "0°",
-          optionB: "23½°N",
-          optionC: "90°S",
-        },
+        optionA: "0°",
+        optionB: "23½°N",
+        optionC: "90°S",
         correctAnswer: "23½°N",
       },
       {
         question:
           "The longitude running through the Old Royal Observatory at Greenwich near London is marked as _______.",
-        options: {
-          optionA: "0°",
-          optionB: "180°E",
-          optionC: "90°W",
-        },
+        optionA: "0°",
+        optionB: "180°E",
+        optionC: "90°W",
         correctAnswer: "0°",
       },
       {
         question:
           "There are _______ longitudes to the East of the Prime Meridian called the Eastern Hemisphere.",
-        options: {
-          optionA: "0°",
-          optionB: "180°",
-          optionC: "90°E",
-        },
+        optionA: "0°",
+        optionB: "180°",
+        optionC: "90°E",
         correctAnswer: "180°",
       },
       {
         question:
           "The point where 180°E and 180°W longitudes meet and form a single line in the Pacific Ocean is called the _______.",
-        options: {
-          optionA: "International Date Line",
-          optionB: "Prime Meridian",
-          optionC: "Equator",
-        },
+        optionA: "International Date Line",
+        optionB: "Prime Meridian",
+        optionC: "Equator",
         correctAnswer: "International Date Line",
       },
       {
         question:
           "The lines of latitude and longitude intersect one another at right angles and form a geographic grid, helping us locate a place based on its _______.",
-        options: {
-          optionA: "Area code",
-          optionB: "Latitude and longitude",
-          optionC: "Temperature",
-        },
+        optionA: "Area code",
+        optionB: "Latitude and longitude",
+        optionC: "Temperature",
         correctAnswer: "Latitude and longitude",
       },
     ],
@@ -193,88 +173,68 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "India is bordered by Afghanistan and Pakistan to the north-west.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "India is located entirely in the Southern Hemisphere.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "India has cold mountains, arid deserts, vast plains, and hot and humid plateaus.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "India is the world's most populated country.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "India is a peninsula surrounded by the Arabian Sea, the Indian Ocean, and the Bay of Bengal.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "India is the second-largest country in the world in terms of area.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The NCT of Delhi has its own Legislative Assembly, Lieutenant Governor, Council of Ministers, and Chief Minister.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "Rainfall in India is mainly brought by the monsoon winds.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The climate in South India is characterized by extreme heat due to its proximity to the Arabian Sea.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "India has diversity in language, food, folk-dance, clothes, cultures, and traditions, promoting the principle of 'Unity in Diversity.'",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
     ],

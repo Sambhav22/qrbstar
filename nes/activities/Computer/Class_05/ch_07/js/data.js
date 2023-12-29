@@ -99,7 +99,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "drawing",
           B: "logical",
           C: "arithmetic",
-        },
         correctAnswer: "arithmetic",
       },
       {
@@ -109,7 +108,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "DRAW",
           B: "PRINT",
           C: "DISPLAY",
-        },
         correctAnswer: "LABEL",
       },
       {
@@ -119,7 +117,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "Graphic",
           B: "Commander",
           C: "Console",
-        },
         correctAnswer: "Commander",
       },
       {
@@ -129,7 +126,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "17-8",
           B: "(DIFFERENCE 17 8)",
           C: "17 DIFFERENCE 8",
-        },
         correctAnswer: "17-8",
       },
       {
@@ -139,7 +135,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "product",
           B: "remainder",
           C: "quotient",
-        },
         correctAnswer: "quotient",
       },
       {
@@ -149,7 +144,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "product",
           B: "remainder",
           C: "quotient",
-        },
         correctAnswer: "remainder",
       },
       {
@@ -159,7 +153,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "integers",
           B: "true or false",
           C: "floating-point numbers",
-        },
         correctAnswer: "true or false",
       },
       {
@@ -169,7 +162,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "DOWN",
           B: "UP",
           C: "BACKWARD",
-        },
         correctAnswer: "BACKWARD",
       },
       {
@@ -179,7 +171,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "natural disasters",
           B: "game hunting",
           C: "pollution",
-        },
         correctAnswer: "game hunting",
       },
       {
@@ -189,7 +180,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           A: "rice",
           B: "wheat",
           C: "coffee",
-        },
         correctAnswer: "wheat",
       },
     ],
@@ -206,7 +196,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "False",
       },
       {
@@ -215,7 +204,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "False",
       },
       {
@@ -224,7 +212,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "True",
       },
       {
@@ -233,7 +220,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "False",
       },
       {
@@ -242,7 +228,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "True",
       },
       {
@@ -251,7 +236,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "False",
       },
       {
@@ -260,7 +244,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "True",
       },
       {
@@ -269,7 +252,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "False",
       },
       {
@@ -278,7 +260,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "False",
       },
       {
@@ -287,7 +268,6 @@ if (localStorage.getItem("activityNumber") == 3) {
         options: {
           A: "True",
           B: "False",
-        },
         correctAnswer: "True",
       },
     ],

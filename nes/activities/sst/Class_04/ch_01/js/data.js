@@ -93,99 +93,79 @@ if (localStorage.getItem("activityNumber") == 2) {
       {
         question:
           "India, the country we live in, is officially known as the Republic of India. New Delhi serves as its ________. It is also known by the names Hindustan and Bharat.",
-        options: {
-          optionA: "Language",
-          optionB: "Capital",
-          optionC: "Culture",
-        },
+        optionA: "Language",
+        optionB: "Capital",
+        optionC: "Culture",
         correctAnswer: "Capital",
       },
       {
         question:
           "India extends between 8° 4' and 37° 6' latitudes north of the Equator and 68° 7' and 97° 25' longitudes ________ of it.",
-        options: {
-          optionA: "West",
-          optionB: "East",
-          optionC: "South",
-        },
+        optionA: "West",
+        optionB: "East",
+        optionC: "South",
         correctAnswer: "East",
       },
       {
         question:
           "India is the world's ________ largest country in terms of area.",
-        options: {
-          optionA: "Smallest",
-          optionB: "Seventh",
-          optionC: "Largest",
-        },
+        optionA: "Smallest",
+        optionB: "Seventh",
+        optionC: "Largest",
         correctAnswer: "Seventh",
       },
       {
         question:
           "India can be divided into various physical divisions, including the Northern Mountains, the Northern Plains, the Peninsular Plateau, the Great Indian ________, the Coastal Regions, and ________.",
-        options: {
-          optionA: "Rainforest, Plains",
-          optionB: "Desert, Islands",
-          optionC: "Plateau, Mountains",
-        },
+        optionA: "Rainforest, Plains",
+        optionB: "Desert, Islands",
+        optionC: "Plateau, Mountains",
         correctAnswer: "Desert, Islands",
       },
       {
         question:
           "For the purpose of administration, India is divided into 28 states and ________ union territories.",
-        options: {
-          optionA: "10",
-          optionB: "5",
-          optionC: "8",
-        },
+        optionA: "10",
+        optionB: "5",
+        optionC: "8",
         correctAnswer: "8",
       },
       {
         question:
           "Rainfall in India is mainly brought by the ________ winds, which rise from the Indian Ocean and sweep over India.",
-        options: {
-          optionA: "Snowfall",
-          optionB: "Monsoon",
-          optionC: "Typhoon",
-        },
+        optionA: "Snowfall",
+        optionB: "Monsoon",
+        optionC: "Typhoon",
         correctAnswer: "Monsoon",
       },
       {
         question:
           "India has diversity in language, food, folk-dance, clothes, cultures, and traditions, promoting the principle of 'Unity in ________.'",
-        options: {
-          optionA: "Equality",
-          optionB: "Diversity",
-          optionC: "Uniformity",
-        },
+        optionA: "Equality",
+        optionB: "Diversity",
+        optionC: "Uniformity",
         correctAnswer: "Diversity",
       },
       {
         question: "India is entirely located in the ________ Hemisphere.",
-        options: {
-          optionA: "Southern",
-          optionB: "Eastern",
-          optionC: "Northern",
-        },
+        optionA: "Southern",
+        optionB: "Eastern",
+        optionC: "Northern",
         correctAnswer: "Northern",
       },
       {
         question:
           "India is surrounded by three major water bodies: the Arabian Sea to the ________, the Indian Ocean to the ________, and the Bay of Bengal to the ________.",
-        options: {
-          optionA: "North, East, West",
-          optionB: "East, North, South",
-          optionC: "West, South, East",
-        },
+        optionA: "North, East, West",
+        optionB: "East, North, South",
+        optionC: "West, South, East",
         correctAnswer: "West, South, East",
       },
       {
         question: "India is also known by the names Hindustan and ________.",
-        options: {
-          optionA: "America",
-          optionB: "Bharat",
-          optionC: "China",
-        },
+        optionA: "America",
+        optionB: "Bharat",
+        optionC: "China",
         correctAnswer: "Bharat",
       },
     ],
@@ -199,88 +179,68 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "India is bordered by Afghanistan and Pakistan to the north-west.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "India is located entirely in the Southern Hemisphere.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "India has cold mountains, arid deserts, vast plains, and hot and humid plateaus.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "India is the world's most populated country.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "India is a peninsula surrounded by the Arabian Sea, the Indian Ocean, and the Bay of Bengal.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "India is the second-largest country in the world in terms of area.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The NCT of Delhi has its own Legislative Assembly, Lieutenant Governor, Council of Ministers, and Chief Minister.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "Rainfall in India is mainly brought by the monsoon winds.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The climate in South India is characterized by extreme heat due to its proximity to the Arabian Sea.",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "India has diversity in language, food, folk-dance, clothes, cultures, and traditions, promoting the principle of 'Unity in Diversity.'",
-        options: {
-          optionA: "True",
-          optionB: "False",
-        },
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
     ],
