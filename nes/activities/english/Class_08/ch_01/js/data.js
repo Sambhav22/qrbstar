@@ -6,104 +6,100 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        questions: [
-          {
-            question: "What interrupted the children's play in the playground?",
-            options: [
-              "A. A traveling circus",
-              "B. A passing herald announcing the King's arrival",
-              "C. A sudden rainstorm",
-            ],
-            answer: "B",
-          },
-          {
-            question:
-              "Why did the children decide to clean and tidy up their playground?",
-            options: [
-              "A. They wanted to impress their parents.",
-              "B. They hoped the King might see their playground.",
-              "C. They were bored and looking for something to do.",
-            ],
-            answer: "B",
-          },
-          {
-            question: "What did the children use to clean their playground?",
-            options: [
-              "A. Brooms and mops",
-              "B. Hoes, rakes, and a wheelbarrow",
-              "C. Vacuum cleaners",
-            ],
-            answer: "B",
-          },
-          {
-            question:
-              "In addition to cleaning, what did the children do to make the playground attractive?",
-            options: [
-              "A. Brought in new toys",
-              "B. Decorated it with rushes and garlands",
-              "C. Painted the walls with bright colors",
-            ],
-            answer: "B",
-          },
-          {
-            question:
-              "What did the littlest child do to make the playground look beautiful?",
-            options: [
-              "A. Watered the plants",
-              "B. Danced around with joy",
-              "C. Scattered marigold buds",
-            ],
-            answer: "C",
-          },
-          {
-            question:
-              "Who eventually comes to visit the playground, though not the King?",
-            options: [
-              "A. The Queen",
-              "B. A group of travelers",
-              "C. A kind, tired man",
-            ],
-            answer: "C",
-          },
-          {
-            question: "What did the man do when he saw the playground?",
-            options: [
-              "A. He scolded the children for not keeping it clean.",
-              "B. He asked if he could come in and rest.",
-              "C. He ignored it and continued on his way.",
-            ],
-            answer: "B",
-          },
-          {
-            question: "How did the children feel about the man's visit?",
-            options: [
-              "A. They were angry with him for not being the King.",
-              "B. They were overjoyed and welcomed him warmly.",
-              "C. They were scared and ran away.",
-            ],
-            answer: "B",
-          },
-          {
-            question:
-              "What did the children decide to do with the playground after the man's visit?",
-            options: [
-              "A. They decided to lock it and keep it a secret.",
-              "B. They planned to destroy it because it wasn't perfect.",
-              "C. They wanted to keep it pretty and clean for themselves.",
-            ],
-            answer: "C",
-          },
-          {
-            question:
-              "What made the children describe the man's hair as a 'crown of gold'?",
-            options: [
-              "A. He was wearing a golden crown.",
-              "B. The setting sun made his hair look golden.",
-              "C. He told them he was a king.",
-            ],
-            answer: "B",
-          },
+        question: "What interrupted the children's play in the playground?",
+        options: [
+          "A. A traveling circus",
+          "B. A passing herald announcing the King's arrival",
+          "C. A sudden rainstorm",
         ],
+        answer: "B",
+      },
+      {
+        question:
+          "Why did the children decide to clean and tidy up their playground?",
+        options: [
+          "A. They wanted to impress their parents.",
+          "B. They hoped the King might see their playground.",
+          "C. They were bored and looking for something to do.",
+        ],
+        answer: "B",
+      },
+      {
+        question: "What did the children use to clean their playground?",
+        options: [
+          "A. Brooms and mops",
+          "B. Hoes, rakes, and a wheelbarrow",
+          "C. Vacuum cleaners",
+        ],
+        answer: "B",
+      },
+      {
+        question:
+          "In addition to cleaning, what did the children do to make the playground attractive?",
+        options: [
+          "A. Brought in new toys",
+          "B. Decorated it with rushes and garlands",
+          "C. Painted the walls with bright colors",
+        ],
+        answer: "B",
+      },
+      {
+        question:
+          "What did the littlest child do to make the playground look beautiful?",
+        options: [
+          "A. Watered the plants",
+          "B. Danced around with joy",
+          "C. Scattered marigold buds",
+        ],
+        answer: "C",
+      },
+      {
+        question:
+          "Who eventually comes to visit the playground, though not the King?",
+        options: [
+          "A. The Queen",
+          "B. A group of travelers",
+          "C. A kind, tired man",
+        ],
+        answer: "C",
+      },
+      {
+        question: "What did the man do when he saw the playground?",
+        options: [
+          "A. He scolded the children for not keeping it clean.",
+          "B. He asked if he could come in and rest.",
+          "C. He ignored it and continued on his way.",
+        ],
+        answer: "B",
+      },
+      {
+        question: "How did the children feel about the man's visit?",
+        options: [
+          "A. They were angry with him for not being the King.",
+          "B. They were overjoyed and welcomed him warmly.",
+          "C. They were scared and ran away.",
+        ],
+        answer: "B",
+      },
+      {
+        question:
+          "What did the children decide to do with the playground after the man's visit?",
+        options: [
+          "A. They decided to lock it and keep it a secret.",
+          "B. They planned to destroy it because it wasn't perfect.",
+          "C. They wanted to keep it pretty and clean for themselves.",
+        ],
+        answer: "C",
+      },
+      {
+        question:
+          "What made the children describe the man's hair as a 'crown of gold'?",
+        options: [
+          "A. He was wearing a golden crown.",
+          "B. The setting sun made his hair look golden.",
+          "C. He told them he was a king.",
+        ],
+        answer: "B",
       },
     ],
   };

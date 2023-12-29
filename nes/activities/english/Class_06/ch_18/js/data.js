@@ -6,106 +6,101 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        questions: [
-          {
-            question: "What is the main theme of the text?",
-            options: [
-              "A) Summer vacations",
-              "B) Practical jokes",
-              "C) Friends' hospitality",
-            ],
-            answer: "B",
-          },
-          {
-            question:
-              "Why did the author become suspicious when they arrived at their friends' fort?",
-            options: [
-              "A) Their friends were unfriendly.",
-              "B) Their friends gave them a grand reception.",
-              "C) Their friends were not present to welcome them.",
-            ],
-            answer: "B",
-          },
-          {
-            question: "How did the author feel during dinner at the fort?",
-            options: [
-              "A) Relaxed and happy",
-              "B) Suspicious and on edge",
-              "C) Grateful for their friends' kindness",
-            ],
-            answer: "B",
-          },
-          {
-            question:
-              "What did the author notice about the way people laughed during the evening?",
-            options: [
-              "A) They laughed quietly.",
-              "B) They laughed in a normal manner.",
-              "C) They laughed in an exaggerated fashion.",
-            ],
-            answer: "C",
-          },
-          {
-            question:
-              "Why did the author feel like they were being watched when they retired to their room?",
-            options: [
-              "A) They had seen someone spying.",
-              "B) They had a gut feeling.",
-              "C) They heard laughter and whispering outside.",
-            ],
-            answer: "C",
-          },
-          {
-            question:
-              "What did the author do to ensure they wouldn't be in complete darkness?",
-            options: [
-              "A) Lit all the lights in the room",
-              "B) Covered the windows with curtains",
-              "C) Slept with a night bulb on",
-            ],
-            answer: "A",
-          },
-          {
-            question:
-              "What made the author suspicious about the bed in the room?",
-            options: [
-              "A) It was too comfortable.",
-              "B) It looked suspicious.",
-              "C) It was located by the window.",
-            ],
-            answer: "B",
-          },
-          {
-            question:
-              "What precaution did the author take with the mattress before lying down?",
-            options: [
-              "A) Pulled it away from the bed",
-              "B) Checked for hidden objects",
-              "C) Flipped it over",
-            ],
-            answer: "A",
-          },
-          {
-            question:
-              "What woke the author up from a deep sleep in the middle of the night?",
-            options: [
-              "A) A loud noise",
-              "B) A heavy body falling on them",
-              "C) The smell of burning liquid",
-            ],
-            answer: "B",
-          },
-          {
-            question:
-              "Who turned out to be the source of the practical joke in the end?",
-            options: [
-              "A) The author's friends",
-              "B) The author's own paranoia",
-              "C) A stranger who had broken into the fort",
-            ],
-            answer: "A",
-          },
+        question: "What is the main theme of the text?",
+        options: [
+          "A) Summer vacations",
+          "B) Practical jokes",
+          "C) Friends' hospitality",
         ],
+        answer: "B",
+      },
+      {
+        question:
+          "Why did the author become suspicious when they arrived at their friends' fort?",
+        options: [
+          "A) Their friends were unfriendly.",
+          "B) Their friends gave them a grand reception.",
+          "C) Their friends were not present to welcome them.",
+        ],
+        answer: "B",
+      },
+      {
+        question: "How did the author feel during dinner at the fort?",
+        options: [
+          "A) Relaxed and happy",
+          "B) Suspicious and on edge",
+          "C) Grateful for their friends' kindness",
+        ],
+        answer: "B",
+      },
+      {
+        question:
+          "What did the author notice about the way people laughed during the evening?",
+        options: [
+          "A) They laughed quietly.",
+          "B) They laughed in a normal manner.",
+          "C) They laughed in an exaggerated fashion.",
+        ],
+        answer: "C",
+      },
+      {
+        question:
+          "Why did the author feel like they were being watched when they retired to their room?",
+        options: [
+          "A) They had seen someone spying.",
+          "B) They had a gut feeling.",
+          "C) They heard laughter and whispering outside.",
+        ],
+        answer: "C",
+      },
+      {
+        question:
+          "What did the author do to ensure they wouldn't be in complete darkness?",
+        options: [
+          "A) Lit all the lights in the room",
+          "B) Covered the windows with curtains",
+          "C) Slept with a night bulb on",
+        ],
+        answer: "A",
+      },
+      {
+        question: "What made the author suspicious about the bed in the room?",
+        options: [
+          "A) It was too comfortable.",
+          "B) It looked suspicious.",
+          "C) It was located by the window.",
+        ],
+        answer: "B",
+      },
+      {
+        question:
+          "What precaution did the author take with the mattress before lying down?",
+        options: [
+          "A) Pulled it away from the bed",
+          "B) Checked for hidden objects",
+          "C) Flipped it over",
+        ],
+        answer: "A",
+      },
+      {
+        question:
+          "What woke the author up from a deep sleep in the middle of the night?",
+        options: [
+          "A) A loud noise",
+          "B) A heavy body falling on them",
+          "C) The smell of burning liquid",
+        ],
+        answer: "B",
+      },
+      {
+        question:
+          "Who turned out to be the source of the practical joke in the end?",
+        options: [
+          "A) The author's friends",
+          "B) The author's own paranoia",
+          "C) A stranger who had broken into the fort",
+        ],
+        answer: "A",
       },
     ],
   };

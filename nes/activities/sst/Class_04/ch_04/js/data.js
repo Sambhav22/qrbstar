@@ -6,87 +6,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        questions: [
-          {
-            question:
-              "What is the other name for the Great Indian Desert mentioned in the text?",
-            options: ["Sahara Desert", "Thar Desert", "Gobi Desert"],
-            answer: "Thar Desert",
-          },
-          {
-            question:
-              "What is the approximate total area covered by the Thar Desert?",
-            options: ["100,000 km²", "200,000 km²", "300,000 km²"],
-            answer: "200,000 km²",
-          },
-          {
-            question:
-              "Which geographical feature forms a natural border between India and Pakistan in the west?",
-            options: [
-              "Himalayan Mountains",
-              "Aravalli hills",
-              "Vindhya Mountains",
-            ],
-            answer: "Aravalli hills",
-          },
-          {
-            question:
-              "Which Indian state has the highest percentage of the Thar Desert within its boundaries?",
-            options: ["Gujarat", "Haryana", "Rajasthan"],
-            answer: "Rajasthan",
-          },
-          {
-            question: "What percentage of the desert consists of sand dunes?",
-            options: ["5%", "10%", "60%"],
-            answer: "10%",
-          },
-          {
-            question:
-              "Why is the Thar Desert considered a dry subtropical area?",
-            options: [
-              "Due to its proximity to the Himalayas",
-              "Because it receives abundant rainfall",
-              "Because monsoons bypass the region",
-            ],
-            answer: "Because monsoons bypass the region",
-          },
-          {
-            question:
-              "Which mode of transportation is commonly used in the Thar Desert due to its ability to endure the harsh conditions?",
-            options: ["Trains", "Cars", "Camels"],
-            answer: "Camels",
-          },
-          {
-            question:
-              "What kind of vegetation is found around oases in the Thar Desert?",
-            options: [
-              "Dense forests",
-              "Grasslands",
-              "Date palms, kikar, babool, and grass",
-            ],
-            answer: "Date palms, kikar, babool, and grass",
-          },
-          {
-            question:
-              "What major canal has been built to provide water to the Thar Desert?",
-            options: [
-              "Ganges Canal",
-              "Indira Gandhi Canal",
-              "Brahmaputra Canal",
-            ],
-            answer: "Indira Gandhi Canal",
-          },
-          {
-            question:
-              "Which wildlife species are mentioned as thriving in the Thar Desert in large numbers?",
-            options: [
-              "Lions and tigers",
-              "Great Indian bustard, blackbuck, and Indian wild ass",
-              "Elephants and rhinoceros",
-            ],
-            answer: "Great Indian bustard, blackbuck, and Indian wild ass",
-          },
+        question:
+          "What is the other name for the Great Indian Desert mentioned in the text?",
+        options: ["Sahara Desert", "Thar Desert", "Gobi Desert"],
+        answer: "Thar Desert",
+      },
+      {
+        question:
+          "What is the approximate total area covered by the Thar Desert?",
+        options: ["100,000 km²", "200,000 km²", "300,000 km²"],
+        answer: "200,000 km²",
+      },
+      {
+        question:
+          "Which geographical feature forms a natural border between India and Pakistan in the west?",
+        options: ["Himalayan Mountains", "Aravalli hills", "Vindhya Mountains"],
+        answer: "Aravalli hills",
+      },
+      {
+        question:
+          "Which Indian state has the highest percentage of the Thar Desert within its boundaries?",
+        options: ["Gujarat", "Haryana", "Rajasthan"],
+        answer: "Rajasthan",
+      },
+      {
+        question: "What percentage of the desert consists of sand dunes?",
+        options: ["5%", "10%", "60%"],
+        answer: "10%",
+      },
+      {
+        question: "Why is the Thar Desert considered a dry subtropical area?",
+        options: [
+          "Due to its proximity to the Himalayas",
+          "Because it receives abundant rainfall",
+          "Because monsoons bypass the region",
         ],
+        answer: "Because monsoons bypass the region",
+      },
+      {
+        question:
+          "Which mode of transportation is commonly used in the Thar Desert due to its ability to endure the harsh conditions?",
+        options: ["Trains", "Cars", "Camels"],
+        answer: "Camels",
+      },
+      {
+        question:
+          "What kind of vegetation is found around oases in the Thar Desert?",
+        options: [
+          "Dense forests",
+          "Grasslands",
+          "Date palms, kikar, babool, and grass",
+        ],
+        answer: "Date palms, kikar, babool, and grass",
+      },
+      {
+        question:
+          "What major canal has been built to provide water to the Thar Desert?",
+        options: ["Ganges Canal", "Indira Gandhi Canal", "Brahmaputra Canal"],
+        answer: "Indira Gandhi Canal",
+      },
+      {
+        question:
+          "Which wildlife species are mentioned as thriving in the Thar Desert in large numbers?",
+        options: [
+          "Lions and tigers",
+          "Great Indian bustard, blackbuck, and Indian wild ass",
+          "Elephants and rhinoceros",
+        ],
+        answer: "Great Indian bustard, blackbuck, and Indian wild ass",
       },
     ],
   };

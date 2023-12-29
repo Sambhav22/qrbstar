@@ -6,82 +6,70 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        questions: [
-          {
-            question: "What was the immediate cause of the Revolt of 1857?",
-            options: [
-              "Introduction of the Enfield rifle",
-              "The British suppression of Indian culture",
-              "Economic exploitation by the British",
-            ],
-            answer: "Introduction of the Enfield rifle",
-          },
-          {
-            question:
-              "Which city did the Indian rebels capture, making Bahadur Shah II the proclaimed emperor?",
-            options: ["Delhi", "Kanpur", "Lucknow"],
-            answer: "Delhi",
-          },
-          {
-            question: "Who led the revolt in Kanpur during the Revolt of 1857?",
-            options: ["Nana Saheb", "Rani Laxmi Bai", "Hazrat Mahal"],
-            answer: "Nana Saheb",
-          },
-          {
-            question:
-              "What was the policy that allowed the British to take over Indian kingdoms if a king died without an heir?",
-            options: [
-              "Doctrine of Lapse",
-              "Policy of Annexation",
-              "Raj Doctrine",
-            ],
-            answer: "Doctrine of Lapse",
-          },
-          {
-            question:
-              "What was the first factory set up by the East India Company in India?",
-            options: ["Madras", "Surat", "Calcutta"],
-            answer: "Surat",
-          },
-          {
-            question:
-              "What industry in India suffered due to the British's import of mill-made clothes?",
-            options: ["Textile", "Spices", "Agriculture"],
-            answer: "Textile",
-          },
-          {
-            question:
-              "Who was the Mughal emperor who gave the East India Company permission to trade in India?",
-            options: ["Jahangir", "Akbar", "Aurangzeb"],
-            answer: "Jahangir",
-          },
-          {
-            question:
-              "What policy did the British adopt to keep Hindus and Muslims divided in India?",
-            options: [
-              "Divide and Conquer",
-              "Divide and Rule",
-              "Divide and Share",
-            ],
-            answer: "Divide and Rule",
-          },
-          {
-            question:
-              "Which event is also known as the first war of independence in Indian history?",
-            options: ["Sepoy Mutiny", "The Great Rebellion", "Revolt of 1857"],
-            answer: "Revolt of 1857",
-          },
-          {
-            question:
-              "What was the primary reason for the failure of the Revolt of 1857?",
-            options: [
-              "Lack of leadership",
-              "Lack of a common cause",
-              "Lack of resources",
-            ],
-            answer: "Lack of a common cause",
-          },
+        question: "What was the immediate cause of the Revolt of 1857?",
+        options: [
+          "Introduction of the Enfield rifle",
+          "The British suppression of Indian culture",
+          "Economic exploitation by the British",
         ],
+        answer: "Introduction of the Enfield rifle",
+      },
+      {
+        question:
+          "Which city did the Indian rebels capture, making Bahadur Shah II the proclaimed emperor?",
+        options: ["Delhi", "Kanpur", "Lucknow"],
+        answer: "Delhi",
+      },
+      {
+        question: "Who led the revolt in Kanpur during the Revolt of 1857?",
+        options: ["Nana Saheb", "Rani Laxmi Bai", "Hazrat Mahal"],
+        answer: "Nana Saheb",
+      },
+      {
+        question:
+          "What was the policy that allowed the British to take over Indian kingdoms if a king died without an heir?",
+        options: ["Doctrine of Lapse", "Policy of Annexation", "Raj Doctrine"],
+        answer: "Doctrine of Lapse",
+      },
+      {
+        question:
+          "What was the first factory set up by the East India Company in India?",
+        options: ["Madras", "Surat", "Calcutta"],
+        answer: "Surat",
+      },
+      {
+        question:
+          "What industry in India suffered due to the British's import of mill-made clothes?",
+        options: ["Textile", "Spices", "Agriculture"],
+        answer: "Textile",
+      },
+      {
+        question:
+          "Who was the Mughal emperor who gave the East India Company permission to trade in India?",
+        options: ["Jahangir", "Akbar", "Aurangzeb"],
+        answer: "Jahangir",
+      },
+      {
+        question:
+          "What policy did the British adopt to keep Hindus and Muslims divided in India?",
+        options: ["Divide and Conquer", "Divide and Rule", "Divide and Share"],
+        answer: "Divide and Rule",
+      },
+      {
+        question:
+          "Which event is also known as the first war of independence in Indian history?",
+        options: ["Sepoy Mutiny", "The Great Rebellion", "Revolt of 1857"],
+        answer: "Revolt of 1857",
+      },
+      {
+        question:
+          "What was the primary reason for the failure of the Revolt of 1857?",
+        options: [
+          "Lack of leadership",
+          "Lack of a common cause",
+          "Lack of resources",
+        ],
+        answer: "Lack of a common cause",
       },
     ],
   };

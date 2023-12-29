@@ -6,98 +6,89 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        questions: [
-          {
-            question: "What is the Chalcolithic Age characterized by?",
-            options: [
-              "Surplus of food production",
-              "Use of advanced technology",
-              "Nomadic lifestyles",
-            ],
-            answer: "Surplus of food production",
-          },
-          {
-            question:
-              "In which part of India was copper replaced by iron directly during the transition to metal tools?",
-            options: ["North India", "South India", "Central India"],
-            answer: "South India",
-          },
-          {
-            question:
-              "What was the significant development that occurred when tin was mixed with copper?",
-            options: [
-              "The discovery of bronze",
-              "The invention of written language",
-              "The creation of advanced pottery",
-            ],
-            answer: "The discovery of bronze",
-          },
-          {
-            question:
-              "What allowed people during the Chalcolithic Age to engage in various crafts and occupations besides farming?",
-            options: [
-              "The use of stone tools",
-              "Surplus food production",
-              "A nomadic lifestyle",
-            ],
-            answer: "Surplus food production",
-          },
-          {
-            question:
-              "Which term is used to describe the civilization that developed in the Indian subcontinent during the Chalcolithic Age?",
-            options: [
-              "Indus Valley Civilization",
-              "Gangetic Civilization",
-              "Chalcolithic Society",
-            ],
-            answer: "Indus Valley Civilization",
-          },
-          {
-            question:
-              "What were the two main cities of the Harappan Civilization?",
-            options: [
-              "Lahore and Karachi",
-              "Harappa and Mohenjodaro",
-              "Chotanagpur and Brahmagiri",
-            ],
-            answer: "Harappa and Mohenjodaro",
-          },
-          {
-            question:
-              "Which building in the Harappan citadel area might have been the residence of a ruler or oligarchy?",
-            options: ["Granaries", "Assembly hall", "Palace-like structure"],
-            answer: "Palace-like structure",
-          },
-          {
-            question:
-              "What was the purpose of the Great Bath in the Harappan citadel?",
-            options: [
-              "Public hearings",
-              "Religious ceremonies",
-              "A public bath",
-            ],
-            answer: "A public bath",
-          },
-          {
-            question: "What was the purpose of Harappan seals?",
-            options: [
-              "To mark territory boundaries",
-              "To pack bags and containers",
-              "To create artwork",
-            ],
-            answer: "To pack bags and containers",
-          },
-          {
-            question:
-              "What factors are believed to have contributed to the mysterious decline of the Harappan Civilization?",
-            options: [
-              "Invasions, drought, and river course changes",
-              "Urbanization, trade, and culture",
-              "Nomadic migrations and technological advancements",
-            ],
-            answer: "Invasions, drought, and river course changes",
-          },
+        question: "What is the Chalcolithic Age characterized by?",
+        options: [
+          "Surplus of food production",
+          "Use of advanced technology",
+          "Nomadic lifestyles",
         ],
+        answer: "Surplus of food production",
+      },
+      {
+        question:
+          "In which part of India was copper replaced by iron directly during the transition to metal tools?",
+        options: ["North India", "South India", "Central India"],
+        answer: "South India",
+      },
+      {
+        question:
+          "What was the significant development that occurred when tin was mixed with copper?",
+        options: [
+          "The discovery of bronze",
+          "The invention of written language",
+          "The creation of advanced pottery",
+        ],
+        answer: "The discovery of bronze",
+      },
+      {
+        question:
+          "What allowed people during the Chalcolithic Age to engage in various crafts and occupations besides farming?",
+        options: [
+          "The use of stone tools",
+          "Surplus food production",
+          "A nomadic lifestyle",
+        ],
+        answer: "Surplus food production",
+      },
+      {
+        question:
+          "Which term is used to describe the civilization that developed in the Indian subcontinent during the Chalcolithic Age?",
+        options: [
+          "Indus Valley Civilization",
+          "Gangetic Civilization",
+          "Chalcolithic Society",
+        ],
+        answer: "Indus Valley Civilization",
+      },
+      {
+        question: "What were the two main cities of the Harappan Civilization?",
+        options: [
+          "Lahore and Karachi",
+          "Harappa and Mohenjodaro",
+          "Chotanagpur and Brahmagiri",
+        ],
+        answer: "Harappa and Mohenjodaro",
+      },
+      {
+        question:
+          "Which building in the Harappan citadel area might have been the residence of a ruler or oligarchy?",
+        options: ["Granaries", "Assembly hall", "Palace-like structure"],
+        answer: "Palace-like structure",
+      },
+      {
+        question:
+          "What was the purpose of the Great Bath in the Harappan citadel?",
+        options: ["Public hearings", "Religious ceremonies", "A public bath"],
+        answer: "A public bath",
+      },
+      {
+        question: "What was the purpose of Harappan seals?",
+        options: [
+          "To mark territory boundaries",
+          "To pack bags and containers",
+          "To create artwork",
+        ],
+        answer: "To pack bags and containers",
+      },
+      {
+        question:
+          "What factors are believed to have contributed to the mysterious decline of the Harappan Civilization?",
+        options: [
+          "Invasions, drought, and river course changes",
+          "Urbanization, trade, and culture",
+          "Nomadic migrations and technological advancements",
+        ],
+        answer: "Invasions, drought, and river course changes",
       },
     ],
   };

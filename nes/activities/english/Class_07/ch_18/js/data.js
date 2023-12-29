@@ -6,88 +6,83 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        questions: [
-          {
-            question: "What material is the statue of the horse made of?",
-            options: ["A) Stone", "B) Clay", "C) Wood"],
-            answer: "B",
-          },
-          {
-            question: "How did Muni find shade while sitting near the statue?",
-            options: [
-              "A) He used an umbrella",
-              "B) He crouched under the horse",
-              "C) He sat under a tree",
-            ],
-            answer: "B",
-          },
-          {
-            question:
-              "What does Muni do while watching his goats graze near the statue?",
-            options: [
-              "A) Reads a book",
-              "B) Prays to the sun",
-              "C) Waits for a bus",
-            ],
-            answer: "C",
-          },
-          {
-            question:
-              "What term does the foreigner use to describe the statue of the horse?",
-            options: ["A) Extraordinary", "B) Beautiful", "C) Marvellous"],
-            answer: "C",
-          },
-          {
-            question:
-              "What does Muni think the foreigner might do if he runs away?",
-            options: ["A) Take his goats", "B) Shoot him", "C) Chase him"],
-            answer: "B",
-          },
-          {
-            question: "What does the foreigner do when he meets Muni?",
-            options: [
-              "A) Offers to buy his goats",
-              "B) Asks for directions to a gas station",
-              "C) Shows him a warrant",
-            ],
-            answer: "B",
-          },
-          {
-            question:
-              "How does Muni communicate with the foreigner when he runs out of English words?",
-            options: ["A) In French", "B) In Tamil", "C) In Spanish"],
-            answer: "B",
-          },
-          {
-            question: "Why does the foreigner present a card to Muni?",
-            options: [
-              "A) To offer him a job",
-              "B) To show his identity",
-              "C) To challenge him to a game",
-            ],
-            answer: "B",
-          },
-          {
-            question:
-              "What is the foreigner interested in purchasing from Muni?",
-            options: [
-              "A) The goats",
-              "B) The statue of the horse",
-              "C) A tape recorder",
-            ],
-            answer: "B",
-          },
-          {
-            question:
-              "How does Muni react to the foreigner's offer for the statue?",
-            options: [
-              "A) He accepts the offer immediately",
-              "B) He insists on keeping the statue",
-              "C) He haggles for a higher price",
-            ],
-            answer: "B",
-          },
+        question: "What material is the statue of the horse made of?",
+        options: ["A) Stone", "B) Clay", "C) Wood"],
+        answer: "B",
+      },
+      {
+        question: "How did Muni find shade while sitting near the statue?",
+        options: [
+          "A) He used an umbrella",
+          "B) He crouched under the horse",
+          "C) He sat under a tree",
         ],
+        answer: "B",
+      },
+      {
+        question:
+          "What does Muni do while watching his goats graze near the statue?",
+        options: [
+          "A) Reads a book",
+          "B) Prays to the sun",
+          "C) Waits for a bus",
+        ],
+        answer: "C",
+      },
+      {
+        question:
+          "What term does the foreigner use to describe the statue of the horse?",
+        options: ["A) Extraordinary", "B) Beautiful", "C) Marvellous"],
+        answer: "C",
+      },
+      {
+        question:
+          "What does Muni think the foreigner might do if he runs away?",
+        options: ["A) Take his goats", "B) Shoot him", "C) Chase him"],
+        answer: "B",
+      },
+      {
+        question: "What does the foreigner do when he meets Muni?",
+        options: [
+          "A) Offers to buy his goats",
+          "B) Asks for directions to a gas station",
+          "C) Shows him a warrant",
+        ],
+        answer: "B",
+      },
+      {
+        question:
+          "How does Muni communicate with the foreigner when he runs out of English words?",
+        options: ["A) In French", "B) In Tamil", "C) In Spanish"],
+        answer: "B",
+      },
+      {
+        question: "Why does the foreigner present a card to Muni?",
+        options: [
+          "A) To offer him a job",
+          "B) To show his identity",
+          "C) To challenge him to a game",
+        ],
+        answer: "B",
+      },
+      {
+        question: "What is the foreigner interested in purchasing from Muni?",
+        options: [
+          "A) The goats",
+          "B) The statue of the horse",
+          "C) A tape recorder",
+        ],
+        answer: "B",
+      },
+      {
+        question:
+          "How does Muni react to the foreigner's offer for the statue?",
+        options: [
+          "A) He accepts the offer immediately",
+          "B) He insists on keeping the statue",
+          "C) He haggles for a higher price",
+        ],
+        answer: "B",
       },
     ],
   };

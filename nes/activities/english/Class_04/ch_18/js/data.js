@@ -6,101 +6,95 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        questions: [
-          {
-            question: "What was the one thing that made the king angry?",
-            options: [
-              "A. When the queen used his silver hairbrush on the royal dog.",
-              "B. When the servants forgot to line his shoes with feathers.",
-              "C. When he wasn't served perfectly round chapattis.",
-            ],
-            answer: "C",
-          },
-          {
-            question:
-              "Why did the queen decide to hold a Grand Chapatti Contest?",
-            options: [
-              "A. To find a new king.",
-              "B. To find a new queen.",
-              "C. To find a new chief chapatti cook.",
-            ],
-            answer: "C",
-          },
-          {
-            question: "What did the king love to eat for every meal?",
-            options: [
-              "A. Buttered chapattis.",
-              "B. Chapattis with raisins.",
-              "C. Perfectly round, soft, fluffy-puffy chapattis.",
-            ],
-            answer: "C",
-          },
-          {
-            question: "What was Meena's family's main food?",
-            options: [
-              "A. Buttered chapattis.",
-              "B. Plain chapattis with boiled peanuts.",
-              "C. Spinach-flavored chapattis.",
-            ],
-            answer: "B",
-          },
-          {
-            question:
-              "What type of chapattis were the other cooks making for the contest?",
-            options: [
-              "A. Round chapattis.",
-              "B. Square chapattis.",
-              "C. A variety of unique and exotic chapattis.",
-            ],
-            answer: "C",
-          },
-          {
-            question:
-              "Why did the king refuse to taste some of the chapattis brought to him?",
-            options: [
-              "A. They were too spicy.",
-              "B. They were not perfectly round.",
-              "C. They were too cold and hard.",
-            ],
-            answer: "B",
-          },
-          {
-            question:
-              "What happened to the chapatti filled with nuts when the king tasted it?",
-            options: [
-              "A. It floated away.",
-              "B. It turned into a butterfly.",
-              "C. It remained perfectly intact.",
-            ],
-            answer: "C",
-          },
-          {
-            question:
-              "How did Meena's mother ensure that her chapattis stayed hot and soft for the king?",
-            options: [
-              "A. She used a special pump.",
-              "B. She made them on a little clay stove.",
-              "C. She served them on a silver plate.",
-            ],
-            answer: "B",
-          },
-          {
-            question:
-              "How many chapattis did the king eat, made by Meena's mother?",
-            options: ["A. Five", "B. Ten", "C. Fifteen"],
-            answer: "C",
-          },
-          {
-            question:
-              "What was the reward for winning the Grand Chapatti Contest?",
-            options: [
-              "A. A bag of gold coins and a job as the chief chapatti cook.",
-              "B. A bag of peanuts and a royal title.",
-              "C. A bag of silver coins and a holiday in the Himalayas.",
-            ],
-            answer: "A",
-          },
+        question: "What was the one thing that made the king angry?",
+        options: [
+          "A. When the queen used his silver hairbrush on the royal dog.",
+          "B. When the servants forgot to line his shoes with feathers.",
+          "C. When he wasn't served perfectly round chapattis.",
         ],
+        answer: "C",
+      },
+      {
+        question: "Why did the queen decide to hold a Grand Chapatti Contest?",
+        options: [
+          "A. To find a new king.",
+          "B. To find a new queen.",
+          "C. To find a new chief chapatti cook.",
+        ],
+        answer: "C",
+      },
+      {
+        question: "What did the king love to eat for every meal?",
+        options: [
+          "A. Buttered chapattis.",
+          "B. Chapattis with raisins.",
+          "C. Perfectly round, soft, fluffy-puffy chapattis.",
+        ],
+        answer: "C",
+      },
+      {
+        question: "What was Meena's family's main food?",
+        options: [
+          "A. Buttered chapattis.",
+          "B. Plain chapattis with boiled peanuts.",
+          "C. Spinach-flavored chapattis.",
+        ],
+        answer: "B",
+      },
+      {
+        question:
+          "What type of chapattis were the other cooks making for the contest?",
+        options: [
+          "A. Round chapattis.",
+          "B. Square chapattis.",
+          "C. A variety of unique and exotic chapattis.",
+        ],
+        answer: "C",
+      },
+      {
+        question:
+          "Why did the king refuse to taste some of the chapattis brought to him?",
+        options: [
+          "A. They were too spicy.",
+          "B. They were not perfectly round.",
+          "C. They were too cold and hard.",
+        ],
+        answer: "B",
+      },
+      {
+        question:
+          "What happened to the chapatti filled with nuts when the king tasted it?",
+        options: [
+          "A. It floated away.",
+          "B. It turned into a butterfly.",
+          "C. It remained perfectly intact.",
+        ],
+        answer: "C",
+      },
+      {
+        question:
+          "How did Meena's mother ensure that her chapattis stayed hot and soft for the king?",
+        options: [
+          "A. She used a special pump.",
+          "B. She made them on a little clay stove.",
+          "C. She served them on a silver plate.",
+        ],
+        answer: "B",
+      },
+      {
+        question:
+          "How many chapattis did the king eat, made by Meena's mother?",
+        options: ["A. Five", "B. Ten", "C. Fifteen"],
+        answer: "C",
+      },
+      {
+        question: "What was the reward for winning the Grand Chapatti Contest?",
+        options: [
+          "A. A bag of gold coins and a job as the chief chapatti cook.",
+          "B. A bag of peanuts and a royal title.",
+          "C. A bag of silver coins and a holiday in the Himalayas.",
+        ],
+        answer: "A",
       },
     ],
   };

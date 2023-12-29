@@ -6,92 +6,79 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        questions: [
-          {
-            question:
-              "What type of physical features are found in India, making it a diverse country?",
-            options: [
-              "Cultural features",
-              "Economic features",
-              "Geographical features",
-            ],
-            answer: "Geographical features",
-          },
-          {
-            question:
-              "What major physiographic form are the Himalayas a part of?",
-            options: [
-              "The Great Indian Desert",
-              "The Northern Plains",
-              "The Northern Mountains",
-            ],
-            answer: "The Northern Mountains",
-          },
-          {
-            question:
-              "Which river originates in the Himalayas and is a major source of hydel power?",
-            options: ["Ganga", "Brahmaputra", "Yamuna"],
-            answer: "Ganga",
-          },
-          {
-            question:
-              "What is the primary reason for the fertility of the Northern Plains in India?",
-            options: [
-              "Dense population",
-              "Favorable climate and adequate water supply",
-              "Deposits of minerals",
-            ],
-            answer: "Favorable climate and adequate water supply",
-          },
-          {
-            question:
-              "Which river mainly drains the Ganga Plains in the Northern Plains of India?",
-            options: ["Brahmaputra", "Ganga", "Yamuna"],
-            answer: "Ganga",
-          },
-          {
-            question:
-              "The Great Indian Desert is primarily located in which Indian state?",
-            options: ["Maharashtra", "Rajasthan", "Haryana"],
-            answer: "Rajasthan",
-          },
-          {
-            question:
-              "Which type of vegetation is found in the Great Indian Desert (Thar Desert)?",
-            options: [
-              "Dense forests",
-              "Thorn and scrub vegetation",
-              "Grasslands",
-            ],
-            answer: "Thorn and scrub vegetation",
-          },
-          {
-            question:
-              "What large water bodies surround the Southern Peninsula of India?",
-            options: [
-              "Rivers and lakes",
-              "Mountains and hills",
-              "Oceans and seas",
-            ],
-            answer: "Oceans and seas",
-          },
-          {
-            question:
-              "What separates the Southern Plateau in the Southern Peninsula from the Northern Plains?",
-            options: [
-              "Eastern Ghats and Western Ghats",
-              "Arabian Sea and Bay of Bengal",
-              "Vindhya and Satpura ranges",
-            ],
-            answer: "Vindhya and Satpura ranges",
-          },
-          {
-            question:
-              "In which body of water can you find the Andaman and Nicobar Islands?",
-            options: ["Arabian Sea", "Bay of Bengal", "Indian Ocean"],
-            answer: "Bay of Bengal",
-          },
+        question:
+          "What type of physical features are found in India, making it a diverse country?",
+        options: [
+          "Cultural features",
+          "Economic features",
+          "Geographical features",
         ],
+        answer: "Geographical features",
+      },
+      {
+        question: "What major physiographic form are the Himalayas a part of?",
+        options: [
+          "The Great Indian Desert",
+          "The Northern Plains",
+          "The Northern Mountains",
+        ],
+        answer: "The Northern Mountains",
+      },
+      {
+        question:
+          "Which river originates in the Himalayas and is a major source of hydel power?",
+        options: ["Ganga", "Brahmaputra", "Yamuna"],
+        answer: "Ganga",
+      },
+      {
+        question:
+          "What is the primary reason for the fertility of the Northern Plains in India?",
+        options: [
+          "Dense population",
+          "Favorable climate and adequate water supply",
+          "Deposits of minerals",
+        ],
+        answer: "Favorable climate and adequate water supply",
+      },
+      {
+        question:
+          "Which river mainly drains the Ganga Plains in the Northern Plains of India?",
+        options: ["Brahmaputra", "Ganga", "Yamuna"],
+        answer: "Ganga",
+      },
+      {
+        question:
+          "The Great Indian Desert is primarily located in which Indian state?",
+        options: ["Maharashtra", "Rajasthan", "Haryana"],
+        answer: "Rajasthan",
+      },
+      {
+        question:
+          "Which type of vegetation is found in the Great Indian Desert (Thar Desert)?",
+        options: ["Dense forests", "Thorn and scrub vegetation", "Grasslands"],
+        answer: "Thorn and scrub vegetation",
+      },
+      {
+        question:
+          "What large water bodies surround the Southern Peninsula of India?",
+        options: ["Rivers and lakes", "Mountains and hills", "Oceans and seas"],
+        answer: "Oceans and seas",
+      },
+      {
+        question:
+          "What separates the Southern Plateau in the Southern Peninsula from the Northern Plains?",
+        options: [
+          "Eastern Ghats and Western Ghats",
+          "Arabian Sea and Bay of Bengal",
+          "Vindhya and Satpura ranges",
+        ],
+        answer: "Vindhya and Satpura ranges",
+      },
+      {
+        question:
+          "In which body of water can you find the Andaman and Nicobar Islands?",
+        options: ["Arabian Sea", "Bay of Bengal", "Indian Ocean"],
+        answer: "Bay of Bengal",
       },
     ],
   };

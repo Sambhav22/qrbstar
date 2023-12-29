@@ -6,74 +6,70 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        questions: [
-          {
-            question:
-              "Which of the following regions are considered equatorial regions?",
-            options: [
-              "Between 20°N and 20°S",
-              "Between 0°N and 10°S",
-              "Between 5°N and 5°S",
-            ],
-            answer: "Between 5°N and 5°S",
-          },
-          {
-            question:
-              "What percentage of the Earth's surface do equatorial regions cover?",
-            options: ["About 10%", "About 6%", "About 20%"],
-            answer: "About 6%",
-          },
-          {
-            question:
-              "Which of the following basins is located in equatorial regions?",
-            options: ["Amazon Basin", "Mississippi Basin", "Nile Basin"],
-            answer: "Amazon Basin",
-          },
-          {
-            question:
-              "What is the climate like in most parts of the Democratic Republic of Congo (DRC)?",
-            options: ["Hot and dry", "Hot and wet", "Cold and wet"],
-            answer: "Hot and wet",
-          },
-          {
-            question:
-              "What is the second largest river in Africa that flows through the DRC?",
-            options: ["Nile River", "Congo River", "Amazon River"],
-            answer: "Congo River",
-          },
-          {
-            question:
-              "Which ethnic group is believed to be the original inhabitants of Congo and lives in the dense forests?",
-            options: ["Bantu", "Luba", "Pygmies"],
-            answer: "Pygmies",
-          },
-          {
-            question: "What is the main religion in Congo?",
-            options: ["Islam", "Christianity", "Hinduism"],
-            answer: "Christianity",
-          },
-          {
-            question:
-              "Which type of agriculture, characterized by clearing and farming for a few years before abandonment, has led to deforestation in Congo?",
-            options: [
-              "Commercial agriculture",
-              "Shifting cultivation",
-              "Organic farming",
-            ],
-            answer: "Shifting cultivation",
-          },
-          {
-            question: "What is the primary source of energy in Congo?",
-            options: ["Coal", "Mineral oil", "Hydroelectricity"],
-            answer: "Hydroelectricity",
-          },
-          {
-            question:
-              "Which major city is the largest in Congo and situated on the southern bank of the Congo River?",
-            options: ["Matadi", "Bokavu", "Kinshasa"],
-            answer: "Kinshasa",
-          },
+        question:
+          "Which of the following regions are considered equatorial regions?",
+        options: [
+          "Between 20°N and 20°S",
+          "Between 0°N and 10°S",
+          "Between 5°N and 5°S",
         ],
+        answer: "Between 5°N and 5°S",
+      },
+      {
+        question:
+          "What percentage of the Earth's surface do equatorial regions cover?",
+        options: ["About 10%", "About 6%", "About 20%"],
+        answer: "About 6%",
+      },
+      {
+        question:
+          "Which of the following basins is located in equatorial regions?",
+        options: ["Amazon Basin", "Mississippi Basin", "Nile Basin"],
+        answer: "Amazon Basin",
+      },
+      {
+        question:
+          "What is the climate like in most parts of the Democratic Republic of Congo (DRC)?",
+        options: ["Hot and dry", "Hot and wet", "Cold and wet"],
+        answer: "Hot and wet",
+      },
+      {
+        question:
+          "What is the second largest river in Africa that flows through the DRC?",
+        options: ["Nile River", "Congo River", "Amazon River"],
+        answer: "Congo River",
+      },
+      {
+        question:
+          "Which ethnic group is believed to be the original inhabitants of Congo and lives in the dense forests?",
+        options: ["Bantu", "Luba", "Pygmies"],
+        answer: "Pygmies",
+      },
+      {
+        question: "What is the main religion in Congo?",
+        options: ["Islam", "Christianity", "Hinduism"],
+        answer: "Christianity",
+      },
+      {
+        question:
+          "Which type of agriculture, characterized by clearing and farming for a few years before abandonment, has led to deforestation in Congo?",
+        options: [
+          "Commercial agriculture",
+          "Shifting cultivation",
+          "Organic farming",
+        ],
+        answer: "Shifting cultivation",
+      },
+      {
+        question: "What is the primary source of energy in Congo?",
+        options: ["Coal", "Mineral oil", "Hydroelectricity"],
+        answer: "Hydroelectricity",
+      },
+      {
+        question:
+          "Which major city is the largest in Congo and situated on the southern bank of the Congo River?",
+        options: ["Matadi", "Bokavu", "Kinshasa"],
+        answer: "Kinshasa",
       },
     ],
   };

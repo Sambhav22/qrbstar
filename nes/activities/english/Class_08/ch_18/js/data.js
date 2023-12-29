@@ -6,91 +6,86 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        questions: [
-          {
-            question: "What color was the doll's house in the story?",
-            options: ["A) Blue", "B) Green", "C) Red"],
-            answer: "B",
-          },
-          {
-            question:
-              "Where did the children initially place the doll's house?",
-            options: [
-              "A) In the kitchen",
-              "B) In the garden",
-              "C) In the courtyard",
-            ],
-            answer: "C",
-          },
-          {
-            question: "What was Kezia's favorite feature of the doll's house?",
-            options: ["A) The red carpet", "B) The tiny porch", "C) The lamp"],
-            answer: "C",
-          },
-          {
-            question:
-              "Who were the first two girls chosen by Isabel to see the doll's house?",
-            options: [
-              "A) Emmie Cole and Lena Logan",
-              "B) Lottie and Kezia",
-              "C) The little Kelveys",
-            ],
-            answer: "A",
-          },
-          {
-            question: "Why were the Kelveys shunned by the other children?",
-            options: [
-              "A) Because they were older",
-              "B) Because they were wealthy",
-              "C) Because their parents were different",
-            ],
-            answer: "C",
-          },
-          {
-            question:
-              "What derogatory comment did Lena Logan make about Lil Kelvey?",
-            options: [
-              "A) She's going to be a doctor",
-              "B) She's going to be a teacher",
-              "C) She's going to be a servant",
-            ],
-            answer: "C",
-          },
-          {
-            question: "How did Lil Kelvey react when Lena Logan insulted her?",
-            options: [
-              "A) She cried",
-              "B) She laughed",
-              "C) She didn't seem to mind",
-            ],
-            answer: "C",
-          },
-          {
-            question:
-              "Who reprimanded the children for inviting the Kelveys into the courtyard?",
-            options: ["A) Aunt Beryl", "B) Mrs. Burnell", "C) The teacher"],
-            answer: "A",
-          },
-          {
-            question:
-              "What kind gesture did Aunt Beryl make after scolding the Kelveys?",
-            options: [
-              "A) She apologized",
-              "B) She described the doll's house to them",
-              "C) She invited them in for tea",
-            ],
-            answer: "C",
-          },
-          {
-            question: "What were the little Kelveys' names in the story?",
-            options: [
-              "A) Kate and Emily",
-              "B) Lil and Elise",
-              "C) Isabel and Lottie",
-            ],
-            answer: "B",
-          },
+        question: "What color was the doll's house in the story?",
+        options: ["A) Blue", "B) Green", "C) Red"],
+        answer: "B",
+      },
+      {
+        question: "Where did the children initially place the doll's house?",
+        options: [
+          "A) In the kitchen",
+          "B) In the garden",
+          "C) In the courtyard",
         ],
+        answer: "C",
+      },
+      {
+        question: "What was Kezia's favorite feature of the doll's house?",
+        options: ["A) The red carpet", "B) The tiny porch", "C) The lamp"],
+        answer: "C",
+      },
+      {
+        question:
+          "Who were the first two girls chosen by Isabel to see the doll's house?",
+        options: [
+          "A) Emmie Cole and Lena Logan",
+          "B) Lottie and Kezia",
+          "C) The little Kelveys",
+        ],
+        answer: "A",
+      },
+      {
+        question: "Why were the Kelveys shunned by the other children?",
+        options: [
+          "A) Because they were older",
+          "B) Because they were wealthy",
+          "C) Because their parents were different",
+        ],
+        answer: "C",
+      },
+      {
+        question:
+          "What derogatory comment did Lena Logan make about Lil Kelvey?",
+        options: [
+          "A) She's going to be a doctor",
+          "B) She's going to be a teacher",
+          "C) She's going to be a servant",
+        ],
+        answer: "C",
+      },
+      {
+        question: "How did Lil Kelvey react when Lena Logan insulted her?",
+        options: [
+          "A) She cried",
+          "B) She laughed",
+          "C) She didn't seem to mind",
+        ],
+        answer: "C",
+      },
+      {
+        question:
+          "Who reprimanded the children for inviting the Kelveys into the courtyard?",
+        options: ["A) Aunt Beryl", "B) Mrs. Burnell", "C) The teacher"],
+        answer: "A",
+      },
+      {
+        question:
+          "What kind gesture did Aunt Beryl make after scolding the Kelveys?",
+        options: [
+          "A) She apologized",
+          "B) She described the doll's house to them",
+          "C) She invited them in for tea",
+        ],
+        answer: "C",
+      },
+      {
+        question: "What were the little Kelveys' names in the story?",
+        options: [
+          "A) Kate and Emily",
+          "B) Lil and Elise",
+          "C) Isabel and Lottie",
+        ],
+        answer: "B",
       },
     ],
   };
