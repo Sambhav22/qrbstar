@@ -5,53 +5,96 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      {
-        question: "A family tree shows _________ generations together",
-        optionA: "three",
-        optionB: "two",
-        optionC: "six",
+        {
+          question: "What is a Nuclear Family also known as?",
+          optionA: "Paternal Family",
+          optionB: "Conjugal Family",
+          optionC: "Extended Family",
+          correctAnswer: "b) Conjugal Family",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "How many generations are typically present in a Joint Family?",
+          optionA: "One",
+          optionB: "Two",
+          optionC: "Three",
+          correctAnswer: "c) Three",
+        },
 
-      {
-        question:
-          "The relatives from the _________ side are our paternal relatives",
-        optionA: "mother's",
-        optionB: "father's",
-        optionC: "none",
+        {
+          question:
+            "What is the focus of the paragraph 'Whom do we look like?'",
+          optionA: "Celebrations in families",
+          optionB: "Passing on traits in families",
+          optionC: "Types of families",
+          correctAnswer: "b) Passing on traits in families",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "What is the primary purpose of spending time together with family according to the text?",
+          optionA: "To celebrate festivals",
+          optionB: "To go out for a picnic",
+          optionC: "To strengthen the bond among family members",
+          correctAnswer: "c) To strengthen the bond among family members",
+        },
 
-      {
-        question: "A ______ family consists of parents and their children",
-        optionA: "nuclear",
-        optionB: "both",
-        optionC: "joint",
+        {
+          question: "Tia and Pia in Kashyap's family tree are mentioned as:",
+          optionA: "Cousins",
+          optionB: "Identical Twins",
+          optionC: "Maternal Relatives",
+          correctAnswer: "b) Identical Twins",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "What do twins, Tia and Pia, share that makes people amazed according to the text?",
+          optionA: "Similar height and weight",
+          optionB:
+            "Identical features such as height, weight, hair color, and skin tone",
+          optionC: "Different features from each other",
+          correctAnswer:
+            "b) Identical features such as height, weight, hair color, and skin tone",
+        },
 
-      {
-        question: "In a family, all members are __________ with each other",
-        optionA: "excluded",
-        optionB: "separated",
-        optionC: "related",
+        {
+          question:
+            "Which family type is described as the first school for children to learn good manners, values, and ethics?",
+          optionA: "Nuclear Family",
+          optionB: "Joint Family",
+          optionC: "Extended Family",
+          correctAnswer: "a) Nuclear Family",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question: "How is a Joint Family system described in the text?",
+          optionA: "A small family unit",
+          optionB: "An extended family system",
+          optionC: "A family with only parents and children",
+          correctAnswer: "b) An extended family system",
+        },
 
-      {
-        question: "We like to spend time with our __________",
-        optionA: "family",
-        optionB: "enemies",
-        optionC: "both",
+        {
+          question:
+            "What do we inherit from our parents, according to the text?",
+          optionA: "Good manners",
+          optionB: "Height, smile, and other features",
+          optionC: "Values and ethics",
+          correctAnswer: "b) Height, smile, and other features",
+        },
 
-        correctAnswer: "",
-      },
-    ],
-  };
+        {
+          question:
+            "According to the text, what binds family members together?",
+          optionA: "Sharing physical traits",
+          optionB: "Going out for a picnic",
+          optionC: "Celebrations or outings",
+          correctAnswer: "c) Celebrations or outings",
+        },
+      ],
+   };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
@@ -59,50 +102,59 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blanks:",
     questions: [
       {
-        question: "Family is regarded as the _________ school for children",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
+        questions: [
+          {
+            text: "Types of Families\nNuclear family is also known as ______ family.",
+            options: ["a) Extended", "b) Conjugal", "c) Joint"],
+            answer: "b) Conjugal",
+          },
+          {
+            text: "Joint Family\nA joint family system includes at least ______ generations living together.",
+            options: ["a) One", "b) Two", "c) Three"],
+            answer: "c) Three",
+          },
+          {
+            text: "Relationships\nRelatives from the father's side are known as ______ relatives.",
+            options: ["a) Maternal", "b) Paternal", "c) Conjugal"],
+            answer: "b) Paternal",
+          },
+          {
+            text: "Whom do we look like?\nWe inherit our height, smile, and features from our ______.",
+            options: ["a) Siblings", "b) Friends", "c) Parents"],
+            answer: "c) Parents",
+          },
+          {
+            text: "Being Together\nCelebrations and outings help bind family members ______.",
+            options: ["a) Apart", "b) Closer", "c) Strangers"],
+            answer: "b) Closer",
+          },
+          {
+            text: "Twins in Family\nTia and Pia are ______ in Kashyap's family tree.",
+            options: ["a) Identical", "b) Fraternal", "c) Solo"],
+            answer: "a) Identical",
+          },
+          {
+            text: "Twins are wonder in the family because of their ______ looks.",
+            options: ["a) Different", "b) Identical", "c) Random"],
+            answer: "b) Identical",
+          },
+          {
+            text: "People are amazed by twins' features such as height, weight, and ______.",
+            options: ["a) Hair color", "b) Eye color", "c) Shoe size"],
+            answer: "a) Hair color",
+          },
+          {
+            text: "Sometimes, twins look identical because they are born together from the ______ mother.",
+            options: ["a) Different", "b) Similar", "c) Same"],
+            answer: "c) Same",
+          },
+          {
+            text: "On holidays, families often go out for ______.",
+            options: ["a) Work", "b) School", "c) Picnic"],
+            answer: "c) Picnic",
+          },
+        ],
       },
-
-      {
-        question: "________ relatives are from mother's side",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Parents and their children together make a _______",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Tia and Pia are _________",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Nuclear family has _________ and their children",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
-      },
-      ,
     ],
   };
 }
@@ -112,43 +164,58 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
       {
-        question: "A family is a support system for an individual",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "False",
-      },
-
-      {
-        question: "We do not look similar to our family members",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "False",
-      },
-
-      {
-        question: "We do not learn anything from our family members",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "True",
-      },
-
-      {
-        question: "Twins born at the same time from a same mother",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "False",
-      },
-
-      {
-        question: "Sometimes, twins have identical features",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "False",
+        trueFalseQuestions: [
+          {
+            text: "Nuclear family is also known as a conjugal family.",
+            options: ["True", "False"],
+            answer: "True",
+          },
+          {
+            text: "A joint family system includes at least two generations living together.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            text: "Relatives from the father's side are known as maternal relatives.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            text: "We inherit our height, smile, and features only from our friends.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            text: "Celebrations and outings help create distance among family members.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            text: "Tia and Pia in Kashyap's family tree are fraternal twins.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            text: "Twins look identical due to their different features.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            text: "People are amazed by twins' features such as eye color and shoe size.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            text: "Twins look identical because they are born together from the same mother.",
+            options: ["True", "False"],
+            answer: "True",
+          },
+          {
+            text: "Families often go out for work on holidays.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+        ],
       },
     ],
   };

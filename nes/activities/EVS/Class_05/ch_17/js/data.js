@@ -6,47 +6,99 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        question: "______ can be played in two ways..",
-        optionA: "sports",
-        optionB: "cricket",
-        optionC: "football",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "______ is a sport loving nation.",
-        optionA: "India",
-        optionB: "Bangladesh",
-        optionC: "none",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "When both men and women play jointly, it is called _____ ",
-        optionA: "singles",
-        optionB: "doubles",
-        optionC: "mixed doubles",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Kho-kho was invented in_____________",
-        optionA: " Maharashtra",
-        optionB: "Gujarat",
-        optionC: "Bihar",
-
-        correctAnswer: "",
-      },
-      {
-        question: "______ game is also known as hu-tu-tu",
-        optionA: "  kho-kho",
-        optionB: " cricket",
-        optionC: "kabaddi",
-
-        correctAnswer: "",
+        questions: [
+          {
+            question: "What is the primary purpose of playing games?",
+            options: [
+              "For earning money",
+              "For physical and mental growth",
+              "For social recognition",
+            ],
+            answer: "For physical and mental growth",
+          },
+          {
+            question:
+              "What is the key difference between individual games and team games?",
+            options: [
+              "Individual games are played indoors, while team games are played outdoors.",
+              "In individual games, a player competes against another player, while in team games, teams compete against each other.",
+              "Team games have a smaller number of players compared to individual games.",
+            ],
+            answer:
+              "In individual games, a player competes against another player, while in team games, teams compete against each other.",
+          },
+          {
+            question: "What defines a national team?",
+            options: [
+              "A team representing a specific region",
+              "A team consisting of players from different parts of a country",
+              "A team with players from the same city",
+            ],
+            answer:
+              "A team consisting of players from different parts of a country",
+          },
+          {
+            question: "What role does the captain of a team play?",
+            options: [
+              "Providing entertainment",
+              "Encouraging team spirit and motivating players",
+              "Keeping score during the game",
+            ],
+            answer: "Encouraging team spirit and motivating players",
+          },
+          {
+            question:
+              "Which of the following is an example of a mixed doubles category in sports?",
+            options: ["Cricket", "Tennis", "Hockey"],
+            answer: "Tennis",
+          },
+          {
+            question:
+              "Who are some eminent sportspersons mentioned in the text?",
+            options: [
+              "Major Dhyanchand, Geeta Phogat, Saina Nehwal",
+              "Usain Bolt, Michael Phelps, Serena Williams",
+              "Lionel Messi, Cristiano Ronaldo, LeBron James",
+            ],
+            answer: "Major Dhyanchand, Geeta Phogat, Saina Nehwal",
+          },
+          {
+            question:
+              "In which game is one team the chaser and the other is the runner?",
+            options: ["Cricket", "Kho-kho", "Kabaddi"],
+            answer: "Kho-kho",
+          },
+          {
+            question: "How do sports contribute to eliminating mental stress?",
+            options: [
+              "By promoting unhealthy habits",
+              "By providing financial rewards",
+              "By offering a way to stay physically and mentally active",
+            ],
+            answer: "By offering a way to stay physically and mentally active",
+          },
+          {
+            question: "What is the significance of local games?",
+            options: [
+              "They have no cultural or traditional importance.",
+              "They reflect the tradition and culture of a particular area.",
+              "They are only played by professional athletes.",
+            ],
+            answer:
+              "They reflect the tradition and culture of a particular area.",
+          },
+          {
+            question:
+              "What is the importance of sports in understanding life skills?",
+            options: [
+              "They have no impact on life skills.",
+              "Sports help in understanding the importance of goal setting, motivation, dedication, and teamwork.",
+              "Sports only focus on physical fitness.",
+            ],
+            answer:
+              "Sports help in understanding the importance of goal setting, motivation, dedication, and teamwork.",
+          },
+        ],
       },
     ],
   };
@@ -57,48 +109,85 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blanks:",
     questions: [
       {
-        question: "Football is played in a _____",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "In cricket, ______ players play on a field.",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Sports are generally_________ oriented. ",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
-      },
-
-      {
-        question:
-          "______ are especially treated unfit to participate in sports. ",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
-      },
-      {
-        question: "Games and sports help us in ______ and -----�rowth ",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
+        fill_in_the_blank_questions: [
+          {
+            question: "Sports can be played _______ or as a ________.",
+            options: [
+              "only individually, solely team",
+              "individually, team",
+              "solo, in a group",
+            ],
+            answer: "individually, team",
+          },
+          {
+            question: "In cricket, each team has ______ players on a field.",
+            options: ["10", "11", "12"],
+            answer: "11",
+          },
+          {
+            question: "The national team represents ________.",
+            options: [
+              "a specific city",
+              "different regions",
+              "international players",
+            ],
+            answer: "different regions",
+          },
+          {
+            question:
+              "The captain of a team plays a major role in ________ and ________ of a team.",
+            options: [
+              "promotion, marketing",
+              "development, encouragement",
+              "scoring, coaching",
+            ],
+            answer: "development, encouragement",
+          },
+          {
+            question:
+              "India is a sport-loving nation, and some eminent sportspersons include Major Dhyanchand, Geeta Phogat, Saina Nehwal, and ________.",
+            options: ["Roger Federer", "Usain Bolt", "Sushil Kumar"],
+            answer: "Sushil Kumar",
+          },
+          {
+            question:
+              "In the game Kho-kho, one team becomes the ________ and the other is the ________.",
+            options: [
+              "chaser, runner",
+              "attacker, defender",
+              "pitcher, catcher",
+            ],
+            answer: "chaser, runner",
+          },
+          {
+            question:
+              "Women can now actively participate in sports, and examples include Dipa Karmakar in gymnastics, Mithali Raj in cricket, and Sakshi Malik in ________.",
+            options: ["tennis", "wrestling", "badminton"],
+            answer: "wrestling",
+          },
+          {
+            question:
+              "Local games reflect the ________ and ________ of a particular area.",
+            options: [
+              "weather, climate",
+              "tradition, culture",
+              "population, demographics",
+            ],
+            answer: "tradition, culture",
+          },
+          {
+            question:
+              "Games and sports help in mental and physical growth, and they bring the spirit of ________ among children.",
+            options: ["competition", "collaboration", "conflict"],
+            answer: "competition",
+          },
+          {
+            question:
+              "Sports help in understanding the importance of goal setting, motivation, dedication, and ________.",
+            options: ["individualism", "teamwork", "isolation"],
+            answer: "teamwork",
+          },
+        ],
       },
     ],
   };
@@ -109,43 +198,63 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
       {
-        question: "We all play games to entertain ourselves",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Mithali Raj is the famous player of cricket female team",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Games do not have any traditional importance.",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "",
-      },
-
-      {
-        question:
-          "Local games reflect the tradition and culture of the particular place.",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "",
-      },
-      {
-        question: "Sports increase our mental stress..",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "",
+        true_or_false_questions: [
+          {
+            question: "Cricket is an individual game.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            question: "Table tennis is played by 2 or 4 players.",
+            options: ["True", "False"],
+            answer: "True",
+          },
+          {
+            question: "A national team consists of players from the same city.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            question:
+              "The captain of a team plays a minor role in team development.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            question:
+              "Dipa Karmakar is known for her achievements in wrestling.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            question: "Kho-kho is a game played with a ball on a table.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            question:
+              "Women were historically treated unfit to participate in sports.",
+            options: ["True", "False"],
+            answer: "True",
+          },
+          {
+            question:
+              "Local games reflect the weather and climate of a particular area.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            question: "Sports help in eliminating mental stress.",
+            options: ["True", "False"],
+            answer: "True",
+          },
+          {
+            question:
+              "Competition in sports does not contribute to strengthening dedication.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+        ],
       },
     ],
   };

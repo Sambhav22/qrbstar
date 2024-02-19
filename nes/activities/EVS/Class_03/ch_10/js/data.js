@@ -5,154 +5,273 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      {
-        question: "Apple is an example of _________ food",
-        optionA: "raw",
-        optionB: "boiled",
-        optionC: "cooked",
+        {
+          question:
+            "What traditional Rajasthani dish is mentioned in the text?",
+          optionA: "Biryani",
+          optionB: "Daal and Bati",
+          optionC: "Samosa",
+          correctAnswer: "B) Daal and Bati",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "Why does cooking make food easier to digest, according to the text?",
+          optionA: "It adds flavor to the food",
+          optionB: "It kills germs in the food",
+          optionC: "It makes the food look appetizing",
+          correctAnswer: "B) It kills germs in the food",
+        },
 
-      {
-        question: "While steaming, food is placed in a __________",
-        optionA: "baker",
-        optionB: "steamer",
-        optionC: "pressure cooker",
+        {
+          question:
+            "Which cooking method involves placing food directly on fire?",
+          optionA: "Boiling",
+          optionB: "Frying",
+          optionC: "Roasting",
+          correctAnswer: "C) Roasting",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "What is the purpose of using a steamer in the steaming method of cooking?",
+          optionA: "To add flavor to the food",
+          optionB: "To kill germs in the food",
+          optionC: "To cook the food with steam",
+          correctAnswer: "C) To cook the food with steam",
+        },
 
-      {
-        question: "_________ is an example of baking",
-        optionA: "cake",
-        optionB: "chocolate",
-        optionC: "pakora",
+        {
+          question:
+            "What type of foods are mentioned to be more nutritive but not easily digestible in their raw form?",
+          optionA: "Cooked fruits",
+          optionB: "Boiled vegetables",
+          optionC: "Raw fruits and vegetables",
+          correctAnswer: "C) Raw fruits and vegetables",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question: "In villages, what is commonly used as fuel for cooking?",
+          optionA: "LPG gas",
+          optionB: "Biomass such as firewood and dung",
+          optionC: "Coal and electricity",
+          correctAnswer: "B) Biomass such as firewood and dung",
+        },
 
-      {
-        question: "________ is a method of cooking",
-        optionA: "cutting",
-        optionB: "frying",
-        optionC: "mixing",
+        {
+          question: "Which cooking method involves placing food in hot oil?",
+          optionA: "Baking",
+          optionB: "Boiling",
+          optionC: "Frying",
+          correctAnswer: "C) Frying",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "What is used as fuel for LPG gas stove burners and inductions in cities?",
+          optionA: "Firewood",
+          optionB: "Kerosene oil",
+          optionC: "Electricity",
+          correctAnswer: "C) Electricity",
+        },
 
-      {
-        question: "Cooked food is _________ to digest",
-        optionA: "easy",
-        optionB: "hard",
-        optionC: "none",
+        {
+          question:
+            "Which government scheme is mentioned in relation to the use of LPG connections in rural India?",
+          optionA: "Swachh Bharat Abhiyan",
+          optionB: "Ujjwala Yojana",
+          optionC: "Pradhan Mantri Awas Yojana",
+          correctAnswer: "B) Ujjwala Yojana",
+        },
 
-        correctAnswer: "",
-      },
-    ],
-  };
+        {
+          question:
+            "What type of food items are mentioned to be cooked using the steaming method?",
+          optionA: "Chapati and meat",
+          optionB: "Pakoras and puris",
+          optionC: "Idli, dhokla, and momos",
+          correctAnswer: "C) Idli, dhokla, and momos",
+        },
+      ],
+   };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      {
-        question: "______ and ______ are used in villages to cook food",
-        optionA: "",
-        optionB: "",
-        optionC: "",
+        {
+          question:
+            "In lunch, Mumma is making _________ and bati, which is a traditional dish of Rajasthan.",
+          optionA: "Pasta",
+          optionB: "Daal",
+          optionC: "Sandwich",
+          correctAnswer: "B) Daal",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "Cooking makes food easier to digest because it kills ___________ present in the food.",
+          optionA: "Flavors",
+          optionB: "Germs",
+          optionC: "Colors",
+          correctAnswer: "B) Germs",
+        },
 
-      {
-        question: "_________ gas stove is used in cities for cooking",
-        optionA: "",
-        optionB: "",
-        optionC: "",
+        {
+          question:
+            "___________ is a method of cooking where food is placed directly on fire.",
+          optionA: "Baking",
+          optionB: "Boiling",
+          optionC: "Roasting",
+          correctAnswer: "C) Roasting",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "In the steaming method, food is placed in a container called a ___________, which is filled with water.",
+          optionA: "Baker",
+          optionB: "Steamer",
+          optionC: "Fryer",
+          correctAnswer: "B) Steamer",
+        },
 
-      {
-        question:
-          "In rural India, a large proportion of households use ______ ",
-        optionA: "",
-        optionB: "",
-        optionC: "",
+        {
+          question:
+            "Raw and nutritive foods like apple, banana, and grapes are not easily ___________.",
+          optionA: "Digested",
+          optionB: "Tasted",
+          optionC: "Seen",
+          correctAnswer: "A) Digested",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "Chulhas and tandoors are commonly used in ___________ to cook food.",
+          optionA: "Cities",
+          optionB: "Villages",
+          optionC: "Restaurants",
+          correctAnswer: "B) Villages",
+        },
 
-      {
-        question:
-          "In earlier times, people used ______ and ______ pots to cook their food",
-        optionA: "",
-        optionB: "",
-        optionC: "",
+        {
+          question: "In the frying method, food is placed in ___________.",
+          optionA: "Hot water",
+          optionB: "Hot oil",
+          optionC: "Hot air",
+          correctAnswer: "B) Hot oil",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "In cities, LPG gas stove burners and inductions use ___________ as fuel.",
+          optionA: "Firewood",
+          optionB: "Kerosene oil",
+          optionC: "Electricity",
+          correctAnswer: "C) Electricity",
+        },
 
-      {
-        question: "_________ Yojana provides LPG connections to rural people",
-        optionA: "",
-        optionB: "",
-        optionC: "",
+        {
+          question:
+            "The introduction of ___________ has provided LPG connections to many households in rural India.",
+          optionA: "Ujjwala Yojana",
+          optionB: "Swachh Bharat Abhiyan",
+          optionC: "Pradhan Mantri Awas Yojana",
+          correctAnswer: "A) Ujjwala Yojana",
+        },
 
-        correctAnswer: "",
-      },
-      ,
-    ],
-  };
+        {
+          question:
+            "Steaming is a method where food is placed on a sieve in a steamer and cooked using ___________.",
+          optionA: "Hot oil",
+          optionB: "Steam",
+          optionC: "Boiling water",
+          correctAnswer: "B) Steam",
+        },
+      ],
+   };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      {
-        question: "Some food can be eaten in raw form",
-        optionA: "True",
-        optionB: "False",
+        {
+          question: "Cooking kills the germs present in the food.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "Boiling is a method of cooking where food is placed directly on fire.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
 
-      {
-        question: "While roasting, food is placed in oven",
-        optionA: "True",
-        optionB: "False",
+        {
+          question: "Raw fruits and vegetables are easily digestible.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "Chulhas and tandoors are commonly used in cities to cook food.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
 
-      {
-        question: "While boiling, food is placed in hot water",
-        optionA: "True",
-        optionB: "False",
+        {
+          question: "Frying is a method where food is placed in hot oil.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "LPG gas stove burners and inductions use firewood as fuel.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
 
-      {
-        question: "To cook food, we need certain vessels",
-        optionA: "True",
-        optionB: "False",
+        {
+          question:
+            "The Ujjwala Yojana provides LPG connections to rural households in India.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "Steaming is a method where food is placed directly on fire.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
 
-      {
-        question: "We use only one method to cook our food",
-        optionA: "True",
-        optionB: "False",
+        {
+          question: "Baking is a method where food is placed in an oven.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
 
-        correctAnswer: "",
-      },
-    ],
-  };
+        {
+          question: "Cooking makes food less nutritive.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+   };
 }
 
 export var activityData;

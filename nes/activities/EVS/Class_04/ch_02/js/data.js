@@ -6,58 +6,96 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        question: "______ was constructed in olden times",
-        optionA: "bungalow",
-        optionB: "haveli",
-        optionC: "flat",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "A large open space in olden houses was called _____",
-        optionA: "kitchen ",
-        optionB: "farm",
-        optionC: "verandah",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Dharavi is the ______ largest slum area in the world.",
-        optionA: "first",
-        optionB: "third",
-        optionC: "second",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Pucca houses are___________ houses. ",
-        optionA: "temporary",
-        optionB: "permanent",
-        optionC: "none",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "______ is an example of modern house",
-        optionA: "haveli",
-        optionB: "hut",
-        optionC: "bungalow",
-
-        correctAnswer: "",
-      },
-
-      {
-        question:
-          "Houses of modern time are made in smaller area because of increase in________",
-        optionA: "population",
-        optionB: "pollution",
-        optionC: "both",
-
-        correctAnswer: "",
+        questions: [
+          {
+            question:
+              "What material is commonly used for constructing houses in desert regions?",
+            options: [
+              "a) Bamboo and wood",
+              "b) Bricks, cement, steel",
+              "c) Mud",
+            ],
+            answer: "c) Mud",
+          },
+          {
+            question:
+              "In places with heavy rainfall, what type of roofs do houses typically have?",
+            options: [
+              "a) Flat roofs",
+              "b) Slanting roofs",
+              "c) Thatched roofs",
+            ],
+            answer: "b) Slanting roofs",
+          },
+          {
+            question:
+              "What are houses in earthquake-prone areas primarily made of?",
+            options: [
+              "a) Bricks, cement, steel",
+              "b) Bamboo and wood",
+              "c) Blocks of snow",
+            ],
+            answer: "b) Bamboo and wood",
+          },
+          {
+            question:
+              "What type of houses are constructed in polar regions, using blocks of snow?",
+            options: ["a) Igloos", "b) Bungalows", "c) Cottages"],
+            answer: "a) Igloos",
+          },
+          {
+            question:
+              "What are modern architectural bungalows primarily made of in big cities?",
+            options: [
+              "a) Mud",
+              "b) Bamboo and wood",
+              "c) Bricks, cement, steel",
+            ],
+            answer: "c) Bricks, cement, steel",
+          },
+          {
+            question:
+              "What term is used for permanent, expensive houses that take a lot of time to build?",
+            options: ["a) Slums", "b) Pucca houses", "c) Cottages"],
+            answer: "b) Pucca houses",
+          },
+          {
+            question:
+              "What were the common building materials used in houses from olden times?",
+            options: [
+              "a) Cement, concrete, glass",
+              "b) Bricks, mud, wood",
+              "c) Steel, iron, marbles",
+            ],
+            answer: "b) Bricks, mud, wood",
+          },
+          {
+            question: "What is lacking in slums according to the text?",
+            options: [
+              "a) Clean drinking water, public services, proper infrastructure",
+              "b) Modern facilities",
+              "c) Adequate sunlight",
+            ],
+            answer:
+              "a) Clean drinking water, public services, proper infrastructure",
+          },
+          {
+            question:
+              "In the past, what open space was usually preferred by people for family gatherings?",
+            options: ["a) Verandah", "b) Patio", "c) Terrace"],
+            answer: "a) Verandah",
+          },
+          {
+            question:
+              "What has led to a change in the style of construction from olden to modern times?",
+            options: [
+              "a) Increase in population",
+              "b) Lack of building materials",
+              "c) Decrease in technology",
+            ],
+            answer: "a) Increase in population",
+          },
+        ],
       },
     ],
   };
@@ -68,59 +106,76 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blanks:",
     questions: [
       {
-        question: "______ houses are expensive and take a lot of time to build",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
-      },
-
-      {
-        question:
-          "______ and ______ are the examples of houses constructed in olden times",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
-      },
-
-      {
-        question:
-          "Houses provide ______ and ______ to the people who live in it",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Due to_________ people migrate from one city to other",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Poor people forced to live in ______ and on ______ ",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "In olden times, houses were ______ in size.",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
+        fill_in_the_blank_questions: [
+          {
+            question:
+              "In desert regions, houses are primarily made of __________ to keep them cooler inside.",
+            options: ["a) Bamboo", "b) Mud", "c) Bricks, cement, steel"],
+            answer: "b) Mud",
+          },
+          {
+            question:
+              "Houses in earthquake-prone areas are constructed using __________ and wood.",
+            options: [
+              "a) Snow blocks",
+              "b) Bamboo",
+              "c) Bricks, cement, steel",
+            ],
+            answer: "b) Bamboo",
+          },
+          {
+            question:
+              "In polar regions, houses are made up of blocks of __________, known as Igloos.",
+            options: ["a) Wood", "b) Mud", "c) Snow"],
+            answer: "c) Snow",
+          },
+          {
+            question:
+              "Beautiful bungalows with modern architectural design are made up of bricks, cement, steel, marbles, tiles, etc., and are known as __________ houses.",
+            options: ["a) Pucca", "b) Thatched", "c) Slum"],
+            answer: "a) Pucca",
+          },
+          {
+            question:
+              "Slums lack basic necessities like clean drinking water, public services, and proper __________.",
+            options: ["a) Infrastructure", "b) Ventilation", "c) Sunlight"],
+            answer: "a) Infrastructure",
+          },
+          {
+            question:
+              "From olden to modern times, the style of construction has changed, and houses are now made with newer building materials like cement, concrete, glass, bricks, steel, and __________.",
+            options: ["a) Wood", "b) Iron", "c) Bamboo"],
+            answer: "b) Iron",
+          },
+          {
+            question:
+              "People who live in slums lead a miserable life due to the lack of basic necessities such as clean drinking water, public services, and proper __________.",
+            options: ["a) Sunlight", "b) Infrastructure", "c) Ventilation"],
+            answer: "b) Infrastructure",
+          },
+          {
+            question:
+              "In olden times, houses were constructed with limestone, wood, stone chips, and __________ bricks.",
+            options: ["a) Bamboo", "b) Mud", "c) Iron"],
+            answer: "b) Mud",
+          },
+          {
+            question:
+              "The houses in present times are made in smaller areas than the houses of olden times due to the increase in __________.",
+            options: [
+              "a) Building materials",
+              "b) Population",
+              "c) Technology",
+            ],
+            answer: "b) Population",
+          },
+          {
+            question:
+              "Advanced technology has helped make modern houses with far more facilities than earlier, primarily found in __________ areas.",
+            options: ["a) Rural", "b) Urban", "c) Polar"],
+            answer: "b) Urban",
+          },
+        ],
       },
     ],
   };
@@ -131,52 +186,68 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
       {
-        question: "Apartments, flats and bungalows have all modern facilities",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "",
-      },
-
-      {
-        question:
-          "Houses in olden times were made up of mud, bricks, wood, stone chips etc",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "",
-      },
-
-      {
-        question:
-          "In olden times, all family members sat together in evening in verandah.",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Shelter is not a basic need for everyone.",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "People who live in slums lead a miserable life",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "",
-      },
-      {
-        question: "Dharavi in Mumbai is the first largest slum in Asia.",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "",
+        true_false_questions: [
+          {
+            question:
+              "Houses in desert regions are primarily made of mud to keep them cooler inside.",
+            options: ["a) True", "b) False"],
+            answer: "a) True",
+          },
+          {
+            question:
+              "Houses in earthquake-prone areas are typically made of bamboo and wood.",
+            options: ["a) True", "b) False"],
+            answer: "a) True",
+          },
+          {
+            question:
+              "Polar region houses are constructed with bricks, cement, and steel.",
+            options: ["a) True", "b) False"],
+            answer: "b) False",
+          },
+          {
+            question:
+              "Slums often lack basic necessities like clean drinking water, public services, and proper infrastructure.",
+            options: ["a) True", "b) False"],
+            answer: "a) True",
+          },
+          {
+            question:
+              "In olden times, houses were constructed with limestone, wood, stone chips, and bamboo.",
+            options: ["a) True", "b) False"],
+            answer: "b) False",
+          },
+          {
+            question:
+              "Modern architectural bungalows are made of bricks, cement, steel, marbles, and tiles.",
+            options: ["a) True", "b) False"],
+            answer: "a) True",
+          },
+          {
+            question:
+              "People living in slums lead a comfortable life with all the modern facilities.",
+            options: ["a) True", "b) False"],
+            answer: "b) False",
+          },
+          {
+            question:
+              "Houses in present times are made with larger areas due to the decrease in population.",
+            options: ["a) True", "b) False"],
+            answer: "b) False",
+          },
+          {
+            question:
+              "From olden to modern times, the style of construction has remained the same.",
+            options: ["a) True", "b) False"],
+            answer: "b) False",
+          },
+          {
+            question:
+              "Advanced technology has contributed to making houses with more facilities than earlier.",
+            options: ["a) True", "b) False"],
+            answer: "a) True",
+          },
+        ],
       },
     ],
   };

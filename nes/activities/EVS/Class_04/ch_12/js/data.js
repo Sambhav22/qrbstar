@@ -5,149 +5,242 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      {
-        question: "We chew the food with the help of our _____",
-        optionA: "tongue",
-        optionB: "teeth",
-        optionC: "nose",
+        {
+          question: "What is the function of incisors in our mouth?",
+          optionA: "Piercing and tearing",
+          optionB: "Biting and cutting",
+          optionC: "Chewing and grinding",
+          correctAnswer: "Biting and cutting",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question: "How many canines are there in each jaw?",
+          optionA: "Four",
+          optionB: "Two",
+          optionC: "Six",
+          correctAnswer: "Two",
+        },
 
-      {
-        question: "Teeth are divided into ______ types.",
-        optionA: "four",
-        optionB: "three",
-        optionC: "two",
+        {
+          question: "When do milk teeth start growing in babies?",
+          optionA: "6-8 years",
+          optionB: "8-12 months",
+          optionC: "12-18 months",
+          correctAnswer: "8-12 months",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question: "What are milk teeth, and when do they begin to fall off?",
+          optionA: "Permanent set of teeth, fall off at old age",
+          optionB: "Temporary set of teeth, fall off at 6-8 years",
+          optionC: "Permanent set of teeth, remain till old age",
+          correctAnswer: "Temporary set of teeth, fall off at 6-8 years",
+        },
 
-      {
-        question:
-          " __________are the chisel-shaped teeth at the front of our mouth",
-        optionA: "incisors",
-        optionB: "canines",
-        optionC: "molars",
+        {
+          question:
+            "What should be used to clean off the food particles between teeth?",
+          optionA: "Toothbrush",
+          optionB: "Mouthwash",
+          optionC: "Floss",
+          correctAnswer: "Floss",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question: "How many premolars are there in each jaw?",
+          optionA: "Two",
+          optionB: "Four",
+          optionC: "Six",
+          correctAnswer: "Four",
+        },
 
-      {
-        question:
-          " ___________are the large, pointed teeth just behind the incisors.",
-        optionA: "incisors",
-        optionB: "canines",
-        optionC: "molars",
+        {
+          question:
+            "What should be done to take care of teeth according to the text?",
+          optionA: "Rinse mouth with soda after meals",
+          optionB: "Brush teeth once a day",
+          optionC:
+            "Rinse mouth with clean water after meals and brush teeth twice a day",
+          correctAnswer:
+            "Rinse mouth with clean water after meals and brush teeth twice a day",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question: "What is the primary function of the tongue during eating?",
+          optionA: "Breaking down food into small pieces",
+          optionB: "Mixing saliva with food",
+          optionC: "Chewing and grinding food",
+          correctAnswer: "Mixing saliva with food",
+        },
 
-      {
-        question: "An adult man has___________teeth",
-        optionA: "32",
-        optionB: "34",
-        optionC: "50",
+        {
+          question: "How many molars are there on each side of the mouth?",
+          optionA: "Two",
+          optionB: "Three",
+          optionC: "Six",
+          correctAnswer: "Three",
+        },
 
-        correctAnswer: "",
-      },
-    ],
-  };
+        {
+          question:
+            "Where are taste buds located, allowing us to sense different tastes?",
+          optionA: "Teeth",
+          optionB: "Lips",
+          optionC: "Tongue",
+          correctAnswer: "Tongue",
+        },
+      ],
+   };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      {
-        question: "In babies, teeth start to grow at the age of _____",
-        optionA: "",
-        optionB: "",
-        optionC: "",
+        {
+          question:
+            "Our teeth break down the food into small pieces, and then we ________ these pieces.",
+          options: ["chew", "swallow", "taste"],
+          correctAnswer: "swallow",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "There are four types of teeth: Incisors, Canines, Premolars, and ________.",
+          options: ["Molars", "Wisdom Teeth", "Enamel"],
+          correctAnswer: "Molars",
+        },
 
-      {
-        question: "Milk teeth are ______ teeth.",
-        optionA: "",
-        optionB: "",
-        optionC: "",
+        {
+          question:
+            "Teeth start growing in babies at the age of ________ months.",
+          options: ["6-8", "8-12", "12-18"],
+          correctAnswer: "8-12",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "Milk teeth begin to fall off at the age of ________ years.",
+          options: ["4-6", "6-8", "8-10"],
+          correctAnswer: "6-8",
+        },
 
-      {
-        question: "On your tongue, ______ are located. ",
-        optionA: "",
-        optionB: "",
-        optionC: "",
+        {
+          question:
+            "To take care of our teeth, we should eat less ________ food and avoid excess sweets.",
+          options: ["sugary", "spicy", "fatty"],
+          correctAnswer: "sugary",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "The tongue is a muscular organ that is ________ cm long and weighs about 56 grams.",
+          options: ["5", "10", "15"],
+          correctAnswer: "10",
+        },
 
-      {
-        question: "Tongue weighs about _____",
-        optionA: "",
-        optionB: "",
-        optionC: "",
+        {
+          question:
+            "The primary function of the tongue is mixing ________ with food during chewing.",
+          options: ["water", "saliva", "juice"],
+          correctAnswer: "saliva",
+        },
 
-        correctAnswer: "",
-      },
-      ,
-    ],
-    question: "We sense ______ types of taste",
-    optionA: "",
-    optionB: "",
-    optionC: "",
+        {
+          question:
+            "On the tongue, taste buds are located, allowing us to sense four types of taste: sweet, salty, sour, and ________.",
+          options: ["spicy", "bitter", "umami"],
+          correctAnswer: "bitter",
+        },
 
-    correctAnswer: "",
-  };
+        {
+          question: "Teeth should be brushed ________ a day for proper care.",
+          options: ["once", "twice", "thrice"],
+          correctAnswer: "twice",
+        },
+
+        {
+          question:
+            "Floss should be used to clean off the food particles ________ teeth.",
+          options: ["between", "under", "on"],
+          correctAnswer: "between",
+        },
+      ],
+   };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      {
-        question: "Brush your teeth thrice a day.",
-        optionA: "True",
-        optionB: "False",
+        {
+          question:
+            "Our teeth have four types: Incisors, Canines, Premolars, and Molars.",
+          options: ["True", "False"],
+          correctAnswer: "True",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "Milk teeth are a permanent set of teeth that remain till old age.",
+          options: ["True", "False"],
+          correctAnswer: "False",
+        },
 
-      {
-        question: "Eat less sugary food to avoid tooth decay.",
-        optionA: "True",
-        optionB: "False",
+        {
+          question: "Teeth start growing in babies at the age of 8-12 months.",
+          options: ["True", "False"],
+          correctAnswer: "True",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "Floss should be used to clean off the food particles between teeth.",
+          options: ["True", "False"],
+          correctAnswer: "True",
+        },
 
-      {
-        question: "Tongue is about 10 cm long organ.",
-        optionA: "True",
-        optionB: "False",
+        {
+          question:
+            "Premolars are the large, pointed teeth just behind the incisors.",
+          options: ["True", "False"],
+          correctAnswer: "False",
+        },
 
-        correctAnswer: "",
-      },
+        {
+          question:
+            "The tongue helps in mixing saliva with food during chewing.",
+          options: ["True", "False"],
+          correctAnswer: "True",
+        },
 
-      {
-        question:
-          "We should not rinse the mouth thoroughly with clean water after every meal",
-        optionA: "True",
-        optionB: "False",
+        {
+          question:
+            "Molars are located just behind the premolars, towards the back of our mouth.",
+          options: ["True", "False"],
+          correctAnswer: "True",
+        },
 
-        correctAnswer: "",
-      },
-    ],
-    question: "Teeth mix the food in our mouth.",
-    optionA: "True",
-    optionB: "False",
+        {
+          question: "Milk teeth begin to fall off at the age of 6-8 years.",
+          options: ["True", "False"],
+          correctAnswer: "True",
+        },
 
-    correctAnswer: "",
-  };
+        {
+          question: "There are two canines in each jaw.",
+          options: ["True", "False"],
+          correctAnswer: "True",
+        },
+
+        {
+          question:
+            "Eating less sugary food is recommended for taking care of our teeth.",
+          options: ["True", "False"],
+          correctAnswer: "True",
+        },
+      ],
+   };
 }
 
 export var activityData;

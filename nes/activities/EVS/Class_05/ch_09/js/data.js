@@ -6,43 +6,82 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        question:
-          "Green plants make their own food, so they are called __________",
-        optionA: "autotrophs",
-        optionB: "biotrophs",
-        optionC: "none",
-
-        correctAnswer: "",
+        questions: [
+          {
+            question:
+              "What is the process by which green plants make their own food?",
+            options: ["Respiration", "Photosynthesis", "Digestion"],
+            answer: "Photosynthesis",
+          },
+          {
+            question:
+              "Which components are essential for photosynthesis in plants?",
+            options: [
+              "Nitrogen, Sunlight, Oxygen",
+              "Carbon dioxide, Water, Sunlight",
+              "Oxygen, Water, Chlorophyll",
+            ],
+            answer: "Carbon dioxide, Water, Sunlight",
+          },
+          {
+            question:
+              "What are autotrophs also known as in the context of plant nutrition?",
+            options: ["Consumers", "Heterotrophs", "Producers"],
+            answer: "Producers",
+          },
+          {
+            question:
+              "What is the primary product of photosynthesis in plants?",
+            options: ["Starch", "Oxygen", "Water vapour"],
+            answer: "Starch",
+          },
+          {
+            question: "Which animals are classified as herbivores?",
+            options: [
+              "Lion, Tiger, Fox",
+              "Camel, Buffalo, Goat",
+              "Dog, Monkey, Bear",
+            ],
+            answer: "Camel, Buffalo, Goat",
+          },
+          {
+            question: "What do carnivores eat?",
+            options: [
+              "Only plants",
+              "Flesh of other animals",
+              "Both plants and animals",
+            ],
+            answer: "Flesh of other animals",
+          },
+          {
+            question:
+              "Animals that eat both plants and flesh of other animals are called:",
+            options: ["Herbivores", "Carnivores", "Omnivores"],
+            answer: "Omnivores",
+          },
+          {
+            question: "What do scavengers eat to keep the environment clean?",
+            options: [
+              "Plants",
+              "Flesh of dead animals",
+              "Other animals' leftovers",
+            ],
+            answer: "Flesh of dead animals",
+          },
+          {
+            question:
+              "Which organisms are considered decomposers in a food chain?",
+            options: ["Plants", "Fungi, Bacteria, Worms", "Herbivores"],
+            answer: "Fungi, Bacteria, Worms",
+          },
+          {
+            question:
+              "What is the network of interconnected food chains called in nature?",
+            options: ["Food Circle", "Food Web", "Food Line"],
+            answer: "Food Web",
+          },
+        ],
       },
-
-      {
-        question: "Pitcher plant is an/a__________ plant",
-        optionA: "carnivorous",
-        optionB: "insectivorous",
-        optionC: "both",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Omnivores eat both__________ and___________",
-        optionA: "plants, animals",
-        optionB: "plants, nutrients",
-        optionC: "none",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "A network of many_________ is called a food web.",
-        optionA: "food chains",
-        optionB: "food cycles",
-        optionC: "none",
-
-        correctAnswer: "",
-      },
-
-      {},
     ],
   };
 }
@@ -52,50 +91,80 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blanks:",
     questions: [
       {
-        question:
-          "The sugar released during photosynthesis is converted into _____",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
-      },
-
-      {
-        question:
-          "__________ also eat insects as their food to fulfill nutrients.",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "_________ are also called primary consumers.",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "_________ kill other animals and eat their flesh ",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Food chains follow a ______ path. ",
-        optionA: "",
-        optionB: "",
-        optionC: "",
-
-        correctAnswer: "",
+        fillInTheBlankQuestions: [
+          {
+            question:
+              "Plants prepare their food through the process of ________________.",
+            options: [
+              "Cellular Respiration",
+              "Photosynthesis",
+              "Transpiration",
+            ],
+            answer: "Photosynthesis",
+          },
+          {
+            question:
+              "The green plants that make their own food are also known as ________________.",
+            options: ["Consumers", "Autotrophs", "Decomposers"],
+            answer: "Autotrophs",
+          },
+          {
+            question:
+              "The products of photosynthesis are ________________, ________________, and ________________.",
+            options: [
+              "Glucose, Nitrogen, Water",
+              "Starch, Oxygen, Water Vapour",
+              "Proteins, Carbon Dioxide, Sunlight",
+            ],
+            answer: "Starch, Oxygen, Water Vapour",
+          },
+          {
+            question:
+              "Herbivores are animals that primarily eat ________________.",
+            options: [
+              "Flesh of other animals",
+              "Both plants and animals",
+              "Only plants",
+            ],
+            answer: "Only plants",
+          },
+          {
+            question:
+              "Carnivores are also known as ________________ consumers.",
+            options: ["Primary", "Secondary", "Tertiary"],
+            answer: "Secondary",
+          },
+          {
+            question:
+              "Animals that eat both plants and the flesh of other animals are called ________________.",
+            options: ["Herbivores", "Carnivores", "Omnivores"],
+            answer: "Omnivores",
+          },
+          {
+            question:
+              "Scavengers play a role in keeping the environment clean by eating the ________________ of dead animals.",
+            options: ["Flesh", "Bones", "Feathers"],
+            answer: "Flesh",
+          },
+          {
+            question:
+              "Parasites depend on other living animals for ________________.",
+            options: ["Oxygen", "Food", "Water"],
+            answer: "Food",
+          },
+          {
+            question:
+              "Producers in a food chain are typically represented by ________________.",
+            options: ["Animals", "Fungi", "Plants"],
+            answer: "Plants",
+          },
+          {
+            question:
+              "A network of interconnected food chains is called a ________________.",
+            options: ["Food Circle", "Food Web", "Food Line"],
+            answer: "Food Web",
+          },
+        ],
       },
     ],
   };
@@ -106,43 +175,64 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
       {
-        question: "All animals have same food eating habits.",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Goat is an example of herbivores animals",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Herbivores have strong teeth to chew their food.",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Parasites eat the flesh of dead animals",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "",
-      },
-
-      {
-        question: "Scavengers depend on other living animals for food.",
-        optionA: "True",
-        optionB: "False",
-
-        correctAnswer: "",
+        trueOrFalseQuestions: [
+          {
+            question:
+              "Plants prepare their food through the process of photosynthesis.",
+            options: ["True", "False"],
+            answer: "True",
+          },
+          {
+            question: "Autotrophs are also known as consumers.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            question:
+              "The primary products of photosynthesis are Glucose, Nitrogen, and Water.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            question: "Carnivores are animals that primarily eat plants.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            question: "Herbivores are also known as Secondary consumers.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            question:
+              "Omnivores eat both plants and the flesh of other animals.",
+            options: ["True", "False"],
+            answer: "True",
+          },
+          {
+            question:
+              "Scavengers play a role in keeping the environment clean by eating the bones of dead animals.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            question: "Parasites depend on other living animals for water.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            question:
+              "Producers in a food chain are typically represented by fungi.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+          {
+            question:
+              "A network of interconnected food chains is called a Food Line.",
+            options: ["True", "False"],
+            answer: "False",
+          },
+        ],
       },
     ],
   };
