@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What does a verb indicate in a sentence?",
           optionA: "Existence",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "He is eating his breakfast now.",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Some verbs show existence or quality; they are _________ words.",
@@ -152,7 +149,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Past",
         },
       ],
-    ],
   };
 }
 
@@ -160,7 +156,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Articles are determiners. They tell whether a Noun is definite or indefinite.",
@@ -220,7 +215,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is defined as a positive state of well-being where every part of the body and mind is in harmony and proper functioning balance with every other part?",
@@ -90,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Neck and back pain",
         },
       ],
-    ],
   };
 }
 
@@ -98,7 +96,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Hygiene is defined as the conditions and practices that help maintain health and prevent the spread of _______________.",
@@ -169,7 +166,6 @@ if (localStorage.getItem("activityNumber") == 2) {
             "To relax muscles, help the body function properly, and promote growth and repair of body cells",
         },
       ],
-    ],
   };
 }
 
@@ -177,7 +173,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Hygiene refers to conditions and practices that help maintain health and prevent the spread of diseases.",
@@ -238,7 +233,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

@@ -6,7 +6,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the purpose of using a Capital Letter at the beginning of a sentence?",
@@ -88,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B) At the end of words of exclamation",
         },
       ],
-    ],
   };
 }
 
@@ -96,7 +94,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "The ________ is used at the beginning of a sentence.",
           optionA: "Comma",
@@ -177,7 +174,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "B) Quotation",
         },
       ],
-    ],
   };
 }
 
@@ -185,7 +181,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "A Capital Letter is used at the beginning of every sentence.",
@@ -253,7 +248,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

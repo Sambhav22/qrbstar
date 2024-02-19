@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the quality described in the first sentence about Ayush?",
@@ -85,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Comparative",
         },
       ],
-    ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "Ayush is _______.",
           optionA: "Short",
@@ -167,7 +164,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "White, black, blue",
         },
       ],
-    ],
   };
 }
 
@@ -175,7 +171,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Ayush is shorter than Abhinav.",
           optionA: "Shorter",
@@ -240,7 +235,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "More beautiful",
         },
       ],
-    ],
   };
 }
 

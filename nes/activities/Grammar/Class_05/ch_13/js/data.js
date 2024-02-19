@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What are the three main kinds of tenses mentioned in the text?",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "An action in continuity from a given time",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "In Simple Present Tense, the first form of the verb is used with _____.",
@@ -154,7 +151,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "wearing",
         },
       ],
-    ],
   };
 }
 
@@ -162,7 +158,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Simple Present Tense is only used to express actions happening in the present moment.",
@@ -224,7 +219,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

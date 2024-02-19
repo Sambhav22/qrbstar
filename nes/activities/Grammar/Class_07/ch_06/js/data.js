@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the primary function of Auxiliary Verbs in a sentence?",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "b) To give and take permission",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Primary Auxiliaries, such as __________, __________, and __________, are used to form different tenses in sentences.",
@@ -174,7 +171,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "b) May, might",
         },
       ],
-    ],
   };
 }
 
@@ -182,7 +178,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Primary Auxiliaries are used to form different tenses.",
           optionA: "True",
@@ -249,7 +244,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

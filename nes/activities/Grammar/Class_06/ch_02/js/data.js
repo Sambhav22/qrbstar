@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the purpose of Personal Pronouns?",
           optionA: "To emphasize the subject",
@@ -82,7 +81,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B",
         },
       ],
-    ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "______ are called Personal Pronouns because they stand for Nouns in three persons.",
@@ -169,7 +166,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "C",
         },
       ],
-    ],
   };
 }
 
@@ -177,7 +173,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Personal Pronouns refer to the speaker, the person spoken to, and the person spoken about.",
@@ -247,7 +242,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

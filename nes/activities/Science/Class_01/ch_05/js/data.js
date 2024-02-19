@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What do herbivores primarily eat?",
           optionA: "Flesh of other animals",
@@ -78,7 +77,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Pen",
         },
       ],
-    ],
   };
 }
 
@@ -86,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Herbivores are animals that primarily eat __________, grass, and other parts of plants.",
@@ -165,7 +162,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Stable",
         },
       ],
-    ],
   };
 }
 
@@ -173,7 +169,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Plants are examples of herbivores.",
           optionA: "True",
@@ -236,7 +231,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

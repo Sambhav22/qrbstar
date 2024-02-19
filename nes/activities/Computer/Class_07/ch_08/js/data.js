@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is HTML primarily used for?",
           optionA: "Creating spreadsheets",
@@ -81,7 +80,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B",
         },
       ],
-    ],
   };
 }
 
@@ -89,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "__________ is a programming language used to create documents on the World Wide Web.",
@@ -189,7 +186,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "A",
         },
       ],
-    ],
   };
 }
 
@@ -197,7 +193,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "HTML is primarily used for creating documents on the World Wide Web.",
@@ -284,7 +279,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "A",
         },
       ],
-    ],
   };
 }
 

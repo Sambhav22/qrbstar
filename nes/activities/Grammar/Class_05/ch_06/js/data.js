@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is a Pronoun?",
           optionA: "A word used to describe a noun",
@@ -82,7 +81,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Only if both Nouns point to a single person or thing",
         },
       ],
-    ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "A Pronoun is a word used in place of a ___________.",
           options: ["Verb", "Adjective", "Noun"],
@@ -155,7 +152,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Only if both Nouns point to a single person or thing",
         },
       ],
-    ],
   };
 }
 
@@ -163,7 +159,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Pronouns are words used to describe nouns.",
           options: ["True", "False"],
@@ -222,7 +217,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

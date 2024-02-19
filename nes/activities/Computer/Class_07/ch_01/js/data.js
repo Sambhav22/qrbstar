@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What was the primary function of the abacus?",
           optionA: "Division and multiplication",
@@ -81,7 +80,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "C",
         },
       ],
-    ],
   };
 }
 
@@ -89,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The word 'computer' was initially used in the 16th century for a person who used to ____________.",
@@ -191,7 +188,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "b",
         },
       ],
-    ],
   };
 }
 
@@ -199,7 +195,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The abacus, invented around 5,000 years ago, is considered the first computer.",
@@ -290,7 +285,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "a",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What are the external parts of the body?",
           optionA: "Brain, lungs, stomach",
@@ -80,7 +79,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Breaking down the food we eat",
         },
       ],
-    ],
   };
 }
 
@@ -88,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "The ____________ parts of the body, such as eyes, nose, mouth, and hands, are visible externally.",
@@ -169,7 +166,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Break down",
         },
       ],
-    ],
   };
 }
 
@@ -177,7 +173,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The brain helps us to think, feel emotions, make decisions, and remember things.",
@@ -247,7 +242,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

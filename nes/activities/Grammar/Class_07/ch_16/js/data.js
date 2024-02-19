@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the primary function of the Reporting Verb in Direct Speech?",
@@ -95,7 +94,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "c) No conjunction is used",
         },
       ],
-    ],
   };
 }
 
@@ -103,7 +101,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             'She said to you, "I am getting late, you must drop me home now." (Reporting Verb) (Reported Speech)',
@@ -170,7 +167,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "a) had",
         },
       ],
-    ],
   };
 }
 
@@ -178,7 +174,6 @@ if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "In Direct Speech, the Reporting Verb describes who tells to whom.",
@@ -240,7 +235,6 @@ if (localStorage.getItem("activityNumber") == 3)
           correctAnswer: "True",
         },
       ],
-    ],
   };
 
 export var activityData;

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "Which set of pronouns represents the First Person?",
           optionA: "he, she, it",
@@ -78,7 +77,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "You should try this cake.",
         },
       ],
-    ],
   };
 }
 
@@ -86,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "___________ pronouns are used for the Speaker.",
           optionA: "First Person",
@@ -165,7 +162,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Person spoken about",
         },
       ],
-    ],
   };
 }
 
@@ -173,7 +169,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "First Person pronouns are used for the Speaker.",
           optionA: "True",
@@ -243,7 +238,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

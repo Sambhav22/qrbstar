@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What type of service does a post office provide?",
           optionA: "a) Banking",
@@ -79,7 +78,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "b) Bribery, nepotism, misappropriation",
         },
       ],
-    ],
   };
 }
 
@@ -87,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "We can form a new word by changing parts of speech. For example, from verbs to nouns: bathe becomes __________.",
@@ -146,7 +143,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "a. motherhood",
         },
       ],
-    ],
   };
 }
 
@@ -154,7 +150,6 @@ if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Corruption is a moral perversion that upholds the values of life.",
@@ -213,7 +208,6 @@ if (localStorage.getItem("activityNumber") == 3)
           correctAnswer: "False",
         },
       ],
-    ],
   };
 
 export var activityData;

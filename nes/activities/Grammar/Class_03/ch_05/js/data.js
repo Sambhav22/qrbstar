@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the primary purpose of gender in the context of nouns?",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Masculine to Feminine transformation",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "___________ is a word processing application that allows you to create a variety of documents like letters, articles, poems, stories, reports, etc.",
@@ -174,7 +171,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Print",
         },
       ],
-    ],
   };
 }
 
@@ -182,7 +178,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Gender categorization of nouns is based on their biological attributes.",
@@ -253,7 +248,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

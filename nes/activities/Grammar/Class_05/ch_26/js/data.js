@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the purpose of Ritika Gupta's letter to the Health Officer?",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Yours faithfully",
         },
       ],
-    ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "Date: ________",
           options: ["22 October, 20xx", "5 September, 20xx", "________"],
@@ -158,7 +155,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "loving brother",
         },
       ],
-    ],
   };
 }
 
@@ -166,7 +162,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Ritika Gupta is writing to the Health Officer about a recent outbreak of dengue in her neighbourhood.",
@@ -228,7 +223,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

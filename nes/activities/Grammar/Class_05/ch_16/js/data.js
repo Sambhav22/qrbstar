@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What are Helping Verbs also known as?",
           optionA: "Main Verbs",
@@ -81,7 +80,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Could",
         },
       ],
-    ],
   };
 }
 
@@ -89,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Primary Auxiliaries are __________ in number. They are: Be, Have, and Do.",
@@ -151,7 +148,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Advice",
         },
       ],
-    ],
   };
 }
 
@@ -159,7 +155,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Simple Past or Past Indefinite Tense is used to show a habitual action.",
@@ -221,7 +216,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

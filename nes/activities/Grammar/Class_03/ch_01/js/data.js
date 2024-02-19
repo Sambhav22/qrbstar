@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is necessary for a sentence to have?",
           optionA: "Noun",
@@ -80,7 +79,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Anjali went to a hotel.",
         },
       ],
-    ],
   };
 }
 
@@ -88,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "Language helps us ____________.",
           options: {
@@ -187,7 +184,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Exclamatory",
         },
       ],
-    ],
   };
 }
 
@@ -195,7 +191,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Language helps us to express our ideas and thoughts.",
           options: {
@@ -281,7 +276,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

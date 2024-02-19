@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is sewage primarily composed of?",
           optionA: "Solid waste",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B) To treat excreta through aerobic decomposition",
         },
       ],
-    ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Sewage is a general term used for all types of __________ waste, most of which is water.",
@@ -176,7 +173,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "A) Sludge",
         },
       ],
-    ],
   };
 }
 
@@ -184,7 +180,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Sewage is only produced by homes and industries.",
           optionA: "True",
@@ -255,7 +250,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

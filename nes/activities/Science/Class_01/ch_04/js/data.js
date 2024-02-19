@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What are animals that people keep at their farms for their usefulness called?",
@@ -83,7 +82,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Butterfly",
         },
       ],
-    ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "People keep some animals at their farms for their usefulness. Such animals are called __________ animals.",
@@ -171,7 +168,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Butterfly",
         },
       ],
-    ],
   };
 }
 
@@ -179,7 +175,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "All animals need a shelter to stay and protect themselves and their babies.",
@@ -243,7 +238,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

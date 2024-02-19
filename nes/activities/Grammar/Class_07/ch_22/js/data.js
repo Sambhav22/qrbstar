@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the main purpose of social networking sites, as mentioned in the text?",
@@ -87,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "A) Indicating the date of publication",
         },
       ],
-    ],
   };
 }
 
@@ -95,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "In the story \"A Proud Cock,\" the hen had an ominous dream that a cunning fox would pounce upon the cock and make a short work of him. The cock, however, made light of her warning, and that day a sly fox did pass that way. The fox praised the cock's ___________ and flattered him, leading to the cock's tragic demise.",
@@ -165,7 +162,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "b) careless",
         },
       ],
-    ],
   };
 }
 
@@ -173,7 +169,6 @@ if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Social networking sites are primarily used for entertainment purposes.",
@@ -244,7 +239,6 @@ if (localStorage.getItem("activityNumber") == 3)
           correctAnswer: "False",
         },
       ],
-    ],
   };
 
 export var activityData;

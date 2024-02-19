@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What does an Intransitive Verb not require to complete its sense?",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "C) Present Participle form",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Intransitive Verbs do not need __________ to complete their sense.",
@@ -193,7 +190,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "A) Subject",
         },
       ],
-    ],
   };
 }
 
@@ -201,7 +197,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Intransitive Verbs require an object to complete their sense.",
@@ -290,7 +285,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "B) False",
         },
       ],
-    ],
   };
 }
 

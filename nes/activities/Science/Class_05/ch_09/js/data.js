@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is soil primarily composed of?",
           optionA: "Rocks",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Protection and prevention against erosion",
         },
       ],
-    ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Sandy soil requires the addition of ____________ to make it fertile.",
@@ -175,7 +172,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Terrace",
         },
       ],
-    ],
   };
 }
 
@@ -183,7 +179,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Sandy soil requires the addition of fertilizers to make it fertile.",
@@ -251,7 +246,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the primary function of green leaves in plants?",
           optionA: "Absorb water",
@@ -83,7 +82,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Food chain",
         },
       ],
-    ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Green leaves are commonly known as the ________ of the plant, as they play a crucial role in photosynthesis.",
@@ -193,7 +190,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Carbon dioxide",
         },
       ],
-    ],
   };
 }
 
@@ -201,7 +197,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "India is bordered by Afghanistan and Pakistan to the north-west.",
@@ -290,7 +285,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

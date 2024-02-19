@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What was the farmer's main flaw in the first story?",
           optionA: "Laziness",
@@ -81,7 +80,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "C) To help it recover",
         },
       ],
-    ],
   };
 }
 
@@ -89,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The farmer in the first story always depended on others and was not _______.",
@@ -149,7 +146,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "recover",
         },
       ],
-    ],
   };
 }
 
@@ -157,7 +153,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The farmer in the first story was very hardworking.",
           options: ["True", "False"],
@@ -218,7 +213,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

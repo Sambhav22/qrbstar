@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the primary source of milk?",
           optionA: "Sheep",
@@ -81,7 +80,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Leather",
         },
       ],
-    ],
   };
 }
 
@@ -89,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "We get _______ from cow, buffalo, goat, etc. Milk is an essential part of our daily diet.",
@@ -171,7 +168,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Agriculture",
         },
       ],
-    ],
   };
 }
 
@@ -179,7 +175,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Milk is used as baby food, for making tea, sweets, and other products like curd, ghee, cheese, butter, etc.",
@@ -249,7 +244,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

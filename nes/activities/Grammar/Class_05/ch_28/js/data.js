@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "Where are the Himalayas located in relation to India?",
           optionA: "East",
@@ -85,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "They still need to learn how to read.",
         },
       ],
-    ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "The Himalayas stretch for ________ miles from Kashmir to Assam.",
@@ -153,7 +150,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Riverbank",
         },
       ],
-    ],
   };
 }
 
@@ -161,7 +157,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The Himalayas stretch for 1,500 miles from Kashmir to Assam.",
@@ -223,7 +218,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

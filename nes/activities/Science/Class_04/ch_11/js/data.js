@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is waste?",
           optionA: "Any material with increasing use",
@@ -81,7 +80,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "C) Could light a room for two whole weeks",
         },
       ],
-    ],
   };
 }
 
@@ -89,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Waste is a material that has no longer use and is thrown away. The ____________ of waste is increasing day-by-day in most parts of the world.",
@@ -155,7 +152,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Two whole weeks",
         },
       ],
-    ],
   };
 }
 
@@ -163,7 +159,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Waste disposal facilities in developing countries are more advanced than in developed countries.",
@@ -235,7 +230,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

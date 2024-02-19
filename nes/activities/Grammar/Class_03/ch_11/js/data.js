@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the Present form (I form) of the verb in the sentence 'Megha sings a song.'?",
@@ -87,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Present Participle Tense",
         },
       ],
-    ],
   };
 }
 
@@ -95,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Some Verbs show existence; for example:\nI am a __________.\n",
@@ -177,7 +174,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "the",
         },
       ],
-    ],
   };
 }
 
@@ -185,7 +181,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Megha sings a song.",
           optionA: "True",
@@ -247,7 +242,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

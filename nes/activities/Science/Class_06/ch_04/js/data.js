@@ -83,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Living things respire by burning food in the presence of ____________.",
@@ -145,7 +144,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Multiply",
         },
       ],
-    ],
   };
 }
 
@@ -153,7 +151,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Living things respire by burning food in the presence of oxygen.",
@@ -225,7 +222,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

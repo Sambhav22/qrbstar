@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "When is a capital letter used in a sentence?",
           optionA: "a) Only in interrogative sentences",
@@ -82,7 +81,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "c) Full stops",
         },
       ],
-    ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "A Capital Letter is used at the beginning of a ___________.",
@@ -152,7 +149,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "a) exactly",
         },
       ],
-    ],
   };
 }
 
@@ -160,7 +156,6 @@ if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "A Capital Letter is used at the beginning of a sentence.",
           options: ["True", "False"],
@@ -217,7 +212,6 @@ if (localStorage.getItem("activityNumber") == 3)
           correctAnswer: "True",
         },
       ],
-    ],
   };
 
 export var activityData;

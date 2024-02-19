@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What was the primary component used for circuitry in first-generation computers?",
@@ -85,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "C) Integrated Circuits",
         },
       ],
-    ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The period of the first generation of computers spanned from _____ to _____.",
@@ -166,7 +163,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Robots",
         },
       ],
-    ],
   };
 }
 
@@ -174,7 +170,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The first generation computers primarily used vacuum tubes for circuitry.",
@@ -236,7 +231,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

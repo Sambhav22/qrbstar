@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What do adjectives describe?",
           optionA: "Verbs or Adverbs",
@@ -80,7 +79,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Enough",
         },
       ],
-    ],
   };
 }
 
@@ -88,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Adjectives are describing words. They describe _____ or Pronouns.",
@@ -170,7 +167,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Beautiful",
         },
       ],
-    ],
   };
 }
 
@@ -178,7 +174,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Adjectives describe Verbs or Adverbs.",
           optionA: "True",
@@ -244,7 +239,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the rule for verb and subject agreement regarding singular and plural subjects?",
@@ -90,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "The verb becomes plural.",
         },
       ],
-    ],
   };
 }
 
@@ -98,7 +96,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "A Singular Subject _______ a Singular Verb and a Plural Subject _______ a Plural Verb.",
@@ -174,7 +171,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "He is",
         },
       ],
-    ],
   };
 }
 
@@ -182,7 +178,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "A Singular Subject always takes a Singular Verb and a Plural Subject takes a Plural Verb.",
@@ -250,7 +245,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

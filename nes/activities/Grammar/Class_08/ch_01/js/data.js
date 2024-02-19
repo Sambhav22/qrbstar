@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is a Common Noun?",
           optionA: "A name given to a particular person or thing",
@@ -87,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "C",
         },
       ],
-    ],
   };
 }
 
@@ -95,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Common Nouns are names given to any person, place, animal, or thing of the same __________ or __________.",
@@ -177,7 +174,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "B",
         },
       ],
-    ],
   };
 }
 
@@ -185,7 +181,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Common Nouns are names given to any person, place, animal, or thing of the same class or kind.",
@@ -256,7 +251,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

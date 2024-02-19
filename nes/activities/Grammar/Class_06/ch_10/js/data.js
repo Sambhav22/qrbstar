@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What type of adverb shows the manner in which an action is done?",
@@ -85,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Before the word it modifies",
         },
       ],
-    ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "________ intelligence involves how good a person is at navigating their environment.",
@@ -175,7 +172,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Logical-Mathematical",
         },
       ],
-    ],
   };
 }
 
@@ -183,7 +179,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Adverbs of Manner describe the place where an action is done.",
@@ -253,7 +248,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

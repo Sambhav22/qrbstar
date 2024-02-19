@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the purpose of a Question Tag?",
           optionA: "To express disagreement",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "haven't we?",
         },
       ],
-    ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "1. The purpose of a Question Tag is to ____________ or confirm the statement.",
@@ -164,7 +161,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "b) haven't we",
         },
       ],
-    ],
   };
 }
 
@@ -172,7 +168,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Question Tag is used more often in speech than in writing.",
@@ -242,7 +237,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           answer: "True",
         },
       ],
-    ],
   };
 }
 

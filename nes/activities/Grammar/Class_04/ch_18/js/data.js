@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "In which case should a sentence begin with a Capital Letter?",
@@ -87,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Political parties",
         },
       ],
-    ],
   };
 }
 
@@ -95,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "Every ________ begins with a Capital Letter.",
           optionA: "Word",
@@ -173,7 +170,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Buildings",
         },
       ],
-    ],
   };
 }
 
@@ -181,7 +177,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "A sentence must begin with a capital letter.",
           optionA: "True",
@@ -251,7 +246,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

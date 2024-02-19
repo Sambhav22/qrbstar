@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What are bones composed of?",
           optionA: "Iron and zinc",
@@ -78,7 +77,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B) Involuntary muscles",
         },
       ],
-    ],
   };
 }
 
@@ -86,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Bones are composed of __________, __________, and a fibrous substance known as collagen.",
@@ -186,7 +183,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "C",
         },
       ],
-    ],
   };
 }
 
@@ -194,7 +190,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Bones are composed of iron, zinc, and a fibrous substance known as collagen.",
@@ -284,7 +279,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "B",
         },
       ],
-    ],
   };
 }
 

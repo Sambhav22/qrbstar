@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the main function of bones in the body?",
           optionA: "Producing blood cells",
@@ -79,7 +78,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Eating healthy food and regular exercise",
         },
       ],
-    ],
   };
 }
 
@@ -87,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Bones and muscles give shape and support to the body. They also help in the ________ of different body parts.",
@@ -169,7 +166,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Bones",
         },
       ],
-    ],
   };
 }
 
@@ -177,7 +173,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Bones and muscles are responsible for providing shape and support to the body.",
@@ -244,7 +239,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

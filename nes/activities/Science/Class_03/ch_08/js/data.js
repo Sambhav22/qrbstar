@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What are the three main properties of a solid?",
           optionA: "Definite shape, definite mass, definite volume",
@@ -87,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Condensation",
         },
       ],
-    ],
   };
 }
 
@@ -95,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "A solid has a definite __________.",
           optionA: "Mass",
@@ -173,7 +170,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Condensation",
         },
       ],
-    ],
   };
 }
 
@@ -181,7 +177,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "A solid does not have a definite shape.",
           optionA: "True",
@@ -247,7 +242,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

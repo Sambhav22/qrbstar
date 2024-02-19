@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "How can new words be formed by a change in parts of speech?",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "a. From Nouns to Nouns",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "We can form a new word by changing parts of speech. For example, from verbs to nouns: bathe becomes __________.",
@@ -151,7 +148,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "a. motherhood",
         },
       ],
-    ],
   };
 }
 
@@ -159,7 +155,6 @@ if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "A new word can be formed by changing parts of speech.",
           options: ["a. True", "b. False"],
@@ -218,7 +213,6 @@ if (localStorage.getItem("activityNumber") == 3)
           correctAnswer: "a. True",
         },
       ],
-    ],
   };
 
 export var activityData;

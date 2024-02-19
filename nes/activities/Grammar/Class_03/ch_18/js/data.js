@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What does an Adverb add to the meaning of?",
           optionA: "Noun",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Beautifully",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "An Adverb adds to the meaning of an ________, a ________ or another ________.",
@@ -152,7 +149,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Enough and Always",
         },
       ],
-    ],
   };
 }
 
@@ -160,7 +156,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "An Adverb modifies the meaning of an Adjective, a Verb, or another Adverb.",
@@ -218,7 +213,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

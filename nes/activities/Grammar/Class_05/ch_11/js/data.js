@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the correct usage of the verb in relation to the subject in the given sentences?",
@@ -88,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Four boys are playing.",
         },
       ],
-    ],
   };
 }
 
@@ -96,7 +94,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "A boy _____ playing.",
           options: ["is", "are", "am"],
@@ -148,7 +145,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "is",
         },
       ],
-    ],
   };
 }
 
@@ -156,7 +152,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "A Singular Verb should be used with a Singular Subject and a Plural Verb should be used with a Plural Subject.",
@@ -211,7 +206,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

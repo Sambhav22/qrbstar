@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is a preposition?",
           optionA: "A word placed after a noun",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Action prepositions",
         },
       ],
-    ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "A preposition is a word placed before a __________ or __________ to express its relation with something else.",
@@ -165,7 +162,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Prepositions",
         },
       ],
-    ],
   };
 }
 
@@ -173,7 +169,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "A preposition is a word placed after a Noun or Pronoun to express its relation with something else.",
@@ -230,7 +225,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

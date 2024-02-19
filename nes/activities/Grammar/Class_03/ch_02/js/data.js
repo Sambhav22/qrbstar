@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the role of 'Swati' in the sentence 'Swati went to school by bus'?",
@@ -80,7 +79,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "C",
         },
       ],
-    ],
   };
 }
 
@@ -88,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Every sentence consists of two parts: __________ and __________.",
@@ -148,7 +145,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Pronoun",
         },
       ],
-    ],
   };
 }
 
@@ -156,7 +152,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Every sentence consists of two parts: Subject and Predicate.",
@@ -211,7 +206,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

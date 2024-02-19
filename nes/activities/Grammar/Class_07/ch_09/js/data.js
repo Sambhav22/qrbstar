@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the function of a determiner in a sentence?",
           optionA: "To express actions",
@@ -83,7 +82,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "C) Before proper nouns like Mount Everest",
         },
       ],
-    ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "This classification was based on __________.",
           optionA: "Wealth",
@@ -171,7 +168,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Nationalism",
         },
       ],
-    ],
   };
 }
 
@@ -179,7 +175,6 @@ if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The caste system in ancient Hindu society was primarily based on occupation.",
@@ -251,7 +246,6 @@ if (localStorage.getItem("activityNumber") == 3)
           correctAnswer: "False",
         },
       ],
-    ],
   };
 
 export var activityData;

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: 'What does the term "Gender" refer to in the given text?',
           optionA: "The age of a noun",
@@ -83,7 +82,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Feminine Gender",
         },
       ],
-    ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "The Gender tells that a Noun is a ________, is a ________, or can be both or is lifeless.",
@@ -152,7 +149,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Rule 3",
         },
       ],
-    ],
   };
 }
 
@@ -160,7 +156,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The Masculine Gender includes nouns like sister, dog, and girl.",
@@ -222,7 +217,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

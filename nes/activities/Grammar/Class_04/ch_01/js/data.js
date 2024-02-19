@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the primary characteristic of an assertive sentence or statement?",
@@ -97,7 +96,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B) To express wish, prayer, boon, or curse.",
         },
       ],
-    ],
   };
 }
 
@@ -105,7 +103,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "The ________ was the first calculating device, invented over 5,000 years ago by the Chinese.",
@@ -204,7 +201,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "University of Pennsylvania",
         },
       ],
-    ],
   };
 }
 
@@ -212,7 +208,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The Abacus was invented by the Chinese over 5,000 years ago.",
@@ -299,7 +294,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

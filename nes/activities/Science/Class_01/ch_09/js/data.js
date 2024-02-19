@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is safety?",
           optionA: "Ignoring potential dangers",
@@ -85,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "They help avoid accidents",
         },
       ],
-    ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Safety is being careful and staying away from ___________.",
@@ -175,7 +172,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Wait",
         },
       ],
-    ],
   };
 }
 
@@ -183,7 +179,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Safety is about being careless and not worrying about harm.",
@@ -253,7 +248,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

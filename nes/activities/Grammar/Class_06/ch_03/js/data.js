@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What type of Adjective tells the quality of a Noun or Pronoun?",
@@ -83,7 +82,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B) Ownership or Possession",
         },
       ],
-    ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Adjectives of __________ tell the quality of a Noun or Pronoun.",
@@ -192,7 +189,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "b",
         },
       ],
-    ],
   };
 }
 
@@ -200,7 +196,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Adjectives of Quantity answer the question 'What kind?'",
           options: {
@@ -290,7 +285,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

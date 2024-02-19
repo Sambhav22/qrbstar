@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the term for moving air?",
           optionA: "Breeze",
@@ -79,7 +78,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Generating electricity",
         },
       ],
-    ],
   };
 }
 
@@ -87,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "__________ is the area around our houses. The people living around our houses are our __________.",
@@ -162,7 +159,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Railway station",
         },
       ],
-    ],
   };
 }
 
@@ -170,7 +166,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The area around our houses is called the neighbourhood, and the people living around our houses are our neighbours.",
@@ -235,7 +230,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

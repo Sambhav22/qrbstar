@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the primary characteristic of Simple Prepositions?",
@@ -88,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "c) Prepositional Phrase",
         },
       ],
-    ],
   };
 }
 
@@ -96,7 +94,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "The boy was ___________ his studies.",
           optionA: "engaging in",
@@ -169,7 +166,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "a) consequence",
         },
       ],
-    ],
   };
 }
 
@@ -177,7 +173,6 @@ if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "An Adverb is a type of speech that adds to the meaning of an Adjective, a Verb, or another Adverb in a sentence.",
@@ -248,7 +243,6 @@ if (localStorage.getItem("activityNumber") == 3)
           correctAnswer: "False",
         },
       ],
-    ],
   };
 
 export var activityData;

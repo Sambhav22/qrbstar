@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What are the three main tenses in English?",
           optionA: "Past, Present, Future",
@@ -83,7 +82,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "A",
         },
       ],
-    ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The verb can show three times, which are ____, ____, and ____. ",
@@ -179,7 +176,6 @@ if (localStorage.getItem("activityNumber") == 2) {
             "They will have been sweeping the ground for two years.",
         },
       ],
-    ],
   };
 }
 
@@ -187,7 +183,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The Simple Present Tense expresses habitual actions or general truths.",
@@ -258,7 +253,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

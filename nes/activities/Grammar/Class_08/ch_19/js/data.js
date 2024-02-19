@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "How can a new word be formed from a verb to a noun?",
           optionA: "By adding a prefix",
@@ -81,7 +80,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B) to laugh in one's sleeves",
         },
       ],
-    ],
   };
 }
 
@@ -89,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "We can form a new word by changing parts of speech, for example, from verbs to nouns like 'accompany' to _______.",
@@ -170,7 +167,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "B) commercial farming",
         },
       ],
-    ],
   };
 }
 
@@ -178,7 +174,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "A new word can be formed by changing parts of speech.",
           optionA: "True",
@@ -244,7 +239,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

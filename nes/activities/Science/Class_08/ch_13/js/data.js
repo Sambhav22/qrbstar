@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is reflection of light?",
           optionA: "Absorption of light",
@@ -82,7 +81,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B) Louis Braille",
         },
       ],
-    ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "When a light falls on a surface, it bounces back. This bouncing back of light from a surface is called ____________ of light.",
@@ -172,7 +169,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "B) Louis Braille",
         },
       ],
-    ],
   };
 }
 
@@ -180,7 +176,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "When a light falls on a surface, it refracts.",
           optionA: "True",
@@ -250,7 +245,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "B) False",
         },
       ],
-    ],
   };
 }
 

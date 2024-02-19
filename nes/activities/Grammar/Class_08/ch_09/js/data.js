@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What are Demonstrative Determiners?",
           optionA: "My, our, your",
@@ -85,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B) This is an apple. This is my apple.",
         },
       ],
-    ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "This television and that antenna are ___________.",
           optionA: "new",
@@ -168,7 +165,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "c) Dr. Bhimrao Ramji Ambedkar",
         },
       ],
-    ],
   };
 }
 
@@ -176,7 +172,6 @@ if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The caste system in ancient India was based solely on family wealth.",
@@ -245,7 +240,6 @@ if (localStorage.getItem("activityNumber") == 3)
           correctAnswer: "True",
         },
       ],
-    ],
   };
 
 export var activityData;

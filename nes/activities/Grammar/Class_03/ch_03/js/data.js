@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             'What kind of noun is "Milkmen" in the sentence "Milk is brought by milkmen"?',
@@ -89,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "A) Abstract Noun",
         },
       ],
-    ],
   };
 }
 
@@ -97,7 +95,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "A ________ that names a person, place, animal, or thing is called a Common Noun.",
@@ -178,7 +175,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "B",
         },
       ],
-    ],
   };
 }
 
@@ -186,7 +182,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "A Common Noun represents the whole class of its kind, while a Proper Noun is the name of a particular person, place, animal, or thing.",
@@ -257,7 +252,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

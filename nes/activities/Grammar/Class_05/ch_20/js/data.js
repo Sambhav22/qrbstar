@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the primary function of interjections?",
           optionA: "To convey information",
@@ -81,7 +80,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Oh no",
         },
       ],
-    ],
   };
 }
 
@@ -89,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "An Interjection is a word that reveals the __________ of the speaker.",
@@ -148,7 +145,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "excitement",
         },
       ],
-    ],
   };
 }
 
@@ -156,7 +152,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "An Interjection is a word that conceals the emotions of the speaker.",
@@ -213,7 +208,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

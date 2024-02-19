@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What are some common reasons that can cause a fire?",
           optionA: "Using too many plugs in one socket",
@@ -90,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B) Take the victim to a doctor immediately",
         },
       ],
-    ],
   };
 }
 
@@ -98,7 +96,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Fire can spread quickly, even a small flame can turn into a major fire in a matter of ____________.",
@@ -160,7 +157,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Antiseptic cream",
         },
       ],
-    ],
   };
 }
 
@@ -168,7 +164,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Fire can spread quickly, even a small flame can turn into a major fire in a matter of minutes.",
@@ -230,7 +225,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

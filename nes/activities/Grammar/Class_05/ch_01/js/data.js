@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is a sentence?",
           optionA: "A random arrangement of words",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Shall we go for a walk?",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "A Sentence is defined as a group of words arranged in a particular order so as to give a particular _______________.",
@@ -194,7 +191,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Exclamatory",
         },
       ],
-    ],
   };
 }
 
@@ -202,7 +198,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "An Assertive Sentence expresses a fact, event, or condition in a positive or negative manner.",
@@ -293,7 +288,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

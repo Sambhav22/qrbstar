@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What should you do if there is no footpath while walking?",
           optionA: "Walk on your right side",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
             "B) Inform an elder or teacher for necessary first aid",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "Always walk on the ___________.",
           options: ["Road", "Footpath", "Playground"],
@@ -147,7 +144,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Open spaces",
         },
       ],
-    ],
   };
 }
 
@@ -155,7 +151,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Walking on the footpath is always important to avoid harm or accidents.",
@@ -214,7 +209,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

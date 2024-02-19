@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             'What type of conjunction is "and" in the sentence "Govind, Ganga and Ganesh went to the market to buy mangoes, melons and guavas"?',
@@ -88,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "b) although, though, yet",
         },
       ],
-    ],
   };
 }
 
@@ -96,7 +94,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "A Coordinating Conjunction is used to join two words or sentences of __________ class, rank, or order.",
@@ -177,7 +174,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "b) dinner",
         },
       ],
-    ],
   };
 }
 
@@ -185,7 +181,6 @@ if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Coordinating Conjunctions are used to join two words or sentences of equal class, rank, or order.",
@@ -257,7 +252,6 @@ if (localStorage.getItem("activityNumber") == 3)
           correctAnswer: "False",
         },
       ],
-    ],
   };
 
 export var activityData;

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What did the hen lay every day?",
           optionA: "Silver egg",
@@ -81,7 +80,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "They were greedy",
         },
       ],
-    ],
   };
 }
 
@@ -89,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "There was a farmer. He had a ____. It laid a ____ egg every day.",
@@ -149,7 +146,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Greedy",
         },
       ],
-    ],
   };
 }
 
@@ -157,7 +153,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The hen in the story laid a silver egg every day.",
           options: ["True", "False"],
@@ -209,7 +204,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

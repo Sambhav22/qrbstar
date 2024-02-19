@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What does Ayush suggest for maintaining physical fitness?",
           optionA:
@@ -87,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 1) {
             "c) Requesting an electoral identity card for her sister who turned 18.",
         },
       ],
-    ],
   };
 }
 
@@ -95,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "I have just now received your sweet letter. I am happy to learn that you have recovered from your prolonged illness. I wish you ___________ for all times to come.",
@@ -159,7 +156,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "b) photographs",
         },
       ],
-    ],
   };
 }
 
@@ -167,7 +163,6 @@ if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Ayush Khurana suggests that physical fitness can be maintained through a balanced diet, regular physical exercise, and sound sleep.",
@@ -268,7 +263,6 @@ if (localStorage.getItem("activityNumber") == 3)
             "The stories emphasize the consequences of being too cautious and not heeding warnings.",
         },
       ],
-    ],
   };
 
 export var activityData;

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is a machine in the context of the given text?",
           optionA: "Any tool",
@@ -82,7 +81,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B",
         },
       ],
-    ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "In our daily life, we apply different forces to do different kinds of work such as lifting heavy objects or opening a can. We often use tools that help us to complete a work quickly and with less effort. A tool that is used to do work easily, quickly, and uses less energy is called a __________.",
@@ -152,7 +149,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           answer: "Gear",
         },
       ],
-    ],
   };
 }
 
@@ -160,7 +156,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Lever is a type of simple machine.",
           options: ["True", "False"],
@@ -221,7 +216,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           answer: "False",
         },
       ],
-    ],
   };
 }
 

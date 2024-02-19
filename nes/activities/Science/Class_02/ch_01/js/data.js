@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What distinguishes living things from non-living things?",
           optionA: "Growth",
@@ -80,7 +79,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Movement",
         },
       ],
-    ],
   };
 }
 
@@ -88,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Living things grow with the passage of time. An infant grows into an __________. A seed grows into a __________ and so on.",
@@ -190,7 +187,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Food, plants",
         },
       ],
-    ],
   };
 }
 
@@ -198,7 +194,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Living things grow with the passage of time.",
           options: {
@@ -288,7 +283,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

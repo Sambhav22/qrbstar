@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the purpose of using pronouns in sentences or speech?",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Concrete nouns",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Riya is a young girl. ___ has a ball. Riya goes to the playground in the evening.",
@@ -168,7 +165,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "It",
         },
       ],
-    ],
   };
 }
 
@@ -176,7 +172,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Pronouns are used to avoid repetition of nouns.",
           optionA: "Correct",
@@ -240,7 +235,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "Incorrect",
         },
       ],
-    ],
   };
 }
 

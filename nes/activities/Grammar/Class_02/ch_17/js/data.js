@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is a conjunction?",
           optionA: "A joining word",
@@ -85,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "so",
         },
       ],
-    ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "Conjunctions are ______ words.",
           options: ["separating", "joining", "descriptive"],
@@ -151,7 +148,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "so",
         },
       ],
-    ],
   };
 }
 
@@ -159,7 +155,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "A conjunction is a word that separates words, word-groups, and sentences.",
@@ -219,7 +214,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What percentage of the Earth's surface is covered with water?",
@@ -80,7 +79,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Stream",
         },
       ],
-    ],
   };
 }
 
@@ -88,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "Earth is our ______ planet.",
           options: ["Second", "Home", "Red"],
@@ -146,7 +143,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Seas",
         },
       ],
-    ],
   };
 }
 
@@ -154,7 +150,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Mountains are low-lying landforms.",
           optionA: "True",
@@ -219,7 +214,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "In which tense can you express habitual action or general truths?",
@@ -88,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "A. Continuous action in the future",
         },
       ],
-    ],
   };
 }
 
@@ -96,7 +94,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The Simple Present or Present Indefinite Tense expresses habitual action or general truths. For example, 'I attend school daily. Old people love to give __________.'",
@@ -178,7 +175,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "B) Later",
         },
       ],
-    ],
   };
 }
 
@@ -186,7 +182,6 @@ if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The Simple Present or Present Indefinite Tense is used to express habitual actions or general truths.",
@@ -258,7 +253,6 @@ if (localStorage.getItem("activityNumber") == 3)
           correctAnswer: "False",
         },
       ],
-    ],
   };
 
 export var activityData;

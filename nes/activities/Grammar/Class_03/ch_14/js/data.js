@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What does Simple Past Tense describe?",
           optionA: "Future actions",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "He saw a movie yesterday.",
         },
       ],
-    ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Affirmative sentences in Simple Past Tense have the word order: Subject + Verb in ____________ + Object.",
@@ -159,7 +156,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Simple Past Tense",
         },
       ],
-    ],
   };
 }
 
@@ -167,7 +163,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The Past Indefinite Tense is also referred to as Simple Past Tense.",
@@ -229,7 +224,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What auxiliary verb is used with singular persons or things, excluding 'I' and 'you,' in affirmative sentences?",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "are",
         },
       ],
-    ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "What auxiliary verb is used with singular persons or things, excluding 'I' and 'you,' in affirmative sentences?",
@@ -155,7 +152,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "are",
         },
       ],
-    ],
   };
 }
 
@@ -163,7 +159,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Affirmative sentences affirm something.",
           options: ["True", "False"],
@@ -221,7 +216,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

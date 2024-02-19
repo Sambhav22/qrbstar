@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the purpose of a Tag Question?",
           optionA: "To make a statement",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
             "To engage the listener and seek agreement or confirmation",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "A negative statement takes a ________ Tag; for example:",
           options: ["isn't it", "are you", "__________"],
@@ -153,7 +150,6 @@ if (localStorage.getItem("activityNumber") == 2) {
             "to engage the listener and seek agreement or confirmation",
         },
       ],
-    ],
   };
 }
 
@@ -161,7 +157,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "A negative statement takes a Positive Tag.",
           options: ["True", "False"],
@@ -215,7 +210,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

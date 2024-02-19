@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What are the inner four planets of the Solar System made of?",
@@ -82,7 +81,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Crust",
         },
       ],
-    ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Nearly _____% of the Indian population primarily depends on agriculture.",
@@ -151,7 +148,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "150 to 250",
         },
       ],
-    ],
   };
 }
 
@@ -159,7 +155,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Mercury is the largest planet in the Solar System.",
           options: ["True", "False"],
@@ -213,7 +208,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is a group of words in a sentence that functions like a noun called?",
@@ -94,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "A) Complex Sentence",
         },
       ],
-    ],
   };
 }
 
@@ -102,7 +100,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "A group of words in a sentence that functions like a ________ is called a Noun Phrase.",
@@ -182,7 +179,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "B) Quit India Movement",
         },
       ],
-    ],
   };
 }
 
@@ -190,7 +186,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "A Noun Phrase is a group of words in a sentence that functions like an adjective.",
@@ -261,7 +256,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "B) False",
         },
       ],
-    ],
   };
 }
 

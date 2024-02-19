@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "How do birds, reptiles, and mammals primarily breathe?",
           optionA: "Through spiracles",
@@ -81,7 +80,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "C",
         },
       ],
-    ],
   };
 }
 
@@ -89,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "All animals breathe in oxygen, but they take it differently. Birds, reptiles, and mammals breathe with the help of __________, earthworms breathe through their __________, and fish breathe through their __________.",
@@ -171,7 +168,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "B",
         },
       ],
-    ],
   };
 }
 
@@ -179,7 +175,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Animals like birds, reptiles, and mammals primarily breathe through spiracles, skin, and fins.",
@@ -248,7 +243,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "a) True",
         },
       ],
-    ],
   };
 }
 

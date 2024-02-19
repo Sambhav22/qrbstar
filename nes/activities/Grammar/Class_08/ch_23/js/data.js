@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the nature of letters and postcards to friends and family members?",
@@ -91,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "a) Saharanpur",
         },
       ],
-    ],
   };
 }
 
@@ -99,7 +97,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Letters and postcards to friends and family members are characterized by their __________ nature.",
@@ -165,7 +162,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Savings",
         },
       ],
-    ],
   };
 }
 
@@ -173,7 +169,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Letters and postcards to friends and family members are typically formal in nature.",
@@ -245,7 +240,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

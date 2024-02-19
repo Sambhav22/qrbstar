@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is light?",
           optionA: "A form of energy",
@@ -77,7 +76,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "C) It can change the shape of an object",
         },
       ],
-    ],
   };
 }
 
@@ -85,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Cereals are the main component of Indian food. Normally, wheat is the staple food in North and North-west India, while it is rice in East and South India. Maize, jowar, and bajra are popular in ____________.",
@@ -145,7 +142,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Angostra",
         },
       ],
-    ],
   };
 }
 
@@ -153,7 +149,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Cereals are the main component of Indian food. Normally, wheat is the staple food in North and North-west India, while it is rice in East and South India. Maize, jowar, and bajra are popular in Rajasthan.",
@@ -213,7 +208,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

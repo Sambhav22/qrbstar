@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What are the two main parts of a sentence in Direct Speech?",
@@ -99,7 +98,6 @@ if (localStorage.getItem("activityNumber") == 1) {
             "b) By changing the sentence into a statement and adding the appropriate expression of emotion",
         },
       ],
-    ],
   };
 }
 
@@ -107,7 +105,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             'The comma (,) and quotation marks (") in the Direct Speech are removed and replaced by the conjunction ______.',
@@ -189,7 +186,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "emotion",
         },
       ],
-    ],
   };
 }
 
@@ -197,7 +193,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The comma and quotation marks in Direct Speech are removed and replaced by the conjunction 'that'.",
@@ -269,7 +264,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the primary function of an Adverb in a sentence?",
           optionA: "Modifying nouns",
@@ -82,7 +81,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Slowly",
         },
       ],
-    ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "An Adverb often modifies the meaning of a __________.",
           options: ["Noun", "Verb", "Adjective"],
@@ -168,7 +165,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "After that Verb",
         },
       ],
-    ],
   };
 }
 
@@ -176,7 +172,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Adverbs of Manner show the time of an action.",
           options: ["True", "False"],
@@ -229,7 +224,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What gift did Rayansh receive from his uncle for his birthday?",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Ridhima Mehra",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Rayansh received a _______ from his uncle for his birthday.",
@@ -151,7 +148,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "A) captain",
         },
       ],
-    ],
   };
 }
 
@@ -159,7 +155,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Rayansh received a camera as a birthday gift from his uncle.",
@@ -218,7 +213,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

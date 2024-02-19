@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What did the cobra eat when the crows went in search of food?",
@@ -81,7 +80,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "In a hole at the base of the tree",
         },
       ],
-    ],
   };
 }
 
@@ -89,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "The pair of crows lived on a huge banyan tree, and a ________ lived in a hole at the base of the same tree.",
@@ -149,7 +146,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Revenge",
         },
       ],
-    ],
   };
 }
 
@@ -157,7 +153,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The pair of crows lived on a mango tree.",
           optionA: "True",
@@ -223,7 +218,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

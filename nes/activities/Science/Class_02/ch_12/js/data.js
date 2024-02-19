@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the main source of light on Earth?",
           optionA: "Tubelight",
@@ -79,7 +78,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "C) Shadows become longer",
         },
       ],
-    ],
   };
 }
 
@@ -87,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "We cannot see anything in the ________.",
           options: ["Day", "Night", "Morning"],
@@ -144,7 +141,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Heat and light",
         },
       ],
-    ],
   };
 }
 
@@ -152,7 +148,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The sun is a big ball of fire.",
           options: ["True", "False"],
@@ -206,7 +201,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

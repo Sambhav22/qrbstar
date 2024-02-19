@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What defines physical changes?",
           optionA: "Changes in chemical composition",
@@ -78,7 +77,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B) Slow cooling of a saturated solution",
         },
       ],
-    ],
   };
 }
 
@@ -86,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Physical changes involve a change in the __________ properties of a substance.",
@@ -188,7 +185,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "B) Saturated",
         },
       ],
-    ],
   };
 }
 
@@ -196,7 +192,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Physical changes involve a change in the chemical composition of a substance.",
@@ -285,7 +280,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "B) False",
         },
       ],
-    ],
   };
 }
 

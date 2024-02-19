@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the primary cause of undesirable changes in the environment, affecting the quality of life?",
@@ -91,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 1) {
             "A. Adding insulation and soundproofing, using ear protection",
         },
       ],
-    ],
   };
 }
 
@@ -99,7 +97,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Environment is our surroundings which includes everything like ____, water, air, living beings etc.",
@@ -161,7 +158,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "B. animal",
         },
       ],
-    ],
   };
 }
 
@@ -169,7 +165,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Environment includes everything like land, water, air, living beings, etc.",
@@ -231,7 +226,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

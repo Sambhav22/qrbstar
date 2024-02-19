@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "Which words are examples of Adjectives in the given text?",
           optionA: "Krish, Mukti, Ravi",
@@ -82,7 +81,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "They describe nouns or pronouns.",
         },
       ],
-    ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Adjectives are words that describe __________ or __________.",
@@ -162,7 +159,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Nouns",
         },
       ],
-    ],
   };
 }
 
@@ -170,7 +166,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Adjectives describe only pronouns, not nouns.",
           optionA: "True",
@@ -238,7 +233,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

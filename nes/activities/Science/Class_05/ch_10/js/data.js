@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the outermost layer of Earth's atmosphere?",
           optionA: "Troposphere",
@@ -83,7 +82,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Killing germs",
         },
       ],
-    ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "The thick blanket of air that surrounds our earth is called the ________.",
@@ -152,7 +149,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           answer: "Braille",
         },
       ],
-    ],
   };
 }
 
@@ -160,7 +156,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The atmosphere extends about 800 km above the Earth's surface.",
@@ -222,7 +217,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           answer: "True",
         },
       ],
-    ],
   };
 }
 

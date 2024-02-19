@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the correct word order for an affirmative sentence in the past continuous tense?",
@@ -89,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "When were we watching television?",
         },
       ],
-    ],
   };
 }
 
@@ -97,7 +95,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "The Past Continuous Tense sentences demonstrate the continuity of action in the _________.",
@@ -163,7 +160,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "were",
         },
       ],
-    ],
   };
 }
 
@@ -171,7 +167,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Past Continuous Tense sentences show continuity of action in the Past.",
@@ -232,7 +227,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

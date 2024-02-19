@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the Sun's role in the Solar System?",
           optionA: "It revolves around the Earth",
@@ -80,7 +79,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B) Constellation",
         },
       ],
-    ],
   };
 }
 
@@ -88,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "The Sun is a ________ and lies in the center of the Solar System. It is around 100 times ________ than our Earth. Sun looks bigger because it is closer to the Earth than any other ________.",
@@ -154,7 +151,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Phases, Positions",
         },
       ],
-    ],
   };
 }
 
@@ -162,7 +158,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The Sun is the largest planet in the Solar System.",
           options: ["True", "False"],
@@ -218,7 +213,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the topic of the essay competition in Class VII-A?",
@@ -88,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "b) To the school",
         },
       ],
-    ],
   };
 }
 
@@ -96,7 +94,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "On the next Monday, __________, there will be held an essay competition in the class during the __________ period, on the topic 'Menace of Walking and Talking on Mobile Phone'.",
@@ -173,7 +170,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "b) tomorrow",
         },
       ],
-    ],
   };
 }
 
@@ -181,7 +177,6 @@ if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The essay competition in Class VII-A is scheduled for 27 April, 20xx during the second period.",
@@ -243,7 +238,6 @@ if (localStorage.getItem("activityNumber") == 3)
           correctAnswer: "True",
         },
       ],
-    ],
   };
 
 export var activityData;

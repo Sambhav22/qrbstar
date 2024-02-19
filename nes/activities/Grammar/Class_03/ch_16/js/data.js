@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the correct word order for an affirmative sentence in the Present Continuous Tense?",
@@ -88,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "With all singular subjects.",
         },
       ],
-    ],
   };
 }
 
@@ -96,7 +94,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "___________ is used with the Subject 'I'.",
           options: ["Is", "Are", "Am"],
@@ -150,7 +147,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Am",
         },
       ],
-    ],
   };
 }
 
@@ -158,7 +154,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Subject 'I' is paired with 'Am' in the Present Continuous Tense.",
@@ -218,7 +213,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

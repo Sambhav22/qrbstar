@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "Who was the eldest son of King Dasharatha?",
           optionA: "Rama",
@@ -80,7 +79,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "A feast",
         },
       ],
-    ],
   };
 }
 
@@ -88,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "1. King Dasharatha wanted Rama to become the next king, but Kaikeyi secured two vows from the king, resulting in Rama being exiled to the forests for ________ years.",
@@ -149,7 +146,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "b) Feast",
         },
       ],
-    ],
   };
 }
 
@@ -157,7 +153,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "King Dasharatha had three sons: Rama, Bharata, and Lakshmana.",
@@ -217,7 +212,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "false",
         },
       ],
-    ],
   };
 }
 

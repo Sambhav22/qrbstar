@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the Subject in a sentence?",
           optionA: "The action",
@@ -85,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B",
         },
       ],
-    ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The _______ is that part of a sentence about which something is said.",
@@ -194,7 +191,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "A",
         },
       ],
-    ],
   };
 }
 
@@ -202,7 +198,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The Predicate is the part of a sentence about which something is said.",
@@ -289,7 +284,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: false,
         },
       ],
-    ],
   };
 }
 

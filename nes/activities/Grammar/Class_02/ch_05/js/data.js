@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "Which of the following defines a Singular Number?",
           options: {
@@ -102,7 +101,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           answer: "B",
         },
       ],
-    ],
   };
 }
 
@@ -110,7 +108,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "___________ denotes a single person or thing.",
           options: {
@@ -211,7 +208,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           answer: "C",
         },
       ],
-    ],
   };
 }
 
@@ -219,7 +215,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Singular Nouns can always be transformed into Plural by adding -s.",
@@ -311,7 +306,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           answer: "B",
         },
       ],
-    ],
   };
 }
 

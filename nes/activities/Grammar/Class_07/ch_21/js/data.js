@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             'In the story "A Proud Cock," what warning did the hen have in her dream?',
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "b) The consequences of acting without thinking.",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "In the story \"A Proud Cock,\" the hen had an ominous dream that a cunning fox would pounce upon the cock and make a short work of him. The cock, however, made light of her warning, and that day a sly fox did pass that way. The fox praised the cock's ___________ and flattered him, leading to the cock's tragic demise.",
@@ -162,7 +159,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "b) careless",
         },
       ],
-    ],
   };
 }
 
@@ -170,7 +166,6 @@ if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "In the story 'A Proud Cock,' the hen's dream warned about a cunning fox attacking the cock.",
@@ -232,7 +227,6 @@ if (localStorage.getItem("activityNumber") == 3)
           correctAnswer: "Incorrect",
         },
       ],
-    ],
   };
 
 export var activityData;

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "How do most plants reproduce?",
           optionA: "By seeds",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Manure or fertilizers",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "Most plants originate from ____________.",
           options: {
@@ -203,7 +200,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Manure or fertilizers",
         },
       ],
-    ],
   };
 }
 
@@ -211,7 +207,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Plants reproduce only by seeds.",
           options: {
@@ -296,7 +291,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the primary function of prepositions in a sentence?",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Till",
         },
       ],
-    ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "The boy is _____ the chair and the table.",
           options: ["Above", "Between", "Beside"],
@@ -149,7 +146,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Beside",
         },
       ],
-    ],
   };
 }
 
@@ -157,7 +153,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Conjunctions are separating words.",
           options: ["True", "False"],
@@ -215,7 +210,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

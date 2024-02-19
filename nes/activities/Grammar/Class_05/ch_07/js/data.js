@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What does an Adjective primarily do?",
           optionA: "Modify Verbs",
@@ -83,7 +82,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Possessive Adjective",
         },
       ],
-    ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "An Adjective is a __________ word.",
           options: {
@@ -189,7 +186,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "This, That, These, Those",
         },
       ],
-    ],
   };
 }
 
@@ -197,7 +193,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "MSWLogo commands PRINT and LABEL are used for performing logical calculations.",
@@ -289,7 +284,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

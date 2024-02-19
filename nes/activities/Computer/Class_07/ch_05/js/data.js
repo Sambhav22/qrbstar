@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What are the two types of animation effects in PowerPoint?",
@@ -90,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "C) Slide Show",
         },
       ],
-    ],
   };
 }
 
@@ -98,7 +96,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The _____________ tool of PowerPoint application is powerful for attracting the audience's attention.",
@@ -200,7 +197,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "B) Esc",
         },
       ],
-    ],
   };
 }
 
@@ -208,7 +204,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "PowerPoint offers multiple categories of animation effects categorized into Entrance, Emphasis, Exit, and Motion Paths.",
@@ -300,7 +295,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "B) False",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the main reason Arijit Garg is writing the letter to his father for?",
@@ -81,7 +80,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Hope to get a scholarship",
         },
       ],
-    ],
   };
 }
 
@@ -89,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "Arijit Garg resides in ___________.",
           options: ["Delhi", "Sonipat", "Panchkuti Colony"],
@@ -161,7 +158,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "two",
         },
       ],
-    ],
   };
 }
 
@@ -169,7 +165,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Arijit Garg resides in Delhi.",
           options: ["True", "False"],
@@ -228,7 +223,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

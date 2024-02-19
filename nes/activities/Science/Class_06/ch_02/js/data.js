@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the key characteristic of a mixture?",
           optionA: "Fixed composition",
@@ -59,7 +58,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "C",
         },
       ],
-    ],
   };
 }
 
@@ -67,7 +65,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "A mixture is defined as a combination of two or more elements or compounds with __________ composition.",
@@ -149,7 +146,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "C",
         },
       ],
-    ],
   };
 }
 
@@ -157,7 +153,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "A mixture always has a fixed composition.",
           optionA: "True",
@@ -226,7 +221,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "A",
         },
       ],
-    ],
   };
 }
 

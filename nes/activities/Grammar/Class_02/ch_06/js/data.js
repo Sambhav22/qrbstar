@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What does Masculine Gender represent?",
           optionA: "Male Nouns",
@@ -83,7 +82,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Masculine Gender",
         },
       ],
-    ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "Masculine Gender represents nouns that denote __________.",
           optionA: "Female entities",
@@ -167,7 +164,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Both male and female beings",
         },
       ],
-    ],
   };
 }
 
@@ -175,7 +171,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "In order to start Tux Paint in windowed mode, clicking on the Tux Paint (Windowed) in the Tux Paint folder is necessary.",
@@ -246,7 +241,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "Incorrect",
         },
       ],
-    ],
   };
 }
 

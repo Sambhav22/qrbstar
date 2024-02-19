@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the appropriate response to 'Good morning!'?",
           optionA: "Excuse me!",
@@ -80,7 +79,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Where are you going?",
         },
       ],
-    ],
   };
 }
 
@@ -88,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "Hello! ____________!",
           options: ["Good", "Shut", "Never shout"],
@@ -140,7 +137,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Pardon, please",
         },
       ],
-    ],
   };
 }
 
@@ -148,7 +144,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The boy is between the chair and the table.",
           options: ["True", "False"],
@@ -202,7 +197,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

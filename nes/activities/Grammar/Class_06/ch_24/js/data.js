@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the new schedule change mentioned in Sanchit's notice?",
@@ -93,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "He left a message under the door.",
         },
       ],
-    ],
   };
 }
 
@@ -101,7 +99,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Once upon a ________, in a small village, there lived a young boy named Rahul.",
@@ -164,7 +161,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "c) extraordinary ability",
         },
       ],
-    ],
   };
 }
 
@@ -172,7 +168,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Rahul received a mysterious book from the forest.",
           options: ["A) True", "B) False"],
@@ -227,7 +222,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "B) False",
         },
       ],
-    ],
   };
 }
 

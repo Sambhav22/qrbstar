@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the purpose of learning your complete address and important contact numbers at home?",
@@ -87,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "To look organized and disciplined",
         },
       ],
-    ],
   };
 }
 
@@ -95,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "_______ is not only painful to us but it also makes our parents distraught.",
@@ -156,7 +153,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Elder",
         },
       ],
-    ],
   };
 }
 
@@ -164,7 +160,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Getting hurt or injured is only painful to us.",
           options: ["True", "False"],
@@ -225,7 +220,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is a disease?",
           optionA: "A state of mental discomfort",
@@ -82,7 +81,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Excessive accumulation of fat in the body",
         },
       ],
-    ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Sometimes we do not feel comfortable in doing anything. Our body or the mind becomes inactive. We feel sad, depressed, and become irritated. These are the symptoms that show that some kind of ______________ has attacked us.",
@@ -155,7 +152,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Excessive accumulation of fat in the body",
         },
       ],
-    ],
   };
 }
 
@@ -163,7 +159,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Vaccination uses special substances called vaccines that prevent specific diseases.",
@@ -235,7 +230,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

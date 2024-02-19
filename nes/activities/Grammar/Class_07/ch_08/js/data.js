@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the Subject of a sentence?",
           optionA: "The part of the sentence that completes the action.",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The Subject of a sentence may include determiners like a, an, this, that, these, those, your, my, his, her, their, its, etc. For example, a monkey sitting on _____ tree.",
@@ -154,7 +151,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "the",
         },
       ],
-    ],
   };
 }
 
@@ -162,7 +158,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "A Subject may include determiners like a, an, this, that, these, those, your, my, his, her, their, its, etc.",
@@ -234,7 +229,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

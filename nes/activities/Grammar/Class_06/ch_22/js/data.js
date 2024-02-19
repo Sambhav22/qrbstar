@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What does the saffron color in the Indian National Flag symbolize?",
@@ -85,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Agriculture",
         },
       ],
-    ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "Our National Flag is also known as _______________.",
           options: ["A) Tricolour", "B) Monochrome", "C) Rainbow"],
@@ -161,7 +158,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "A) Farming",
         },
       ],
-    ],
   };
 }
 
@@ -169,7 +165,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "King Dasharatha had three sons: Rama, Bharata, and Lakshmana.",
@@ -229,7 +224,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "false",
         },
       ],
-    ],
   };
 }
 

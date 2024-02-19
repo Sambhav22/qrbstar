@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the correct structure for forming an affirmative sentence in the Simple Future or Future Indefinite Tense?",
@@ -96,7 +95,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Only 'I' and 'we'",
         },
       ],
-    ],
   };
 }
 
@@ -104,7 +102,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "In Simple Future or Future Indefinite Tense, the affirmative sentence structure is Subject + will/shall + Verb I Form + Object. For example, 'We ________ a taxi.'",
@@ -170,7 +167,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Future Perfect Continuous Tense",
         },
       ],
-    ],
   };
 }
 
@@ -178,7 +174,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Simple Past or Past Indefinite Tense is used to show a habitual action.",
@@ -240,7 +235,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

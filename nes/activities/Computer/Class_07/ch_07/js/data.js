@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is an algorithm?",
           optionA:
@@ -82,7 +81,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B",
         },
       ],
-    ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The primary purpose of a __________ in the Mughal royal court was to meet nobles and officers.",
@@ -160,7 +157,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Direct control",
         },
       ],
-    ],
   };
 }
 
@@ -168,7 +164,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The flowchart uses boxes of different shapes to denote different types of instructions.",
@@ -230,7 +225,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the lion's reaction to hearing the echo?",
           optionA: "It becomes frightened and seeks revenge.",
@@ -80,7 +79,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "A) Everything in life is temporary.",
         },
       ],
-    ],
   };
 }
 
@@ -88,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Pollution is causing extensive _____ to all sorts of life on the earth.",
@@ -186,7 +183,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "b",
         },
       ],
-    ],
   };
 }
 
@@ -194,7 +190,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "We read the lives of common people.",
           options: {
@@ -281,7 +276,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "b",
         },
       ],
-    ],
   };
 }
 

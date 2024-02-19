@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is friction?",
           optionA: "A force that attracts objects to each other",
@@ -91,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B) Designing tires with grooves on the surface",
         },
       ],
-    ],
   };
 }
 
@@ -99,7 +97,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Friction is a force that comes into play when two surfaces are __________ against each other.",
@@ -180,7 +177,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "c) ball bearings",
         },
       ],
-    ],
   };
 }
 
@@ -188,7 +184,6 @@ if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Friction is a force that comes into play when two surfaces are rubbed against each other.",
@@ -260,7 +255,6 @@ if (localStorage.getItem("activityNumber") == 3)
           correctAnswer: "True",
         },
       ],
-    ],
   };
 
 export var activityData;

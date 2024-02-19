@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What defines a Negative Sentence?",
           optionA: "Presence of 'not' or 'no'",
@@ -78,7 +77,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "He is not a businessman.",
         },
       ],
-    ],
   };
 }
 
@@ -86,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "There is ______ water in the jug.",
           options: ["some", "no", "much"],
@@ -139,7 +136,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "not",
         },
       ],
-    ],
   };
 }
 
@@ -147,7 +143,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "There is water in the jug.",
           options: ["True", "False"],
@@ -199,7 +194,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

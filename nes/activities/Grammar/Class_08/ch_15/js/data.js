@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             'Which of the following question tags is correct for the sentence: "She has a colourful umbrella"?',
@@ -87,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "A) have I",
         },
       ],
-    ],
   };
 }
 
@@ -95,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "She has a colourful umbrella, __________?",
           optionA: "hasn't she",
@@ -167,7 +164,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "A) will you",
         },
       ],
-    ],
   };
 }
 
@@ -175,7 +171,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "A resource is a thing which has some value and utility.",
           optionA: "True",
@@ -246,7 +241,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

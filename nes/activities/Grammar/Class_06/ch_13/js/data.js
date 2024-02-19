@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What are the three types of phrases mentioned in the text?",
@@ -85,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Subordinate Clause",
         },
       ],
-    ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "1. Noun Phrases: A group of words in a sentence that functions like a __________ is called a Noun Phrase.",
@@ -155,7 +152,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "b) Clause",
         },
       ],
-    ],
   };
 }
 
@@ -163,7 +159,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Noun Phrases are groups of words in a sentence that function like verbs.",
@@ -223,7 +218,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

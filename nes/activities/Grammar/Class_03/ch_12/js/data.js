@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What tense is used in the given sentences?",
           optionA: "Past Tense",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
             "Akshat was good at grammar. (Note: It uses 'was,' indicating past tense)",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "He ______ a boy.",
           options: ["am", "is", "are"],
@@ -144,7 +141,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "were",
         },
       ],
-    ],
   };
 }
 
@@ -152,7 +148,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "He is a boy.",
           options: ["True", "False"],
@@ -204,7 +199,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: 'What is the Masculine Gender of "niece"?',
           optionA: "Nephew",
@@ -80,7 +79,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Neuter Gender",
         },
       ],
-    ],
   };
 }
 
@@ -88,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Masculine Gender is assigned to living Nouns that are __________.",
@@ -167,7 +164,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Feminine",
         },
       ],
-    ],
   };
 }
 
@@ -175,7 +171,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "A living Noun in Feminine Gender is always female.",
           optionA: "True",
@@ -243,7 +238,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

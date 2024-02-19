@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What does a Verb do in a sentence?",
           optionA: "Shows a condition or state",
@@ -92,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 1) {
             "B) Base form, Past form, Past Participle form, Present Participle form",
         },
       ],
-    ],
   };
 }
 
@@ -100,7 +98,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "A Verb is a word which tells or asserts something about a person or thing. It can do one of the following three things: 1. It can show an action; for example: ► The dog walked over the wooden bridge. ► It barked at its reflection in the water. 2. It can show a condition or state; for example: ► My school is large and popular. 3. It can show a happening; for example: ► The bus caught fire in no time. A Verb may consist of one or more words: ► The old man seems fresh today. ► A bird lived in its nest with its nestlings. ► A lion kills a deer. ► A lion has been killing a deer for some time. ► A lion has killed a deer. ► A deer has been killed by a lion. The Verbs form a very important part of a sentence as well as language. They function in various ways, so we can classify them in many ways: 1. Intransitive Verbs and Transitive Verbs (a) Intransitive Verbs: When the action of a Verb does not pass over from the Subject to the Object, it is called an Intransitive Verb. In other words, an Intransitive Verb does not need an Object to complete its sense; for example: ❖ The boys were walking to school. ❖ The child cried out of hunger. ❖ Water flows in the river swiftly. ❖ The boys jumped in joy. (b) Transitive Verbs: A Transitive Verb is an action that passes over from the Subject to the Object. That is, a Transitive Verb necessarily needs an Object to complete its sense. Compare the following sentences: 2. Main Verbs and Auxiliary Verbs You know that in a sentence, a Verb may be made up of one or more words; for example ► Carry the box there. ( one word) ► They have carried the box there. (two words) ► He has been carrying the box for ten minutes. (three words) ► They will have been carrying the box since morning. ( four words) (a) Main Verbs: In a sentence, the main part of the Verb is called the Main Verb. It functions independently in a sentence. In the above sentences, carry in its different forms is the Main (b) i[iary Verbs: An Auxiliary Verb helps the Main Verb in giving it a proper sense. In the above sentences, have, has been and will have been help the Main Verb in giving the required shade of meaning. They constitute Auxiliary Verbs. 3. Action Verbs and Linking Verbs (a) Action Verbs: An Action Verb shows some action; for example: ❖ The bat plucked an insect inches above my head. b)Linking Verbs: Some Verbs need not an object, but something that will complete the sense. Such a Verb is called a Linking Verb; for example: ❖ The room is airy. ❖ That machinery was old and weary. ❖ The camel looks fresh and healthy despite a long walk in the desert. ❖ This dosa tastes good. In the first example above, airy has been added to give a complete sense to the Verb (is); here airy is not the Object, but it helps to complete the sense. Such a word or word-group is called the Complement. In the other examples, the Linking Verbs are was, looks and tastes. A Complement can be a Subjective Complement or an Objective Complement. A Subjective Complement speaks about the Subject, and an Objective Complement speaks about the Object; for example: ► The old man appears strong. Strong speaks about the Subject (the old man), so it is a Subjective Complement. ► Victor painted the boundary brown. Brown speaks about the Object (the boundary) and not the Subject, so it is an Objective Complement. Some Linking Verbs for Subjective Complements are: act, be, become, feel, appear, grow, taste, sound, smell etc. Some Linking Verbs for Objective Complements are : hold, pronounce, name, ask, order etc. 4. Finite and Non-finite Verbs (a) Finite Verbs : Some Verbs change their form with the change in Number and Person of the Subject; they are called Finite Verbs. (b) Non-finite Verbs : Some Verbs remain same despite a change in Number and Person of the Subject or Tense; they are called Non-finite Verbs. Read the following sentences : ❖ The passenger buys food to eat. ❖ They had bought food to eat. ❖ Some women have bought food to eat. ❖ The passenger bought food to eat. ❖ You will buy food to eat. ❖ She has been buying food to eat since last month. In the above sentences, buy is the Finite Verb, it changes its form with different Subjects as well as in different tenses; but to eat has remained same despite all the changes in the sentences, so it is a Non-finite Verb. FORMS OF VERBS Different forms of Verbs are used in different tenses. The four forms of a Verb can be : 1. Present form (I Form or Root Verb): I go to school. 2. Past form (II Form): I went to school. 3. Past Participle form (III Form) : I have gone to school. 4. Present Participle form (-ing Form) : I am going to school. Weak Verbs The Past Tense and Past Participle forms of some Verbs are formed by adding -ed, -d or -t in the Present Tense form; such Verbs are called Weak Verbs; for example: Strong Verbs Some Verbs are changed into Past and Participle forms by changing inside vowels or making other changes; such Verbs are called Strong Verbs.",
@@ -182,7 +179,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "C) Present Participle form",
         },
       ],
-    ],
   };
 }
 
@@ -190,7 +186,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "A Verb can only show an action.",
           optionA: "True",
@@ -258,7 +253,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

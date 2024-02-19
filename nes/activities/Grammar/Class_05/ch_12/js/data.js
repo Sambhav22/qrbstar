@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What are the three forms of a verb?",
           optionA: "Present, Past, Future",
@@ -83,7 +82,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Present Participle Form",
         },
       ],
-    ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Every verb has three forms: Present Form (I Form), Past Form (II Form), and Past Participle Form (III Form). The IV Form, called Present Participle, is formed by adding ________ to the Present Form of the verb.",
@@ -153,7 +150,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Some Verbs",
         },
       ],
-    ],
   };
 }
 
@@ -161,7 +157,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The Present Participle Form is formed by adding -ing to the Past Form of the verb.",
@@ -222,7 +217,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

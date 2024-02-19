@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What does Simple Future Tense describe?",
           optionA: "Past actions",
@@ -89,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Shall we go to the park?",
         },
       ],
-    ],
   };
 }
 
@@ -97,7 +95,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Simple Future Tense, also known as Future Indefinite Tense, describes an action that ____________ in the future.",
@@ -161,7 +158,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "will",
         },
       ],
-    ],
   };
 }
 
@@ -169,7 +165,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Simple Future Tense is also known as Future Indefinite Tense.",
@@ -230,7 +225,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

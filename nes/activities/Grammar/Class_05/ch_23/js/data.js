@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What was Mr. Kamal doing when the traffic light turned red?",
@@ -79,7 +78,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "To his office",
         },
       ],
-    ],
   };
 }
 
@@ -87,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "Mr. Kamal was ________ his car to his office.",
           options: ["riding", "walking", "__________"],
@@ -147,7 +144,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "his office",
         },
       ],
-    ],
   };
 }
 
@@ -155,7 +151,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Mr. Kamal was riding his bicycle to his office.",
           options: ["True", "False"],
@@ -214,7 +209,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

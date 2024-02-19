@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the primary function of words?",
           options: {
@@ -98,7 +97,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           answer: "A",
         },
       ],
-    ],
   };
 }
 
@@ -106,7 +104,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "A word is comprised of letters of the ________.",
           options: {
@@ -198,7 +195,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           answer: "B",
         },
       ],
-    ],
   };
 }
 
@@ -206,7 +202,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "A word comprises only numbers of the Alphabet.",
           options: {
@@ -290,7 +285,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           answer: "B",
         },
       ],
-    ],
   };
 }
 

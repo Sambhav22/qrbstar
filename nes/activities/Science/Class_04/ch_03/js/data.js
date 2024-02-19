@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What are the three main groups of adaptations in animals mentioned in the text?",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "C) Sharp biting teeth",
         },
       ],
-    ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Animals living in deserts, such as camels, foxes, snakes, lizards, and moles, have ____________ skin and coarse hair to protect themselves from the extreme heat and cold.",
@@ -176,7 +173,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "B) herbivores",
         },
       ],
-    ],
   };
 }
 
@@ -184,7 +180,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The adaptation of animals to their habitat includes features such as body, behavior, and habits.",
@@ -256,7 +251,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

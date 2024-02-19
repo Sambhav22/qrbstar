@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the main reason mentioned in the first text for requesting additional library periods?",
@@ -87,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Rare coins, stamps, statues, weapons, and fossils",
         },
       ],
-    ],
   };
 }
 
@@ -95,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "In the first text, the student requests the increase of library periods from __________ to four on Tuesday and Thursday.",
@@ -157,7 +154,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Good Manners",
         },
       ],
-    ],
   };
 }
 
@@ -165,7 +161,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The student in the first text requests an increase in library periods to four on Tuesday and Thursday.",
@@ -227,7 +222,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

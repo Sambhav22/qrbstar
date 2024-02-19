@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is an Adverb primarily responsible for in a sentence?",
@@ -83,7 +82,6 @@ if (localStorage.getItem("activityNumber") == 1) {
             "c) Adverbs of Manner, Adverbs of Time, and Adverbs of Degree",
         },
       ],
-    ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "An Adverb is a word that adds to the meaning of an Adjective, a Verb, or another Adverb in a sentence. Adverbs can modify ________________ in a sentence.",
@@ -172,7 +169,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "c) Adverb of Degree",
         },
       ],
-    ],
   };
 }
 
@@ -180,7 +176,6 @@ if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Adverbs modify nouns, verbs, or other adverbs in a sentence.",
@@ -248,7 +243,6 @@ if (localStorage.getItem("activityNumber") == 3)
           correctAnswer: "False",
         },
       ],
-    ],
   };
 
 export var activityData;

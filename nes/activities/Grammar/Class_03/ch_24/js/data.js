@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What did Sandhya receive as a birthday gift from her brother?",
@@ -82,7 +81,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Come soon",
         },
       ],
-    ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "Hello, how are you? I missed you a lot on my ___________.",
           options: ["Anniversary", "Birthday", "Graduation"],
@@ -146,7 +143,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Affectionately",
         },
       ],
-    ],
   };
 }
 
@@ -154,7 +150,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Sandhya received a dress as a birthday gift from her brother.",
@@ -209,7 +204,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

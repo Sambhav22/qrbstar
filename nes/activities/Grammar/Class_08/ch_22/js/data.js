@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is Ratan Tata's contribution to the Tata Group?",
           optionA: "He increased unethical practices.",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B) Achieving what is good and noble",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Ratan Tata was born on __________, 1937 to Naval Tata and Sooni Tata.",
@@ -157,7 +154,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "noble",
         },
       ],
-    ],
   };
 }
 
@@ -165,7 +161,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Ratan Tata was born on 28 December, 1937.",
           optionA: "True",
@@ -234,7 +229,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What are some activities for which water is essential, according to the text?",
@@ -88,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 1) {
             "Water is crucial for various activities and should be used wisely",
         },
       ],
-    ],
   };
 }
 
@@ -96,7 +94,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Water is essential for all living things to stay alive. Except for drinking, we need water for different activities such as: to cook food, to wash clothes, to take a bath, to clean utensils, to mop the floor, and to ____________ out fire.",
@@ -154,7 +151,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Severely",
         },
       ],
-    ],
   };
 }
 
@@ -162,7 +158,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "A tailor is responsible for stitching our clothes.",
           optionA: "True",
@@ -224,7 +219,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What are the five essential nutrients needed by the body?",
           optionA: "Carbohydrates, Fats, Proteins, Vitamins, Roughage",
@@ -85,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Peeling fruits before eating",
         },
       ],
-    ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Carbohydrates are one of the major kinds of nutrients needed by all living organisms. The main carbohydrates found in our food are in the form of __________ and sugar.",
@@ -195,7 +192,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Eating",
         },
       ],
-    ],
   };
 }
 
@@ -203,7 +199,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Carbohydrates are the primary nutrients responsible for building new tissues in the human body.",
@@ -294,7 +289,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

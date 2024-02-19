@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is a Common Noun?",
           optionA: "A specific person's name",
@@ -80,7 +79,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "C) When denoting possession",
         },
       ],
-    ],
   };
 }
 
@@ -88,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Common Nouns represent a whole ________ of a particular kind, such as girl, farmer, king, forest, farm, zoo, horse, giraffe, tiger, table, needle, etc.",
@@ -190,7 +187,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "B",
         },
       ],
-    ],
   };
 }
 
@@ -198,7 +194,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "A Common Noun represents a specific person, place, animal, or thing.",
@@ -289,7 +284,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "B",
         },
       ],
-    ],
   };
 }
 

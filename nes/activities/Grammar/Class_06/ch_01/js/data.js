@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What type of noun is 'child'?",
           optionA: "Proper Noun",
@@ -82,7 +81,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Raj",
         },
       ],
-    ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "__________, Central Processing Unit (CPU), and Output Devices are the three essential components required for computer processes.",
@@ -191,7 +188,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "System Software",
         },
       ],
-    ],
   };
 }
 
@@ -199,7 +195,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "A Common Noun is a specific name given to a particular person, place, or thing.",
@@ -289,7 +284,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

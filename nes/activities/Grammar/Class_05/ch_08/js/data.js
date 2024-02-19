@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the Positive Degree of an adjective?",
           optionA: "Describes a Noun or Pronoun in simple terms.",
@@ -95,7 +94,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Always",
         },
       ],
-    ],
   };
 }
 
@@ -103,7 +101,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Children! You are already familiar with Scratch. In your previous class, you learnt about different types and shapes of blocks. Now in this chapter, you will learn a few more blocks which are Sensing, Variables and Conditional blocks.",
@@ -185,7 +182,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Any key pressed",
         },
       ],
-    ],
   };
 }
 
@@ -193,7 +189,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Children will learn about Sensing, Variables, and Conditional blocks in Scratch.",
@@ -263,7 +258,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "true",
         },
       ],
-    ],
   };
 }
 

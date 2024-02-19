@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the active voice in a sentence?",
           optionA: "a) When the subject receives the action.",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "a) 'Let him not be called here by you.'",
         },
       ],
-    ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "In __________ voice, the subject of a verb is doing the action.",
@@ -160,7 +157,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "a) remains unchanged",
         },
       ],
-    ],
   };
 }
 
@@ -168,7 +164,6 @@ if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The passive voice is used when the subject of a verb is receiving the action.",
@@ -230,7 +225,6 @@ if (localStorage.getItem("activityNumber") == 3)
           correctAnswer: "True",
         },
       ],
-    ],
   };
 
 export var activityData;

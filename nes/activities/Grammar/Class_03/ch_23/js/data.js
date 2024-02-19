@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "Why is Anjali/Rahul writing the application to the principal?",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Request for leave due to illness",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "I, Anjali/Rahul, am writing an application to the principal for leave of absence for ____________ days due to illness.",
@@ -158,7 +155,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Actual",
         },
       ],
-    ],
   };
 }
 
@@ -166,7 +162,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Anjali/Rahul is seeking leave for two days due to illness.",
@@ -227,7 +222,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

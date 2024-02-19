@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "In which type of sentence is a Question Tag formed with an Auxiliary Verb?",
@@ -87,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "a) Did you?",
         },
       ],
-    ],
   };
 }
 
@@ -95,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "If there is an Auxiliary Verb in the sentence, a Question Tag is formed with it; for example: You have a red pen, __________?",
@@ -160,7 +157,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "B. Simple Present Tense",
         },
       ],
-    ],
   };
 }
 
@@ -168,7 +164,6 @@ if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The negative Question Tag for I is aren't I (and not amn't I).",
@@ -227,7 +222,6 @@ if (localStorage.getItem("activityNumber") == 3)
           correctAnswer: "B. False",
         },
       ],
-    ],
   };
 
 export var activityData;

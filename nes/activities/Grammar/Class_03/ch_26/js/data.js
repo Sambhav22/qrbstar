@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is identified as the root cause of childhood obesity according to the text?",
@@ -87,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Regular consumption of fruits and vegetables",
         },
       ],
-    ],
   };
 }
 
@@ -95,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Childhood obesity is a significant issue in school-going children, especially in towns and cities. If you look around, you will find a large number of ____ children around you.",
@@ -159,7 +156,6 @@ if (localStorage.getItem("activityNumber") == 2) {
             "Lack of physical activity, excessive watching of television, and excessive games on the computer",
         },
       ],
-    ],
   };
 }
 
@@ -167,7 +163,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Childhood obesity is not a significant problem in school-going children.",
@@ -228,7 +223,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

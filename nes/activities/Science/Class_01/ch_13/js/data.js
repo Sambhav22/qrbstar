@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the wide open space above the earth called?",
           optionA: "Ocean",
@@ -78,7 +77,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "They are far away",
         },
       ],
-    ],
   };
 }
 
@@ -86,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "The wide open space above the earth is called _______.",
           options: ["Ocean", "Sky", "Atmosphere"],
@@ -142,7 +139,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Celestial",
         },
       ],
-    ],
   };
 }
 
@@ -150,7 +146,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The wide open space above the earth is called Ocean.",
           options: ["True", "False"],
@@ -205,7 +200,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "In passive voice, what happens to the subject of a sentence from active voice?",
@@ -85,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "It becomes the subject",
         },
       ],
-    ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "1. While changing sentences of the present indefinite tense into passive voice, the verb is changed into the ______ form.",
@@ -180,7 +177,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "b) Requested",
         },
       ],
-    ],
   };
 }
 
@@ -188,7 +184,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Changing sentences from the present indefinite tense into passive voice involves changing the verb into the past participle form.",
@@ -260,7 +255,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is a Sentence?",
           optionA: "A group of words with no specific order",
@@ -79,7 +78,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "C",
         },
       ],
-    ],
   };
 }
 
@@ -87,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "A ________ in the Mughal royal court was to meet nobles and officers.",
@@ -157,7 +154,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Direct control",
         },
       ],
-    ],
   };
 }
 
@@ -165,7 +161,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The Diwan-i-Khas in the Mughal royal court was primarily for meeting nobles and officers.",
@@ -227,7 +222,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the environment composed of?",
           optionA: "Water, electricity, and air",
@@ -95,7 +94,6 @@ if (localStorage.getItem("activityNumber") == 1) {
             "Protecting the environment and making the earth a beautiful place to live",
         },
       ],
-    ],
   };
 }
 
@@ -103,7 +101,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "A clean environment is necessary to live a _________ and healthy life.",
@@ -165,7 +162,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Environment",
         },
       ],
-    ],
   };
 }
 
@@ -173,7 +169,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Independence Day is celebrated on 15th August every year.",
           options: ["True", "False"],
@@ -234,7 +229,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

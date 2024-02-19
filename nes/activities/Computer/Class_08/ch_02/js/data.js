@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the primary purpose of Mail Merge in Microsoft Word?",
@@ -95,7 +94,6 @@ if (localStorage.getItem("activityNumber") == 1) {
             "B) Check how the recipient list appears in the document",
         },
       ],
-    ],
   };
 }
 
@@ -103,7 +101,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The main document is linked to the data source by using ______ fields to generate output documents.",
@@ -185,7 +182,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Information",
         },
       ],
-    ],
   };
 }
 
@@ -193,7 +189,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The Mail Merge process in Word involves creating the main document, the data source, and merging them together.",
@@ -265,7 +260,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             'What did the king declare for the courtier in "The Clever Courtier"?',
@@ -85,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Three axes",
         },
       ],
-    ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "One day, the king declared the __________ for the courtier due to his annoyance.",
@@ -154,7 +151,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Honesty",
         },
       ],
-    ],
   };
 }
 
@@ -162,7 +158,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The king declared a reward for the courtier due to his annoyance.",
@@ -220,7 +215,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

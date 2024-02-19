@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What do prepositions show in a sentence?",
           optionA: "Verb tense",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "At",
         },
       ],
-    ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "A child is ________ the wall.",
           options: ["above", "on", "between"],
@@ -146,7 +143,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "on",
         },
       ],
-    ],
   };
 }
 
@@ -154,7 +150,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "A child is on the wall.",
           options: ["True", "False"],
@@ -206,7 +201,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

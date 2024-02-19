@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the ultimate source of food and energy for all living organisms?",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "C",
         },
       ],
-    ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Green plants carry out __________ to synthesize food using carbon dioxide, water, and sunlight.",
@@ -196,7 +193,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "b",
         },
       ],
-    ],
   };
 }
 
@@ -204,7 +200,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Green plants carry out photosynthesis to synthesize food using carbon dioxide, water, and sunlight.",
@@ -296,7 +291,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

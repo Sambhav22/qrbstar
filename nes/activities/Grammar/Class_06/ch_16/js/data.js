@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What are the two parts of a sentence in Direct Speech?",
           optionA: "Reporting Verb and Reported Action",
@@ -91,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 1) {
             "To report what someone else said without quoting them directly",
         },
       ],
-    ],
   };
 }
 
@@ -99,7 +97,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "1. When changing Direct Speech to Indirect Speech, the comma and inverted commas are removed and replaced by the conjunction __________.",
@@ -165,7 +162,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "a) tense",
         },
       ],
-    ],
   };
 }
 
@@ -173,7 +169,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Question Tag is used more often in speech than in writing.",
@@ -243,7 +238,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           answer: "True",
         },
       ],
-    ],
   };
 }
 

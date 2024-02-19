@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What type of noun is 'student' in the sentence 'All the students of this school are very disciplined'?",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Common Nouns are names given to any person, place, animal, or thing of the same __________ or kind.",
@@ -191,7 +188,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "c",
         },
       ],
-    ],
   };
 }
 
@@ -199,7 +195,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Common Nouns are specific names given to particular persons, places, animals, or things.",
@@ -291,7 +286,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "false",
         },
       ],
-    ],
   };
 }
 

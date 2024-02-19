@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the correct word order for a negative sentence in Simple Past Tense?",
@@ -96,7 +95,6 @@ if (localStorage.getItem("activityNumber") == 1) {
             "An action in continuity from a given time in the past",
         },
       ],
-    ],
   };
 }
 
@@ -104,7 +102,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "In Simple Past or Past Indefinite Tense, the affirmative sentence structure is Subject + Verb in II Form + Object. For example, 'He ________ a book.'",
@@ -170,7 +167,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Past Perfect Tense",
         },
       ],
-    ],
   };
 }
 
@@ -178,7 +174,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Simple Past or Past Indefinite Tense is used to show a habitual action.",
@@ -240,7 +235,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

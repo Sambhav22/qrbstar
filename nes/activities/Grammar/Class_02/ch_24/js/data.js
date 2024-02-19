@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the purpose of Sonam's letter to Nityam?",
           optionA: "To ask about Nityam's well-being",
@@ -79,7 +78,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Yours affectionate friend",
         },
       ],
-    ],
   };
 }
 
@@ -160,7 +158,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Sonam lives in Shastri Bagh.",
           options: ["Shastri Bagh", "Chandni Chowk"],
@@ -213,7 +210,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           answer: "False",
         },
       ],
-    ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is a Verb?",
           optionA: "A type of noun",
@@ -80,7 +79,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "B",
         },
       ],
-    ],
   };
 }
 
@@ -88,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "A Verb is a word which tells or asserts something about a person or thing. It can show an action; for example, a little girl __________ to music.",
@@ -150,7 +147,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Complement",
         },
       ],
-    ],
   };
 }
 
@@ -158,7 +154,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "A Verb can only show an action or condition.",
           options: ["True", "False"],
@@ -217,7 +212,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

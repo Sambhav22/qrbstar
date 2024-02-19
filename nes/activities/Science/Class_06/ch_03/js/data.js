@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the process of grouping and sorting materials called?",
@@ -88,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "b) Floatation",
         },
       ],
-    ],
   };
 }
 
@@ -96,7 +94,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Classification of materials is the process of grouping and sorting materials based on their ____________ and dissimilarities.",
@@ -198,7 +195,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "a",
         },
       ],
-    ],
   };
 }
 
@@ -206,7 +202,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The Neolithic Age is thought to have existed from circa 8000 BC to 4000 BC.",
@@ -297,7 +292,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "b",
         },
       ],
-    ],
   };
 }
 

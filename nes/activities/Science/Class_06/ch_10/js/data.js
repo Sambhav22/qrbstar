@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the story behind the discovery of magnets?",
           optionA: "Discovered by a scientist in a laboratory",
@@ -83,7 +82,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Keeping them near electronic items",
         },
       ],
-    ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "The discovery of magnets is attributed to the shepherd boy named __________.",
@@ -152,7 +149,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           answer: "Heat",
         },
       ],
-    ],
   };
 }
 
@@ -160,7 +156,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Magnets can lose their magnetism if heated strongly.",
           options: ["True", "False"],
@@ -218,7 +213,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           answer: "False",
         },
       ],
-    ],
   };
 }
 

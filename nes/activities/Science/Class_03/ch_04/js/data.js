@@ -96,7 +96,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "The body of a bird is divided into three parts - _____, _____, and _____.",
@@ -169,7 +168,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Webbed",
         },
       ],
-    ],
   };
 }
 
@@ -177,7 +175,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Birds have three main body parts - head, trunk, and tail.",
           options: ["True", "False"],
@@ -236,7 +233,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           answer: "True",
         },
       ],
-    ],
   };
 }
 

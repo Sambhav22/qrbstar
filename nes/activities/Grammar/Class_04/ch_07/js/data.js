@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the primary function of adjectives?",
           optionA: "Emphasize verbs",
@@ -82,7 +81,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Indicate quantities",
         },
       ],
-    ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question: "Adjectives tell us more about ________ or _________.",
           options: ["Verbs", "Nouns", "Pronouns"],
@@ -145,7 +142,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Persons",
         },
       ],
-    ],
   };
 }
 
@@ -153,7 +149,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Adjectives emphasize verbs.",
           options: ["True", "False"],
@@ -209,7 +204,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

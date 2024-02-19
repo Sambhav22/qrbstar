@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             'What is "picture writing" in the context of ancient communication?',
@@ -88,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "To create a mental image in the reader's mind",
         },
       ],
-    ],
   };
 }
 
@@ -96,7 +94,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             'In ancient communication, "picture writing" refers to the use of pictorial or logographic writing systems where symbols or pictures are used to represent __________ or ideas.',
@@ -178,7 +175,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Concepts",
         },
       ],
-    ],
   };
 }
 
@@ -186,7 +182,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Pictorial writing systems use symbols or pictures to represent words or ideas.",
@@ -256,7 +251,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

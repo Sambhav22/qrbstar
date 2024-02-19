@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What are the two main groups into which plants are generally divided?",
@@ -83,7 +82,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Protect seeds from harsh weather",
         },
       ],
-    ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             "Herbs are small plants with soft and delicate stems. They are generally smaller in size, up to one metre, and may live for ___ or ___ seasons. Examples of herbs are tulsi, coriander, mint, balsam, wheat, paddy, mustard, etc.",
@@ -153,7 +150,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "pollination",
         },
       ],
-    ],
   };
 }
 
@@ -161,7 +157,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Plants such as watermelon, pumpkin, and strawberry are categorized as climbers.",
@@ -223,7 +218,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

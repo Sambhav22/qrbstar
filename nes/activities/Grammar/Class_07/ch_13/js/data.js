@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "Why did he enter the room in the first sentence?",
           optionA: "A) To sleep",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "A) The fulfillment of a proposition",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "He entered the room to ______________.",
           optionA: "A) read a book",
@@ -169,7 +166,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "B) a proposition",
         },
       ],
-    ],
   };
 }
 
@@ -177,7 +173,6 @@ if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "He entered the room to go to bed.",
           optionA: "A) True",
@@ -240,7 +235,6 @@ if (localStorage.getItem("activityNumber") == 3)
           correctAnswer: "A) True",
         },
       ],
-    ],
   };
 
 export var activityData;

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What are the three main tenses or times that a verb can show?",
@@ -89,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Present Perfect Tense",
         },
       ],
-    ],
   };
 }
 
@@ -97,7 +95,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: [
-      [
         {
           question:
             '1. The Simple Present or Present Indefinite Tense expresses habitual actions or general truths. For example, "I __________ to school by bus."',
@@ -159,7 +156,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "c) had been making",
         },
       ],
-    ],
   };
 }
 
@@ -167,7 +163,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "1. The Simple Present or Present Indefinite Tense expresses habitual actions or general truths.",
@@ -229,7 +224,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 
