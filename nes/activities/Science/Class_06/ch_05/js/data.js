@@ -168,71 +168,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Plants cannot make their own food without the presence of chlorophyll.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Animals directly or indirectly depend on plants for their food.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Scavengers are organisms that feed on the bodies of dead plants and animals.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Microorganisms like bacteria and fungi are considered decomposers.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Scavengers and decomposers play a role in producing oxygen in the environment.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Water is not essential for carrying out photosynthesis in plants.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Temperature has no effect on the survival of animals and plants.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Aquatic habitats include forests, grasslands, and deserts.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "All animals in grasslands have strong legs for running fast.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Desert plants have adaptations in their roots, stems, and leaves to survive in arid conditions.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
       ],

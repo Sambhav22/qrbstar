@@ -209,68 +209,68 @@ if (localStorage.getItem("activityNumber") == 3) {
       shuffleOptions({
           question:
             "Communication is the process of sending and receiving information.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
          }),
       shuffleOptions({
           question: "Email is known as the oldest means of communication.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "Television is considered a means of private communication.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "The deadly virus named Corona virus affects the digestive system.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "Means of Mass Communication include radio, newspaper, and magazine.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
          }),
       shuffleOptions({
           question:
             "Wearing masks is not recommended as a preventive measure against the virus.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question: "Letter is known as the newest means of communication.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "The outbreak of the Corona virus has quickly taken place globally.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
          }),
       shuffleOptions({
           question: "Fax and email are means of private communication.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
          }),
       shuffleOptions({
           question:
             "Maintaining distance from people is not advised as a preventive measure.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
            }),
     ]),

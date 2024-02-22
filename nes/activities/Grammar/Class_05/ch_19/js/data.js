@@ -162,68 +162,68 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Conjunctions are used to separate words, word-groups, and sentences.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "Correlatives are conjunctions used in pairs.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The words 'either ... or' are examples of correlative conjunctions.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In the sentence 'Nikki is tall but Nimmi is short,' 'but' is a subordinating conjunction.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The sentence 'You are not only clever but also swift' contains correlative conjunctions.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The conjunction 'neither ... nor' is used to join alternatives.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "A preposition is generally placed before its subject.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In the sentence 'Akash bought a shirt, a vest, and a cap,' 'and' is a coordinating conjunction.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "Correlative conjunctions are always used in triplets.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The conjunction 'because' is an example of a correlative conjunction.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],
