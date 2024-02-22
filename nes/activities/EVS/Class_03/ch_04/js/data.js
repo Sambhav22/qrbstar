@@ -1,54 +1,75 @@
 export const chapter = "Chapter - 4: Wonderful Family";
-export const noOfActivities = 3;
+export const noOfActivities = 3
+
+const shuffleQues = (ques) => {
+  let arr = ques.slice()
+  for (let i = arr.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1))
+    ;[arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+  return arr
+}
+
+const shuffleOptions = (object) => {
+  const { optionA, optionB, optionC } = object
+  const optionsArray = [optionA, optionB, optionC]
+
+  for (let i = optionsArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
+  }
+
+  object.optionA = optionsArray[0]
+  object.optionB = optionsArray[1]
+  object.optionC = optionsArray[2]
+
+  return object
+}
+
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: [
-        {
+    questions: shuffleQues([
+      shuffleOptions({
           question: "What is a Nuclear Family also known as?",
           optionA: "Paternal Family",
           optionB: "Conjugal Family",
           optionC: "Extended Family",
           correctAnswer: "b) Conjugal Family",
-        },
-
-        {
+ }),
+      shuffleOptions({
           question:
             "How many generations are typically present in a Joint Family?",
           optionA: "One",
           optionB: "Two",
           optionC: "Three",
           correctAnswer: "c) Three",
-        },
-
-        {
+ }),
+      shuffleOptions({
           question:
             "What is the focus of the paragraph 'Whom do we look like?'",
           optionA: "Celebrations in families",
           optionB: "Passing on traits in families",
           optionC: "Types of families",
           correctAnswer: "b) Passing on traits in families",
-        },
-
-        {
+ }),
+      shuffleOptions({
           question:
             "What is the primary purpose of spending time together with family according to the text?",
           optionA: "To celebrate festivals",
           optionB: "To go out for a picnic",
           optionC: "To strengthen the bond among family members",
           correctAnswer: "c) To strengthen the bond among family members",
-        },
-
-        {
+ }),
+      shuffleOptions({
           question: "Tia and Pia in Kashyap's family tree are mentioned as:",
           optionA: "Cousins",
           optionB: "Identical Twins",
           optionC: "Maternal Relatives",
           correctAnswer: "b) Identical Twins",
-        },
-
-        {
+ }),
+      shuffleOptions({
           question:
             "What do twins, Tia and Pia, share that makes people amazed according to the text?",
           optionA: "Similar height and weight",
@@ -57,44 +78,40 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Different features from each other",
           correctAnswer:
             "b) Identical features such as height, weight, hair color, and skin tone",
-        },
-
-        {
+ }),
+      shuffleOptions({
           question:
             "Which family type is described as the first school for children to learn good manners, values, and ethics?",
           optionA: "Nuclear Family",
           optionB: "Joint Family",
           optionC: "Extended Family",
           correctAnswer: "a) Nuclear Family",
-        },
-
-        {
+ }),
+      shuffleOptions({
           question: "How is a Joint Family system described in the text?",
           optionA: "A small family unit",
           optionB: "An extended family system",
           optionC: "A family with only parents and children",
           correctAnswer: "b) An extended family system",
-        },
-
-        {
+ }),
+      shuffleOptions({
           question:
             "What do we inherit from our parents, according to the text?",
           optionA: "Good manners",
           optionB: "Height, smile, and other features",
           optionC: "Values and ethics",
           correctAnswer: "b) Height, smile, and other features",
-        },
-
-        {
+ }),
+      shuffleOptions({
           question:
             "According to the text, what binds family members together?",
           optionA: "Sharing physical traits",
           optionB: "Going out for a picnic",
           optionC: "Celebrations or outings",
           correctAnswer: "c) Celebrations or outings",
-        },
-      ],
-   };
+           }),
+    ]),
+  }
 }
 
 if (localStorage.getItem("activityNumber") == 2) {

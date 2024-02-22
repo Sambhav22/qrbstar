@@ -1,5 +1,31 @@
 export const chapter = "Chapter - 14: Let's Send a Letter ";
-export const noOfActivities = 3;
+export const noOfActivities = 3
+
+const shuffleQues = (ques) => {
+  let arr = ques.slice()
+  for (let i = arr.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1))
+    ;[arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+  return arr
+}
+
+const shuffleOptions = (object) => {
+  const { optionA, optionB, optionC } = object
+  const optionsArray = [optionA, optionB, optionC]
+
+  for (let i = optionsArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
+  }
+
+  object.optionA = optionsArray[0]
+  object.optionB = optionsArray[1]
+  object.optionC = optionsArray[2]
+
+  return object
+}
+
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
@@ -101,155 +127,155 @@ if (localStorage.getItem("activityNumber") == 1) {
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
-    questions: [
-        {
+    questions: shuffleQues([
+      shuffleOptions({
           question:
             "Birds are singing beautifully in the _______. Two dogs are barking at each other.",
           optionA: "afternoon",
           optionB: "evening",
           optionC: "morning",
           correctAnswer: "morning",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "Aditya is writing a letter to _______ sister. Kavya is talking over the phone.",
           optionA: "her",
           optionB: "his",
           optionC: "their",
           correctAnswer: "her",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "Communication is the transferring of messages, ideas, and thoughts from one person to _______.",
           optionA: "animal",
           optionB: "another",
           optionC: "object",
           correctAnswer: "another",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "Earlier when people were not aware of the modes of communication, they communicated by using different _______ and signals.",
           optionA: "sounds",
           optionB: "signs",
           optionC: "symbols",
           correctAnswer: "signs",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "Symbols are a representation of an object, function, or _______.",
           optionA: "emotion",
           optionB: "person",
           optionC: "process",
           correctAnswer: "process",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "The cheapest way to communicate with people who live in different villages, towns, cities, and countries is through a _______.",
           optionA: "phone call",
           optionB: "letter",
           optionC: "radio broadcast",
           correctAnswer: "letter",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "Mobile phones or cellular phones can be carried anywhere, making communication very _______.",
           optionA: "difficult",
           optionB: "easy",
           optionC: "expensive",
           correctAnswer: "easy",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "Exchanging information on a large scale is called _______ communication.",
           optionA: "personal",
           optionB: "mass",
           optionC: "direct",
           correctAnswer: "mass",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "Like food, water, and shelter, communication is also an important requirement for the _______ of humans.",
           optionA: "entertainment",
           optionB: "survival",
           optionC: "happiness",
           correctAnswer: "survival",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "People who do not speak also express their feelings and needs through their _______ language.",
           optionA: "spoken",
           optionB: "written",
           optionC: "sign",
           correctAnswer: "sign",
-        },
-      ],
-   };
+           }),
+    ]),
+  }
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: [
-        {
+    questions: shuffleQues([
+      shuffleOptions({
           question: "Birds sing beautifully in the morning.",
           options: ["True", "False"],
           correctAnswer: "True",
-        },
-        {
+         }),
+      shuffleOptions({
           question: "Aditya is writing a letter to his sister.",
           options: ["True", "False"],
           correctAnswer: "False",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "Symbols are a representation of an object, function, or emotion.",
           options: ["True", "False"],
           correctAnswer: "True",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "Mobile phones are the slowest means of personal communication.",
           options: ["True", "False"],
           correctAnswer: "False",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "Mass communication involves exchanging information on a small scale.",
           options: ["True", "False"],
           correctAnswer: "False",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "Communication is not considered an important requirement for the survival of humans.",
           options: ["True", "False"],
           correctAnswer: "False",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "People who do not speak can express their feelings through sign language.",
           options: ["True", "False"],
           correctAnswer: "True",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "Symbols can only represent objects, not functions or processes.",
           options: ["True", "False"],
           correctAnswer: "False",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "Letters through post are the most expensive way to communicate with people in different locations.",
           options: ["True", "False"],
           correctAnswer: "False",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "Communication with masses involves the use of personal letters.",
           options: ["True", "False"],
           correctAnswer: "False",
-        },
-      ],
-   };
+           }),
+    ]),
+  }
 }
 
 export var activityData;

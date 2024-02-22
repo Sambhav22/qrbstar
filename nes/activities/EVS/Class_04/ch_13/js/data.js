@@ -1,33 +1,59 @@
 export const chapter = "Chapter - 13: Beaks and claws";
-export const noOfActivities = 3;
+export const noOfActivities = 3
+
+const shuffleQues = (ques) => {
+  let arr = ques.slice()
+  for (let i = arr.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1))
+    ;[arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+  return arr
+}
+
+const shuffleOptions = (object) => {
+  const { optionA, optionB, optionC } = object
+  const optionsArray = [optionA, optionB, optionC]
+
+  for (let i = optionsArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
+  }
+
+  object.optionA = optionsArray[0]
+  object.optionB = optionsArray[1]
+  object.optionC = optionsArray[2]
+
+  return object
+}
+
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: [
-        {
+    questions: shuffleQues([
+      shuffleOptions({
           question: "What type of beaks do eagles, owls, and vultures have?",
           optionA: "Curved",
           optionB: "Strong and Hooked",
           optionC: "Cracker",
           correctAnswer: "B",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "Which birds have curved beaks for cracking hard fruits and nuts?",
           optionA: "Ducks",
           optionB: "Parrots",
           optionC: "Sparrows",
           correctAnswer: "B",
-        },
-        {
+         }),
+      shuffleOptions({
           question: "What is the purpose of the broad and flat beaks of ducks?",
           optionA: "Climbing",
           optionB: "Sieving water and catching insects",
           optionC: "Cracking hard fruits",
           correctAnswer: "B",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "What kind of beaks do woodpeckers have, and what is their function?",
           optionA: "Spear-shaped, for catching fish",
@@ -35,55 +61,55 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC:
             "Chisel-shaped, for drilling tree trunks and finding insects",
           correctAnswer: "C",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "Which type of beaks do pelicans and kingfishers have, and how do they use them?",
           optionA: "Cracker beaks, for husking and crushing grain",
           optionB: "Spear-shaped beaks, for catching fish",
           optionC: "Curved beaks, for cracking hard fruits",
           correctAnswer: "B",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "What is the purpose of the straw-shaped beaks of hummingbirds?",
           optionA: "Catching fish",
           optionB: "Sucking nectar from flowers",
           optionC: "Drilling tree trunks",
           correctAnswer: "B",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "Which type of claws do parrots and woodpeckers have, and how do they use them?",
           optionA: "Swimming claws, for pushing water",
           optionB: "Perching claws, for holding branches",
           optionC: "Raptorial claws, for catching prey",
           correctAnswer: "B",
-        },
-        {
+         }),
+      shuffleOptions({
           question: "What type of claws do vultures, kites, and owls have?",
           optionA: "Raptorial claws, for catching prey",
           optionB: "Scratching claws, for scratching the ground",
           optionC: "Wading claws, for standing on marshes",
           correctAnswer: "A",
-        },
-        {
+         }),
+      shuffleOptions({
           question:
             "Which birds have scratching claws that are helpful in scratching the ground?",
           optionA: "Ducks",
           optionB: "Cocks and hens",
           optionC: "Sparrows",
           correctAnswer: "B",
-        },
-        {
+         }),
+      shuffleOptions({
           question: "What type of claws do ducks and swans have for swimming?",
           optionA: "Wading claws",
           optionB: "Swimming claws",
           optionC: "Perching claws",
           correctAnswer: "B",
-        },
-      ],
-   };
+           }),
+    ]),
+  }
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
