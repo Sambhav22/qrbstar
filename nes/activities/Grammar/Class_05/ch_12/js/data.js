@@ -160,60 +160,70 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "The Present Participle Form is formed by adding -ing to the Past Form of the verb.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "All verbs change their forms in Past and Past Participle Forms.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Weak Verbs form their Past and Past Participle Forms by adding -ed, d, or t to the Present Form.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Strong Verbs change their forms by changing inside Consonants.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The IV Form, Present Participle, is formed by adding -ing to the Present Form of the verb.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The sentence 'Govind is writing a letter.' demonstrates the use of the Past Form of the verb.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "All verbs change their form in the Present Participle Form.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Some verbs, such as cost, cut, and read, do not change their form in Past and Past Participle Forms.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The Past Participle Form is formed by adding -ed to the Present Form of the verb.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "The Present Form of a verb is also known as the I Form.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
       ],

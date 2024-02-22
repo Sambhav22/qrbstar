@@ -188,71 +188,61 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "Plants that grow in forests or jungles are called jungle plants.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The British introduced English education to promote the study of traditional Indian knowledge.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The ancient Hindu education system was based on ashrams organized by scholars.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Hindu system of education included oral teaching and the study of different subjects.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Muslim System of Education emphasized modern knowledge and excluded Arabic and Islamic subjects.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Sir Charles Wood's Despatch of 1854 emphasized the diffusion of European knowledge in India.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The British introduced English education in India to produce engineers and doctors.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Lord Wellesley set up the Fort William College in 1800 to train company civil servants in Indian languages and customs.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Charter Act of 1813 provided a substantial annual grant to promote English education in India.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The introduction of English education in India led to the decline of traditional Indian values.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
     ],
   };

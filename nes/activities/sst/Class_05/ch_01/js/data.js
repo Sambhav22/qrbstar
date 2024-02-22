@@ -174,68 +174,58 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "India is bordered by Afghanistan and Pakistan to the north-west.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question: "India is located entirely in the Southern Hemisphere.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "India has cold mountains, arid deserts, vast plains, and hot and humid plateaus.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question: "India is the world's most populated country.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "India is a peninsula surrounded by the Arabian Sea, the Indian Ocean, and the Bay of Bengal.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "India is the second-largest country in the world in terms of area.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The NCT of Delhi has its own Legislative Assembly, Lieutenant Governor, Council of Ministers, and Chief Minister.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question: "Rainfall in India is mainly brought by the monsoon winds.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The climate in South India is characterized by extreme heat due to its proximity to the Arabian Sea.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "India has diversity in language, food, folk-dance, clothes, cultures, and traditions, promoting the principle of 'Unity in Diversity.'",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
     ],
   };

@@ -179,68 +179,58 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "Microsoft Word is primarily used for spreadsheet calculations.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question: "Tables in Word can only contain text and not graphics.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question: "One can add or delete rows and columns in a Word table.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The layout and style of a table cannot be modified in Microsoft Word.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Tables inserted in a Word document cannot be moved to another location.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Text cannot be inserted into a table cell in Microsoft Word.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "In a Word table, users cannot select entire rows or columns.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Tables in Word cannot be resized to adjust their dimensions.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question: "A table's alignment cannot be changed in Microsoft Word.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Users cannot format the text within the cells of a table in Word.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
     ],
   };

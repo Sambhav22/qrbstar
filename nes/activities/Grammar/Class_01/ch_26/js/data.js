@@ -196,59 +196,69 @@ if (localStorage.getItem("activityNumber") == 3) {
         questions: [
           {
             question: "Hieroglyphics were used by ancient Romans.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Graphic novels and comics exclusively use text to convey a narrative.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "Visual communication only relies on auditory elements.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Drawing or doodling is not considered a form of expression in picture writing.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Infographics are a form of picture writing that uses visual elements to convey information.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "In a leap year, February always has 30 days.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The month of July is traditionally associated with new beginnings and resolutions.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Symbols in hieroglyphics represented abstract concepts in ancient Egypt.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Text-only documents fall under the category of picture writing.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Handwritten letters are a form of telepathic communication.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
         ],

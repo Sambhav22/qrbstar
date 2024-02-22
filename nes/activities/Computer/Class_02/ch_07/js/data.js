@@ -178,66 +178,56 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "The minute hand on an analog clock is shorter than the hour hand.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question: "An analog clock displays time using only one hand.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "An analog clock's hour hand moves faster than the minute hand.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The number of subdivisions between each hour mark on an analog clock is 10.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "An analog clock's minute hand completes one round in 60 minutes.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question: "The hour hand on an analog clock represents the seconds.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question: "An analog clock displays time using a digital format.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The minute hand moves slower than the second hand on an analog clock.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question: "Each hour on an analog clock represents 60 minutes.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question: "An analog clock can display time using three hands.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
     ],
   };

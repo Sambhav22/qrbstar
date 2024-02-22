@@ -172,71 +172,61 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "The period before the discovery of metals, when early humans used tools made of bones, stones, and wood, is known as the Bronze Age.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "James Watt is credited with the invention of the steam engine in 1769.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The age following the Stone Age, characterized by the use of copper and tin to make tools, is known as the Iron Age.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Coal was the primary source of energy for machines in the early stages of the Industrial Revolution.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Benjamin Franklin conducted a famous kite experiment related to electricity, distinguishing between negative and positive charges of electricity.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Solar energy is considered a non-renewable source of energy.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The primary source of electricity generation mentioned in the text is burning oil.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The first metal used by early humans is believed to be iron.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Industrial Revolution marked the transition from hand-made goods to water-powered goods.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The government has initiated the Swachh Bharat Mission to promote cleanliness and hygiene and has also taken steps to build schools in all villages.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
     ],
   };

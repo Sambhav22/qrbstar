@@ -201,60 +201,70 @@ if (localStorage.getItem("activityNumber") == 3) {
         questions: [
           {
             question: "You call your paternal grandfather Dadu.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "A family is a group of people who live together and are unrelated to each other.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Immediate family members comprise of parents and children living together in a house.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The first relation that starts when a man and woman marry is brother and sister.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "The beauty lies in father and child relation.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Mother and child develop a special bond during the child's development.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Family gatherings provide an opportunity to learn about the values and traditions of the family.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Family values change with time and the mentality of family members.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "All important decisions in a family are still taken by the head of the family.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "In olden times, daughters-in-law covered their faces in front of their fathers-in-law.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
         ],

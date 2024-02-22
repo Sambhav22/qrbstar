@@ -153,59 +153,69 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
         {
           question: "Mr. Kamal was riding his bicycle to his office.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "The traffic light turned green at the Victoria Crossing.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Mr. Kamal accelerated his car and waited patiently for the light to turn green.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "A small boy came and started to wash the windows with a rag.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "After cleaning, the small boy spread his palm before Mr. Kamal for a chocolate.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Mr. Kamal dropped a ten-rupee coin on the small boy's hand.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Just then, the moon turned green and Mr. Kamal drove his car ahead.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The small boy whispered to Mr. Kamal for a coin after cleaning the windscreen.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "When the light turned green, Mr. Kamal walked his car ahead.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Mr. Kamal was driving his car to the market.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

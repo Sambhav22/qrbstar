@@ -159,56 +159,66 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Primary Auxiliaries consist of three main verbs: Verb-to be (is, are, am, was, were, will be, shall be), Verb-to have (has, have, had), and Verb-to do (do, does, did). These are used to form different tenses.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Modal Auxiliaries are used to express the mood or attitude of the speaker and are also known as Medals.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In Future Tense, 'shall' is used for the First Person (I, We) and 'will' is used for all other subjects.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "'Would you like' is used to make an offer to someone.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "'Should' or 'Ought to' is used to give advice.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "'Must' shows compulsion or necessity. Its negative is 'mustn't'.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "'Can' (negative 'can't' or 'cannot) is used to show possibility or ability.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "'May' or 'Might' is used to express wish.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "'Used to' is primarily used to indicate future plans.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "'Need' is a Modal Auxiliary used to express a past habit.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

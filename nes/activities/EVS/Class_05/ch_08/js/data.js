@@ -211,57 +211,67 @@ if (localStorage.getItem("activityNumber") == 3) {
         true_or_false_questions: [
           {
             question: "Small Farmers are also known as Marginal Farmers.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Commercial Farmers primarily grow crops for personal use.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "Dairy Farmers rear animals like cow, goat, and buffalo.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Mixed Farmers only involve in growing crops and not rearing animals.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Subsistence Farmers practice farming and cattle rearing for their own personal use.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "Preparing the soil is the first step in growing crops.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "Irrigation is not necessary for crop fields.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Adding fertilizers to the soil does not contribute to better crop production.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Threshing is the process of separating grains from chaff.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "Sprayer is used for watering crops in the field.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
         ],

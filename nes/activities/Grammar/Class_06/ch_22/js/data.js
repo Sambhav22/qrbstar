@@ -174,53 +174,62 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Kaikeyi, the mother of Rama, wanted her son to become the next king.",
-          options: ["true", "false"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "false",
         },
         {
           question:
             "Seeta was kidnapped by Ravana during Rama's exile in the forests.",
-          options: ["true", "false"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "true",
         },
         {
           question:
             "Rama formed a human army to defeat Ravana and rescue Seeta.",
-          options: ["true", "false"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "false",
         },
         {
           question: "Upon returning to Ayodhya, Bharata made Rama the king.",
-          options: ["true", "false"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "true",
         },
         {
           question: "The merchant in the story dealt in silk.",
-          options: ["true", "false"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "false",
         },
         {
           question:
             "The old man in the story suggested identifying the thieves by the cotton stuck to their beards.",
-          options: ["true", "false"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "true",
         },
         {
           question:
             "The merchant found out who stole the cotton by conducting a thorough investigation.",
-          options: ["true", "false"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "false",
         },
         {
           question:
             "During the feast, the thieves raised their hands to indicate they were guilty.",
-          options: ["true", "false"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "false",
         },
         {
           question:
             "The old man asked for a bag of gold as a reward for helping the merchant.",
-          options: ["true", "false"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "false",
         },
       ],

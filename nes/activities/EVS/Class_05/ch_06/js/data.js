@@ -202,61 +202,71 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "Forests support a large variety of life forms such as humans, animals, birds, etc. and are vital for ecological balance.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Tribal people, known as Adivasis, often practice jhum agriculture, involving cutting or burning trees for cultivation.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Deforestation can be intentional or unintentional and is primarily caused by human activities like farming, grazing, mining, and drilling.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Recycling materials like paper, cloth, and glass is suggested as a step to prevent deforestation and promote environmental conservation.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Social Forestry involves the management and protection of forests by planting more trees on barren and deforested lands.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "National Parks and Sanctuaries provide natural habitats for wildlife, helping protect flora and fauna in their natural state.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The Chipko Movement, led by environmentalists like Sundarlal Bahuguna, aimed to prevent the cutting down of trees and promote forest conservation.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Shifting cultivation, often starting with cutting trees and using fire for crop production, is a sustainable agricultural practice among many tribal communities.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Herding and rearing animals is the chief occupation of groups like the Van Gujjars, Cabadis, and Bakarwals.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The negative impacts of deforestation include a decrease in the level of underground water and adverse effects on natural ecosystems, biodiversity, and climate.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
         ],

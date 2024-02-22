@@ -184,71 +184,61 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "The Battle of Panipat in 1761 resulted in the victory of the Marathas.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Peshwas were Chitpavan Brahmin ministers who ruled the Maratha Empire from 1713 to 1761.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Awadh, Bihar, and Hyderabad were states that gained independence after struggling with the Mughals.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Guru Gobind Singh, the tenth Sikh guru, played a crucial role in shaping Sikhism as a political and military force.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Jats established an independent state of Bharatpur under the command of Raja Surajmal.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The British introduced discriminatory laws that sowed the seeds of division between provinces.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The introduction of English education in India brought Indians in touch with new ideas of equality and democracy.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Marathas conducted military campaigns primarily with a focus on heavy and slow movements.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Marathas charged Sardeshmukhi from the rulers in Rajasthan as one-tenth of the revenue charged by the ruler.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The decline of the Maratha state after the death of Surajmal was due to efficient administration.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
     ],
   };

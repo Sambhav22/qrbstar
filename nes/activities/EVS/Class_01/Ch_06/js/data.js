@@ -212,51 +212,60 @@ if (localStorage.getItem("activityNumber") == 3) {
           },
           {
             question: "Cotton clothes are typically worn in winter.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Raincoat and gumboots are suitable for the summer season.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "Uniforms are worn only during special occasions.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "Party clothes are commonly worn at work.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Winter clothes are usually made of lightweight materials.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "Everyone wears fancy party clothes at a birthday party.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "Uniforms are worn exclusively by students.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "People wear clothes to look smart and protect their bodies.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Raincoat and gumboots protect from rain in the rainy season.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
         ],

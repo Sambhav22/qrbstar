@@ -184,58 +184,68 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
       {
         question: "Marginalization is solely based on physical appearance.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Economic, social, and cultural factors are some of the causes of marginalization.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "Scheduled Castes (SC) are considered a privileged group.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "Scheduled Tribes (ST) are also known as Adivasis.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The government has not provided any reservation for Economically Weaker Sections (EWS) in educational institutions and government employment.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Minority communities are defined solely based on population size.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The police cannot refuse to file an FIR under any circumstances.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The judge in a criminal case decides a case based on personal beliefs.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Social reformers have played no role in eradicating untouchability and discrimination against marginalized classes.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "Manual scavenging has been completely eradicated in India.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
     ],

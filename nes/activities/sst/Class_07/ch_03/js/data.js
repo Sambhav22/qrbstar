@@ -185,70 +185,60 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "The Narmada River and the Vindhya Hills served as traditional boundaries between North and South India.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Rashtrakutas were the rulers of South India during the early medieval period.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Kailash Temple at Ellora and the rock-cut Elephanta Caves were constructed during the time of the Rashtrakutas.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Vadavas ruled the region between the Narmada and Godavari rivers in the twelfth century.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question: "The Pandyas defeated the Cholas in the ninth century.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Rashtrakutas struggled with the Palas and the Pratiharas for control over Delhi.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Indian rulers under the Subsidiary Alliance System were fully independent of British control.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Chola dynasty expanded its kingdom overseas by annexing Sri Lanka.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The British attacked Mysore with the help of the Nizam of Hyderabad in the Fourth Anglo-Mysore War in 1799.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The British claimed that their authority was inferior in India.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
     ],
   };

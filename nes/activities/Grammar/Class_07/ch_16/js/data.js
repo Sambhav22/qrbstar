@@ -177,61 +177,71 @@ if (localStorage.getItem("activityNumber") == 3)
         {
           question:
             "In Direct Speech, the Reporting Verb describes who tells to whom.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In Indirect Speech, the comma and inverted commas in the Direct Speech are retained.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "First-person words in the Reported Speech are changed according to the Object of the Reporting Verb.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "If the Reporting Verb is in the Past Tense, the tense of the Reported Speech remains the same.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The Verb of the Reported Speech is not changed when reporting historical facts, habitual facts, universal truths, or proverbs.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In Indirect Speech, Wh-type questions are changed into a declarative form without using a conjunction.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Commands, advices, and requests in the Reported Speech are changed into the Infinitive form.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "If there is a proposal in the Reported Speech, said to is changed into suggested, and let is replaced by should.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Exclamatory sentences are changed into Indirect Speech using exclaimed with joy/sorrow/surprise/contempt.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In Yes/No-type questions, the conjunction if or whether is used in the Indirect Speech.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
       ],

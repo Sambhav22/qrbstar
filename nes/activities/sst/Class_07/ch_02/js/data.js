@@ -163,60 +163,70 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "Prithviraj Chauhan defeated Mohammad Ghori in the battle of Tarain in 1191 AD.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "The Rajputs were known to be descendents of the Kshatriyas.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The medieval period saw the emergence of languages like Latin, Gujarati, and Bengali in Europe.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Mahmud of Ghazni plundered the temples in Mathura, Kannauj, and Ayodhya.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The Battle of Tarain marked the beginning of direct Muslim rule in India.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The frequent divisions among the Rajput rulers and their lack of unity contributed to their defeat in battles.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Shah Alam II granted Diwani rights of Bengal, Bihar, and Orissa to the British East India Company.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Warren Hastings, the Governor of Bengal, ended the system of colonial rule in 1772.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The Portuguese enjoyed a cartel of trade in India during the sixteenth century.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Economic exploitation by the British East India Company in Bengal resulted in a financial crisis but brought significant benefits to the population.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
     ],

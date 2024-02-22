@@ -176,60 +176,70 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Hygiene refers to conditions and practices that help maintain health and prevent the spread of diseases.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Regular bathing is essential to keep the body free from odors and germs.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Frequent washing of hands is crucial to prevent illnesses and remove dirt and germs.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Teeth and gums need daily care, and brushing them helps remove germs, decreasing the chances of tooth decay.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Eyes should be cleaned with cold water two or three times a day to keep them healthy.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Proper rest and regular sleep are not crucial for maintaining good health.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "A balanced diet includes food from five groups and fulfills all of a person's nutritional needs.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Regular exercise helps develop and build up bones and muscles, improving the nervous system.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Maintaining good posture is not important for preventing neck and back pain.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Greenland is located in the continent of Europe.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

@@ -180,69 +180,59 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "The Code Tab in Scratch consists of different sections that allow you to code scripts to control sprites.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question: "Motion Blocks in Scratch control the appearance of sprites.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Looks Blocks in Scratch are used to add sound and music to the sprite/backdrop.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Events Blocks in Scratch start a script when the chosen key is pressed.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Control Blocks in Scratch are orange in color and are used for sprite movement.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Hat Blocks in Scratch always come at the bottom of a script.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Alluvial soil in India is found mainly in the Western Ghats.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Black soil is most abundant in the Northern Plains of India.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Red soil gets its distinct color from calcium found in its composition in a crystallized form.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question: "Yellow soil appears when red soil is dry.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
     ],
   };

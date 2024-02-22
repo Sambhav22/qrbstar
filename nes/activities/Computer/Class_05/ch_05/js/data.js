@@ -160,60 +160,70 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
       {
         question: "PowerPoint is primarily used for creating documents.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "In PowerPoint, the Quick Access Toolbar is located just above the ribbon.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The collection of slides in PowerPoint is referred to as a Book.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "To start PowerPoint, you need to click on the Exit button.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The Ribbon in PowerPoint contains multiple tabs, each with several groups of commands.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The Slide Pane in PowerPoint is used to type speaker notes for each slide.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "In PowerPoint, the Save As command allows you to create a copy of a presentation while keeping the original.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Exiting PowerPoint is done by clicking on the X button present on the top-right corner of the window.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "A slide show in PowerPoint displays all the slides of the presentation on a small screen.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "In PowerPoint, the II button is used to save the presentation.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
     ],

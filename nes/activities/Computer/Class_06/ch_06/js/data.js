@@ -171,61 +171,71 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "Computer programs written in high-level languages are directly understood and executed by the computer.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Assembly language is machine dependent and uses mnemonic codes and symbolic addresses.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Visual Basic was designed primarily for creating computer applications for the Linux operating system.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Java is an object-oriented programming language that was introduced in the late 1990s.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Machine language uses simple English language words that are easily convertible into machine code.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Python is primarily used for scientific computing and mathematical operations.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Compiler and Assembler are required to convert high-level and assembly language instructions into machine language.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "FORTRAN was primarily developed to cater to the requirements of the business world.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "COBOL stands for Common Business Oriented Language, used mainly for developing and processing accounts and payrolls.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "C++ is an object-oriented language that emerged before the creation of the C programming language.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
     ],

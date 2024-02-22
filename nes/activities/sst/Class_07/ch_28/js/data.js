@@ -158,61 +158,71 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "Retail markets can be of four types: weekly markets, neighbourhood markets, malls, and online markets.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
       {
         question:
           "Neighbourhood markets are often held in temporary stalls and are popular with villagers and middle-income groups.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "Malls provide facilities like parking space, air conditioning, and mostly sell non-branded items.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "Online markets allow customers to order items from the comfort of their homes and often provide discounts.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
       {
         question:
           "Wholesalers normally have shops in various parts of the town, selling a large variety of things.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "In a wholesale market, a shop owner typically sells a few items of the same type in bulk quantities.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
       {
         question:
           "The chain of supply for a commodity can be either short or long, depending on factors like availability and need.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
       {
         question:
           "Transportation is not a significant factor in market operations, and the type of transport used does not impact the cost of the product.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The price of commodities is solely determined by demand, and supply has no impact on the market.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "Small growers and producers generally earn more than larger ones due to their close connections with consumers.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
     ],

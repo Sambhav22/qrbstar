@@ -181,56 +181,66 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
       {
         question: "India has 30 states and 9 union territories.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "Each state in India has its own separate government.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "The capital of Rajasthan is Jaipur.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "Chhattisgarh was originally a part of Madhya Pradesh.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Sikkim is one of the 'Seven Sisters' in the north-eastern region of India.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "Kolkata is the capital of Jharkhand.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Andaman and Nicobar Islands are located in the southernmost part of India.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "New Delhi is a union territory in India.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Rajasthan is the smallest state in India in terms of geographical area.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Delhi has its own Legislative Assembly, Chief Minister, and Council of Ministers.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
     ],

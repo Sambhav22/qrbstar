@@ -158,61 +158,71 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
       {
         question: "A desert can only be hot and never cold.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The Sahara is the largest desert in the world, located in Asia.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "An oasis is an elevated area in the desert where groundwater comes to the surface.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The Sahara experiences extremely cold temperatures during the hottest months.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The Sahara was once a lush green place where animal life thrived.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
       {
         question:
           "People in the Sahara wear tight-fitting clothing to protect themselves from dust storms and hot winds.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "Oil has brought prosperity to the Sahara region, resulting in the decline of nomadic tribes.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
       {
         question:
           "Ladakh receives heavy rainfall due to its location in the rain shadow region.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The average annual precipitation in Ladakh is more than 25 cm.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "Vegetation in Ladakh is sparse, and only a few crops can be grown in the valleys.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
     ],

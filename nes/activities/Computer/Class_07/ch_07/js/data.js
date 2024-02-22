@@ -167,61 +167,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "The flowchart uses boxes of different shapes to denote different types of instructions.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "A process box in a flowchart represents arithmetic and data processing.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The decision box in a flowchart indicates the starting point of the program.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "An algorithm is a graphical representation of a program's logic.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "A connector box in a flowchart is used to indicate the flow of instructions.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Each statement in an algorithm must be given in a single line.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The purpose of a terminal box in a flowchart is to meet common people.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The shape of an input/output box in a flowchart is a rectangle.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Flow lines in a flowchart are used to connect symbols with each other.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "A good algorithm is written in complex language for precision.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

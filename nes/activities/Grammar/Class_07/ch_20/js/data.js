@@ -153,58 +153,68 @@ if (localStorage.getItem("activityNumber") == 3)
         {
           question:
             "Corruption is a moral perversion that upholds the values of life.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Advertising always guides buyers in the right direction.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Adding a Suffix involves placing it at the beginning of a word.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Compound words are formed by changing parts of speech.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The Right to Information Act is contributing significantly to curbing corruption.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "A hobby is a pursuit undertaken by an individual during leisure time.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "Homework is never a chore, and students always adore it.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The Sarva Shiksha Abhiyan aims to provide secondary education by 2025.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Good manners can be expressed with the words 'thanks' and 'please.'",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Computer terms like 'megabyte' and 'gigabyte' were originally related to animals.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

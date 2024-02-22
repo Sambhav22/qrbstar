@@ -206,61 +206,71 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "Perishable foods like vegetables, fruits, and bread have a long life.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Germs that cause food spoilage can be seen with naked eyes.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Canning involves cooking fruits or vegetables, sealing them in sterile cans or jars, and boiling the containers.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Vacuum packing is a method of food preservation that involves adding preservatives like sodium benzoate.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Pasteurization involves boiling milk to a high temperature for 10 minutes and then suddenly cooling it to a very low temperature.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Droughts, floods, and diseases to crops are natural causes of food scarcity.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Poverty is not considered a man-made cause of food scarcity.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Adding sugar is a method of preserving fruits to make jams and jellies.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Freezing foods lowers the temperature to levels that make the environment suitable for microbial growth.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Wastage of food does not contribute to future problems, according to the text.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
         ],

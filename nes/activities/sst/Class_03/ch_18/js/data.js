@@ -167,60 +167,70 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
       {
         question: "Mahatma Gandhi's full name was Mohandas Karamchand Gandhi.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Mahatma Gandhi advised Indians to boycott British schools, colleges, textiles, and other services.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Pandit Jawaharlal Nehru was India's first Prime Minister who established a parliamentary government.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Dr. Sarvepalli Radhakrishnan was elected as the Vice President of India from 1952-1962.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Sardar Vallabhbhai Patel was born in Nadiad village, Gujarat.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Sardar Vallabhbhai Patel's mother, Lodba, was inclined towards spirituality.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Sardar Vallabhbhai Patel played a significant role in persuading the rulers of princely states to be united.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "A plateau is a landform that is lower than the nearby land and has a flat top.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "Valleys are often covered by thick forests.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The Earth's surface is divided into two major parts: land and water.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
     ],

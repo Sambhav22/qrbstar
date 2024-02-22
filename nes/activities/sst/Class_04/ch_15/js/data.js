@@ -150,57 +150,67 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
       {
         question: "Srinagar is the summer capital of Jammu and Kashmir.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "Ladakh has a dense population due to its high mountains.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The Siachen Glacier is the highest battle field located in Ladakh.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Yak and bharal (blue sheep) are among the animals found in Ladakh.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "Shimla is the capital of Himachal Pradesh.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "Dehradun is the year-round capital of Uttarakhand.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Kanchenjunga is the highest mountain peak in India located in Sikkim.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "Farming is the main occupation in Arunachal Pradesh.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Mawsynram is the driest place in the world located in Meghalaya.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The people of Nagaland make articles from the woods of bamboo, teak, and cane trees.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
     ],

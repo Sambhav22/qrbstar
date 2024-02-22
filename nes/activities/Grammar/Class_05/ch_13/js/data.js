@@ -161,61 +161,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Simple Present Tense is only used to express actions happening in the present moment.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Present Continuous Tense is used to describe habitual actions.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In Present Perfect Tense, 'has' is used with all plural subjects.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Present Perfect Continuous Tense indicates an action completed in the past.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The Present Indefinite Tense is used to show a temporary situation.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In Present Continuous Tense, 'am' is used with all singular subjects.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Present Perfect Tense is always used to describe actions that happened in the recent past.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Present Perfect Continuous Tense is used to show an action in continuity from a given time.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In Simple Present Tense, 'does' is used with all singular subjects.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Present Continuous Tense can be used to express a universal truth.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

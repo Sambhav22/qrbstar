@@ -185,71 +185,61 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question: "The environment is uniform at all places.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B) False",
+        optionB: "False",correctAnswer: "B) False",
       },
       {
         question:
           "The term 'biology' means life, and the biological environment includes non-living elements.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B) False",
+        optionB: "False",correctAnswer: "B) False",
       },
       {
         question:
           "The lithosphere is the uppermost solid layer of the earth, made up of rocks and soil.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A) True",
+        optionB: "False",correctAnswer: "A) True",
       },
       {
         question:
           "The hydrosphere includes oceans, seas, rivers, lakes, ponds, springs, and underground water.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A) True",
+        optionB: "False",correctAnswer: "A) True",
       },
       {
         question:
           "The atmosphere is a thick layer of air enveloping our earth.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B) False",
+        optionB: "False",correctAnswer: "B) False",
       },
       {
         question:
           "The biosphere is a zone where only living organisms can survive.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B) False",
+        optionB: "False",correctAnswer: "B) False",
       },
       {
         question:
           "Manmade environment includes elements created by human activities, such as buildings and roads.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A) True",
+        optionB: "False",correctAnswer: "A) True",
       },
       {
         question:
           "Human activities have no impact on the continuous change in the environment.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B) False",
+        optionB: "False",correctAnswer: "B) False",
       },
       {
         question:
           "Natural factors responsible for environmental change include earthquakes, volcanoes, and storms.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A) True",
+        optionB: "False",correctAnswer: "A) True",
       },
       {
         question:
           "Efforts to conserve the environment are unnecessary as it can naturally balance any harm caused by human activities.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B) False",
+        optionB: "False",correctAnswer: "B) False",
       },
     ],
   };

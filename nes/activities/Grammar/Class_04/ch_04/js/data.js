@@ -185,59 +185,69 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "Rectangle selection is used to draw irregular shapes in Paint.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Free-form selection is used to select only square regions.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "Transparent selection works with any background color.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The Rotate option in Paint allows you to rotate an image by 180°.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The Flip option in Paint allows you to change image colors.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The Resize option in Paint only allows changing the size of an image.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Copying or cutting an image in Paint can only be done using the Ctrl + C shortcut.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Pasting an image in Paint can be done using the shortcut Ctrl + P.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "Flipping an image vertically in Paint is not possible.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The major canal providing water to the Thar Desert is the Ganges Canal.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
         ],

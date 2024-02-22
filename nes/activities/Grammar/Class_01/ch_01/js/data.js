@@ -141,56 +141,66 @@ if (localStorage.getItem("activityNumber") == 3) {
         questions: [
           {
             question: "The English alphabet has 25 letters.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Both capital and small letters can be used to represent the English alphabet.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The letter 'Y' is missing from the sequence of capital letters.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "The sequence of small letters contains 27 letters.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The letter 'E' appears twice in the sequence of capital letters.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "The 10th letter in the capital letter sequence is 'J'.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "The small letter sequence contains six vowels.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "The 15th letter in the small letter sequence is 'O'.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The letter 'Z' immediately follows 'X' in the capital letter sequence.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "The 4th letter in the small letter sequence is 'C'.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
         ],

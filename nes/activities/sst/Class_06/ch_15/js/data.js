@@ -162,60 +162,70 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "The British introduced the new Enfield rifle, which was a significant cause of the Revolt of 1857.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Nana Saheb declared himself the Peshwa and governor of Bahadur Shah in Kanpur during the Revolt of 1857.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The Doctrine of Lapse was a British policy that allowed them to take over Indian kingdoms if a king died without an heir.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The Indian farmers were forced to grow indigo by the British, leading to their economic prosperity.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The British exploited the Indian textile industry by importing mill-made clothes.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The Revolt of 1857 was well-organized and had coordinated planning among its leaders.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The British suppression of Indian culture was a significant cause of the Revolt of 1857.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The British supported Indian unity and encouraged cooperation among different Indian rulers.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "The Revolt of 1857 is also known as the Sepoy Mutiny.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The Revolt of 1857 led to significant changes in British policies and administration in India.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
     ],

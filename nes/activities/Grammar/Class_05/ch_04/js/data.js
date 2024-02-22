@@ -189,61 +189,71 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "Nouns expressing one thing or more than one thing are distinguished by their number.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Singular Nouns ending in 'y' preceded by a vowel are transformed into Plural by adding only 's'.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Most Singular Nouns are turned into Plural by adding 'es' to them.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Singular Nouns ending in 'o', 's', 'sh', 'ch', 'x', or 'z' are changed into Plural by adding 'ves' to them.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The formula bar in Excel is primarily used to change the color of cells.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Nouns ending in 'f' or 'fe' are turned into Plural by replacing 'f' or 'fe' with 'es'.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Some Nouns do not follow the rules for changing from Singular to Plural forms.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The default name of the first worksheet in a new Excel workbook is 'Excel Sheet'.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The names of some countries, newspapers, and books are Plural in form and take Plural Verbs.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The key combination to cut cell content in Excel is 'Ctrl + X'.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
         ],

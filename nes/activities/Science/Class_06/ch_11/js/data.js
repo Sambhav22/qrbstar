@@ -158,61 +158,71 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
         {
           question: "The sun is a natural source of light.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Cold sources of light, such as fireflies and CFLs, do not produce heat when emitting light.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Transparent objects, like glass, allow light to pass through them freely.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Irregular reflection occurs when light falls on a smooth surface.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "A pinhole camera is a complex device with multiple lenses for capturing images.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Shadows are formed when an opaque object comes in the path of light.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Regular reflection results in light being reflected in multiple directions.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The main source of revenue during the Gupta period was trade routes.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Aryabhatta, a famous astronomer and mathematician, lived during the Gupta period and developed the hexadecimal system of numerals.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "India enjoyed enriched trade relations with other countries like Myanmar, Java, and Cambodia during the Gupta period, especially through major trade centers like Ujjain.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

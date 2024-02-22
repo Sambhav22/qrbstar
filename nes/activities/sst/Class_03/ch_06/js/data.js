@@ -177,71 +177,61 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "The National Flag of India has four colors: saffron, white, green, and blue.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The National Emblem of India consists of three Asiatic lions standing back to back.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The National Anthem of India was originally composed in Sanskrit by Rabindranath Tagore.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The peafowl, commonly known as the Indian peacock, is the National Bird of India.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Bengal Tiger was declared as the National Animal of India in April 1973.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The lotus flower is the National Flower of India and symbolizes purity and achievement.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The banyan tree, the National Tree of India, represents eternal life because of its ever-expanding branches.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Ganges or Ganga is the National River of India, and it flows over 2510 km of mountains, plains, and valleys.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Indian Rupee is the official currency of the Republic of India and is named after a gold coin.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The National Heritage Animal of India is the elephant, which is found only in the mainland of Asia.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
     ],
   };

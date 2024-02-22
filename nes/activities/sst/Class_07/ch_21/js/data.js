@@ -162,59 +162,69 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "The tropical region lies between 10° N and 10° S, close to the Equator.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The Amazon River is the main river in the world's largest river system.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The average annual rainfall in the Amazon basin is less than 200 cm.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The climate in the Amazon basin is characterized by cold winters.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The Ganga-Brahmaputra basin is known for its coniferous trees.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "The Ganga and Brahmaputra rivers form the Sundarban Delta.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The climate in the Ganga-Brahmaputra valley is characterized by hot summers and dry winters.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The chief crops in the Ganga-Brahmaputra valley include coffee and cocoa.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The Namami Gange Project aims to increase pollution in the Ganga.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "Both the Ganga and the Brahmaputra are unnavigable.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
     ],

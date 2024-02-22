@@ -159,61 +159,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "The Masculine Gender includes nouns like sister, dog, and girl.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Feminine Gender comprises nouns such as brother, bitch, and boy.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Common Gender is applicable only when a living noun is male.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Neuter Gender includes lifeless nouns like bus, chair, and ball.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Adding 'ess' is one of the rules to change a Masculine Noun into Feminine.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The Rule of dropping the last vowel in Masculine Gender and adding 'ess' is covered under Rule 2.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Common Gender is applicable only when a living noun is female.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In Neuter Gender, lifeless nouns are considered as neutral.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "To change a Masculine Noun into Feminine by using an entirely different word, you follow Rule 5.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Feminine Gender includes nouns like brother, dog, and boy.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

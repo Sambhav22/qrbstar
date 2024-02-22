@@ -177,71 +177,61 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question: "Land covers about 29% of the Earth's surface.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Only 30% of the land is inhabited, with the remaining being sparsely populated or uninhabited.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Land is primarily used for various purposes such as settlement, growing crops, grazing animals, mining, setting up industries, and building roads.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Mountains, plains, and plateaus are the three main types of landforms on Earth.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Rockies are an example of old mountains with rounded peaks, while the Himalayas are young mountains with high and steep peaks.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Plains provide the most favorable conditions for habitation due to their low altitude, fertile soil, and abundant water supply.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Plateaus are characterized by their flat lands and are often rich sources of minerals.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "India is unique in its geographical features, as it has mountains, plains, and plateaus.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Alluvial soil is the most fertile soil in India, suitable for crops like rice, sugarcane, and wheat.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Soil erosion can be caused by natural factors such as winds and human factors like poor agricultural practices.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
     ],
   };

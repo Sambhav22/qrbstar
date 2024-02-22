@@ -149,59 +149,69 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
           {
             question: "A computer mouse is connected to the CPU wirelessly.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "A mouse typically has two buttons: left and right.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Resting your palm gently on a mouse is an essential step in holding it correctly.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The tail of a computer mouse is commonly referred to as a wire.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The scroll wheel of a mouse is usually located at the bottom.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "A mouse pad is a thick surface designed for a comfortable grip while using a mouse.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Double-clicking involves pressing a mouse button twice quickly.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "A mouse pointer moves on the computer screen as the mouse moves on the mouse pad.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "A mouse should be held with the thumb on one side and the middle finger on the other.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "A mouse is intended to be used on a hard surface.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
     ],

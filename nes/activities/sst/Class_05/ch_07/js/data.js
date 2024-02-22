@@ -161,57 +161,67 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
       {
         question: "Rainforests receive moderate rainfall.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question: "The prairies are primarily located in South America.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The climate in the prairies is of a continental type with extreme temperatures.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
       {
         question: "Prairie grasslands are mainly treeless.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
       {
         question: "Ranches in the prairies are mainly used for coffee farming.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question: "The prairies are home to a diverse variety of reptiles.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The prairies are known as the 'Granaries of the World' due to their surplus cotton production.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The dairy belt in the prairies extends from the Great Lakes to the Pacific Coast in the east.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The prairies have a very poor network of roads, railways, and canals.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The absence of the north-south barrier in the prairies allows a local wind called 'Chinook' to blow.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
     ],

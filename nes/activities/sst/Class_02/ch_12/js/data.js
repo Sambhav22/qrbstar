@@ -147,71 +147,61 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "Festivals are the time of joy and celebration. People wear new clothes, eat special food, and visit their friends and families on festivals.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Holi is an important Hindu festival that falls in the month of March, full of fun and frolic, with a Holika bonfire and the tradition of rubbing gulal on each other's faces.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Eid-ul-Fitr is an important religious festival of the Muslims, celebrated at the end of the holy month of fasting 'Ramzan' with a special sweet dish called sewain.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Gurupurabs are celebrated to mark the birthdays of five Sikh gurus, and people go to gurudwaras to pray and take out processions.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Christmas is celebrated on 25th December every year, marking the birthday of Santa Claus, and people decorate Christmas trees.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Harvest festivals are celebrated in regions where the crop is ready to be harvested, including Pongal, Onam, and Baisakhi.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Pongal is the harvest festival of Kerala, celebrated in August or September for ten days with feasting, big processions, and the snake boat race.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Baisakhi is celebrated in Tamil Nadu, welcoming the arrival of a good crop in the month of January.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Onam is celebrated in Punjab, with people wearing colorful clothes, singing, and dancing on the beats of dhol.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Holi is also known as the festival of lights, and it is celebrated with a special dish called gujiya.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
     ],
   };

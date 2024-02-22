@@ -184,58 +184,68 @@ if (localStorage.getItem("activityNumber") == 3) {
       shuffleOptions({
           question:
             "Our teeth have four types: Incisors, Canines, Premolars, and Molars.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
  }),
       shuffleOptions({
           question:
             "Milk teeth are a permanent set of teeth that remain till old age.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
  }),
       shuffleOptions({
           question: "Teeth start growing in babies at the age of 8-12 months.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
  }),
       shuffleOptions({
           question:
             "Floss should be used to clean off the food particles between teeth.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
  }),
       shuffleOptions({
           question:
             "Premolars are the large, pointed teeth just behind the incisors.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
  }),
       shuffleOptions({
           question:
             "The tongue helps in mixing saliva with food during chewing.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
  }),
       shuffleOptions({
           question:
             "Molars are located just behind the premolars, towards the back of our mouth.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
  }),
       shuffleOptions({
           question: "Milk teeth begin to fall off at the age of 6-8 years.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
  }),
       shuffleOptions({
           question: "There are two canines in each jaw.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
  }),
       shuffleOptions({
           question:
             "Eating less sugary food is recommended for taking care of our teeth.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
            }),
     ]),

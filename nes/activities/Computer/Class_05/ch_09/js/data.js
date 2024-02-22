@@ -184,71 +184,61 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "ELIZA was the first chatbot, created by Joseph Weizenbaum in MIT Artificial Intelligence Laboratory in 1966.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Shakey, the first true mobile and perceptive robot, was developed by Sony in 1972.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Deep Blue, the first computer chess-playing expert, was developed in Carnegie Mellon University in 1985.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Kismet, the robot head developed by Dr. Cynthia Breazeal, can recognize and stimulate emotions through various means.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "AIBO, the first robotic dog, was designed and manufactured by Boston Dynamics in 1999.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Atlas, the bipedal humanoid robot, was developed by Boston Dynamics for entertainment tasks.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Sophia, the most recent social humanoid robot, was developed by Sony.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The first computer chess-playing expert, Deep Blue, was developed by IBM.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The internet is primarily used for communication and entertainment purposes.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "News and entertainment programs are broadcasted on radio and television, with radio primarily used for broadcasting both audio and video.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
     ],
   };

@@ -171,61 +171,71 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
       {
         question: "A natural disaster is always caused by human activities.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Floods can occur suddenly or periodically depending on the region and weather conditions.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Cyclones are characterized by strong winds and heavy rainfall.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Earthquakes by themselves are the primary cause of significant damage and loss of life.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Drought is the result of excessive rainfall and an abundance of natural water sources.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Volcanic eruptions are unpredictable and cannot be forecasted.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Industries always require a large supply of cheap power for their operations.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Cottage industries are typically capital-intensive and require significant investment.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Large-scale industries are often located in remote rural areas.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Non-government organizations (NGOs) do not play a role in disaster relief efforts.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
     ],

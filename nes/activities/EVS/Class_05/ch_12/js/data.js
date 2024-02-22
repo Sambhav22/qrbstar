@@ -224,60 +224,70 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "All family members have the same preferences based on their upbringing.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The Braille script enables blind and partially sighted people to read and write through touch.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "A person's liking for non-vegetarian dishes is solely influenced by their occupation.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Special children born in families are often neglected and isolated.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Our sense organs sense things similarly, and differences in likes and dislikes are solely due to upbringing.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Being part of a high society or social environment has no impact on an individual's likes and dislikes.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Members of a family sharing common traits is always due to heredity.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Special children in families are provided education platforms using sign language.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "The Braille script was designed by Louis Armstrong.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "A person's mental state is not influenced by society or environment.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
         ],

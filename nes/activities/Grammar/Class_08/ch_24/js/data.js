@@ -162,61 +162,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Rules give certainty and uniformity to conduct, ensuring that a player or team excels or improves.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "According to the text, a rule becomes a law when it can be enforced by the judiciary.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Laws should be flexible by nature, which is why laws are often written down to alleviate any uncertainty about them.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The government's power to punish rests in the legislature.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Laws provide for the maximum punishment or fine, which the judge cannot determine.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "An accused possesses the right to appeal to a state court if they are not satisfied with the judgment of the judge.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The Constitution is the guardian of all laws in the country, and all laws must be in accordance with its provisions and spirit.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Dissent is an important part of life, and it is expressed against the majority.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "When dissent is expressed in a constructive manner, it should result in disagreement.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The right to vote gives common people a powerful tool to express their dissent in a constructive manner during protests.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

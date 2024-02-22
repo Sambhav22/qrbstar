@@ -167,61 +167,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "The Mayan hieroglyphs are an example of an ancient picture writing system.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Emoji and emoticons are forms of picture writing used in ancient civilizations.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Chinese characters started as phonetic sounds before evolving into stylized pictures.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Visual storytelling often relies on traditional written language rather than images.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Logograms in East Asian writing systems primarily represent abstract concepts.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Graphic novels and comic books use pictures to play a minimal role in storytelling.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Hieroglyphics in ancient Egypt used symbols that could represent specific words or sounds.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The act of conveying a story through a series of images is common in graphic novels.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Emojis and emoticons are modern examples of picture writing used in digital communication.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In East Asian writing systems, logograms are essentially stylized pictures representing words or ideas.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
       ],

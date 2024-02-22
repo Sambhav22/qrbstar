@@ -215,61 +215,71 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "Animals play a very important role in human life. They carry a special bond with their masters. Domestic or pet animals love their masters a lot.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Preservation and protection of wildlife are not crucial to balance the environment.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Project Tiger, initiated by the government in 1973, aims to protect elephants and their habitats.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Animals like donkey, horse, and ox are never used for transportation purposes.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The government is not concerned about the declining number of wild animals.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Project Tiger seeks to protect tigers and the area in which they live, providing a suitable environment for their life.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Exploitation of animals for entertainment purposes, such as making them dance in circuses, does not raise great revenue for circus authority.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Endangered animals are those whose life is in danger of being extinct.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The government's concern about the declining number of wild animals has led to the launch of various conservation programs.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Individuals should not raise awareness about the significance of wildlife to protect it.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
         ],

@@ -159,57 +159,67 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "The Upanishads are based on the Vedas and are known as theist philosophies.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "Jainism and Buddhism are considered theist philosophies.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The ultimate goal of life in Upanishadic thought is material wealth.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Mahavira, the founder of Jainism, was born in the 6th century BC.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Right Conduct is one of the three gems (Triratnas) of Jainism.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "Gautam Buddha founded Hinduism.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "Buddhism spread in the kingdoms of Magadha and Koshala.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The Noble Eight-fold Path consists of eight principles, including Right View and Right Effort.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Both Buddhist and Jain monks formed associations called sanghas and allowed people from all castes and classes to join them.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "The prairies are located near the Pacific Coast.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
     ],

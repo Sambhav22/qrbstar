@@ -161,59 +161,69 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
         {
           question: "Pronouns are words used to describe nouns.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Reflexive pronouns show that the action of the subject reflects upon itself.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "Indefinite Pronouns always refer to specific persons.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Demonstrative Pronouns point to the objects they refer to, such as this, that, these, and those.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Interrogative Pronouns are used to make statements rather than asking questions.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Relative Pronouns relate or refer to a noun that has been mentioned before.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Personal Pronouns can only be in the masculine or feminine gender.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Emphatic Pronouns are used to downplay the significance of a statement.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Web browsers are not required to connect to the internet.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Plural Pronouns should always be used when two nouns are joined by 'and'.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

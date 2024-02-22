@@ -178,70 +178,60 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question: "The lithosphere is one of the three domains of the Earth.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The atmosphere extends up to a height of 2,000 km above the Earth's surface.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Plants release carbon dioxide during the process of photosynthesis.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The stratosphere is the layer of the atmosphere where jet planes usually fly.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Mountains, plains, and plateaus are the three main types of landforms on Earth.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Ganga-Brahmaputra Plains have been the cradle of great civilizations in history.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Alluvial soil is rich in iron and suitable for crops like cotton and tobacco.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question: "The thermosphere is the coldest layer in the atmosphere.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Black soil is the most fertile soil in India, suitable for crops like rice, sugarcane, and wheat.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Soil erosion can be caused by natural factors such as winds and human factors like poor agricultural practices.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
     ],
   };

@@ -218,60 +218,70 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: shuffleQues([
       shuffleOptions({
           question: "Birds sing beautifully in the morning.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
          }),
       shuffleOptions({
           question: "Aditya is writing a letter to his sister.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "Symbols are a representation of an object, function, or emotion.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
          }),
       shuffleOptions({
           question:
             "Mobile phones are the slowest means of personal communication.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "Mass communication involves exchanging information on a small scale.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "Communication is not considered an important requirement for the survival of humans.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "People who do not speak can express their feelings through sign language.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
          }),
       shuffleOptions({
           question:
             "Symbols can only represent objects, not functions or processes.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "Letters through post are the most expensive way to communicate with people in different locations.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "Communication with masses involves the use of personal letters.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
            }),
     ]),

@@ -183,69 +183,59 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "In a federal system, power is concentrated in a single central government.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "The Constitution of India was authored by the Constituent Assembly.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question: "Fundamental Rights are absolute and cannot be restricted.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "The separation of powers in government is designed to prevent any one organ from becoming supreme or dictatorial.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question: "The President of India is directly elected by the people.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "Dissent is not an important part of life in a democratic society.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "The Constitution of India divides powers among the central government, state government, and local self-government.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
           "Universal Adult Franchise allows all citizens, regardless of age, to vote in elections.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "The Constitution of India came into force on January 26, 1950.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
           "The separation of powers in government ensures that the Executive has supreme authority.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
     ],
   };

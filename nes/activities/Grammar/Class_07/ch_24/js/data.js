@@ -180,61 +180,71 @@ if (localStorage.getItem("activityNumber") == 3)
         {
           question:
             "The essay competition in Class VII-A is scheduled for 27 April, 20xx during the second period.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The sports meet in athletics at Golden Era Public School is proposed for 12 December, 20xx.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Anvi decides to write a message for Abhay because she is going to her dance class.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Satyam's class excursion to Delhi includes a visit to a Science Exhibition.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In the telephonic dialogue, Abhay's father asks him to collect a packet of envelopes from Jain Uncle's house.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The sports meet at Golden Era Public School is for all academic events on the annual day.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Anvi's message to Abhay mentions that she will be back by 5:30 pm.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Karan's house is locked when Satyam goes to convey the excursion message.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "Not specified",
         },
         {
           question:
             "The essay competition topic is 'Benefits of Sports in School'.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Satyam suggests that interested students must carry the money for the excursion to the zoo and book fair in Pragati Maidan.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
       ],

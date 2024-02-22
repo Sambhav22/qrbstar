@@ -184,70 +184,60 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "Children will learn about Sensing, Variables, and Conditional blocks in Scratch.",
-        optionA: "true",
-        optionB: "false",
-        correctAnswer: "true",
+        optionA: "True",
+        optionB: "False",correctAnswer: "true",
       },
       {
         question:
           "The Sensing block prompts the user to type input using the keyboard.",
-        optionA: "true",
-        optionB: "false",
-        correctAnswer: "true",
+        optionA: "True",
+        optionB: "False",correctAnswer: "true",
       },
       {
         question: "Variables in Scratch have fixed values.",
-        optionA: "true",
-        optionB: "false",
-        correctAnswer: "false",
+        optionA: "True",
+        optionB: "False",correctAnswer: "false",
       },
       {
         question:
           "Conditional blocks are used in Scratch when a task depends on certain conditions.",
-        optionA: "true",
-        optionB: "false",
-        correctAnswer: "true",
+        optionA: "True",
+        optionB: "False",correctAnswer: "true",
       },
       {
         question:
           "The Motion block in Scratch has a fixed number of steps by default.",
-        optionA: "true",
-        optionB: "false",
-        correctAnswer: "false",
+        optionA: "True",
+        optionB: "False",correctAnswer: "false",
       },
       {
         question:
           "The task of eating an apple in the given example depends on the availability of apples.",
-        optionA: "true",
-        optionB: "false",
-        correctAnswer: "true",
+        optionA: "True",
+        optionB: "False",correctAnswer: "true",
       },
       {
         question:
           "The If then ... else block in Scratch has three parts: If, Then, and Else.",
-        optionA: "true",
-        optionB: "false",
-        correctAnswer: "false",
+        optionA: "True",
+        optionB: "False",correctAnswer: "false",
       },
       {
         question: "India's road network is the largest in the world.",
-        optionA: "true",
-        optionB: "false",
-        correctAnswer: "false",
+        optionA: "True",
+        optionB: "False",correctAnswer: "false",
       },
       {
         question:
           "The Golden Quadrilateral connects the major metropolitan cities with a length of 5,846 kilometers.",
-        optionA: "true",
-        optionB: "false",
-        correctAnswer: "true",
+        optionA: "True",
+        optionB: "False",correctAnswer: "true",
       },
       {
         question:
           "The first successful aeroplane was built in 1903 by the Wright brothers.",
-        optionA: "true",
-        optionB: "false",
-        correctAnswer: "true",
+        optionA: "True",
+        optionB: "False",correctAnswer: "true",
       },
     ],
   };

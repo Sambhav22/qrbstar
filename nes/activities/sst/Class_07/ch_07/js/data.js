@@ -163,60 +163,70 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "Akbar's policies of harmony and tolerance contributed to the expansion and prosperity of his empire.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Aurangzeb's policies of suppressing non-Muslims led to the growth and stability of his empire.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The main source of information about Akbar's rule is the Tuzuk-i-Jahangiri.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The diwan-i-khas was the hall of public audience in the Mughal royal court.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The empire was divided into provinces, each under the charge of a sadr-i-sadur.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "During the Mughal period, taxes were charged on activities such as pilgrimage, jaziya, and construction of houses.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Land revenue from cultivation was fixed at one-half during Akbar's time.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The mansabdari system in the Mughal administration was hereditary.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "The Mughals maintained a strong navy during their rule.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Akbar's diplomatic policy towards the Rajputs involved treating them honourably and giving them high posts in his administration.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
     ],

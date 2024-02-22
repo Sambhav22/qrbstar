@@ -168,69 +168,59 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question: "Agriculture is directly related to food security.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question: "The world population is growing at about 1.1% per year.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
           "With the growing population, agricultural land is expanding.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "Modern ways of living have led to a reduction in food wastage.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "The use of chemical fertilizers and pesticides has a positive impact on soil fertility.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "The Industrial Revolution in the 18th and early 19th centuries had no significant impact on agriculture.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question: "India is traditionally an industrial country.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "The government introduced land reforms to redistribute land among landless laborers.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
           "Indian farmers primarily use organic fertilizers in their farming practices.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "The government has not taken any steps to address the problems associated with agriculture.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
     ],
   };

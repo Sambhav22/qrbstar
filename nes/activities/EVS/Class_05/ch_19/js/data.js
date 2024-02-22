@@ -205,57 +205,67 @@ if (localStorage.getItem("activityNumber") == 3) {
         questions: [
           {
             question: "Earthquake magnitude is measured on the Richter scale.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "Floods in Uttarakhand in 2013 were caused by a cyclone.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Drought is a natural disaster resulting from excessive rainfall.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "Cyclones are more prone to occur in inland areas.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "Tsunamis can be caused by underwater earthquakes.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "Volcanic eruptions release steam, rocks, and gases.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "First aid is the final medical treatment given to an injured person.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Applying cold water is recommended for burns, regardless of the severity.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "A fracture should be supported with a splint to prevent movement.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "NGOs like CRY, Red Cross Society, and VIDE provide aid during disasters.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
         ],

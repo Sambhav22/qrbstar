@@ -157,59 +157,69 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Subject 'I' is paired with 'Am' in the Present Continuous Tense.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "'Are' is used with all Plural Subjects in the Present Continuous Tense.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "'Is' is used with all Singular Subjects in the Present Continuous Tense.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In negative sentences, 'Not' is placed after the subject in the Present Continuous Tense.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "'Will' is used with all subjects in Simple Future Tense.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "'Shall' is used with 'I' and 'we' in Simple Future Tense.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In negative sentences in Simple Future Tense, 'Not' is placed before the verb.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "'Will' and 'shall' are used at the end of interrogative sentences in Simple Future Tense.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Simple Future Tense is also known as Present Perfect Tense.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "All subjects take 'Will' in affirmative sentences in Simple Future Tense.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
       ],

@@ -170,61 +170,71 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "Conjunctions only join words, not sentences or word groups.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The sentence 'Shubhi is a singer and Rubi is a dancer' does not contain any conjunctions.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Conjunctions like 'but' are used to show similarities between words.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "'The cup has a handle but the plate does not' uses 'but' as a conjunction.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Conjunctions 'and' and 'but' are used to connect sentences.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "In the sentence 'The guava is sour but the apple is sweet,' 'but' is a preposition.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "'The ant and the elephant' does not use any conjunction.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Conjunctions do not play any role in joining word groups or phrases.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The sentence 'The cup and the plate' demonstrates the use of a conjunction.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "'The guava and the apple' uses 'and' as a conjunction to join two words.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
         ],

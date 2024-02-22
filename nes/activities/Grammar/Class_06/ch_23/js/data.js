@@ -158,58 +158,68 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Rayansh received a camera as a birthday gift from his uncle.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "Mayuri secured the second position in school.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Veer Singhania's letter highlights the satisfactory condition of sanitation in the colony.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Kabir Oberoi addressed the issue of a malfunctioning computer in his letter.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Shanaya Verma requested three days' leave to attend her elder brother's marriage ceremony.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Rishi Walia requested inclusion of his name in the school football team.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Ridhima Mehra desired to organize a friendly football match with the school team of D.A.V. Inter Public School.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Virat Singh addressed the outbreak of measles in his locality.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Shanaya Verma studies at S.D. Public School.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Ridhima Mehra is the coach of the school football team.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

@@ -164,61 +164,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "The Diwan-i-Khas in the Mughal royal court was primarily for meeting nobles and officers.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The Wazir was responsible for revenue, income, and expenditure in the Mughal administration.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Land revenue was not a significant source of income for Mughal rulers.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The system developed by Todar Mal for fixing land revenue was called Akbari Bandobast.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The mansabdari system in the Mughal military administration implemented a hereditary positions system.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Mughal rulers exercised direct control over their army without dependence on any mansabdar.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The efficiency of the mansabdari system during Aurangzeb's time was compromised due to military campaigns.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "After conquering the Rajputs, Akbar treated them with humiliation and exile.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The Sadr-i-Sadur was responsible for revenue, income, and expenditure in the Mughal administration.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Diplomacy was the key factor in the Mughal ruler's control over an army without dependence on any mansabdar.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

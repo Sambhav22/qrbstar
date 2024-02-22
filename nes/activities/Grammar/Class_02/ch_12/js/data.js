@@ -159,59 +159,69 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Articles are determiners. They tell whether a Noun is definite or indefinite.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "Indefinite Articles are 'the' and 'a'.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Definite Article is only 'an'.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Article 'a' is used with words spoken with a non-Vowel or consonant sound.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Article 'an' is used with words spoken with a consonant sound.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The word 'hour' has spelling beginning with 'h' (Consonant) but is spoken with a vowel sound.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Article 'the' is used before a Noun in the following cases: With a Noun that has already been mentioned before.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Article 'the' is used with the names of plants, oceans, rivers, etc.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Before Superlative Degree of Adjectives, 'the' is used, as in 'She is the most intelligent girl in class.'",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "With the names of newspapers, journals, and classical or religious books, 'the' is used, as in 'The Hindustan Times is a fine book.'",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

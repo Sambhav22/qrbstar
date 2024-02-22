@@ -203,61 +203,71 @@ if (localStorage.getItem("activityNumber") == 3) {
       shuffleOptions({
           question:
             "Breathing involves three main processes: Inhalation, Exhalation, and Respiration.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
  }),
       shuffleOptions({
           question:
             "The trachea, also known as the windpipe, connects the lungs to the back of the throat.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
  }),
       shuffleOptions({
           question:
             "During inhalation, the diaphragm relaxes, making more space for the lungs to expand.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
  }),
       shuffleOptions({
           question:
             "Blowing on a glass of hot coffee is done to make it hotter.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
  }),
       shuffleOptions({
           question:
             "Glass surfaces become cloudy when blown upon during winters because breath contains carbon dioxide.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
  }),
       shuffleOptions({
           question:
             "The process of exhaling involves the contraction of the diaphragm.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
  }),
       shuffleOptions({
           question:
             "Breathing rate remains constant and does not change during physical activities.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
  }),
       shuffleOptions({
           question:
             "During winters, blowing on our palms helps to keep them warm due to the cold air exhaled by our mouth.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
  }),
       shuffleOptions({
           question:
             "The primary function of the lungs is to expel oxygen and take in carbon dioxide during breathing.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
  }),
       shuffleOptions({
           question:
             "Our body temperature is approximately 98.4 degrees Celsius.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
            }),
     ]),

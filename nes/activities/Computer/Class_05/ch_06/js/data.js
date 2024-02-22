@@ -167,61 +167,71 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "Internet stands for Interconnected Network and connects millions of computers across the world.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "E-mail is not considered an exciting feature of the internet and is not a medium of instant communication.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Web browsers, such as Microsoft Edge, Google Chrome, and Mozilla Firefox, help organize web pages.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The abbreviation URL stands for Uniform Resource Locator, which is the unique address of a web page or website.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Net surfing refers to moving from one page to another on the World Wide Web using links.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Internet safety is not crucial, and users can freely provide personal information without any risks.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Modem, or Modulator Demodulator, is used to organize web pages in the context of internet connectivity.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The main page of a website, containing a brief description and links to further pages, is known as the Index Page.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Online education through e-learning websites has not made education easily accessible.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "It is safe to click on all links and URLs for exploration without considering potential risks.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
     ],

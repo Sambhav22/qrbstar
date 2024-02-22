@@ -199,61 +199,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         questions: [
           {
             question: "Water is not essential for all living beings.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The Persian wheel is a hand-operated device used for lifting water in agriculture.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Denkli, also known as paecottah or shaduf, is still widely used in modern agricultural practices.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Tube wells are pumps that help pull groundwater for irrigation.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Industries worldwide account for less than 10% of total water consumption.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Water in domestic life is not used for personal hygiene and washing of clothes.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Rivers are the major source of water in many parts of the world.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Stagnant water around localities or houses is not a breeding place for mosquitoes.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The industry does not use water as a raw material, coolant, solvent, transport agent, or source of energy.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Groundwater depletion is not attributed to overexploitation by rising human population and rapid urbanization and industrialization.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
         ],

@@ -176,61 +176,71 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "PowerPoint primarily uses slides to convey information rich in multimedia.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The Ribbon in PowerPoint contains commands specific to the selected tab.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The Backstage view in PowerPoint allows performing basic tasks like New, Open, and Print.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The Quick Access Toolbar in PowerPoint mainly includes commands for clipboard operations.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "SmartArt in PowerPoint is used to represent only textual data such as charts and graphs.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Slide Sorter View in PowerPoint allows editing the material present on the slides.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The Notes Pane in PowerPoint is used to write information related to the slides.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The Slide Show View in PowerPoint is primarily used for proofreading presentations.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Master View in PowerPoint stores information about the presentation's background and effects.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Exiting PowerPoint can be done by clicking the Close option in the File tab.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
         ],

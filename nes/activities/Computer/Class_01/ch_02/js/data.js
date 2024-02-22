@@ -168,7 +168,8 @@ if (localStorage.getItem("activityNumber") == 3) {
       },
       {
         question: "A mouse is primarily used for typing text.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {

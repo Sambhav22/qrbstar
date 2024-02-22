@@ -172,56 +172,66 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "A preposition is a word placed after a Noun or Pronoun to express its relation with something else.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "Prepositional phrases contain only one word.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "A preposition is always placed after its object.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "A preposition can be placed after its object if an Interrogative Pronoun is used in the sentence.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "Adverbs of time are used to show the place of an action.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Adverbs of Manner show the extent or degree of an action.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "If a preposition modifies the whole sentence, it should be placed at the end of the sentence.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Adverbs are always placed between the Helping and the Main Verb.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Adverbs of Degree show the time of an action.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "When an Adverb modifies an Intransitive Verb, it occurs before the subject.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

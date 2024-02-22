@@ -177,59 +177,69 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
         {
           question: "Birds have three main body parts - head, trunk, and tail.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question: "All birds have feathers that cover their entire body.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question:
             "Flight feathers are mainly present on the wings and the tail of a bird.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question:
             "Birds use their beaks for chewing food and grinding it down.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
         {
           question:
             "The shape and feathers of a bird's body enable them to swim easily.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
         {
           question:
             "The Great Indian Desert is primarily located in the state of Maharashtra.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
         {
           question:
             "Woodpeckers have broad and flat beaks for cracking nuts and seeds.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
         {
           question: "Swimming birds like ducks and swans have webbed feet.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question:
             "Birds with pointed beaks like hummingbirds suck nectar from flowers.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question:
             "All birds build nests to lay eggs and raise their young ones.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
       ],

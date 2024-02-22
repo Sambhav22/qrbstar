@@ -155,58 +155,68 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
         {
           question: "Conjunctions are separating words.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "A conjunction is a word that joins phrases, numbers, and sentences.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In the sentence 'Jyoti is poor honest,' a conjunction is missing.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "Vinayak is either a singer or an artist.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The conjunction in the sentence 'Have some tea. Have some coffee. Have some tea or coffee.' is 'and'.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Mukti and Shakti is a sentence with a conjunction.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The sentence 'Asha reads. Deepak reads. Asha and Deepak read.' contains the conjunction 'or'.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Common conjunctions include also, but, else.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The sentence 'Vinayak is neither a singer nor an artist.' does not contain a conjunction.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The correct conjunction to complete the sentence 'Read some common conjunctions so you understand their usage.' is 'and'.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

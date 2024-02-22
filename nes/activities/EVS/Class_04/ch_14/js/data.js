@@ -180,56 +180,66 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: shuffleQues([
       shuffleOptions({
           question: "Private means of transport require payment for tickets.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question: "Bank notes are made of plastic.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question: "Coins have only one side with the National Emblem.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question: "The Indian currency is known as the Yen.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question: "The 2000 rupee note has been withdrawn from circulation.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
          }),
       shuffleOptions({
           question: "The watermark on banknotes depicts the face of Nehru.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "Animals like lions and tigers were used for transportation in ancient times.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "The value of a note is given in 10 Indian languages on the right side of the picture.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "The security thread on a banknote is imprinted to encourage the making of fake notes.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "In rural areas of India, oxen, horses, donkeys, camels, and elephants are still common modes of transport.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
            }),
     ]),

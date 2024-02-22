@@ -160,70 +160,60 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "The Preamble to the Constitution of India incorporates the vision and aspirations of the Indian people.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
           "India is a sovereign nation, which means it can make laws without interference from other countries.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
           "Secularism in India means that the state gives equal importance to all religions.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
           "In a democratic government, elected representatives are the supreme power.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
           "The President of India is the head of both the nation and the government.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question: "The Indian Constitution has a total of 500 Articles.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "Fundamental Duties were included in the Indian Constitution in 1976.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
           "The Directive Principles of State Policy can be enforced by the Judiciary.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "India is a federal nation, which means powers are divided among the central government, state government, and local self-government.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
           "The Constitution of India came into force on August 15, 1947.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
     ],
   };

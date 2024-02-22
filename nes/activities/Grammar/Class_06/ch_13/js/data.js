@@ -162,59 +162,69 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Noun Phrases are groups of words in a sentence that function like verbs.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Adjective Phrases function like adjectives in a sentence.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Principal Clauses are dependent on other clauses for their meaning.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Coordinate Clauses can express their meaning fully and independently.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Subordinate Clauses are not dependent upon any other clause for their meaning.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Adverb Phrases modify nouns in a sentence.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Correlative Conjunctions always occur as single, standalone words.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Coordinating Conjunctions are used to join words or sentences of different classes.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "A Principal Clause is the chief clause in a sentence and is dependent on other clauses.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Phrasal Verbs give a particular meaning to some nouns, verbs, or adjectives when used with certain prepositions.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
       ],

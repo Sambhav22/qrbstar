@@ -174,70 +174,60 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "Palaeolithic tools were crude and less efficient during the Early Stone Age.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question: "Early Man primarily relied on farming during the Stone Age.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Mesolithic Age marked the beginning of domesticating wild animals.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The use of stone-on-stone and pressure-flaking methods were important in shaping stone tools during the Stone Age.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Early Man's interaction with other groups led to the formation of various social groups.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Early Man learned to make fire by striking steel against stone.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "During the Palaeolithic Age, Early Man wore animal skins for protection from cold and wind.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Early Man used iron oxides, charcoal, and ochre to create colorful cave paintings during the Stone Age.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Stone Age can be divided into four distinct ages based on the primary material used.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The development of stone tools during the Stone Age was marked by the gradual improvement in their efficiency and size.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
     ],
   };

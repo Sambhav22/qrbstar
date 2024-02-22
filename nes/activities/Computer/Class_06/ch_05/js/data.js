@@ -181,61 +181,71 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "The Program virus infects executable files with extensions like .com, .exe, .ovl, .drv, .sys, etc.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Boot viruses infect only the data files stored in the computer.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Stealth viruses conceal themselves by changing the creation date and time of files.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Web Scripting Virus resides in certain elements of a website, such as links, ads, images, and videos.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Multipartite viruses usually hide in the memory and never move to the hard drive.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Polymorphic viruses use the same encryption method every time they infect a system.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Trojan horse spreads automatically without any user intervention.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Email viruses activate themselves when a user opens a suspicious email attachment.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Overwrite viruses maintain the original content of the infected file.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Antivirus software takes manual action to detect and eliminate computer viruses.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
     ],

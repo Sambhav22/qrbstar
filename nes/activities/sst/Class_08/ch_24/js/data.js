@@ -161,70 +161,60 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question: "A child is born with innate skills.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "Skill development through learning by doing started during the Stone Age.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question: "Education and training have no impact on human development.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "Trained and educated individuals are often referred to as a population burden.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "Unskilled and untrained individuals contribute positively to a country's progress.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "A favorable sex ratio indicates that there are more males than females in a country.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "The sex ratio in India, as per the 2011 Census, was favorable.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "Unfavorable sex ratios are often caused by crimes against girls and women.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
           "A broad population pyramid at the base indicates high birth and low death rates.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
           "Developed countries are often characterized by industrial development, leading to economic prosperity.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
     ],
   };

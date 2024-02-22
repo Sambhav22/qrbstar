@@ -184,71 +184,61 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "Art finds expression in different ways, such as in writing, painting, music, and sculpture. Rock painting is the earliest example of art.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "With time, new tools came into existence which gave expression to art. When paper was invented, it became easier to dance and draw.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The invention of the computer has given wings to arts in a big way. New patterns of paintings and pictures have taken a backstage stage.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The social media has helped to spread the art works to a larger number of people in no time.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Breaking Away of Barriers in Art: In the past, it was not possible to transmit a piece of art to other cultures and regions easily, so the intercultural impact remained limited.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "This synthesis has its negative aspect too. With mingling of different forms of arts, some people have started to feel that the existence of their unique art forms is being celebrated.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Literature in the modern period started to express nationalism in different ways and forms. Thus, stories and poetry were composed to motivate people to fight the foreign rule.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Most of the Indian writers wrote in European languages, and not in English or French.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "In the modern period, painting came to be influenced by current topics, such as social reforms, mythology, politics, etc.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Different architectural styles such as Hindu, Persian, Mughal, and western made their presence felt in different buildings and monuments in the colonial period.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
     ],
   };

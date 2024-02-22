@@ -158,59 +158,69 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "A conjunction is a word that separates words, word-groups, and sentences.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In the sentence 'Jyoti is poor but honest,' 'but' is a conjunction.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "Common conjunctions include 'also,' 'but,' and 'else.'",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Vinayak is both a singer and an artist.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The adverb 'quickly' modifies a noun in the sentence 'The cat ran quickly.'",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In the sentence 'Have some tea or coffee,' 'or' is a conjunction.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The conjunction 'neither...nor' is used to indicate an alternative or choice.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Asha reads, and Deepak reads. Asha and Deepak read are equivalent sentences.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The adverb 'strongly' adds something to the meaning of an adjective.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Common conjunctions include 'since,' 'either...or,' and 'else.'",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
       ],

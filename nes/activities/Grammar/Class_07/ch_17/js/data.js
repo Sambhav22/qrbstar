@@ -167,61 +167,71 @@ if (localStorage.getItem("activityNumber") == 3)
         {
           question:
             "The passive voice is used when the subject of a verb is receiving the action.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In imperative sentences, the passive voice is initiated with 'Let + Object + Verb.'",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The tense of the reported speech in indirect speech remains unchanged when the reported speech is in the present or future tense.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The future continuous tense can be changed into the passive voice.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Modal auxiliaries in a sentence are changed into passive voice by adding 'be' after them and using the past participle of the verb.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "An imperative sentence expresses a statement, not an order, request, or suggestion.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The past perfect tense is changed into the passive voice by using 'has been' or 'have been' as per the new subject.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Wh-type questions in indirect speech are transformed using the conjunction 'if' or 'whether'.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The passive voice is initiated in imperative sentences with 'Object + Verb + Let.'",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "When there is a modal auxiliary in a sentence, its passive voice is made by adding 'be' after it and using the past participle of the verb.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
       ],

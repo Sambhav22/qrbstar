@@ -171,61 +171,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Simple Present Tense is also known as Past Indefinite Tense.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Negative sentences use the word order: Subject + Do/Does + not + Verb in I form + Object.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Interrogative sentences begin with the use of Am/Is or Do/Does.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "An interrogative sentence starts with an interrogative word placed at the end.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Common interrogative words include: What, When, How, Why, Where.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In the sentence 'He does not play on the road,' 'does' is used because the subject is Plural.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Negative sentences follow the word order: Subject + Do/Does + not + Verb in I form + Object.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The interrogative word 'When' is used in the sentence: Where do you live?",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Only the First Form of the Verb is used with Singular Subjects.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Negative sentences follow the word order: Subject + Do/Does + not + Verb in I form + Object.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
       ],

@@ -200,58 +200,68 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "Yuri Gagarin was the first man to go into space on 12 April, 1961.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Comets are balls of ice and gas that orbit around stars.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Mount Everest is the highest peak in the world at 8848 meters.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Kalpana Chawla went on her first space flight as part of the NASA space program on 19 November, 1997.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Sunita Williams served as the commander of the International Space Station in 2012.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "Asteroids are smaller than planets and orbit the sun.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Mountaineers may come across dangers like loose rocks or ice blocks while climbing mountains.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "There are twelve planets in our solar system.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Valentina Tereshkova was the first person to land on the moon.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "Satellites can only be artificial and not natural.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
         ],

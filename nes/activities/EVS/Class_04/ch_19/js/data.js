@@ -200,61 +200,71 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "A pandemic is an epidemic that usually affects a large number of people, crossing international boundaries in a short span of time.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Cancer is considered a pandemic because it is contagious.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "In 1918, India faced the outbreak of a deadly influenza pandemic as a part of the worldwide Spanish flu pandemic, killing about 2 crore people in the country.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The novel coronavirus is believed to have started in the Wuhan seafood market, China, where live wild animals were being traded.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "COVID-19 was declared as a global pandemic by the European Union.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Coronavirus disease severely affected only the population and the economy but not the healthcare professionals.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Food starvation was not observed during the COVID-19 pandemic due to effective government measures.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The only tool that saved people from COVID-19 is medication.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "India reported the first Covid-19 positive case in the state of Maharashtra on January 30th, 2020.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Social Distancing and lockdown rules had an additional impact on the economy, human living, and environment in India during the COVID-19 pandemic.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
         ],

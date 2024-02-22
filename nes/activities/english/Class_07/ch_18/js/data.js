@@ -1,16 +1,41 @@
 export const chapter = "Chapter - 18: A Horse and Two Goats";
-export const noOfActivities = 3;
+export const noOfActivities = 3
+
+const shuffleQues = (ques) => {
+  let arr = ques.slice()
+  for (let i = arr.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1))
+    ;[arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+  return arr
+}
+
+const shuffleOptions = (object) => {
+  const { optionA, optionB, optionC } = object
+  const optionsArray = [optionA, optionB, optionC]
+
+  for (let i = optionsArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
+  }
+
+  object.optionA = optionsArray[0]
+  object.optionB = optionsArray[1]
+  object.optionC = optionsArray[2]
+
+  return object
+}
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: [
-      {
+    questions: shuffleQues([
+      shuffleOptions({
         question: "What material is the statue of the horse made of?",
         options: ["A) Stone", "B) Clay", "C) Wood"],
         answer: "B",
-      },
-      {
+     }),
+      shuffleOptions({
         question: "How did Muni find shade while sitting near the statue?",
         options: [
           "A) He used an umbrella",
@@ -18,8 +43,8 @@ if (localStorage.getItem("activityNumber") == 1) {
           "C) He sat under a tree",
         ],
         answer: "B",
-      },
-      {
+     }),
+      shuffleOptions({
         question:
           "What does Muni do while watching his goats graze near the statue?",
         options: [
@@ -28,20 +53,20 @@ if (localStorage.getItem("activityNumber") == 1) {
           "C) Waits for a bus",
         ],
         answer: "C",
-      },
-      {
+     }),
+      shuffleOptions({
         question:
           "What term does the foreigner use to describe the statue of the horse?",
         options: ["A) Extraordinary", "B) Beautiful", "C) Marvellous"],
         answer: "C",
-      },
-      {
+     }),
+      shuffleOptions({
         question:
           "What does Muni think the foreigner might do if he runs away?",
         options: ["A) Take his goats", "B) Shoot him", "C) Chase him"],
         answer: "B",
-      },
-      {
+     }),
+      shuffleOptions({
         question: "What does the foreigner do when he meets Muni?",
         options: [
           "A) Offers to buy his goats",
@@ -49,14 +74,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           "C) Shows him a warrant",
         ],
         answer: "B",
-      },
-      {
+     }),
+      shuffleOptions({
         question:
           "How does Muni communicate with the foreigner when he runs out of English words?",
         options: ["A) In French", "B) In Tamil", "C) In Spanish"],
         answer: "B",
-      },
-      {
+     }),
+      shuffleOptions({
         question: "Why does the foreigner present a card to Muni?",
         options: [
           "A) To offer him a job",
@@ -64,8 +89,8 @@ if (localStorage.getItem("activityNumber") == 1) {
           "C) To challenge him to a game",
         ],
         answer: "B",
-      },
-      {
+     }),
+      shuffleOptions({
         question: "What is the foreigner interested in purchasing from Muni?",
         options: [
           "A) The goats",
@@ -73,8 +98,8 @@ if (localStorage.getItem("activityNumber") == 1) {
           "C) A tape recorder",
         ],
         answer: "B",
-      },
-      {
+     }),
+      shuffleOptions({
         question:
           "How does Muni react to the foreigner's offer for the statue?",
         options: [
@@ -83,138 +108,148 @@ if (localStorage.getItem("activityNumber") == 1) {
           "C) He haggles for a higher price",
         ],
         answer: "B",
-      },
-    ],
-  };
+      }),
+    ]),
+  }
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
-    questions: [
-      {
+    questions: shuffleQues([
+      shuffleOptions({
         question:
           "Muni sat at the foot of the statue, watching his two goats graze in the arid soil among the ______________ and lantana bushes.",
         options: ["A) trees", "B) cactus", "C) flowers"],
         correctAnswer: "B) cactus",
-      },
-      {
+     }),
+      shuffleOptions({
         question:
           "The horse was nearly life-size, molded out of clay, baked, burnt, and brightly colored, and reared its head proudly, prancing its forelegs in the air and flourishing its tail in a ______________.",
         options: ["A) loop", "B) swirl", "C) twirl"],
         correctAnswer: "A) loop",
-      },
-      {
+     }),
+      shuffleOptions({
         question:
           "Muni felt he should get up and run away, and cursed his age. He could not readily put his limbs into ______________.",
         options: ["A) action", "B) motion", "C) movement"],
         correctAnswer: "A) action",
-      },
-      {
+     }),
+      shuffleOptions({
         question:
           "The foreigner wore khaki clothes—evidently a policeman or a ______________.",
         options: ["A) farmer", "B) soldier", "C) teacher"],
         correctAnswer: "B) soldier",
-      },
-      {
+     }),
+      shuffleOptions({
         question:
           "The foreigner suddenly pressed his palms together in a salute, smiled, and said, 'Namaste! How do you do?' At which Muni spoke the only English expressions he had learnt, 'Yes, ______________.'",
         options: ["A) please", "B) sir", "C) no"],
         correctAnswer: "C) no",
-      },
-      {
+     }),
+      shuffleOptions({
         question:
           "The foreigner implored, 'Please, please, I will speak slowly, please try to understand me. Can't you understand even a simple word of ______________?'",
         options: ["A) French", "B) English", "C) Spanish"],
         correctAnswer: "B) English",
-      },
-      {
+     }),
+      shuffleOptions({
         question:
           "Muni said, 'Before God, sir, Bhagwan, who sees everything, I tell you, sir, that we know nothing of the ______________. If the murder was committed, whoever did it will not escape.'",
         options: ["A) crime", "B) case", "C) incident"],
         correctAnswer: "B) case",
-      },
-      {
+     }),
+      shuffleOptions({
         question:
           "The foreigner watched his hands intently and said, 'I know what you mean. Chop something? Maybe I am holding you up and you want to ______________ wood?'",
         options: ["A) cut", "B) chop", "C) split"],
         correctAnswer: "B) chop",
-      },
-      {
+     }),
+      shuffleOptions({
         question:
           "Muni explained, 'This is our guardian, it means death to our adversaries. At the end of Kali Yuga, this world and all other worlds will be destroyed, and the Redeemer will come in the shape of a horse called ______________; this horse will come to life and gallop and trample down all bad men.'",
         options: ["A) Pegasus", "B) Kalki", "C) Mustang"],
         correctAnswer: "B) Kalki",
-      },
-      {
+     }),
+      shuffleOptions({
         question:
           "The foreigner said, 'I repeat I am not a millionaire. Ours is a modest business; after all, we can't afford to buy more than sixty minutes' TV time in a month, which works out to two minutes a day, that's all, although in the course of time we'll maybe sponsor a one-hour show regularly if our ______________ continues to go up.'",
         options: ["A) success", "B) growth", "C) sales graph"],
         correctAnswer: "C) sales graph",
-      },
-    ],
-  };
+      }),
+    ]),
+  }
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: [
-      {
+    questions: shuffleQues([
+      shuffleOptions({
         question: "The author's friends gave them a warm reception.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
-      },
-      {
+     }),
+      shuffleOptions({
         question: "The author felt relaxed during dinner at the fort.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
-      },
-      {
+     }),
+      shuffleOptions({
         question: "The author was not suspicious of their friends' intentions.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
-      },
-      {
+     }),
+      shuffleOptions({
         question: "The king in the story loved perfectly round chapattis.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
-      },
-      {
+     }),
+      shuffleOptions({
         question:
           "The author found something suspicious about the bed in the room.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
-      },
-      {
+     }),
+      shuffleOptions({
         question: "The king refused to eat square chapattis.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
-      },
-      {
+     }),
+      shuffleOptions({
         question: "The king enjoyed a chapatti that turned into a butterfly.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
-      },
-      {
+     }),
+      shuffleOptions({
         question:
           "Meena's family could only afford to eat chapattis with ketchup.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
-      },
-      {
+     }),
+      shuffleOptions({
         question:
           "The author's friends were spying on them outside their room.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
-      },
-      {
+     }),
+      shuffleOptions({
         question: "The author's paranoia led to the practical joke in the end.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
-      },
-    ],
-  };
+      }),
+    ]),
+  }
 }
 
 export var activityData;

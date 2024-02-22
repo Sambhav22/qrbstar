@@ -171,59 +171,69 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
       {
         question: "The Sahara Desert is the largest hot desert on the planet.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "Most of Saudi Arabia is covered by lush rainforests.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The varna system in ancient India evolved into a more open and flexible system.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Buddhism and Jainism grew as a result of a widening gap between the Brahmins and common people in India.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The Ashwamedha Yajna was a common practice for conducting trade in ancient India.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "The capital of Saudi Arabia is Jeddah.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The Mahajanapadas in ancient India were ruled by elected councils.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The traditional nomadic people of Saudi Arabia are known as Bedouins.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Trade in ancient India was primarily conducted by ships in river-ports and seaports.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The birth-based caste system in India allowed for social mobility and intermarriage between castes.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
     ],

@@ -166,60 +166,70 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "An Imperative Sentence is used to express strong or sudden feelings.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Exclamatory Sentences are primarily used for asking questions.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In Yes/No-type Questions, the auxiliary is brought to the end of the sentence.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Logical text styles in HTML are applied using tags like <B> for bold and <I> for italics.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The <TITLE> tag in HTML specifies the document's title and appears on the browser's title bar.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "Assertive Sentences can be affirmative or negative.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The <HR> tag in HTML produces a vertical line across the width of the browser window.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The BACKGROUND attribute of the <BODY> tag in HTML is used to set a background image for the web page.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Comments in HTML, given between <!... and ...>, serve the purpose of providing styling within the code.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Interrogative Sentences are used to make statements or declarations.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

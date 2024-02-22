@@ -155,59 +155,69 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
         {
           question: "Conjunctions join words, word-groups, and sentences.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In the sentence 'A clever thief or a foolish man,' 'or' is a preposition.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The sentence 'He writes slow but neatly' uses the conjunction 'and'.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The conjunction 'unless' is used to provide an alternative in a sentence.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "'Either ... or' is a conjunction indicating contrast between alternatives.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In the sentence 'He is sleeping because he is tired,' 'because' is a preposition.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Coordinating conjunctions join independent clauses.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The conjunction 'so' is used to introduce a condition in a sentence.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Correlative conjunctions always come in pairs.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The sentence 'He went to the store or to the mall' demonstrates the use of a subordinating conjunction.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

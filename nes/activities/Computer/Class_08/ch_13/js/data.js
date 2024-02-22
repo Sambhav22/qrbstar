@@ -189,71 +189,61 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question: "Mahatma Gandhi led the Quit India Movement in 1942.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Simon Commission was welcomed by all political parties in India.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Constructive Programme aimed to promote unity and encourage the use of foreign goods.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Swaraj Party was formed by leaders who wanted to participate in elections to cooperate with the British government.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Cripps Mission proposed that India would be given dominion status after the war.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Communal Award announced in 1934 reserved 50% of seats for untouchables in the Provincial Legislative Councils.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Government of India Act, 1935 introduced the concept of a centralized government with no provincial autonomy.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Quit India Movement in 1942 was successful in gaining immediate independence for India.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Second World War began in 1939, and the British government immediately agreed to grant complete freedom to India.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Communal Award resulted in the Poona Pact, which led to the withdrawal of the Communal Award.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
     ],
   };

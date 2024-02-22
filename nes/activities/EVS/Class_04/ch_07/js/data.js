@@ -215,60 +215,70 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "Big and tall plants like mango, neem, and peepal are referred to as shrubs.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "The stem of a tree is commonly known as a trunk.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Cutting down trees can lead to soil erosion and shallow rivers.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Forests serve as the habitat for many wild animals, and cutting down trees does not impact their survival.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Trees play a role in reducing pollution by increasing the amount of oxygen in the air.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Plants do not contribute to humans by providing essential resources such as oxygen, food, and medicines.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Ownership of the fruits, vegetables, and flowers grown in a family's lawn belongs to the community.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Plants in a garden are essential solely for decoration purposes.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "It is not the responsibility of individuals to protect and take care of plants.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Cutting down trees has no impact on air quality and respiratory health.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
         ],

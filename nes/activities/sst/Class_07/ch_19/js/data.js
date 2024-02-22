@@ -181,71 +181,61 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "Oceans and seas account for 97.3 percent of the total water on the earth.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Tides occur once a day due to the gravitational pull of the moon and the sun.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Southern Ocean is an independent ocean, separate from the Pacific, Atlantic, and Indian Oceans.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "A tsunami can be caused by an underwater earthquake, a volcano, or a landslide in the seabed.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Warm ocean currents generally originate near the Equator and move towards the poles.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Ocean currents flow constantly and in a definite direction due to factors like planetary winds and temperature differences.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The collision of the Indian plate with the Burma plate caused the massive tsunami of 7.5 magnitudes in 2004.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Salinity in the oceans is uniform, regardless of the level of evaporation.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Gulf Stream, a warm ocean current, makes the coastal areas of Antarctica warm.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Rivers carry impurities to the sea, contributing to the increasing salinity of seawater.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
     ],
   };

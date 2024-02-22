@@ -166,61 +166,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "1. The Simple Present or Present Indefinite Tense expresses habitual actions or general truths.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "2. The Present Continuous Tense indicates an action that is going on only in the past time.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "3. The Past Perfect Tense is used to show a completed action before another took place.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "4. The Future Perfect Continuous Tense indicates a continuous action that will take place in the past time.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "5. The Present Perfect Continuous Tense indicates an action that began in the past and is still continuing and may continue in the future too.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "6. The Past Continuous Tense is used to indicate an action that continued over a period of time in the present.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "7. The Simple Future or Future Indefinite Tense refers to an action that has already taken place.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "8. The Present Perfect Tense indicates an action that took place in the future but has its impact in the present or is still relevant.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "9. The Past Perfect Continuous Tense indicates an action that continued in the past until another action overtook it.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "10. The Future Continuous Tense indicates an action that will take place in the future and continue too.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
       ],

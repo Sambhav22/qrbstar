@@ -168,61 +168,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Environment includes everything like land, water, air, living beings, etc.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Pollution is the desirable change in the state of our environment that improves the quality of life.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Air pollution involves the release of chemicals into the environment, affecting human health and aquatic life.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Acid Rain is caused by rain droplets mixing with beneficial gases, promoting plant growth.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Global Warming refers to the decrease in the average temperature of the Earth's atmosphere.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Ozone Layer Depletion allows harmful ultraviolet rays to reach the Earth, causing skin cancer and cataracts.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Control of Air Pollution includes measures such as planting more trees and using CNG vehicles.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Water pollution only affects aquatic habitats and does not harm humans.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Sources of water pollution include sewage, household waste, and industrial waste.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Soil pollution affects soil fertility and has no impact on plant and animal life.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

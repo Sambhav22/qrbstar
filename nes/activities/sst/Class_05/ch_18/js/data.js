@@ -165,59 +165,69 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "The United Nations is an organization that includes almost all the world's countries or nations (193).",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "The main goal of the United Nations is world peace.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The League of Nations was able to prevent the Second World War from occurring.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The United Nations adopted the Universal Declaration of Human Rights on 10 December, 1948.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The UN flag consists of a map of the world viewed from the South Pole.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The United Nations has six official languages used in inter-government meetings and documents.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The United Nations has successfully prevented a possible Third World War.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "UN peacekeeping forces aim to escalate conflicts in war-torn regions.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "Tamil Nadu is bounded by the Bay of Bengal to the west.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The United Nations promotes economic growth as its primary objective.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
     ],

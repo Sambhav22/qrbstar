@@ -195,61 +195,71 @@ if (localStorage.getItem("activityNumber") == 3) {
       shuffleOptions({
           question:
             "Skills are innate and cannot be learned through dedication and experience.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "In earlier times, the choice of occupation was solely based on individual interests.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "A chef's work involves applying design and beauty to clothes.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "Fashion designers primarily plan, design, and review the construction of buildings.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "Astronauts conduct experiments, launch satellites, and maintain spacecrafts and equipment.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
          }),
       shuffleOptions({
           question:
             "Pilots are responsible for actively and directly operating the directional flight controls of an aircraft.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
          }),
       shuffleOptions({
           question:
             "Defense officers lead the defense force and protect the country at sea, land, and air using aircraft.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
          }),
       shuffleOptions({
           question:
             "Girls were always allowed to choose their professions based on knowledge and skills in earlier times.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "Girls are now involved in all professions, including teachers, doctors, engineers, and astronauts.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
          }),
       shuffleOptions({
           question:
             "Professionals like doctors, teachers, and nurses are not considered skilled in the present time.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
            }),
     ]),

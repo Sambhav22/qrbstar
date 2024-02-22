@@ -174,60 +174,70 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "The temperate zone is located within the Tropic of Cancer and the Arctic Circle in the Northern Hemisphere and the Tropic of Capricorn and the Antarctic Circle in the Southern Hemisphere.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Grasslands, known as prairies, are primarily characterized by dense forests.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The prairies witness a tropical climate with consistent temperatures throughout the year.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Chinook is a local warm wind in the prairies that helps in melting snow and making grasses available for grazing.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The chief occupation in the eastern areas of the prairies is wheat farming.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Velds in South Africa are characterized by a tropical climate with heavy rainfall.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Apartheid was a discriminatory system against black people in South Africa.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "Large cattle farms in prairies are known as ranches.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The velds in South Africa are suitable for large-scale wheat farming.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The Industrial Revolution in Europe primarily occurred in the 20th century.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
     ],

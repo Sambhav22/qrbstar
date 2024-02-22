@@ -188,57 +188,67 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "The colored word in the second sentence of each group describes Verbs or Adjectives.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "An Adjective describes actions and events.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Adjectives can describe qualities or characteristics of nouns and pronouns.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "The word 'knife' is an example of an adjective.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "Adjectives cannot modify or describe nouns or pronouns.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "Adjectives are only used to express emotions.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Adjectives provide additional information about verbs and adverbs.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "An adjective cannot specify the color, size, or shape of a noun or pronoun.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The primary purpose of using adjectives in a sentence is to provide limited details about the nouns or pronouns.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Adjectives do not contribute to making language more vivid and descriptive.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
         ],

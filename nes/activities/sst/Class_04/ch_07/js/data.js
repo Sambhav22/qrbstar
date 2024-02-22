@@ -182,61 +182,71 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "Weather refers to long-term atmospheric conditions, while climate refers to short-term conditions.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The climate of India is described as a monsoon type due to its dependence on monsoon winds.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
       {
         question:
           "The coastal regions of India experience significant temperature variations between day and night.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The climate of India can be divided into four distinct seasons.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The Winter Season in northern India begins in mid-November and continues till February.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
       {
         question:
           "Spring in India is known as the 'King of the Seasons' because it is very hot.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The Summer Season in India is characterized by a decrease in temperature.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The Rainy Season in India is primarily caused by winds from the Sahara Desert.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The highest average rainfall in the world is received by the Ganga valley in India.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The Autumn Season in India is often referred to as the retreating season of the monsoon.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
     ],

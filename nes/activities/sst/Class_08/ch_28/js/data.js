@@ -172,15 +172,13 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "The President has the power to give his assent to a bill or send it back for reconsideration.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
           "In a parliamentary form of government, the real power is vested in the Prime Minister.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
@@ -192,15 +190,13 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question: "The Lok Sabha can only give suggestions on a money bill.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "Residuary power allows the Parliament to make laws on subjects not identified in the three lists.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question: "The Parliament can issue ordinances when it is in session.",
@@ -212,8 +208,7 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "A money bill is related to the taxation and income and expenditure of the government.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:

@@ -167,61 +167,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Fire can spread quickly, even a small flame can turn into a major fire in a matter of minutes.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "During a fire emergency, it is safe to use elevators for a quicker escape.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Before opening a door during a fire, it is advisable to feel it lightly using the back of your hand. If it is hot, you should not open it.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In case of a gas leakage, it is recommended to operate electric switches and strike matchsticks to identify the source quickly.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "First aid is a medical treatment aimed at curing the victim's injuries before the arrival of professional help.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In the case of cuts and wounds, it is essential to ignore the wound and wait for a doctor's assistance.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "During nose bleeding, it is recommended to tilt your head backward to prevent blood from flowing down your throat.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Applying heat to an injured joint is the recommended first aid for a sprain.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In case of a snake bite, keeping the victim calm and still is crucial, as movement can slow down the spread of venom.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In the case of minor burns, it is advisable to apply ice directly to the burnt area.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

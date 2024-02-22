@@ -171,61 +171,71 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
         {
           question: "Independence Day is celebrated on 15th August every year.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "On Republic Day, the main function is held at India Gate in Delhi.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Gandhi Jayanti is celebrated on 2nd October every year to mark the birthday of Jawaharlal Nehru.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Mahatma Gandhi is considered as the father of the nation and played a great role in motivating people to struggle for wealth.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "On Gandhi Jayanti, people pay homage to Gandhiji at Rajghat, the Samadhi of Mahatma Gandhi in Delhi.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Independence Day is celebrated in every school, college, and other organizations with great silence.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The President of India unfurls the National Flag on Republic Day.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "On Independence Day, our Prime Minister hoists the National Flag at India Gate in Delhi and addresses the nation.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The army, navy, and air force show their strength by performing different dances on Republic Day.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "On Gandhi Jayanti, people offer tribute and prayers to remember his great achievements.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

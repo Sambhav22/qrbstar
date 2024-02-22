@@ -160,61 +160,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "The Himalayas stretch for 1,500 miles from Kashmir to Assam.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Some of the world's highest peaks, including Mount Everest, are located in the Andes.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The Himalayas protect India from warm winds from the south.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "A good friend is someone who talks a lot and dominates the conversation.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Friendship starts when a person is willing to listen to someone who wishes to say something.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The speaker in the poem received a letter from someone else.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             'The woodcutter in "The Woodcutter and His Axe" was cutting wood in the mountains.',
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The woodcutter rejected the gold and silver axes because they did not belong to him.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The angel in the story brought out a wooden axe as a reward for the woodcutter's honesty.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The woodcutter in the story was rewarded with a bag of gold for his cleverness.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

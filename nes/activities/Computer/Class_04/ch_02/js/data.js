@@ -185,71 +185,61 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "The first developed computer, ENIAC, was small in size and consumed minimal electricity.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "During the second generation of computers, languages such as FORTRAN and COBOL were introduced.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The third generation computers (1964-1971) used vacuum tubes as the main electronic component.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Microprocessors and Integrated Circuits (ICs) are key components of fourth-generation computers.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Personal computers, also known as microcomputers, are associated with the third generation of computers.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Supercomputers, such as the CRAY-1 series, are characteristic of the fifth generation of computers.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The primary goal of fifth-generation computers is to develop devices that respond to natural language input.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Himalayas play a crucial role in India's climate by allowing cold arctic winds to reach the tropical landmass.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The sediment carried by Himalayan rivers contributes to the fertility of the Northern Plains.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Himalayas are rich in renewable resources such as wind and solar energy.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
     ],
   };

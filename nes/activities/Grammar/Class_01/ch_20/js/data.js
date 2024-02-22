@@ -183,61 +183,71 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "Playing with words involves using language in a clever, witty, or humorous way to produce a desired impact.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Double entendres express a phrase in a way that could have more than one interpretation, often with one of them being risqué or humorous.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Rhymes involve creating patterns with words based on their sounds.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Metaphors and similes draw comparisons between two unrelated things for emphasis or vivid imagery.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Word manipulation may include using an acronym or initialism creatively for a serious effect.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Playing with words requires a good understanding of language and a willingness to experiment with linguistic elements.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Alliteration involves using words that sound similar but have different meanings for a humorous effect.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Playing with words makes language more complicated and difficult to understand.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Writers, poets, comedians, and anyone who enjoys linguistic creativity rarely indulge in playing with words.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "She sells seashells by the seashore is an example of a metaphor.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
         ],

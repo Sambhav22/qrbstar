@@ -175,57 +175,67 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
         {
           question: "The skull is made up of twenty-two bones.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The rib cage protects delicate and important organs like the heart and the lungs.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "Fixed joints allow a wide range of movement of bones.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The pelvic girdle forms a bowl-like structure on which the body rests and is used to sit.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "Muscles can only contract and not extend.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Birds have teeth to aid in chewing their food.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Fish achieve movement primarily by swinging their tail.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Snakes move in a straight line by extending their body without forming loops.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The Buddha's teachings are contained in the Four Noble Truths and the Noble Eight-fold Path.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Jain monks who went door to door in nearby villages and towns begging for food were called Monsoons.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

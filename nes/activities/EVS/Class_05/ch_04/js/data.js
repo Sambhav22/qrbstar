@@ -197,59 +197,69 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "The process that breaks down the food into a simple form is called assimilation.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The digestive system is related to the circulatory system.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The oesophagus is responsible for mixing food with gastric acid.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "The small intestine is approximately 10 meters long.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The pancreas gives juice that helps in the digestion of carbohydrates and proteins.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The gall bladder produces bile to aid in the digestion of food.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The large intestine is primarily responsible for the absorption of nutrients.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "A balanced diet is one that lacks essential nutrients.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Hunger is a condition where a person is unable to eat sufficient food for a sustained period.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Kwashiorkor is a protein deficiency disease that primarily affects the elderly.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
         ],

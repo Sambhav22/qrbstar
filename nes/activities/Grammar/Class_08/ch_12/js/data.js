@@ -159,61 +159,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "The sun appeared bright and hot, but the climate was cold and windy.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The little girl went to the post office after she wrote a letter to God.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Correlative conjunctions occur in pairs, and they can be interchanged freely.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The common words referring to both alternatives in correlative conjunctions should be placed after the first part.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "English education in India during this period primarily promoted cultural isolation and separatism.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Correlative conjunctions have no fixed pairs and can be used interchangeably.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The rise of nationalism in India was not influenced by social and religious reform movements.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Means of communication like railways and telegraph played a significant role in suppressing nationalist sentiments.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The lack of access to information was a crucial factor in spreading ideas related to nationalism during this period.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Bankim Chandra Chatterjee wrote the novel 'Anand Math' and composed the national song 'Bande Mataram.'",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
       ],

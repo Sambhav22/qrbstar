@@ -183,71 +183,61 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "The Visual-Spatial intelligence deals with perception and decoding of sound and musical patterns.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Linguistic-Verbal intelligence primarily involves number perception and logical problem-solving.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Bodily-Kinesthetic intelligence relates to good body awareness and control.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Musical intelligence encompasses the ability to perceive, distinguish, and transform sound and musical patterns.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Interpersonal intelligence focuses on self-awareness and understanding one's own mental-emotional state.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Intrapersonal intelligence involves identifying, classifying, and manipulating elements of the environment.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Naturalistic intelligence deals with the ability to instruct, facilitate, and convey information to others.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Pedagogical intelligence aims to stimulate human attributes of nine intelligences successfully.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Artificial intelligence has successfully achieved all nine human intelligences.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Logical-Mathematical intelligence is concerned with number perception and logical problem-solving.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
     ],
   };

@@ -150,58 +150,68 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
       {
         question: "The Caps Lock key is used to write in lowercase letters.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question: "The Spacebar key is the shortest key on a keyboard.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The Enter key is used to move to the next line while typing.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
       {
         question:
           "The Shift key is used to toggle between uppercase and lowercase letters.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
       {
         question:
           "The Delete key removes letters or numbers on the left of the cursor.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question: "There is only one set of number keys on a keyboard.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The keys used to type letters, words, and sentences are known as Number keys.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question: "The Spacebar key creates space between words.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
       {
         question:
           "The Special keys on a keyboard are used for general typing purposes.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "The Caps Lock key, when activated, displays an indicator on the keyboard.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
     ],

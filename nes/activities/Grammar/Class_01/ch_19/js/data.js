@@ -148,57 +148,67 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "Rhyming words create a similarity in pronunciation between them.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "In the pair house-mouse, 'mouse' is not a rhyming word.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "The words 'well' and 'tell' form a rhyming pair.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "Rhyming words often share a common suffix.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Prepositions are used to show the quantity of something in relation to another.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The primary function of a preposition is to show the relationship of one thing with another.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The words 'under,' 'on,' 'near,' and 'in' are examples of adjectives.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "The cat is inside the tree.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Rhyming words primarily indicate emotions between one thing and another.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The example 'cake-bake' demonstrates the concept of homophones.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
         ],

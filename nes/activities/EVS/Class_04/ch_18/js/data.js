@@ -200,60 +200,70 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "Bridges made of bamboo were durable and technically sound constructions.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The Plumb Bob is a tool used to measure the length and breadth of walls.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Concrete Mixer is a tool used to make holes into or through metal, wood, bricks, etc.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Cantilever Bridge consists of a horizontal beam supported at both ends.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Bamboo bridges in small towns or rural areas were constructed with scientific measurements.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The primary material required for bridge construction includes steel, concrete, and asphalt only.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Suspension Bridge has a roadway that hangs from steel cables supported by three high towers.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Measuring Tape is used to check the vertical alignment of civil work.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Bamboo bridges were created using logs of bamboo trees as pillars and flat wooden pieces tied to these pillars with ropes.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "Earth Rammer is a tool used to level the ground.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
         ],

@@ -178,66 +178,56 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question: "Cotton fiber is obtained from the fleece of sheep.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B) False",
+        optionB: "False",correctAnswer: "B) False",
       },
       {
         question: "We wear woollen clothes in summers.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B) False",
+        optionB: "False",correctAnswer: "B) False",
       },
       {
         question: "Silk fiber is obtained from the cocoons of the silk moths.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A) True",
+        optionB: "False",correctAnswer: "A) True",
       },
       {
         question: "Normal dresses are the same for men, women, and children.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B) False",
+        optionB: "False",correctAnswer: "B) False",
       },
       {
         question:
           "Traditional dresses in India help identify a person's state of origin.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A) True",
+        optionB: "False",correctAnswer: "A) True",
       },
       {
         question:
           "To care for clothes, they should be washed with any detergent.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B) False",
+        optionB: "False",correctAnswer: "B) False",
       },
       {
         question:
           "We wear leather clothes in winters and silk clothes in summers.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B) False",
+        optionB: "False",correctAnswer: "B) False",
       },
       {
         question: "Cloth is made from threads like yarn and stone.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B) False",
+        optionB: "False",correctAnswer: "B) False",
       },
       {
         question: "Cloths are only used for making curtains.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B) False",
+        optionB: "False",correctAnswer: "B) False",
       },
       {
         question:
           "A house has different places for different purposes, such as a bathroom for sleeping.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B) False",
+        optionB: "False",correctAnswer: "B) False",
       },
     ],
   };

@@ -162,59 +162,69 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "The Arctic regions receive abundant direct sunlight throughout the year.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "Antarctica is the northern region of the Polar regions.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Greenland is the largest island in the world and is part of the continent of North America.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "80 percent of the Greenland island is covered with grasslands.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "In Nuuk, the summers are cold, and the winters are warm and sunny.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The Jakobshavn Glacier is one of the slowest-moving glaciers in the world.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Greenland is rich in mineral resources and has fertile soil, making it suitable for agriculture.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The primary occupation of the Inuit (Eskimo) people in Greenland is farming.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question: "The Peninsular Plateau is located in the Polar regions.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The climate on the Peninsular Plateau remains moderate throughout the year, with significant differences between summer and winter temperatures.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
     ],

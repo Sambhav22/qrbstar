@@ -164,61 +164,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "The student in the first text requests an increase in library periods to four on Tuesday and Thursday.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Avnish Khanna requests leave due to being laid up with a headache for two days from 11 September to 12 September, 20xx.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In the third text, the student suggests constructing a speed-breaker on both sides of the school gate to control traffic congestion.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Kritika/Ankush requests permission to draw an English-Hindi dictionary from the library for participating in a cooking contest next month.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Naina, in the fifth text, requests an excursion to a museum displaying rare coins, stamps, statues, weapons, fossils, dolls, and toys.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The student in the first text mentions that the current library periods cover only 30 minutes in a day.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Avnish Khanna requests leave due to being laid up with fever since last evening for two days from 11 September to 12 September, 20xx.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In the third text, the student suggests constructing a speed-breaker on both sides of the school gate to prevent accidents.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Kritika/Ankush requests permission to draw an English-Hindi dictionary from the library for participating in a spelling contest next month.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Naina describes the museum on the Western Road as having rare coins, stamps, statues, weapons, fossils, dolls, toys, and a large variety of books.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

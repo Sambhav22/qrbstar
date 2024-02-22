@@ -184,71 +184,61 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "A smart house controls attributes like lighting, climate change sensors, and entertainment system.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Smart cameras in a smart house use WiFi to send notifications whenever motion is detected or the doorbell is pressed.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Light control systems in smart houses are primarily designed to increase energy consumption.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Smart TVs, also known as Connected TVs, lack integrated Internet and web features.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Smart speakers are devices that provide peer-to-peer interaction and hands-free activation using integrated virtual voice assistance.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The primary benefit of a light control system in a smart house is reducing energy consumption.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Smart gadgets work based on the features of artificial intelligence to make a house 'smart'.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Smart cameras in a smart house can process images but cannot send notifications to users' phones.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "A video doorbell in a smart house is not a web-connected system.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Smart speakers utilize only wired connections, such as USB, for playback and control.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
     ],
   };

@@ -220,61 +220,71 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "Children playing games only receive enjoyment and not any health benefits.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Indoor games like ludo and chess are considered outdoor games.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "In schools, students receive training in sports but lack facilities like coaches.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Cricket, basketball, football, and tennis are classified as indoor games.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Sports equipment includes items like paintbrushes and cooking utensils.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Kabaddi is a non-contact team sport played with five players on each team.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Traditional Indian games like Gutte and Kite Flying contribute to the decrease in physical activity among kids.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Breaking gender stereotypes in games is exemplified by names like Sania Mirza and Saina Nehwal.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "In games, it is believed that every sportsperson must play a fair game and challenge the rules.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Games and sports are not considered integral parts of Indian culture and heritage.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
         ],

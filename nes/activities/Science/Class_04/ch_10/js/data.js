@@ -158,61 +158,71 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
         {
           question: "Lever is a type of simple machine.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question:
             "A pulley uses a wheel with a groove and a rope to move loads.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question:
             "An inclined plane is a surface where one end is lower than the other, allowing heavy objects to slide up.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question:
             "Wheel and axle is a simple machine that works by using a wheel with a rod attached as an axle.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question:
             "A wedge is a simple machine designed to pull two objects apart.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
         {
           question:
             "A screw is essentially an inclined plane wrapped around a pole.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question:
             "Rivers are not essential sources of drinking water for urban and rural areas.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
         {
           question:
             "Groundwater is primarily procured by collecting surface water.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
         {
           question:
             "Excessive drilling of borewells has not led to the drying of groundwater aquifers in some parts of the country.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
         {
           question:
             "Dams are structures built across rivers primarily for single-purpose projects.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
       ],

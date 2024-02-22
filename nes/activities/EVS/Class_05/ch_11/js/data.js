@@ -207,61 +207,71 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "A family tree usually shows people in a family over three generations and their relationships with one another.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Migration is the large-scale movement of people from one place to another in search of a new beginning.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "In temporary migration, migrants do not come back after completing their desired tasks.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Modern families often change with cultural, educational, and living standards advancements.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Environmental reasons, such as drought and cyclones, can force people to move from their place to another.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The term 'family tree' illustrates the economic status of a family.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "People who migrate are commonly referred to as travelers.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "In a permanent migration, migrants come back after completing their desired tasks.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Social, economic, and environmental reasons are mentioned as primary causes of family migration.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "With advancements in culture and education, most traditional families change into modern families.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
         ],

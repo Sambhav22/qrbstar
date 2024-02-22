@@ -165,60 +165,70 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Anjali/Rahul is seeking leave for two days due to illness.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The doctor has advised Anjali/Rahul to rest for four days.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Anjali/Rahul mentions suffering from a severe headache, cold, and fever.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "The application requests leave from Thursday to Saturday.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The closing salutation in the application is 'Yours Sincerely.'",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Anjali/Rahul expresses gratitude for being granted four days of leave.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The doctor advised Anjali/Rahul to attend school despite feeling unwell.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Anjali/Rahul mentions being unable to attend school due to a family function.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The application includes the information about Anjali/Rahul's grade and roll number.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The date field in the application is left blank, requiring Anjali/Rahul to fill in the correct date.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
       ],

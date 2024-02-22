@@ -170,60 +170,70 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Past Continuous Tense sentences show continuity of action in the Past.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "Was is used with all Singular Subjects except you.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Negative sentences in the Past Continuous Tense use the word 'not' after the subject.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In affirmative sentences, the word order for Past Continuous Tense is Subject + was/were + Verb in I Form -ing + Object.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Interrogative sentences in the Past Continuous Tense use 'was' or 'were' in the beginning along with the question word.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The form 'were' is used with all plural subjects in Past Continuous Tense.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Not is placed before the verb in negative sentences in Past Continuous Tense.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Affirmative sentences in Past Continuous Tense have the word order: Subject + is/are/am + Verb in I Form -ing + Object.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In interrogative sentences, 'was' is used with all singular subjects.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Negative sentences in Past Continuous Tense use 'not' after the object.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

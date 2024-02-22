@@ -165,61 +165,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Ritika Gupta is writing to the Health Officer about a recent outbreak of dengue in her neighbourhood.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Rahul/Raina's elder brother has been awarded a foreign scholarship for higher studies in England.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Ankit Jain is requesting the bank manager to close his existing savings account.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In the letter to M/s Jain Book House, the book Ankit Jain is ordering is named 'Basic English Grammar'.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Ankit Jain is enclosing a cheque for Rs. 2,000 with his letter to the bank manager.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The letter to M/s Jain Book House is missing the receiver's address.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The letter to the friend expressing good wishes after recovery suggests keeping good health for enjoying life's amenities.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The friend mentioned in the letter was ill and in bed for three weeks.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Rahul/Raina is asking the bank manager for a loan in the letter.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Ankit Jain is requesting the bank manager to open a fixed deposit account.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

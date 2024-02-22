@@ -141,56 +141,66 @@ if (localStorage.getItem("activityNumber") == 3) {
         questions: [
           {
             question: "English Alphabet contains 30 letters.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "There are 6 vowels in the English Alphabet.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "All letters in the English Alphabet are either vowels or consonants.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "'p' is a vowel in the English Alphabet.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "The letter 'z' is a consonant in the English Alphabet.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Among the vowels, 'i' comes before 'a' in the English Alphabet.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "'m' is the last consonant in the English Alphabet.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "There are 21 consonants in the English Alphabet.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "'y' is sometimes considered a vowel in the English Alphabet.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Vowels and consonants are distinct categories in the English Alphabet.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
         ],

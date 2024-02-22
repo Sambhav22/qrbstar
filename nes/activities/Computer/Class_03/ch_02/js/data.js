@@ -174,69 +174,59 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question: "Notepad is a complex word processor.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "The Title Bar in Notepad displays only the title of the application.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "The main working area for typing and editing text in Notepad is the Menu Bar.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "In Notepad, clicking on 'Save As' under the File menu creates a new document.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "To open an already saved file in Notepad, one should click on 'Exit' under the File menu.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question: "The cursor in Notepad indicates the end of a document.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question: "The largest ocean on Earth is the Atlantic Ocean.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "Mountains are tall landforms with steep sloping sides, often coming to a point at the top, called plateaus.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "Notepad was first released as a mouse-based DOS program in the year 1983.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
           "To exit Notepad, one can click on the Close button present on the top-right corner of the Notepad window.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
     ],
   };

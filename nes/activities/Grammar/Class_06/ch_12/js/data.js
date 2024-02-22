@@ -179,61 +179,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Coordinating Conjunctions are used to join words or sentences of equal class, rank, or order.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Subordinating Conjunctions introduce a subordinate clause and join it to the principal clause in a sentence.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Correlative Conjunctions always occur in pairs, and the first part complements the other part.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The sentence 'She will dance either on the stage or at the backstage' demonstrates correct usage of Correlative Conjunctions.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In Correlative Conjunctions, the common words that refer to both alternatives must be placed before the second part of the Correlative.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Prepositions and Articles follow the same rule when it comes to their placement in a sentence with Correlative Conjunctions.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The sentence 'You may look either for a book or for a diary' demonstrates correct usage of Prepositions.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The sentence 'The train left before the passenger reached the platform' is an example of a sentence in the Passive voice.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The preposition 'in' is typically used with the adjective 'similar'.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Phrasal Verbs give a particular meaning to some nouns, verbs, or adjectives when used with certain prepositions.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
       ],

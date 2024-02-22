@@ -188,71 +188,61 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "The East India Company occupied Bengal after taking a variety of measures to exploit the Indian rulers.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The defeat of the later Mughals at the hands of Nadir Shah in 1739 left them in a state of prosperity.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "After the occupation of Bengal, the East India Company started using direct attacks as an important part of its strategy to expand its territory from 1757 to 1856, beginning with the state of Mysore.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Indian rulers who agreed to the Subsidiary Alliance System had full control over the British army stationed in their territories.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "An Indian ruler was given protection from external attacks and had the freedom to enter into alliances with any other power.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The First Anglo-Mysore War in 1766-67 concluded with a clear victory for the East India Company.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Tipu Sultan aimed to establish friendly relations with the British during the Third Anglo-Mysore War.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The British attacked Mysore with the help of the Nizam of Hyderabad and the Marathas in the Fourth Anglo-Mysore War, leading to the defeat of Tipu Sultan and the British occupation of the entire state.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "In the Third Anglo-Maratha War, the Maratha chiefs fought unitedly against the British.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The British claimed that their authority was not paramount in India, and they had no power to annex territories or states.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
     ],
   };

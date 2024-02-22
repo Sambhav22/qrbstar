@@ -160,61 +160,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Plants such as watermelon, pumpkin, and strawberry are categorized as climbers.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Shrubs have a single, tall, and woody stem called a trunk.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The stem of a plant transports water and minerals from the leaves to the roots.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Herbs are generally smaller in size, up to one meter, and may live for several seasons.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Roots of some plants like radish and carrot are modified for climbing.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In a monarchy, rulers were elected or chosen by the people.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The Brahmins dominated society in religious matters, helping people perform yajna and other rituals.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Leaves perform the function of photosynthesis by exchanging gases through small pores called stomata.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The Vedic varna system became more flexible over time, allowing free intermarriage and intermixing.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The process of transfer of pollen grains from the anther of a flower to the stigma is known as fertilization.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

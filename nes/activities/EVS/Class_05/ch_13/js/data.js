@@ -199,61 +199,71 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "Ants live in colonies, consisting of queen ant, female workers, and male ants.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Bees work together to build a colony and live in large, well-organized family groups.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Houses in hilly and cold regions usually have flat roofs to prevent snowfall accumulation.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Igloos, houses made of blocks of ice, are commonly found in hot regions.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Houses built on stilts in flood-prone areas keep the house safe from floodwater as well as snakes and insects.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "In earthquake-prone regions, houses are made of bamboo and wood to prevent injury in case of collapse.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Houses in hot climatic conditions have thick walls plastered with mud and roofs covered with straw.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Settlements are divided into hamlet, village, town, and city based on the economic status of the house owner.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Animals who live in water are called terrestrial animals, such as whales, dolphins, and crabs.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Aerial animals, like birds, fly in the air and rest on trees.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
         ],

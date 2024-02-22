@@ -160,60 +160,70 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
         {
           question: "Excel always initiates formulae with an equals sign.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The fill handle in Excel is primarily used for cell formatting.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Functions and formulae serve the same purpose in Excel.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Cell references allow for the automatic recalculation of formulae when values in referenced cells change.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The AutoSum command in Excel offers only one predefined function, the SUM function.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Excel's Function Library categorizes functions based on Financial, Logical, Text, and Date & Time categories.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The syntax for functions in Excel includes the equals sign, function name, and one argument enclosed in parentheses.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The fill handle allows for the automatic copying of formulae to adjacent cells in Excel.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Excel allows the creation of formulae without the use of cell references.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Functions in Excel cannot perform calculations using specific values in a particular order.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

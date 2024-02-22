@@ -159,57 +159,67 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "An Adverb modifies the meaning of an Adjective, a Verb, or another Adverb.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "Adverbs are formed by adding -ly to Adjectives.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In the sentence 'I looked at the pen carefully,' the Adverb modifies the Noun.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Adverbs modify the meaning of Nouns.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The words 'fast' and 'late' can be Adverbs when their meanings are modified by other words.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "Many Adverbs are formed by adding -ness to Adjectives.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In negative sentences in the Past Continuous Tense, 'not' is placed after the subject.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The Past Continuous Tense sentences demonstrate the continuity of action in the Present.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In interrogative sentences, 'was' or 'were' is used in the beginning of the sentence along with the verb.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Adverbs modify the meaning of Adjectives but not Verbs.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

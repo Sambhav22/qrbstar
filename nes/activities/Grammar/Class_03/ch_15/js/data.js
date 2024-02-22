@@ -168,60 +168,70 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Simple Future Tense is also known as Future Indefinite Tense.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In affirmative sentences, the word order for the subject 'I' is Subject + shall + Verb in I Form + Object.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             '"Shall" is used with all subjects in affirmative sentences.',
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Negative sentences in Simple Future Tense have the word order Subject + will/shall + not/never + Verb in I Form + Object.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In interrogative sentences, the word order is Interrogative Word + will/shall + Subject + Verb in I Form + Object?",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The Present form of the verb (I form) is used with 'did not' in all negative sentences.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "All other subjects take 'will' in affirmative sentences.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In interrogative sentences, 'shall' and 'will' are used at the end of the sentence.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Simple Future Tense is also known as Future Perfect Tense.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In an affirmative sentence, the correct word order for Simple Future Tense is Subject + can + Verb in I Form + Object.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

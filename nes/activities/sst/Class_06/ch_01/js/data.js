@@ -184,71 +184,61 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "Herodotus, a Greek historian, is often called the 'Father of History' because he is credited with pioneering the field of _______.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "History is the study of the past, which allows us to understand our _______ problems and how to tackle them effectively.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "BC and AD are used to mark years based on the birth of Lord Jesus. BC stands for 'Before Christ,' and AD stands for 'Anno Domini,' which means 'Year of Our Lord.' For example, 2021 AD refers to the year that occurred 2021 years _______ this base year.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "India's territory in ancient times comprised present-day India, Pakistan, Afghanistan, Nepal, Bangladesh, and Bhutan, which together were known as _______.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Different landforms in the Indian subcontinent, such as high and low hills, plains, deserts, and plateaus, influenced people's _______ , customs, and lifestyles.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Major cities developed along the banks of the River Ganga nearly 2,500 years ago, and one of the most powerful empires that emerged in this region was _______.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Archaeological sources include evidences other than writings, such as monuments, artifacts, human remains, edicts, inscriptions, coins, jewelry, weapons, pottery, and metalware. Edicts and inscriptions are messages from ancient rulers engraved on pillars, walls, rocks, or metal plates, which provide insights into values, cultures, armies, religions, and social structure of ancient times. The Ashokan edict is one of the best examples of _______.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Monuments, such as temples, palaces, and forts built during ancient times, serve as evidence of excellent _______ and architectural knowledge of the past.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Artifacts excavated from different places, including paintings, sculptures, textiles, coins, jewelry, pottery, and metalware, provide insights into various aspects of the past, such as _______ and traditions.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Coins found in archaeological excavations not only reveal trade between different places and countries but also showcase the development of _______ and technology in the past.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
     ],
   };

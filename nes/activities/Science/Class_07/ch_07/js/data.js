@@ -177,61 +177,71 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "The circulatory system in humans consists of a muscular pump and several networks of vessels.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Plasma is the solid part of the blood and contains dissolved gases, nutrients, wastes, salts, and proteins.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "White blood cells (WBCs) provide immunity to the body against diseases and infections.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Veins carry oxygen-rich blood from different parts of the body to the heart.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The human heart has two sets of pumping chambers, the atrium and the ventricle, for a total of four separate chambers.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The kidneys are the main organs of excretion, removing nitrogenous wastes from the human body.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Skin, liver, and lungs are organs that assist in excretion by releasing toxic wastes.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Plants absorb water and minerals through stomata present in the leaves.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Xylem is the vascular tissue responsible for transporting food in plants.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Transpiration in plants is similar to sweating in humans and helps cool the plants.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
         ],

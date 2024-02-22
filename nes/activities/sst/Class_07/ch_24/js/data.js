@@ -173,61 +173,71 @@ if (localStorage.getItem("activityNumber") == 3) {
       {
         question:
           "The Constitution is the source of all laws in the country, and all laws must be in accordance with its provisions and spirit.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Dissent is an important part of life, and it is expressed against the majority.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Coalition governments are always stable and function without challenges.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "In a bi-party system, there are only two major political parties, and stability is a common characteristic.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Elections for the Lok Sabha and Vidhan Sabhas are held every seven years in India.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The right to vote is granted only to individuals above the age of 21 in India.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Laws provide for the maximum punishment or fine, and the judge can exceed this limit if necessary.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The Constitution allows laws to be discriminatory based on race, religion, or region.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "Dissent expressed in a constructive manner should result in disagreement.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "In a multi-party system, different political parties often represent different ideologies.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
     ],

@@ -159,61 +159,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "The atmosphere extends about 800 km above the Earth's surface.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question:
             "The ozone layer in the stratosphere protects us from harmful ultraviolet rays.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question:
             "The troposphere is the outermost layer of Earth's atmosphere.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
         {
           question:
             "Carbon dioxide is the most abundant gas in Earth's atmosphere.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
         {
           question:
             "The thermosphere is the layer where the space shuttle orbits.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question:
             "Humidity is the term for the amount of nitrogen present in the air.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
         {
           question:
             "Filtration is a method used to remove soluble impurities from water.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
         {
           question:
             "Boiling is an effective method to kill germs and purify drinking water.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question:
             "Chlorination involves adding chlorine to water to enhance its taste.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
         {
           question:
             "Braille is a script that uses patterns of small dots for visually-challenged individuals.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
       ],

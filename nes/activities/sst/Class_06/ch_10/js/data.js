@@ -162,70 +162,60 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "Knowledge is the primary factor that distinguishes the human race from animals.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The earliest form of written communication used in ancient India was pictographic.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Sumerians of Mesopotamia were the first to develop a system of writing using signs over 500 years ago.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The oldest script in India was discovered in the seals of the Indus Valley Civilization, and it can be read and understood today.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Roman alphabet is used to write the English language and has 26 letters.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "Groundwater is primarily obtained by drilling or pumping, contributing to more than 70% of the drinking water requirements in rural areas.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Dams are structures built across rivers, primarily for the purpose of increasing groundwater levels.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The primary idea behind the invention of the printing press was to make the copying of books faster and more accurate.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question: "Water makes up approximately 72% of the Earth's surface.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Braille is a script for the visually challenged that allows reading through patterns of small dots raised from the paper's surface.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
     ],
   };

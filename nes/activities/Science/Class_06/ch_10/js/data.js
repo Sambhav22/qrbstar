@@ -158,58 +158,68 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
         {
           question: "Magnets can lose their magnetism if heated strongly.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question:
             "The area around a magnet where its effect can be experienced is known as the magnetic field.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question:
             "Ferrite magnets are made from a powder of iron oxide and aluminum oxide.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
         {
           question:
             "The oldest script in India was discovered in the seals of the Indus Valley Civilization.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question: "The Brahmi script is derived from the Devanagari script.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
         {
           question: "Early Man used his fingers for counting numbers.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question:
             "The Hindu-Arabic system is the common system of writing numbers used in most parts of the world today.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
         },
         {
           question:
             "Pictographs are an advanced form of hieroglyphics used in ancient writing systems.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
         {
           question:
             "A compass is used for determining direction by means of a mechanical clock.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
         {
           question: "The printing press was invented in the year 1355.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
         },
       ],

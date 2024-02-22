@@ -159,59 +159,69 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Curd, tamarind, and lemon have a sweet taste due to the presence of acids.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Organic acids are mainly composed of oxygen.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Mineral acids, also known as inorganic acids, are naturally occurring compounds.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "All acids contain a nitrogen atom that produces hydrogen ions when dissolved in water.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Strong acids are substances that do not dissociate completely in hydrogen ions when dissolved in water.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Bases produce oxygen ions when dissolved in water.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Litmus, a common natural indicator, is extracted from sunflowers.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The pH scale ranges from 0 to 7 to determine the strength of acids or bases.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Neutralization is the reaction between an acid and a base, producing sugar and water.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Toothpaste contains bases that enhance the harmful effects of acids on teeth.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

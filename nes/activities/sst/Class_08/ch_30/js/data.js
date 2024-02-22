@@ -170,71 +170,61 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "The Judiciary interprets the Constitution and its spirit, protects the rights conferred by the Constitution, and preserves high democratic ideals as enunciated by the Constitution.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
           "In India, the government does not discriminate between individuals from different backgrounds, castes, religions, languages, regions, or sexes based on the principle of the 'rule of law.'",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
           "The Judiciary's primary function is to enforce laws created by the Legislature.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "Subordinate courts handle cases related to the resolution of agreements between individuals and organizations.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "The Judiciary is responsible for protecting Fundamental Rights, and it has the power to interpret and enforce them.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
           "The Indian Judiciary operates at two tiers: the Supreme Court and the High Courts.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "The Judiciary in India is not an integrated system, with the three tiers operating independently of each other.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "In some districts, there may be two different individuals holding the positions of District Judge, one as a Sessions Judge and the other as a Civil Judge.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "A",
+        optionB: "False",correctAnswer: "A",
       },
       {
         question:
           "Judges in India can be easily removed from their positions once they are appointed.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
       {
         question:
           "A Public Interest Litigation (PIL) can be filed only by government officials to address bureaucratic issues.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "B",
+        optionB: "False",correctAnswer: "B",
       },
     ],
   };

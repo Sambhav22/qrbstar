@@ -158,61 +158,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Simple Past or Past Indefinite Tense is used to show a habitual action.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Past Continuous Tense is used to indicate an action that completed in the past.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Past Perfect Tense is used to show an action in continuity from a given time in the past.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Past Perfect Continuous Tense is used to show an action that began and completed in the past in comparison to another action.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In Past Continuous Tense, 'Was' is used with all subjects.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In Past Perfect Continuous Tense, 'Have' is used with all Singular Subjects.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Present Perfect Tense is used to show a habitual action in the past.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Present Continuous Tense can only express temporary situations.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Present Perfect Continuous Tense indicates an action in continuity from a given time.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In Present Perfect Tense, 'Has' is used with all Singular Subjects.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
       ],

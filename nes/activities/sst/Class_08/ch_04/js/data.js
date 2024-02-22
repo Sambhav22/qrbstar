@@ -187,70 +187,60 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "The East India Company's primary interest in India was profit, with little concern for people's welfare.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The colonial agrarian policies of the East India Company had no significant impact on rural life.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question: "The Company acquired diwani rights in Bengal in 1757.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Permanent Settlement system was introduced in Bengal and Bihar in 1793.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Ryotwari System required individual peasants to pay land revenue collectively.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Mahalwari System was introduced in Punjab, parts of Madhya Pradesh, and western Uttar Pradesh.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Company's colonial agrarian policies led to an increase in agricultural production and prosperity among farmers.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "The Permanent Settlement system resulted in a new social class of landlords.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
           "The Company introduced machine-made goods that had lower quality and higher prices compared to locally crafted goods.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
           "Many significant peasant revolts took place in different parts of India as a result of the East India Company's revenue policies.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False",correctAnswer: "True",
       },
     ],
   };

@@ -194,60 +194,70 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "The sense of smell in sharks is combined with timing to find food.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Cats use their whiskers and stiffer hair for their sense of taste.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Taste receptors in reptiles, birds, and mammals are mainly found on the lower surface of the tongue.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Animals like dogs communicate happiness by wagging their tail.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Predatory birds such as eagles, owls, and hawks have poor eyesight.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Deer and other grazing animals use their sense of hearing to locate prey.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Insects like ants, bees, and termites communicate by releasing special chemicals.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "The tactile sense is also known as the sense of touch.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Dogs can make food choices based on how food feels rather than how it tastes or smells.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The sense of vision in cats is not well adapted for hunting.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
         ],

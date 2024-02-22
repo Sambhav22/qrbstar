@@ -232,61 +232,71 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: shuffleQues([
       shuffleOptions({
           question: "Manual work involves only intellectual skills.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
          }),
       shuffleOptions({
           question:
             "Intellectual work requires professional degrees in the respective field.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
          }),
       shuffleOptions({
           question:
             "According to the passage, every work done with sincerity deserves appreciation.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
          }),
       shuffleOptions({
           question:
             "Gandhiji emphasized that work should be judged based on caste, creed, and religion.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
          }),
       shuffleOptions({
           question:
             "In the text, manual workers are mentioned as the jans of lord Hari.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
          }),
       shuffleOptions({
           question:
             "Mahatma Gandhi personally engaged in intellectual work in his ashram.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
          }),
       shuffleOptions({
           question:
             "The trend of treating manual workers poorly is not criticized in the passage.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
          }),
       shuffleOptions({
           question:
             "The dignity of work means that only intellectual work is respectable.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
          }),
       shuffleOptions({
           question:
             "Intellectual work is performed without attaining a professional degree.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "False",
          }),
       shuffleOptions({
           question:
             "In the society mentioned in the passage, every work is considered equal regardless of profession.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           answer: "True",
            }),
     ]),

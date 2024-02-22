@@ -190,60 +190,70 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "The Lingaraja Temple at Bhubaneswar was built by Chola kings.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The Iron Pillar at New Delhi was built by Pallava kings.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The Brihadiswara Temple consists of fourteen storeys and rises to a height of 190 feet.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Jodha Bai's Palace at Fatehpur Sikri was built by Shah Jahan.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The Qutub Minar was completed by Akbar after being initiated by Qutub-ud-Din Aibak.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question: "The Red Fort in New Delhi was built by Sher Shah.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "The Lotus Temple at New Delhi was built by the followers of the Bahai sect.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The Gateway of India in Mumbai was built to welcome Queen Elizabeth II on her visit to India.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Rashtrapati Bhavan in New Delhi was built by Edwin Lutyens during the British rule.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "The Akshardham Temple in New Delhi was constructed by the BAPS foundation.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
         ],

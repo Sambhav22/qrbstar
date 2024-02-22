@@ -178,71 +178,61 @@ if (localStorage.getItem("activityNumber") == 3) {
         question:
           "The CPU is responsible for inputting data and generating output in a computer system.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "false",
+        optionB: "False",correctAnswer: "false",
       },
       {
         question:
           "An Optical Mark Reader (OMR) detects pen/pencil marks on paper and is commonly used for objective-type tests.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "true",
+        optionB: "False",correctAnswer: "true",
       },
       {
         question:
           "A Touch Screen requires a physical keyboard for user interaction.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "false",
+        optionB: "False",correctAnswer: "false",
       },
       {
         question:
           "Resolution does not play a role in determining the quality of a printer.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "false",
+        optionB: "False",correctAnswer: "false",
       },
       {
         question:
           "System Software manages various tasks and controls different operations of a computer system.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "true",
+        optionB: "False",correctAnswer: "true",
       },
       {
         question:
           "Output devices convert computer information into forms that users can't understand.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "false",
+        optionB: "False",correctAnswer: "false",
       },
       {
         question:
           "Data processing is not a primary function of the Central Processing Unit (CPU).",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "false",
+        optionB: "False",correctAnswer: "false",
       },
       {
         question:
           "Application Software enhances the efficiency of hardware components in a computer system.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "false",
+        optionB: "False",correctAnswer: "false",
       },
       {
         question:
           "Storage Devices are primarily used for processing data in a computer system.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "false",
+        optionB: "False",correctAnswer: "false",
       },
       {
         question:
           "Input Devices play a crucial role in providing data and instructions to the Central Processing Unit (CPU) for processing.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "true",
+        optionB: "False",correctAnswer: "true",
       },
     ],
   };

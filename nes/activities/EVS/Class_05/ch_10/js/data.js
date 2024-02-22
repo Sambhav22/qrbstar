@@ -205,60 +205,70 @@ if (localStorage.getItem("activityNumber") == 3) {
           {
             question:
               "Aquatic plants like lotus and water lily are examples of floating plants.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Fixed plants have roots that fix themselves at one place to the bottom of the water body.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Floating plants, such as water hyacinth, have well-developed roots fixed to the bottom of the water body.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Weeds like pistia, marsilia, and hydrilla can contribute to water pollution by clogging waterways.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question: "Alligators are examples of terrestrial animals.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Fishes move in water with the help of fins and breathe through lungs.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Crustaceans breathe through gills and have flippers and special limbs for walking across the bottom of water bodies.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Water birds, like ducks and herons, have webbed feet to help them stand in water.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
           {
             question:
               "Seadragon is a fish that looks like a piece of floating weed and has a body covered with plates and transparent fins.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "True",
           },
           {
             question:
               "Amphibians like frogs and toads breathe with the help of gills in water and use webbed feet for swimming.",
-            options: ["True", "False"],
+            optionA: "True",
+        optionB: "False",
             answer: "False",
           },
         ],

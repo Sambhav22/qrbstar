@@ -158,58 +158,68 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
         {
           question: "An adverb adds more information about a Noun or a Verb.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "A word that tells more about an Adjective or a Verb is called a Noun.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "The adverb is used especially before a Verb.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "In the sentence 'The horse ran quickly,' the word 'quickly' modifies the verb 'ran'.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The adverb 'beautifully' is derived from the adjective 'Busy'.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "The adverb 'shortly' is used to modify a Noun.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The word 'good' in the sentence 'He is a very good boy' is an Adjective.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The adverb 'ably' is used to modify the adjective 'Adequate'.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The adverb 'strongly' adds something to the meaning of a Noun.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "The adverb 'busily' is used especially after a Verb.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
       ],

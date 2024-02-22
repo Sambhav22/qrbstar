@@ -168,60 +168,70 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
       {
         question: "The United Nations operates through its six major organs.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The General Assembly of the UN is composed of representatives from some member nations.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The Security Council is composed of ten permanent member nations.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The primary function of the Security Council is to maintain international peace and security.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The UN Charter requires unanimous agreement from all permanent members on all decisions made by the Security Council.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The International Court of Justice is the principal judicial organ of the United Nations.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "The International Court of Justice is located in New York.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The secretary-general of the UN may bring any matter to the Security Council that seems likely to endanger international peace.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Member governments are allowed to influence the staff of the Secretariat.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
       {
         question:
           "The UN Charter emphasizes that the Secretariat of the United Nations should serve the interests of member nations.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "False",
       },
     ],

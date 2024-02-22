@@ -166,60 +166,70 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
       {
         question: "Excel is primarily used for word processing.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "A new workbook in Excel contains multiple worksheets by default.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "You can select a range of cells in Excel by clicking and holding the mouse.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
       {
         question:
           "To delete a worksheet in Excel, you can use the Ctrl + D shortcut.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "Cells are the basic building blocks of a worksheet in Excel.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
       {
         question:
           "The diurnal range of temperature in equatorial regions is usually small.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question: "Cutting and pasting duplicate cell content in Excel.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
       {
         question:
           "To select the entire worksheet in Excel, you can use the Select All button or press Ctrl + A.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
       {
         question:
           "You can insert cell content in Excel by pressing the Enter key after typing.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "True",
       },
       {
         question:
           "The capital of Congo, Kinshasa, is located on the Nile River.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         answer: "False",
       },
     ],

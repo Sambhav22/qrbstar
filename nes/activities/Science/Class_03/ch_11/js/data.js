@@ -152,59 +152,69 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Cereals are the main component of Indian food. Normally, wheat is the staple food in North and North-west India, while it is rice in East and South India. Maize, jowar, and bajra are popular in Rajasthan.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Spices and oil are used in cooking. Mustard oil and vegetable oil are used in North India, while groundnut oil and coconut oil are popular in South India.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Some foods are popular in specific areas. For example, parantha is popular in Punjab, chhole-bhature in Delhi, and dosa in South India.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "Fish is an important food in Coastal states.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question: "Gujiya is cooked on the festival of Holi.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "India is famous for its sweets like burfi, rasgulla, sandesh, kaju katli, and gulab jamun. Many sweets are cooked in homes, like halwa and Kheer.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Clothing is one of our basic necessities. People wear thick woollen clothes in hilly areas where the climate is cold, while they wear cotton clothes in the plains where the climate is hot. In coastal areas, people wear Synthetic clothes.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In Jammu and Kashmir, people wear a long woollen coat called Phiran over their regular clothes.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "In Punjab, the main dress for women is salwar-kameez with dupatta, and for men, it is kurta-lungi or pajama. Men in Punjab also wear a turban called Pagdi on their heads.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The people of West Bengal wear loose clothes. Men wear dhoti-kurta with Angostra over the shoulder, and women wear saree in a different style.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
       ],

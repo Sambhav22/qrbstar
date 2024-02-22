@@ -166,61 +166,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "The Past Indefinite Tense is also referred to as Simple Past Tense.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Affirmative sentences in Simple Past Tense follow the word order: Subject + Verb in II Form + Object.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Negative sentences in Simple Past Tense use the Past form (II form) of the verb with all subjects.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             'In negative sentences, the Present form of the verb (I form) is used with "did not" in Simple Past Tense.',
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             'Interrogative sentences in Simple Past Tense start with an interrogative word, followed by "did" at the beginning of the sentence.',
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             'The interrogative word "When" is used in sentences like "Did it rain last night?" in Simple Past Tense.',
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "All subjects, whether singular or plural, use the Past form (II form) of the verb in Simple Past Tense.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The word order for negative sentences in Simple Past Tense is: Subject + did not + Verb in I Form + Object.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             'In interrogative sentences, "did" is used in the middle of the sentence in Simple Past Tense.',
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The Simple Past Tense describes actions that will take place in the future.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
       ],

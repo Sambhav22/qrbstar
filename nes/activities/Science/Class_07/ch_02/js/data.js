@@ -159,61 +159,71 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Holozoic nutrition involves animals taking in complex, solid food and breaking it down inside the body.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Carnivores are animals that eat only plants and their products.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Amoeba is a herbivorous microscopic organism found in pond water.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The process of taking in food into the body is known as assimilation.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Humans have two sets of teeth during their lifetime: primary teeth and permanent teeth.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The undigested residue of the food is expelled outside the body through a process called absorption.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The stomach is the widest part of the alimentary canal and is about 30 cm long.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The small intestine is the longest portion of the digestive tract and is more than 6-7 m long.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Salivary glands secrete a liquid called bile to aid in digestion.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Grass-eating animals, like goats and cows, chew half-digested food and are known as ruminants.",
-          options: ["True", "False"],
+          optionA: "True",
+        optionB: "False",
           correctAnswer: "True",
         },
       ],

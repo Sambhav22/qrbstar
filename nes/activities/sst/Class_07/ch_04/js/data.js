@@ -159,60 +159,70 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
       {
         question: "The Tomars founded Dhillika or Delhi in the 8th century.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Prithviraj Chauhan was defeated by Mohammad Ghori in 1192 AD.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Qutb-ud-din Aibak was declared the first Sultan of Delhi in 1206 AD.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question: "The Sultanate period lasted from 1206 to 1526 AD.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Shams-ud-din Iltutmish conquered many towns, including Bengal, Sindh, Ranthambor, Gwalior, Malwa, Ujjain, and Bihar.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Ghiyas-ud-din Balban consolidated his territories and dealt with the nobles during his rule as the Sultan in 1266 AD.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Ala-ud-din Khalji expanded his sultanate and strengthened his army. He also regularized the administration and conquered Gujarat, Malwa, and Rajasthan.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Muhammad-bin Tughluq paid meager salary to his soldiers, but he fixed the prices of all essential commodities like grains, sugar, oils, and clothes. He appointed spies in different parts of his empire to keep him informed of the latest developments, including the soldiers' faces.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "Timur invaded India in 1398 AD during the rule of the Tughluq dynasty.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
       {
         question:
           "The Mughal dynasty was founded in India after Babur's victory in the first Battle of Panipat in 1526 AD.",
-        options: ["True", "False"],
+        optionA: "True",
+        optionB: "False",
         correctAnswer: "True",
       },
     ],
