@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "सही विकल्प पर टिक करें:",
     questions: [
-      [
         {
           "question": "भारत का देशनाम क्या है?",
           "optionA": "भारत रत्न",
@@ -76,8 +75,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           "optionC": "रेनकोट",
           "correctAnswer": "ऊन"
         }
-      ]
-      
     ],
   };
 }
@@ -86,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "रिक्त स्थान भरें:",
     questions: [
-      [
         {
           "question": "भारत प्यारा, _______ हमारा।",
           "optionA": "देश",
@@ -158,8 +154,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           "correctAnswer": "प्राण"
         }
       ],
-      
-    ],
   };
 }
 
@@ -167,7 +161,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "सत्य के लिए 'सत्य' और असत्य कथन के लिए 'असत्य' लिखें:",
     questions: [
-      [
         {
           "question": "भारत का देशनाम 'भारत रत्न' है।",
           "optionA": "सही",
@@ -228,8 +221,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           "optionB": "गलत",
           "correctAnswer": "गलत"
         }
-      ],      
-    ],
+      ],
   };
 }
 
