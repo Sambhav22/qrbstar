@@ -115,70 +115,70 @@ if (localStorage.getItem("activityNumber") == 2) {
             "optionA": "Liquid Gold",
             "optionB": "Black Gold",
             "optionC": "Golden Fuel",
-            "correctAnswer": "B) Black Gold"
+            "correctAnswer": "Black Gold"
         }),
       shuffleOptions({
             "question": "Diesel is commonly used to fuel _______.",
             "optionA": "Two-wheelers",
             "optionB": "Heavy vehicles",
             "optionC": "Aeroplanes",
-            "correctAnswer": "B) Heavy vehicles"
+            "correctAnswer": "Heavy vehicles"
         }),
       shuffleOptions({
             "question": "Coal is primarily used for _______.",
             "optionA": "Cooking",
             "optionB": "Generating electricity",
             "optionC": "Running cars",
-            "correctAnswer": "B) Generating electricity"
+            "correctAnswer": "Generating electricity"
         }),
       shuffleOptions({
             "question": "Natural gas is found _______.",
             "optionA": "Below petroleum deposits",
             "optionB": "In coal beds",
             "optionC": "Above petroleum deposits",
-            "correctAnswer": "C) Above petroleum deposits"
+            "correctAnswer": "Above petroleum deposits"
         }),
       shuffleOptions({
             "question": "Liquified Petroleum Gas (LPG) is commonly used for _______.",
             "optionA": "Running cars",
             "optionB": "Cooking",
             "optionC": "Generating electricity",
-            "correctAnswer": "B) Cooking"
+            "correctAnswer": "Cooking"
         }),
       shuffleOptions({
             "question": "Compressed Natural Gas (CNG) is preferred for running vehicles due to its _______.",
             "optionA": "High cost",
             "optionB": "Environmental friendliness",
             "optionC": "Low availability",
-            "correctAnswer": "B) Environmental friendliness"
+            "correctAnswer": "Environmental friendliness"
         }),
       shuffleOptions({
             "question": "Fossil fuels are considered non-renewable because _______.",
             "optionA": "They can be replaced easily",
             "optionB": "They deplete at faster rates",
             "optionC": "They are formed quickly",
-            "correctAnswer": "B) They deplete at faster rates"
+            "correctAnswer": "They deplete at faster rates"
         }),
       shuffleOptions({
             "question": "Biomass energy is derived from _______.",
             "optionA": "Wind",
             "optionB": "Organic material",
             "optionC": "Geothermal sources",
-            "correctAnswer": "B) Organic material"
+            "correctAnswer": "Organic material"
         }),
       shuffleOptions({
             "question": "Hydropower generates electricity from _______.",
             "optionA": "Flowing water",
             "optionB": "Sunlight",
             "optionC": "Biomass",
-            "correctAnswer": "A) Flowing water"
+            "correctAnswer": "Flowing water"
         }),
       shuffleOptions({
             "question": "To save fuel, one can _______ at red lights.",
             "optionA": "Turn on the engine",
             "optionB": "Put off the engine",
             "optionC": "Increase speed",
-            "correctAnswer": "B) Put off the engine"
+            "correctAnswer": "Put off the engine"
         }
     ]
     

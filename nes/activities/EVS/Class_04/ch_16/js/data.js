@@ -37,7 +37,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Yamuna",
           optionB: "Ganga",
           optionC: "Brahmaputra",
-          correctAnswer: "b) Ganga",
+          correctAnswer: "Ganga",
  }),
       shuffleOptions({
           question:
@@ -45,7 +45,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "From rainwater",
           optionB: "From melting glaciers",
           optionC: "From underground springs",
-          correctAnswer: "b) From melting glaciers",
+          correctAnswer: "From melting glaciers",
  }),
       shuffleOptions({
           question:
@@ -53,14 +53,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Rainwater",
           optionB: "Rivers",
           optionC: "Dams",
-          correctAnswer: "b) Rivers",
+          correctAnswer: "Rivers",
  }),
       shuffleOptions({
           question: "What causes rain according to the text?",
           optionA: "Evaporation and condensation",
           optionB: "Melting glaciers",
           optionC: "Dam construction",
-          correctAnswer: "a) Evaporation and condensation",
+          correctAnswer: "Evaporation and condensation",
  }),
       shuffleOptions({
           question:
@@ -68,7 +68,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Aquatic plants",
           optionB: "Reservoirs and canals",
           optionC: "Rain fed rivers",
-          correctAnswer: "b) Reservoirs and canals",
+          correctAnswer: "Reservoirs and canals",
  }),
       shuffleOptions({
           question:
@@ -76,7 +76,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Increased fertility of fields",
           optionB: "Infertility in some years",
           optionC: "Improved crop yield",
-          correctAnswer: "b) Infertility in some years",
+          correctAnswer: "Infertility in some years",
  }),
       shuffleOptions({
           question:
@@ -84,7 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Canals",
           optionB: "Reservoirs",
           optionC: "Dams",
-          correctAnswer: "c) Dams",
+          correctAnswer: "Dams",
  }),
       shuffleOptions({
           question:
@@ -92,7 +92,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Melting glaciers",
           optionB: "Dam construction",
           optionC: "Dumping normal to toxic wastes",
-          correctAnswer: "c) Dumping normal to toxic wastes",
+          correctAnswer: "Dumping normal to toxic wastes",
  }),
       shuffleOptions({
           question:
@@ -100,7 +100,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Increased biodiversity",
           optionB: "Endangerment of fishes and plants",
           optionC: "Improved habitat",
-          correctAnswer: "b) Endangerment of fishes and plants",
+          correctAnswer: "Endangerment of fishes and plants",
  }),
       shuffleOptions({
           question:
@@ -108,7 +108,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Condensation",
           optionB: "Evaporation",
           optionC: "Filtration",
-          correctAnswer: "b) Evaporation",
+          correctAnswer: "Evaporation",
            }),
     ]),
   }
@@ -124,7 +124,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Yamuna",
           optionB: "Ganga",
           optionC: "Brahmaputra",
-          correctAnswer: "b) Ganga",
+          correctAnswer: "Ganga",
  }),
       shuffleOptions({
           question:
@@ -132,7 +132,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "glaciers",
           optionB: "rainwater",
           optionC: "underground springs",
-          correctAnswer: "a) glaciers",
+          correctAnswer: "glaciers",
  }),
       shuffleOptions({
           question:
@@ -140,7 +140,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "rainwater",
           optionB: "rivers",
           optionC: "dams",
-          correctAnswer: "b) rivers",
+          correctAnswer: "rivers",
  }),
       shuffleOptions({
           question:
@@ -148,7 +148,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "evaporation, condensation",
           optionB: "melting, freezing",
           optionC: "filtration, precipitation",
-          correctAnswer: "a) evaporation, condensation",
+          correctAnswer: "evaporation, condensation",
  }),
       shuffleOptions({
           question:
@@ -156,7 +156,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "aquatic plants, reservoirs",
           optionB: "reservoirs, canals",
           optionC: "rain-fed rivers, dams",
-          correctAnswer: "b) reservoirs, canals",
+          correctAnswer: "reservoirs, canals",
  }),
       shuffleOptions({
           question:
@@ -164,7 +164,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "increased fertility",
           optionB: "infertility",
           optionC: "improved crop yield",
-          correctAnswer: "b) infertility",
+          correctAnswer: "infertility",
  }),
       shuffleOptions({
           question:
@@ -172,7 +172,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "freshwater",
           optionB: "electricity",
           optionC: "rainwater",
-          correctAnswer: "b) electricity",
+          correctAnswer: "electricity",
  }),
       shuffleOptions({
           question:
@@ -180,7 +180,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "rainwater",
           optionB: "toxic wastes",
           optionC: "underground springs",
-          correctAnswer: "b) toxic wastes",
+          correctAnswer: "toxic wastes",
  }),
       shuffleOptions({
           question:
@@ -188,7 +188,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "aquatic life, crops",
           optionB: "fishes, plants",
           optionC: "rivers, mountains",
-          correctAnswer: "b) fishes, plants",
+          correctAnswer: "fishes, plants",
  }),
       shuffleOptions({
           question:
@@ -196,7 +196,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "condensation",
           optionB: "evaporation",
           optionC: "precipitation",
-          correctAnswer: "b) evaporation",
+          correctAnswer: "evaporation",
            }),
     ]),
   }

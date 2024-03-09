@@ -36,14 +36,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Hot, Cold, Wet",
           optionB: "Summer, Winter, Rainy",
           optionC: "Autumn, Spring, Summer",
-          correctAnswer: "b) Summer, Winter, Rainy",
+          correctAnswer: "Summer, Winter, Rainy",
          }),
       shuffleOptions({
           question: "Which season is described as very hot in the text?",
           optionA: "Winter",
           optionB: "Rainy",
           optionC: "Summer",
-          correctAnswer: "c) Summer",
+          correctAnswer: "Summer",
          }),
       shuffleOptions({
           question:
@@ -51,7 +51,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Woollen clothes",
           optionB: "Cotton clothes",
           optionC: "Leather clothes",
-          correctAnswer: "b) Cotton clothes",
+          correctAnswer: "Cotton clothes",
          }),
       shuffleOptions({
           question:
@@ -59,14 +59,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Hot chocolate",
           optionB: "Chilled drinks",
           optionC: "Hot coffee",
-          correctAnswer: "b) Chilled drinks",
+          correctAnswer: "Chilled drinks",
          }),
       shuffleOptions({
           question: "Which season is described as very cold in the text?",
           optionA: "Rainy",
           optionB: "Summer",
           optionC: "Winter",
-          correctAnswer: "c) Winter",
+          correctAnswer: "Winter",
          }),
       shuffleOptions({
           question:
@@ -74,7 +74,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Raincoats",
           optionB: "Leather clothes",
           optionC: "Woollen clothes",
-          correctAnswer: "c) Woollen clothes",
+          correctAnswer: "Woollen clothes",
          }),
       shuffleOptions({
           question:
@@ -82,14 +82,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Iced tea",
           optionB: "Hot chocolate and drinks",
           optionC: "Chilled lemonade",
-          correctAnswer: "b) Hot chocolate and drinks",
+          correctAnswer: "Hot chocolate and drinks",
          }),
       shuffleOptions({
           question: "What does the rainy season bring according to the text?",
           optionA: "Sunshine",
           optionB: "Raincoats and gumboots",
           optionC: "Snow",
-          correctAnswer: "b) Raincoats and gumboots",
+          correctAnswer: "Raincoats and gumboots",
          }),
       shuffleOptions({
           question:
@@ -97,7 +97,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Ice cream",
           optionB: "Tea and pakoras",
           optionC: "Grilled cheese sandwiches",
-          correctAnswer: "b) Tea and pakoras",
+          correctAnswer: "Tea and pakoras",
          }),
       shuffleOptions({
           question:
@@ -105,7 +105,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "They have no effect on clothing and eating habits.",
           optionB: "They don't affect clothing but affect eating habits.",
           optionC: "They affect both clothing and eating habits.",
-          correctAnswer: "c) They affect both clothing and eating habits.",
+          correctAnswer: "They affect both clothing and eating habits.",
            }),
     ]),
   }

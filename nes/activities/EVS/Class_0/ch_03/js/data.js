@@ -37,7 +37,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Purified water",
           optionB: "Potable water",
           optionC: "Distilled water",
-          correctAnswer: "b) Potable water",
+          correctAnswer: "Potable water",
          }),
       shuffleOptions({
           question:
@@ -45,14 +45,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Cooking",
           optionB: "Swimming",
           optionC: "Cleaning",
-          correctAnswer: "b) Swimming",
+          correctAnswer: "Swimming",
          }),
       shuffleOptions({
           question: "How can we save water when not using it?",
           optionA: "Leave the tap open",
           optionB: "Close the tap when not in use",
           optionC: "Use more water while bathing, shaving, and brushing",
-          correctAnswer: "b) Close the tap when not in use",
+          correctAnswer: "Close the tap when not in use",
          }),
       shuffleOptions({
           question:
@@ -60,7 +60,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Ignore them",
           optionB: "Fix leakages",
           optionC: "Increase water flow",
-          correctAnswer: "b) Fix leakages",
+          correctAnswer: "Fix leakages",
          }),
       shuffleOptions({
           question:
@@ -68,7 +68,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Polluted water",
           optionB: "Saltwater",
           optionC: "Potable water",
-          correctAnswer: "c) Potable water",
+          correctAnswer: "Potable water",
          }),
       shuffleOptions({
           question:
@@ -76,7 +76,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Cooking",
           optionB: "Bathing",
           optionC: "Planting",
-          correctAnswer: "b) Bathing",
+          correctAnswer: "Bathing",
          }),
       shuffleOptions({
           question:
@@ -84,14 +84,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Waste as much water as possible",
           optionB: "Save and conserve water",
           optionC: "Use water excessively",
-          correctAnswer: "b) Save and conserve water",
+          correctAnswer: "Save and conserve water",
          }),
       shuffleOptions({
           question: "What is the importance of water mentioned in the text?",
           optionA: "Only for drinking",
           optionB: "Limited uses",
           optionC: "Very important for various needs",
-          correctAnswer: "c) Very important for various needs",
+          correctAnswer: "Very important for various needs",
          }),
       shuffleOptions({
           question:
@@ -99,7 +99,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Keep it open",
           optionB: "Close it",
           optionC: "Adjust the temperature",
-          correctAnswer: "b) Close it",
+          correctAnswer: "Close it",
          }),
       shuffleOptions({
           question:
@@ -107,7 +107,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Use more water",
           optionB: "Ignore water usage",
           optionC: "Use less water",
-          correctAnswer: "c) Use less water",
+          correctAnswer: "Use less water",
            }),
     ]),
   }
@@ -123,7 +123,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Cooking",
           optionB: "Swimming",
           optionC: "Sleeping",
-          correctAnswer: "a) Cooking",
+          correctAnswer: "Cooking",
          }),
       shuffleOptions({
           question:
@@ -131,7 +131,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Fresh",
           optionB: "Potable",
           optionC: "Sparkling",
-          correctAnswer: "b) Potable",
+          correctAnswer: "Potable",
          }),
       shuffleOptions({
           question:
@@ -139,7 +139,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Windows",
           optionB: "Leakages",
           optionC: "Doors",
-          correctAnswer: "b) Leakages",
+          correctAnswer: "Leakages",
          }),
       shuffleOptions({
           question:
@@ -147,7 +147,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Flavor",
           optionB: "Safety",
           optionC: "Warmth",
-          correctAnswer: "b) Safety",
+          correctAnswer: "Safety",
          }),
       shuffleOptions({
           question:
@@ -155,7 +155,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Excessive water",
           optionB: "More water",
           optionC: "Less water",
-          correctAnswer: "c) Less water",
+          correctAnswer: "Less water",
          }),
       shuffleOptions({
           question:
@@ -163,14 +163,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Preserve",
           optionB: "Waste",
           optionC: "Store",
-          correctAnswer: "a) Preserve",
+          correctAnswer: "Preserve",
          }),
       shuffleOptions({
           question: "Fixing ______ helps prevent water wastage in our homes.",
           optionA: "Appliances",
           optionB: "Leakages",
           optionC: "Faucets",
-          correctAnswer: "b) Leakages",
+          correctAnswer: "Leakages",
          }),
       shuffleOptions({
           question:
@@ -178,21 +178,21 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Conserve",
           optionB: "Waste",
           optionC: "Heat",
-          correctAnswer: "a) Conserve",
+          correctAnswer: "Conserve",
          }),
       shuffleOptions({
           question: "Water is essential for ______ the plants in our gardens.",
           optionA: "Watering",
           optionB: "Cooking",
           optionC: "Watching",
-          correctAnswer: "a) Watering",
+          correctAnswer: "Watering",
          }),
       shuffleOptions({
           question: "Potable water is clean and ______ to drink.",
           optionA: "Delicious",
           optionB: "Safe",
           optionC: "Green",
-          correctAnswer: "b) Safe",
+          correctAnswer: "Safe",
            }),
     ]),
   }

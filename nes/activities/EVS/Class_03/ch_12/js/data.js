@@ -36,7 +36,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Team game",
           optionB: "Outdoor game",
           optionC: "Solo game",
-          correctAnswer: "b) Outdoor game",
+          correctAnswer: "Outdoor game",
          }),
       shuffleOptions({
           question:
@@ -44,14 +44,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Basketball",
           optionB: "Kabaddi",
           optionC: "Football",
-          correctAnswer: "c) Football",
+          correctAnswer: "Football",
          }),
       shuffleOptions({
           question: "What is kabaddi?",
           optionA: "Individual solo game",
           optionB: "Team sport",
           optionC: "Recreational activity",
-          correctAnswer: "b) Team sport",
+          correctAnswer: "Team sport",
          }),
       shuffleOptions({
           question:
@@ -59,21 +59,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Kabaddi",
           optionB: "Hopscotch",
           optionC: "Puzzle",
-          correctAnswer: "c) Puzzle",
+          correctAnswer: "Puzzle",
          }),
       shuffleOptions({
           question: "Which games are classified as outdoor games?",
           optionA: "Ludo, chess, scrabble",
           optionB: "Football, hockey, volleyball",
           optionC: "Hide and seek, monopoly, snakes and ladders",
-          correctAnswer: "b) Football, hockey, volleyball",
+          correctAnswer: "Football, hockey, volleyball",
          }),
       shuffleOptions({
           question: "What are games played inside the house called?",
           optionA: "Outdoor games",
           optionB: "Indoor games",
           optionC: "Recreational games",
-          correctAnswer: "b) Indoor games",
+          correctAnswer: "Indoor games",
          }),
       shuffleOptions({
           question:
@@ -81,7 +81,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Cricket, football, hockey",
           optionB: "Gilli-danda, kho-kho, kabaddi",
           optionC: "Ludo, chess, scrabble",
-          correctAnswer: "b) Gilli-danda, kho-kho, kabaddi",
+          correctAnswer: "Gilli-danda, kho-kho, kabaddi",
          }),
       shuffleOptions({
           question:
@@ -89,7 +89,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Promote creativity and imagination",
           optionB: "Provide exercise to the body",
           optionC: "Boost intellectual skills",
-          correctAnswer: "b) Provide exercise to the body",
+          correctAnswer: "Provide exercise to the body",
          }),
       shuffleOptions({
           question:
@@ -97,7 +97,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Increase concentration power",
           optionB: "Boost physical strength",
           optionC: "Promote patriotism",
-          correctAnswer: "a) Increase concentration power",
+          correctAnswer: "Increase concentration power",
          }),
       shuffleOptions({
           question:
@@ -105,7 +105,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "It provides enjoyment",
           optionB: "It promotes discipline",
           optionC: "It offers income and fame",
-          correctAnswer: "c) It offers income and fame",
+          correctAnswer: "It offers income and fame",
            }),
     ]),
   }

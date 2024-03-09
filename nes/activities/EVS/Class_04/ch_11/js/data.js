@@ -37,28 +37,28 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Apple, mango, cherry",
           optionB: "Bean, carrot, potato",
           optionC: "Rice, wheat, oats",
-          correctAnswer: "B) Bean, carrot, potato",
+          correctAnswer: "Bean, carrot, potato",
          }),
       shuffleOptions({
           question: "Which of the following is considered a fleshy fruit?",
           optionA: "Almond",
           optionB: "Mango",
           optionC: "Raisins",
-          correctAnswer: "B) Mango",
+          correctAnswer: "Mango",
          }),
       shuffleOptions({
           question: "What do food grains provide us with?",
           optionA: "Vitamins and minerals",
           optionB: "Energy",
           optionC: "Proteins",
-          correctAnswer: "B) Energy",
+          correctAnswer: "Energy",
          }),
       shuffleOptions({
           question: "What is the purpose of a Langar in Gurdwaras?",
           optionA: "Selling food to visitors",
           optionB: "Cooking food for all visitors",
           optionC: "Hosting festivals",
-          correctAnswer: "B) Cooking food for all visitors",
+          correctAnswer: "Cooking food for all visitors",
          }),
       shuffleOptions({
           question:
@@ -69,7 +69,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC:
             "Ploughing, sowing seeds, watering, harvesting, storing, and selling",
           correctAnswer:
-            "C) Ploughing, sowing seeds, watering, harvesting, storing, and selling",
+            "Ploughing, sowing seeds, watering, harvesting, storing, and selling",
          }),
       shuffleOptions({
           question:
@@ -77,14 +77,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Creates disunity",
           optionB: "Establishes a bond of unity",
           optionC: "Encourages isolation",
-          correctAnswer: "B) Establishes a bond of unity",
+          correctAnswer: "Establishes a bond of unity",
          }),
       shuffleOptions({
           question: "What is the purpose of a Bhandara?",
           optionA: "Cooking food for all visitors",
           optionB: "Serving free meals on festivals",
           optionC: "Eating together in schools",
-          correctAnswer: "B) Serving free meals on festivals",
+          correctAnswer: "Serving free meals on festivals",
          }),
       shuffleOptions({
           question:
@@ -92,7 +92,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Kitchen",
           optionB: "Dining hall or mess",
           optionC: "Classroom",
-          correctAnswer: "B) Dining hall or mess",
+          correctAnswer: "Dining hall or mess",
          }),
       shuffleOptions({
           question:
@@ -100,7 +100,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Eating alone",
           optionB: "Sharing meals with friends",
           optionC: "Eating together on certain occasions",
-          correctAnswer: "C) Eating together on certain occasions",
+          correctAnswer: "Eating together on certain occasions",
          }),
       shuffleOptions({
           question:
@@ -108,7 +108,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Provide energy",
           optionB: "Make food tasty, colourful, and spicy",
           optionC: "Rich in proteins",
-          correctAnswer: "B) Make food tasty, colourful, and spicy",
+          correctAnswer: "Make food tasty, colourful, and spicy",
            }),
     ]),
   }
@@ -123,49 +123,49 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "harvested",
           optionB: "ploughed",
           optionC: "watered",
-          correctAnswer: "B) ploughed",
+          correctAnswer: "ploughed",
          }),
       shuffleOptions({
           question: "The ____________ is watered at regular intervals.",
           optionA: "harvested crop",
           optionB: "field",
           optionC: "none",
-          correctAnswer: "B) field",
+          correctAnswer: "field",
          }),
       shuffleOptions({
           question: "Langar is a community eating held in __________.",
           optionA: "temples",
           optionB: "gurdwaras",
           optionC: "churches",
-          correctAnswer: "B) gurdwaras",
+          correctAnswer: "gurdwaras",
          }),
       shuffleOptions({
           question: "________ started the practice of langar.",
           optionA: "Mahatma Gandhi",
           optionB: "Guru Nanak Dev Ji",
           optionC: "Mother Teresa",
-          correctAnswer: "B) Guru Nanak Dev Ji",
+          correctAnswer: "Guru Nanak Dev Ji",
          }),
       shuffleOptions({
           question: "Mid-day meal is provided in _______.",
           optionA: "government schools",
           optionB: "private schools",
           optionC: "both",
-          correctAnswer: "C) both",
+          correctAnswer: "both",
          }),
       shuffleOptions({
           question: "Seeds are sown in the ________.",
           optionA: "kitchen",
           optionB: "classroom",
           optionC: "soil",
-          correctAnswer: "C) soil",
+          correctAnswer: "soil",
          }),
       shuffleOptions({
           question: "We purchase the food we need from the ________.",
           optionA: "field",
           optionB: "retail shops",
           optionC: "mandi",
-          correctAnswer: "B) retail shops",
+          correctAnswer: "retail shops",
          }),
       shuffleOptions({
           question:
@@ -173,7 +173,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "friends",
           optionB: "community",
           optionC: "family",
-          correctAnswer: "C) family",
+          correctAnswer: "family",
          }),
       shuffleOptions({
           question:
@@ -181,7 +181,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "family",
           optionB: "community",
           optionC: "school",
-          correctAnswer: "B) community",
+          correctAnswer: "community",
          }),
       shuffleOptions({
           question:
@@ -189,7 +189,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "country",
           optionB: "state",
           optionC: "city",
-          correctAnswer: "A) country",
+          correctAnswer: "country",
            }),
     ]),
   }

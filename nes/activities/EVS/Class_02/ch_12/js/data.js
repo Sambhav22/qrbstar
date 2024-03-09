@@ -36,21 +36,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Do not play with sharp objects.",
           optionB: "Do not run or play on the road.",
           optionC: "Never go anywhere with a stranger.",
-          correctAnswer: "B) Do not run or play on the road.",
+          correctAnswer: "Do not run or play on the road.",
          }),
       shuffleOptions({
           question: "What should you do if someone touches you badly?",
           optionA: "Keep quiet and ignore it.",
           optionB: "Inform your parents.",
           optionC: "Play along with the person.",
-          correctAnswer: "B) Inform your parents.",
+          correctAnswer: "Inform your parents.",
          }),
       shuffleOptions({
           question: "What information should you know according to the text?",
           optionA: "Your favorite subject.",
           optionB: "Your address and parents' contact details.",
           optionC: "Bus driver's name.",
-          correctAnswer: "B) Your address and parents' contact details.",
+          correctAnswer: "Your address and parents' contact details.",
          }),
       shuffleOptions({
           question:
@@ -58,7 +58,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Keep doing it to avoid trouble.",
           optionB: "Stop that action at that moment.",
           optionC: "Ignore the discomfort.",
-          correctAnswer: "B) Stop that action at that moment.",
+          correctAnswer: "Stop that action at that moment.",
          }),
       shuffleOptions({
           question:
@@ -66,7 +66,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Run around inside the bus.",
           optionB: "Disturb the bus driver.",
           optionC: "Sit quietly inside the bus.",
-          correctAnswer: "C) Sit quietly inside the bus.",
+          correctAnswer: "Sit quietly inside the bus.",
          }),
       shuffleOptions({
           question:
@@ -74,35 +74,35 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Dance while waiting.",
           optionB: "Stand in a queue.",
           optionC: "Ignore others.",
-          correctAnswer: "B) Stand in a queue.",
+          correctAnswer: "Stand in a queue.",
          }),
       shuffleOptions({
           question: "What should you not do in the bus according to the text?",
           optionA: "Lean head or hand out of the window.",
           optionB: "Sleep in the aisle.",
           optionC: "Play music loudly.",
-          correctAnswer: "A) Lean head or hand out of the window.",
+          correctAnswer: "Lean head or hand out of the window.",
          }),
       shuffleOptions({
           question: "According to the text, why are these rules important?",
           optionA: "To make life boring.",
           optionB: "To keep us safe and alert.",
           optionC: "To annoy children.",
-          correctAnswer: "B) To keep us safe and alert.",
+          correctAnswer: "To keep us safe and alert.",
          }),
       shuffleOptions({
           question: "Which of the following is NOT mentioned as a safety rule?",
           optionA: "Never go anywhere with a stranger.",
           optionB: "Play with sharp objects.",
           optionC: "Do not disturb the bus driver.",
-          correctAnswer: "B) Play with sharp objects.",
+          correctAnswer: "Play with sharp objects.",
          }),
       shuffleOptions({
           question: "What is the general theme of the text?",
           optionA: "Cooking safety.",
           optionB: "Traveling by bus.",
           optionC: "Personal safety and rules.",
-          correctAnswer: "C) Personal safety and rules.",
+          correctAnswer: "Personal safety and rules.",
            }),
     ]),
   }
@@ -118,7 +118,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Toys",
           optionB: "Safety rules",
           optionC: "Animals",
-          correctAnswer: "B) Safety rules",
+          correctAnswer: "Safety rules",
          }),
       shuffleOptions({
           question:
@@ -126,7 +126,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Your friends",
           optionB: "Your parents",
           optionC: "Your teacher",
-          correctAnswer: "B) Your parents",
+          correctAnswer: "Your parents",
          }),
       shuffleOptions({
           question:
@@ -134,7 +134,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Favorite color",
           optionB: "Address",
           optionC: "Bus driver's name",
-          correctAnswer: "B) Address",
+          correctAnswer: "Address",
          }),
       shuffleOptions({
           question:
@@ -142,7 +142,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Continue doing it",
           optionB: "Stop that action at that moment",
           optionC: "Ignore the discomfort",
-          correctAnswer: "B) Stop that action at that moment",
+          correctAnswer: "Stop that action at that moment",
          }),
       shuffleOptions({
           question:
@@ -150,7 +150,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Backwards",
           optionB: "Quietly",
           optionC: "Outside",
-          correctAnswer: "B) Quietly",
+          correctAnswer: "Quietly",
          }),
       shuffleOptions({
           question:
@@ -158,7 +158,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Moving",
           optionB: "Stationary",
           optionC: "Fast",
-          correctAnswer: "A) Moving",
+          correctAnswer: "Moving",
          }),
       shuffleOptions({
           question:
@@ -166,14 +166,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "A circle",
           optionB: "A queue",
           optionC: "A line",
-          correctAnswer: "B) A queue",
+          correctAnswer: "A queue",
          }),
       shuffleOptions({
           question: "__________ keep us safe and alert from potential dangers.",
           optionA: "Jokes",
           optionB: "Rules",
           optionC: "Games",
-          correctAnswer: "B) Rules",
+          correctAnswer: "Rules",
          }),
       shuffleOptions({
           question:
@@ -181,7 +181,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Home",
           optionB: "Anywhere",
           optionC: "Alone",
-          correctAnswer: "B) Anywhere",
+          correctAnswer: "Anywhere",
          }),
       shuffleOptions({
           question:
@@ -189,7 +189,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Adventure",
           optionB: "Travel",
           optionC: "Personal safety",
-          correctAnswer: "C) Personal safety",
+          correctAnswer: "Personal safety",
            }),
     ]),
   }

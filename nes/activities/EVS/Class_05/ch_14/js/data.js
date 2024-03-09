@@ -36,70 +36,70 @@ if (localStorage.getItem("activityNumber") == 1) {
           "optionA": "Rain",
           "optionB": "Rivers",
           "optionC": "Tube wells",
-          "correctAnswer": "A) Rain"
+          "correctAnswer": "Rain"
         }),
       shuffleOptions({
           "question": "What is another name for the Denkli Persian wheel?",
           "optionA": "Paecottah",
           "optionB": "Shaduf",
           "optionC": "Tube well",
-          "correctAnswer": "A) Paecottah"
+          "correctAnswer": "Paecottah"
         }),
       shuffleOptions({
           "question": "What is the primary purpose of a Persian wheel in agriculture?",
           "optionA": "To lift water from the ground",
           "optionB": "To draw water into the fields",
           "optionC": "To irrigate land using a large network of irrigation",
-          "correctAnswer": "B) To draw water into the fields"
+          "correctAnswer": "To draw water into the fields"
         }),
       shuffleOptions({
           "question": "What is the main function of tube wells in agriculture today?",
           "optionA": "To irrigate land using a large network of irrigation",
           "optionB": "To pull groundwater to ground level for field watering",
           "optionC": "To lift water from rivers for crop production",
-          "correctAnswer": "B) To pull groundwater to ground level for field watering"
+          "correctAnswer": "To pull groundwater to ground level for field watering"
         }),
       shuffleOptions({
           "question": "What is the leading hydropower generating country among the listed options?",
           "optionA": "China",
           "optionB": "India",
           "optionC": "Russia",
-          "correctAnswer": "A) China"
+          "correctAnswer": "China"
         }),
       shuffleOptions({
           "question": "What percentage of total water consumption does the industry account for worldwide?",
           "optionA": "19%",
           "optionB": "50%",
           "optionC": "75%",
-          "correctAnswer": "A) 19%"
+          "correctAnswer": "19%"
         }),
       shuffleOptions({
           "question": "Which of the following is NOT a common use of water in domestic life?",
           "optionA": "Drinking",
           "optionB": "Washing dishes",
           "optionC": "Fuel for vehicles",
-          "correctAnswer": "C) Fuel for vehicles"
+          "correctAnswer": "Fuel for vehicles"
         }),
       shuffleOptions({
           "question": "What term is used for electricity produced through water?",
           "optionA": "Hydropower",
           "optionB": "Thermal power",
           "optionC": "Solar power",
-          "correctAnswer": "A) Hydropower"
+          "correctAnswer": "Hydropower"
         }),
       shuffleOptions({
           "question": "What is the major source of water in many parts of the world?",
           "optionA": "Rivers",
           "optionB": "Groundwater",
           "optionC": "Rainwater harvesting",
-          "correctAnswer": "B) Groundwater"
+          "correctAnswer": "Groundwater"
         }),
       shuffleOptions({
           "question": "Which insect breeds in stagnant water and spreads diseases like malaria and dengue?",
           "optionA": "Butterfly",
           "optionB": "Mosquito",
           "optionC": "Fly",
-          "correctAnswer": "B) Mosquito"
+          "correctAnswer": "Mosquito"
         }
       ],
   };
@@ -115,70 +115,70 @@ if (localStorage.getItem("activityNumber") == 2) {
           "optionA": "Rain",
           "optionB": "Rivers",
           "optionC": "Tube wells",
-          "correctAnswer": "A) Rain"
+          "correctAnswer": "Rain"
         }),
       shuffleOptions({
           "question": "Another name for the Denkli Persian wheel is _______.",
           "optionA": "Paecottah",
           "optionB": "Shaduf",
           "optionC": "Tube well",
-          "correctAnswer": "A) Paecottah"
+          "correctAnswer": "Paecottah"
         }),
       shuffleOptions({
           "question": "The primary function of a Persian wheel in agriculture is to draw water _______.",
           "optionA": "From rivers",
           "optionB": "Into the fields",
           "optionC": "For drinking",
-          "correctAnswer": "B) Into the fields"
+          "correctAnswer": "Into the fields"
         }),
       shuffleOptions({
           "question": "Tube wells are primarily used today to pull groundwater to ground level for _______.",
           "optionA": "Drinking",
           "optionB": "Field watering",
           "optionC": "Industrial use",
-          "correctAnswer": "B) Field watering"
+          "correctAnswer": "Field watering"
         }),
       shuffleOptions({
           "question": "Among the listed options, which country is the leading hydropower generating nation?",
           "optionA": "China",
           "optionB": "India",
           "optionC": "Russia",
-          "correctAnswer": "A) China"
+          "correctAnswer": "China"
         }),
       shuffleOptions({
           "question": "What percentage of total water consumption does the industry account for worldwide?",
           "optionA": "19%",
           "optionB": "50%",
           "optionC": "75%",
-          "correctAnswer": "A) 19%"
+          "correctAnswer": "19%"
         }),
       shuffleOptions({
           "question": "Which of the following is NOT a common use of water in domestic life?",
           "optionA": "Drinking",
           "optionB": "Washing dishes",
           "optionC": "Fuel for vehicles",
-          "correctAnswer": "C) Fuel for vehicles"
+          "correctAnswer": "Fuel for vehicles"
         }),
       shuffleOptions({
           "question": "Electricity produced through water is known as _______.",
           "optionA": "Hydropower",
           "optionB": "Thermal power",
           "optionC": "Solar power",
-          "correctAnswer": "A) Hydropower"
+          "correctAnswer": "Hydropower"
         }),
       shuffleOptions({
           "question": "What is the major source of water in many parts of the world?",
           "optionA": "Rivers",
           "optionB": "Groundwater",
           "optionC": "Rainwater harvesting",
-          "correctAnswer": "B) Groundwater"
+          "correctAnswer": "Groundwater"
         }),
       shuffleOptions({
           "question": "Which insect breeds in stagnant water and spreads diseases like malaria and dengue?",
           "optionA": "Butterfly",
           "optionB": "Mosquito",
           "optionC": "Fly",
-          "correctAnswer": "B) Mosquito"
+          "correctAnswer": "Mosquito"
         }
       ],
   };

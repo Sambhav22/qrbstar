@@ -37,7 +37,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Playing video games",
           optionB: "Waking up early in the morning",
           optionC: "Sleeping until noon",
-          correctAnswer: "b) Waking up early in the morning",
+          correctAnswer: "Waking up early in the morning",
          }),
       shuffleOptions({
           question:
@@ -45,7 +45,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Once a week",
           optionB: "Twice daily",
           optionC: "Only when you remember",
-          correctAnswer: "b) Twice daily",
+          correctAnswer: "Twice daily",
          }),
       shuffleOptions({
           question:
@@ -53,7 +53,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Dance",
           optionB: "Wash your hands",
           optionC: "Brush your teeth",
-          correctAnswer: "b) Wash your hands",
+          correctAnswer: "Wash your hands",
          }),
       shuffleOptions({
           question:
@@ -61,7 +61,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Bathing daily",
           optionB: "Wearing neat and clean clothes",
           optionC: "Eating junk food regularly",
-          correctAnswer: "c) Eating junk food regularly",
+          correctAnswer: "Eating junk food regularly",
          }),
       shuffleOptions({
           question:
@@ -70,7 +70,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "To prevent the spread of germs and maintain hygiene",
           optionC: "To save water",
           correctAnswer:
-            "b) To prevent the spread of germs and maintain hygiene",
+            "To prevent the spread of germs and maintain hygiene",
          }),
       shuffleOptions({
           question:
@@ -78,7 +78,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Watching TV all day",
           optionB: "Exercising regularly",
           optionC: "Always eating meals on time",
-          correctAnswer: "c) Always eating meals on time",
+          correctAnswer: "Always eating meals on time",
          }),
       shuffleOptions({
           question:
@@ -86,7 +86,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Bathing daily",
           optionB: "Littering in public places",
           optionC: "Exercising daily",
-          correctAnswer: "c) Exercising daily",
+          correctAnswer: "Exercising daily",
          }),
       shuffleOptions({
           question:
@@ -94,7 +94,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Fruits and vegetables",
           optionB: "Junk food",
           optionC: "Home-cooked meals",
-          correctAnswer: "b) Junk food",
+          correctAnswer: "Junk food",
          }),
       shuffleOptions({
           question:
@@ -102,7 +102,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Wearing the same clothes for a week",
           optionB: "Wearing whatever you find",
           optionC: "Wearing neat and clean clothes",
-          correctAnswer: "c) Wearing neat and clean clothes",
+          correctAnswer: "Wearing neat and clean clothes",
          }),
       shuffleOptions({
           question:
@@ -110,7 +110,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Taking long naps",
           optionB: "Exercising daily",
           optionC: "Littering in public places",
-          correctAnswer: "b) Exercising daily",
+          correctAnswer: "Exercising daily",
            }),
     ]),
   }

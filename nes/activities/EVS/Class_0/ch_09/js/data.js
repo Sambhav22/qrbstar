@@ -37,7 +37,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Stay fit",
           optionB: "Learn new skills",
           optionC: "Read books",
-          correctAnswer: "a) Stay fit",
+          correctAnswer: "Stay fit",
          }),
       shuffleOptions({
           question:
@@ -45,7 +45,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Ludo",
           optionB: "Cards",
           optionC: "Cricket",
-          correctAnswer: "c) Cricket",
+          correctAnswer: "Cricket",
          }),
       shuffleOptions({
           question:
@@ -53,7 +53,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Outdoor games",
           optionB: "Indoor games",
           optionC: "Video games",
-          correctAnswer: "b) Indoor games",
+          correctAnswer: "Indoor games",
          }),
       shuffleOptions({
           question:
@@ -61,7 +61,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Football",
           optionB: "Tennis",
           optionC: "Kho-kho",
-          correctAnswer: "b) Tennis",
+          correctAnswer: "Tennis",
          }),
       shuffleOptions({
           question:
@@ -69,7 +69,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Learning new words",
           optionB: "Maintaining a social life",
           optionC: "Physical activity",
-          correctAnswer: "c) Physical activity",
+          correctAnswer: "Physical activity",
          }),
       shuffleOptions({
           question:
@@ -77,7 +77,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Cricket",
           optionB: "Ludo",
           optionC: "Tennis",
-          correctAnswer: "b) Ludo",
+          correctAnswer: "Ludo",
          }),
       shuffleOptions({
           question:
@@ -85,7 +85,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Cricket",
           optionB: "Football",
           optionC: "Scrabble",
-          correctAnswer: "c) Scrabble",
+          correctAnswer: "Scrabble",
          }),
       shuffleOptions({
           question:
@@ -94,7 +94,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "To encourage outdoor activities",
           optionC: "To highlight the role of games in physical well-being",
           correctAnswer:
-            "c) To highlight the role of games in physical well-being",
+            "To highlight the role of games in physical well-being",
          }),
       shuffleOptions({
           question:
@@ -102,7 +102,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Board games",
           optionB: "Indoor games",
           optionC: "Outdoor games",
-          correctAnswer: "c) Outdoor games",
+          correctAnswer: "Outdoor games",
          }),
       shuffleOptions({
           question:
@@ -110,7 +110,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "To mention popular sports",
           optionB: "To list indoor games",
           optionC: "To showcase video games",
-          correctAnswer: "b) To list indoor games",
+          correctAnswer: "To list indoor games",
            }),
     ]),
   }

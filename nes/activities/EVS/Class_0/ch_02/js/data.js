@@ -36,7 +36,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Neighborhood",
           optionB: "Surroundings",
           optionC: "Environment",
-          correctAnswer: "b) Surroundings",
+          correctAnswer: "Surroundings",
          }),
       shuffleOptions({
           question:
@@ -44,7 +44,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Deposition of water",
           optionB: "Deposition of waste",
           optionC: "Deposition of leaves",
-          correctAnswer: "b) Deposition of waste",
+          correctAnswer: "Deposition of waste",
          }),
       shuffleOptions({
           question:
@@ -52,7 +52,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Air quality",
           optionB: "Limited use of plastic bags",
           optionC: "Internet speed",
-          correctAnswer: "b) Limited use of plastic bags",
+          correctAnswer: "Limited use of plastic bags",
          }),
       shuffleOptions({
           question:
@@ -60,7 +60,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Cleaning the drains once a year",
           optionB: "Tree plantation",
           optionC: "Avoiding waste disposal in drains",
-          correctAnswer: "c) Avoiding waste disposal in drains",
+          correctAnswer: "Avoiding waste disposal in drains",
          }),
       shuffleOptions({
           question:
@@ -68,7 +68,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Burning waste in the backyard",
           optionB: "Proper arrival of waste-taking vans",
           optionC: "Dumping waste in the surroundings",
-          correctAnswer: "b) Proper arrival of waste-taking vans",
+          correctAnswer: "Proper arrival of waste-taking vans",
          }),
       shuffleOptions({
           question:
@@ -76,7 +76,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Using more plastic bags",
           optionB: "Regularly checking air quality",
           optionC: "Following the mentioned guidelines",
-          correctAnswer: "c) Following the mentioned guidelines",
+          correctAnswer: "Following the mentioned guidelines",
          }),
       shuffleOptions({
           question:
@@ -84,7 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Tree plantation",
           optionB: "Use of plastic bags",
           optionC: "Consumption of fruits",
-          correctAnswer: "b) Use of plastic bags",
+          correctAnswer: "Use of plastic bags",
          }),
       shuffleOptions({
           question:
@@ -92,7 +92,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Regular exercise",
           optionB: "Clean surroundings",
           optionC: "Fast food consumption",
-          correctAnswer: "b) Clean surroundings",
+          correctAnswer: "Clean surroundings",
          }),
       shuffleOptions({
           question:
@@ -100,7 +100,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Waterlogging",
           optionB: "Puddling",
           optionC: "Deposition of water",
-          correctAnswer: "a) Waterlogging",
+          correctAnswer: "Waterlogging",
          }),
       shuffleOptions({
           question:
@@ -108,7 +108,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Ignoring waste disposal practices",
           optionB: "Planting more trees",
           optionC: "Ensuring proper arrival of waste-taking vans",
-          correctAnswer: "c) Ensuring proper arrival of waste-taking vans",
+          correctAnswer: "Ensuring proper arrival of waste-taking vans",
            }),
     ]),
   }
@@ -123,7 +123,7 @@ if (localStorage.getItem("activityNumber") == 2)
           optionA: "Neighborhood",
           optionB: "Backyard",
           optionC: "Surroundings",
-          correctAnswer: "c) Surroundings",
+          correctAnswer: "Surroundings",
          }),
       shuffleOptions({
           question:
@@ -131,7 +131,7 @@ if (localStorage.getItem("activityNumber") == 2)
           optionA: "No",
           optionB: "Limited",
           optionC: "Excessive",
-          correctAnswer: "a) No",
+          correctAnswer: "No",
          }),
       shuffleOptions({
           question:
@@ -139,7 +139,7 @@ if (localStorage.getItem("activityNumber") == 2)
           optionA: "Plastic",
           optionB: "Paper",
           optionC: "Cloth",
-          correctAnswer: "a) Plastic",
+          correctAnswer: "Plastic",
          }),
       shuffleOptions({
           question:
@@ -147,14 +147,14 @@ if (localStorage.getItem("activityNumber") == 2)
           optionA: "Cleaning",
           optionB: "Clogging",
           optionC: "Widening",
-          correctAnswer: "b) Clogging",
+          correctAnswer: "Clogging",
          }),
       shuffleOptions({
           question: "Proper arrival of ______ is essential for waste disposal.",
           optionA: "Mail deliveries",
           optionB: "Waste taking vans",
           optionC: "Food delivery services",
-          correctAnswer: "b) Waste taking vans",
+          correctAnswer: "Waste taking vans",
          }),
       shuffleOptions({
           question:
@@ -162,7 +162,7 @@ if (localStorage.getItem("activityNumber") == 2)
           optionA: "Chaotic",
           optionB: "Healthy",
           optionC: "Busy",
-          correctAnswer: "b) Healthy",
+          correctAnswer: "Healthy",
          }),
       shuffleOptions({
           question:
@@ -170,7 +170,7 @@ if (localStorage.getItem("activityNumber") == 2)
           optionA: "Neighborhood",
           optionB: "Environment",
           optionC: "Surroundings",
-          correctAnswer: "c) Surroundings",
+          correctAnswer: "Surroundings",
          }),
       shuffleOptions({
           question:
@@ -178,7 +178,7 @@ if (localStorage.getItem("activityNumber") == 2)
           optionA: "Limited",
           optionB: "Excessive",
           optionC: "No",
-          correctAnswer: "c) No",
+          correctAnswer: "No",
          }),
       shuffleOptions({
           question:
@@ -186,7 +186,7 @@ if (localStorage.getItem("activityNumber") == 2)
           optionA: "Plastic",
           optionB: "Paper",
           optionC: "Metal",
-          correctAnswer: "a) Plastic",
+          correctAnswer: "Plastic",
          }),
       shuffleOptions({
           question:
@@ -194,7 +194,7 @@ if (localStorage.getItem("activityNumber") == 2)
           optionA: "Cleaning",
           optionB: "Clogging",
           optionC: "Widening",
-          correctAnswer: "b) Clogging",
+          correctAnswer: "Clogging",
         },
       ],
    };

@@ -37,14 +37,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Train",
           optionB: "Aeroplane",
           optionC: "Car",
-          correctAnswer: "b) Aeroplane",
+          correctAnswer: "Aeroplane",
  }),
       shuffleOptions({
           question: "Who is the narrator going to Disneyland with?",
           optionA: "Friends",
           optionB: "Parents",
           optionC: "Siblings",
-          correctAnswer: "b) Parents",
+          correctAnswer: "Parents",
  }),
       shuffleOptions({
           question:
@@ -52,7 +52,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Aeroplanes",
           optionB: "Boats",
           optionC: "Walking",
-          correctAnswer: "c) Walking",
+          correctAnswer: "Walking",
  }),
       shuffleOptions({
           question:
@@ -60,7 +60,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Car",
           optionB: "Train",
           optionC: "Scooter",
-          correctAnswer: "b) Train",
+          correctAnswer: "Train",
  }),
       shuffleOptions({
           question:
@@ -68,7 +68,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Car",
           optionB: "Aeroplane",
           optionC: "Train",
-          correctAnswer: "b) Aeroplane",
+          correctAnswer: "Aeroplane",
  }),
       shuffleOptions({
           question:
@@ -76,7 +76,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Car",
           optionB: "Ship",
           optionC: "Train",
-          correctAnswer: "b) Ship",
+          correctAnswer: "Ship",
  }),
       shuffleOptions({
           question:
@@ -84,7 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Harbor",
           optionB: "Airport",
           optionC: "Port",
-          correctAnswer: "b) Airport",
+          correctAnswer: "Airport",
  }),
       shuffleOptions({
           question:
@@ -92,7 +92,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Horse",
           optionB: "Elephant",
           optionC: "Camel",
-          correctAnswer: "c) Camel",
+          correctAnswer: "Camel",
  }),
       shuffleOptions({
           question:
@@ -100,7 +100,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Car",
           optionB: "Camel",
           optionC: "Wooden trolley on ropes",
-          correctAnswer: "c) Wooden trolley on ropes",
+          correctAnswer: "Wooden trolley on ropes",
  }),
       shuffleOptions({
           question:
@@ -108,7 +108,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Noise pollution",
           optionB: "Light pollution",
           optionC: "Air pollution",
-          correctAnswer: "c) Air pollution",
+          correctAnswer: "Air pollution",
            }),
     ]),
   }

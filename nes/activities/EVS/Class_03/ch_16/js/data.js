@@ -37,49 +37,49 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "To enhance beauty",
           optionB: "To protect from various elements",
           optionC: "To showcase cultural identity",
-          correctAnswer: "b) To protect from various elements",
+          correctAnswer: "To protect from various elements",
  }),
       shuffleOptions({
           question: "What gives wonderful bright colors to clothes?",
           optionA: "Thread",
           optionB: "Dye",
           optionC: "Wax",
-          correctAnswer: "b) Dye",
+          correctAnswer: "Dye",
  }),
       shuffleOptions({
           question: "What is the process of tie and dye mentioned in the text?",
           optionA: "Engraving designs on wooden blocks",
           optionB: "Tying cloth into knots, dyeing, and opening knots",
           optionC: "Embroidering patterns on cloth",
-          correctAnswer: "b) Tying cloth into knots, dyeing, and opening knots",
+          correctAnswer: "Tying cloth into knots, dyeing, and opening knots",
  }),
       shuffleOptions({
           question: "How are designs created in block printing?",
           optionA: "Using a special pen",
           optionB: "Engraving on wooden blocks",
           optionC: "Tying cloth into knots",
-          correctAnswer: "b) Engraving on wooden blocks",
+          correctAnswer: "Engraving on wooden blocks",
  }),
       shuffleOptions({
           question: "What is Kalamkari in the context of clothing?",
           optionA: "Engraving designs on wooden blocks",
           optionB: "Embroidering patterns on cloth",
           optionC: "Printing on cotton fabric with a special pen",
-          correctAnswer: "c) Printing on cotton fabric with a special pen",
+          correctAnswer: "Printing on cotton fabric with a special pen",
  }),
       shuffleOptions({
           question: "What is the purpose of embroidery in clothing?",
           optionA: "Enhancing durability",
           optionB: "Adding attractiveness with colored threads",
           optionC: "Protecting from heat and cold",
-          correctAnswer: "b) Adding attractiveness with colored threads",
+          correctAnswer: "Adding attractiveness with colored threads",
  }),
       shuffleOptions({
           question: "What is mentioned as part of modern clothes in the text?",
           optionA: "Tie and Dye",
           optionB: "T-shirt, shorts, midi",
           optionC: "Leaf motifs",
-          correctAnswer: "b) T-shirt, shorts, midi",
+          correctAnswer: "T-shirt, shorts, midi",
  }),
       shuffleOptions({
           question: "What is cotton primarily used for according to the text?",
@@ -87,21 +87,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "Creating synthetic dyes",
           optionC: "Making various types of clothes and other products",
           correctAnswer:
-            "c) Making various types of clothes and other products",
+            "Making various types of clothes and other products",
  }),
       shuffleOptions({
           question: "What is the source of cotton?",
           optionA: "Synthetic fiber",
           optionB: "Cotton plant",
           optionC: "Animal hide",
-          correctAnswer: "b) Cotton plant",
+          correctAnswer: "Cotton plant",
  }),
       shuffleOptions({
           question: "What material is NOT mentioned as being made from cotton?",
           optionA: "Shirt",
           optionB: "Rope",
           optionC: "Silk",
-          correctAnswer: "c) Silk",
+          correctAnswer: "Silk",
            }),
     ]),
   }
@@ -116,14 +116,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "decorate",
           optionB: "cover",
           optionC: "wash",
-          correctAnswer: "b) cover",
+          correctAnswer: "cover",
  }),
       shuffleOptions({
           question: "Cloth market is flooded with many _________ clothes.",
           optionA: "plain",
           optionB: "colorful",
           optionC: "synthetic",
-          correctAnswer: "b) colorful",
+          correctAnswer: "colorful",
  }),
       shuffleOptions({
           question:
@@ -131,7 +131,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "artificial",
           optionB: "handmade",
           optionC: "synthetic",
-          correctAnswer: "c) synthetic",
+          correctAnswer: "synthetic",
  }),
       shuffleOptions({
           question:
@@ -139,7 +139,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "oil",
           optionB: "wax",
           optionC: "ink",
-          correctAnswer: "b) wax",
+          correctAnswer: "wax",
  }),
       shuffleOptions({
           question:
@@ -147,7 +147,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "embroidery",
           optionB: "block printing",
           optionC: "leaf motifs",
-          correctAnswer: "b) block printing",
+          correctAnswer: "block printing",
  }),
       shuffleOptions({
           question:
@@ -155,7 +155,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "brush",
           optionB: "pen",
           optionC: "needle",
-          correctAnswer: "b) pen",
+          correctAnswer: "pen",
  }),
       shuffleOptions({
           question:
@@ -163,7 +163,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Embroidery",
           optionB: "Block printing",
           optionC: "Leaf motifs",
-          correctAnswer: "a) Embroidery",
+          correctAnswer: "Embroidery",
  }),
       shuffleOptions({
           question:
@@ -171,7 +171,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "saree",
           optionB: "jeans",
           optionC: "gloves",
-          correctAnswer: "b) jeans",
+          correctAnswer: "jeans",
  }),
       shuffleOptions({
           question:
@@ -179,7 +179,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "tie",
           optionB: "hat",
           optionC: "bedsheet",
-          correctAnswer: "c) bedsheet",
+          correctAnswer: "bedsheet",
  }),
       shuffleOptions({
           question:
@@ -187,7 +187,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "fabrics",
           optionB: "metals",
           optionC: "plastics",
-          correctAnswer: "a) fabrics",
+          correctAnswer: "fabrics",
            }),
     ]),
   }

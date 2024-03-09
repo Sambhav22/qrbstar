@@ -40,7 +40,7 @@ if (localStorage.getItem("activityNumber") == 1) {
             optionA: "Fruits and fresh air",
             optionB: "Vegetables and sunlight",
             optionC: "Fish and water",
-            correctAnswer: "a) Fruits and fresh air",
+            correctAnswer: "Fruits and fresh air",
           },
           {
             question:
@@ -48,14 +48,14 @@ if (localStorage.getItem("activityNumber") == 1) {
             optionA: "Nuts and wood",
             optionB: "Rocks and metals",
             optionC: "Plastic and electronics",
-            correctAnswer: "a) Nuts and wood",
+            correctAnswer: "Nuts and wood",
           },
           {
             question: "What role do trees play in providing shelter?",
             optionA: "They provide shelter to humans only",
             optionB: "They provide shelter to birds and animals",
             optionC: "They don't provide any shelter",
-            correctAnswer: "b) They provide shelter to birds and animals",
+            correctAnswer: "They provide shelter to birds and animals",
           },
           {
             question:
@@ -64,14 +64,14 @@ if (localStorage.getItem("activityNumber") == 1) {
             optionB: "By absorbing carbon dioxide and releasing oxygen",
             optionC: "By cutting down trees regularly",
             correctAnswer:
-              "b) By absorbing carbon dioxide and releasing oxygen",
+              "By absorbing carbon dioxide and releasing oxygen",
           },
           {
             question: "What action is recommended to make surroundings green?",
             optionA: "Remove all trees",
             optionB: "Paint buildings green",
             optionC: "Plant more trees",
-            correctAnswer: "c) Plant more trees",
+            correctAnswer: "Plant more trees",
           },
           {
             question:
@@ -79,7 +79,7 @@ if (localStorage.getItem("activityNumber") == 1) {
             optionA: "Electronics",
             optionB: "Plastics",
             optionC: "Paper",
-            correctAnswer: "c) Paper",
+            correctAnswer: "Paper",
           },
           {
             question:
@@ -87,7 +87,7 @@ if (localStorage.getItem("activityNumber") == 1) {
             optionA: "Producing plastic",
             optionB: "Making surroundings dirty",
             optionC: "Making surroundings clean",
-            correctAnswer: "c) Making surroundings clean",
+            correctAnswer: "Making surroundings clean",
           },
           {
             question:
@@ -95,14 +95,14 @@ if (localStorage.getItem("activityNumber") == 1) {
             optionA: "Fresh air",
             optionB: "Sunlight",
             optionC: "Minerals",
-            correctAnswer: "c) Minerals",
+            correctAnswer: "Minerals",
           },
           {
             question: "What is the main reason given for planting trees?",
             optionA: "To make surroundings noisy",
             optionB: "To make surroundings green",
             optionC: "To reduce the number of trees",
-            correctAnswer: "b) To make surroundings green",
+            correctAnswer: "To make surroundings green",
           },
           {
             question:
@@ -110,7 +110,7 @@ if (localStorage.getItem("activityNumber") == 1) {
             optionA: "Coal",
             optionB: "Oxygen",
             optionC: "Plastic",
-            correctAnswer: "b) Oxygen",
+            correctAnswer: "Oxygen",
           },
         ],
       },

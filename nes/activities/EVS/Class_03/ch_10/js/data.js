@@ -37,7 +37,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Biryani",
           optionB: "Daal and Bati",
           optionC: "Samosa",
-          correctAnswer: "B) Daal and Bati",
+          correctAnswer: "Daal and Bati",
  }),
       shuffleOptions({
           question:
@@ -45,7 +45,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "It adds flavor to the food",
           optionB: "It kills germs in the food",
           optionC: "It makes the food look appetizing",
-          correctAnswer: "B) It kills germs in the food",
+          correctAnswer: "It kills germs in the food",
  }),
       shuffleOptions({
           question:
@@ -53,7 +53,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Boiling",
           optionB: "Frying",
           optionC: "Roasting",
-          correctAnswer: "C) Roasting",
+          correctAnswer: "Roasting",
  }),
       shuffleOptions({
           question:
@@ -61,7 +61,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "To add flavor to the food",
           optionB: "To kill germs in the food",
           optionC: "To cook the food with steam",
-          correctAnswer: "C) To cook the food with steam",
+          correctAnswer: "To cook the food with steam",
  }),
       shuffleOptions({
           question:
@@ -69,21 +69,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Cooked fruits",
           optionB: "Boiled vegetables",
           optionC: "Raw fruits and vegetables",
-          correctAnswer: "C) Raw fruits and vegetables",
+          correctAnswer: "Raw fruits and vegetables",
  }),
       shuffleOptions({
           question: "In villages, what is commonly used as fuel for cooking?",
           optionA: "LPG gas",
           optionB: "Biomass such as firewood and dung",
           optionC: "Coal and electricity",
-          correctAnswer: "B) Biomass such as firewood and dung",
+          correctAnswer: "Biomass such as firewood and dung",
  }),
       shuffleOptions({
           question: "Which cooking method involves placing food in hot oil?",
           optionA: "Baking",
           optionB: "Boiling",
           optionC: "Frying",
-          correctAnswer: "C) Frying",
+          correctAnswer: "Frying",
  }),
       shuffleOptions({
           question:
@@ -91,7 +91,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Firewood",
           optionB: "Kerosene oil",
           optionC: "Electricity",
-          correctAnswer: "C) Electricity",
+          correctAnswer: "Electricity",
  }),
       shuffleOptions({
           question:
@@ -99,7 +99,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Swachh Bharat Abhiyan",
           optionB: "Ujjwala Yojana",
           optionC: "Pradhan Mantri Awas Yojana",
-          correctAnswer: "B) Ujjwala Yojana",
+          correctAnswer: "Ujjwala Yojana",
  }),
       shuffleOptions({
           question:
@@ -107,7 +107,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Chapati and meat",
           optionB: "Pakoras and puris",
           optionC: "Idli, dhokla, and momos",
-          correctAnswer: "C) Idli, dhokla, and momos",
+          correctAnswer: "Idli, dhokla, and momos",
            }),
     ]),
   }
@@ -123,7 +123,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Pasta",
           optionB: "Daal",
           optionC: "Sandwich",
-          correctAnswer: "B) Daal",
+          correctAnswer: "Daal",
  }),
       shuffleOptions({
           question:
@@ -131,7 +131,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Flavors",
           optionB: "Germs",
           optionC: "Colors",
-          correctAnswer: "B) Germs",
+          correctAnswer: "Germs",
  }),
       shuffleOptions({
           question:
@@ -139,7 +139,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Baking",
           optionB: "Boiling",
           optionC: "Roasting",
-          correctAnswer: "C) Roasting",
+          correctAnswer: "Roasting",
  }),
       shuffleOptions({
           question:
@@ -147,7 +147,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Baker",
           optionB: "Steamer",
           optionC: "Fryer",
-          correctAnswer: "B) Steamer",
+          correctAnswer: "Steamer",
  }),
       shuffleOptions({
           question:
@@ -155,7 +155,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Digested",
           optionB: "Tasted",
           optionC: "Seen",
-          correctAnswer: "A) Digested",
+          correctAnswer: "Digested",
  }),
       shuffleOptions({
           question:
@@ -163,14 +163,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Cities",
           optionB: "Villages",
           optionC: "Restaurants",
-          correctAnswer: "B) Villages",
+          correctAnswer: "Villages",
  }),
       shuffleOptions({
           question: "In the frying method, food is placed in ___________.",
           optionA: "Hot water",
           optionB: "Hot oil",
           optionC: "Hot air",
-          correctAnswer: "B) Hot oil",
+          correctAnswer: "Hot oil",
  }),
       shuffleOptions({
           question:
@@ -178,7 +178,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Firewood",
           optionB: "Kerosene oil",
           optionC: "Electricity",
-          correctAnswer: "C) Electricity",
+          correctAnswer: "Electricity",
  }),
       shuffleOptions({
           question:
@@ -186,7 +186,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Ujjwala Yojana",
           optionB: "Swachh Bharat Abhiyan",
           optionC: "Pradhan Mantri Awas Yojana",
-          correctAnswer: "A) Ujjwala Yojana",
+          correctAnswer: "Ujjwala Yojana",
  }),
       shuffleOptions({
           question:
@@ -194,7 +194,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Hot oil",
           optionB: "Steam",
           optionC: "Boiling water",
-          correctAnswer: "B) Steam",
+          correctAnswer: "Steam",
            }),
     ]),
   }

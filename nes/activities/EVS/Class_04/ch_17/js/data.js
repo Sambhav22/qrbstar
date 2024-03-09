@@ -37,14 +37,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "51%",
           optionB: "61%",
           optionC: "71%",
-          correctAnswer: "c) 71%",
+          correctAnswer: "71%",
          }),
       shuffleOptions({
           question: "What are the three forms of water mentioned in the text?",
           optionA: "Solid, gas, and vapor",
           optionB: "Ice, liquid, and gas",
           optionC: "Ocean, river, and lake",
-          correctAnswer: "b) Ice, liquid, and gas",
+          correctAnswer: "Ice, liquid, and gas",
          }),
       shuffleOptions({
           question:
@@ -52,14 +52,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Solid",
           optionB: "Liquid",
           optionC: "Gaseous",
-          correctAnswer: "b) Liquid",
+          correctAnswer: "Liquid",
          }),
       shuffleOptions({
           question: "What is the gaseous form of water mentioned in the text?",
           optionA: "Air",
           optionB: "Water Vapor",
           optionC: "Oxygen",
-          correctAnswer: "b) Water Vapor",
+          correctAnswer: "Water Vapor",
          }),
       shuffleOptions({
           question:
@@ -67,7 +67,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Distillation",
           optionB: "Filtration",
           optionC: "Evaporation",
-          correctAnswer: "b) Filtration",
+          correctAnswer: "Filtration",
          }),
       shuffleOptions({
           question:
@@ -75,7 +75,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Sedimentation",
           optionB: "Filtration",
           optionC: "Chlorination",
-          correctAnswer: "c) Chlorination",
+          correctAnswer: "Chlorination",
          }),
       shuffleOptions({
           question:
@@ -83,7 +83,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "To reduce water pollution",
           optionB: "To maintain the water balance on Earth",
           optionC: "To create potable water",
-          correctAnswer: "b) To maintain the water balance on Earth",
+          correctAnswer: "To maintain the water balance on Earth",
          }),
       shuffleOptions({
           question:
@@ -91,7 +91,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Increase water usage in kitchens and toilets",
           optionB: "Use showers for bathing",
           optionC: "Turn off the tap if not in use",
-          correctAnswer: "c) Turn off the tap if not in use",
+          correctAnswer: "Turn off the tap if not in use",
          }),
       shuffleOptions({
           question:
@@ -101,7 +101,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC:
             "Freshwater is limited and our need for consuming it is increasing",
           correctAnswer:
-            "c) Freshwater is limited and our need for consuming it is increasing",
+            "Freshwater is limited and our need for consuming it is increasing",
          }),
       shuffleOptions({
           question:
@@ -109,7 +109,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Filtration",
           optionB: "Chlorination",
           optionC: "Sedimentation",
-          correctAnswer: "b) Chlorination",
+          correctAnswer: "Chlorination",
            }),
     ]),
   }
@@ -125,7 +125,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Solid",
           optionB: "Gas",
           optionC: "Plasma",
-          correctAnswer: "a) Solid",
+          correctAnswer: "Solid",
          }),
       shuffleOptions({
           question:
@@ -133,7 +133,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Vapor",
           optionB: "Liquid",
           optionC: "Ice",
-          correctAnswer: "c) Ice",
+          correctAnswer: "Ice",
          }),
       shuffleOptions({
           question:
@@ -141,7 +141,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Filtration",
           optionB: "Sedimentation",
           optionC: "Chlorination",
-          correctAnswer: "c) Chlorination",
+          correctAnswer: "Chlorination",
          }),
       shuffleOptions({
           question:
@@ -149,7 +149,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Solid",
           optionB: "Liquid",
           optionC: "Gaseous",
-          correctAnswer: "c) Gaseous",
+          correctAnswer: "Gaseous",
          }),
       shuffleOptions({
           question:
@@ -157,7 +157,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Sublimation",
           optionB: "Precipitation",
           optionC: "Filtration",
-          correctAnswer: "b) Precipitation",
+          correctAnswer: "Precipitation",
          }),
       shuffleOptions({
           question:
@@ -165,7 +165,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Filtration",
           optionB: "Chlorination",
           optionC: "Sedimentation",
-          correctAnswer: "c) Sedimentation",
+          correctAnswer: "Sedimentation",
          }),
       shuffleOptions({
           question:
@@ -173,28 +173,28 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Cooking",
           optionB: "Not in use",
           optionC: "Taking a shower",
-          correctAnswer: "b) Not in use",
+          correctAnswer: "Not in use",
          }),
       shuffleOptions({
           question: "The liquid form of water is found in ________.",
           optionA: "Mountains",
           optionB: "Oceans",
           optionC: "Glaciers",
-          correctAnswer: "b) Oceans",
+          correctAnswer: "Oceans",
          }),
       shuffleOptions({
           question: "Water becomes potable after the process of ________.",
           optionA: "Precipitation",
           optionB: "Filtration",
           optionC: "Sublimation",
-          correctAnswer: "b) Filtration",
+          correctAnswer: "Filtration",
          }),
       shuffleOptions({
           question: "Installing water meters is suggested to ________.",
           optionA: "Increase water usage",
           optionB: "Decrease water usage",
           optionC: "Monitor electricity usage",
-          correctAnswer: "b) Decrease water usage",
+          correctAnswer: "Decrease water usage",
            }),
     ]),
   }
@@ -208,68 +208,68 @@ if (localStorage.getItem("activityNumber") == 3) {
           question: "Water is present in solid, liquid, and gaseous forms.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "a) True",
+          correctAnswer: "True",
          }),
       shuffleOptions({
           question:
             "Ice, found in mountains and glaciers, is the gaseous form of water.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "b) False",
+          correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "Chlorination is the process of passing chlorine through filtered water during purification.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "a) True",
+          correctAnswer: "True",
          }),
       shuffleOptions({
           question:
             "Water vapor is the gaseous form of water present in the atmosphere.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "a) True",
+          correctAnswer: "True",
          }),
       shuffleOptions({
           question:
             "The water cycle involves the processes of evaporation, condensation, and precipitation.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "a) True",
+          correctAnswer: "True",
          }),
       shuffleOptions({
           question:
             "Filtration is the step in water purification where water is left to stand in large tanks.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "b) False",
+          correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "Conserving water includes turning off the tap when it is not in use.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "a) True",
+          correctAnswer: "True",
          }),
       shuffleOptions({
           question: "The liquid form of water is primarily found in oceans.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "a) True",
+          correctAnswer: "True",
          }),
       shuffleOptions({
           question: "Water becomes potable after the process of sublimation.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "b) False",
+          correctAnswer: "False",
          }),
       shuffleOptions({
           question:
             "Installing water meters is recommended to increase water usage.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "b) False",
+          correctAnswer: "False",
            }),
     ]),
   }

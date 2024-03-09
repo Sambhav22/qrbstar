@@ -292,7 +292,7 @@ if (localStorage.getItem("activityNumber") == 3) {
             answer: false,
           },
           {
-            statement: "Flowers like palash (butea) bloom in summer.",
+            statement: "Flowers like palash (butebloom in summer.",
             options: {
               true: false,
               false: true,

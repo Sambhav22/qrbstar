@@ -33,73 +33,73 @@ if (localStorage.getItem("activityNumber") == 1) {
       shuffleOptions(
         {
           "question": "What are houses for humans primarily designed to protect against?",
-          "optionA": "A) Harsh weather",
-          "optionB": "B) Theft",
-          "optionC": "C) Wild animals",
-          "correctAnswer": "A) Harsh weather"
+          "optionA": "Harsh weather",
+          "optionB": "Theft",
+          "optionC": "Wild animals",
+          "correctAnswer": "Harsh weather"
         }),
       shuffleOptions({
           "question": "Which of the following insects build colonies consisting of chambers to store food and for other purposes?",
-          "optionA": "A) Bees",
-          "optionB": "B) Ants",
-          "optionC": "C) Butterflies",
-          "correctAnswer": "B) Ants"
+          "optionA": "Bees",
+          "optionB": "Ants",
+          "optionC": "Butterflies",
+          "correctAnswer": "Ants"
         }),
       shuffleOptions({
           "question": "What is the primary material used for houses in hilly and cold regions?",
-          "optionA": "A) Bamboo",
-          "optionB": "B) Wood",
-          "optionC": "C) Ice blocks",
-          "correctAnswer": "B) Wood"
+          "optionA": "Bamboo",
+          "optionB": "Wood",
+          "optionC": "Ice blocks",
+          "correctAnswer": "Wood"
         }),
       shuffleOptions({
           "question": "What type of houses are common in flood-prone areas?",
-          "optionA": "A) Igloos",
-          "optionB": "B) Tents",
-          "optionC": "C) Houses on stilts",
-          "correctAnswer": "C) Houses on stilts"
+          "optionA": "Igloos",
+          "optionB": "Tents",
+          "optionC": "Houses on stilts",
+          "correctAnswer": "Houses on stilts"
         }),
       shuffleOptions({
           "question": "What material is commonly used for houses in earthquake-prone regions to prevent injury in case of collapse?",
-          "optionA": "A) Bamboo",
-          "optionB": "B) Wood",
-          "optionC": "C) Mud",
-          "correctAnswer": "B) Wood"
+          "optionA": "Bamboo",
+          "optionB": "Wood",
+          "optionC": "Mud",
+          "correctAnswer": "Wood"
         }),
       shuffleOptions({
           "question": "What material are houses in hot regions primarily made of to prevent overheating?",
-          "optionA": "A) Bamboo",
-          "optionB": "B) Stone",
-          "optionC": "C) Mud",
-          "correctAnswer": "C) Mud"
+          "optionA": "Bamboo",
+          "optionB": "Stone",
+          "optionC": "Mud",
+          "correctAnswer": "Mud"
         }),
       shuffleOptions({
           "question": "Which type of settlement is smaller than a village and is clustered together close to the road?",
-          "optionA": "A) Town",
-          "optionB": "B) Hamlet",
-          "optionC": "C) City",
-          "correctAnswer": "B) Hamlet"
+          "optionA": "Town",
+          "optionB": "Hamlet",
+          "optionC": "City",
+          "correctAnswer": "Hamlet"
         }),
       shuffleOptions({
           "question": "What term is used for a large human settlement with extensive housing, transportation, and communication systems?",
-          "optionA": "A) Village",
-          "optionB": "B) City",
-          "optionC": "C) Town",
-          "correctAnswer": "B) City"
+          "optionA": "Village",
+          "optionB": "City",
+          "optionC": "Town",
+          "correctAnswer": "City"
         }),
       shuffleOptions({
           "question": "What are terrestrial animals?",
-          "optionA": "A) Animals that live in water",
-          "optionB": "B) Animals that fly in the air",
-          "optionC": "C) Animals that live on land",
-          "correctAnswer": "C) Animals that live on land"
+          "optionA": "Animals that live in water",
+          "optionB": "Animals that fly in the air",
+          "optionC": "Animals that live on land",
+          "correctAnswer": "Animals that live on land"
         }),
       shuffleOptions({
           "question": "Which group of animals includes those that fly in the air and rest on trees?",
-          "optionA": "A) Terrestrial animals",
-          "optionB": "B) Aerial animals",
-          "optionC": "C) Aquatic animals",
-          "correctAnswer": "B) Aerial animals"
+          "optionA": "Terrestrial animals",
+          "optionB": "Aerial animals",
+          "optionC": "Aquatic animals",
+          "correctAnswer": "Aerial animals"
         }
       ],
   };
@@ -112,73 +112,73 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions(
         {
           "question": "In hilly and cold regions, houses are primarily made up of _______.",
-          "optionA": "A) Bamboo",
-          "optionB": "B) Wood",
-          "optionC": "C) Ice blocks",
-          "correctAnswer": "B) Wood"
+          "optionA": "Bamboo",
+          "optionB": "Wood",
+          "optionC": "Ice blocks",
+          "correctAnswer": "Wood"
         }),
       shuffleOptions({
           "question": "Houses built on raised platforms or poles in flood-prone areas are called _______.",
-          "optionA": "A) Cottages",
-          "optionB": "B) Igloos",
-          "optionC": "C) Houses on stilts",
-          "correctAnswer": "C) Houses on stilts"
+          "optionA": "Cottages",
+          "optionB": "Igloos",
+          "optionC": "Houses on stilts",
+          "correctAnswer": "Houses on stilts"
         }),
       shuffleOptions({
           "question": "In earthquake-prone regions, houses are constructed using _______ to prevent injury.",
-          "optionA": "A) Bamboo",
-          "optionB": "B) Wood",
-          "optionC": "C) Mud",
-          "correctAnswer": "B) Wood"
+          "optionA": "Bamboo",
+          "optionB": "Wood",
+          "optionC": "Mud",
+          "correctAnswer": "Wood"
         }),
       shuffleOptions({
           "question": "Houses in hot regions are primarily made of _______ to prevent overheating.",
-          "optionA": "A) Bamboo",
-          "optionB": "B) Stone",
-          "optionC": "C) Mud",
-          "correctAnswer": "C) Mud"
+          "optionA": "Bamboo",
+          "optionB": "Stone",
+          "optionC": "Mud",
+          "correctAnswer": "Mud"
         }),
       shuffleOptions({
           "question": "The settlement smaller than a village, clustered together close to the road, is called a _______.",
-          "optionA": "A) Hamlet",
-          "optionB": "B) Town",
-          "optionC": "C) City",
-          "correctAnswer": "A) Hamlet"
+          "optionA": "Hamlet",
+          "optionB": "Town",
+          "optionC": "City",
+          "correctAnswer": "Hamlet"
         }),
       shuffleOptions({
           "question": "A large human settlement with extensive housing, transportation, and communication systems is called a _______.",
-          "optionA": "A) Village",
-          "optionB": "B) City",
-          "optionC": "C) Town",
-          "correctAnswer": "B) City"
+          "optionA": "Village",
+          "optionB": "City",
+          "optionC": "Town",
+          "correctAnswer": "City"
         }),
       shuffleOptions({
           "question": "Animals who live on land are called _______ animals.",
-          "optionA": "A) Terrestrial",
-          "optionB": "B) Aquatic",
-          "optionC": "C) Aerial",
-          "correctAnswer": "A) Terrestrial"
+          "optionA": "Terrestrial",
+          "optionB": "Aquatic",
+          "optionC": "Aerial",
+          "correctAnswer": "Terrestrial"
         }),
       shuffleOptions({
           "question": "Animals that fly in the air and rest on trees are known as _______ animals.",
-          "optionA": "A) Terrestrial",
-          "optionB": "B) Aquatic",
-          "optionC": "C) Aerial",
-          "correctAnswer": "C) Aerial"
+          "optionA": "Terrestrial",
+          "optionB": "Aquatic",
+          "optionC": "Aerial",
+          "correctAnswer": "Aerial"
         }),
       shuffleOptions({
           "question": "Animals who live both in water and on land are called _______.",
-          "optionA": "A) Amphibians",
-          "optionB": "B) Reptiles",
-          "optionC": "C) Mammals",
-          "correctAnswer": "A) Amphibians"
+          "optionA": "Amphibians",
+          "optionB": "Reptiles",
+          "optionC": "Mammals",
+          "correctAnswer": "Amphibians"
         }),
       shuffleOptions({
           "question": "The movement of birds from cold regions to warmer places during winters is called _______.",
-          "optionA": "A) Immigration",
-          "optionB": "B) Hibernation",
-          "optionC": "C) Migration",
-          "correctAnswer": "C) Migration"
+          "optionA": "Immigration",
+          "optionB": "Hibernation",
+          "optionC": "Migration",
+          "correctAnswer": "Migration"
         }
       ],
   };

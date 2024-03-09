@@ -36,14 +36,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Cooked vegetables",
           optionB: "Raw flesh of animals",
           optionC: "Processed food",
-          correctAnswer: "b) Raw flesh of animals",
+          correctAnswer: "Raw flesh of animals",
          }),
       shuffleOptions({
           question: "When did civilization occur, leading to farming for food?",
           optionA: "Millions of years ago",
           optionB: "In recent times",
           optionC: "After the discovery of fire",
-          correctAnswer: "b) In recent times",
+          correctAnswer: "In recent times",
          }),
       shuffleOptions({
           question:
@@ -51,14 +51,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Enhance flavor",
           optionB: "Increase nutritional content",
           optionC: "Prolong shelf life",
-          correctAnswer: "c) Prolong shelf life",
+          correctAnswer: "Prolong shelf life",
          }),
       shuffleOptions({
           question: "What does food provide for our body?",
           optionA: "Entertainment",
           optionB: "Energy and nutrients",
           optionC: "Medicinal benefits",
-          correctAnswer: "b) Energy and nutrients",
+          correctAnswer: "Energy and nutrients",
          }),
       shuffleOptions({
           question:
@@ -66,21 +66,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Carbohydrates",
           optionB: "Fats",
           optionC: "Protein",
-          correctAnswer: "c) Protein",
+          correctAnswer: "Protein",
          }),
       shuffleOptions({
           question: "What is the purpose of carbohydrates in our diet?",
           optionA: "Promote growth",
           optionB: "Provide warmth and energy",
           optionC: "Build muscles",
-          correctAnswer: "b) Provide warmth and energy",
+          correctAnswer: "Provide warmth and energy",
          }),
       shuffleOptions({
           question: "Which food items are rich in vitamins and minerals?",
           optionA: "Ghee and potato",
           optionB: "Rice and wheat",
           optionC: "Fruits and vegetables",
-          correctAnswer: "c) Fruits and vegetables",
+          correctAnswer: "Fruits and vegetables",
          }),
       shuffleOptions({
           question:
@@ -88,7 +88,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Mashed banana",
           optionB: "Semi-solid food",
           optionC: "Milk",
-          correctAnswer: "c) Milk",
+          correctAnswer: "Milk",
          }),
       shuffleOptions({
           question:
@@ -96,14 +96,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "To lose weight",
           optionB: "To build muscles",
           optionC: "To gain energy for work",
-          correctAnswer: "c) To gain energy for work",
+          correctAnswer: "To gain energy for work",
          }),
       shuffleOptions({
           question: "Where do we get honey and ghee from?",
           optionA: "Plants",
           optionB: "Animals",
           optionC: "Both plants and animals",
-          correctAnswer: "b) Animals",
+          correctAnswer: "Animals",
            }),
     ]),
   }
@@ -119,14 +119,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Cooked vegetables",
           optionB: "Raw flesh",
           optionC: "Processed food",
-          correctAnswer: "b) Raw flesh",
+          correctAnswer: "Raw flesh",
          }),
       shuffleOptions({
           question: "Civilization led to the cultivation of food on ________.",
           optionA: "Mountains",
           optionB: "Farms",
           optionC: "Deserts",
-          correctAnswer: "b) Farms",
+          correctAnswer: "Farms",
          }),
       shuffleOptions({
           question:
@@ -134,7 +134,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Entertainment",
           optionB: "Energy",
           optionC: "Medicinal benefits",
-          correctAnswer: "b) Energy",
+          correctAnswer: "Energy",
          }),
       shuffleOptions({
           question:
@@ -142,7 +142,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Carbohydrates",
           optionB: "Fats",
           optionC: "Protein",
-          correctAnswer: "c) Protein",
+          correctAnswer: "Protein",
          }),
       shuffleOptions({
           question:
@@ -150,7 +150,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Heat",
           optionB: "Both",
           optionC: "Energy",
-          correctAnswer: "c) Energy",
+          correctAnswer: "Energy",
          }),
       shuffleOptions({
           question:
@@ -158,7 +158,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Protective",
           optionB: "Energy-giving",
           optionC: "Body-building",
-          correctAnswer: "a) Protective",
+          correctAnswer: "Protective",
          }),
       shuffleOptions({
           question:
@@ -166,7 +166,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Mashed banana",
           optionB: "Semi-solid food",
           optionC: "Milk",
-          correctAnswer: "c) Milk",
+          correctAnswer: "Milk",
          }),
       shuffleOptions({
           question:
@@ -174,7 +174,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Carbohydrates",
           optionB: "Proteins, fats, minerals, roughage",
           optionC: "Fruits and vegetables",
-          correctAnswer: "b) Proteins, fats, minerals, roughage",
+          correctAnswer: "Proteins, fats, minerals, roughage",
          }),
       shuffleOptions({
           question:
@@ -182,7 +182,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Plants",
           optionB: "Animals",
           optionC: "Both plants and animals",
-          correctAnswer: "b) Animals",
+          correctAnswer: "Animals",
          }),
       shuffleOptions({
           question:
@@ -190,7 +190,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Deserts",
           optionB: "Oceans",
           optionC: "Plants",
-          correctAnswer: "c) Plants",
+          correctAnswer: "Plants",
            }),
     ]),
   }
