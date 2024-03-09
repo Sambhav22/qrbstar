@@ -37,7 +37,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Ignore everyone's doubts",
           optionB: "Make allowance for their doubting too",
           optionC: "Confront those who doubt you",
-          correctAnswer: "B. Make allowance for their doubting too",
+          correctAnswer: "Make allowance for their doubting too",
         }),
       shuffleOptions({
           question:
@@ -45,7 +45,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Confront the liar",
           optionB: "Deal in lies",
           optionC: "Stay silent",
-          correctAnswer: "B. Deal in lies",
+          correctAnswer: "Deal in lies",
         }),
       shuffleOptions({
           question:
@@ -53,7 +53,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Humility",
           optionB: "Arrogance",
           optionC: "Indifference",
-          correctAnswer: "A. Humility",
+          correctAnswer: "Humility",
         }),
       shuffleOptions({
           question:
@@ -61,7 +61,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Unachievable",
           optionB: "Your master",
           optionC: "Ignored",
-          correctAnswer: "B. Your master",
+          correctAnswer: "Your master",
         }),
       shuffleOptions({
           question:
@@ -69,7 +69,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Ignore both",
           optionB: "Treat them as impostors",
           optionC: "Celebrate Triumph, lament Disaster",
-          correctAnswer: "B. Treat them as impostors",
+          correctAnswer: "Treat them as impostors",
         }),
       shuffleOptions({
           question:
@@ -77,7 +77,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Confront them",
           optionB: "Retaliate with lies",
           optionC: "Bear to hear the twisted truth",
-          correctAnswer: "C. Bear to hear the twisted truth",
+          correctAnswer: "Bear to hear the twisted truth",
         }),
       shuffleOptions({
           question:
@@ -85,7 +85,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Surrender",
           optionB: "Stoop and build them up again",
           optionC: "Blame others",
-          correctAnswer: "B. Stoop and build them up with worn-out tools",
+          correctAnswer: "Stoop and build them up with worn-out tools",
         }),
       shuffleOptions({
           question:
@@ -93,7 +93,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Despair and give up",
           optionB: "Risk everything again",
           optionC: "Never breathe a word about your loss",
-          correctAnswer: "C. Never breathe a word about your loss",
+          correctAnswer: "Never breathe a word about your loss",
         }),
       shuffleOptions({
           question:
@@ -101,7 +101,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Desperation",
           optionB: "Courage",
           optionC: "Will",
-          correctAnswer: "C. Will",
+          correctAnswer: "Will",
         }),
       shuffleOptions({
           question:
@@ -109,7 +109,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Flaunt your achievements",
           optionB: "Keep your virtue",
           optionC: "Lose the common touch",
-          correctAnswer: "B. Keep your virtue",
+          correctAnswer: "Keep your virtue",
    }),
     ]),
   }
@@ -126,7 +126,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "doubting",
           optionB: "waiting",
           optionC: "hoping",
-          correctAnswer: "B. waiting",
+          correctAnswer: "waiting",
         }),
       shuffleOptions({
           question:
@@ -134,7 +134,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "dream",
           optionB: "sleep",
           optionC: "imagine",
-          correctAnswer: "A. dream",
+          correctAnswer: "dream",
         }),
       shuffleOptions({
           question:
@@ -142,7 +142,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "same",
           optionB: "differently",
           optionC: "wisely",
-          correctAnswer: "A. same",
+          correctAnswer: "same",
         }),
       shuffleOptions({
           question:
@@ -150,7 +150,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "fools",
           optionB: "geniuses",
           optionC: "poets",
-          correctAnswer: "A. fools",
+          correctAnswer: "fools",
         }),
       shuffleOptions({
           question:
@@ -158,7 +158,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "new",
           optionB: "worn-out",
           optionC: "modern",
-          correctAnswer: "B. worn-out",
+          correctAnswer: "worn-out",
         }),
       shuffleOptions({
           question:
@@ -166,14 +166,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "spin",
           optionB: "toss",
           optionC: "flip",
-          correctAnswer: "B. toss",
+          correctAnswer: "toss",
         }),
       shuffleOptions({
           question: "And lose, and start again at your _______,",
           optionA: "achievements",
           optionB: "beginnings",
           optionC: "endings",
-          correctAnswer: "B. beginnings",
+          correctAnswer: "beginnings",
         }),
       shuffleOptions({
           question:
@@ -181,21 +181,21 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "vanish",
           optionB: "fade",
           optionC: "are gone",
-          correctAnswer: "C. are gone",
+          correctAnswer: "are gone",
         }),
       shuffleOptions({
           question: "If you can talk with crowds and keep your ________,",
           optionA: "secrets",
           optionB: "virtue",
           optionC: "ego",
-          correctAnswer: "B. virtue",
+          correctAnswer: "virtue",
         }),
       shuffleOptions({
           question: "If all men count with you, but none too ________,",
           optionA: "little",
           optionB: "much",
           optionC: "often",
-          correctAnswer: "B. much",
+          correctAnswer: "much",
    }),
     ]),
   }

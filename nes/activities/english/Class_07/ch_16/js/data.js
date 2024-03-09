@@ -37,7 +37,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Savarkar",
           optionB: "Kingsford",
           optionC: "Bhagat Singh",
-          correctAnswer: "b. Kingsford",
+          correctAnswer: "Kingsford",
         }),
       shuffleOptions({
           question:
@@ -46,7 +46,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "Atrocities on Savarkar",
           optionC: "Death sentences for writing articles and pamphlets",
           correctAnswer:
-            "c. Death sentences for writing articles and pamphlets",
+            "Death sentences for writing articles and pamphlets",
         }),
       shuffleOptions({
           question:
@@ -54,7 +54,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Savarkar and Bhagat Singh",
           optionB: "Khudi Ram Bose and Prafull Kumar Chaki",
           optionC: "Bose and Chaki",
-          correctAnswer: "b. Khudi Ram Bose and Prafull Kumar Chaki",
+          correctAnswer: "Khudi Ram Bose and Prafull Kumar Chaki",
         }),
       shuffleOptions({
           question:
@@ -62,7 +62,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "May 2, 1908",
           optionB: "April 30, 1908",
           optionC: "May 1, 1908",
-          correctAnswer: "b. April 30, 1908",
+          correctAnswer: "April 30, 1908",
         }),
       shuffleOptions({
           question:
@@ -70,7 +70,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Kennedy's wife and daughter sustained injuries",
           optionB: "Kingsford was killed",
           optionC: "The revolutionaries were caught",
-          correctAnswer: "a. Kennedy's wife and daughter sustained injuries",
+          correctAnswer: "Kennedy's wife and daughter sustained injuries",
         }),
       shuffleOptions({
           question:
@@ -78,35 +78,35 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Calcutta",
           optionB: "Samastipur",
           optionC: "Muzaffarpur",
-          correctAnswer: "b. Samastipur",
+          correctAnswer: "Samastipur",
         }),
       shuffleOptions({
           question: "How did Prafull Kumar Chaki meet his end?",
           optionA: "Executed by hanging",
           optionB: "Shot by police",
           optionC: "Committed suicide",
-          correctAnswer: "c. Committed suicide",
+          correctAnswer: "Committed suicide",
         }),
       shuffleOptions({
           question: "What happened to Khudi Ram Bose after his arrest?",
           optionA: "Released",
           optionB: "Sentenced to death",
           optionC: "Served a long term in prison",
-          correctAnswer: "b. Sentenced to death",
+          correctAnswer: "Sentenced to death",
         }),
       shuffleOptions({
           question: "How old was Khudi Ram Bose when he was hanged?",
           optionA: "Seventeen",
           optionB: "Twenty",
           optionC: "Twenty-five",
-          correctAnswer: "a. Seventeen",
+          correctAnswer: "Seventeen",
         }),
       shuffleOptions({
           question: "What was Khudi Ram Bose's last wish before his execution?",
           optionA: "To be buried in a graveyard",
           optionB: "To be cremated in the jail itself",
           optionC: "To have a state funeral",
-          correctAnswer: "b. To be cremated in the jail itself",
+          correctAnswer: "To be cremated in the jail itself",
    }),
     ]),
   }
@@ -122,7 +122,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "14th",
           optionB: "15th",
           optionC: "16th",
-          correctAnswer: "b. 15th",
+          correctAnswer: "15th",
         }),
       shuffleOptions({
           question:
@@ -130,7 +130,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Tolerable",
           optionB: "Unbearable",
           optionC: "Reasonable",
-          correctAnswer: "b. Unbearable",
+          correctAnswer: "Unbearable",
         }),
       shuffleOptions({
           question:
@@ -138,7 +138,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Calcutta",
           optionB: "Muzaffarpur",
           optionC: "Samastipur",
-          correctAnswer: "b. Muzaffarpur",
+          correctAnswer: "Muzaffarpur",
         }),
       shuffleOptions({
           question:
@@ -146,7 +146,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Residence",
           optionB: "Club",
           optionC: "Office",
-          correctAnswer: "b. Club",
+          correctAnswer: "Club",
         }),
       shuffleOptions({
           question:
@@ -154,7 +154,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Khudi Ram Bose",
           optionB: "Kingsford",
           optionC: "Kennedy's daughter",
-          correctAnswer: "c. Kennedy's daughter",
+          correctAnswer: "Kennedy's daughter",
         }),
       shuffleOptions({
           question:
@@ -162,7 +162,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "10",
           optionB: "15",
           optionC: "25",
-          correctAnswer: "c. 25",
+          correctAnswer: "25",
         }),
       shuffleOptions({
           question:
@@ -170,7 +170,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "April 30",
           optionB: "May 1",
           optionC: "May 2",
-          correctAnswer: "b. May 1",
+          correctAnswer: "May 1",
         }),
       shuffleOptions({
           question:
@@ -178,7 +178,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Insignificant",
           optionB: "Supreme",
           optionC: "Unplanned",
-          correctAnswer: "b. Supreme",
+          correctAnswer: "Supreme",
         }),
       shuffleOptions({
           question:
@@ -186,7 +186,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Fifteen",
           optionB: "Seventeen",
           optionC: "Twenty",
-          correctAnswer: "b. Seventeen",
+          correctAnswer: "Seventeen",
         }),
       shuffleOptions({
           question:
@@ -194,7 +194,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Bhagat Singh",
           optionB: "Kalidas Bose",
           optionC: "Savarkar",
-          correctAnswer: "b. Kalidas Bose",
+          correctAnswer: "Kalidas Bose",
    }),
     ]),
   }

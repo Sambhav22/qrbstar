@@ -37,7 +37,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "To watch the monkeys perform tricks",
           optionB: "To catch a train for his pilgrimage",
           optionC: "To purchase fruits from a vendor",
-          correctAnswer: "B. To catch a train for his pilgrimage",
+          correctAnswer: "To catch a train for his pilgrimage",
         }),
       shuffleOptions({
           question:
@@ -45,14 +45,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "The intense heat in the compartment",
           optionB: "The hordes of monkeys frolicking on the platform",
           optionC: "The struggle of lower-middle-class passengers for seats",
-          correctAnswer: "B. The hordes of monkeys frolicking on the platform",
+          correctAnswer: "The hordes of monkeys frolicking on the platform",
         }),
       shuffleOptions({
           question: "What did the monkeys do as the train was announced?",
           optionA: "Started fighting with each other",
           optionB: "Frolicked on the trees and platform",
           optionC: "Ran away in fear",
-          correctAnswer: "B. Frolicked on the trees and platform",
+          correctAnswer: "Frolicked on the trees and platform",
         }),
       shuffleOptions({
           question:
@@ -60,7 +60,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "He laughed out loud",
           optionB: "He shouted in utter confusion",
           optionC: "He thanked the monkey for the entertainment",
-          correctAnswer: "B. He shouted in utter confusion",
+          correctAnswer: "He shouted in utter confusion",
         }),
       shuffleOptions({
           question:
@@ -68,7 +68,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Offered money to the monkey",
           optionB: "Offered two bananas to the monkey",
           optionC: "Climbed the neem tree to get the cap",
-          correctAnswer: "B. Offered two bananas to the monkey",
+          correctAnswer: "Offered two bananas to the monkey",
         }),
       shuffleOptions({
           question:
@@ -76,7 +76,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "He paid without any objections",
           optionB: "He refused to pay and shouted angrily",
           optionC: "He negotiated a lower payment",
-          correctAnswer: "B. He refused to pay and shouted angrily",
+          correctAnswer: "He refused to pay and shouted angrily",
         }),
       shuffleOptions({
           question:
@@ -84,7 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Drew a caricature of the businessman",
           optionB: "Laughed out loud",
           optionC: "Ignored the situation",
-          correctAnswer: "A. Drew a caricature of the businessman",
+          correctAnswer: "Drew a caricature of the businessman",
         }),
       shuffleOptions({
           question:
@@ -92,7 +92,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "The businessman refused to pay for the bananas",
           optionB: "The businessman made a caricature of him",
           optionC: "The businessman did not help him retrieve the cap",
-          correctAnswer: "A. The businessman refused to pay for the bananas",
+          correctAnswer: "The businessman refused to pay for the bananas",
         }),
       shuffleOptions({
           question:
@@ -100,14 +100,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "They felt sympathy for him",
           optionB: "They laughed and smiled",
           optionC: "They confronted the businessman",
-          correctAnswer: "B. They laughed and smiled",
+          correctAnswer: "They laughed and smiled",
         }),
       shuffleOptions({
           question: "What did the author's revenge on the businessman involve?",
           optionA: "Drawing a caricature",
           optionB: "Confronting him verbally",
           optionC: "Offering help to the fruit vendor",
-          correctAnswer: "A. Drawing a caricature",
+          correctAnswer: "Drawing a caricature",
    }),
     ]),
   }
@@ -124,7 +124,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Delhi",
           optionB: "Varanasi",
           optionC: "Jaipur",
-          correctAnswer: "B. Varanasi",
+          correctAnswer: "Varanasi",
         }),
       shuffleOptions({
           question:
@@ -132,7 +132,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "dogs",
           optionB: "cows",
           optionC: "monkeys",
-          correctAnswer: "C. monkeys",
+          correctAnswer: "monkeys",
         }),
       shuffleOptions({
           question:
@@ -140,7 +140,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "rainy",
           optionB: "cold",
           optionC: "hot",
-          correctAnswer: "C. hot",
+          correctAnswer: "hot",
         }),
       shuffleOptions({
           question:
@@ -148,7 +148,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "lazy",
           optionB: "blind",
           optionC: "careless",
-          correctAnswer: "B. blind",
+          correctAnswer: "blind",
         }),
       shuffleOptions({
           question:
@@ -156,7 +156,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "glass",
           optionB: "plastic",
           optionC: "brass",
-          correctAnswer: "C. brass",
+          correctAnswer: "brass",
         }),
       shuffleOptions({
           question:
@@ -164,7 +164,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "silk",
           optionB: "embroidered",
           optionC: "woolen",
-          correctAnswer: "B. embroidered",
+          correctAnswer: "embroidered",
         }),
       shuffleOptions({
           question:
@@ -172,7 +172,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "apples",
           optionB: "bananas",
           optionC: "oranges",
-          correctAnswer: "B. bananas",
+          correctAnswer: "bananas",
         }),
       shuffleOptions({
           question:
@@ -180,7 +180,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "humiliating",
           optionB: "entertaining",
           optionC: "joyful",
-          correctAnswer: "A. humiliating",
+          correctAnswer: "humiliating",
         }),
       shuffleOptions({
           question:
@@ -188,7 +188,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "generous",
           optionB: "dirty",
           optionC: "helpful",
-          correctAnswer: "B. dirty",
+          correctAnswer: "dirty",
         }),
       shuffleOptions({
           question:
@@ -196,7 +196,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "passengers",
           optionB: "businessman",
           optionC: "monkeys",
-          correctAnswer: "B. businessman",
+          correctAnswer: "businessman",
    }),
     ]),
   }

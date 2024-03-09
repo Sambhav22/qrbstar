@@ -37,7 +37,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Bharat",
           optionB: "Dushyanta",
           optionC: "Kanva",
-          correctAnswer: "B. Dushyanta",
+          correctAnswer: "Dushyanta",
         }),
       shuffleOptions({
           question:
@@ -45,7 +45,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "A dense jungle",
           optionB: "A rocky mountain",
           optionC: "A pleasant grove",
-          correctAnswer: "C. A pleasant grove",
+          correctAnswer: "A pleasant grove",
         }),
       shuffleOptions({
           question:
@@ -53,14 +53,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Sage Durvasa",
           optionB: "Sage Kanva",
           optionC: "Sage Bharat",
-          correctAnswer: "B. Sage Kanva",
+          correctAnswer: "Sage Kanva",
         }),
       shuffleOptions({
           question: "What is the name of the adopted daughter of Sage Kanva?",
           optionA: "Sita",
           optionB: "Draupadi",
           optionC: "Shakuntala",
-          correctAnswer: "C. Shakuntala",
+          correctAnswer: "Shakuntala",
         }),
       shuffleOptions({
           question:
@@ -68,7 +68,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Diamond necklace",
           optionB: "Gold ring",
           optionC: "Silver bracelet",
-          correctAnswer: "B. Gold ring",
+          correctAnswer: "Gold ring",
         }),
       shuffleOptions({
           question: "What curse did Sage Durvasa pronounce on Shakuntala?",
@@ -76,7 +76,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "She will lose her way in the forest",
           optionC: "The one she loves will forget her until he sees the ring",
           correctAnswer:
-            "C. The one she loves will forget her until he sees the ring",
+            "The one she loves will forget her until he sees the ring",
         }),
       shuffleOptions({
           question:
@@ -84,7 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Through a dream",
           optionB: "A fisherman found the lost ring",
           optionC: "Sage Kanva informed him",
-          correctAnswer: "B. A fisherman found the lost ring",
+          correctAnswer: "A fisherman found the lost ring",
         }),
       shuffleOptions({
           question:
@@ -92,14 +92,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Happiness",
           optionB: "Regret and sorrow",
           optionC: "Indifference",
-          correctAnswer: "B. Regret and sorrow",
+          correctAnswer: "Regret and sorrow",
         }),
       shuffleOptions({
           question: "Who rose to be the king after Dushyanta in the story?",
           optionA: "Sage Durvasa",
           optionB: "Shakuntala",
           optionC: "Bharat",
-          correctAnswer: "C. Bharat",
+          correctAnswer: "Bharat",
         }),
       shuffleOptions({
           question:
@@ -107,7 +107,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Rama",
           optionB: "Yudhishthira",
           optionC: "Krishna",
-          correctAnswer: "B. Yudhishthira",
+          correctAnswer: "Yudhishthira",
    }),
     ]),
   }
@@ -124,7 +124,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Kanva",
           optionB: "Dushyanta",
           optionC: "Bharat",
-          correctAnswer: "B. Dushyanta",
+          correctAnswer: "Dushyanta",
         }),
       shuffleOptions({
           question:
@@ -132,21 +132,21 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Castle",
           optionB: "Hermitage",
           optionC: "Temple",
-          correctAnswer: "B. Hermitage",
+          correctAnswer: "Hermitage",
         }),
       shuffleOptions({
           question: "The great hermit living in the hermitage was __________.",
           optionA: "Sage Durvasa",
           optionB: "Sage Kanva",
           optionC: "Sage Bharat",
-          correctAnswer: "B. Sage Kanva",
+          correctAnswer: "Sage Kanva",
         }),
       shuffleOptions({
           question: "The adopted daughter of Sage Kanva was named __________.",
           optionA: "Sita",
           optionB: "Draupadi",
           optionC: "Shakuntala",
-          correctAnswer: "C. Shakuntala",
+          correctAnswer: "Shakuntala",
         }),
       shuffleOptions({
           question:
@@ -154,7 +154,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Friendship",
           optionB: "Marriage",
           optionC: "Alliance",
-          correctAnswer: "B. Marriage",
+          correctAnswer: "Marriage",
         }),
       shuffleOptions({
           question:
@@ -162,7 +162,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "A flower",
           optionB: "A bird",
           optionC: "The ring",
-          correctAnswer: "C. The ring",
+          correctAnswer: "The ring",
         }),
       shuffleOptions({
           question:
@@ -170,7 +170,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Pumpkin",
           optionB: "Fish",
           optionC: "The river",
-          correctAnswer: "B. Fish",
+          correctAnswer: "Fish",
         }),
       shuffleOptions({
           question:
@@ -178,7 +178,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Battle",
           optionB: "Dialogue",
           optionC: "Audience",
-          correctAnswer: "C. Audience",
+          correctAnswer: "Audience",
         }),
       shuffleOptions({
           question:
@@ -186,7 +186,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Rama",
           optionB: "Yudhishthira",
           optionC: "Krishna",
-          correctAnswer: "B. Yudhishthira",
+          correctAnswer: "Yudhishthira",
         }),
       shuffleOptions({
           question:
@@ -194,7 +194,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Sage Durvasa",
           optionB: "Shakuntala",
           optionC: "Bharat",
-          correctAnswer: "C. Bharat",
+          correctAnswer: "Bharat",
    }),
     ]),
   }

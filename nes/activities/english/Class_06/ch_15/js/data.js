@@ -37,21 +37,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Chicken",
           optionB: "Fish",
           optionC: "Milk",
-          correctAnswer: "c. Milk",
+          correctAnswer: "Milk",
         }),
       shuffleOptions({
           question: "What are the five products of a cow known as?",
           optionA: "Panchagavya",
           optionB: "Pentagavya",
           optionC: "Hexagavya",
-          correctAnswer: "a. Panchagavya",
+          correctAnswer: "Panchagavya",
         }),
       shuffleOptions({
           question: "In Hinduism, why is the cow considered significant?",
           optionA: "It yields more milk than other animals",
           optionB: "Lord Krishna is associated with cows",
           optionC: "Cows are excellent for draught work",
-          correctAnswer: "b. Lord Krishna is associated with cows",
+          correctAnswer: "Lord Krishna is associated with cows",
         }),
       shuffleOptions({
           question:
@@ -60,7 +60,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "Buffalo milk is richer with 50% more fat",
           optionC:
             "Buffalo milk is lighter and preferred in religious ceremonies",
-          correctAnswer: "b. Buffalo milk is richer with 50% more fat",
+          correctAnswer: "Buffalo milk is richer with 50% more fat",
         }),
       shuffleOptions({
           question:
@@ -68,14 +68,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Gold",
           optionB: "Cattle",
           optionC: "Machinery",
-          correctAnswer: "b. Cattle",
+          correctAnswer: "Cattle",
         }),
       shuffleOptions({
           question: "How many stomachs do cattle have, according to the text?",
           optionA: "One",
           optionB: "Three",
           optionC: "Four",
-          correctAnswer: "c. Four",
+          correctAnswer: "Four",
         }),
       shuffleOptions({
           question:
@@ -83,7 +83,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Amritmahal and Gir",
           optionB: "Jersey and Holstein-Friesian",
           optionC: "Bachuar and Dangi",
-          correctAnswer: "b. Jersey and Holstein-Friesian",
+          correctAnswer: "Jersey and Holstein-Friesian",
         }),
       shuffleOptions({
           question:
@@ -91,14 +91,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Allergies",
           optionB: "Diabetes",
           optionC: "Typhoid fever, dysentery, and more",
-          correctAnswer: "c. Typhoid fever, dysentery, and more",
+          correctAnswer: "Typhoid fever, dysentery, and more",
         }),
       shuffleOptions({
           question: "How many sections is a cattle's stomach divided into?",
           optionA: "Two",
           optionB: "Three",
           optionC: "Four",
-          correctAnswer: "c. Four",
+          correctAnswer: "Four",
         }),
       shuffleOptions({
           question:
@@ -108,7 +108,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC:
             "To preserve milk over a longer period and eliminate bacteria",
           correctAnswer:
-            "c. To preserve milk over a longer period and eliminate bacteria",
+            "To preserve milk over a longer period and eliminate bacteria",
    }),
     ]),
   }
@@ -125,7 +125,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Gold",
           optionB: "Land",
           optionC: "Machinery",
-          correctAnswer: "b. Land",
+          correctAnswer: "Land",
         }),
       shuffleOptions({
           question:
@@ -133,7 +133,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Protector",
           optionB: "Consumer",
           optionC: "Ignorer",
-          correctAnswer: "a. Protector",
+          correctAnswer: "Protector",
         }),
       shuffleOptions({
           question:
@@ -141,7 +141,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Pentalogy",
           optionB: "Panchagavya",
           optionC: "Hexalogy",
-          correctAnswer: "b. Panchagavya",
+          correctAnswer: "Panchagavya",
         }),
       shuffleOptions({
           question:
@@ -149,7 +149,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Protein",
           optionB: "Fat",
           optionC: "Calcium",
-          correctAnswer: "b. Fat",
+          correctAnswer: "Fat",
         }),
       shuffleOptions({
           question:
@@ -157,7 +157,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "African",
           optionB: "European",
           optionC: "American",
-          correctAnswer: "b. European",
+          correctAnswer: "European",
         }),
       shuffleOptions({
           question:
@@ -165,7 +165,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Fur",
           optionB: "Milk",
           optionC: "Feather",
-          correctAnswer: "b. Milk",
+          correctAnswer: "Milk",
         }),
       shuffleOptions({
           question:
@@ -173,7 +173,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Two",
           optionB: "Three",
           optionC: "Four",
-          correctAnswer: "c. Four",
+          correctAnswer: "Four",
         }),
       shuffleOptions({
           question:
@@ -181,7 +181,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Wealth",
           optionB: "Magical powers",
           optionC: "Position",
-          correctAnswer: "c. Position",
+          correctAnswer: "Position",
         }),
       shuffleOptions({
           question:
@@ -189,7 +189,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Magic",
           optionB: "Conspiracy",
           optionC: "Rebellion",
-          correctAnswer: "a. Magic",
+          correctAnswer: "Magic",
         }),
       shuffleOptions({
           question:
@@ -197,7 +197,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Milking",
           optionB: "Feeding",
           optionC: "Housing",
-          correctAnswer: "a. Milking",
+          correctAnswer: "Milking",
    }),
     ]),
   }

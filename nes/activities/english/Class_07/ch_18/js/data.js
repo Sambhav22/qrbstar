@@ -36,14 +36,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Wood",
           optionB: "Clay",
           optionC: "Marble",
-          correctAnswer: "B. Clay",
+          correctAnswer: "Clay",
         }),
       shuffleOptions({
           question: "Where did Muni sit while watching his goats graze?",
           optionA: "At a marketplace",
           optionB: "Under a tree",
           optionC: "At the foot of the statue",
-          correctAnswer: "C. At the foot of the statue",
+          correctAnswer: "At the foot of the statue",
         }),
       shuffleOptions({
           question:
@@ -51,7 +51,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "A painting",
           optionB: "A gas station",
           optionC: "The clay horse",
-          correctAnswer: "C. The clay horse",
+          correctAnswer: "The clay horse",
         }),
       shuffleOptions({
           question:
@@ -59,14 +59,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Excited",
           optionB: "Nervous",
           optionC: "Indifferent",
-          correctAnswer: "B. Nervous",
+          correctAnswer: "Nervous",
         }),
       shuffleOptions({
           question: "What did the foreigner offer to buy from Muni?",
           optionA: "His goats",
           optionB: "The clay horse",
           optionC: "His house",
-          correctAnswer: "B. The clay horse",
+          correctAnswer: "The clay horse",
         }),
       shuffleOptions({
           question:
@@ -74,7 +74,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "It brings good luck",
           optionB: "It signifies the end of the world",
           optionC: "It's a symbol of prosperity",
-          correctAnswer: "B. It signifies the end of the world",
+          correctAnswer: "It signifies the end of the world",
         }),
       shuffleOptions({
           question:
@@ -82,14 +82,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Accepted the offer",
           optionB: "Rejected the offer",
           optionC: "Tried to explain its significance",
-          correctAnswer: "C. Tried to explain its significance",
+          correctAnswer: "Tried to explain its significance",
         }),
       shuffleOptions({
           question: "What was the foreigner's trade or business?",
           optionA: "Coffee trader",
           optionB: "Antique collector",
           optionC: "Real estate agent",
-          correctAnswer: "A. Coffee trader",
+          correctAnswer: "Coffee trader",
         }),
       shuffleOptions({
           question:
@@ -97,7 +97,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Open a shop",
           optionB: "Buy more goats",
           optionC: "Travel to a different town",
-          correctAnswer: "A. Open a shop",
+          correctAnswer: "Open a shop",
         }),
       shuffleOptions({
           question:
@@ -105,7 +105,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "The goats had returned",
           optionB: "She misunderstood him",
           optionC: "Fear of police involvement",
-          correctAnswer: "A. The goats had returned",
+          correctAnswer: "The goats had returned",
    }),
     ]),
   }

@@ -36,7 +36,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Environmental pollution",
           optionB: "Energy conservation",
           optionC: "Health and hygiene",
-          correctAnswer: "A. Environmental pollution",
+          correctAnswer: "Environmental pollution",
          }),
       shuffleOptions({
           question:
@@ -44,14 +44,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "It spreads diseases",
           optionB: "It helps save energy",
           optionC: "It harms water animals",
-          correctAnswer: "B. It helps save energy",
+          correctAnswer: "It helps save energy",
          }),
       shuffleOptions({
           question: "What happens if you throw waste on the roads?",
           optionA: "It saves fuel",
           optionB: "It harms the environment",
           optionC: "It promotes clean streets",
-          correctAnswer: "B. It harms the environment",
+          correctAnswer: "It harms the environment",
          }),
       shuffleOptions({
           question:
@@ -59,35 +59,35 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Using vehicles",
           optionB: "Walking or cycling",
           optionC: "Using public transportation",
-          correctAnswer: "B. Walking or cycling",
+          correctAnswer: "Walking or cycling",
          }),
       shuffleOptions({
           question: "How does throwing trash in rivers affect the environment?",
           optionA: "It helps water animals",
           optionB: "It has no impact",
           optionC: "It destroys the life of water animals and plants",
-          correctAnswer: "C. It destroys the life of water animals and plants",
+          correctAnswer: "It destroys the life of water animals and plants",
          }),
       shuffleOptions({
           question: "What is the environmental impact of good actions?",
           optionA: "No impact",
           optionB: "Positive impact",
           optionC: "Negative impact",
-          correctAnswer: "B. Positive impact",
+          correctAnswer: "Positive impact",
          }),
       shuffleOptions({
           question: "What is the result of bad actions on the environment?",
           optionA: "Positive impact",
           optionB: "Negative impact",
           optionC: "No impact",
-          correctAnswer: "B. Negative impact",
+          correctAnswer: "Negative impact",
          }),
       shuffleOptions({
           question: "Which action is recommended for conserving fuel?",
           optionA: "Throwing waste on roads",
           optionB: "Using vehicles for short distances",
           optionC: "Not using vehicles for short distances",
-          correctAnswer: "C. Not using vehicles for short distances",
+          correctAnswer: "Not using vehicles for short distances",
          }),
       shuffleOptions({
           question:
@@ -95,7 +95,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "It promotes a healthy lifestyle",
           optionB: "It saves fuel",
           optionC: "It's more convenient",
-          correctAnswer: "B. It saves fuel",
+          correctAnswer: "It saves fuel",
          }),
       shuffleOptions({
           question:
@@ -103,7 +103,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "By using vehicles for short distances",
           optionB: "By not turning off the lights",
           optionC: "By not throwing waste on roads",
-          correctAnswer: "C. By not throwing waste on roads",
+          correctAnswer: "By not throwing waste on roads",
            }),
     ]),
   }

@@ -36,28 +36,28 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Cars",
           optionB: "Dinosaurs",
           optionC: "Robots",
-          correctAnswer: "b. Dinosaurs",
+          correctAnswer: "Dinosaurs",
          }),
       shuffleOptions({
           question: "Where did George's father plan a trip for his birthday?",
           optionA: "Zoo",
           optionB: "Aquarium",
           optionC: "Field Museum, Chicago",
-          correctAnswer: "c. Field Museum, Chicago",
+          correctAnswer: "Field Museum, Chicago",
          }),
       shuffleOptions({
           question: "What is the first dinosaur they see at the museum?",
           optionA: "T-Rex",
           optionB: "Velociraptor",
           optionC: "Titanosaur",
-          correctAnswer: "c. Titanosaur",
+          correctAnswer: "Titanosaur",
          }),
       shuffleOptions({
           question: "What kind of animals are elephant, horse, and giraffe?",
           optionA: "Wild Animals",
           optionB: "Domestic Animals",
           optionC: "Aquatic Animals",
-          correctAnswer: "a. Wild Animals",
+          correctAnswer: "Wild Animals",
          }),
       shuffleOptions({
           question:
@@ -65,14 +65,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Flyers",
           optionB: "Small Animals",
           optionC: "Reptiles",
-          correctAnswer: "b. Small Animals",
+          correctAnswer: "Small Animals",
          }),
       shuffleOptions({
           question: "Where do aquatic animals like fish and turtle live?",
           optionA: "Desert",
           optionB: "Jungle",
           optionC: "Water",
-          correctAnswer: "c. Water",
+          correctAnswer: "Water",
          }),
       shuffleOptions({
           question:
@@ -80,14 +80,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Flyers",
           optionB: "Reptiles",
           optionC: "Herbivores",
-          correctAnswer: "b. Reptiles",
+          correctAnswer: "Reptiles",
          }),
       shuffleOptions({
           question: "What do herbivores eat?",
           optionA: "Flesh of other animals",
           optionB: "Both plants and animals",
           optionC: "Plants or plant products",
-          correctAnswer: "c. Plants or plant products",
+          correctAnswer: "Plants or plant products",
          }),
       shuffleOptions({
           question:
@@ -95,14 +95,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Omnivores",
           optionB: "Carnivores",
           optionC: "Herbivores",
-          correctAnswer: "b. Carnivores",
+          correctAnswer: "Carnivores",
          }),
       shuffleOptions({
           question: "Where do pet animals like dog and cat live?",
           optionA: "Farms",
           optionB: "Houses",
           optionC: "Jungle",
-          correctAnswer: "b. Houses",
+          correctAnswer: "Houses",
            }),
     ]),
   }
@@ -118,7 +118,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Monkey, Squirrel, Pig",
           optionB: "Elephant, Horse, Giraffe",
           optionC: "Fish, Turtle, Octopus",
-          correctAnswer: "b. Elephant, Horse, Giraffe",
+          correctAnswer: "Elephant, Horse, Giraffe",
          }),
       shuffleOptions({
           question:
@@ -126,7 +126,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Tiger, Lion",
           optionB: "Goat, Sheep",
           optionC: "Snake, Lizard",
-          correctAnswer: "b. Goat, Sheep",
+          correctAnswer: "Goat, Sheep",
          }),
       shuffleOptions({
           question:
@@ -134,7 +134,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Elephant, Horse, Giraffe",
           optionB: "Fish, Turtle, Whale",
           optionC: "Snake, Lizard, Crocodile",
-          correctAnswer: "b. Fish, Turtle, Whale",
+          correctAnswer: "Fish, Turtle, Whale",
          }),
       shuffleOptions({
           question:
@@ -142,14 +142,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Lion, Tiger, Crocodile",
           optionB: "Elephant, Horse, Giraffe",
           optionC: "Snake, Lizard, Crocodile",
-          correctAnswer: "c. Snake, Lizard, Crocodile",
+          correctAnswer: "Snake, Lizard, Crocodile",
          }),
       shuffleOptions({
           question: "Insects and birds are classified as __________.",
           optionA: "Crawlers",
           optionB: "Flyers",
           optionC: "Swimmers",
-          correctAnswer: "b. Flyers",
+          correctAnswer: "Flyers",
          }),
       shuffleOptions({
           question:
@@ -157,7 +157,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Carnivores",
           optionB: "Omnivores",
           optionC: "Herbivores",
-          correctAnswer: "c. Herbivores",
+          correctAnswer: "Herbivores",
          }),
       shuffleOptions({
           question:
@@ -165,7 +165,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Herbivores",
           optionB: "Carnivores",
           optionC: "Omnivores",
-          correctAnswer: "b. Carnivores",
+          correctAnswer: "Carnivores",
          }),
       shuffleOptions({
           question:
@@ -173,7 +173,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Herbivores",
           optionB: "Carnivores",
           optionC: "Omnivores",
-          correctAnswer: "c. Omnivores",
+          correctAnswer: "Omnivores",
          }),
       shuffleOptions({
           question:
@@ -181,7 +181,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Elephant, Horse",
           optionB: "Dog, Cat",
           optionC: "Fish, Turtle",
-          correctAnswer: "b. Dog, Cat",
+          correctAnswer: "Dog, Cat",
          }),
       shuffleOptions({
           question:
@@ -189,7 +189,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Farms, Houses",
           optionB: "Holes, Land and Water",
           optionC: "Jungle, Desert",
-          correctAnswer: "b. Holes, Land and Water",
+          correctAnswer: "Holes, Land and Water",
            }),
     ]),
   }

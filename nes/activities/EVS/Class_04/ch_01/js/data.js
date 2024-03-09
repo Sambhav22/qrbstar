@@ -37,7 +37,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Lack of awareness",
           optionB: "Excessive desire and consumption",
           optionC: "Inadequate waste management",
-          correctAnswer: "B. Excessive desire and consumption",
+          correctAnswer: "Excessive desire and consumption",
          }),
       shuffleOptions({
           question:
@@ -45,7 +45,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Organic and inorganic wastes",
           optionB: "Biodegradable and non-biodegradable wastes",
           optionC: "Solid and liquid wastes",
-          correctAnswer: "B. Biodegradable and non-biodegradable wastes",
+          correctAnswer: "Biodegradable and non-biodegradable wastes",
          }),
       shuffleOptions({
           question:
@@ -53,7 +53,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Landfill",
           optionB: "Incineration",
           optionC: "Composting",
-          correctAnswer: "B. Incineration",
+          correctAnswer: "Incineration",
          }),
       shuffleOptions({
           question:
@@ -61,14 +61,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Landfill",
           optionB: "Incineration",
           optionC: "Open Dumping",
-          correctAnswer: "C. Open Dumping",
+          correctAnswer: "Open Dumping",
          }),
       shuffleOptions({
           question: "What are the three R's recommended for waste management?",
           optionA: "Reflect, Reuse, Recycle",
           optionB: "Reduce, Reuse, Recycle",
           optionC: "Recover, Renew, Recreate",
-          correctAnswer: "B. Reduce, Reuse, Recycle",
+          correctAnswer: "Reduce, Reuse, Recycle",
          }),
       shuffleOptions({
           question:
@@ -76,7 +76,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Burning waste for energy",
           optionB: "Using things again",
           optionC: "Decomposing organic waste",
-          correctAnswer: "B. Using things again",
+          correctAnswer: "Using things again",
          }),
       shuffleOptions({
           question:
@@ -84,7 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Incineration",
           optionB: "Landfill",
           optionC: "Composting",
-          correctAnswer: "C. Composting",
+          correctAnswer: "Composting",
          }),
       shuffleOptions({
           question:
@@ -92,7 +92,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Increase the number of things you buy",
           optionB: "Use non-biodegradable materials",
           optionC: "Reduce the number of things you buy",
-          correctAnswer: "C. Reduce the number of things you buy",
+          correctAnswer: "Reduce the number of things you buy",
          }),
       shuffleOptions({
           question:
@@ -100,7 +100,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Organic waste",
           optionB: "Plastic, glass, and paper",
           optionC: "Metal and aluminum",
-          correctAnswer: "B. Plastic, glass, and paper",
+          correctAnswer: "Plastic, glass, and paper",
          }),
       shuffleOptions({
           question:
@@ -108,7 +108,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Generate more waste",
           optionB: "Save resources for future use",
           optionC: "Increase household waste",
-          correctAnswer: "B. Save resources for future use",
+          correctAnswer: "Save resources for future use",
            }),
     ]),
   }

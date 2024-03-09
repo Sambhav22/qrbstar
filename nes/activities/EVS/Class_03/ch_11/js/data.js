@@ -36,7 +36,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Teaching",
           optionB: "Treating Patients",
           optionC: "Law and Civil Services",
-          correctAnswer: "B. Treating Patients",
+          correctAnswer: "Treating Patients",
          }),
       shuffleOptions({
           question:
@@ -44,7 +44,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Lawyers",
           optionB: "Doctors",
           optionC: "Teachers",
-          correctAnswer: "C. Teachers",
+          correctAnswer: "Teachers",
          }),
       shuffleOptions({
           question:
@@ -52,7 +52,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Newspaper Vendor",
           optionB: "Cobbler",
           optionC: "Police Officer",
-          correctAnswer: "C. Police Officer",
+          correctAnswer: "Police Officer",
          }),
       shuffleOptions({
           question:
@@ -60,14 +60,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Doctors",
           optionB: "Cobblers",
           optionC: "Greengrocers",
-          correctAnswer: "B. Cobblers",
+          correctAnswer: "Cobblers",
          }),
       shuffleOptions({
           question: "What is the primary job of a greengrocer?",
           optionA: "Selling newspapers",
           optionB: "Selling vegetables and fruits",
           optionC: "Sweeping streets",
-          correctAnswer: "B. Selling vegetables and fruits",
+          correctAnswer: "Selling vegetables and fruits",
          }),
       shuffleOptions({
           question:
@@ -75,7 +75,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Sweeper",
           optionB: "Newspaper Vendor",
           optionC: "Teacher",
-          correctAnswer: "B. Newspaper Vendor",
+          correctAnswer: "Newspaper Vendor",
          }),
       shuffleOptions({
           question:
@@ -83,7 +83,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Greengrocer",
           optionB: "Sweeper",
           optionC: "Pediatrician",
-          correctAnswer: "B. Sweeper",
+          correctAnswer: "Sweeper",
          }),
       shuffleOptions({
           question:
@@ -91,7 +91,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Teaching",
           optionB: "Fun-loving activities",
           optionC: "Law and Civil Services",
-          correctAnswer: "B. Fun-loving activities",
+          correctAnswer: "Fun-loving activities",
          }),
       shuffleOptions({
           question:
@@ -99,7 +99,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Child labor",
           optionB: "Teaching",
           optionC: "Civil Services",
-          correctAnswer: "A. Child labor",
+          correctAnswer: "Child labor",
          }),
       shuffleOptions({
           question:
@@ -107,7 +107,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Encouraging child labor",
           optionB: "Penalizing employers of child labor",
           optionC: "Promoting child labor",
-          correctAnswer: "B. Penalizing employers of child labor",
+          correctAnswer: "Penalizing employers of child labor",
            }),
     ]),
   }
@@ -123,7 +123,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Lawyers",
           optionB: "Doctors",
           optionC: "Teachers",
-          correctAnswer: "B. Doctors",
+          correctAnswer: "Doctors",
          }),
       shuffleOptions({
           question:
@@ -131,7 +131,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Subjects",
           optionB: "Professions",
           optionC: "Hobbies",
-          correctAnswer: "A. Subjects",
+          correctAnswer: "Subjects",
          }),
       shuffleOptions({
           question:
@@ -139,14 +139,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Low-paying",
           optionB: "Respectable",
           optionC: "Temporary",
-          correctAnswer: "B. Respectable",
+          correctAnswer: "Respectable",
          }),
       shuffleOptions({
           question: "Cobblers are individuals who mend and polish __________.",
           optionA: "Clothes",
           optionB: "Shoes",
           optionC: "Furniture",
-          correctAnswer: "B. Shoes",
+          correctAnswer: "Shoes",
          }),
       shuffleOptions({
           question:
@@ -154,7 +154,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Clothes",
           optionB: "Electronics",
           optionC: "Produce",
-          correctAnswer: "C. Produce",
+          correctAnswer: "Produce",
          }),
       shuffleOptions({
           question:
@@ -162,7 +162,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Food",
           optionB: "News",
           optionC: "Clothing",
-          correctAnswer: "B. News",
+          correctAnswer: "News",
          }),
       shuffleOptions({
           question:
@@ -170,7 +170,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Homes",
           optionB: "Public spaces",
           optionC: "Offices",
-          correctAnswer: "B. Public spaces",
+          correctAnswer: "Public spaces",
          }),
       shuffleOptions({
           question:
@@ -178,7 +178,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Work-related tasks",
           optionB: "Fun-loving activities",
           optionC: "Educational pursuits",
-          correctAnswer: "B. Fun-loving activities",
+          correctAnswer: "Fun-loving activities",
          }),
       shuffleOptions({
           question:
@@ -186,7 +186,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Child labor",
           optionB: "Educational activities",
           optionC: "Volunteer work",
-          correctAnswer: "A. Child labor",
+          correctAnswer: "Child labor",
          }),
       shuffleOptions({
           question:
@@ -194,7 +194,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Teachers",
           optionB: "Doctors",
           optionC: "Children",
-          correctAnswer: "C. Children",
+          correctAnswer: "Children",
            }),
     ]),
   }

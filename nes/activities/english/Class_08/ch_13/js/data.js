@@ -123,7 +123,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Engaged",
           optionB: "Hypnotized",
           optionC: "Bored",
-          correctAnswer: "b. Hypnotized",
+          correctAnswer: "Hypnotized",
         }),
       shuffleOptions({
           question:
@@ -131,7 +131,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Cat",
           optionB: "Spot",
           optionC: "Tot",
-          correctAnswer: "c. Tot",
+          correctAnswer: "Tot",
         }),
       shuffleOptions({
           question:
@@ -139,7 +139,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Hard",
           optionB: "Soft",
           optionC: "Sharp",
-          correctAnswer: "b. Soft",
+          correctAnswer: "Soft",
         }),
       shuffleOptions({
           question:
@@ -147,7 +147,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Born",
           optionB: "Created",
           optionC: "Invented",
-          correctAnswer: "c. Invented",
+          correctAnswer: "Invented",
         }),
       shuffleOptions({
           question:
@@ -155,7 +155,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Aplenty",
           optionB: "Abundant",
           optionC: "Galore",
-          correctAnswer: "c. Galore",
+          correctAnswer: "Galore",
         }),
       shuffleOptions({
           question:
@@ -163,7 +163,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Hats",
           optionB: "Coats",
           optionC: "Pants",
-          correctAnswer: "c. Pants",
+          correctAnswer: "Pants",
         }),
       shuffleOptions({
           question:
@@ -171,7 +171,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Hump",
           optionB: "Jump",
           optionC: "Lump",
-          correctAnswer: "a. Hump",
+          correctAnswer: "Hump",
         }),
       shuffleOptions({
           question:
@@ -179,7 +179,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Television",
           optionB: "Bookshelf",
           optionC: "Computer",
-          correctAnswer: "b. Bookshelf",
+          correctAnswer: "Bookshelf",
         }),
       shuffleOptions({
           question:
@@ -187,7 +187,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Boredom",
           optionB: "Joy",
           optionC: "Anguish",
-          correctAnswer: "b. Joy",
+          correctAnswer: "Joy",
         }),
       shuffleOptions({
           question:
@@ -195,7 +195,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Did",
           optionB: "Said",
           optionC: "Hid",
-          correctAnswer: "a. Did",
+          correctAnswer: "Did",
    }),
     ]),
   }

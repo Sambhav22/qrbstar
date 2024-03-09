@@ -36,21 +36,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Cousins and grandparents",
           optionB: "Parents and children",
           optionC: "Uncles and aunts",
-          correctAnswer: "B. Parents and children",
+          correctAnswer: "Parents and children",
          }),
       shuffleOptions({
           question: "In Kaira's family, who are the members mentioned?",
           optionA: "Parents and cousins",
           optionB: "Parents, grandparents, uncle, aunt, and a cousin",
           optionC: "Brothers and sisters",
-          correctAnswer: "B. Parents, grandparents, uncle, aunt, and a cousin",
+          correctAnswer: "Parents, grandparents, uncle, aunt, and a cousin",
          }),
       shuffleOptions({
           question: "What type of family does Kaira belong to?",
           optionA: "Small family",
           optionB: "Big family",
           optionC: "Joint family",
-          correctAnswer: "C. Joint family",
+          correctAnswer: "Joint family",
          }),
       shuffleOptions({
           question:
@@ -58,14 +58,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Parents and more than two children",
           optionB: "Parents and one or two children",
           optionC: "Grandparents and cousins",
-          correctAnswer: "B. Parents and one or two children",
+          correctAnswer: "Parents and one or two children",
          }),
       shuffleOptions({
           question: "How is a big family defined in the given text?",
           optionA: "Parents and more than two children",
           optionB: "Parents and one or two children",
           optionC: "Parents and cousins",
-          correctAnswer: "A. Parents and more than two children",
+          correctAnswer: "Parents and more than two children",
          }),
       shuffleOptions({
           question:
@@ -73,21 +73,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Small family",
           optionB: "Joint family",
           optionC: "Big family",
-          correctAnswer: "B. Joint family",
+          correctAnswer: "Joint family",
          }),
       shuffleOptions({
           question: "What are the components of a big family?",
           optionA: "Parents and cousins",
           optionB: "Parents and one or two children",
           optionC: "Parents and more than two children",
-          correctAnswer: "C. Parents and more than two children",
+          correctAnswer: "Parents and more than two children",
          }),
       shuffleOptions({
           question: "What is the family structure of Kaira's family?",
           optionA: "Small family",
           optionB: "Joint family",
           optionC: "Big family",
-          correctAnswer: "B. Joint family",
+          correctAnswer: "Joint family",
          }),
       shuffleOptions({
           question:
@@ -96,14 +96,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "Grandparents and cousins",
           optionC: "Papa-mummy, brother-sister, uncle-aunt, grandpa-grandma",
           correctAnswer:
-            "C. Papa-mummy, brother-sister, uncle-aunt, grandpa-grandma",
+            "Papa-mummy, brother-sister, uncle-aunt, grandpa-grandma",
          }),
       shuffleOptions({
           question: "How is a small family defined in the given text?",
           optionA: "Parents and more than two children",
           optionB: "Parents and cousins",
           optionC: "Parents and one or two children",
-          correctAnswer: "C. Parents and one or two children",
+          correctAnswer: "Parents and one or two children",
            }),
     ]),
   }
@@ -118,14 +118,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "School",
           optionB: "Family",
           optionC: "Zoo",
-          correctAnswer: "B. Family",
+          correctAnswer: "Family",
          }),
       shuffleOptions({
           question: "We all live in a _________.",
           optionA: "Village",
           optionB: "City",
           optionC: "Family",
-          correctAnswer: "C. Family",
+          correctAnswer: "Family",
          }),
       shuffleOptions({
           question:
@@ -133,14 +133,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Neighbor",
           optionB: "Friend",
           optionC: "Cousin",
-          correctAnswer: "C. Cousin",
+          correctAnswer: "Cousin",
          }),
       shuffleOptions({
           question: "Kaira's family is a _________ family.",
           optionA: "Nuclear",
           optionB: "Joint",
           optionC: "Extended",
-          correctAnswer: "B. Joint",
+          correctAnswer: "Joint",
          }),
       shuffleOptions({
           question:
@@ -148,14 +148,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Many",
           optionB: "One or two",
           optionC: "None",
-          correctAnswer: "B. One or two",
+          correctAnswer: "One or two",
          }),
       shuffleOptions({
           question: "A big family has parents and their _________ children.",
           optionA: "Cousins",
           optionB: "More than two",
           optionC: "Only one",
-          correctAnswer: "B. More than two",
+          correctAnswer: "More than two",
          }),
       shuffleOptions({
           question:
@@ -163,7 +163,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Friends, neighbors",
           optionB: "Siblings, pets",
           optionC: "Grandparents, cousins",
-          correctAnswer: "C. Grandparents, cousins",
+          correctAnswer: "Grandparents, cousins",
          }),
       shuffleOptions({
           question:
@@ -171,7 +171,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Nuclear",
           optionB: "Joint",
           optionC: "Extended",
-          correctAnswer: "B. Joint",
+          correctAnswer: "Joint",
          }),
       shuffleOptions({
           question:
@@ -179,7 +179,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Only children",
           optionB: "Cousins",
           optionC: "Siblings",
-          correctAnswer: "B. Cousins",
+          correctAnswer: "Cousins",
          }),
       shuffleOptions({
           question:
@@ -187,7 +187,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Friends",
           optionB: "Grandpa-grandma",
           optionC: "Pets",
-          correctAnswer: "B. Grandpa-grandma",
+          correctAnswer: "Grandpa-grandma",
            }),
     ]),
   }

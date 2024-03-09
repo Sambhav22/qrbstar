@@ -37,14 +37,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Waiting for a bus",
           optionB: "Waiting for a friend",
           optionC: "Waiting for a train",
-          correctAnswer: "C. Waiting for a train",
+          correctAnswer: "Waiting for a train",
         }),
       shuffleOptions({
           question: "Why is the protagonist at Ambala station?",
           optionA: "Visiting friends",
           optionB: "Going to school",
           optionC: "Meeting family",
-          correctAnswer: "B. Going to school",
+          correctAnswer: "Going to school",
         }),
       shuffleOptions({
           question:
@@ -52,7 +52,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "She asks about his family",
           optionB: "She offers him sweets and tea",
           optionC: "She compliments his appearance",
-          correctAnswer: "B. She offers him sweets and tea",
+          correctAnswer: "She offers him sweets and tea",
         }),
       shuffleOptions({
           question:
@@ -60,7 +60,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Assertive",
           optionB: "Poor",
           optionC: "Dignified and kind",
-          correctAnswer: "C. Dignified and kind",
+          correctAnswer: "Dignified and kind",
         }),
       shuffleOptions({
           question:
@@ -68,7 +68,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "She is afraid for the boy",
           optionB: "She is angry with the boy",
           optionC: "She wants to protect the protagonist",
-          correctAnswer: "A. She is afraid for the boy",
+          correctAnswer: "She is afraid for the boy",
         }),
       shuffleOptions({
           question:
@@ -76,7 +76,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Surprised but understanding",
           optionB: "Angry and accusatory",
           optionC: "Disinterested",
-          correctAnswer: "B. Angry and accusatory",
+          correctAnswer: "Angry and accusatory",
         }),
       shuffleOptions({
           question:
@@ -84,7 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Not to talk to strangers",
           optionB: "Not to eat on the train",
           optionC: "Not to jump off moving trains",
-          correctAnswer: "A. Not to talk to strangers",
+          correctAnswer: "Not to talk to strangers",
         }),
       shuffleOptions({
           question:
@@ -92,14 +92,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Grateful",
           optionB: "Resentful",
           optionC: "Indifferent",
-          correctAnswer: "B. Resentful",
+          correctAnswer: "Resentful",
         }),
       shuffleOptions({
           question: "What does the protagonist do as the train starts moving?",
           optionA: "Jumps off the train",
           optionB: "Kisses the woman's cheek",
           optionC: "Ignores the woman",
-          correctAnswer: "B. Kisses the woman's cheek",
+          correctAnswer: "Kisses the woman's cheek",
         }),
       shuffleOptions({
           question: "How does the story end?",
@@ -108,7 +108,7 @@ if (localStorage.getItem("activityNumber") == 1) {
             "The protagonist watches the woman until she is lost in the crowd",
           optionC: "The protagonist shouts goodbye loudly",
           correctAnswer:
-            "B. The protagonist watches the woman until she is lost in the crowd",
+            "The protagonist watches the woman until she is lost in the crowd",
    }),
     ]),
   }
@@ -125,7 +125,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "first",
           optionB: "second",
           optionC: "third",
-          correctAnswer: "B. second",
+          correctAnswer: "second",
         }),
       shuffleOptions({
           question:
@@ -133,7 +133,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "6",
           optionB: "8",
           optionC: "10",
-          correctAnswer: "B. 8",
+          correctAnswer: "8",
         }),
       shuffleOptions({
           question:
@@ -141,7 +141,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "ten",
           optionB: "eleven",
           optionC: "twelve",
-          correctAnswer: "C. twelve",
+          correctAnswer: "twelve",
         }),
       shuffleOptions({
           question:
@@ -149,7 +149,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "food court",
           optionB: "bookstall",
           optionC: "ticket counter",
-          correctAnswer: "B. bookstall",
+          correctAnswer: "bookstall",
         }),
       shuffleOptions({
           question:
@@ -157,7 +157,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "red",
           optionB: "white",
           optionC: "blue",
-          correctAnswer: "B. white",
+          correctAnswer: "white",
         }),
       shuffleOptions({
           question:
@@ -165,7 +165,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "alone",
           optionB: "with friends",
           optionC: "with family",
-          correctAnswer: "A. alone",
+          correctAnswer: "alone",
         }),
       shuffleOptions({
           question:
@@ -173,7 +173,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "sandwiches",
           optionB: "jalebis",
           optionC: "burgers",
-          correctAnswer: "B. jalebis",
+          correctAnswer: "jalebis",
         }),
       shuffleOptions({
           question:
@@ -181,7 +181,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "hobbies",
           optionB: "family",
           optionC: "hometown",
-          correctAnswer: "B. family",
+          correctAnswer: "family",
         }),
       shuffleOptions({
           question:
@@ -189,7 +189,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "tracks",
           optionB: "road",
           optionC: "bridge",
-          correctAnswer: "A. tracks",
+          correctAnswer: "tracks",
         }),
       shuffleOptions({
           question:
@@ -197,7 +197,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "friends",
           optionB: "suspicious characters",
           optionC: "security guards",
-          correctAnswer: "B. suspicious characters",
+          correctAnswer: "suspicious characters",
    }),
     ]),
   }

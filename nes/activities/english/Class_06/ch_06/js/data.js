@@ -36,7 +36,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "A constant source of predictability",
           optionB: "A factor that can make or break a person",
           optionC: "An avoidable aspect of life",
-          correctAnswer: "B. A factor that can make or break a person",
+          correctAnswer: "A factor that can make or break a person",
         }),
       shuffleOptions({
           question:
@@ -44,7 +44,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "It has no impact on skill development",
           optionB: "It provides an opportunity to hone skills",
           optionC: "It impedes critical thinking",
-          correctAnswer: "B. It provides an opportunity to hone skills",
+          correctAnswer: "It provides an opportunity to hone skills",
         }),
       shuffleOptions({
           question:
@@ -52,7 +52,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Physical and mental labor",
           optionB: "Hope and patience",
           optionC: "Luck and perseverance",
-          correctAnswer: "A. Physical and mental labor",
+          correctAnswer: "Physical and mental labor",
         }),
       shuffleOptions({
           question:
@@ -61,7 +61,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "Courage, determination, self-faith, and fear of failure",
           optionC: "Fear of failure, inactivity, and doubt",
           correctAnswer:
-            "B. Courage, determination, self-faith, and fear of failure",
+            "Courage, determination, self-faith, and fear of failure",
         }),
       shuffleOptions({
           question:
@@ -69,7 +69,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Faith hinders facing uncertainties",
           optionB: "Faith is unnecessary in difficult situations",
           optionC: "Faith gives courage to face uncertainties",
-          correctAnswer: "C. Faith gives courage to face uncertainties",
+          correctAnswer: "Faith gives courage to face uncertainties",
         }),
       shuffleOptions({
           question:
@@ -77,7 +77,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Inactivity",
           optionB: "Bold decision-making",
           optionC: "Positive action",
-          correctAnswer: "A. Inactivity",
+          correctAnswer: "Inactivity",
         }),
       shuffleOptions({
           question:
@@ -85,7 +85,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Predictable",
           optionB: "Unavoidable",
           optionC: "Controllable",
-          correctAnswer: "B. Unavoidable",
+          correctAnswer: "Unavoidable",
         }),
       shuffleOptions({
           question:
@@ -93,7 +93,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Focus on the result, not the action",
           optionB: "Results lie within one's control",
           optionC: "Act boldly, and results are beyond one's control",
-          correctAnswer: "C. Act boldly, and results are beyond one's control",
+          correctAnswer: "Act boldly, and results are beyond one's control",
         }),
       shuffleOptions({
           question:
@@ -101,7 +101,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Predictability",
           optionB: "Certainty",
           optionC: "Uncertainties",
-          correctAnswer: "C. Uncertainties",
+          correctAnswer: "Uncertainties",
         }),
       shuffleOptions({
           question:
@@ -109,7 +109,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Avoidance of uncertainties",
           optionB: "Overcoming uncertainties",
           optionC: "Lack of challenges",
-          correctAnswer: "B. Overcoming uncertainties",
+          correctAnswer: "Overcoming uncertainties",
    }),
     ]),
   }

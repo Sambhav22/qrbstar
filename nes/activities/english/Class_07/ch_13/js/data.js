@@ -37,7 +37,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "They are too expensive",
           optionB: "They can be addictive for children",
           optionC: "They are not useful for adults",
-          correctAnswer: "b. They can be addictive for children",
+          correctAnswer: "They can be addictive for children",
         }),
       shuffleOptions({
           question:
@@ -45,7 +45,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "They improve imagination",
           optionB: "They make children dull and blind",
           optionC: "They encourage outdoor activities",
-          correctAnswer: "b. They make children dull and blind",
+          correctAnswer: "They make children dull and blind",
         }),
       shuffleOptions({
           question:
@@ -53,7 +53,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "With outdoor games",
           optionB: "With a bookshelf and books",
           optionC: "With educational apps",
-          correctAnswer: "b. With a bookshelf and books",
+          correctAnswer: "With a bookshelf and books",
         }),
       shuffleOptions({
           question:
@@ -61,7 +61,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Play video games",
           optionB: "Watch television",
           optionC: "Read books",
-          correctAnswer: "c. Read books",
+          correctAnswer: "Read books",
         }),
       shuffleOptions({
           question:
@@ -69,7 +69,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Neutral",
           optionB: "Positive",
           optionC: "Negative",
-          correctAnswer: "c. Negative",
+          correctAnswer: "Negative",
         }),
       shuffleOptions({
           question:
@@ -77,7 +77,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Purple pants",
           optionB: "Fairyland",
           optionC: "Dirty rotter",
-          correctAnswer: "b. Fairyland",
+          correctAnswer: "Fairyland",
         }),
       shuffleOptions({
           question:
@@ -85,7 +85,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Books have no impact on children",
           optionB: "Books enhance creativity and joy",
           optionC: "Books make children dull",
-          correctAnswer: "b. Books enhance creativity and joy",
+          correctAnswer: "Books enhance creativity and joy",
         }),
       shuffleOptions({
           question:
@@ -93,7 +93,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Outdoor sports",
           optionB: "Reading books",
           optionC: "Playing with toys",
-          correctAnswer: "b. Reading books",
+          correctAnswer: "Reading books",
         }),
       shuffleOptions({
           question:
@@ -101,7 +101,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Children will become more addicted",
           optionB: "Children will lose interest in reading",
           optionC: "Children will grow keen and love the change",
-          correctAnswer: "c. Children will grow keen and love the change",
+          correctAnswer: "Children will grow keen and love the change",
         }),
       shuffleOptions({
           question:
@@ -109,7 +109,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Lovely and clean",
           optionB: "Repulsive and foul",
           optionC: "Educational and useful",
-          correctAnswer: "b. Repulsive and foul",
+          correctAnswer: "Repulsive and foul",
    }),
     ]),
   }
@@ -126,7 +126,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Engaged",
           optionB: "Hypnotized",
           optionC: "Bored",
-          correctAnswer: "b. Hypnotized",
+          correctAnswer: "Hypnotized",
         }),
       shuffleOptions({
           question:
@@ -134,7 +134,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Cat",
           optionB: "Spot",
           optionC: "Tot",
-          correctAnswer: "c. Tot",
+          correctAnswer: "Tot",
         }),
       shuffleOptions({
           question:
@@ -142,7 +142,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Hard",
           optionB: "Soft",
           optionC: "Sharp",
-          correctAnswer: "b. Soft",
+          correctAnswer: "Soft",
         }),
       shuffleOptions({
           question:
@@ -150,7 +150,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Born",
           optionB: "Created",
           optionC: "Invented",
-          correctAnswer: "c. Invented",
+          correctAnswer: "Invented",
         }),
       shuffleOptions({
           question:
@@ -158,7 +158,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Aplenty",
           optionB: "Abundant",
           optionC: "Galore",
-          correctAnswer: "c. Galore",
+          correctAnswer: "Galore",
         }),
       shuffleOptions({
           question:
@@ -166,7 +166,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Hats",
           optionB: "Coats",
           optionC: "Pants",
-          correctAnswer: "c. Pants",
+          correctAnswer: "Pants",
         }),
       shuffleOptions({
           question:
@@ -174,7 +174,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Hump",
           optionB: "Jump",
           optionC: "Lump",
-          correctAnswer: "a. Hump",
+          correctAnswer: "Hump",
         }),
       shuffleOptions({
           question:
@@ -182,7 +182,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Television",
           optionB: "Bookshelf",
           optionC: "Computer",
-          correctAnswer: "b. Bookshelf",
+          correctAnswer: "Bookshelf",
         }),
       shuffleOptions({
           question:
@@ -190,7 +190,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Boredom",
           optionB: "Joy",
           optionC: "Anguish",
-          correctAnswer: "b. Joy",
+          correctAnswer: "Joy",
         }),
       shuffleOptions({
           question:
@@ -198,7 +198,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Did",
           optionB: "Said",
           optionC: "Hid",
-          correctAnswer: "a. Did",
+          correctAnswer: "Did",
    }),
     ]),
   }
@@ -214,70 +214,70 @@ if (localStorage.getItem("activityNumber") == 3) {
             "Cattle are often referred to as a farmer's second most precious possession after gold.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "b. False",
+          correctAnswer: "False",
         }),
       shuffleOptions({
           question:
             "In Hinduism, Lord Krishna is known as Govind, which means the consumer of cows.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "a. True",
+          correctAnswer: "True",
         }),
       shuffleOptions({
           question:
             "The five products of a cow, including milk, urine, dung, curd, and ghee, are collectively known as Pentalogy.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "b. False",
+          correctAnswer: "False",
         }),
       shuffleOptions({
           question:
             "Buffalo milk in India is considered healthier than cow milk due to its higher content of protein.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "b. False",
+          correctAnswer: "False",
         }),
       shuffleOptions({
           question:
             "The cattle found in India are unique to the Indian subcontinent and are not found in African countries.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "b. False",
+          correctAnswer: "False",
         }),
       shuffleOptions({
           question:
             "The domesticated cattle differ from wild ones in their smaller size, horns, and the development of milk characteristics.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "a. True",
+          correctAnswer: "True",
         }),
       shuffleOptions({
           question:
             "The cattle's stomach is divided into three sections, which play different roles in digestion.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "b. False",
+          correctAnswer: "False",
         }),
       shuffleOptions({
           question:
             "Some courtiers grow jealous of the ragged minister in the story due to his magical powers at the court.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "b. False",
+          correctAnswer: "False",
         }),
       shuffleOptions({
           question:
             "The minister's daily routine is falsely rumored to include practicing conspiracy before meeting the king.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "a. True",
+          correctAnswer: "True",
         }),
       shuffleOptions({
           question:
             "To preserve milk and eliminate bacteria, it is recommended to carry out proper feeding.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "b. False",
+          correctAnswer: "False",
    }),
     ]),
   }
