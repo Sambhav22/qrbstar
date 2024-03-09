@@ -30,9 +30,11 @@ const shuffleOptions = (object) => {
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: [
+    questions: shuffleQues([
+      shuffleOptions(
       {
-        questions: [
+        questions: shuffleQues([
+      shuffleOptions(
           {
             question: "What do trees provide to humans?",
             optionA: "Fruits and fresh air",
@@ -119,9 +121,11 @@ if (localStorage.getItem("activityNumber") == 1) {
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
-    questions: [
+    questions: shuffleQues([
+      shuffleOptions(
       {
-        questions: [
+        questions: shuffleQues([
+      shuffleOptions(
           {
             question:
               "Trees provide us with various resources such as _______, fresh air, nuts, wood, and paper.",
@@ -205,9 +209,11 @@ if (localStorage.getItem("activityNumber") == 2) {
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: [
+    questions: shuffleQues([
+      shuffleOptions(
       {
-        questions: [
+        questions: shuffleQues([
+      shuffleOptions(
           {
             question: "Trees provide us with fresh air, nuts, wood, and paper.",
             optionA: "True",

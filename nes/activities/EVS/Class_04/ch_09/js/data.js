@@ -30,9 +30,11 @@ const shuffleOptions = (object) => {
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: [
+    questions: shuffleQues([
+      shuffleOptions(
       {
-        questions: [
+        questions: shuffleQues([
+      shuffleOptions(
           {
             question:
               "What body feature do birds and insects that can fly have?",
@@ -142,9 +144,11 @@ if (localStorage.getItem("activityNumber") == 2) {
 activityData = activity;
 "Fill in the blanks:",
   {
-    questions: [
+    questions: shuffleQues([
+      shuffleOptions(
       {
-        questions: [
+        questions: shuffleQues([
+      shuffleOptions(
           {
             question:
               "Most animals have __________ legs. Some have hoofs, paws, or claws.",
@@ -251,7 +255,8 @@ activityData = activity;
 if (localStorage.getItem("activityNumber") == 3)
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: [
+    questions: shuffleQues([
+      shuffleOptions(
       {
         question: "Elephants are small animals.",
         options: {

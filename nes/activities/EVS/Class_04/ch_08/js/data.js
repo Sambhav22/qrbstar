@@ -30,9 +30,11 @@ const shuffleOptions = (object) => {
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: [
+    questions: shuffleQues([
+      shuffleOptions(
       {
-        questions: [
+        questions: shuffleQues([
+      shuffleOptions(
           {
             question: "What is the main function of roots in a plant?",
             options: {
@@ -140,7 +142,8 @@ if (localStorage.getItem("activityNumber") == 1) {
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
-    questions: [
+    questions: shuffleQues([
+      shuffleOptions(
       {
         question:
           "The ____________ of a plant are present under the ground and absorb water and minerals from the soil.",
@@ -247,9 +250,11 @@ if (localStorage.getItem("activityNumber") == 2) {
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: [
+    questions: shuffleQues([
+      shuffleOptions(
       {
-        questions: [
+        questions: shuffleQues([
+      shuffleOptions(
           {
             statement:
               "The primary purpose of roots in a plant is to produce flowers.",

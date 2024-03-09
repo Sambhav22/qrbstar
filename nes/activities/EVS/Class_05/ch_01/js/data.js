@@ -1,10 +1,36 @@
 export const chapter = "Chapter -1: Super Senses";
-export const noOfActivities = 3;
+export const noOfActivities = 3
+
+const shuffleQues = (ques) => {
+  let arr = ques.slice()
+  for (let i = arr.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1))
+    ;[arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+  return arr
+}
+
+const shuffleOptions = (object) => {
+  const { optionA, optionB, optionC } = object
+  const optionsArray = [optionA, optionB, optionC]
+
+  for (let i = optionsArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
+  }
+
+  object.optionA = optionsArray[0]
+  object.optionB = optionsArray[1]
+  object.optionC = optionsArray[2]
+
+  return object
+};
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: [
+    questions: shuffleQues([
+      shuffleOptions(
         [
             {
               "question": "Which of the following is not one of the five sense organs?",
@@ -86,7 +112,8 @@ if (localStorage.getItem("activityNumber") == 1) {
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the Blanks:",
-    questions: [
+    questions: shuffleQues([
+      shuffleOptions(
         [
             {
               "question": "Sense organs are the windows from our body to the outside world. There are _____ sense organs-nose, ears, skin, tongue, and eyes.",
@@ -167,7 +194,8 @@ if (localStorage.getItem("activityNumber") == 2) {
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: [
+    questions: shuffleQues([
+      shuffleOptions(
         [
             {
               "question": "Sense organs are the windows from our body to the outside world.",

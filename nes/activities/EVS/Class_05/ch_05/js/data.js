@@ -1,10 +1,36 @@
 export const chapter = "Chapter -5: Growing Plants";
-export const noOfActivities = 3;
+export const noOfActivities = 3
+
+const shuffleQues = (ques) => {
+  let arr = ques.slice()
+  for (let i = arr.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1))
+    ;[arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+  return arr
+}
+
+const shuffleOptions = (object) => {
+  const { optionA, optionB, optionC } = object
+  const optionsArray = [optionA, optionB, optionC]
+
+  for (let i = optionsArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
+  }
+
+  object.optionA = optionsArray[0]
+  object.optionB = optionsArray[1]
+  object.optionC = optionsArray[2]
+
+  return object
+};
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: [
+    questions: shuffleQues([
+      shuffleOptions(
         [
             {
                 "question": "Germination is the process of growing plants from _______.",
@@ -85,7 +111,8 @@ if (localStorage.getItem("activityNumber") == 1) {
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
-    questions: [
+    questions: shuffleQues([
+      shuffleOptions(
         [
             {
                 "question": "Germination is the process of growing plants from _______.",
@@ -167,7 +194,8 @@ if (localStorage.getItem("activityNumber") == 2) {
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: [
+    questions: shuffleQues([
+      shuffleOptions(
         [
             {
                 "question": "Germination is the process of growing plants from seeds.",

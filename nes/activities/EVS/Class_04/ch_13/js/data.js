@@ -115,9 +115,11 @@ if (localStorage.getItem("activityNumber") == 1) {
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
-    questions: [
+    questions: shuffleQues([
+      shuffleOptions(
       {
-        fill_in_the_blank_questions: [
+        fill_in_the_blank_questions: shuffleQues([
+      shuffleOptions(
           {
             question:
               "Eagles, owls, and vultures have strong and __________ beaks, which help them tear their prey swiftly and easily.",
@@ -227,9 +229,11 @@ if (localStorage.getItem("activityNumber") == 2) {
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: [
+    questions: shuffleQues([
+      shuffleOptions(
       {
-        true_false_questions: [
+        true_false_questions: shuffleQues([
+      shuffleOptions(
           {
             question:
               "Eagles, owls, and vultures have curved beaks for tearing prey swiftly and easily.",
