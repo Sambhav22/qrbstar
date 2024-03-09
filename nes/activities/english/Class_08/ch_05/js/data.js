@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             'Why does the reader ask, "Why has England been able to take India, and why is she able to retain it?"',
@@ -86,8 +85,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "c) To avoid conflict",
           correctAnswer: "b) To perpetuate their power",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -95,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             'The affectionate term "Bapu" is used to refer to Mahatma Gandhi as a sign of ____________ admiration.',
@@ -176,8 +173,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Isolation",
           correctAnswer: "Expansion",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -185,7 +181,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Gandhiji argues that the English merchants initially came to India for political reasons.",
@@ -255,8 +250,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

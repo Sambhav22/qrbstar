@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the initial reason for the conflict between Jumman and his aunt?",
@@ -90,8 +89,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "He supports Sahu without considering the facts",
           correctAnswer: "He remains impartial and delivers a just decision",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -99,7 +97,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Jumman and Algu Choudhary had such a strong bond of friendship that when either of them went away from the village, the ________ looked after his family.",
@@ -180,8 +177,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Enmity",
           correctAnswer: "Justice",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -189,7 +185,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Jumman and Algu Choudhary had a strained relationship due to a property dispute.",
@@ -260,8 +255,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

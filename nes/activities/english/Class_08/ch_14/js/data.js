@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the occasion being celebrated in the text?",
           optionA: "Christmas",
@@ -77,8 +76,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Thrown in the air for celebration",
           correctAnswer: "B) Sprinkled on the floor to make pictures",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -86,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "Everything's ready to greet the new __________.",
           optionA: "day",
@@ -159,8 +156,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "fear",
           correctAnswer: "B) joy",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -168,7 +164,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Walt Irvine and Madge called the dog Klondike because he looked like a wolf.",
@@ -236,8 +231,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

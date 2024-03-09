@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What did the barber initially plan to do with the little hunchback?",
@@ -83,8 +82,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Five lashes on his bare back",
           correctAnswer: "C) Five lashes on his bare back",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Once in ancient times, there lived a barber with his ____. One day, a little hunchback came for a ____.",
@@ -172,8 +169,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "drowning",
           correctAnswer: "B) choking",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -181,7 +177,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The barber's wife cooked fish for dinner, and the hunchback choked to death.",
@@ -252,8 +247,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

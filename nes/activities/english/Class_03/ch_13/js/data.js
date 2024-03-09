@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the main message of the text regarding Corona?",
           optionA: "It is the only disease one should be concerned about.",
@@ -84,8 +83,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "It should be avoided.",
           correctAnswer: "It helps in refreshing the body and brain.",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "According to the text, Corona is caused by a ________.",
           optionA: "bacteria",
@@ -171,8 +168,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "It is unnecessary",
           correctAnswer: "It prevents diseases",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -180,7 +176,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Regular hand washing and social distancing can help prevent Corona.",
@@ -249,8 +244,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

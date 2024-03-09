@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What was the Leopard's appearance in the High Veldt?",
           optionA: "Exclusively sandy-yellowish-brownish",
@@ -82,8 +81,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer:
             "B. They changed their spots and lived happily ever afterward.",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "In the High Veldt, the Leopard's appearance was exclusively ________.",
@@ -172,8 +169,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "in the High Veldt",
           correctAnswer: "B) happily ever afterward",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -181,7 +177,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The Leopard lived in a place called the High Veldt.",
           optionA: "True",
@@ -249,8 +244,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

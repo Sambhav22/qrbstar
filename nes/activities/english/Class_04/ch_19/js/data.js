@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What did the bear ask the speaker to do?",
           optionA: "Run away",
@@ -80,8 +79,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "With a resolution",
           correctAnswer: "With a promise",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -89,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "What did the speaker encounter while running away from the bear? He encountered a ____________.",
@@ -170,8 +167,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Amusing",
           correctAnswer: "Unpleasant",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -179,7 +175,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The speaker encountered a bear while walking in the forest.",
@@ -244,8 +239,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

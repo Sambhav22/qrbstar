@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is mentioned as the first thing a baby does after learning to move hands and feet?",
@@ -90,8 +89,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer:
             "c) Because sports and development are inextricably linked",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -99,7 +97,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The first thing a baby does after learning how to move his hands and feet is to __________.",
@@ -180,8 +177,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "c) Overall development",
           correctAnswer: "c) Overall development",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -189,7 +185,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Playing helps a person become mature and competent in life.",
@@ -260,8 +255,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "Who were childhood friends in the story?",
           optionA: "Krishna and Arjuna",
@@ -80,8 +79,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Friendship is not important",
           correctAnswer: "True friends help without being asked",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -89,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "Krishna and Sudama were _______________ friends.",
           optionA: "best",
@@ -168,8 +165,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "money",
           correctAnswer: "help",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -177,7 +173,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Krishna and Sudama were distant friends.",
           optionA: "True",
@@ -242,8 +237,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

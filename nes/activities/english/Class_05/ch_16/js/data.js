@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What rattles the narrator when they enter the bank?",
           optionA: "The manager",
@@ -82,8 +81,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Preference for cash savings",
           correctAnswer: "Preference for cash savings",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "When the narrator goes into a bank, everything, including the clerks and cashier, __________.",
@@ -172,8 +169,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "double",
           correctAnswer: "withdraw",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -181,7 +177,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "When the narrator goes into a bank, everything, including the clerks and cashier, rattles them.",
@@ -252,8 +247,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

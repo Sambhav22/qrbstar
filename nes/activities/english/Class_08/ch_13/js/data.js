@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What time did the boys of the First A have leisure on Wednesday?",
@@ -83,8 +82,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Tried to retrieve the boat from the gutter",
           correctAnswer: "A) Uttered a prayer for the soul of the ant",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The most important thing we've learned, So far as children are concerned, Is never, NEVER, NEVER let Them near your mobile set. Or better still, just don't buy The idiotic thing at all.",
@@ -173,8 +170,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Hid",
           correctAnswer: "a. Did",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -182,7 +178,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The boys of the First A had leisure between three and three forty-five on Wednesday.",
@@ -253,8 +248,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

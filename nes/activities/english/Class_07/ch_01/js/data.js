@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What prompted the children to clean and beautify their playground?",
@@ -86,8 +85,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer:
             "They found him kind, and his touch warmed their hearts.",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -95,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Some children were at play in their playground one day when a __________ rode through the town, blowing a trumpet and crying aloud, 'The King! The King passes by this road today. Make ready for the King!'",
@@ -176,8 +173,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Crown of gold",
           correctAnswer: "Crown of gold",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -185,7 +181,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The herald rode through the town, announcing the arrival of the King.",
@@ -255,8 +250,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

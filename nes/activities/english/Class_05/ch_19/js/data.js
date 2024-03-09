@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What did the author use to ride on that never used to wobble like their bike?",
@@ -82,8 +81,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "The author came off the bike",
           correctAnswer: "The author came off the bike",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "I used to like riding my __________ with three wheels.",
           optionA: "Bike",
@@ -165,8 +162,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Three",
           correctAnswer: "Two",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -174,7 +170,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The author's old trike had four wheels.",
           optionA: "True",
@@ -239,8 +234,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

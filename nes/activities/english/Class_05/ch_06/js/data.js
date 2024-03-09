@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the purpose of the rain in the poem?",
           optionA: "To bring snow",
@@ -79,8 +78,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Spring",
           correctAnswer: "Spring",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -88,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Rain, rain, April rain! Bring the flowers back again, Yellow, cowslip, violet, blue, Butter-cups and daisies too.",
@@ -169,8 +166,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Evergreen",
           correctAnswer: "Leafy",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -178,7 +174,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Heavy rain in April brings flowers back.",
           optionA: "True",
@@ -241,8 +236,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

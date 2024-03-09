@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "When did Tenzing Norgay step on Mount Everest, creating history?",
@@ -84,8 +83,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "c) 28 May, 1952, Everest Base Camp",
           correctAnswer: "a) 9 May, 1986, Himalayan Mountaineering Institute",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Tenzing Norgay stepped on Mount Everest on ___________, 1953, creating history.",
@@ -172,8 +169,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Himalayan Mountaineering Institute",
           correctAnswer: "Himalayan Mountaineering Institute",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -181,7 +177,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Mount Everest is the highest peak in the world.",
           optionA: "True",
@@ -248,8 +243,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "Why did Ivan Dmitrich Aksionov leave his family to go to the fair?",
@@ -84,8 +83,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Indifference",
           correctAnswer: "Pity",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "In Vladimir, Russia, there lived a young merchant named ____________ Aksionov.",
@@ -174,8 +171,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Mistaken",
           correctAnswer: "Wronged",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -183,7 +179,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Ivan Dmitrich Aksionov was a young merchant living in St. Petersburg.",
@@ -253,8 +248,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

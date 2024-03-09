@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "Who were the two brothers in the story?",
           optionA: "Gautam and Hari",
@@ -79,8 +78,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "He was indifferent",
           correctAnswer: "He was disappointed",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -88,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Gautam decided to present the enormous turnip to ________.",
@@ -167,8 +164,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "riches",
           correctAnswer: "riches",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -176,7 +172,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Gautam decided to sell the enormous turnip to a merchant.",
           optionA: "True",
@@ -239,8 +234,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

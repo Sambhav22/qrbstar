@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What was Jimmy Scarecrow's greatest grief in the winter?",
           optionA: "Lack of friends",
@@ -85,8 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Cast a protective spell",
           correctAnswer: "A) Wrote a letter to crows",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Jimmy Scarecrow's greatest grief in the winter was his lack of ____________.",
@@ -175,8 +172,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Smaller",
           correctAnswer: "A) Older",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -184,7 +180,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Jimmy Scarecrow's greatest grief in the winter was his lack of occupation.",
@@ -255,8 +250,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

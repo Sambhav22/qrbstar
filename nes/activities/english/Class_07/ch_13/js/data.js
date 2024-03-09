@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the author's main concern about mobile screens in the text?",
@@ -86,8 +85,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Educational and useful",
           correctAnswer: "b. Repulsive and foul",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -95,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The most important thing we've learned, So far as children are concerned, Is never, NEVER, NEVER let Them near your mobile set. Or better still, just don't buy The idiotic thing at all.",
@@ -176,8 +173,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Hid",
           correctAnswer: "a. Did",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -185,7 +181,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Cattle are often referred to as a farmer's second most precious possession after gold.",
@@ -256,8 +251,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "b. False",
         },
-      ],
-    ],
+   ],
   };
 }
 

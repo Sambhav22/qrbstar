@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What kind of animals did the trader have?",
           optionA: "A dog and a cat",
@@ -81,8 +80,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "He should have eaten the master's dinner",
           correctAnswer: "He needed to be more like the lapdog",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "The trader had an ________ to carry his loads.",
           optionA: "elephant",
@@ -168,8 +165,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "strangely",
           correctAnswer: "differently",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -177,7 +173,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The trader had a cat to carry his loads.",
           optionA: "True",
@@ -243,8 +238,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the primary reason people are attracted to mountains, as mentioned in the passage?",
@@ -85,8 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer:
             "Fifth woman in the world and the first Indian to reach the summit",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "When covered with snow, mountains shine like __________.",
           optionA: "Gold",
@@ -172,8 +169,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "1:07 p.m.",
           correctAnswer: "1:07 p.m.",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -181,7 +177,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Mount Everest is the highest peak among the Himalayas.",
           optionA: "True",
@@ -250,8 +245,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

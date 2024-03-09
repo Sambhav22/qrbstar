@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the protagonist doing at the beginning of the story?",
@@ -85,8 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer:
             "B. The protagonist watches the woman until she is lost in the crowd",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "It was the protagonist's __________ year at boarding school.",
@@ -175,8 +172,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "security guards",
           correctAnswer: "B. suspicious characters",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -184,7 +180,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The protagonist was waiting for a bus at Ambala station.",
           optionA: "True",
@@ -253,8 +248,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

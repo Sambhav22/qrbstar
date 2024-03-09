@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What did the king of Nippon present to the emperor of China?",
@@ -85,8 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "The emperor didn't like the other suggestions.",
           correctAnswer: "A cat is mightier than a dragon.",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The king of Nippon presented a beautiful ____ to the emperor of China.",
@@ -175,8 +172,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Cat",
           correctAnswer: "Cat",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -184,7 +180,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The king of Nippon presented a beautiful cat to the emperor of China.",
@@ -255,8 +250,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is Schatz's main complaint?",
           optionA: "Stomach ache",
@@ -78,8 +77,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "44 degrees",
           correctAnswer: "37 degrees",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -87,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "What does Schatz complain about feeling?",
           optionA: "Stomach ache",
@@ -162,8 +159,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "44",
           correctAnswer: "37",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -171,7 +167,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Schatz's father is not worried about his condition.",
           optionA: "True",
@@ -239,8 +234,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the initial impression of the journey for the traveller?",
@@ -82,8 +81,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Reminiscing with an old man",
           correctAnswer: "C) Reminiscing with an old man",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The traveller lost the child while on his journey. What did the child invite him to do?",
@@ -172,8 +169,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "An old man",
           correctAnswer: "C) An old man",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -181,7 +177,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The traveller played with the child the whole day, and they were very merry.",
@@ -252,8 +247,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What was the name of the little girl in the story?",
           optionA: "Rose",
@@ -78,8 +77,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "To be careful around bears",
           correctAnswer: "To never go into the wood again",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -87,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "What was the name of the little girl in the story?",
           optionA: "Lily",
@@ -160,8 +157,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "To be careful around bears",
           correctAnswer: "To never go into the wood again",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -169,7 +165,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Goldilocks played in the garden every evening.",
           optionA: "True",
@@ -235,8 +230,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

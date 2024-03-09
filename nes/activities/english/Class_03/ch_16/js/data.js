@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What was Lu known for among the other students?",
           optionA: "Having a kind heart",
@@ -81,8 +80,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Indifferently",
           correctAnswer: "Affectionately",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "One day, Lu and Wei happened to quarrel over some small ________.",
@@ -167,8 +164,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "affectionately",
           correctAnswer: "affectionately",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -176,7 +172,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Lu was known as a peaceful man by other students.",
           optionA: "True",
@@ -243,8 +238,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

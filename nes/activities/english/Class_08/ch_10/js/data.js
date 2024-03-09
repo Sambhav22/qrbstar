@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What did most students do during recess in the story?",
           optionA: "Headed to the burger shop",
@@ -85,8 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer:
             "B) Nature's gifts should be appreciated and not wasted",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The bell rang for recess, and the students spread out in the large lawn. Some headed towards the water taps while most sat in the grass to have their lunch in the winter sun. Saran and Madhur also had their books in their hands as they had to appear in the test soon after _______-time.",
@@ -167,8 +164,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "celebrate",
           correctAnswer: "B) starve",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -176,7 +172,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The students headed towards the water taps during recess.",
           optionA: "True",
@@ -244,8 +239,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the police superintendent Yelov wearing while walking across the market square?",
@@ -83,8 +82,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Condemns Prohor",
           correctAnswer: "b) Laughs at Hukin",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The police superintendent Yelov is walking across the market square wearing a new overcoat and carrying a parcel under his ___________.",
@@ -173,8 +170,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Neighbor",
           correctAnswer: "b) Brother",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -182,7 +178,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Uncertainty is part and parcel of life, which can either make or break a person.",
@@ -252,8 +247,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

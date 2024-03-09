@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "Whose woods are being described in the poem?",
           optionA: "The narrator's",
@@ -78,8 +77,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "To express the beauty of the woods",
           correctAnswer: "A. To emphasize the fatigue of the narrator",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -87,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "Whose woods ____ are I think I know.",
           optionA: "these",
@@ -160,8 +157,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "that",
           correctAnswer: "A. the",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -169,7 +165,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Jimmy Scarecrow's greatest grief in the winter was his lack of occupation.",
@@ -240,8 +235,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

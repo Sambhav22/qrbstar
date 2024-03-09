@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is Cyrus II of Persia better known as?",
           optionA: "Cyrus the Brave",
@@ -81,8 +80,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Recognition as a wise ruler",
           correctAnswer: "The largest kingdom on earth",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "Cyrus II of Persia is better known as ____________.",
           optionA: "Cyrus the Conqueror",
@@ -170,8 +167,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "History",
           correctAnswer: "History",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -179,7 +175,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Cyrus II of Persia is also known as Cyrus the Great.",
           optionA: "True",
@@ -248,8 +243,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

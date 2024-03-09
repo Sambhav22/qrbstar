@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What was the protagonist's initial suspicion upon arriving at the fort?",
@@ -92,8 +91,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "They were indifferent to the whole incident.",
           correctAnswer: "They laughed heartily at the situation.",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -101,7 +99,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Once the protagonist arrived at the fort, his friends gave him a __________ reception.",
@@ -182,8 +179,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Morning cup of tea",
           correctAnswer: "Morning cup of tea",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -191,7 +187,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The protagonist's friends were not fond of practical jokes.",
@@ -259,8 +254,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

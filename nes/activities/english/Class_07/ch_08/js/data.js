@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What does the text suggest about sharing joy and sorrow?",
           optionA: "Joy is shared widely, while sorrow is isolated.",
@@ -81,8 +80,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Life is a solitary experience.",
           correctAnswer: "B) Life involves both pleasure and pain.",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Laugh, and the world laughs with you; Weep, and you weep alone; For the sad old earth must borrow its __________.",
@@ -171,8 +168,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Life / Thrive / Fly",
           correctAnswer: "B) World / Live / Die",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -180,7 +176,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Jimmy Scarecrow's greatest grief in the winter was his lack of occupation.",
@@ -251,8 +246,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

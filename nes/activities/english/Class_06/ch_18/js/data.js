@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the sun described as in the given text?",
           optionA: "Warm and glittering",
@@ -82,8 +81,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "By creating a cool atmosphere",
           correctAnswer: "B) Through the broken edge of tiles",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Great is the sun, and wide he goes\nThrough empty heaven with ______;\nAnd in the blue and glowing days\nMore thick than rain he showers his ______.",
@@ -170,8 +167,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Shady parlour",
           correctAnswer: "B) Bright air",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -179,7 +175,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The sun's rays shower more thickly than rain.",
           optionA: "True",
@@ -248,8 +243,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

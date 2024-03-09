@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "Who is allowed to approach the king in person on audience day?",
@@ -85,8 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "A treasure trove of gold and jewels.",
           correctAnswer: "b) A bundle of old yellow rags.",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "It was ________ day at the king's court when anyone, rich or poor, could approach the king personally.",
@@ -175,8 +172,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Fabrics",
           correctAnswer: "b) Rags",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -184,7 +180,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The audience day at the king's court is a day for both the rich and poor to present their grievances to the king.",
@@ -255,8 +250,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

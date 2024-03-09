@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the primary focus of the poem?",
           optionA: "Animals in the forest",
@@ -88,8 +87,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer:
             "In the wealth of the wood since the world began, The trees have offered their gifts to man",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -97,7 +95,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "Many a tree is found in the ________.",
           optionA: "forest",
@@ -173,8 +170,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer:
             "In the wealth of the wood since the world began, The trees have offered their gifts to man",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -182,7 +178,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Trees are not found in forests.",
           optionA: "True",
@@ -245,8 +240,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

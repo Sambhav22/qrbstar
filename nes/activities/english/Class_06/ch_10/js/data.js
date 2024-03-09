@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What was Louisa May Alcott's naughty habit in her childhood?",
@@ -86,8 +85,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Eating different cuisines",
           correctAnswer: "B) Exploring new places",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -95,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Louisa May Alcott slipped out of the house and up the street as fast as her feet could carry her. Louisa thought the children she met were fine playmates, and they shared some cold potatoes and bread crusts with her. She would not have thought much of this lunch in her mother's dining-room, but for an outdoor picnic, it did very well. When she was tired of the ash heap, she bade the children goodbye and hop-skipped to the ________ area.",
@@ -176,8 +173,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "School",
           correctAnswer: "B) Hospital",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -185,7 +181,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Louisa May Alcott slipped out of the house and up the street as fast as her feet could carry her.",
@@ -256,8 +251,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

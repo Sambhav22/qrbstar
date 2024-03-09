@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What did the spotted cat find in the nest when she first discovered it?",
@@ -84,8 +83,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Angry",
           correctAnswer: "Angry",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "When the spotted cat first found the nest, it was ________.",
@@ -174,8 +171,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "happiest",
           correctAnswer: "worst",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -183,7 +179,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The spotted cat found two young birds in the nest when she first discovered it.",
@@ -252,8 +247,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

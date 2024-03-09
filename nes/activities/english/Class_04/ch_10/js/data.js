@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "Who abducted Sita?",
           optionA: "Vibhishana",
@@ -77,8 +76,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer:
             "To rescue her within a month or she might not be alive",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -86,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Rama was in exile for _________ years with his brother Lakshamana and wife Sita.",
@@ -160,8 +157,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "necklace",
           correctAnswer: "B) diadem",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -169,7 +165,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Rama was in exile for fourteen years with his brother Lakshamana and wife Sita.",
@@ -234,8 +229,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

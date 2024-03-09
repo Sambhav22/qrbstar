@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is Hughie's financial situation?",
           optionA: "A) He is wealthy",
@@ -82,8 +81,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "C) They elope",
           correctAnswer: "B) They get married with Baron Hausberg's blessing",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Hughie lives on an annual allowance of __________ pounds provided by his old aunt.",
@@ -172,8 +169,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "C) Baron Hausberg",
           correctAnswer: "C) Baron Hausberg",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -181,7 +177,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Hughie inherited a substantial amount of money from his family.",
@@ -250,8 +245,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

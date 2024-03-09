@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "Who created the fictional character Byomkesh Bakshi?",
           optionA: "Arthur Conan Doyle",
@@ -84,8 +83,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Sunday Suspense",
           correctAnswer: "The Big Bang Theory",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Byomkesh Bakshi has been a popular character in Bengali literature since ____ when he was characterized by the writer in 1932.",
@@ -174,8 +171,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Sunday Suspense",
           correctAnswer: "The Big Bang Theory",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -183,7 +179,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Byomkesh Bakshi was characterized by Sharadindu Bandyopadhyay in 1922.",
@@ -253,8 +248,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

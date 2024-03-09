@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the primary source of animal protein in the diet of many people in the country mentioned in the text?",
@@ -85,8 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer:
             "c. To preserve milk over a longer period and eliminate bacteria",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The cattle are often referred to as a farmer's second most precious possession after ______________.",
@@ -175,8 +172,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Housing",
           correctAnswer: "a. Milking",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -184,7 +180,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The cattle are considered a farmer's most precious possession after land.",
@@ -254,8 +249,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

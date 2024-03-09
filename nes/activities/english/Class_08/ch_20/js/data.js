@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What was the author's purpose for being at the railway station in the text?",
@@ -84,8 +83,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Offering help to the fruit vendor",
           correctAnswer: "A. Drawing a caricature",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The author was on his way from the ancient city of Ayodhya to ___________ during the course of his pilgrimage to holy cities.",
@@ -174,8 +171,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "monkeys",
           correctAnswer: "B. businessman",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -183,7 +179,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The author was on a pilgrimage from Ayodhya to Varanasi.",
           optionA: "True",
@@ -248,8 +243,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

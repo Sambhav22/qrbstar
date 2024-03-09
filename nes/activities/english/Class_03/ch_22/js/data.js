@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What animal is the central character of the story?",
           optionA: "Cat",
@@ -77,8 +76,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Escapes",
           correctAnswer: "Escapes",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -86,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "Bats catch their prey at _________.",
           optionA: "day",
@@ -159,8 +156,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "intelligence",
           correctAnswer: "tricks",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -168,7 +164,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Bats catch their prey during the day.",
           optionA: "True",
@@ -233,8 +228,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

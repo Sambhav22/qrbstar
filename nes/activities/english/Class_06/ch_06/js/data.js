@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What does the author consider uncertainty to be in life?",
           optionA: "A constant source of predictability",
@@ -86,8 +85,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Lack of challenges",
           correctAnswer: "B. Overcoming uncertainties",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -95,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Uncertainty is part and parcel of life, which can either make or ______ a person.",
@@ -175,8 +172,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Smooth",
           correctAnswer: "Wrong",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -184,7 +180,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Uncertainty can only break a person and does not contribute to personal growth.",
@@ -255,8 +250,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

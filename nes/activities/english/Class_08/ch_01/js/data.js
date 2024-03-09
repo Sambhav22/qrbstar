@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What disadvantage does the Invisible Man mention about his condition?",
@@ -83,8 +82,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Food",
           correctAnswer: "Money",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "The Invisible Man had no ____________ to provide shelter.",
           optionA: "Clothing",
@@ -172,8 +169,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Angrily",
           correctAnswer: "Quietly",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -181,7 +177,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The Invisible Man had a shelter to provide cover.",
           optionA: "True",
@@ -249,8 +244,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

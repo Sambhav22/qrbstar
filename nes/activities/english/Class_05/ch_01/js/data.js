@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "Why were the narrator's parents initially hesitant about sending her to the one-year education camp?",
@@ -92,8 +91,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "They were indifferent and showed no interest.",
           correctAnswer: "They decided to send their daughters to the camp.",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -101,7 +99,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The narrator's parents initially resisted sending her to the education camp because they believed ________________.",
@@ -182,8 +179,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Two kilometers",
           correctAnswer: "A kilometer",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -191,7 +187,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The narrator's parents initially believed that education was not beneficial for villagers.",
@@ -262,8 +257,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

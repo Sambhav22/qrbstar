@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the major source of water for India's economy?",
           optionA: "Lakes",
@@ -85,8 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Increased industrialization",
           correctAnswer: "b) Intensive study on possible effects",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "A museum is a storehouse of ________________.\nIt gives us a glimpse into our past through a variety of objects, like photographs, artifacts, statues, coins, weapons, clothes, jewellery, pottery, furniture and more. It holds the key to the country's historic, cultural, artistic and scientific past, so a museum is an important part and parcel of our national identity. It showcases development of heritage and culture in particular. This is the reason that we should visit different museums, so we can feel proud of our rich traditions. A museum is established to focus on the country's socio-cultural activities, entertainment of people, dissemination of information, preservation of natural heritage and strengthening national unity, because it is an important place to educate posterity about different aspects of life that the country has experienced in the bygone times. At present, there are over 400 museums located in different districts spread over the length and breadth of the country. We shall discuss only a few of them.",
@@ -175,8 +172,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "School",
           correctAnswer: "B) Hospital",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -184,7 +180,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "India's economy is primarily driven by the northeast monsoon.",
@@ -255,8 +250,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

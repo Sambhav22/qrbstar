@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the tiger's initial reaction to the beautiful day?",
@@ -87,8 +86,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer:
             "She looks on happily through the window as her father beats the tiger",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -96,7 +94,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "Tiger notices a young girl ________ firewood.",
           optionA: "burning",
@@ -172,8 +169,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "comforts",
           correctAnswer: "beats",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -181,7 +177,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Tiger initially plans to hunt for food on the pretty day.",
           optionA: "True",
@@ -251,8 +246,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

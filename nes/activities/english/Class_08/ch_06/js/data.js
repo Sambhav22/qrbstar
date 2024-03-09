@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What did the little girl usually ask for on Saturday mornings before breakfast?",
@@ -84,8 +83,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Show gratitude; cakes were eaten for Christmas",
           correctAnswer: "C) Show gratitude; cakes were eaten for Christmas",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The little girl asked her papa for a story, and he began telling one about a little ___________.",
@@ -174,8 +171,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Money",
           correctAnswer: "A) Voices",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -183,7 +179,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The little girl wanted Christmas every day, and the Christmas Fairy granted her wish for a year.",
@@ -254,8 +249,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

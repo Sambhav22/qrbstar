@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What was the governor's cruel proclamation in the story?",
           optionA: "All young people should be banished.",
@@ -91,8 +90,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer:
             "The cruel law was abolished, and the elderly could lead a dignified life.",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -100,7 +98,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Just at sunset, the poor farmer took a quantity of ______________, which was the principal food for the poor.",
@@ -180,8 +177,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Strength",
           correctAnswer: "Wisdom",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -189,7 +185,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The poor farmer and his aged mother lived at the foot of the mountain.",
@@ -257,8 +252,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

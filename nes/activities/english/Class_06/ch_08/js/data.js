@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "According to the legend, how did God initially create humans?",
@@ -91,8 +90,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer:
             "B) Work should be a common and happy occupation uniting all men",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -100,7 +98,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "God initially made men so that they had no need to ___________.",
@@ -180,8 +177,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Responsibility",
           correctAnswer: "A) Burden",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -189,7 +185,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Uncertainty is part and parcel of life, which can either make or break a person.",
@@ -259,8 +254,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

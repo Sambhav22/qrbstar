@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What fascinated Little Abdul about birds?",
           optionA: "Their ability to swim",
@@ -85,8 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "To always listen to his science teacher",
           correctAnswer: "To develop qualities that make him immune to harm",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "Little Abdul had a passion for ________.",
           optionA: "cars",
@@ -172,8 +169,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "creativity",
           correctAnswer: "observation",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -181,7 +177,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Abdul Kalam was primarily interested in studying birds because of their majestic flight.",
@@ -250,8 +245,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

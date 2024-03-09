@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is Neel Kamal's appearance at the railway station?",
           optionA: "Bald with a red shirt",
@@ -81,8 +80,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Artificially respectful",
           correctAnswer: "C) Artificially respectful",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Neel Kamal ordered a full plate of ___________ at the railway station cafeteria.",
@@ -171,8 +168,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Sweetness",
           correctAnswer: "C) Sweetness",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -180,7 +176,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Neel Kamal ordered a full plate of Chhole-bhature at the railway station cafeteria.",
@@ -250,8 +245,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

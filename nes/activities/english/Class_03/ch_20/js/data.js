@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What task did the farmer need money for?",
           optionA: "Buying a new donkey",
@@ -91,8 +90,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "To keep walking regardless of others' opinions",
           correctAnswer: "To keep walking regardless of others' opinions",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -100,7 +98,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "What task did the farmer need money for?",
           optionA: "Buying a new donkey",
@@ -186,8 +183,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "To keep walking regardless of others' opinions",
           correctAnswer: "To keep walking regardless of others' opinions",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -195,7 +191,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The farmer needed money for buying a new house.",
           optionA: "True",
@@ -264,8 +259,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What fascinated Albert Einstein as a young boy?",
           optionA: "A toy compass",
@@ -80,8 +79,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "As irrelevant",
           correctAnswer: "B) As the future hope of the world",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -89,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Albert Einstein's father brought him a _________ as a small boy.",
@@ -169,8 +166,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Japan",
           correctAnswer: "B) India",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -178,7 +174,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Albert Einstein understood the principle of magnetism when he received the compass.",
@@ -240,8 +235,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

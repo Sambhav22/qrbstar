@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is described as a joy in the given text?",
           optionA: "Life",
@@ -80,8 +79,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Sun's warmth",
           correctAnswer: "B) Twinkling stars",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -89,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "Birth is a _______.",
           optionA: "Challenge",
@@ -160,8 +157,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Monsters",
           correctAnswer: "B) Beasts",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -169,7 +165,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The flight of birds in the sky is described as dull.",
           optionA: "True",
@@ -235,8 +230,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

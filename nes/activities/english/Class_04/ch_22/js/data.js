@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "In South Africa, who primarily ruled the country during the time mentioned in the passage?",
@@ -86,8 +85,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "He wanted to trick the policeman",
           correctAnswer: "He thought the policeman was running for exercise",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -95,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "In South Africa, the white people ruled the country and discriminated against the ________ people.",
@@ -176,8 +173,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "competition",
           correctAnswer: "exercise",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -185,7 +181,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The white people ruled South Africa and discriminated against the black people.",
@@ -256,8 +251,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What was the primary reason the youngest brother suggested taking charge of the finances?",
@@ -93,8 +92,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "He was being sarcastic and mocking the second brother",
           correctAnswer: "B) He wanted to distract them from the deception",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -102,7 +100,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The youngest brother suggested taking charge of the finances because he believed the eldest brother's sight was so bad that he couldn't distinguish between _______ and _______.",
@@ -183,8 +180,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Floral decoration",
           correctAnswer: "C) Floral decoration",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -192,7 +188,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The youngest brother suggested taking charge of the finances due to the eldest brother's poor eyesight.",
@@ -263,8 +258,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

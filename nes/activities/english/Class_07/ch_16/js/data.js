@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "Who was the Chief Presidency Magistrate of Calcutta during the early phase of revolutionaries in India?",
@@ -83,8 +82,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "To have a state funeral",
           correctAnswer: "b. To be cremated in the jail itself",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "In 1947, India gained her freedom on ________ August.",
           optionA: "14th",
@@ -172,8 +169,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Savarkar",
           correctAnswer: "b. Kalidas Bose",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -181,7 +177,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "India gained her freedom on 15 August, 1947.",
           optionA: "True",
@@ -251,8 +246,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

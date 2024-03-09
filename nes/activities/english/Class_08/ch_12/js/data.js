@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What was the Minister's initial reaction to the man digging a pit by the roadside?",
@@ -90,8 +89,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "c) He confronted his father about the plan.",
           correctAnswer: "b) He switched the letters to save the wise man.",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -99,7 +97,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The Minister was riding his horse through the country to ________ how people lived.",
@@ -180,8 +177,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "c) mistake",
           correctAnswer: "a) plan",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -189,7 +185,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The Minister rewarded the man by giving him money.",
           optionA: "True",
@@ -257,8 +252,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

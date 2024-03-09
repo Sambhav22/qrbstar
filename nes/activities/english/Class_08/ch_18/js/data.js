@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What color was the Doll's house described as?",
           optionA: "Blue",
@@ -83,8 +82,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "She ignored them",
           correctAnswer: "B) She apologized and invited them for tea",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The doll's house was painted in a dark, oily, spinach green, picked out with bright ___________.",
@@ -171,8 +168,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "She ignored them",
           correctAnswer: "B) She apologized and invited them for tea",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -180,7 +176,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The doll's house was painted in a dark, oily, spinach green, picked out with bright yellow.",
@@ -250,8 +245,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "If you can trust yourself when all men doubt you, what should you also do?",
@@ -86,8 +85,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Lose the common touch",
           correctAnswer: "B. Keep your virtue",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -95,7 +93,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "If you can trust yourself when all men doubt you, what should you also do?\n- If you can wait and not be tired by _______,",
@@ -173,8 +170,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "often",
           correctAnswer: "B. much",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -182,7 +178,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Muni could sit under the belly of the horse for shade.",
           optionA: "True",
@@ -252,8 +247,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

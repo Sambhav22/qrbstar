@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "Why were Deepa and Ayush unhappy?",
           optionA: "Because they couldn't find their friend Kunal",
@@ -89,8 +88,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer:
             "They vow to conserve water and spread awareness about it",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -98,7 +96,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "Mummy chided Deepa and Ayush for ________.",
           optionA: "leaving the door open",
@@ -178,8 +175,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "forget about water conservation",
           correctAnswer: "conserve water and raise awareness",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -187,7 +183,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Deepa and Ayush felt happy when their mother reminded them to conserve water.",
@@ -257,8 +252,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

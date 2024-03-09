@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "Why does the narrator like the TV soap mentioned in the text?",
@@ -87,8 +86,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Only weekends for TV",
           correctAnswer: "One hour of TV every day",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -96,7 +94,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The family sat clung to the __________ screen tuned to their favorite soap opera.",
@@ -177,8 +174,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Two",
           correctAnswer: "One",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -186,7 +182,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The family watched their favorite soap opera every evening.",
@@ -257,8 +252,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

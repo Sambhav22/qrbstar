@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What were the five gifts presented by the fairy?",
           optionA: "Beauty, Wisdom, Power, Joy, Knowledge",
@@ -83,8 +82,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Health",
           correctAnswer: "Health",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "In the morning of life, a good fairy came with her basket, offering __________ as gifts.",
@@ -173,8 +170,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Health",
           correctAnswer: "Health",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -182,7 +178,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Gautam decided to present the enormous turnip to the king.",
@@ -251,8 +246,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

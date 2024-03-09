@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What did the Play Angel do to solve the problem of the small cookie?",
@@ -82,8 +81,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "The little birds",
           correctAnswer: "The Play Angel herself",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The child whose nursery it was wanted to have a grand feast, but there was only _________ cookie.",
@@ -170,8 +167,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "The little birds",
           correctAnswer: "The Play Angel herself",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -179,7 +175,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The child whose nursery it was wanted to have a grand feast because there was only one small cookie.",
@@ -248,8 +243,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

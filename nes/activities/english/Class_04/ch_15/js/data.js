@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What was the first reaction of the six blind men when the mahout offered them to feel the elephant?",
@@ -79,8 +78,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Enlightened",
           correctAnswer: "Enlightened",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -88,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "What did the six blind men use to navigate while walking?",
           optionA: "Sticks",
@@ -164,8 +161,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Enlightened",
           correctAnswer: "Enlightened",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -173,7 +169,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The blind men had sight.",
           optionA: "True",
@@ -241,8 +236,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

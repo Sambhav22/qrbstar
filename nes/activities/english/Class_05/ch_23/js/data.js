@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "Why did people cut down the palm trees near the beach?",
           optionA: "For building sandcastles",
@@ -82,8 +81,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Loneliness",
           correctAnswer: "Courage and patience",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "Muthu's grandfather lived in ________ in Tamil Nadu.",
           optionA: "Puthur",
@@ -169,8 +166,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Sadness",
           correctAnswer: "Patience",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -178,7 +174,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Muthu's grandfather lived in Puthur in Tamil Nadu.",
           optionA: "True",
@@ -246,8 +241,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

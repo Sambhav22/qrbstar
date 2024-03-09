@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What happens if you spring a leak while rowing your boat?",
           optionA: "You might get your bottom wet",
@@ -84,8 +83,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Until you hit the waterfall",
           correctAnswer: "Until you hit the waterfall",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -93,7 +91,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "Row, row, row your boat, gently up the __________.",
           optionA: "creek",
@@ -167,8 +164,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "scream",
           correctAnswer: "scream",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -176,7 +172,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Row, row, row your boat, gently up the creek.",
           optionA: "True",
@@ -239,8 +234,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

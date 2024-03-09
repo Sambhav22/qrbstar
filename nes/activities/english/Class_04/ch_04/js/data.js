@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What does the zebra say about the king?",
           optionA: "He kills them for food only.",
@@ -82,8 +81,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "He jumps into the well and meets his end.",
           correctAnswer: "He jumps into the well and meets his end.",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The zebra says, 'Yes, the king kills us for food and for ________.'",
@@ -171,8 +168,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "nothing",
           correctAnswer: "nothing",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -180,7 +176,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The lion kills the animals in the forest for food and game.",
@@ -248,8 +243,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "True",
         },
-      ],
-    ],
+   ],
   };
 }
 

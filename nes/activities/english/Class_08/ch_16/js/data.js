@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is the name given to the hippopotamus in the story?",
           optionA: "Glinkomok",
@@ -80,8 +79,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "Became angry and vengeful",
           correctAnswer: "B) Laughed at the situation",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -89,7 +87,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "On one of the upper branches of the Congo river lived an ancient and aristocratic family of ______________, which boasted a pedigree dating back beyond the existence of mankind.",
@@ -169,8 +166,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "Year and a day",
           correctAnswer: "C) Year and a day",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -178,7 +174,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "India gained her freedom on 15 August, 1947.",
           optionA: "True",
@@ -248,8 +243,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What was Aunt Ruby's attitude towards the parrot?",
           optionA: "She was kind and loving",
@@ -83,8 +82,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC: "She ignored it",
           correctAnswer: "She praised it",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "Aunt Ruby try to teach ________ the parrot?",
           optionA: "Singing",
@@ -167,8 +164,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionC: "A regular visitor mocking her",
           correctAnswer: "A regular visitor mocking her",
         },
-      ],
-    ],
+   ],
   };
 }
 
@@ -176,7 +172,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Aunt Ruby successfully taught the parrot to talk.",
           optionA: "True",
@@ -246,8 +241,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           optionB: "False",
           correctAnswer: "False",
         },
-      ],
-    ],
+   ],
   };
 }
 
