@@ -185,68 +185,68 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "John Clemens, Samuel's father, was a farmer, merchant, and postmaster in a Missouri town called Florida.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Mrs. Clemens liked to have people around when she was bustling through the housework.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Uncle Ned, a coloured farm-hand, was not a good storyteller according to the children.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Sam Clemens was often called 'Little Joe' by his neighbors.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "The Clemens family spent their summers on the Smith farm.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Sam's mother, Mrs. Clemens, went ahead to Quarles farm in a car with the older children, the new baby, and Jennie.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Sam had brown hair and fine gray eyes when he was nine.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Sam learned the carpenter's trade after his father's death.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Sam visited Europe, Asia, and South America during his travels.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Sam signed his writings with the name 'Little Sam.'",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "False",
         },
       ],

@@ -185,69 +185,69 @@ if (localStorage.getItem("activityNumber") == 3) {
         {
           question:
             "Hughie inherited a substantial amount of money from his family.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Alan Trevor is a renowned musician.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Hughie's aunt provides him with an annual allowance of £200.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "The mysterious beggar model in the studio turns out to be Baron Hausberg.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Alan charges 1000 guineas for the portrait he is working on.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "The old beggar model in the studio is genuinely poor and in need of alms.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Baron Hausberg gives Hughie a cheque as a wedding present, and the amount is £10,000.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "True",
         },
         {
           question:
             "Hughie initially thought that the model in the studio was Alan Trevor.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "False",
         },
         {
           question: "Hughie and Laura break up in the end.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "False",
         },
         {
           question:
             "Alan Trevor is in fits of laughter when Hughie leaves his studio.",
-          optionTrue: "True",
-          optionFalse: "False",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "True",
         },
       ],
