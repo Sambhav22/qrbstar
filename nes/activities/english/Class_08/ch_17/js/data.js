@@ -36,14 +36,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Farmer, merchant, and postmaster",
           optionB: "Doctor and scholar",
           optionC: "Inventor and scientist",
-          correctAnswer: "A) Farmer, merchant, and postmaster",
+          correctAnswer: "Farmer, merchant, and postmaster",
         }),
       shuffleOptions({
           question: "What was the personality of John Clemens like?",
           optionA: "Merry and jolly",
           optionB: "Serious and not merry",
           optionC: "Adventurous and carefree",
-          correctAnswer: "B) Serious and not merry",
+          correctAnswer: "Serious and not merry",
         }),
       shuffleOptions({
           question: "What did the Clemens children do during the day?",
@@ -51,7 +51,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "Roamed through the country, picking nuts and berries",
           optionC: "Attended school and studied",
           correctAnswer:
-            "B) Roamed through the country, picking nuts and berries",
+            "Roamed through the country, picking nuts and berries",
         }),
       shuffleOptions({
           question:
@@ -59,7 +59,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "John Clemens",
           optionB: "Jane Clemens",
           optionC: "Uncle Ned",
-          correctAnswer: "C) Uncle Ned",
+          correctAnswer: "Uncle Ned",
         }),
       shuffleOptions({
           question:
@@ -67,7 +67,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Little Joe",
           optionB: "Little Sam",
           optionC: "Little Mark",
-          correctAnswer: "B) Little Sam",
+          correctAnswer: "Little Sam",
         }),
       shuffleOptions({
           question:
@@ -75,21 +75,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Florida",
           optionB: "Hannibal",
           optionC: "Quarles farm",
-          correctAnswer: "C) Quarles farm",
+          correctAnswer: "Quarles farm",
         }),
       shuffleOptions({
           question: "What did Samuel Clemens admire Uncle Ned for?",
           optionA: "Cooking skills",
           optionB: "Storytelling",
           optionC: "Singing",
-          correctAnswer: "B) Storytelling",
+          correctAnswer: "Storytelling",
         }),
       shuffleOptions({
           question: "At what age did Samuel Clemens start going to school?",
           optionA: "3",
           optionB: "5",
           optionC: "9",
-          correctAnswer: "B) 5",
+          correctAnswer: "5",
         }),
       shuffleOptions({
           question:
@@ -97,7 +97,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Farmer",
           optionB: "Pilot",
           optionC: "Doctor",
-          correctAnswer: "B) Pilot",
+          correctAnswer: "Pilot",
         }),
       shuffleOptions({
           question:
@@ -105,7 +105,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Samuel Clemens Jr.",
           optionB: "Mark Twain",
           optionC: "John Briggs",
-          correctAnswer: "B) Mark Twain",
+          correctAnswer: "Mark Twain",
    }),
     ]),
   }
@@ -122,7 +122,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Uncle",
           optionB: "Father",
           optionC: "Brother",
-          correctAnswer: "B) Father",
+          correctAnswer: "Father",
         }),
       shuffleOptions({
           question:
@@ -130,7 +130,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Library",
           optionB: "Housework",
           optionC: "Garden",
-          correctAnswer: "B) Housework",
+          correctAnswer: "Housework",
         }),
       shuffleOptions({
           question:
@@ -138,7 +138,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Musician",
           optionB: "Storyteller",
           optionC: "Magician",
-          correctAnswer: "B) Storyteller",
+          correctAnswer: "Storyteller",
         }),
       shuffleOptions({
           question:
@@ -146,7 +146,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Joe",
           optionB: "Tom",
           optionC: "Sam",
-          correctAnswer: "C) Sam",
+          correctAnswer: "Sam",
         }),
       shuffleOptions({
           question:
@@ -154,7 +154,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Smith",
           optionB: "Quarles",
           optionC: "Thompson",
-          correctAnswer: "B) Quarles",
+          correctAnswer: "Quarles",
         }),
       shuffleOptions({
           question:
@@ -162,7 +162,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Wagon",
           optionB: "Car",
           optionC: "Boat",
-          correctAnswer: "A) Wagon",
+          correctAnswer: "Wagon",
         }),
       shuffleOptions({
           question:
@@ -170,7 +170,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Brown",
           optionB: "Black",
           optionC: "Sandy",
-          correctAnswer: "C) Sandy",
+          correctAnswer: "Sandy",
         }),
       shuffleOptions({
           question:
@@ -178,7 +178,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Blacksmith",
           optionB: "Printer's",
           optionC: "Carpenter's",
-          correctAnswer: "B) Printer's",
+          correctAnswer: "Printer's",
         }),
       shuffleOptions({
           question:
@@ -186,7 +186,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Europe",
           optionB: "Asia",
           optionC: "South America",
-          correctAnswer: "C) South America",
+          correctAnswer: "South America",
         }),
       shuffleOptions({
           question:
@@ -194,7 +194,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Carpenter's",
           optionB: "Farmer's",
           optionC: "Printer's",
-          correctAnswer: "C) Printer's",
+          correctAnswer: "Printer's",
    }),
     ]),
   }

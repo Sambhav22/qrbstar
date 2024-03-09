@@ -36,7 +36,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "During the Mauryan period",
           optionB: "In the 14th century",
           optionC: "Its origin is unclear",
-          correctAnswer: "c) Its origin is unclear",
+          correctAnswer: "Its origin is unclear",
         }),
       shuffleOptions({
           question:
@@ -44,7 +44,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Akbar",
           optionB: "Alauddin Khalji",
           optionC: "Babur",
-          correctAnswer: "b) Alauddin Khalji",
+          correctAnswer: "Alauddin Khalji",
         }),
       shuffleOptions({
           question:
@@ -52,7 +52,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "She surrendered to him willingly",
           optionB: "She sent her mirror image to him",
           optionC: "She fled the fort with her army",
-          correctAnswer: "b) She sent her mirror image to him",
+          correctAnswer: "She sent her mirror image to him",
         }),
       shuffleOptions({
           question:
@@ -60,21 +60,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Bahadur Shah",
           optionB: "Humayun",
           optionC: "Rana Sanga",
-          correctAnswer: "a) Bahadur Shah",
+          correctAnswer: "Bahadur Shah",
         }),
       shuffleOptions({
           question: "Why did Queen Karnavati send a Rakhi to Humayun?",
           optionA: "To seek revenge",
           optionB: "To request help against an invasion",
           optionC: "As a gesture of goodwill",
-          correctAnswer: "b) To request help against an invasion",
+          correctAnswer: "To request help against an invasion",
         }),
       shuffleOptions({
           question: "Who was the grandmother of Maharana Pratap?",
           optionA: "Rana Sanga",
           optionB: "Karnavati",
           optionC: "Parma Dhai",
-          correctAnswer: "b) Karnavati",
+          correctAnswer: "Karnavati",
         }),
       shuffleOptions({
           question:
@@ -82,21 +82,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "It commemorates Mewar's victory over Malwa",
           optionB: "It is a Jain temple",
           optionC: "It was the site of a Jauhar",
-          correctAnswer: "a) It commemorates Mewar's victory over Malwa",
+          correctAnswer: "It commemorates Mewar's victory over Malwa",
         }),
       shuffleOptions({
           question: "How many acres of land does Chittor Fort cover?",
           optionA: "500 acres",
           optionB: "700 acres",
           optionC: "1000 acres",
-          correctAnswer: "b) 700 acres",
+          correctAnswer: "700 acres",
         }),
       shuffleOptions({
           question: "Which festival is associated with Queen Karnavati?",
           optionA: "Diwali",
           optionB: "Holi",
           optionC: "Rakhi",
-          correctAnswer: "c) Rakhi",
+          correctAnswer: "Rakhi",
         }),
       shuffleOptions({
           question:
@@ -104,7 +104,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "A musical festival",
           optionB: "Jauhar Mela",
           optionC: "A religious procession",
-          correctAnswer: "b) Jauhar Mela",
+          correctAnswer: "Jauhar Mela",
    }),
     ]),
   }
@@ -121,7 +121,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Marwar",
           optionB: "Mewar",
           optionC: "Shekhawati",
-          correctAnswer: "b) Mewar",
+          correctAnswer: "Mewar",
         }),
       shuffleOptions({
           question:
@@ -129,7 +129,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Regional",
           optionB: "National",
           optionC: "International",
-          correctAnswer: "b) National",
+          correctAnswer: "National",
         }),
       shuffleOptions({
           question:
@@ -137,7 +137,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "500",
           optionB: "700",
           optionC: "1000",
-          correctAnswer: "b) 700",
+          correctAnswer: "700",
         }),
       shuffleOptions({
           question:
@@ -145,7 +145,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "12th",
           optionB: "14th",
           optionC: "16th",
-          correctAnswer: "b) 14th",
+          correctAnswer: "14th",
         }),
       shuffleOptions({
           question:
@@ -153,7 +153,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Jal Mahal",
           optionB: "Kirti Stambh",
           optionC: "Vijay Stambh",
-          correctAnswer: "a) Jal Mahal",
+          correctAnswer: "Jal Mahal",
         }),
       shuffleOptions({
           question:
@@ -161,7 +161,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "100",
           optionB: "200",
           optionC: "300",
-          correctAnswer: "b) 200",
+          correctAnswer: "200",
         }),
       shuffleOptions({
           question:
@@ -169,7 +169,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Alauddin Khalji",
           optionB: "Humayun",
           optionC: "Babur",
-          correctAnswer: "b) Humayun",
+          correctAnswer: "Humayun",
         }),
       shuffleOptions({
           question:
@@ -177,7 +177,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Bahadur",
           optionB: "Akbar",
           optionC: "Babur",
-          correctAnswer: "a) Bahadur",
+          correctAnswer: "Bahadur",
         }),
       shuffleOptions({
           question:
@@ -185,7 +185,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Rana Sanga",
           optionB: "Ratan Singh",
           optionC: "Udai Singh",
-          correctAnswer: "c) Udai Singh",
+          correctAnswer: "Udai Singh",
         }),
       shuffleOptions({
           question:
@@ -193,7 +193,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Victory",
           optionB: "Heritage",
           optionC: "Jauhar",
-          correctAnswer: "b) Jauhar Mela",
+          correctAnswer: "Jauhar Mela",
    }),
     ]),
   }

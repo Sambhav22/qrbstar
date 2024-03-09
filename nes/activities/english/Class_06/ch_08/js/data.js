@@ -37,7 +37,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "With the need for work and cooperation",
           optionB: "Without the need for work and self-sufficiency",
           optionC: "With the ability to live forever",
-          correctAnswer: "B) Without the need for work and self-sufficiency",
+          correctAnswer: "Without the need for work and self-sufficiency",
         }),
       shuffleOptions({
           question:
@@ -45,7 +45,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "They were happy and content",
           optionB: "They were quarrelling and cursing life",
           optionC: "They were working together harmoniously",
-          correctAnswer: "B) They were quarrelling and cursing life",
+          correctAnswer: "They were quarrelling and cursing life",
         }),
       shuffleOptions({
           question:
@@ -53,7 +53,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "To make them suffer from cold and hunger",
           optionB: "To bring them together and promote unity",
           optionC: "To test their ability to work independently",
-          correctAnswer: "B) To bring them together and promote unity",
+          correctAnswer: "To bring them together and promote unity",
         }),
       shuffleOptions({
           question:
@@ -62,7 +62,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "By cherishing the moments of life and helping each other",
           optionC: "By avoiding work and idling away their time",
           correctAnswer:
-            "B) By cherishing the moments of life and helping each other",
+            "By cherishing the moments of life and helping each other",
         }),
       shuffleOptions({
           question:
@@ -70,7 +70,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "People became more compassionate and caring",
           optionB: "Sickness divided people even more",
           optionC: "The wealthy took better care of the sick",
-          correctAnswer: "B) Sickness divided people even more",
+          correctAnswer: "Sickness divided people even more",
         }),
       shuffleOptions({
           question:
@@ -78,7 +78,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "To punish them for their sins",
           optionB: "To test their resilience and strength",
           optionC: "To encourage compassion and mutual help",
-          correctAnswer: "C) To encourage compassion and mutual help",
+          correctAnswer: "To encourage compassion and mutual help",
         }),
       shuffleOptions({
           question:
@@ -87,7 +87,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "They forced others to work for them, even when sick",
           optionC: "They focused on their own well-being",
           correctAnswer:
-            "B) They forced others to work for them, even when sick",
+            "They forced others to work for them, even when sick",
         }),
       shuffleOptions({
           question:
@@ -95,7 +95,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "To justify their fear of the sick",
           optionB: "To promote quarantine practices",
           optionC: "To encourage sympathy and care for the sick",
-          correctAnswer: "A) To justify their fear of the sick",
+          correctAnswer: "To justify their fear of the sick",
         }),
       shuffleOptions({
           question:
@@ -104,7 +104,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "They learned to live in unity and love",
           optionC: "They found happiness through individual pursuits",
           correctAnswer:
-            "A) They continued to suffer without understanding happiness",
+            "They continued to suffer without understanding happiness",
         }),
       shuffleOptions({
           question:
@@ -114,7 +114,7 @@ if (localStorage.getItem("activityNumber") == 1) {
             "Work should be a common and happy occupation uniting all men",
           optionC: "Work is a burden that should be avoided",
           correctAnswer:
-            "B) Work should be a common and happy occupation uniting all men",
+            "Work should be a common and happy occupation uniting all men",
    }),
     ]),
   }
@@ -131,7 +131,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Quarrel",
           optionB: "Work",
           optionC: "Travel",
-          correctAnswer: "B) Work",
+          correctAnswer: "Work",
         }),
       shuffleOptions({
           question:
@@ -139,7 +139,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Celebrated",
           optionB: "Cursed",
           optionC: "Ignored",
-          correctAnswer: "B) Cursed",
+          correctAnswer: "Cursed",
         }),
       shuffleOptions({
           question:
@@ -147,7 +147,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Vegetables",
           optionB: "Fruits",
           optionC: "Flowers",
-          correctAnswer: "B) Fruits",
+          correctAnswer: "Fruits",
         }),
       shuffleOptions({
           question:
@@ -155,7 +155,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Successfully",
           optionB: "Otherwise",
           optionC: "Advantageously",
-          correctAnswer: "B) Otherwise",
+          correctAnswer: "Otherwise",
         }),
       shuffleOptions({
           question:
@@ -163,7 +163,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "United",
           optionB: "Happy",
           optionC: "Fearful",
-          correctAnswer: "B) Happy",
+          correctAnswer: "Happy",
         }),
       shuffleOptions({
           question:
@@ -171,7 +171,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Abundance",
           optionB: "Sickness",
           optionC: "Wealth",
-          correctAnswer: "B) Sickness",
+          correctAnswer: "Sickness",
         }),
       shuffleOptions({
           question:
@@ -179,7 +179,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Wealthier",
           optionB: "Weaker",
           optionC: "Wiser",
-          correctAnswer: "B) Weaker",
+          correctAnswer: "Weaker",
         }),
       shuffleOptions({
           question:
@@ -187,14 +187,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Pleasures",
           optionB: "Benefits",
           optionC: "Weariness",
-          correctAnswer: "C) Weariness",
+          correctAnswer: "Weariness",
         }),
       shuffleOptions({
           question: "Each set of men feared and hated the ___________.",
           optionA: "Unknown",
           optionB: "Other",
           optionC: "Future",
-          correctAnswer: "B) Other",
+          correctAnswer: "Other",
         }),
       shuffleOptions({
           question:
@@ -202,7 +202,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Burden",
           optionB: "Joy",
           optionC: "Responsibility",
-          correctAnswer: "A) Burden",
+          correctAnswer: "Burden",
    }),
     ]),
   }

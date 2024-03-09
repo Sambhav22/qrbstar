@@ -38,7 +38,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "To prevent the eldest brother from being cheated",
           optionC:
             "To prove that he could handle finances better than the others",
-          correctAnswer: "B) To prevent the eldest brother from being cheated",
+          correctAnswer: "To prevent the eldest brother from being cheated",
         }),
       shuffleOptions({
           question: "Why did the second brother sneer at the youngest brother?",
@@ -48,7 +48,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC:
             "He believed the youngest brother's vision was no better than his own",
           correctAnswer:
-            "C) He believed the youngest brother's vision was no better than his own",
+            "He believed the youngest brother's vision was no better than his own",
         }),
       shuffleOptions({
           question:
@@ -58,7 +58,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC:
             "He went to the monastery beforehand and learned about the inscription",
           correctAnswer:
-            "C) He went to the monastery beforehand and learned about the inscription",
+            "He went to the monastery beforehand and learned about the inscription",
         }),
       shuffleOptions({
           question:
@@ -66,7 +66,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Be Honest At All Times",
           optionB: "Honesty is the Best Policy",
           optionC: "Always Speak the Truth",
-          correctAnswer: "A) Be Honest At All Times",
+          correctAnswer: "Be Honest At All Times",
         }),
       shuffleOptions({
           question:
@@ -74,7 +74,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Its profound wisdom",
           optionB: "The flowery border around it",
           optionC: "The absence of any additional writing",
-          correctAnswer: "B) The flowery border around it",
+          correctAnswer: "The flowery border around it",
         }),
       shuffleOptions({
           question:
@@ -82,7 +82,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "A hidden message",
           optionB: "The name of the donor, Wang Lee",
           optionC: "A mistake in the inscription",
-          correctAnswer: "B) The name of the donor, Wang Lee",
+          correctAnswer: "The name of the donor, Wang Lee",
         }),
       shuffleOptions({
           question:
@@ -92,7 +92,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC:
             "He paid close attention to their descriptions of the tablet",
           correctAnswer:
-            "C) He paid close attention to their descriptions of the tablet",
+            "He paid close attention to their descriptions of the tablet",
         }),
       shuffleOptions({
           question:
@@ -100,7 +100,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Admitted to his deception",
           optionB: "Laughed at the monk's mistake",
           optionC: "Accused the monk of lying",
-          correctAnswer: "A) Admitted to his deception",
+          correctAnswer: "Admitted to his deception",
         }),
       shuffleOptions({
           question:
@@ -108,7 +108,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Continue with their plan to test their vision",
           optionB: "Apologize to the monk and leave",
           optionC: "Agree to continue handling finances as before",
-          correctAnswer: "C) Agree to continue handling finances as before",
+          correctAnswer: "Agree to continue handling finances as before",
         }),
       shuffleOptions({
           question:
@@ -116,7 +116,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "He genuinely admired the second brother's vision",
           optionB: "He wanted to distract them from the deception",
           optionC: "He was being sarcastic and mocking the second brother",
-          correctAnswer: "B) He wanted to distract them from the deception",
+          correctAnswer: "He wanted to distract them from the deception",
    }),
     ]),
   }
@@ -133,7 +133,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Small notes, large notes",
           optionB: "Genuine coins, counterfeit ones",
           optionC: "Silver coins, gold coins",
-          correctAnswer: "B) Genuine coins, counterfeit ones",
+          correctAnswer: "Genuine coins, counterfeit ones",
         }),
       shuffleOptions({
           question:
@@ -141,7 +141,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Ten, five",
           optionB: "Twenty, two",
           optionC: "Fifteen, three",
-          correctAnswer: "B) Twenty, two",
+          correctAnswer: "Twenty, two",
         }),
       shuffleOptions({
           question:
@@ -149,7 +149,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Clearest",
           optionB: "Farsighted",
           optionC: "Best",
-          correctAnswer: "C) Best",
+          correctAnswer: "Best",
         }),
       shuffleOptions({
           question:
@@ -157,7 +157,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Difficulty",
           optionB: "Strain",
           optionC: "Effort",
-          correctAnswer: "B) Strain",
+          correctAnswer: "Strain",
         }),
       shuffleOptions({
           question:
@@ -165,7 +165,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Be Truthful Always",
           optionB: "Speak Honestly At All Times",
           optionC: "Be Honest At All Times",
-          correctAnswer: "C) Be Honest At All Times",
+          correctAnswer: "Be Honest At All Times",
         }),
       shuffleOptions({
           question:
@@ -173,7 +173,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Flowery border",
           optionB: "Golden frame",
           optionC: "Silver lining",
-          correctAnswer: "A) Flowery border",
+          correctAnswer: "Flowery border",
         }),
       shuffleOptions({
           question:
@@ -181,7 +181,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Wang Lee",
           optionB: "Zhang Wei",
           optionC: "Li Chen",
-          correctAnswer: "A) Wang Lee",
+          correctAnswer: "Wang Lee",
         }),
       shuffleOptions({
           question:
@@ -189,7 +189,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Chen Wei",
           optionB: "Wang Lee",
           optionC: "Li Zhang",
-          correctAnswer: "B) Wang Lee",
+          correctAnswer: "Wang Lee",
         }),
       shuffleOptions({
           question:
@@ -197,7 +197,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Speak Truthfully Always",
           optionB: "Be Honest At All Times",
           optionC: "Honesty is the Best Policy",
-          correctAnswer: "B) Be Honest At All Times",
+          correctAnswer: "Be Honest At All Times",
         }),
       shuffleOptions({
           question:
@@ -205,7 +205,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Engraved pattern",
           optionB: "Decorative frame",
           optionC: "Floral decoration",
-          correctAnswer: "C) Floral decoration",
+          correctAnswer: "Floral decoration",
    }),
     ]),
   }

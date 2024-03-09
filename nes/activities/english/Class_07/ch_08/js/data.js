@@ -36,28 +36,28 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Joy is shared widely, while sorrow is isolated.",
           optionB: "Both joy and sorrow are shared equally.",
           optionC: "Sorrow is welcomed more than joy.",
-          correctAnswer: "A) Joy is shared widely, while sorrow is isolated.",
+          correctAnswer: "Joy is shared widely, while sorrow is isolated.",
         }),
       shuffleOptions({
           question: "According to the text, what happens when you sing?",
           optionA: "The hills respond with joy.",
           optionB: "The air absorbs the sound.",
           optionC: "The echoes convey a sense of care.",
-          correctAnswer: "A) The hills respond with joy.",
+          correctAnswer: "The hills respond with joy.",
         }),
       shuffleOptions({
           question: "What is the outcome of being glad, according to the text?",
           optionA: "You gain numerous friends.",
           optionB: "You lose all your friends.",
           optionC: "Your friends become indifferent.",
-          correctAnswer: "A) You gain numerous friends.",
+          correctAnswer: "You gain numerous friends.",
         }),
       shuffleOptions({
           question: "How is the reaction of people to someone who is grieving?",
           optionA: "They seek the person.",
           optionB: "They turn away and leave.",
           optionC: "They join in the sorrow.",
-          correctAnswer: "B) They turn away and leave.",
+          correctAnswer: "They turn away and leave.",
         }),
       shuffleOptions({
           question: "What does the text suggest about success and generosity?",
@@ -65,7 +65,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "Success is irrelevant to living a fulfilling life.",
           optionC: "Generosity is not appreciated in life.",
           correctAnswer:
-            "A) Success and giving contribute to a fulfilling life.",
+            "Success and giving contribute to a fulfilling life.",
         }),
       shuffleOptions({
           question: "How is feasting contrasted with fasting in the text?",
@@ -74,7 +74,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "Feasting attracts attention, while fasting is overlooked.",
           optionC: "Feasting and fasting have the same impact on the world.",
           correctAnswer:
-            "B) Feasting attracts attention, while fasting is overlooked.",
+            "Feasting attracts attention, while fasting is overlooked.",
         }),
       shuffleOptions({
           question:
@@ -82,7 +82,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Friends are supportive during sad times.",
           optionB: "True friends remain during both joy and sorrow.",
           optionC: "Friendships dissolve during sad times.",
-          correctAnswer: "C) Friendships dissolve during sad times.",
+          correctAnswer: "Friendships dissolve during sad times.",
         }),
       shuffleOptions({
           question:
@@ -90,21 +90,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "You gain more friends.",
           optionB: "You lose all your friends.",
           optionC: "Your friends become indifferent.",
-          correctAnswer: "B) You lose all your friends.",
+          correctAnswer: "You lose all your friends.",
         }),
       shuffleOptions({
           question: "What happens when you weep, according to the text?",
           optionA: "Others weep with you.",
           optionB: "You weep in solitude.",
           optionC: "The earth borrows its mirth from you.",
-          correctAnswer: "B) You weep in solitude.",
+          correctAnswer: "You weep in solitude.",
         }),
       shuffleOptions({
           question: "How is the theme of life's journey presented in the text?",
           optionA: "Life is a joyous celebration.",
           optionB: "Life involves both pleasure and pain.",
           optionC: "Life is a solitary experience.",
-          correctAnswer: "B) Life involves both pleasure and pain.",
+          correctAnswer: "Life involves both pleasure and pain.",
    }),
     ]),
   }
@@ -121,7 +121,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Joy",
           optionB: "Mirth",
           optionC: "Sorrow",
-          correctAnswer: "B) Mirth",
+          correctAnswer: "Mirth",
         }),
       shuffleOptions({
           question:
@@ -129,7 +129,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Respond / Care",
           optionB: "Answer / Sorrow",
           optionC: "Echo / Joy",
-          correctAnswer: "C) Echo / Joy",
+          correctAnswer: "Echo / Joy",
         }),
       shuffleOptions({
           question:
@@ -137,7 +137,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Pleasure / Woe",
           optionB: "Sorrow / Joy",
           optionC: "Success / Happiness",
-          correctAnswer: "A) Pleasure / Woe",
+          correctAnswer: "Pleasure / Woe",
         }),
       shuffleOptions({
           question:
@@ -145,7 +145,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Hesitation / Elation",
           optionB: "Nectared wine / Gall",
           optionC: "Invitation / Pleasure",
-          correctAnswer: "B) Nectared wine / Gall",
+          correctAnswer: "Nectared wine / Gall",
         }),
       shuffleOptions({
           question:
@@ -153,7 +153,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "By / Die",
           optionB: "Fly / Live",
           optionC: "By / Live",
-          correctAnswer: "C) By / Live",
+          correctAnswer: "By / Live",
         }),
       shuffleOptions({
           question:
@@ -161,7 +161,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Joy / Aisles",
           optionB: "Pleasure / Paths",
           optionC: "Pain / Aisles",
-          correctAnswer: "A) Joy / Aisles",
+          correctAnswer: "Joy / Aisles",
         }),
       shuffleOptions({
           question:
@@ -169,7 +169,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Alone / Happiness",
           optionB: "Alone / Trouble",
           optionC: "Together / Joy",
-          correctAnswer: "B) Alone / Trouble",
+          correctAnswer: "Alone / Trouble",
         }),
       shuffleOptions({
           question:
@@ -177,7 +177,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Cry / Sea / Sadness",
           optionB: "Answer / Air / Care",
           optionC: "Echo / Ground / Happiness",
-          correctAnswer: "B) Answer / Air / Care",
+          correctAnswer: "Answer / Air / Care",
         }),
       shuffleOptions({
           question:
@@ -185,7 +185,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Many / Accept / Joy",
           optionB: "Few / Decline / Gall",
           optionC: "Happy / Share / Sorrow",
-          correctAnswer: "B) Few / Decline / Gall",
+          correctAnswer: "Few / Decline / Gall",
         }),
       shuffleOptions({
           question:
@@ -193,7 +193,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Time / Survive / Cry",
           optionB: "World / Live / Die",
           optionC: "Life / Thrive / Fly",
-          correctAnswer: "B) World / Live / Die",
+          correctAnswer: "World / Live / Die",
    }),
     ]),
   }

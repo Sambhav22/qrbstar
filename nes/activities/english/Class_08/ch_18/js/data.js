@@ -36,14 +36,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Blue",
           optionB: "Green",
           optionC: "Red",
-          correctAnswer: "B) Green",
+          correctAnswer: "Green",
         }),
       shuffleOptions({
           question: "How were the chimneys on the Doll's house painted?",
           optionA: "Blue and Green",
           optionB: "Red and White",
           optionC: "Yellow and Black",
-          correctAnswer: "B) Red and White",
+          correctAnswer: "Red and White",
         }),
       shuffleOptions({
           question:
@@ -51,7 +51,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "The bed with real bedclothes",
           optionB: "The lamp with a white globe",
           optionC: "The cradle in the bedroom",
-          correctAnswer: "B) The lamp with a white globe",
+          correctAnswer: "The lamp with a white globe",
         }),
       shuffleOptions({
           question:
@@ -59,7 +59,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Emmie Cole and Lena Logan",
           optionB: "Jessie May and Isabel",
           optionC: "Kezia and Lottie",
-          correctAnswer: "A) Emmie Cole and Lena Logan",
+          correctAnswer: "Emmie Cole and Lena Logan",
         }),
       shuffleOptions({
           question:
@@ -69,21 +69,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionC:
             "Because of their social status and the rumors about their father",
           correctAnswer:
-            "C) Because of their social status and the rumors about their father",
+            "Because of their social status and the rumors about their father",
         }),
       shuffleOptions({
           question: "What did Lena Logan tell Lil Kelvey about her future?",
           optionA: "She will become a doctor",
           optionB: "She will become a servant",
           optionC: "She will become a teacher",
-          correctAnswer: "B) She will become a servant",
+          correctAnswer: "She will become a servant",
         }),
       shuffleOptions({
           question: "What did Lil Kelvey's father do, according to the rumors?",
           optionA: "He was a doctor",
           optionB: "He was in prison",
           optionC: "He was a rich businessman",
-          correctAnswer: "B) He was in prison",
+          correctAnswer: "He was in prison",
         }),
       shuffleOptions({
           question:
@@ -91,14 +91,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Aunt Beryl",
           optionB: "Isabel",
           optionC: "Kezia",
-          correctAnswer: "A) Aunt Beryl",
+          correctAnswer: "Aunt Beryl",
         }),
       shuffleOptions({
           question: "Why did Aunt Beryl apologize to Lil and Elise later?",
           optionA: "She felt sorry for them",
           optionB: "She was disturbed",
           optionC: "She wanted to be kind",
-          correctAnswer: "B) She was disturbed",
+          correctAnswer: "She was disturbed",
         }),
       shuffleOptions({
           question:
@@ -106,7 +106,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "She became angrier",
           optionB: "She apologized and invited them for tea",
           optionC: "She ignored them",
-          correctAnswer: "B) She apologized and invited them for tea",
+          correctAnswer: "She apologized and invited them for tea",
    }),
     ]),
   }
@@ -123,7 +123,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Blue",
           optionB: "Yellow",
           optionC: "Red",
-          correctAnswer: "B) Yellow",
+          correctAnswer: "Yellow",
         }),
       shuffleOptions({
           question:
@@ -131,7 +131,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Green and Blue",
           optionB: "Red and White",
           optionC: "Yellow and Black",
-          correctAnswer: "B) Red and White",
+          correctAnswer: "Red and White",
         }),
       shuffleOptions({
           question:
@@ -139,7 +139,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Blue",
           optionB: "Yellow",
           optionC: "White",
-          correctAnswer: "C) White",
+          correctAnswer: "White",
         }),
       shuffleOptions({
           question:
@@ -147,7 +147,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Emmie Cole and Jessie May",
           optionB: "Lena Logan and Kezia",
           optionC: "Emmie Cole and Lena Logan",
-          correctAnswer: "C) Emmie Cole and Lena Logan",
+          correctAnswer: "Emmie Cole and Lena Logan",
         }),
       shuffleOptions({
           question:
@@ -155,7 +155,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Rumors",
           optionB: "Wealth",
           optionC: "Fame",
-          correctAnswer: "A) Rumors",
+          correctAnswer: "Rumors",
         }),
       shuffleOptions({
           question:
@@ -163,14 +163,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Doctor",
           optionB: "Teacher",
           optionC: "Servant",
-          correctAnswer: "C) Servant",
+          correctAnswer: "Servant",
         }),
       shuffleOptions({
           question: "According to rumors, Lil Kelvey's father was __________.",
           optionA: "A doctor",
           optionB: "In prison",
           optionC: "A rich businessman",
-          correctAnswer: "B) In prison",
+          correctAnswer: "In prison",
         }),
       shuffleOptions({
           question:
@@ -178,14 +178,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Aunt Beryl",
           optionB: "Isabel",
           optionC: "Kezia",
-          correctAnswer: "A) Aunt Beryl",
+          correctAnswer: "Aunt Beryl",
         }),
       shuffleOptions({
           question: "Why did Aunt Beryl apologize to Lil and Elise later?",
           optionA: "She felt sorry for them",
           optionB: "She was disturbed",
           optionC: "She wanted to be kind",
-          correctAnswer: "B) She was disturbed",
+          correctAnswer: "She was disturbed",
         }),
       shuffleOptions({
           question:
@@ -193,7 +193,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "She became angrier",
           optionB: "She apologized and invited them for tea",
           optionC: "She ignored them",
-          correctAnswer: "B) She apologized and invited them for tea",
+          correctAnswer: "She apologized and invited them for tea",
    }),
     ]),
   }

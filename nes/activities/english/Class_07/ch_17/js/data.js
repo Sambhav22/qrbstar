@@ -36,7 +36,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Bald with a red shirt",
           optionB: "Salt and pepper hair with a white kurta-pyjama",
           optionC: "Blonde with a blue jacket",
-          correctAnswer: "B) Salt and pepper hair with a white kurta-pyjama",
+          correctAnswer: "Salt and pepper hair with a white kurta-pyjama",
         }),
       shuffleOptions({
           question:
@@ -44,14 +44,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Pizza",
           optionB: "Chhole-bhature",
           optionC: "Sushi",
-          correctAnswer: "B) Chhole-bhature",
+          correctAnswer: "Chhole-bhature",
         }),
       shuffleOptions({
           question: "Who is the security guard standing near Neel Kamal?",
           optionA: "Train conductor",
           optionB: "Policeman",
           optionC: "Cafeteria manager",
-          correctAnswer: "B) Policeman",
+          correctAnswer: "Policeman",
         }),
       shuffleOptions({
           question:
@@ -59,14 +59,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "A scenic view",
           optionB: "A thin, famished young man",
           optionC: "A funny meme",
-          correctAnswer: "B) A thin, famished young man",
+          correctAnswer: "A thin, famished young man",
         }),
       shuffleOptions({
           question: "Who is Harsh Vardhan to Neel Kamal?",
           optionA: "Cousin",
           optionB: "School friend",
           optionC: "Colleague",
-          correctAnswer: "B) School friend",
+          correctAnswer: "School friend",
         }),
       shuffleOptions({
           question:
@@ -74,14 +74,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Rockstar",
           optionB: "Stone",
           optionC: "Jester",
-          correctAnswer: "B) Stone",
+          correctAnswer: "Stone",
         }),
       shuffleOptions({
           question: "What is Harsh Vardhan's profession?",
           optionA: "Journalist",
           optionB: "Mayor",
           optionC: "Doctor",
-          correctAnswer: "A) Journalist",
+          correctAnswer: "Journalist",
         }),
       shuffleOptions({
           question:
@@ -89,14 +89,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Shocked and angry",
           optionB: "Delighted and informal",
           optionC: "Indifferent",
-          correctAnswer: "B) Delighted and informal",
+          correctAnswer: "Delighted and informal",
         }),
       shuffleOptions({
           question: "What is Harsh Vardhan's son's name?",
           optionA: "Rohit",
           optionB: "Vivek",
           optionC: "Aryan",
-          correctAnswer: "B) Vivek",
+          correctAnswer: "Vivek",
         }),
       shuffleOptions({
           question:
@@ -104,7 +104,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Angry",
           optionB: "Disappointed",
           optionC: "Artificially respectful",
-          correctAnswer: "C) Artificially respectful",
+          correctAnswer: "Artificially respectful",
    }),
     ]),
   }
@@ -121,7 +121,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Pizza",
           optionB: "Chhole-bhature",
           optionC: "Sushi",
-          correctAnswer: "B) Chhole-bhature",
+          correctAnswer: "Chhole-bhature",
         }),
       shuffleOptions({
           question:
@@ -129,7 +129,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Video",
           optionB: "Selfie",
           optionC: "Group photo",
-          correctAnswer: "B) Selfie",
+          correctAnswer: "Selfie",
         }),
       shuffleOptions({
           question:
@@ -137,7 +137,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "First",
           optionB: "Second",
           optionC: "Third",
-          correctAnswer: "C) Third",
+          correctAnswer: "Third",
         }),
       shuffleOptions({
           question:
@@ -145,7 +145,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "The genius duo",
           optionB: "Angelic boys",
           optionC: "Devil's boys",
-          correctAnswer: "C) Devil's boys",
+          correctAnswer: "Devil's boys",
         }),
       shuffleOptions({
           question:
@@ -153,7 +153,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Tale",
           optionB: "Telling",
           optionC: "Talking",
-          correctAnswer: "A) Tale",
+          correctAnswer: "Tale",
         }),
       shuffleOptions({
           question:
@@ -161,7 +161,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Municipality",
           optionB: "High school",
           optionC: "College",
-          correctAnswer: "A) Municipality",
+          correctAnswer: "Municipality",
         }),
       shuffleOptions({
           question:
@@ -169,7 +169,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Councilor",
           optionB: "Mayor",
           optionC: "Nagar Nigam",
-          correctAnswer: "B) Mayor",
+          correctAnswer: "Mayor",
         }),
       shuffleOptions({
           question:
@@ -177,7 +177,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Councilor",
           optionB: "Prime Minister",
           optionC: "Mayor",
-          correctAnswer: "C) Mayor",
+          correctAnswer: "Mayor",
         }),
       shuffleOptions({
           question:
@@ -185,7 +185,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Plump",
           optionB: "Slim",
           optionC: "Muscular",
-          correctAnswer: "A) Plump",
+          correctAnswer: "Plump",
         }),
       shuffleOptions({
           question:
@@ -193,7 +193,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Humility",
           optionB: "Sarcasm",
           optionC: "Sweetness",
-          correctAnswer: "C) Sweetness",
+          correctAnswer: "Sweetness",
    }),
     ]),
   }

@@ -37,14 +37,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Nala",
           optionB: "Bhima",
           optionC: "Damyanti",
-          correctAnswer: "b) Bhima",
+          correctAnswer: "Bhima",
         }),
       shuffleOptions({
           question: "What made Damyanti stand out among her handmaids?",
           optionA: "Intelligence",
           optionB: "Beauty",
           optionC: "Leadership skills",
-          correctAnswer: "b) Beauty",
+          correctAnswer: "Beauty",
         }),
       shuffleOptions({
           question:
@@ -52,35 +52,35 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "War",
           optionB: "Expedition to Berar",
           optionC: "Building a palace",
-          correctAnswer: "b) Expedition to Berar",
+          correctAnswer: "Expedition to Berar",
         }),
       shuffleOptions({
           question: "How did Nala come across the swan in the royal gardens?",
           optionA: "During a royal feast",
           optionB: "While strolling in the gardens",
           optionC: "In the temple",
-          correctAnswer: "b) While strolling in the gardens",
+          correctAnswer: "While strolling in the gardens",
         }),
       shuffleOptions({
           question: "What request did the swan make to Nala to set it free?",
           optionA: "To join the royal court",
           optionB: "To deliver a message",
           optionC: "To become Nala's companion",
-          correctAnswer: "b) To deliver a message",
+          correctAnswer: "To deliver a message",
         }),
       shuffleOptions({
           question: "What was the swan's message to Damyanti from Nala?",
           optionA: "Nala wanted to challenge her to a duel",
           optionB: "Nala loved her ardently and wanted to marry her",
           optionC: "Nala invited her to a royal feast",
-          correctAnswer: "b) Nala loved her ardently and wanted to marry her",
+          correctAnswer: "Nala loved her ardently and wanted to marry her",
         }),
       shuffleOptions({
           question: "What was the Swayamvara and how did it work?",
           optionA: "A royal feast",
           optionB: "A marriage ceremony",
           optionC: "A battle competition",
-          correctAnswer: "b) A marriage ceremony",
+          correctAnswer: "A marriage ceremony",
         }),
       shuffleOptions({
           question:
@@ -88,7 +88,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "To challenge Nala",
           optionB: "To deceive Damyanti",
           optionC: "To attend the ceremony",
-          correctAnswer: "b) To deceive Damyanti",
+          correctAnswer: "To deceive Damyanti",
         }),
       shuffleOptions({
           question:
@@ -96,7 +96,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "By their attire",
           optionB: "By their hairstyles",
           optionC: "By observing their behavior",
-          correctAnswer: "c) By observing their behavior",
+          correctAnswer: "By observing their behavior",
         }),
       shuffleOptions({
           question:
@@ -104,7 +104,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "She preferred mortal love over heavenly beings",
           optionB: "She found the gods unattractive",
           optionC: "Nala promised her great wealth",
-          correctAnswer: "a) She preferred mortal love over heavenly beings",
+          correctAnswer: "She preferred mortal love over heavenly beings",
    }),
     ]),
   }
@@ -121,7 +121,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Nala",
           optionB: "Bhima",
           optionC: "Damyanti",
-          correctAnswer: "b) Bhima",
+          correctAnswer: "Bhima",
         }),
       shuffleOptions({
           question:
@@ -129,7 +129,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Intelligence",
           optionB: "Elegance",
           optionC: "Leadership skills",
-          correctAnswer: "b) Elegance",
+          correctAnswer: "Elegance",
         }),
       shuffleOptions({
           question:
@@ -137,7 +137,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Berar",
           optionB: "Nishada",
           optionC: "Damyanti",
-          correctAnswer: "b) Nishada",
+          correctAnswer: "Nishada",
         }),
       shuffleOptions({
           question:
@@ -145,7 +145,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Dove",
           optionB: "Swan",
           optionC: "Peacock",
-          correctAnswer: "b) Swan",
+          correctAnswer: "Swan",
         }),
       shuffleOptions({
           question:
@@ -153,7 +153,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Berar",
           optionB: "Nishada",
           optionC: "Heaven",
-          correctAnswer: "a) Berar",
+          correctAnswer: "Berar",
         }),
       shuffleOptions({
           question:
@@ -161,7 +161,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Royal Feast",
           optionB: "Swayamvara",
           optionC: "Battle Competition",
-          correctAnswer: "b) Swayamvara",
+          correctAnswer: "Swayamvara",
         }),
       shuffleOptions({
           question:
@@ -169,7 +169,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Attire",
           optionB: "Hairstyles",
           optionC: "Behavior",
-          correctAnswer: "c) Behavior",
+          correctAnswer: "Behavior",
         }),
       shuffleOptions({
           question:
@@ -177,7 +177,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Challenge",
           optionB: "Deceive",
           optionC: "Impress",
-          correctAnswer: "b) Deceive",
+          correctAnswer: "Deceive",
         }),
       shuffleOptions({
           question:
@@ -185,7 +185,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Sword",
           optionB: "Shield",
           optionC: "Garland",
-          correctAnswer: "c) Garland",
+          correctAnswer: "Garland",
         }),
       shuffleOptions({
           question:
@@ -193,7 +193,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Mortal",
           optionB: "Eternal",
           optionC: "Divine",
-          correctAnswer: "a) Mortal",
+          correctAnswer: "Mortal",
    }),
     ]),
   }

@@ -122,7 +122,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "sandy-yellowish",
           optionB: "grayish-yellowish catty-shaped",
           optionC: "exclusively sandy-coloured",
-          correctAnswer: "B) grayish-yellowish catty-shaped",
+          correctAnswer: "grayish-yellowish catty-shaped",
         }),
       shuffleOptions({
           question:
@@ -130,7 +130,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "exclusively sandy-yellowish",
           optionB: "exclusively sandy-yellow-brownish",
           optionC: "exclusively grayish-yellowish",
-          correctAnswer: "B) exclusively sandy-yellow-brownish",
+          correctAnswer: "exclusively sandy-yellow-brownish",
         }),
       shuffleOptions({
           question:
@@ -138,7 +138,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "stripy, speckly, patchy-blatchy",
           optionB: "exclusively sandy-coloured",
           optionC: "sandy-yellowish",
-          correctAnswer: "A) stripy, speckly, patchy-blatchy",
+          correctAnswer: "stripy, speckly, patchy-blatchy",
         }),
       shuffleOptions({
           question:
@@ -146,7 +146,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "sand dunes",
           optionB: "tree bark",
           optionC: "grass blades",
-          correctAnswer: "B) tree bark",
+          correctAnswer: "tree bark",
         }),
       shuffleOptions({
           question:
@@ -154,7 +154,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "other spots as soon as possible",
           optionB: "hiding in the forest",
           optionC: "exclusively yellowish-grayish-brownish areas",
-          correctAnswer: "A) other spots as soon as possible",
+          correctAnswer: "other spots as soon as possible",
         }),
       shuffleOptions({
           question:
@@ -162,7 +162,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "hair color",
           optionB: "skin color",
           optionC: "clothing style",
-          correctAnswer: "B) skin color",
+          correctAnswer: "skin color",
         }),
       shuffleOptions({
           question:
@@ -170,7 +170,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "the High Veldt",
           optionB: "South Africa",
           optionC: "their skin",
-          correctAnswer: "C) their skin",
+          correctAnswer: "their skin",
         }),
       shuffleOptions({
           question:
@@ -178,7 +178,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "a brush",
           optionB: "his five fingers",
           optionC: "a spray can",
-          correctAnswer: "B) his five fingers",
+          correctAnswer: "his five fingers",
         }),
       shuffleOptions({
           question:
@@ -186,7 +186,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "stones",
           optionB: "pebbles",
           optionC: "rocks",
-          correctAnswer: "B) pebbles",
+          correctAnswer: "pebbles",
         }),
       shuffleOptions({
           question:
@@ -194,7 +194,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "regretting the change",
           optionB: "happily ever afterward",
           optionC: "in the High Veldt",
-          correctAnswer: "B) happily ever afterward",
+          correctAnswer: "happily ever afterward",
    }),
     ]),
   }

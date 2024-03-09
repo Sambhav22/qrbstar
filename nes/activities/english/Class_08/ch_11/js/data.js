@@ -35,7 +35,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "She was wealthy",
         optionB: "She was sick",
         optionC: "She was dead",
-        correctAnswer: "C) She was dead",
+        correctAnswer: "She was dead",
      }),
       shuffleOptions({
         question:
@@ -43,7 +43,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "One",
         optionB: "Two",
         optionC: "Three",
-        correctAnswer: "C) Three",
+        correctAnswer: "Three",
      }),
       shuffleOptions({
         question:
@@ -51,7 +51,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "John",
         optionB: "Kate",
         optionC: "Maggie",
-        correctAnswer: "A) John",
+        correctAnswer: "John",
      }),
       shuffleOptions({
         question:
@@ -59,28 +59,28 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "She fell from a window",
         optionB: "She got sick from a fever",
         optionC: "She had a successful surgery",
-        correctAnswer: "A) She fell from a window",
+        correctAnswer: "She fell from a window",
      }),
       shuffleOptions({
         question: "Who decided to take John and provide him with a home?",
         optionA: "Farmer Jones",
         optionB: "Mrs. Ellis",
         optionC: "Joe Thompson",
-        correctAnswer: "A) Farmer Jones",
+        correctAnswer: "Farmer Jones",
      }),
       shuffleOptions({
         question: "What was the fate of Kate after her mother's death?",
         optionA: "She went to the poorhouse",
         optionB: "She found a loving family",
         optionC: "She stayed with Maggie",
-        correctAnswer: "B) She found a loving family",
+        correctAnswer: "She found a loving family",
      }),
       shuffleOptions({
         question: "What was the general consensus on what to do with Maggie?",
         optionA: "Leave her to starve",
         optionB: "Send her to a distant relative",
         optionC: "Take her to the hospital",
-        correctAnswer: "A) Leave her to starve",
+        correctAnswer: "Leave her to starve",
      }),
       shuffleOptions({
         question:
@@ -88,7 +88,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Joe Thompson",
         optionB: "Mrs. Ellis",
         optionC: "Farmer Jones",
-        correctAnswer: "A) Joe Thompson",
+        correctAnswer: "Joe Thompson",
      }),
       shuffleOptions({
         question:
@@ -96,7 +96,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "She was overjoyed",
         optionB: "She was angry and surprised",
         optionC: "She was indifferent",
-        correctAnswer: "B) She was angry and surprised",
+        correctAnswer: "She was angry and surprised",
      }),
       shuffleOptions({
         question:
@@ -104,7 +104,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "She made it darker and more miserable",
         optionB: "She filled it with love and happiness",
         optionC: "She caused conflicts between Joe and his wife",
-        correctAnswer: "B) She filled it with love and happiness",
+        correctAnswer: "She filled it with love and happiness",
       }),
     ]),
   }
@@ -117,52 +117,52 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions({
         question:
           "The dead mother lay cold and still amid her wretched children. She had fallen upon the ________ of her own door.",
-        correctAnswer: "B) threshold",
+        correctAnswer: "threshold",
      }),
       shuffleOptions({
         question:
           "John, the oldest, a boy of twelve, was a stout lad, able to earn his living with any ________.",
-        correctAnswer: "B) farmer",
+        correctAnswer: "farmer",
      }),
       shuffleOptions({
         question:
           "Kate, between ten and eleven, was a bright, active girl who could help in ________.",
-        correctAnswer: "B) housework",
+        correctAnswer: "housework",
      }),
       shuffleOptions({
         question:
           "Maggie, the youngest, was hopelessly diseased. Two years before, a fall from a window had injured her ________.",
-        correctAnswer: "C) spine",
+        correctAnswer: "spine",
      }),
       shuffleOptions({
         question:
           "Farmer Jones placed John in his wagon and drove away, satisfied that he had done his part. Mrs. Ellis chose to make a choice of ________.",
-        correctAnswer: "C) Kate",
+        correctAnswer: "Kate",
      }),
       shuffleOptions({
         question:
           "Maggie was left alone! Just beyond the threshold, Joe Thompson, the wheelwright, paused and said, 'It's a cruel thing to leave her so.'",
-        correctAnswer: "A) door",
+        correctAnswer: "door",
      }),
       shuffleOptions({
         question:
           "After the burial, Farmer Jones placed John in his wagon and drove away, satisfied that he had done his part. What did Mrs. Ellis do with Kate?",
-        correctAnswer: "A) She took her to the poorhouse.",
+        correctAnswer: "She took her to the poorhouse.",
      }),
       shuffleOptions({
         question:
           "Joe Thompson had well-grounded doubts about the manner of greeting he would receive from his wife when he arrived home. What did he carry with him?",
-        correctAnswer: "C) A sick child",
+        correctAnswer: "A sick child",
      }),
       shuffleOptions({
         question:
           "Joe didn't see the Guardians of the Poor on Maggie's account, for in less than a week, Mrs. Joe Thompson would leave the thought of sending her away. What brought light and blessing to their home?",
-        correctAnswer: "B) The sick child, Maggie",
+        correctAnswer: "The sick child, Maggie",
      }),
       shuffleOptions({
         question:
           "What filled the dreary chambers of Joe Thompson's home with the sunshine of love?",
-        correctAnswer: "C) The sick and helpless child",
+        correctAnswer: "The sick and helpless child",
       }),
     ]),
   }

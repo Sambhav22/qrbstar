@@ -36,21 +36,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "A toy compass",
           optionB: "A toy train",
           optionC: "A toy airplane",
-          correctAnswer: "A) A toy compass",
+          correctAnswer: "A toy compass",
         }),
       shuffleOptions({
           question: "What musical instrument did Einstein enjoy playing?",
           optionA: "Piano",
           optionB: "Violin",
           optionC: "Guitar",
-          correctAnswer: "B) Violin",
+          correctAnswer: "Violin",
         }),
       shuffleOptions({
           question: "What did Einstein's father want him to study?",
           optionA: "Medicine",
           optionB: "Electrical engineering",
           optionC: "Law",
-          correctAnswer: "B) Electrical engineering",
+          correctAnswer: "Electrical engineering",
         }),
       shuffleOptions({
           question:
@@ -58,7 +58,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Engineer",
           optionB: "Clerk",
           optionC: "Teacher",
-          correctAnswer: "B) Clerk",
+          correctAnswer: "Clerk",
         }),
       shuffleOptions({
           question:
@@ -66,21 +66,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Theory of general relativity",
           optionB: "Theory of relativity",
           optionC: "Law of the photoelectric effect",
-          correctAnswer: "C) Law of the photoelectric effect",
+          correctAnswer: "Law of the photoelectric effect",
         }),
       shuffleOptions({
           question: "How did Einstein travel to the Queen of Belgium's palace?",
           optionA: "By car",
           optionB: "On foot",
           optionC: "By train",
-          correctAnswer: "B) On foot",
+          correctAnswer: "On foot",
         }),
       shuffleOptions({
           question: "What did Einstein believe the world needed most?",
           optionA: "Wealth",
           optionB: "Peace",
           optionC: "Power",
-          correctAnswer: "B) Peace",
+          correctAnswer: "Peace",
         }),
       shuffleOptions({
           question:
@@ -88,7 +88,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "French",
           optionB: "Swiss",
           optionC: "English",
-          correctAnswer: "B) Swiss",
+          correctAnswer: "Swiss",
         }),
       shuffleOptions({
           question:
@@ -96,14 +96,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "China",
           optionB: "India",
           optionC: "Japan",
-          correctAnswer: "B) India",
+          correctAnswer: "India",
         }),
       shuffleOptions({
           question: "How did Einstein view children?",
           optionA: "As a nuisance",
           optionB: "As the future hope of the world",
           optionC: "As irrelevant",
-          correctAnswer: "B) As the future hope of the world",
+          correctAnswer: "As the future hope of the world",
    }),
     ]),
   }
@@ -120,7 +120,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "compass",
           optionB: "toy train",
           optionC: "telescope",
-          correctAnswer: "A) compass",
+          correctAnswer: "compass",
         }),
       shuffleOptions({
           question:
@@ -128,7 +128,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "magic needle",
           optionB: "clock",
           optionC: "thermometer",
-          correctAnswer: "A) magic needle",
+          correctAnswer: "magic needle",
         }),
       shuffleOptions({
           question:
@@ -136,7 +136,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "mechanical",
           optionB: "electrical",
           optionC: "civil",
-          correctAnswer: "B) electrical",
+          correctAnswer: "electrical",
         }),
       shuffleOptions({
           question:
@@ -144,7 +144,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "biology",
           optionB: "mathematics",
           optionC: "chemistry",
-          correctAnswer: "B) mathematics",
+          correctAnswer: "mathematics",
         }),
       shuffleOptions({
           question:
@@ -152,7 +152,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "engineer",
           optionB: "clerk",
           optionC: "teacher",
-          correctAnswer: "B) clerk",
+          correctAnswer: "clerk",
         }),
       shuffleOptions({
           question:
@@ -160,14 +160,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "gravitational force",
           optionB: "photoelectric effect",
           optionC: "electromagnetism",
-          correctAnswer: "B) photoelectric effect",
+          correctAnswer: "photoelectric effect",
         }),
       shuffleOptions({
           question: "Einstein was awarded the Nobel Prize in _________.",
           optionA: "Chemistry",
           optionB: "Physics",
           optionC: "Literature",
-          correctAnswer: "B) Physics",
+          correctAnswer: "Physics",
         }),
       shuffleOptions({
           question:
@@ -175,7 +175,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "by car",
           optionB: "on foot",
           optionC: "by train",
-          correctAnswer: "B) on foot",
+          correctAnswer: "on foot",
         }),
       shuffleOptions({
           question:
@@ -183,7 +183,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "wealth",
           optionB: "power",
           optionC: "peace",
-          correctAnswer: "C) peace",
+          correctAnswer: "peace",
         }),
       shuffleOptions({
           question:
@@ -191,7 +191,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "China",
           optionB: "India",
           optionC: "Japan",
-          correctAnswer: "B) India",
+          correctAnswer: "India",
    }),
     ]),
   }

@@ -37,7 +37,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Blue shirt",
           optionB: "New overcoat",
           optionC: "Black suit",
-          correctAnswer: "b) New overcoat",
+          correctAnswer: "New overcoat",
         }),
       shuffleOptions({
           question:
@@ -45,7 +45,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Red-haired beggar",
           optionB: "Unidentified person",
           optionC: "Red-haired policeman",
-          correctAnswer: "c) Red-haired policeman",
+          correctAnswer: "Red-haired policeman",
         }),
       shuffleOptions({
           question:
@@ -53,14 +53,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Send it to a shelter",
           optionB: "Strangle it without delay",
           optionC: "Fine the owner",
-          correctAnswer: "b) Strangle it without delay",
+          correctAnswer: "Strangle it without delay",
         }),
       shuffleOptions({
           question: "How does Hukin claim he got injured by the dog?",
           optionA: "Scratched by a nail",
           optionB: "Bit on the foot",
           optionC: "Burned by a cigarette",
-          correctAnswer: "a) Scratched by a nail",
+          correctAnswer: "Scratched by a nail",
         }),
       shuffleOptions({
           question:
@@ -68,14 +68,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Adopt it",
           optionB: "Draw up a report",
           optionC: "Ignore it",
-          correctAnswer: "b) Draw up a report",
+          correctAnswer: "Draw up a report",
         }),
       shuffleOptions({
           question: "Who does the crowd speculate the dog belongs to?",
           optionA: "General Zhigalov",
           optionB: "Yelov",
           optionC: "Hukin",
-          correctAnswer: "a) General Zhigalov",
+          correctAnswer: "General Zhigalov",
         }),
       shuffleOptions({
           question: "How does Yelov find out the true owner of the dog?",
@@ -83,14 +83,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "Checking the dog's tag",
           optionC: "Sending Yeldrin to inquire at the General's bungalow",
           correctAnswer:
-            "c) Sending Yeldrin to inquire at the General's bungalow",
+            "Sending Yeldrin to inquire at the General's bungalow",
         }),
       shuffleOptions({
           question: "Who is revealed to be the actual owner of the dog?",
           optionA: "Yelov",
           optionB: "Hukin",
           optionC: "General Zhigalov's brother",
-          correctAnswer: "c) General Zhigalov's brother",
+          correctAnswer: "General Zhigalov's brother",
         }),
       shuffleOptions({
           question:
@@ -98,7 +98,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Keep it as a pet",
           optionB: "Release it in the street",
           optionC: "Destroy it",
-          correctAnswer: "c) Destroy it",
+          correctAnswer: "Destroy it",
         }),
       shuffleOptions({
           question:
@@ -106,7 +106,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Applauds",
           optionB: "Laughs at Hukin",
           optionC: "Condemns Prohor",
-          correctAnswer: "b) Laughs at Hukin",
+          correctAnswer: "Laughs at Hukin",
    }),
     ]),
   }
@@ -123,7 +123,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Arm",
           optionB: "Hat",
           optionC: "Leg",
-          correctAnswer: "a) Arm",
+          correctAnswer: "Arm",
         }),
       shuffleOptions({
           question:
@@ -131,7 +131,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Apples",
           optionB: "Gooseberries",
           optionC: "Oranges",
-          correctAnswer: "b) Gooseberries",
+          correctAnswer: "Gooseberries",
         }),
       shuffleOptions({
           question:
@@ -139,7 +139,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Grocery store",
           optionB: "Timber yard",
           optionC: "Clothing store",
-          correctAnswer: "b) Timber yard",
+          correctAnswer: "Timber yard",
         }),
       shuffleOptions({
           question:
@@ -147,7 +147,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Hurry up",
           optionB: "Ah",
           optionC: "Stop",
-          correctAnswer: "b) Ah",
+          correctAnswer: "Ah",
         }),
       shuffleOptions({
           question:
@@ -155,7 +155,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Hand",
           optionB: "Foot",
           optionC: "Nose",
-          correctAnswer: "a) Hand",
+          correctAnswer: "Hand",
         }),
       shuffleOptions({
           question:
@@ -163,7 +163,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Cat",
           optionB: "Dog",
           optionC: "Bird",
-          correctAnswer: "b) Dog",
+          correctAnswer: "Dog",
         }),
       shuffleOptions({
           question:
@@ -171,7 +171,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Adopted",
           optionB: "Released",
           optionC: "Strangled",
-          correctAnswer: "c) Strangled",
+          correctAnswer: "Strangled",
         }),
       shuffleOptions({
           question:
@@ -179,7 +179,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "General Zhigalov",
           optionB: "Yelov",
           optionC: "Hukin",
-          correctAnswer: "a) General Zhigalov",
+          correctAnswer: "General Zhigalov",
         }),
       shuffleOptions({
           question:
@@ -187,7 +187,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Desert",
           optionB: "Square",
           optionC: "Forest",
-          correctAnswer: "b) Square",
+          correctAnswer: "Square",
         }),
       shuffleOptions({
           question:
@@ -195,7 +195,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Cousin",
           optionB: "Brother",
           optionC: "Neighbor",
-          correctAnswer: "b) Brother",
+          correctAnswer: "Brother",
    }),
     ]),
   }

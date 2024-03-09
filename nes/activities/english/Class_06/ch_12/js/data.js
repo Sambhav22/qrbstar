@@ -36,7 +36,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Lack of friends",
           optionB: "Lack of presents",
           optionC: "Lack of occupation",
-          correctAnswer: "C) Lack of occupation",
+          correctAnswer: "Lack of occupation",
         }),
       shuffleOptions({
           question:
@@ -44,7 +44,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "A new coat",
           optionB: "A crazy quilt",
           optionC: "A little present",
-          correctAnswer: "C) A little present",
+          correctAnswer: "A little present",
         }),
       shuffleOptions({
           question:
@@ -52,7 +52,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "A pair of mittens",
           optionB: "A doll-baby",
           optionC: "A crazy quilt",
-          correctAnswer: "B) A doll-baby",
+          correctAnswer: "A doll-baby",
         }),
       shuffleOptions({
           question:
@@ -60,7 +60,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "To keep him warm",
           optionB: "To use as a sled",
           optionC: "As a Christmas prank",
-          correctAnswer: "A) To keep him warm",
+          correctAnswer: "To keep him warm",
         }),
       shuffleOptions({
           question:
@@ -68,7 +68,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Scare away crows",
           optionB: "Scare away Arctic Explorers",
           optionC: "Help make toys",
-          correctAnswer: "B) Scare away Arctic Explorers",
+          correctAnswer: "Scare away Arctic Explorers",
         }),
       shuffleOptions({
           question:
@@ -76,7 +76,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Installed a scarecrow",
           optionB: "Wrote a notice to crows",
           optionC: "Used a magic spell",
-          correctAnswer: "B) Wrote a notice to crows",
+          correctAnswer: "Wrote a notice to crows",
         }),
       shuffleOptions({
           question:
@@ -84,7 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "They disappeared",
           optionB: "They turned into ice",
           optionC: "They got soaked through",
-          correctAnswer: "C) They got soaked through",
+          correctAnswer: "They got soaked through",
         }),
       shuffleOptions({
           question:
@@ -92,7 +92,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "They were too small",
           optionB: "They were not crazy enough",
           optionC: "They got wet in the rain",
-          correctAnswer: "C) They got wet in the rain",
+          correctAnswer: "They got wet in the rain",
         }),
       shuffleOptions({
           question:
@@ -100,7 +100,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "A new crazy quilt",
           optionB: "A pair of spectacles",
           optionC: "Her old crazy quilt, remodelled",
-          correctAnswer: "C) Her old crazy quilt, remodelled",
+          correctAnswer: "Her old crazy quilt, remodelled",
         }),
       shuffleOptions({
           question:
@@ -108,7 +108,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Wrote a letter to crows",
           optionB: "Planted more corn",
           optionC: "Cast a protective spell",
-          correctAnswer: "A) Wrote a letter to crows",
+          correctAnswer: "Wrote a letter to crows",
    }),
     ]),
   }
@@ -125,7 +125,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Friends",
           optionB: "Presents",
           optionC: "Occupation",
-          correctAnswer: "C) Occupation",
+          correctAnswer: "Occupation",
         }),
       shuffleOptions({
           question:
@@ -133,7 +133,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Mary",
           optionB: "Susan",
           optionC: "Hannah",
-          correctAnswer: "C) Hannah",
+          correctAnswer: "Hannah",
         }),
       shuffleOptions({
           question:
@@ -141,7 +141,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Jacket",
           optionB: "Coat",
           optionC: "Vest",
-          correctAnswer: "B) Coat",
+          correctAnswer: "Coat",
         }),
       shuffleOptions({
           question:
@@ -149,7 +149,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Flowers",
           optionB: "Snowdrifts",
           optionC: "Corn-stubble",
-          correctAnswer: "C) Corn-stubble",
+          correctAnswer: "Corn-stubble",
         }),
       shuffleOptions({
           question:
@@ -157,7 +157,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Pair of mittens",
           optionB: "Doll-baby",
           optionC: "Crazy quilt",
-          correctAnswer: "B) Doll-baby",
+          correctAnswer: "Doll-baby",
         }),
       shuffleOptions({
           question:
@@ -165,7 +165,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Ice",
           optionB: "Rain",
           optionC: "Hail",
-          correctAnswer: "B) Rain",
+          correctAnswer: "Rain",
         }),
       shuffleOptions({
           question:
@@ -173,7 +173,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Hat",
           optionB: "Overcoat",
           optionC: "Scarf",
-          correctAnswer: "B) Overcoat",
+          correctAnswer: "Overcoat",
         }),
       shuffleOptions({
           question:
@@ -181,7 +181,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Pride",
           optionB: "Regret",
           optionC: "Frustration",
-          correctAnswer: "A) Pride",
+          correctAnswer: "Pride",
         }),
       shuffleOptions({
           question:
@@ -189,7 +189,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Mary",
           optionB: "Susan",
           optionC: "Betsey",
-          correctAnswer: "B) Susan",
+          correctAnswer: "Susan",
         }),
       shuffleOptions({
           question:
@@ -197,7 +197,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Older",
           optionB: "Younger",
           optionC: "Smaller",
-          correctAnswer: "A) Older",
+          correctAnswer: "Older",
    }),
     ]),
   }

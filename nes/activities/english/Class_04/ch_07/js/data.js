@@ -35,14 +35,14 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "A flower",
         optionB: "A pot of gold",
         optionC: "A lump of silver",
-        correctAnswer: "B) A pot of gold",
+        correctAnswer: "A pot of gold",
      }),
       shuffleOptions({
         question: "How did the woman plan to transport her newfound treasure?",
         optionA: "She carried it in her arms.",
         optionB: "She tied her shawl to it and dragged it behind her.",
         optionC: "She put it in her basket.",
-        correctAnswer: "B) She tied her shawl to it and dragged it behind her.",
+        correctAnswer: "She tied her shawl to it and dragged it behind her.",
      }),
       shuffleOptions({
         question:
@@ -50,7 +50,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Shining gold coins",
         optionB: "A lump of silver",
         optionC: "A lump of iron",
-        correctAnswer: "A) Shining gold coins",
+        correctAnswer: "Shining gold coins",
      }),
       shuffleOptions({
         question:
@@ -58,7 +58,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Burying it in the garden",
         optionB: "Buying a grand house",
         optionC: "Both A and B",
-        correctAnswer: "C) Both A and B",
+        correctAnswer: "Both A and B",
      }),
       shuffleOptions({
         question:
@@ -66,14 +66,14 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "A lump of silver",
         optionB: "A lump of iron",
         optionC: "A great lump of iron",
-        correctAnswer: "C) A great lump of iron",
+        correctAnswer: "A great lump of iron",
      }),
       shuffleOptions({
         question: "What did the woman decide to do with the 'iron'?",
         optionA: "Sell it and become rich",
         optionB: "Use it to open her gate",
         optionC: "Bury it in the garden",
-        correctAnswer: "A) Sell it and become rich",
+        correctAnswer: "Sell it and become rich",
      }),
       shuffleOptions({
         question:
@@ -81,14 +81,14 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "A lump of silver",
         optionB: "A big stone",
         optionC: "A big stone with legs and ears",
-        correctAnswer: "C) A big stone with legs and ears",
+        correctAnswer: "A big stone with legs and ears",
      }),
       shuffleOptions({
         question: "How did the stone transform in the woman's presence?",
         optionA: "It turned into a pot of gold.",
         optionB: "It grew larger with legs and ears.",
         optionC: "It remained a stone.",
-        correctAnswer: "B) It grew larger with legs and ears.",
+        correctAnswer: "It grew larger with legs and ears.",
      }),
       shuffleOptions({
         question:
@@ -96,7 +96,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "She screamed in fear.",
         optionB: "She burst out laughing.",
         optionC: "She ran away.",
-        correctAnswer: "B) She burst out laughing.",
+        correctAnswer: "She burst out laughing.",
      }),
       shuffleOptions({
         question:
@@ -104,7 +104,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "A mischievous boy",
         optionB: "A naughty, mischievous boy",
         optionC: "The Bogey-Beast",
-        correctAnswer: "C) The Bogey-Beast",
+        correctAnswer: "The Bogey-Beast",
       }),
     ]),
   }
@@ -120,7 +120,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "eat",
         optionB: "put",
         optionC: "hide",
-        correctAnswer: "B) put",
+        correctAnswer: "put",
      }),
       shuffleOptions({
         question:
@@ -128,7 +128,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "poor",
         optionB: "rich",
         optionC: "lonely",
-        correctAnswer: "B) rich",
+        correctAnswer: "rich",
      }),
       shuffleOptions({
         question:
@@ -136,7 +136,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "horse",
         optionB: "cart",
         optionC: "bag",
-        correctAnswer: "B) cart",
+        correctAnswer: "cart",
      }),
       shuffleOptions({
         question:
@@ -144,7 +144,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "work",
         optionB: "cooking",
         optionC: "gardening",
-        correctAnswer: "A) work",
+        correctAnswer: "work",
      }),
       shuffleOptions({
         question:
@@ -152,7 +152,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "gold",
         optionB: "silver",
         optionC: "iron",
-        correctAnswer: "C) iron",
+        correctAnswer: "iron",
      }),
       shuffleOptions({
         question:
@@ -160,7 +160,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "heavy",
         optionB: "stolen",
         optionC: "lost",
-        correctAnswer: "B) stolen",
+        correctAnswer: "stolen",
      }),
       shuffleOptions({
         question:
@@ -168,7 +168,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "pot of gold",
         optionB: "lump of silver",
         optionC: "stone",
-        correctAnswer: "C) stone",
+        correctAnswer: "stone",
      }),
       shuffleOptions({
         question:
@@ -176,7 +176,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "window",
         optionB: "gate",
         optionC: "door",
-        correctAnswer: "B) gate",
+        correctAnswer: "gate",
      }),
       shuffleOptions({
         question:
@@ -184,7 +184,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "flower",
         optionB: "treasure",
         optionC: "creature",
-        correctAnswer: "C) creature",
+        correctAnswer: "creature",
      }),
       shuffleOptions({
         question:
@@ -192,7 +192,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "gloomy",
         optionB: "ordinary",
         optionC: "grand",
-        correctAnswer: "C) grand",
+        correctAnswer: "grand",
       }),
     ]),
   }

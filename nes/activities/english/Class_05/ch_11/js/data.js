@@ -36,21 +36,21 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Gannu playing with other baby elephants",
         optionB: "Gannu crying and sitting close to her mother's body",
         optionC: "Gannu peacefully sleeping",
-        correctAnswer: "B) Gannu crying and sitting close to her mother's body",
+        correctAnswer: "Gannu crying and sitting close to her mother's body",
      }),
       shuffleOptions({
         question: "How did Gannu react when Beni Ram first offered her food?",
         optionA: "She happily accepted the food",
         optionB: "She ignored the food and turned away",
         optionC: "She became aggressive",
-        correctAnswer: "B) She ignored the food and turned away",
+        correctAnswer: "She ignored the food and turned away",
      }),
       shuffleOptions({
         question: "What helped Deo and Gannu develop a bond of trust?",
         optionA: "Deo played with Gannu and fed her bananas",
         optionB: "Deo slept near Gannu in the grain shed",
         optionC: "Deo gave Gannu a pot of water to carry",
-        correctAnswer: "B) Deo slept near Gannu in the grain shed",
+        correctAnswer: "Deo slept near Gannu in the grain shed",
      }),
       shuffleOptions({
         question:
@@ -58,14 +58,14 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Tending to the fruit trees in the orchard",
         optionB: "Guarding the house at night",
         optionC: "Fetching firewood from the forest",
-        correctAnswer: "C) Fetching firewood from the forest",
+        correctAnswer: "Fetching firewood from the forest",
      }),
       shuffleOptions({
         question: "What was the annual village fair known for?",
         optionA: "Selling fruits and vegetables",
         optionB: "Puppet shows and tightrope walking",
         optionC: "Agricultural competitions",
-        correctAnswer: "B) Puppet shows and tightrope walking",
+        correctAnswer: "Puppet shows and tightrope walking",
      }),
       shuffleOptions({
         question:
@@ -74,7 +74,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionB: "She joined the wild elephants",
         optionC: "She defended the orchard and charged at the wild elephants",
         correctAnswer:
-          "C) She defended the orchard and charged at the wild elephants",
+          "She defended the orchard and charged at the wild elephants",
      }),
       shuffleOptions({
         question:
@@ -83,7 +83,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionB: "She followed a group of wild elephants into the forest",
         optionC: "She was taken by hunters",
         correctAnswer:
-          "B) She followed a group of wild elephants into the forest",
+          "She followed a group of wild elephants into the forest",
      }),
       shuffleOptions({
         question:
@@ -91,7 +91,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Gannu with a group of other elephants",
         optionB: "Gannu alone and in distress",
         optionC: "Gannu with a baby elephant",
-        correctAnswer: "C) Gannu with a baby elephant",
+        correctAnswer: "Gannu with a baby elephant",
      }),
       shuffleOptions({
         question:
@@ -99,14 +99,14 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Gannu had become aggressive",
         optionB: "Gannu had forgotten him",
         optionC: "Gannu was happy and free in the forest",
-        correctAnswer: "C) Gannu was happy and free in the forest",
+        correctAnswer: "Gannu was happy and free in the forest",
      }),
       shuffleOptions({
         question: "How did the story end for Gannu and Beni Ram?",
         optionA: "Gannu returned to the village and lived with Beni Ram",
         optionB: "Gannu and her baby lived happily in the forest",
         optionC: "Beni Ram continued to search for Gannu in the forest",
-        correctAnswer: "B) Gannu and her baby lived happily in the forest",
+        correctAnswer: "Gannu and her baby lived happily in the forest",
       }),
     ]),
   }
@@ -119,51 +119,51 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions({
         question:
           "When Beni Ram first encountered Gannu near her mother's body, her leathery face was wet with ___________ tears.",
-        correctAnswer: "B) tears",
+        correctAnswer: "tears",
      }),
       shuffleOptions({
         question: "Gannu ignored Beni Ram when he offered her ___________.",
-        correctAnswer: "B) bananas",
+        correctAnswer: "bananas",
      }),
       shuffleOptions({
         question:
           "After Gannu finally accepted Beni Ram's food offering, she raised her head and sniffed his hand with her ___________ trunk.",
-        correctAnswer: "B) trunk",
+        correctAnswer: "trunk",
      }),
       shuffleOptions({
         question:
           "Gannu helped carry a pot of water from Kamala by lifting it onto her own back, showing her ___________ strength.",
-        correctAnswer: "B) strength",
+        correctAnswer: "strength",
      }),
       shuffleOptions({
         question:
           "When wild elephants entered the orchard during the village fair, Gannu defended the orchard and charged at the wild elephants, demonstrating her ___________ bravery.",
-        correctAnswer: "A) bravery",
+        correctAnswer: "bravery",
      }),
       shuffleOptions({
         question:
           "Deo tried to scare the wild elephants away during the village fair by banging a ___________ against a vessel.",
-        correctAnswer: "B) spoon",
+        correctAnswer: "spoon",
      }),
       shuffleOptions({
         question:
           "When Gannu disappeared for many hours, she returned with a bundle of ___________ on her back.",
-        correctAnswer: "B) hay",
+        correctAnswer: "hay",
      }),
       shuffleOptions({
         question:
           "The forest officer informed Beni Ram that hunters had come looking for ___________ tuskers.",
-        correctAnswer: "C) tuskers",
+        correctAnswer: "tuskers",
      }),
       shuffleOptions({
         question:
           "When Beni Ram saw Gannu and her baby in the forest, he decided not to bring her back to the village because he believed elephants should be ___________ free.",
-        correctAnswer: "A) free",
+        correctAnswer: "free",
      }),
       shuffleOptions({
         question:
           "The text ends with Beni Ram silently walking away, leaving Gannu and her baby in the forest, as if to say ___________ goodbye.",
-        correctAnswer: "B) goodbye",
+        correctAnswer: "goodbye",
       }),
     ]),
   }

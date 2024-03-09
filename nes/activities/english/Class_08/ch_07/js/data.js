@@ -36,7 +36,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Lakes",
           optionB: "Rivers",
           optionC: "Southwest monsoon",
-          correctAnswer: "c) Southwest monsoon",
+          correctAnswer: "Southwest monsoon",
         }),
       shuffleOptions({
           question:
@@ -44,7 +44,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "North India",
           optionB: "South India",
           optionC: "Both a and b",
-          correctAnswer: "c) Both a and b",
+          correctAnswer: "Both a and b",
         }),
       shuffleOptions({
           question:
@@ -52,7 +52,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Building more dams",
           optionB: "Desalination plants",
           optionC: "Interlinking of rivers",
-          correctAnswer: "c) Interlinking of rivers",
+          correctAnswer: "Interlinking of rivers",
         }),
       shuffleOptions({
           question:
@@ -60,7 +60,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Excessive rainfall",
           optionB: "Rapid depletion of water resources",
           optionC: "Lack of industrialization",
-          correctAnswer: "b) Rapid depletion of water resources",
+          correctAnswer: "Rapid depletion of water resources",
         }),
       shuffleOptions({
           question:
@@ -68,7 +68,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Periyar Project",
           optionB: "Parambikulam Aliyar Project",
           optionC: "Beas-Sutlej Link",
-          correctAnswer: "c) Beas-Sutlej Link",
+          correctAnswer: "Beas-Sutlej Link",
         }),
       shuffleOptions({
           question:
@@ -76,7 +76,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Decreased water consumption",
           optionB: "Increase in per capita water availability",
           optionC: "Aggravation of water scarcity",
-          correctAnswer: "c) Aggravation of water scarcity",
+          correctAnswer: "Aggravation of water scarcity",
         }),
       shuffleOptions({
           question:
@@ -84,7 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "5.20 thousand cubic meters per annum",
           optionB: "1.80 thousand cubic meters per annum",
           optionC: "1.34 thousand cubic meters per annum",
-          correctAnswer: "c) 1.34 thousand cubic meters per annum",
+          correctAnswer: "1.34 thousand cubic meters per annum",
         }),
       shuffleOptions({
           question:
@@ -92,7 +92,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Increased biodiversity",
           optionB: "Global warming",
           optionC: "Preservation of ecosystems",
-          correctAnswer: "b) Global warming",
+          correctAnswer: "Global warming",
         }),
       shuffleOptions({
           question:
@@ -100,7 +100,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Economic concerns",
           optionB: "Political disagreements",
           optionC: "Environmental issues",
-          correctAnswer: "b) Political disagreements",
+          correctAnswer: "Political disagreements",
         }),
       shuffleOptions({
           question:
@@ -108,7 +108,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Public awareness campaigns",
           optionB: "Intensive study on possible effects",
           optionC: "Increased industrialization",
-          correctAnswer: "b) Intensive study on possible effects",
+          correctAnswer: "Intensive study on possible effects",
    }),
     ]),
   }
@@ -125,7 +125,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Books",
           optionB: "Knowledge",
           optionC: "Food",
-          correctAnswer: "B) Knowledge",
+          correctAnswer: "Knowledge",
         }),
       shuffleOptions({
           question:
@@ -133,7 +133,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Fifth",
           optionB: "Ninth",
           optionC: "Twelfth",
-          correctAnswer: "B) Ninth",
+          correctAnswer: "Ninth",
         }),
       shuffleOptions({
           question:
@@ -141,7 +141,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "1850",
           optionB: "1857",
           optionC: "1880",
-          correctAnswer: "B) 1857",
+          correctAnswer: "1857",
         }),
       shuffleOptions({
           question:
@@ -149,7 +149,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Funny",
           optionB: "Strange",
           optionC: "ME",
-          correctAnswer: "C) ME",
+          correctAnswer: "ME",
         }),
       shuffleOptions({
           question:
@@ -157,7 +157,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Woods",
           optionB: "City",
           optionC: "Countryside",
-          correctAnswer: "B) City",
+          correctAnswer: "City",
         }),
       shuffleOptions({
           question:
@@ -165,7 +165,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Travel",
           optionB: "Jewelry",
           optionC: "Art",
-          correctAnswer: "A) Travel",
+          correctAnswer: "Travel",
         }),
       shuffleOptions({
           question:
@@ -173,7 +173,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Games",
           optionB: "Stories",
           optionC: "Songs",
-          correctAnswer: "B) Stories",
+          correctAnswer: "Stories",
         }),
       shuffleOptions({
           question:
@@ -181,7 +181,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Painting",
           optionB: "Writing",
           optionC: "Cooking",
-          correctAnswer: "B) Writing",
+          correctAnswer: "Writing",
         }),
       shuffleOptions({
           question:
@@ -189,7 +189,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Artists",
           optionB: "Athletes",
           optionC: "Storytellers",
-          correctAnswer: "C) Storytellers",
+          correctAnswer: "Storytellers",
         }),
       shuffleOptions({
           question:
@@ -197,7 +197,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Countryside",
           optionB: "Hospital",
           optionC: "School",
-          correctAnswer: "B) Hospital",
+          correctAnswer: "Hospital",
    }),
     ]),
   }

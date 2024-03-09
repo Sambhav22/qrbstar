@@ -35,7 +35,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "A large order for cotton",
         optionB: "A large order for salt",
         optionC: "A large order for water",
-        correctAnswer: "B) A large order for salt",
+        correctAnswer: "A large order for salt",
      }),
       shuffleOptions({
         question:
@@ -43,7 +43,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "One",
         optionB: "Two",
         optionC: "Three",
-        correctAnswer: "C) Three",
+        correctAnswer: "Three",
      }),
       shuffleOptions({
         question:
@@ -51,7 +51,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "A dusty path",
         optionB: "A water stream without a bridge",
         optionC: "A heavy load of salt",
-        correctAnswer: "B) A water stream without a bridge",
+        correctAnswer: "A water stream without a bridge",
      }),
       shuffleOptions({
         question:
@@ -59,7 +59,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "It enjoyed swimming",
         optionB: "The salt in its load dissolved, making it lighter",
         optionC: "Baljeet rewarded it for falling",
-        correctAnswer: "B) The salt in its load dissolved, making it lighter",
+        correctAnswer: "The salt in its load dissolved, making it lighter",
      }),
       shuffleOptions({
         question:
@@ -67,7 +67,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "More salt",
         optionB: "Cotton",
         optionC: "Water",
-        correctAnswer: "B) Cotton",
+        correctAnswer: "Cotton",
      }),
       shuffleOptions({
         question:
@@ -75,7 +75,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "It wanted to swim",
         optionB: "It thought the load would become lighter",
         optionC: "Baljeet forced it to do so",
-        correctAnswer: "B) It thought the load would become lighter",
+        correctAnswer: "It thought the load would become lighter",
      }),
       shuffleOptions({
         question:
@@ -83,7 +83,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "The load became lighter",
         optionB: "The load became heavier",
         optionC: "The load remained the same",
-        correctAnswer: "B) The load became heavier",
+        correctAnswer: "The load became heavier",
      }),
       shuffleOptions({
         question:
@@ -91,7 +91,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "He laughed",
         optionB: "He helped the donkey immediately",
         optionC: "He waited before helping and then struck the donkey",
-        correctAnswer: "C) He waited before helping and then struck the donkey",
+        correctAnswer: "He waited before helping and then struck the donkey",
      }),
       shuffleOptions({
         question:
@@ -99,7 +99,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Cotton is lighter than salt",
         optionB: "People can be fooled repeatedly",
         optionC: "The same trick doesn't work again and again",
-        correctAnswer: "C) The same trick doesn't work again and again",
+        correctAnswer: "The same trick doesn't work again and again",
      }),
       shuffleOptions({
         question:
@@ -107,7 +107,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "He gave the donkey a reward",
         optionB: "He loaded the donkey with more salt",
         optionC: "He struck the donkey with a cane",
-        correctAnswer: "C) He struck the donkey with a cane",
+        correctAnswer: "He struck the donkey with a cane",
       }),
     ]),
   }

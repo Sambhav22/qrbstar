@@ -36,7 +36,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Warm and glittering",
           optionB: "Elusive and shy",
           optionC: "Cold and distant",
-          correctAnswer: "A) Warm and glittering",
+          correctAnswer: "Warm and glittering",
         }),
       shuffleOptions({
           question:
@@ -44,21 +44,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Closed windows",
           optionB: "Shady parlour",
           optionC: "Blinds with chinks",
-          correctAnswer: "C) Blinds with chinks",
+          correctAnswer: "Blinds with chinks",
         }),
       shuffleOptions({
           question: "How does the sun make the dusty attic spider-clad glad?",
           optionA: "By creating warmth",
           optionB: "Through the keyhole",
           optionC: "By smiling through broken tiles",
-          correctAnswer: "B) Through the keyhole",
+          correctAnswer: "Through the keyhole",
         }),
       shuffleOptions({
           question: "What does the sun do to the garden ground in the text?",
           optionA: "Darkens it",
           optionB: "Illuminates it with a warm and glittering look",
           optionC: "Covers it with rain",
-          correctAnswer: "B) Illuminates it with a warm and glittering look",
+          correctAnswer: "Illuminates it with a warm and glittering look",
         }),
       shuffleOptions({
           question:
@@ -66,7 +66,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "In the attic",
           optionB: "Among the ivy's inmost nook",
           optionC: "Through the broken tiles",
-          correctAnswer: "B) Among the ivy's inmost nook",
+          correctAnswer: "Among the ivy's inmost nook",
         }),
       shuffleOptions({
           question:
@@ -74,7 +74,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "With a hesitant pace",
           optionB: "With footing true",
           optionC: "In a zigzag pattern",
-          correctAnswer: "B) With footing true",
+          correctAnswer: "With footing true",
         }),
       shuffleOptions({
           question:
@@ -82,7 +82,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "To scold the child",
           optionB: "To please the child",
           optionC: "To hide from the child",
-          correctAnswer: "B) To please the child",
+          correctAnswer: "To please the child",
         }),
       shuffleOptions({
           question:
@@ -90,14 +90,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "To keep the sun out",
           optionB: "To create a dark atmosphere",
           optionC: "To keep the room cool",
-          correctAnswer: "C) To keep the room cool",
+          correctAnswer: "To keep the room cool",
         }),
       shuffleOptions({
           question: "Where does the sun go to paint the rose, as per the text?",
           optionA: "In the attic",
           optionB: "Among the ivy's inmost nook",
           optionC: "Round the bright air",
-          correctAnswer: "C) Round the bright air",
+          correctAnswer: "Round the bright air",
         }),
       shuffleOptions({
           question:
@@ -105,7 +105,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Through closed doors",
           optionB: "Through the broken edge of tiles",
           optionC: "By creating a cool atmosphere",
-          correctAnswer: "B) Through the broken edge of tiles",
+          correctAnswer: "Through the broken edge of tiles",
    }),
     ]),
   }
@@ -122,7 +122,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "splendor, brilliance",
           optionB: "repose, rays",
           optionC: "warmth, radiance",
-          correctAnswer: "B) repose, rays",
+          correctAnswer: "repose, rays",
         }),
       shuffleOptions({
           question:
@@ -130,7 +130,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "fingers",
           optionB: "sunlight",
           optionC: "warmth",
-          correctAnswer: "A) fingers",
+          correctAnswer: "fingers",
         }),
       shuffleOptions({
           question:
@@ -138,7 +138,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "happiness, smiles",
           optionB: "sadness, frowns",
           optionC: "glad, peeks",
-          correctAnswer: "C) glad, peeks",
+          correctAnswer: "glad, peeks",
         }),
       shuffleOptions({
           question:
@@ -146,7 +146,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "garden, inmost",
           optionB: "dark, hidden",
           optionC: "bright, open",
-          correctAnswer: "A) garden, inmost",
+          correctAnswer: "garden, inmost",
         }),
       shuffleOptions({
           question:
@@ -154,14 +154,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "bright, sky",
           optionB: "dark, moon",
           optionC: "open, rose",
-          correctAnswer: "A) bright, sky",
+          correctAnswer: "bright, sky",
         }),
       shuffleOptions({
           question: "What is described as 'thicker than rain' in the text?",
           optionA: "Blinds",
           optionB: "Sun",
           optionC: "Days",
-          correctAnswer: "C) Days",
+          correctAnswer: "Days",
         }),
       shuffleOptions({
           question:
@@ -169,7 +169,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Hole or crack",
           optionB: "Bright light",
           optionC: "Warmth",
-          correctAnswer: "A) Hole or crack",
+          correctAnswer: "Hole or crack",
         }),
       shuffleOptions({
           question:
@@ -177,14 +177,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Closed window",
           optionB: "Keyhole",
           optionC: "Broken edge of tiles",
-          correctAnswer: "B) Keyhole",
+          correctAnswer: "Keyhole",
         }),
       shuffleOptions({
           question: "What does the sun shed among the ivy's inmost nook?",
           optionA: "Rain",
           optionB: "Glittering look",
           optionC: "Darkness",
-          correctAnswer: "B) Glittering look",
+          correctAnswer: "Glittering look",
         }),
       shuffleOptions({
           question:
@@ -192,7 +192,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Dark air",
           optionB: "Bright air",
           optionC: "Shady parlour",
-          correctAnswer: "B) Bright air",
+          correctAnswer: "Bright air",
    }),
     ]),
   }

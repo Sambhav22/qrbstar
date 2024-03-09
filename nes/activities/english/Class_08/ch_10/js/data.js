@@ -36,7 +36,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Headed to the burger shop",
           optionB: "Sat in the grass for lunch",
           optionC: "Played near the water taps",
-          correctAnswer: "B) Sat in the grass for lunch",
+          correctAnswer: "Sat in the grass for lunch",
         }),
       shuffleOptions({
           question:
@@ -44,7 +44,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "They had too much food",
           optionB: "They forgot their lunch boxes",
           optionC: "They had the same lunch items repeatedly",
-          correctAnswer: "C) They had the same lunch items repeatedly",
+          correctAnswer: "They had the same lunch items repeatedly",
         }),
       shuffleOptions({
           question:
@@ -52,7 +52,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Mathematics",
           optionB: "English",
           optionC: "Science",
-          correctAnswer: "B) English",
+          correctAnswer: "English",
         }),
       shuffleOptions({
           question:
@@ -60,7 +60,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Go to the park",
           optionB: "Visit a friend's house",
           optionC: "Get something at the burger shop",
-          correctAnswer: "C) Get something at the burger shop",
+          correctAnswer: "Get something at the burger shop",
         }),
       shuffleOptions({
           question:
@@ -68,7 +68,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "A math problem",
           optionB: "A story",
           optionC: "A science experiment",
-          correctAnswer: "B) A story",
+          correctAnswer: "A story",
         }),
       shuffleOptions({
           question:
@@ -76,14 +76,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "From a supermarket",
           optionB: "By hunting and planting crops",
           optionC: "By trading with other tribes",
-          correctAnswer: "B) By hunting and planting crops",
+          correctAnswer: "By hunting and planting crops",
         }),
       shuffleOptions({
           question: "Why did the sky become angry in the folktale?",
           optionA: "People stopped eating the sky",
           optionB: "People wasted the food from the sky",
           optionC: "People didn't appreciate the sky's gifts",
-          correctAnswer: "B) People wasted the food from the sky",
+          correctAnswer: "People wasted the food from the sky",
         }),
       shuffleOptions({
           question:
@@ -91,7 +91,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Shared them with his friends",
           optionB: "Hid them in the garbage pile",
           optionC: "Gave them to his children",
-          correctAnswer: "B) Hid them in the garbage pile",
+          correctAnswer: "Hid them in the garbage pile",
         }),
       shuffleOptions({
           question:
@@ -99,7 +99,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "The sky disappeared",
           optionB: "Aadmi became the king",
           optionC: "People learned how to fly",
-          correctAnswer: "A) The sky disappeared",
+          correctAnswer: "The sky disappeared",
         }),
       shuffleOptions({
           question:
@@ -108,7 +108,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "Nature's gifts should be appreciated and not wasted",
           optionC: "Burgers are better than homemade lunches",
           correctAnswer:
-            "B) Nature's gifts should be appreciated and not wasted",
+            "Nature's gifts should be appreciated and not wasted",
    }),
     ]),
   }
@@ -125,7 +125,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "breakfast",
           optionB: "lunch",
           optionC: "half",
-          correctAnswer: "C) half",
+          correctAnswer: "half",
         }),
       shuffleOptions({
           question:
@@ -133,7 +133,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "school",
           optionB: "dinner",
           optionC: "lunch",
-          correctAnswer: "A) school",
+          correctAnswer: "school",
         }),
       shuffleOptions({
           question:
@@ -141,7 +141,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "recess",
           optionB: "class",
           optionC: "lunch",
-          correctAnswer: "B) class",
+          correctAnswer: "class",
         }),
       shuffleOptions({
           question:
@@ -149,7 +149,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "fascinating",
           optionB: "boring",
           optionC: "confusing",
-          correctAnswer: "A) fascinating",
+          correctAnswer: "fascinating",
         }),
       shuffleOptions({
           question:
@@ -157,7 +157,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "familiar",
           optionB: "different",
           optionC: "bland",
-          correctAnswer: "B) different",
+          correctAnswer: "different",
         }),
       shuffleOptions({
           question:
@@ -165,7 +165,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "happy",
           optionB: "angry",
           optionC: "sad",
-          correctAnswer: "B) angry",
+          correctAnswer: "angry",
         }),
       shuffleOptions({
           question:
@@ -173,7 +173,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "conclusion",
           optionB: "ultimatum",
           optionC: "warning",
-          correctAnswer: "B) ultimatum",
+          correctAnswer: "ultimatum",
         }),
       shuffleOptions({
           question:
@@ -181,7 +181,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "leftovers",
           optionB: "snacks",
           optionC: "dinner",
-          correctAnswer: "A) leftovers",
+          correctAnswer: "leftovers",
         }),
       shuffleOptions({
           question:
@@ -189,7 +189,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "feast",
           optionB: "starve",
           optionC: "celebrate",
-          correctAnswer: "B) starve",
+          correctAnswer: "starve",
    }),
     ]),
   }

@@ -37,7 +37,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Between two and two forty-five",
           optionB: "Between three and three forty-five",
           optionC: "Between four and four forty-five",
-          correctAnswer: "B) Between three and three forty-five",
+          correctAnswer: "Between three and three forty-five",
         }),
       shuffleOptions({
           question:
@@ -45,7 +45,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Play games under the tamarind tree",
           optionB: "Dabble in wet clay and shape models",
           optionC: "Engage in repeating the Tamil alphabet",
-          correctAnswer: "B) Dabble in wet clay and shape models",
+          correctAnswer: "Dabble in wet clay and shape models",
         }),
       shuffleOptions({
           question:
@@ -53,7 +53,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Corridor of the Infant Standards",
           optionB: "Senior classes-the second and third forms",
           optionC: "Foot of the staircase",
-          correctAnswer: "B) Senior classes-the second and third forms",
+          correctAnswer: "Senior classes-the second and third forms",
         }),
       shuffleOptions({
           question:
@@ -61,7 +61,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Rajam",
           optionB: "Mani",
           optionC: "Vedanayagam",
-          correctAnswer: "C) Vedanayagam",
+          correctAnswer: "Vedanayagam",
         }),
       shuffleOptions({
           question:
@@ -69,21 +69,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Losing a game under the tamarind tree",
           optionB: "Being scolded by Vedanayagam",
           optionC: "Earning a new name - 'The Tail'",
-          correctAnswer: "C) Earning a new name - 'The Tail'",
+          correctAnswer: "Earning a new name - 'The Tail'",
         }),
       shuffleOptions({
           question: "What did Somu call Swaminathan after the incident?",
           optionA: "The Genius",
           optionB: "The Tail-Rajam's Tail",
           optionC: "The Lone Wanderer",
-          correctAnswer: "B) The Tail-Rajam's Tail",
+          correctAnswer: "The Tail-Rajam's Tail",
         }),
       shuffleOptions({
           question: "What did Swaminathan do after the English period?",
           optionA: "Played games under the tamarind tree",
           optionB: "Walked home alone, troubled",
           optionC: "Went to Rajam's house",
-          correctAnswer: "B) Walked home alone, troubled",
+          correctAnswer: "Walked home alone, troubled",
         }),
       shuffleOptions({
           question:
@@ -91,14 +91,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Plunged his hand in and picked it up",
           optionB: "Ignored it and walked away",
           optionC: "Made a boat and sailed it",
-          correctAnswer: "A) Plunged his hand in and picked it up",
+          correctAnswer: "Plunged his hand in and picked it up",
         }),
       shuffleOptions({
           question: "What happened to the boat when it passed under a tree?",
           optionA: "A brick obstructed its progress",
           optionB: "A leaf fell down and upset it",
           optionC: "It turned turtle",
-          correctAnswer: "B) A leaf fell down and upset it",
+          correctAnswer: "A leaf fell down and upset it",
         }),
       shuffleOptions({
           question:
@@ -106,7 +106,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Uttered a prayer for the soul of the ant",
           optionB: "Left the spot without doing anything",
           optionC: "Tried to retrieve the boat from the gutter",
-          correctAnswer: "A) Uttered a prayer for the soul of the ant",
+          correctAnswer: "Uttered a prayer for the soul of the ant",
    }),
     ]),
   }

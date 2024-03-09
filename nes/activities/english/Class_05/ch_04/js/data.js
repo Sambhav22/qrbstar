@@ -37,7 +37,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Give him a haircut",
           optionB: "Take him home to entertain his wife with music",
           optionC: "Invite him for dinner",
-          correctAnswer: "B) Take him home to entertain his wife with music",
+          correctAnswer: "Take him home to entertain his wife with music",
         }),
       shuffleOptions({
           question:
@@ -45,7 +45,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Bone",
           optionB: "Water",
           optionC: "Tambour",
-          correctAnswer: "A) Bone",
+          correctAnswer: "Bone",
         }),
       shuffleOptions({
           question:
@@ -53,7 +53,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "They hid the body in the doctor's clinic",
           optionB: "They threw the body into the river",
           optionC: "They buried the body in their backyard",
-          correctAnswer: "A) They hid the body in the doctor's clinic",
+          correctAnswer: "They hid the body in the doctor's clinic",
         }),
       shuffleOptions({
           question: "Why did the doctor think he had killed the hunchback?",
@@ -61,14 +61,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "He tripped over the body and thought he caused the death",
           optionC: "He intentionally hit the hunchback on the head",
           correctAnswer:
-            "B) He tripped over the body and thought he caused the death",
+            "He tripped over the body and thought he caused the death",
         }),
       shuffleOptions({
           question: "What was the oil man's occupation?",
           optionA: "Doctor",
           optionB: "Barber",
           optionC: "Merchant",
-          correctAnswer: "A) Oil man",
+          correctAnswer: "Oil man",
         }),
       shuffleOptions({
           question: "Why did the oil man believe he had killed the hunchback?",
@@ -76,7 +76,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "He thought the hunchback was a thief",
           optionC: "He intentionally attacked the hunchback",
           correctAnswer:
-            "A) He accidentally hit him while trying to defend himself",
+            "He accidentally hit him while trying to defend himself",
         }),
       shuffleOptions({
           question:
@@ -84,14 +84,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "He tried to help the hunchback",
           optionB: "He thought he was being attacked and hit the body",
           optionC: "He ran away in fear",
-          correctAnswer: "B) He thought he was being attacked and hit the body",
+          correctAnswer: "He thought he was being attacked and hit the body",
         }),
       shuffleOptions({
           question: "What was the reason for the merchant's arrest?",
           optionA: "Drinking wine",
           optionB: "Robbery",
           optionC: "Murdering the hunchback",
-          correctAnswer: "C) Murdering the hunchback",
+          correctAnswer: "Murdering the hunchback",
         }),
       shuffleOptions({
           question:
@@ -99,14 +99,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "The oil man",
           optionB: "The merchant",
           optionC: "The barber",
-          correctAnswer: "C) The barber",
+          correctAnswer: "The barber",
         }),
       shuffleOptions({
           question: "What punishment did the king order for the barber?",
           optionA: "Death penalty",
           optionB: "Imprisonment",
           optionC: "Five lashes on his bare back",
-          correctAnswer: "C) Five lashes on his bare back",
+          correctAnswer: "Five lashes on his bare back",
    }),
     ]),
   }
@@ -123,7 +123,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "chef",
           optionB: "wife",
           optionC: "haircut",
-          correctAnswer: "C) haircut",
+          correctAnswer: "haircut",
         }),
       shuffleOptions({
           question:
@@ -131,7 +131,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "dancing",
           optionB: "singing",
           optionC: "cooking",
-          correctAnswer: "B) singing",
+          correctAnswer: "singing",
         }),
       shuffleOptions({
           question:
@@ -139,7 +139,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "coin",
           optionB: "fishbone",
           optionC: "feather",
-          correctAnswer: "B) fishbone",
+          correctAnswer: "fishbone",
         }),
       shuffleOptions({
           question:
@@ -147,7 +147,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "river",
           optionB: "doctor's clinic",
           optionC: "graveyard",
-          correctAnswer: "B) doctor's clinic",
+          correctAnswer: "doctor's clinic",
         }),
       shuffleOptions({
           question:
@@ -155,14 +155,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "market",
           optionB: "river",
           optionC: "king's palace",
-          correctAnswer: "A) market",
+          correctAnswer: "market",
         }),
       shuffleOptions({
           question: "The merchant was arrested for ____ the hunchback.",
           optionA: "drinking wine",
           optionB: "stealing",
           optionC: "murdering",
-          correctAnswer: "C) murdering",
+          correctAnswer: "murdering",
         }),
       shuffleOptions({
           question:
@@ -170,7 +170,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "animal",
           optionB: "attacker",
           optionC: "friend",
-          correctAnswer: "B) attacker",
+          correctAnswer: "attacker",
         }),
       shuffleOptions({
           question:
@@ -178,7 +178,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "alley",
           optionB: "staircase",
           optionC: "room",
-          correctAnswer: "B) staircase",
+          correctAnswer: "staircase",
         }),
       shuffleOptions({
           question:
@@ -186,7 +186,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "ten",
           optionB: "five",
           optionC: "two",
-          correctAnswer: "B) five",
+          correctAnswer: "five",
         }),
       shuffleOptions({
           question:
@@ -194,7 +194,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "poisoning",
           optionB: "choking",
           optionC: "drowning",
-          correctAnswer: "B) choking",
+          correctAnswer: "choking",
    }),
     ]),
   }

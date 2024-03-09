@@ -37,7 +37,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "To generate income for the government",
           optionB: "To preserve natural heritage",
           optionC: "To store knowledge about the past",
-          correctAnswer: "C) To store knowledge about the past",
+          correctAnswer: "To store knowledge about the past",
         }),
       shuffleOptions({
           question:
@@ -45,7 +45,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "National Rail Museum, Delhi",
           optionB: "Calico Museum of Textiles",
           optionC: "Indian Museum, Kolkata",
-          correctAnswer: "C) Indian Museum, Kolkata",
+          correctAnswer: "Indian Museum, Kolkata",
         }),
       shuffleOptions({
           question:
@@ -53,7 +53,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Online artifact viewing",
           optionB: "Largest outdoor area",
           optionC: "Exclusive collection of paintings",
-          correctAnswer: "A) Online artifact viewing",
+          correctAnswer: "Online artifact viewing",
         }),
       shuffleOptions({
           question:
@@ -61,7 +61,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "To expand its collection",
           optionB: "To make space for a zoo",
           optionC: "Insufficient space for all artifacts",
-          correctAnswer: "C) Insufficient space for all artifacts",
+          correctAnswer: "Insufficient space for all artifacts",
         }),
       shuffleOptions({
           question:
@@ -69,7 +69,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Calico Museum of Textiles",
           optionB: "Indian Museum, Kolkata",
           optionC: "National Rail Museum, Delhi",
-          correctAnswer: "C) National Rail Museum, Delhi",
+          correctAnswer: "National Rail Museum, Delhi",
         }),
       shuffleOptions({
           question:
@@ -77,21 +77,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "1977",
           optionB: "1995",
           optionC: "1853",
-          correctAnswer: "B) 1995",
+          correctAnswer: "1995",
         }),
       shuffleOptions({
           question: "Who founded the Calico Museum of Textiles?",
           optionA: "Gautam Sarabhai",
           optionB: "Rakesh Sharma",
           optionC: "Lord Napier",
-          correctAnswer: "A) Gautam Sarabhai",
+          correctAnswer: "Gautam Sarabhai",
         }),
       shuffleOptions({
           question: "What is the main focus of the Calico Museum of Textiles?",
           optionA: "Displaying aviation history",
           optionB: "Textiles and related arts",
           optionC: "Preserving ancient coins",
-          correctAnswer: "B) Textiles and related arts",
+          correctAnswer: "Textiles and related arts",
         }),
       shuffleOptions({
           question:
@@ -99,7 +99,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Ancient artifacts",
           optionB: "Royal tents and furnishings",
           optionC: "Different types of aircraft",
-          correctAnswer: "C) Different types of aircraft",
+          correctAnswer: "Different types of aircraft",
         }),
       shuffleOptions({
           question:
@@ -107,7 +107,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Nirmal Jit Sekhon",
           optionB: "Rakesh Sharma",
           optionC: "Velu Thampi Dhalawa",
-          correctAnswer: "A) Nirmal Jit Sekhon",
+          correctAnswer: "Nirmal Jit Sekhon",
    }),
     ]),
   }
@@ -124,7 +124,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Books",
           optionB: "Knowledge",
           optionC: "Food",
-          correctAnswer: "B) Knowledge",
+          correctAnswer: "Knowledge",
         }),
       shuffleOptions({
           question:
@@ -132,7 +132,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Fifth",
           optionB: "Ninth",
           optionC: "Twelfth",
-          correctAnswer: "B) Ninth",
+          correctAnswer: "Ninth",
         }),
       shuffleOptions({
           question:
@@ -140,7 +140,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "1850",
           optionB: "1857",
           optionC: "1880",
-          correctAnswer: "B) 1857",
+          correctAnswer: "1857",
         }),
       shuffleOptions({
           question:
@@ -148,7 +148,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Funny",
           optionB: "Strange",
           optionC: "ME",
-          correctAnswer: "C) ME",
+          correctAnswer: "ME",
         }),
       shuffleOptions({
           question:
@@ -156,7 +156,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Woods",
           optionB: "City",
           optionC: "Countryside",
-          correctAnswer: "B) City",
+          correctAnswer: "City",
         }),
       shuffleOptions({
           question:
@@ -164,7 +164,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Travel",
           optionB: "Jewelry",
           optionC: "Art",
-          correctAnswer: "A) Travel",
+          correctAnswer: "Travel",
         }),
       shuffleOptions({
           question:
@@ -172,7 +172,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Games",
           optionB: "Stories",
           optionC: "Songs",
-          correctAnswer: "B) Stories",
+          correctAnswer: "Stories",
         }),
       shuffleOptions({
           question:
@@ -180,7 +180,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Painting",
           optionB: "Writing",
           optionC: "Cooking",
-          correctAnswer: "B) Writing",
+          correctAnswer: "Writing",
         }),
       shuffleOptions({
           question:
@@ -188,7 +188,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Artists",
           optionB: "Athletes",
           optionC: "Storytellers",
-          correctAnswer: "C) Storytellers",
+          correctAnswer: "Storytellers",
         }),
       shuffleOptions({
           question:
@@ -196,7 +196,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Countryside",
           optionB: "Hospital",
           optionC: "School",
-          correctAnswer: "B) Hospital",
+          correctAnswer: "Hospital",
    }),
     ]),
   }

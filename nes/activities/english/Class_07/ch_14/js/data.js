@@ -36,7 +36,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Brown",
           optionB: "Klondike",
           optionC: "Wolf",
-          correctAnswer: "c) Wolf",
+          correctAnswer: "Wolf",
         }),
       shuffleOptions({
           question:
@@ -44,7 +44,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Klondike",
           optionB: "Wolf",
           optionC: "Brown",
-          correctAnswer: "c) Brown",
+          correctAnswer: "Brown",
         }),
       shuffleOptions({
           question:
@@ -52,14 +52,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "His floppy ears",
           optionB: "His tail shape",
           optionC: "He looked like a wolf",
-          correctAnswer: "c) He looked like a wolf",
+          correctAnswer: "He looked like a wolf",
         }),
       shuffleOptions({
           question: "Why did Skiff Miller think the dog belonged with him?",
           optionA: "He had a metal plate collar with his name on it.",
           optionB: "He raised the dog from a puppy.",
           optionC: "The dog responded to his commands.",
-          correctAnswer: "b) He raised the dog from a puppy.",
+          correctAnswer: "He raised the dog from a puppy.",
         }),
       shuffleOptions({
           question:
@@ -67,7 +67,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "They offered to buy him.",
           optionB: "They threatened to report him to the authorities.",
           optionC: "They promised to take better care of him.",
-          correctAnswer: "a) They offered to buy him.",
+          correctAnswer: "They offered to buy him.",
         }),
       shuffleOptions({
           question:
@@ -76,14 +76,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionB: "He would walk away, and Wolf could follow if he wanted.",
           optionC: "He would let Madge and Irvine decide for Wolf.",
           correctAnswer:
-            "b) He would walk away, and Wolf could follow if he wanted.",
+            "He would walk away, and Wolf could follow if he wanted.",
         }),
       shuffleOptions({
           question: "What was Wolf's reaction when Skiff Miller left?",
           optionA: "He stayed with Walt Irvine.",
           optionB: "He followed Skiff Miller.",
           optionC: "He remained indecisive.",
-          correctAnswer: "b) He followed Skiff Miller.",
+          correctAnswer: "He followed Skiff Miller.",
         }),
       shuffleOptions({
           question:
@@ -91,14 +91,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Because the climate in California was better.",
           optionB: "Because he liked Madge and Irvine more.",
           optionC: "Because he had become accustomed to life there.",
-          correctAnswer: "c) Because he had become accustomed to life there.",
+          correctAnswer: "Because he had become accustomed to life there.",
         }),
       shuffleOptions({
           question: "What was the final decision made by Wolf?",
           optionA: "He stayed with Madge and Irvine.",
           optionB: "He followed Skiff Miller.",
           optionC: "He disappeared into the wilderness.",
-          correctAnswer: "b) He followed Skiff Miller.",
+          correctAnswer: "He followed Skiff Miller.",
         }),
       shuffleOptions({
           question:
@@ -106,7 +106,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "It showed his loyalty to Skiff Miller.",
           optionB: "It demonstrated his independence and freedom.",
           optionC: "It proved his attachment to Madge and Irvine.",
-          correctAnswer: "b) It demonstrated his independence and freedom.",
+          correctAnswer: "It demonstrated his independence and freedom.",
    }),
     ]),
   }
@@ -123,7 +123,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Brown",
           optionB: "Klondike",
           optionC: "Wolf",
-          correctAnswer: "c) Wolf",
+          correctAnswer: "Wolf",
         }),
       shuffleOptions({
           question:
@@ -131,7 +131,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Friendly",
           optionB: "Unsociable",
           optionC: "Playful",
-          correctAnswer: "b) Unsociable",
+          correctAnswer: "Unsociable",
         }),
       shuffleOptions({
           question:
@@ -139,7 +139,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Klondike",
           optionB: "Brown",
           optionC: "Wolf",
-          correctAnswer: "b) Brown",
+          correctAnswer: "Brown",
         }),
       shuffleOptions({
           question:
@@ -147,14 +147,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Home address",
           optionB: "Phone number",
           optionC: "Return address",
-          correctAnswer: "c) Return address",
+          correctAnswer: "Return address",
         }),
       shuffleOptions({
           question: "Wolf had an obsession that drove him __________.",
           optionA: "East",
           optionB: "South",
           optionC: "North",
-          correctAnswer: "c) North",
+          correctAnswer: "North",
         }),
       shuffleOptions({
           question:
@@ -162,7 +162,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Miller's address",
           optionB: "Wolf's name",
           optionC: "Irvine's address",
-          correctAnswer: "a) Miller's address",
+          correctAnswer: "Miller's address",
         }),
       shuffleOptions({
           question:
@@ -170,7 +170,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Walt Irvine",
           optionB: "Madge",
           optionC: "Wolf",
-          correctAnswer: "c) Wolf",
+          correctAnswer: "Wolf",
         }),
       shuffleOptions({
           question:
@@ -178,7 +178,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Independence",
           optionB: "Loyalty",
           optionC: "Confusion",
-          correctAnswer: "a) Independence",
+          correctAnswer: "Independence",
         }),
       shuffleOptions({
           question:
@@ -186,7 +186,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Canada",
           optionB: "California",
           optionC: "Oregon",
-          correctAnswer: "b) California",
+          correctAnswer: "California",
         }),
       shuffleOptions({
           question:
@@ -194,7 +194,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Attachment",
           optionB: "Independence",
           optionC: "Loyalty",
-          correctAnswer: "b) Independence",
+          correctAnswer: "Independence",
    }),
     ]),
   }

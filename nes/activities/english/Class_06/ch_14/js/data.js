@@ -37,7 +37,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Only the rich and mighty",
           optionB: "Only the poor and lowly",
           optionC: "Both rich and poor, mighty and lowly",
-          correctAnswer: "c) Both rich and poor, mighty and lowly",
+          correctAnswer: "Both rich and poor, mighty and lowly",
         }),
       shuffleOptions({
           question:
@@ -45,7 +45,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Chastity",
           optionB: "Wealth",
           optionC: "Power",
-          correctAnswer: "a) Chastity",
+          correctAnswer: "Chastity",
         }),
       shuffleOptions({
           question:
@@ -53,14 +53,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Love",
           optionB: "Wisdom",
           optionC: "Money",
-          correctAnswer: "c) Money",
+          correctAnswer: "Money",
         }),
       shuffleOptions({
           question: "Why does the ragged scholar approach the king for aid?",
           optionA: "He is hungry and needs food.",
           optionB: "His wife is ill due to lack of good food.",
           optionC: "He wants charity to improve his living conditions.",
-          correctAnswer: "b) His wife is ill due to lack of good food.",
+          correctAnswer: "His wife is ill due to lack of good food.",
         }),
       shuffleOptions({
           question:
@@ -68,7 +68,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Grant him a large sum of money.",
           optionB: "Appoint him as a minister in the court.",
           optionC: "Ignore his request.",
-          correctAnswer: "b) Appoint him as a minister in the court.",
+          correctAnswer: "Appoint him as a minister in the court.",
         }),
       shuffleOptions({
           question:
@@ -76,7 +76,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Engaging in luxurious activities.",
           optionB: "Wandering in rags.",
           optionC: "Devouring books in his leisure moments.",
-          correctAnswer: "c) Devouring books in his leisure moments.",
+          correctAnswer: "Devouring books in his leisure moments.",
         }),
       shuffleOptions({
           question:
@@ -84,7 +84,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "His wealth",
           optionB: "His magical powers",
           optionC: "His position at the court",
-          correctAnswer: "c) His position at the court",
+          correctAnswer: "His position at the court",
         }),
       shuffleOptions({
           question:
@@ -92,7 +92,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "He practices magic before meeting the king.",
           optionB: "He is secretly conspiring against the king.",
           optionC: "He is leading a rebellion in the kingdom.",
-          correctAnswer: "a) He practices magic before meeting the king.",
+          correctAnswer: "He practices magic before meeting the king.",
         }),
       shuffleOptions({
           question:
@@ -100,7 +100,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "He welcomes the king with open arms.",
           optionB: "He tries to avoid the visit.",
           optionC: "He insists the king accompany him.",
-          correctAnswer: "c) He insists the king accompany him.",
+          correctAnswer: "He insists the king accompany him.",
         }),
       shuffleOptions({
           question:
@@ -108,7 +108,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Hidden magical artifacts.",
           optionB: "A bundle of old yellow rags.",
           optionC: "A treasure trove of gold and jewels.",
-          correctAnswer: "b) A bundle of old yellow rags.",
+          correctAnswer: "A bundle of old yellow rags.",
    }),
     ]),
   }
@@ -125,7 +125,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Celebration",
           optionB: "Audience",
           optionC: "Ceremony",
-          correctAnswer: "b) Audience",
+          correctAnswer: "Audience",
         }),
       shuffleOptions({
           question:
@@ -133,7 +133,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Illuminated",
           optionB: "Overshadowed",
           optionC: "Brightened",
-          correctAnswer: "b) Overshadowed",
+          correctAnswer: "Overshadowed",
         }),
       shuffleOptions({
           question:
@@ -141,7 +141,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Boon",
           optionB: "Gift",
           optionC: "Favor",
-          correctAnswer: "a) Boon",
+          correctAnswer: "Boon",
         }),
       shuffleOptions({
           question:
@@ -149,7 +149,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Beautiful",
           optionB: "Chaste",
           optionC: "Wealthy",
-          correctAnswer: "b) Chaste",
+          correctAnswer: "Chaste",
         }),
       shuffleOptions({
           question:
@@ -157,7 +157,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Love",
           optionB: "Wisdom",
           optionC: "Money",
-          correctAnswer: "c) Money",
+          correctAnswer: "Money",
         }),
       shuffleOptions({
           question:
@@ -165,7 +165,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Clothing",
           optionB: "Shelter",
           optionC: "Food",
-          correctAnswer: "c) Food",
+          correctAnswer: "Food",
         }),
       shuffleOptions({
           question:
@@ -173,7 +173,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Station",
           optionB: "Position",
           optionC: "Rank",
-          correctAnswer: "a) Station",
+          correctAnswer: "Station",
         }),
       shuffleOptions({
           question:
@@ -181,7 +181,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Magical",
           optionB: "Secret",
           optionC: "Dark",
-          correctAnswer: "a) Magical",
+          correctAnswer: "Magical",
         }),
       shuffleOptions({
           question:
@@ -189,7 +189,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Loyalty",
           optionB: "Honesty",
           optionC: "Integrity",
-          correctAnswer: "c) Integrity",
+          correctAnswer: "Integrity",
         }),
       shuffleOptions({
           question:
@@ -197,7 +197,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Clothes",
           optionB: "Rags",
           optionC: "Fabrics",
-          correctAnswer: "b) Rags",
+          correctAnswer: "Rags",
    }),
     ]),
   }

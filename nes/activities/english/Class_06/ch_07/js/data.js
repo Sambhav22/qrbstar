@@ -36,21 +36,21 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Nine",
         optionB: "Ten",
         optionC: "Eleven",
-        correctAnswer: "B) Ten",
+        correctAnswer: "Ten",
      }),
       shuffleOptions({
         question: "What does the hawker in the text cry out?",
         optionA: "Apples, juicy apples!",
         optionB: "Bangles, crystal bangles!",
         optionC: "Books, colorful books!",
-        correctAnswer: "B) Bangles, crystal bangles!",
+        correctAnswer: "Bangles, crystal bangles!",
      }),
       shuffleOptions({
         question: "What is the hawker's daily routine like?",
         optionA: "He has a strict schedule.",
         optionB: "He can go wherever he wants.",
         optionC: "He must follow a specific route.",
-        correctAnswer: "B) He can go wherever he wants.",
+        correctAnswer: "He can go wherever he wants.",
      }),
       shuffleOptions({
         question:
@@ -58,14 +58,14 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Selling books",
         optionB: "Gardening",
         optionC: "Being a watchman",
-        correctAnswer: "B) Gardening",
+        correctAnswer: "Gardening",
      }),
       shuffleOptions({
         question: "What time does the narrator return from school in the text?",
         optionA: "Three in the afternoon",
         optionB: "Four in the afternoon",
         optionC: "Five in the evening",
-        correctAnswer: "B) Four in the afternoon",
+        correctAnswer: "Four in the afternoon",
      }),
       shuffleOptions({
         question:
@@ -73,35 +73,35 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Painting the house",
         optionB: "Digging the ground",
         optionC: "Planting flowers",
-        correctAnswer: "B) Digging the ground",
+        correctAnswer: "Digging the ground",
      }),
       shuffleOptions({
         question: "How does the gardener's work affect him?",
         optionA: "He is always clean.",
         optionB: "He enjoys getting wet.",
         optionC: "He gets dirty and dusty.",
-        correctAnswer: "C) He gets dirty and dusty.",
+        correctAnswer: "He gets dirty and dusty.",
      }),
       shuffleOptions({
         question: "What is the watchman's duty in the text?",
         optionA: "Guarding a treasure",
         optionB: "Chasing away birds",
         optionC: "Walking the streets all night",
-        correctAnswer: "C) Walking the streets all night",
+        correctAnswer: "Walking the streets all night",
      }),
       shuffleOptions({
         question: "What does the watchman carry while doing his job?",
         optionA: "A red eye",
         optionB: "A shadow",
         optionC: "A lantern",
-        correctAnswer: "C) A lantern",
+        correctAnswer: "A lantern",
      }),
       shuffleOptions({
         question: "How does the narrator feel about being a watchman?",
         optionA: "Excited",
         optionB: "Indifferent",
         optionC: "Afraid of the dark",
-        correctAnswer: "A) Excited",
+        correctAnswer: "Excited",
       }),
     ]),
   }
@@ -117,7 +117,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "jewels",
         optionB: "trinkets",
         optionC: "bangles",
-        correctAnswer: "C) bangles",
+        correctAnswer: "bangles",
      }),
       shuffleOptions({
         question:
@@ -125,7 +125,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "back",
         optionB: "home",
         optionC: "out",
-        correctAnswer: "B) home",
+        correctAnswer: "home",
      }),
       shuffleOptions({
         question:
@@ -133,7 +133,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "watering",
         optionB: "digging",
         optionC: "planting",
-        correctAnswer: "B) digging",
+        correctAnswer: "digging",
      }),
       shuffleOptions({
         question:
@@ -141,7 +141,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "water",
         optionB: "mud",
         optionC: "dust",
-        correctAnswer: "C) dust",
+        correctAnswer: "dust",
      }),
       shuffleOptions({
         question:
@@ -149,7 +149,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "school",
         optionB: "bed",
         optionC: "play",
-        correctAnswer: "B) bed",
+        correctAnswer: "bed",
      }),
       shuffleOptions({
         question:
@@ -157,7 +157,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "body",
         optionB: "head",
         optionC: "light",
-        correctAnswer: "B) head",
+        correctAnswer: "head",
      }),
       shuffleOptions({
         question:
@@ -165,7 +165,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "broom",
         optionB: "key",
         optionC: "lantern",
-        correctAnswer: "C) lantern",
+        correctAnswer: "lantern",
      }),
       shuffleOptions({
         question:
@@ -173,14 +173,14 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "day",
         optionB: "night",
         optionC: "year",
-        correctAnswer: "B) night",
+        correctAnswer: "night",
      }),
       shuffleOptions({
         question: "The gardener in the text is seen digging the ________.",
         optionA: "field",
         optionB: "soil",
         optionC: "plants",
-        correctAnswer: "B) soil",
+        correctAnswer: "soil",
      }),
       shuffleOptions({
         question:
@@ -188,7 +188,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "morning",
         optionB: "afternoon",
         optionC: "evening",
-        correctAnswer: "A) morning",
+        correctAnswer: "morning",
       }),
     ]),
   }

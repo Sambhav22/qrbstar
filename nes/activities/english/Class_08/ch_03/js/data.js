@@ -36,7 +36,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "A chess game",
         optionB: "A Chinese puzzle",
         optionC: "A jigsaw puzzle",
-        correctAnswer: "B) A Chinese puzzle",
+        correctAnswer: "A Chinese puzzle",
      }),
       shuffleOptions({
         question:
@@ -45,7 +45,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionB: "It should be a political discussion forum.",
         optionC: "It should be a peaceable party with no unpleasantness.",
         correctAnswer:
-          "C) It should be a peaceable party with no unpleasantness.",
+          "It should be a peaceable party with no unpleasantness.",
      }),
       shuffleOptions({
         question:
@@ -53,7 +53,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Political differences",
         optionB: "Religious disagreements",
         optionC: "A dispute over the election date",
-        correctAnswer: "C) A dispute over the election date",
+        correctAnswer: "A dispute over the election date",
      }),
       shuffleOptions({
         question:
@@ -61,7 +61,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Differences in political opinion",
         optionB: "Minor differences and side-issues",
         optionC: "Religious disagreements",
-        correctAnswer: "B) Minor differences and side-issues",
+        correctAnswer: "Minor differences and side-issues",
      }),
       shuffleOptions({
         question:
@@ -69,7 +69,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Their views on nationalism",
         optionB: "Their views on vivisection",
         optionC: "Their views on kite-flying",
-        correctAnswer: "B) Their views on vivisection",
+        correctAnswer: "Their views on vivisection",
      }),
       shuffleOptions({
         question:
@@ -79,7 +79,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionC:
           "Ask for their subscriptions to a charity supporting vivisection",
         correctAnswer:
-          "B) Send a stamped typewritten reply postcard with a question",
+          "Send a stamped typewritten reply postcard with a question",
      }),
       shuffleOptions({
         question:
@@ -87,7 +87,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Unanimous support for vivisection",
         optionB: "Unanimous opposition to vivisection",
         optionC: "Indifference to the subject",
-        correctAnswer: "B) Unanimous opposition to vivisection",
+        correctAnswer: "Unanimous opposition to vivisection",
      }),
       shuffleOptions({
         question:
@@ -95,7 +95,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "They engaged in civil discussions.",
         optionB: "They had heated arguments but no physical conflict.",
         optionC: "They quarreled and came to blows.",
-        correctAnswer: "C) They quarreled and came to blows.",
+        correctAnswer: "They quarreled and came to blows.",
      }),
       shuffleOptions({
         question:
@@ -103,7 +103,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Politics",
         optionB: "Vivisection",
         optionC: "North Korea vs. South Korea",
-        correctAnswer: "C) North Korea vs. South Korea",
+        correctAnswer: "North Korea vs. South Korea",
      }),
       shuffleOptions({
         question:
@@ -111,7 +111,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Delighted with its success",
         optionB: "Humiliated and disappointed",
         optionC: "Surprised by the guests' maturity",
-        correctAnswer: "B) Humiliated and disappointed",
+        correctAnswer: "Humiliated and disappointed",
       }),
     ]),
   }

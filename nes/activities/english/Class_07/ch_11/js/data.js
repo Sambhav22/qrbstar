@@ -35,7 +35,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Rajesh",
         optionB: "Ankur",
         optionC: "Jasvir",
-        correctAnswer: "B) Ankur",
+        correctAnswer: "Ankur",
      }),
       shuffleOptions({
         question:
@@ -43,35 +43,35 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "He always answers them promptly.",
         optionB: "He rarely answers them without being coaxed.",
         optionC: "He doesn't mention his reaction in the text.",
-        correctAnswer: "B) He rarely answers them without being coaxed.",
+        correctAnswer: "He rarely answers them without being coaxed.",
      }),
       shuffleOptions({
         question: "Why is Ankur waiting for someone to call or visit?",
         optionA: "He wants to discuss his favorite games.",
         optionB: "He wants to apologize to his friend, Jasvir.",
         optionC: "He is waiting for a delivery.",
-        correctAnswer: "B) He wants to apologize to his friend, Jasvir.",
+        correctAnswer: "He wants to apologize to his friend, Jasvir.",
      }),
       shuffleOptions({
         question: "What caused the quarrel between Ankur and Jasvir?",
         optionA: "Disagreement over favorite games.",
         optionB: "Disagreement over a school assignment.",
         optionC: "Disagreement over a movie.",
-        correctAnswer: "A) Disagreement over favorite games.",
+        correctAnswer: "Disagreement over favorite games.",
      }),
       shuffleOptions({
         question: "Why does Ankur want Jasvir to apologize first?",
         optionA: "He believes it's the right thing to do.",
         optionB: "He's playing a game.",
         optionC: "He's too proud to apologize.",
-        correctAnswer: "C) He's too proud to apologize.",
+        correctAnswer: "He's too proud to apologize.",
      }),
       shuffleOptions({
         question: "How does Ankur decide to resolve the issue with Jasvir?",
         optionA: "He decides to wait for Jasvir to apologize.",
         optionB: "He decides to apologize to Jasvir.",
         optionC: "He decides to ignore the issue.",
-        correctAnswer: "B) He decides to apologize to Jasvir.",
+        correctAnswer: "He decides to apologize to Jasvir.",
      }),
       shuffleOptions({
         question:
@@ -79,7 +79,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "He successfully resolved the issue with his friend.",
         optionB: "He lost his best friend forever.",
         optionC: "He gave up the waiting game.",
-        correctAnswer: "B) He lost his best friend forever.",
+        correctAnswer: "He lost his best friend forever.",
      }),
       shuffleOptions({
         question:
@@ -87,14 +87,14 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "That Jasvir will no longer like him.",
         optionB: "That he will be left friendless.",
         optionC: "That Jasvir will like his new friends more.",
-        correctAnswer: "B) That he will be left friendless.",
+        correctAnswer: "That he will be left friendless.",
      }),
       shuffleOptions({
         question: "Where does Ankur go at the end of the story?",
         optionA: "He goes to the park.",
         optionB: "He goes to a movie.",
         optionC: "He goes to Jasvir's house to patch up.",
-        correctAnswer: "C) He goes to Jasvir's house to patch up.",
+        correctAnswer: "He goes to Jasvir's house to patch up.",
      }),
       shuffleOptions({
         question:
@@ -102,7 +102,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "The importance of winning an argument.",
         optionB: "The value of friendship and reconciliation.",
         optionC: "The significance of pride in relationships.",
-        correctAnswer: "B) The value of friendship and reconciliation.",
+        correctAnswer: "The value of friendship and reconciliation.",
       }),
     ]),
   }
@@ -115,52 +115,52 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions({
         question:
           "What did Rajesh do in the courtyard after leaving the bed on the weekend? He did some _____.",
-        correctAnswer: "C) Yoga",
+        correctAnswer: "Yoga",
      }),
       shuffleOptions({
         question:
           "Ankur rushed to the main door after the doorbell rang. He was waiting for a call from his friend _____.",
-        correctAnswer: "B) Jasvir",
+        correctAnswer: "Jasvir",
      }),
       shuffleOptions({
         question:
           "Ankur quarreled with Jasvir over their favorite _____ at school.",
-        correctAnswer: "C) Games",
+        correctAnswer: "Games",
      }),
       shuffleOptions({
         question:
           "Ankur decided to patch up with Jasvir because he was worried about becoming _____.",
-        correctAnswer: "A) Lonely",
+        correctAnswer: "Lonely",
      }),
       shuffleOptions({
         question:
           "Rajesh's friend, who used to play the waiting game, lost his best friend because of a _____ transfer.",
-        correctAnswer: "A) Job",
+        correctAnswer: "Job",
      }),
       shuffleOptions({
         question:
           "Ankur put on his _____ before heading to Jasvir's house to patch up.",
-        correctAnswer: "B) Shoes",
+        correctAnswer: "Shoes",
      }),
       shuffleOptions({
         question:
           "Rajesh's story highlights the importance of resolving conflicts and not letting _____ come in the way of friendship.",
-        correctAnswer: "A) Pride",
+        correctAnswer: "Pride",
      }),
       shuffleOptions({
         question:
           "Ankur was determined to _____ with Jasvir and do what best friends are expected to do.",
-        correctAnswer: "C) Patch up",
+        correctAnswer: "Patch up",
      }),
       shuffleOptions({
         question:
           "In the end, Ankur's action demonstrates the value of _____ and reconciliation in friendships.",
-        correctAnswer: "C) Friendship",
+        correctAnswer: "Friendship",
      }),
       shuffleOptions({
         question:
           "Ankur was initially playing the 'waiting game,' but he realized that it was better to take the _____ step.",
-        correctAnswer: "A) First",
+        correctAnswer: "First",
       }),
     ]),
   }

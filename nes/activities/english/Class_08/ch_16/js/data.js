@@ -36,21 +36,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Glinkomok",
           optionB: "Ippi",
           optionC: "Nep",
-          correctAnswer: "B) Ippi",
+          correctAnswer: "Ippi",
         }),
       shuffleOptions({
           question: "Why did Gouie dig a pit in the ground?",
           optionA: "To trap the black people",
           optionB: "To catch Keo's mother",
           optionC: "To capture Keo",
-          correctAnswer: "C) To capture Keo",
+          correctAnswer: "To capture Keo",
         }),
       shuffleOptions({
           question: "How did Gouie plan to use Keo after capturing him?",
           optionA: "Eat him",
           optionB: "Trade him for goods",
           optionC: "Keep him as a pet",
-          correctAnswer: "B) Trade him for goods",
+          correctAnswer: "Trade him for goods",
         }),
       shuffleOptions({
           question:
@@ -58,7 +58,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Gave Keo magical powers",
           optionB: "Offered protection against the black man",
           optionC: "Provided a disguise for Keo",
-          correctAnswer: "A) Gave Keo magical powers",
+          correctAnswer: "Gave Keo magical powers",
         }),
       shuffleOptions({
           question:
@@ -66,14 +66,14 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "Keo had to promise to serve him forever",
           optionB: "Keo had to swear by the tusks of his grandfather",
           optionC: "Keo had to give away all his possessions",
-          correctAnswer: "B) Keo had to swear by the tusks of his grandfather",
+          correctAnswer: "Keo had to swear by the tusks of his grandfather",
         }),
       shuffleOptions({
           question: "How did Keo escape from the black men riding on his back?",
           optionA: "Ran away through the jungle",
           optionB: "Dived into the river and left them stranded",
           optionC: "Used his magical powers to disappear",
-          correctAnswer: "B) Dived into the river and left them stranded",
+          correctAnswer: "Dived into the river and left them stranded",
         }),
       shuffleOptions({
           question:
@@ -81,7 +81,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "To become Keo's servant",
           optionB: "To release Keo from slavery",
           optionC: "To bring more treasures to trade",
-          correctAnswer: "A) To become Keo's servant",
+          correctAnswer: "To become Keo's servant",
         }),
       shuffleOptions({
           question:
@@ -89,21 +89,21 @@ if (localStorage.getItem("activityNumber") == 1) {
           optionA: "He forgot about the promise",
           optionB: "He made a successful life elsewhere",
           optionC: "He was afraid of Keo",
-          correctAnswer: "B) He made a successful life elsewhere",
+          correctAnswer: "He made a successful life elsewhere",
         }),
       shuffleOptions({
           question: "What did Gouie swear by when making the promise to Keo?",
           optionA: "His own tusks",
           optionB: "The bones of his grandfather",
           optionC: "The river bank",
-          correctAnswer: "B) The bones of his grandfather",
+          correctAnswer: "The bones of his grandfather",
         }),
       shuffleOptions({
           question: "How did Keo react when Gouie didn't return as promised?",
           optionA: "Cried in disappointment",
           optionB: "Laughed at the situation",
           optionC: "Became angry and vengeful",
-          correctAnswer: "B) Laughed at the situation",
+          correctAnswer: "Laughed at the situation",
    }),
     ]),
   }
@@ -120,7 +120,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Elephants",
           optionB: "Lions",
           optionC: "Hippopotamuses",
-          correctAnswer: "C) Hippopotamuses",
+          correctAnswer: "Hippopotamuses",
         }),
       shuffleOptions({
           question:
@@ -128,14 +128,14 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Young",
           optionB: "New",
           optionC: "Old",
-          correctAnswer: "B) New",
+          correctAnswer: "New",
         }),
       shuffleOptions({
           question: "Keo's mother named him 'Ippi,' meaning _____________.",
           optionA: "Strong One",
           optionB: "Jolly One",
           optionC: "Brave One",
-          correctAnswer: "B) Jolly One",
+          correctAnswer: "Jolly One",
         }),
       shuffleOptions({
           question:
@@ -143,7 +143,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Fierce nature",
           optionB: "Fierce mother",
           optionC: "Jolly demeanor",
-          correctAnswer: "C) Jolly demeanor",
+          correctAnswer: "Jolly demeanor",
         }),
       shuffleOptions({
           question:
@@ -151,7 +151,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Elephants",
           optionB: "Keo's mother",
           optionC: "Keo",
-          correctAnswer: "C) Keo",
+          correctAnswer: "Keo",
         }),
       shuffleOptions({
           question:
@@ -159,7 +159,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Month and a day",
           optionB: "Year and a half",
           optionC: "Year and a day",
-          correctAnswer: "C) Year and a day",
+          correctAnswer: "Year and a day",
         }),
       shuffleOptions({
           question:
@@ -167,7 +167,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Fish",
           optionB: "Elephant",
           optionC: "Lion",
-          correctAnswer: "A) Fish",
+          correctAnswer: "Fish",
         }),
       shuffleOptions({
           question:
@@ -175,7 +175,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Five elephants",
           optionB: "Ten elephants",
           optionC: "Fifteen elephants",
-          correctAnswer: "B) Ten elephants",
+          correctAnswer: "Ten elephants",
         }),
       shuffleOptions({
           question:
@@ -183,7 +183,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Stranded",
           optionB: "Confused",
           optionC: "Terrified",
-          correctAnswer: "A) Stranded",
+          correctAnswer: "Stranded",
         }),
       shuffleOptions({
           question:
@@ -191,7 +191,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           optionA: "Week and a day",
           optionB: "Month and a year",
           optionC: "Year and a day",
-          correctAnswer: "C) Year and a day",
+          correctAnswer: "Year and a day",
    }),
     ]),
   }

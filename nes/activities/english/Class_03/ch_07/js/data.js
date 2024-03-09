@@ -35,28 +35,28 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Jaya, Rajat, Sujata",
         optionB: "Jaya, Nidhi, Rajat, Sujata, Susan, Surya, Uma",
         optionC: "Jaya, Sujata, Surya, Nidhi",
-        correctAnswer: "B) Jaya, Nidhi, Rajat, Sujata, Susan, Surya, Uma",
+        correctAnswer: "Jaya, Nidhi, Rajat, Sujata, Susan, Surya, Uma",
      }),
       shuffleOptions({
         question: "Where was the club initially formed?",
         optionA: "In the library",
         optionB: "In Rajat's garage",
         optionC: "In the colony park",
-        correctAnswer: "B) In Rajat's garage",
+        correctAnswer: "In Rajat's garage",
      }),
       shuffleOptions({
         question: "Why didn't they clean the club last month?",
         optionA: "Because they were too lazy",
         optionB: "Because they were busy with Diwali",
         optionC: "Because they forgot",
-        correctAnswer: "B) Because they were busy with Diwali",
+        correctAnswer: "Because they were busy with Diwali",
      }),
       shuffleOptions({
         question: "What games did they have in their club?",
         optionA: "Only outdoor games",
         optionB: "Only indoor games",
         optionC: "Both indoor and outdoor games",
-        correctAnswer: "C) Both indoor and outdoor games",
+        correctAnswer: "Both indoor and outdoor games",
      }),
       shuffleOptions({
         question:
@@ -64,28 +64,28 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "They did nothing for birthdays",
         optionB: "They celebrated the birthday at the club",
         optionC: "They went out for a meal",
-        correctAnswer: "B) They celebrated the birthday at the club",
+        correctAnswer: "They celebrated the birthday at the club",
      }),
       shuffleOptions({
         question: "What was one of the club rules?",
         optionA: "Speaking in a loud voice was allowed",
         optionB: "No cheating was allowed in games",
         optionC: "Members could attend in any clothing",
-        correctAnswer: "B) No cheating was allowed in games",
+        correctAnswer: "No cheating was allowed in games",
      }),
       shuffleOptions({
         question: "What did the club members do first when cleaning the club?",
         optionA: "Play a game of cricket",
         optionB: "Take out chairs, tables, and playthings",
         optionC: "Start washing the floor",
-        correctAnswer: "B) Take out chairs, tables, and playthings",
+        correctAnswer: "Take out chairs, tables, and playthings",
      }),
       shuffleOptions({
         question: "What did they use to sweep the floor?",
         optionA: "A vacuum cleaner",
         optionB: "A broom",
         optionC: "A mop",
-        correctAnswer: "B) A broom",
+        correctAnswer: "A broom",
      }),
       shuffleOptions({
         question:
@@ -93,7 +93,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Play a game of cards",
         optionB: "Play a game of cricket",
         optionC: "Read storybooks",
-        correctAnswer: "B) Play a game of cricket",
+        correctAnswer: "Play a game of cricket",
      }),
       shuffleOptions({
         question:
@@ -102,7 +102,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionB: "Doctors, advocates, businessmen, teachers, and others",
         optionC: "Anyone who wanted to join the club",
         correctAnswer:
-          "B) Doctors, advocates, businessmen, teachers, and others",
+          "Doctors, advocates, businessmen, teachers, and others",
       }),
     ]),
   }
@@ -118,7 +118,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "Monday",
         optionB: "first Sunday",
         optionC: "Friday",
-        correctAnswer: "B) first Sunday",
+        correctAnswer: "first Sunday",
      }),
       shuffleOptions({
         question:
@@ -126,14 +126,14 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "games",
         optionB: "rules",
         optionC: "costumes",
-        correctAnswer: "B) rules",
+        correctAnswer: "rules",
      }),
       shuffleOptions({
         question: "Normally, they gathered at ___________ in the evening.",
         optionA: "5",
         optionB: "9",
         optionC: "12",
-        correctAnswer: "A) 5",
+        correctAnswer: "5",
      }),
       shuffleOptions({
         question:
@@ -141,7 +141,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "hiking",
         optionB: "formal",
         optionC: "sports",
-        correctAnswer: "C) sports",
+        correctAnswer: "sports",
      }),
       shuffleOptions({
         question:
@@ -149,7 +149,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "vacuum cleaner",
         optionB: "broom",
         optionC: "mop",
-        correctAnswer: "B) broom",
+        correctAnswer: "broom",
      }),
       shuffleOptions({
         question:
@@ -157,7 +157,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "always",
         optionB: "sometimes",
         optionC: "not",
-        correctAnswer: "C) not",
+        correctAnswer: "not",
      }),
       shuffleOptions({
         question:
@@ -165,7 +165,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "Christmas",
         optionB: "New Year",
         optionC: "Diwali",
-        correctAnswer: "C) Diwali",
+        correctAnswer: "Diwali",
      }),
       shuffleOptions({
         question:
@@ -173,7 +173,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "computer",
         optionB: "cardboard",
         optionC: "video",
-        correctAnswer: "B) cardboard",
+        correctAnswer: "cardboard",
      }),
       shuffleOptions({
         question:
@@ -181,7 +181,7 @@ if (localStorage.getItem("activityNumber") == 2) {
         optionA: "garden",
         optionB: "library",
         optionC: "garage",
-        correctAnswer: "C) garage",
+        correctAnswer: "garage",
       }),
     ]),
   }
