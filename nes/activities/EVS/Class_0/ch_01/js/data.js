@@ -1,4 +1,5 @@
 export const chapter = "Chapter - 1: Plant More Trees ";
+
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -31,256 +32,249 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: shuffleQues([
-      shuffleOptions(
-      {
-        questions: shuffleQues([
-      shuffleOptions(
-          {
-            question: "What do trees provide to humans?",
-            optionA: "Fruits and fresh air",
-            optionB: "Vegetables and sunlight",
-            optionC: "Fish and water",
-            correctAnswer: "Fruits and fresh air",
-          },
-          {
-            question:
-              "In addition to fruits and fresh air, what else do trees give us?",
-            optionA: "Nuts and wood",
-            optionB: "Rocks and metals",
-            optionC: "Plastic and electronics",
-            correctAnswer: "Nuts and wood",
-          },
-          {
-            question: "What role do trees play in providing shelter?",
-            optionA: "They provide shelter to humans only",
-            optionB: "They provide shelter to birds and animals",
-            optionC: "They don't provide any shelter",
-            correctAnswer: "They provide shelter to birds and animals",
-          },
-          {
-            question:
-              "How do trees contribute to keeping our surroundings clean and green?",
-            optionA: "By producing pollution",
-            optionB: "By absorbing carbon dioxide and releasing oxygen",
-            optionC: "By cutting down trees regularly",
-            correctAnswer:
-              "By absorbing carbon dioxide and releasing oxygen",
-          },
-          {
-            question: "What action is recommended to make surroundings green?",
-            optionA: "Remove all trees",
-            optionB: "Paint buildings green",
-            optionC: "Plant more trees",
-            correctAnswer: "Plant more trees",
-          },
-          {
-            question:
-              "Apart from fruits, what other product can be derived from trees?",
-            optionA: "Electronics",
-            optionB: "Plastics",
-            optionC: "Paper",
-            correctAnswer: "Paper",
-          },
-          {
-            question:
-              "What is one of the benefits of trees mentioned in the text?",
-            optionA: "Producing plastic",
-            optionB: "Making surroundings dirty",
-            optionC: "Making surroundings clean",
-            correctAnswer: "Making surroundings clean",
-          },
-          {
-            question:
-              "Which of the following is NOT mentioned as something trees give us?",
-            optionA: "Fresh air",
-            optionB: "Sunlight",
-            optionC: "Minerals",
-            correctAnswer: "Minerals",
-          },
-          {
-            question: "What is the main reason given for planting trees?",
-            optionA: "To make surroundings noisy",
-            optionB: "To make surroundings green",
-            optionC: "To reduce the number of trees",
-            correctAnswer: "To make surroundings green",
-          },
-          {
-            question:
-              "What natural resource do trees provide that is essential for human life?",
-            optionA: "Coal",
-            optionB: "Oxygen",
-            optionC: "Plastic",
-            correctAnswer: "Oxygen",
-          },
-        ],
-      },
-    ],
-  };
+      shuffleOptions({
+          question: "What is the area around our house called?",
+          optionA: "Neighborhood",
+          optionB: "Surroundings",
+          optionC: "Environment",
+          correctAnswer: "Surroundings",
+         }),
+      shuffleOptions({
+          question:
+            "What is one of the things that should not be present in our surroundings according to the text?",
+          optionA: "Deposition of water",
+          optionB: "Deposition of waste",
+          optionC: "Deposition of leaves",
+          correctAnswer: "Deposition of waste",
+         }),
+      shuffleOptions({
+          question:
+            "To maintain clean surroundings, what should be checked regularly?",
+          optionA: "Air quality",
+          optionB: "Limited use of plastic bags",
+          optionC: "Internet speed",
+          correctAnswer: "Limited use of plastic bags",
+         }),
+      shuffleOptions({
+          question:
+            "What is one of the measures mentioned in the text to prevent clogging of drains?",
+          optionA: "Cleaning the drains once a year",
+          optionB: "Tree plantation",
+          optionC: "Avoiding waste disposal in drains",
+          correctAnswer: "Avoiding waste disposal in drains",
+         }),
+      shuffleOptions({
+          question:
+            "What is recommended to ensure the proper disposal of waste in the text?",
+          optionA: "Burning waste in the backyard",
+          optionB: "Proper arrival of waste-taking vans",
+          optionC: "Dumping waste in the surroundings",
+          correctAnswer: "Proper arrival of waste-taking vans",
+         }),
+      shuffleOptions({
+          question:
+            "According to the text, what will result in a neat and clean environment?",
+          optionA: "Using more plastic bags",
+          optionB: "Regularly checking air quality",
+          optionC: "Following the mentioned guidelines",
+          correctAnswer: "Following the mentioned guidelines",
+         }),
+      shuffleOptions({
+          question:
+            "What should be limited for maintaining clean surroundings?",
+          optionA: "Tree plantation",
+          optionB: "Use of plastic bags",
+          optionC: "Consumption of fruits",
+          correctAnswer: "Use of plastic bags",
+         }),
+      shuffleOptions({
+          question:
+            "What is one of the key factors mentioned for living a healthy life in the text?",
+          optionA: "Regular exercise",
+          optionB: "Clean surroundings",
+          optionC: "Fast food consumption",
+          correctAnswer: "Clean surroundings",
+         }),
+      shuffleOptions({
+          question:
+            "What term is used in the text for the accumulation of water around the house?",
+          optionA: "Waterlogging",
+          optionB: "Puddling",
+          optionC: "Deposition of water",
+          correctAnswer: "Waterlogging",
+         }),
+      shuffleOptions({
+          question:
+            "What is suggested in the text to prevent waste-related issues in our surroundings?",
+          optionA: "Ignoring waste disposal practices",
+          optionB: "Planting more trees",
+          optionC: "Ensuring proper arrival of waste-taking vans",
+          correctAnswer: "Ensuring proper arrival of waste-taking vans",
+           }),
+    ]),
+  }
 }
 
-if (localStorage.getItem("activityNumber") == 2) {
+if (localStorage.getItem("activityNumber") == 2)
   activityData = {
     activity: "Fill in the blanks:",
     questions: shuffleQues([
-      shuffleOptions(
-      {
-        questions: shuffleQues([
-      shuffleOptions(
-          {
-            question:
-              "Trees provide us with various resources such as _______, fresh air, nuts, wood, and paper.",
-            optionA: "Fruits",
-            optionB: "Vegetables",
-            optionC: "Stones",
-            correctAnswer: "Fruits",
-          },
-          {
-            question: "Trees offer shelter to _______, and animals.",
-            optionA: "Cars",
-            optionB: "Birds",
-            optionC: "Rockets",
-            correctAnswer: "Birds",
-          },
-          {
-            question:
-              "Trees play a vital role in making our surroundings ______ and green.",
-            optionA: "Yellow",
-            optionB: "Brown",
-            optionC: "Clean",
-            correctAnswer: "Clean",
-          },
-          {
-            question:
-              "To contribute to a greener environment, we should ______ more trees.",
-            optionA: "Cut down",
-            optionB: "Plant",
-            optionC: "Paint",
-            correctAnswer: "Plant",
-          },
-          {
-            question: "One of the resources obtained from trees is ______.",
-            optionA: "Gold",
-            optionB: "Silver",
-            optionC: "Wood",
-            correctAnswer: "Wood",
-          },
-          {
-            question: "Trees are our best friends because they give us ______.",
-            optionA: "Candy",
-            optionB: "Hugs",
-            optionC: "Fresh air",
-            correctAnswer: "Fresh air",
-          },
-          {
-            question: "Trees also provide ______ to birds and animals.",
-            optionA: "Computers",
-            optionB: "Housing",
-            optionC: "Submarines",
-            correctAnswer: "Housing",
-          },
-          {
-            question: "Trees are beneficial in keeping our environment ______.",
-            optionA: "Noisy",
-            optionB: "Clean",
-            optionC: "Crowded",
-            correctAnswer: "Clean",
-          },
-          {
-            question: "Besides fresh air, trees give us ______.",
-            optionA: "Ice cream",
-            optionB: "Nuts",
-            optionC: "Television",
-            correctAnswer: "Nuts",
-          },
-          {
-            question:
-              "Trees are important because they contribute to a ______ environment.",
-            optionA: "Grey",
-            optionB: "Blue",
-            optionC: "Green",
-            correctAnswer: "Green",
-          },
-        ],
-      },
-    ],
-  };
-}
+      shuffleOptions({
+          question: "The area around our house is called our ____________.",
+          optionA: "Neighborhood",
+          optionB: "Backyard",
+          optionC: "Surroundings",
+          correctAnswer: "Surroundings",
+         }),
+      shuffleOptions({
+          question:
+            "It should be clean and there should be ______ deposition of water.",
+          optionA: "No",
+          optionB: "Limited",
+          optionC: "Excessive",
+          correctAnswer: "No",
+         }),
+      shuffleOptions({
+          question:
+            "To maintain clean surroundings, we should check for the following: limited use of ______ bags.",
+          optionA: "Plastic",
+          optionB: "Paper",
+          optionC: "Cloth",
+          correctAnswer: "Plastic",
+         }),
+      shuffleOptions({
+          question:
+            "________ of drains can lead to issues in our surroundings.",
+          optionA: "Cleaning",
+          optionB: "Clogging",
+          optionC: "Widening",
+          correctAnswer: "Clogging",
+         }),
+      shuffleOptions({
+          question: "Proper arrival of ______ is essential for waste disposal.",
+          optionA: "Mail deliveries",
+          optionB: "Waste taking vans",
+          optionC: "Food delivery services",
+          correctAnswer: "Waste taking vans",
+         }),
+      shuffleOptions({
+          question:
+            "In this way, our surroundings will be neat and clean, and we will live a ______ life.",
+          optionA: "Chaotic",
+          optionB: "Healthy",
+          optionC: "Busy",
+          correctAnswer: "Healthy",
+         }),
+      shuffleOptions({
+          question:
+            "The area around our house is referred to as our ____________.",
+          optionA: "Neighborhood",
+          optionB: "Environment",
+          optionC: "Surroundings",
+          correctAnswer: "Surroundings",
+         }),
+      shuffleOptions({
+          question:
+            "There should be ______ deposition of water in our surroundings.",
+          optionA: "Limited",
+          optionB: "Excessive",
+          optionC: "No",
+          correctAnswer: "No",
+         }),
+      shuffleOptions({
+          question:
+            "We should check for the limited use of ______ bags to maintain clean surroundings.",
+          optionA: "Plastic",
+          optionB: "Paper",
+          optionC: "Metal",
+          correctAnswer: "Plastic",
+         }),
+      shuffleOptions({
+          question:
+            "The ______ of drains can result in environmental problems.",
+          optionA: "Cleaning",
+          optionB: "Clogging",
+          optionC: "Widening",
+          correctAnswer: "Clogging",
+        },
+      ],
+   };
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
-      shuffleOptions(
-      {
-        questions: shuffleQues([
-      shuffleOptions(
-          {
-            question: "Trees provide us with fresh air, nuts, wood, and paper.",
-            optionA: "True",
-            optionB: "False",
-            correctAnswer: "True",
-          },
-          {
-            question: "Trees only give shelter to birds, not animals.",
-            optionA: "True",
-            optionB: "False",
-            correctAnswer: "False",
-          },
-          {
-            question:
-              "Trees play a role in making our surroundings dirty and brown.",
-            optionA: "True",
-            optionB: "False",
-            correctAnswer: "False",
-          },
-          {
-            question:
-              "To contribute to a greener environment, we should cut down more trees.",
-            optionA: "True",
-            optionB: "False",
-            correctAnswer: "False",
-          },
-          {
-            question: "One of the resources obtained from trees is plastic.",
-            optionA: "True",
-            optionB: "False",
-            correctAnswer: "False",
-          },
-          {
-            question: "Trees are our best friends because they give us hugs.",
-            optionA: "True",
-            optionB: "False",
-            correctAnswer: "False",
-          },
-          {
-            question: "Trees provide computers to birds and animals.",
-            optionA: "True",
-            optionB: "False",
-            correctAnswer: "False",
-          },
-          {
-            question: "Trees contribute to a noisy environment.",
-            optionA: "True",
-            optionB: "False",
-            correctAnswer: "False",
-          },
-          {
-            question: "Besides fresh air, trees give us ice cream.",
-            optionA: "True",
-            optionB: "False",
-            correctAnswer: "False",
-          },
-          {
-            question:
-              "Trees are important because they contribute to a blue environment.",
-            optionA: "True",
-            optionB: "False",
-            correctAnswer: "False",
-          },
-        ],
-      },
-    ],
-  };
+      shuffleOptions({
+          question:
+            "The area around our house is referred to as our surroundings.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+         }),
+      shuffleOptions({
+          question:
+            "To maintain cleanliness, there should be limited deposition of water in our surroundings.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+         }),
+      shuffleOptions({
+          question:
+            "Tree plantation is not recommended for contributing to a healthier environment.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+         }),
+      shuffleOptions({
+          question:
+            "Proper arrival of waste-taking vans is not essential for efficient waste disposal.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+         }),
+      shuffleOptions({
+          question: "Living a healthy life is not emphasized in the text.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+         }),
+      shuffleOptions({
+          question:
+            "To prevent the clogging of drains, waste disposal in drains is recommended.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+         }),
+      shuffleOptions({
+          question:
+            "Checking for proper waste disposal is not part of the routine to ensure cleanliness in our surroundings.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+         }),
+      shuffleOptions({
+          question:
+            "Limited use of plastic bags is not suggested as a measure for maintaining clean surroundings.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+         }),
+      shuffleOptions({
+          question:
+            "Waterlogging is used in the text for the accumulation of water around the house.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+         }),
+      shuffleOptions({
+          question:
+            "Ensuring proper arrival of waste-taking vans is not recommended to prevent waste-related issues.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+           }),
+    ]),
+  }
 }
 
 export var activityData;
