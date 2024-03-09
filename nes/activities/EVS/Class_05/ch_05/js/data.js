@@ -1,111 +1,83 @@
-export const chapter = "Chapter - 5: Growing Plants";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
-
+export const chapter = "Chapter -5: Growing Plants";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      {
-        questions: [
-          {
-            question: "What is germination?",
-            options: [
-              "A. The process of growing plants from seeds",
-              "B. The reproduction of plants through roots",
-              "C. The dispersal of seeds by wind",
-            ],
-            answer: "A",
-          },
-          {
-            question: "What does a seed contain?",
-            options: [
-              "A. Only the outer testa",
-              "B. The embryo, cotyledons, radicle, and plumule",
-              "C. Only the inner tegmen",
-            ],
-            answer: "B",
-          },
-          {
-            question: "What is vegetative reproduction?",
-            options: [
-              "A. Reproduction through seeds",
-              "B. Reproduction without seeds through roots, stem, or leaf",
-              "C. Dispersal of seeds by animals",
-            ],
-            answer: "B",
-          },
-          {
-            question: "How are seeds dispersed by wind?",
-            options: [
-              "A. Heavy seeds with no wings",
-              "B. Small and light seeds with wings",
-              "C. Seeds carried in the beaks of birds",
-            ],
-            answer: "B",
-          },
-          {
-            question: "How are seeds of lotus and water lily dispersed?",
-            options: ["A. By wind", "B. By animals", "C. By water"],
-            answer: "C",
-          },
-          {
-            question:
-              "What is the main agent for the dispersal of seeds in peas, beans, and poppy?",
-            options: ["A. Water", "B. Wind", "C. Explosion"],
-            answer: "C",
-          },
-          {
-            question: "Who is credited with the discovery of tea?",
-            options: [
-              "A. The third emperor of China",
-              "B. Shen Nung, the second emperor of China",
-              "C. The first emperor of India",
-            ],
-            answer: "B",
-          },
-          {
-            question: "Where is Assam, the birthplace of tea in India?",
-            options: ["A. South India", "B. West India", "C. Northeast India"],
-            answer: "C",
-          },
-          {
-            question: "From where did coffee originate?",
-            options: ["A. India", "B. Ethiopia", "C. China"],
-            answer: "B",
-          },
-          {
-            question: "Where did plum originate?",
-            options: ["A. South Africa", "B. China", "C. Egypt"],
-            answer: "B",
-          },
-        ],
-      },
+        [
+            {
+                "question": "Germination is the process of growing plants from _______.",
+                "optionA": "Soil",
+                "optionB": "Seeds",
+                "optionC": "Stems",
+                "correctAnswer": "Seeds"
+            },
+            {
+                "question": "A seed contains the embryo, which consists of tiny seed leaves called _______.",
+                "optionA": "Cotyledons",
+                "optionB": "Radicle",
+                "optionC": "Plumule",
+                "correctAnswer": "Cotyledons"
+            },
+            {
+                "question": "For germination, seeds require three important things: water, air, and _______.",
+                "optionA": "Sunlight",
+                "optionB": "Soil",
+                "optionC": "Fertilizer",
+                "correctAnswer": "Sunlight"
+            },
+            {
+                "question": "Plants like sugarcane and rose can grow from stem cuttings, which is an example of _______ reproduction.",
+                "optionA": "Vegetative",
+                "optionB": "Sexual",
+                "optionC": "Asexual",
+                "correctAnswer": "Vegetative"
+            },
+            {
+                "question": "Seeds are dispersed by various agents, including wind, water, and _______.",
+                "optionA": "Fire",
+                "optionB": "Insects",
+                "optionC": "Animals",
+                "correctAnswer": "Animals"
+            },
+            {
+                "question": "Plants like peas and beans disperse their seeds by _______.",
+                "optionA": "Wind",
+                "optionB": "Water",
+                "optionC": "Explosion",
+                "correctAnswer": "Explosion"
+            },
+            {
+                "question": "The discovery of tea is credited to _______ who discovered its taste and aroma accidentally.",
+                "optionA": "Shen Nung",
+                "optionB": "Marco Polo",
+                "optionC": "Christopher Columbus",
+                "correctAnswer": "Shen Nung"
+            },
+            {
+                "question": "Assam is the birthplace of tea in _______.",
+                "optionA": "China",
+                "optionB": "India",
+                "optionC": "Sri Lanka",
+                "correctAnswer": "India"
+            },
+            {
+                "question": "Plum, watermelon, and onion are plants that originated from _______.",
+                "optionA": "India",
+                "optionB": "China",
+                "optionC": "Africa",
+                "correctAnswer": "China"
+            },
+            {
+                "question": "Coffee, native to Ethiopia, is commonly grown in _______.",
+                "optionA": "India",
+                "optionB": "Brazil",
+                "optionC": "Kenya",
+                "correctAnswer": "Brazil"
+            }
+        ]
+        
     ],
   };
 }
@@ -114,66 +86,80 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      {
-        fillInTheBlankQuestions: [
-          {
-            question:
-              "Germination is the process of growing plants from ________.",
-            options: ["A. Leaves", "B. Flowers", "C. Seeds"],
-            answer: "C",
-          },
-          {
-            question:
-              "The seed contains the embryo, cotyledons, radicle, and ________.",
-            options: ["A. Sepals", "B. Plumule", "C. Petals"],
-            answer: "B",
-          },
-          {
-            question:
-              "Vegetative reproduction involves the reproduction of plants without the use of ________.",
-            options: ["A. Soil", "B. Seeds", "C. Water"],
-            answer: "B",
-          },
-          {
-            question:
-              "Seeds dispersed by wind often have wings, like those of the drumstick fruit, which are carried away to far-off places by ________.",
-            options: ["A. Animals", "B. Water", "C. Wind"],
-            answer: "C",
-          },
-          {
-            question:
-              "Plants such as lotus and water lily have seeds dispersed by ________.",
-            options: ["A. Wind", "B. Animals", "C. Water"],
-            answer: "C",
-          },
-          {
-            question: "Coffee is native to ________.",
-            options: ["A. India", "B. Ethiopia", "C. China"],
-            answer: "B",
-          },
-          {
-            question: "Assam is the birthplace of tea in ________.",
-            options: ["A. West India", "B. South India", "C. Northeast India"],
-            answer: "C",
-          },
-          {
-            question: "Plum was first grown in ________.",
-            options: ["A. China", "B. South Africa", "C. Egypt"],
-            answer: "A",
-          },
-          {
-            question:
-              "Plants like sugarcane, rose, and money plant can grow from ________.",
-            options: ["A. Flowers", "B. Seeds", "C. Stem cuttings"],
-            answer: "C",
-          },
-          {
-            question: "Eucalyptus originated in ________.",
-            options: ["A. Australia", "B. South Africa", "C. China"],
-            answer: "A",
-          },
-        ],
-      },
+        [
+            {
+                "question": "Germination is the process of growing plants from _______.",
+                "optionA": "Seeds",
+                "optionB": "Roots",
+                "optionC": "Stems",
+                "correctAnswer": "Seeds"
+            },
+            {
+                "question": "A seed contains the embryo or the baby plant, covered by a _______ for protection.",
+                "optionA": "Stem",
+                "optionB": "Leaf",
+                "optionC": "Seed coat",
+                "correctAnswer": "Seed coat"
+            },
+            {
+                "question": "The radicle grows into a _______ that absorbs water and minerals.",
+                "optionA": "Stem",
+                "optionB": "Leaf",
+                "optionC": "Root",
+                "correctAnswer": "Root"
+            },
+            {
+                "question": "For germination, seeds need _______ to soften the seed coat.",
+                "optionA": "Sunlight",
+                "optionB": "Water",
+                "optionC": "Air",
+                "correctAnswer": "Water"
+            },
+            {
+                "question": "Plants like sugarcane, rose, and money plant can be grown from _______.",
+                "optionA": "Roots",
+                "optionB": "Seeds",
+                "optionC": "Stem cuttings",
+                "correctAnswer": "Stem cuttings"
+            },
+            {
+                "question": "Seeds dispersed by wind may have wings on them, helping them to be carried away to far off places by _______.",
+                "optionA": "Animals",
+                "optionB": "Water",
+                "optionC": "Wind",
+                "correctAnswer": "Wind"
+            },
+            {
+                "question": "Seeds dispersed by animals are often buried by them, helping in the _______ of new plants.",
+                "optionA": "Pruning",
+                "optionB": "Dispersal",
+                "optionC": "Germination",
+                "correctAnswer": "Germination"
+            },
+            {
+                "question": "Tea originated from the leaves of the _______ plant.",
+                "optionA": "Coffee",
+                "optionB": "Banana",
+                "optionC": "Tea",
+                "correctAnswer": "Tea"
+            },
+            {
+                "question": "India is one of the world's largest producers of _______.",
+                "optionA": "Coffee",
+                "optionB": "Tea",
+                "optionC": "Banana",
+                "correctAnswer": "Tea"
+            },
+            {
+                "question": "Many plants commonly grown in India have originated from foreign countries, such as _______.",
+                "optionA": "Watermelon",
+                "optionB": "Onion",
+                "optionC": "Plum",
+                "correctAnswer": "Plum"
+            }
+        ]
+        
+    
     ],
   };
 }
@@ -182,66 +168,70 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      {
-        trueFalseQuestions: [
-          {
-            question:
-              "Germination is the process of growing plants from seeds.",
-            options: ["A. True", "B. False"],
-            answer: "A",
-          },
-          {
-            question:
-              "Vegetative reproduction involves the reproduction of plants without the use of seeds.",
-            options: ["A. True", "B. False"],
-            answer: "A",
-          },
-          {
-            question:
-              "Seeds dispersed by wind often have wings, allowing them to be carried away by wind.",
-            options: ["A. True", "B. False"],
-            answer: "A",
-          },
-          {
-            question: "Plum was first grown in South Africa.",
-            options: ["A. True", "B. False"],
-            answer: "B",
-          },
-          {
-            question: "Assam is the birthplace of tea in West India.",
-            options: ["A. True", "B. False"],
-            answer: "B",
-          },
-          {
-            question:
-              "Plants like sugarcane, rose, and money plant can only grow from seeds.",
-            options: ["A. True", "B. False"],
-            answer: "B",
-          },
-          {
-            question: "Coffee is native to Ethiopia.",
-            options: ["A. True", "B. False"],
-            answer: "A",
-          },
-          {
-            question:
-              "Plants such as lotus and water lily have seeds dispersed by water.",
-            options: ["A. True", "B. False"],
-            answer: "A",
-          },
-          {
-            question: "Eucalyptus originated in Australia.",
-            options: ["A. True", "B. False"],
-            answer: "A",
-          },
-          {
-            question:
-              "The credit for the discovery of tea goes to the first emperor of China.",
-            options: ["A. True", "B. False"],
-            answer: "B",
-          },
-        ],
-      },
+        [
+            {
+                "question": "Germination is the process of growing plants from seeds.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "True"
+            },
+            {
+                "question": "A seed coat protects the embryo or baby plant within the seed.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "True"
+            },
+            {
+                "question": "The radicle grows into a leaf that absorbs water and minerals.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "False"
+            },
+            {
+                "question": "For germination, seeds need sunlight to soften the seed coat.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "False"
+            },
+            {
+                "question": "Plants like sugarcane, rose, and money plant can be grown from roots.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "False"
+            },
+            {
+                "question": "Seeds dispersed by wind may have wings on them, helping them to be carried away to far-off places by animals.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "False"
+            },
+            {
+                "question": "Seeds dispersed by animals are often buried by them, helping in the pruning of new plants.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "False"
+            },
+            {
+                "question": "Tea originated from the leaves of the coffee plant.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "False"
+            },
+            {
+                "question": "India is one of the world's largest producers of coffee.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "False"
+            },
+            {
+                "question": "Many plants commonly grown in India have originated from foreign countries, such as onion.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "True"
+            }
+        ]
+        
+    
     ],
   };
 }

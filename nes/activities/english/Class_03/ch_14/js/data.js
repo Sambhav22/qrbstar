@@ -1,247 +1,247 @@
-export const chapter = "Chapter - 14: Row Your Boat";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -14: Row Your Boat";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "In the given text, what are you encouraged to do with the boat?",
-        optionA: "Row it vigorously",
-        optionB: "Gently row it",
-        optionC: "Let it drift on its own",
-        correctAnswer: "Gently row it",
-     }),
-      shuffleOptions({
-        question:
-          "What might happen if you spring a leak while rowing your boat up the creek?",
-        optionA: "You'll find a treasure",
-        optionB: "You might get your bottom wet",
-        optionC: "You'll win a race",
-        correctAnswer: "You might get your bottom wet",
-     }),
-      shuffleOptions({
-        question:
-          "According to the text, what is a big mistake while rowing the boat around the lake?",
-        optionA: "Singing loudly",
-        optionB: "Standing up and rocking the boat",
-        optionC: "Race with other boats",
-        correctAnswer: "Standing up and rocking the boat",
-     }),
-      shuffleOptions({
-        question:
-          "What is mentioned as a consequence when rowing your boat down the stream?",
-        optionA: "A peaceful journey",
-        optionB: "A thrilling adventure",
-        optionC: "A boring trip",
-        correctAnswer: "A thrilling adventure",
-     }),
-      shuffleOptions({
-        question:
-          "How many times is the phrase 'Row, row, row your boat' repeated in the text?",
-        optionA: "1",
-        optionB: "2",
-        optionC: "3",
-        correctAnswer: "3",
-     }),
-      shuffleOptions({
-        question: "Where does the text suggest rowing your boat gently up?",
-        optionA: "The ocean",
-        optionB: "The creek",
-        optionC: "The mountain",
-        correctAnswer: "The creek",
-     }),
-      shuffleOptions({
-        question:
-          "What is the text's advice when rowing your boat gently round the lake?",
-        optionA: "Stand up and enjoy the view",
-        optionB: "Don't stand up and rock the boat",
-        optionC: "Race with other boats",
-        correctAnswer: "Don't stand up and rock the boat",
-     }),
-      shuffleOptions({
-        question:
-          "What kind of experience does the text imply when you hit the waterfall while rowing down the stream?",
-        optionA: "A peaceful journey",
-        optionB: "A thrilling adventure",
-        optionC: "A boring trip",
-        correctAnswer: "A thrilling adventure",
-     }),
-      shuffleOptions({
-        question:
-          "In the text, what happens if you spring a leak in your boat while rowing?",
-        optionA: "You find a treasure",
-        optionB: "You might get your top wet",
-        optionC: "You might get your bottom wet",
-        correctAnswer: "You might get your bottom wet",
-     }),
-      shuffleOptions({
-        question: "What body of water is mentioned in the text?",
-        optionA: "Desert",
-        optionB: "Lake",
-        optionC: "Cave",
-        correctAnswer: "Lake",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "What happens if you spring a leak while rowing your boat?",
+          optionA: "You might get your bottom wet",
+          optionB: "You'll start to scream",
+          optionC: "The boat will capsize",
+          correctAnswer: "You might get your bottom wet",
+        },
+        {
+          question:
+            "According to the text, what should you not do while rowing the boat?",
+          optionA: "Stand up and rock the boat",
+          optionB: "Row faster",
+          optionC: "Sing loudly",
+          correctAnswer: "Stand up and rock the boat",
+        },
+        {
+          question:
+            "Where are you gently rowing your boat in the first stanza?",
+          optionA: "Up the creek",
+          optionB: "Down the stream",
+          optionC: "Across the ocean",
+          correctAnswer: "Up the creek",
+        },
+        {
+          question:
+            "What should you do when you hit the waterfall while rowing your boat?",
+          optionA: "Start screaming",
+          optionB: "Keep rowing gently",
+          optionC: "Prepare for trouble",
+          correctAnswer: "Start screaming",
+        },
+        {
+          question: "What is described as a big mistake in the text?",
+          optionA: "Not rowing the boat",
+          optionB: "Rocking the boat",
+          optionC: "Standing up in the boat",
+          correctAnswer: "Rocking the boat",
+        },
+        {
+          question:
+            "What action might lead to getting wet while rowing your boat?",
+          optionA: "Singing loudly",
+          optionB: "Springing a leak",
+          optionC: "Standing still",
+          correctAnswer: "Springing a leak",
+        },
+        {
+          question:
+            "In which body of water are you gently rowing your boat in the second stanza?",
+          optionA: "A creek",
+          optionB: "A lake",
+          optionC: "A stream",
+          correctAnswer: "A lake",
+        },
+        {
+          question:
+            "What happens if you stand up and rock the boat according to the text?",
+          optionA: "You'll capsize the boat",
+          optionB: "You'll make it go faster",
+          optionC: "You'll have more fun",
+          correctAnswer: "You'll capsize the boat",
+        },
+        {
+          question:
+            "What should you do while rowing your boat down the stream?",
+          optionA: "Stand up",
+          optionB: "Row vigorously",
+          optionC: "Row gently",
+          correctAnswer: "Row gently",
+        },
+        {
+          question:
+            "What warning is given when rowing your boat down the stream?",
+          optionA: "Beware of rocks",
+          optionB: "Prepare for a rough ride",
+          optionC: "Until you hit the waterfall",
+          correctAnswer: "Until you hit the waterfall",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "__________ is a new disease caused by a virus.",
-        options: ["Influenza", "COVID-19", "Malaria"],
-        correctAnswer: "COVID-19",
-     }),
-      shuffleOptions({
-        question:
-          "Good ____________ and social distancing can help protect you from the disease.",
-        options: ["Nutrition", "Hygiene", "Fitness"],
-        correctAnswer: "Hygiene",
-     }),
-      shuffleOptions({
-        question: "Most diseases arise because people are not ____________.",
-        options: ["Active", "Careful", "Knowledgeable"],
-        correctAnswer: "Careful",
-     }),
-      shuffleOptions({
-        question:
-          "Regular handwashing with soap, keeping nails and hair ____________, and wearing clean clothes are simple ways to maintain ____________.",
-        options: ["Long, fitness", "Short, hygiene", "Clean, health"],
-        correctAnswer: "Short, hygiene",
-     }),
-      shuffleOptions({
-        question:
-          "Physical exercise can include activities like running, playing games, and practicing ____________.",
-        options: ["Yoga", "Martial arts", "Singing"],
-        correctAnswer: "Yoga",
-     }),
-      shuffleOptions({
-        question:
-          "Snacks sold in the market are not good for your health because they often contain excessive ____________ and ____________.",
-        options: ["Sugar, salt", "Fiber, vitamins", "Protein, antioxidants"],
-        correctAnswer: "Sugar, salt",
-     }),
-      shuffleOptions({
-        question:
-          "It is good to sleep early and rise early as it gives rest to the body and the ____________.",
-        options: ["Mind", "Muscles", "Stomach"],
-        correctAnswer: "Mind",
-     }),
-      shuffleOptions({
-        question:
-          "Apart from sleeping, ____________, reading, and playing games are mentioned as methods to take a rest.",
-        options: ["Studying", "Exercising", "Thinking"],
-        correctAnswer: "Thinking",
-     }),
-      shuffleOptions({
-        question:
-          "According to the text, maintaining cleanliness is essential because a large number of diseases are caused due to ____________.",
-        options: ["Negligence", "Dirtiness", "Poor diet"],
-        correctAnswer: "Dirtiness",
-     }),
-      shuffleOptions({
-        question:
-          "The text emphasizes the value of true ____________ and selflessness.",
-        options: ["Wealth", "Friendship", "Power"],
-        correctAnswer: "Friendship",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question: "Row, row, row your boat, gently up the __________.",
+          optionA: "creek",
+          optionB: "lake",
+          optionC: "stream",
+          correctAnswer: "creek",
+        },
+        {
+          question:
+            "Don't stand up and _________ the boat, that's a big mistake.",
+          optionA: "rock",
+          optionB: "row",
+          optionC: "flip",
+          correctAnswer: "rock",
+        },
+        {
+          question: "Row, row, row your boat, gently round the ________.",
+          optionA: "creek",
+          optionB: "lake",
+          optionC: "stream",
+          correctAnswer: "lake",
+        },
+        {
+          question: "Row, row, row your boat, gently down the __________.",
+          optionA: "creek",
+          optionB: "lake",
+          optionC: "stream",
+          correctAnswer: "stream",
+        },
+        {
+          question:
+            "Until you hit the __________, then you'll start to scream.",
+          optionA: "waterfall",
+          optionB: "rock",
+          optionC: "shore",
+          correctAnswer: "waterfall",
+        },
+        {
+          question: "If you spring a _________, you might get your bottom wet.",
+          optionA: "song",
+          optionB: "leak",
+          optionC: "wave",
+          correctAnswer: "leak",
+        },
+        {
+          question: "Row, row, row your boat, gently up the ________.",
+          optionA: "creek",
+          optionB: "river",
+          optionC: "stream",
+          correctAnswer: "creek",
+        },
+        {
+          question: "Row, row, row your boat, gently round the ________.",
+          optionA: "pond",
+          optionB: "lake",
+          optionC: "river",
+          correctAnswer: "lake",
+        },
+        {
+          question: "Row, row, row your boat, gently down the ________.",
+          optionA: "creek",
+          optionB: "river",
+          optionC: "stream",
+          correctAnswer: "stream",
+        },
+        {
+          question:
+            "Until you hit the waterfall, then you'll start to ________.",
+          optionA: "sing",
+          optionB: "row",
+          optionC: "scream",
+          correctAnswer: "scream",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "The disease mentioned in the text is caused by a virus.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Maintaining cleanliness is not essential for preventing diseases.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The text recommends eating snacks from the market for a healthy diet.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Physical exercise can include activities like running and playing games.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Brushing your teeth and taking a bath daily are mentioned as ways to maintain cleanliness.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "It is essential to wash your hands with soap when entering the house from outside.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The text suggests that sleeping late and rising late is beneficial for health.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Snacks are considered good for health because they are tasty to eat.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Maintaining hygiene can help keep diseases away.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "According to the text, thinking is a method to take a rest for the brain.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "Row, row, row your boat, gently up the creek.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "You might get your bottom wet if you spring a leak.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "Don't stand up and rock the boat, that's a big mistake.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "Row, row, row your boat, gently down the stream.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "Until you hit the waterfall, then you'll start to scream.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Rowing the boat faster is encouraged according to the text.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "It's safe to stand up in the boat while rowing.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Row, row, row your boat, gently round the lake.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "Springing a leak will make your boat capsize.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "You should row gently while rowing your boat down the stream.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

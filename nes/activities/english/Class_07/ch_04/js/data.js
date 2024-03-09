@@ -1,247 +1,262 @@
-export const chapter = "Chapter - 4: fhe Endless Wait";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -4: The Endless Wait";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "In which city were the two friends, Riley and the narrator, working as newspaper correspondents?",
-        optionA: "New York",
-        optionB: "San Francisco",
-        optionC: "Washington",
-        correctAnswer: "Washington",
-     }),
-      shuffleOptions({
-        question:
-          "What was the stranger's name who stopped Riley and the narrator on Pennsylvania Avenue?",
-        optionA: "Mr. Riley",
-        optionB: "Mr. Lykins",
-        optionC: "Mr. Gadsby",
-        correctAnswer: "Mr. Lykins",
-     }),
-      shuffleOptions({
-        question:
-          "What was Mr. Lykins' purpose in stopping Riley and the narrator?",
-        optionA: "To offer them a job",
-        optionB: "To ask for directions",
-        optionC: "To seek their help with a petition",
-        correctAnswer: "To seek their help with a petition",
-     }),
-      shuffleOptions({
-        question: "What position was Mr. Lykins trying to obtain?",
-        optionA: "Postmaster of San Francisco",
-        optionB: "Superintendent of Public Instruction",
-        optionC: "Schoolteacher at the high school",
-        correctAnswer: "Postmaster of San Francisco",
-     }),
-      shuffleOptions({
-        question:
-          "What did Mr. Lykins bring with him to present to the Pacific delegation?",
-        optionA: "A newspaper article",
-        optionB: "A petition with signatures",
-        optionC: "A letter of recommendation",
-        correctAnswer: "A petition with signatures",
-     }),
-      shuffleOptions({
-        question: "What did Mr. Lykins want from the Pacific delegation?",
-        optionA: "A plane ticket to San Francisco",
-        optionB: "A promise of support for his appointment",
-        optionC: "A guided tour of Washington, D.C.",
-        correctAnswer: "A promise of support for his appointment",
-     }),
-      shuffleOptions({
-        question: "When did Mr. Lykins plan to leave for San Francisco?",
-        optionA: "Tomorrow evening",
-        optionB: "Next week",
-        optionC: "In a month",
-        correctAnswer: "Tomorrow evening",
-     }),
-      shuffleOptions({
-        question:
-          "What story did Riley tell Mr. Lykins about a man who stayed at Hotel Gadsby?",
-        optionA: "A story about a wealthy traveler",
-        optionB: "A story about a never-ending journey",
-        optionC: "A story about a famous president",
-        correctAnswer: "A story about a never-ending journey",
-     }),
-      shuffleOptions({
-        question:
-          "How did the man in Riley's story change his mode of transportation over time?",
-        optionA: "He kept upgrading to more luxurious options",
-        optionB: "He consistently used a four-horse carriage",
-        optionC: "He preferred walking and traveling on foot",
-        correctAnswer: "He kept upgrading to more luxurious options",
-     }),
-      shuffleOptions({
-        question: "What did Mr. Lykins do after hearing Riley's story?",
-        optionA: "He asked for more stories",
-        optionB: "He decided to stay at Gadsby's hotel",
-        optionC: "He rushed off to San Francisco",
-        correctAnswer: "He rushed off to San Francisco",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "What was Riley's occupation in Washington during the winter of '67?",
+          optionA: "Teacher",
+          optionB: "Newspaper Correspondent",
+          optionC: "Postmaster",
+          correctAnswer: "Newspaper Correspondent",
+        },
+        {
+          question:
+            "How did Mr. Lykins recognize Riley when they met on Pennsylvania Avenue?",
+          optionA: "By his distinctive attire",
+          optionB: "By his name tag",
+          optionC: "By asking around",
+          correctAnswer: "By his distinctive attire",
+        },
+        {
+          question:
+            "What did Mr. Lykins bring with him to support his application for the San Francisco postmastership?",
+          optionA: "A resume",
+          optionB: "A petition signed by various people",
+          optionC: "A letter of recommendation from the President",
+          correctAnswer: "A petition signed by various people",
+        },
+        {
+          question:
+            "When did Mr. Lykins plan to leave Washington for San Francisco?",
+          optionA: "Tomorrow morning",
+          optionB: "Tomorrow evening",
+          optionC: "In two days",
+          correctAnswer: "Tomorrow evening",
+        },
+        {
+          question: "What event did Mr. Lykins mention happening at 2 P.M.?",
+          optionA: "Appointment confirmation",
+          optionB: "Executive session of the Senate",
+          optionC: "Presidential meeting",
+          correctAnswer: "Executive session of the Senate",
+        },
+        {
+          question:
+            "What did Riley ask Mr. Lykins about staying a day or two longer?",
+          optionA: "To join him for dinner",
+          optionB: "To accompany him on a sightseeing tour",
+          optionC: "To delay his departure",
+          correctAnswer: "To delay his departure",
+        },
+        {
+          question:
+            "What was the old man's reason for selling his carriage, horses, and other belongings?",
+          optionA: "Lack of interest",
+          optionB: "Financial difficulties",
+          optionC: "Preference for a simpler lifestyle",
+          correctAnswer: "Preference for a simpler lifestyle",
+        },
+        {
+          question:
+            "Where did the old man plan to go after selling all his possessions?",
+          optionA: "New York",
+          optionB: "Tennessee",
+          optionC: "San Francisco",
+          correctAnswer: "Tennessee",
+        },
+        {
+          question: "Why did the old man sell his dog?",
+          optionA: "The dog was aggressive",
+          optionB: "He needed money",
+          optionC: "The dog was a nuisance",
+          correctAnswer: "The dog was a nuisance",
+        },
+        {
+          question:
+            "Why did Riley tell Mr. Lykins the story about the old man?",
+          optionA: "To waste time",
+          optionB: "To entertain him",
+          optionC: "To convince him to stay longer",
+          correctAnswer: "To convince him to stay longer",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "One evening, when my friend Riley and I were newspaper correspondents in Washington, in the winter of '67, we were coming down Pennsylvania Avenue. The flash of a street-lamp fell upon a man who was eagerly tearing along in the opposite direction. This man instantly stopped and exclaimed: 'This is lucky! You are Mr. ________, aren't you?'",
-        options: ["Peter", "Lykins", "Riley"],
-        correctAnswer: "Lykins",
-     }),
-      shuffleOptions({
-        question: "'Yes, I am Mr. Riley. Did you happen to be looking for me?'",
-        options: ["Lykins", "Washington", "Pennsylvania"],
-        correctAnswer: "Lykins",
-     }),
-      shuffleOptions({
-        question:
-          "That's just what I was doing,' said the man, joyously, 'and it's the biggest luck in the world that I've found you. My name is ________. I'm one of the teachers of the high school in San Francisco.'",
-        options: ["Peter", "Lykins", "Riley"],
-        correctAnswer: "Lykins",
-     }),
-      shuffleOptions({
-        question:
-          "'As soon as I heard the San Francisco postmastership vacant, I made up my mind to get it and here I am.'",
-        options: ["President", "Teacher", "Postmastership"],
-        correctAnswer: "Postmastership",
-     }),
-      shuffleOptions({
-        question:
-          "'If the matter is so pressing, you will prefer that we visit the delegation tonight,' said Riley, in a voice which had nothing mocking in it to an unaccustomed ear.",
-        options: ["Pressing", "Delegation", "Riley"],
-        correctAnswer: "Delegation",
-     }),
-      shuffleOptions({
-        question:
-          "'Oh, tonight, by all means! I haven't got any time to fool around. I want their promise before I go to bed. I am not the talking kind, I'm the ________ kind!'",
-        options: ["Doing", "Riley", "Washington"],
-        correctAnswer: "Doing",
-     }),
-      shuffleOptions({
-        question: "'When did you arrive?'",
-        options: ["Leave", "Arrive", "Bed"],
-        correctAnswer: "Arrive",
-     }),
-      shuffleOptions({
-        question: "'Just an hour ago.'",
-        options: ["Evening", "Hour", "San Francisco"],
-        correctAnswer: "Hour",
-     }),
-      shuffleOptions({
-        question:
-          "What did the man plan to do after getting the appointment from the President?",
-        options: [
-          "Visit the Senate",
-          "Leave for New York",
-          "Take a vacation in Washington, D.C.",
-        ],
-        correctAnswer: "Leave for New York",
-     }),
-      shuffleOptions({
-        question:
-          "How many novels of Byomkesh Bakshi were adapted for the Sunday Suspense series of 98.3 Radio Mirchi (Kolkata)?",
-        options: ["Five", "Seven", "Ten"],
-        correctAnswer: "Seven",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "One evening in the winter of '67, Riley and I, newspaper correspondents in Washington, were coming down ________________ Avenue.",
+          optionA: "New York",
+          optionB: "San Francisco",
+          optionC: "Pennsylvania",
+          correctAnswer: "Pennsylvania",
+        },
+        {
+          question:
+            "Mr. Lykins, a teacher from the high school in San Francisco, was eagerly tearing along in the opposite direction, looking for ________________.",
+          optionA: "A newspaper",
+          optionB: "A postmaster",
+          optionC: "Riley",
+          correctAnswer: "Riley",
+        },
+        {
+          question:
+            "Riley asked Mr. Lykins if he had ________________ for the San Francisco postmastership.",
+          optionA: "A resume",
+          optionB: "A petition",
+          optionC: "A recommendation letter",
+          correctAnswer: "A petition",
+        },
+        {
+          question:
+            "Mr. Lykins planned to leave Washington for San Francisco the ________________ evening.",
+          optionA: "Tomorrow",
+          optionB: "Tonight",
+          optionC: "Two days later",
+          correctAnswer: "Tomorrow",
+        },
+        {
+          question:
+            "Riley suggested that Mr. Lykins visit the Pacific delegation ________________ to rush the petition through.",
+          optionA: "Today",
+          optionB: "Tonight",
+          optionC: "Tomorrow",
+          correctAnswer: "Tonight",
+        },
+        {
+          question:
+            "The executive session of the Senate, where Mr. Lykins needed the appointment confirmed, was scheduled for ________________.",
+          optionA: "12 P.M.",
+          optionB: "2 P.M.",
+          optionC: "4 P.M.",
+          correctAnswer: "2 P.M.",
+        },
+        {
+          question:
+            "Riley asked Mr. Lykins if he could stay ________________ longer before leaving for San Francisco.",
+          optionA: "A day",
+          optionB: "Two days",
+          optionC: "A week",
+          correctAnswer: "Two days",
+        },
+        {
+          question:
+            "The old man in Riley's story sold his carriage and bought a cheap second-hand ________________.",
+          optionA: "Horse",
+          optionB: "Buggy",
+          optionC: "Bicycle",
+          correctAnswer: "Buggy",
+        },
+        {
+          question:
+            "The old man decided to ride bareback because he believed it was ________________ for a trip through the spring woods.",
+          optionA: "Safer",
+          optionB: "Faster",
+          optionC: "Cheaper",
+          correctAnswer: "Safer",
+        },
+        {
+          question:
+            "Riley told Mr. Lykins the story about the old man to convince him to ________________ at Gadsby's and take it easy.",
+          optionA: "Rush",
+          optionB: "Delay",
+          optionC: "Leave",
+          correctAnswer: "Delay",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Mr. Lykins approached Mr. Riley on Pennsylvania Avenue.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Mr. Lykins was looking for someone other than Mr. Riley.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Mr. Lykins wanted to secure a teaching position in Washington.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Mr. Lykins planned to visit the President to secure the San Francisco postmastership.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Mr. Lykins was willing to stay in Washington for an extended period.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Mr. Riley narrated a story about a man from Tennessee.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The man from Tennessee bought a second-hand carriage on February 5th.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The man from Tennessee gradually upgraded his mode of transportation.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The man from Tennessee eventually decided to travel on foot to Tennessee.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The storyteller, Mr. Riley, continued to share stories about the man from Tennessee.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "One evening in the winter of '67, Riley and I were heading down Pennsylvania Avenue.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Mr. Lykins recognized Riley and was looking for the San Francisco postmastership.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Riley suggested Mr. Lykins delay his departure by two days.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The executive session of the Senate for appointment confirmation was scheduled for 4 P.M.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The old man in Riley's story sold his carriage and bought a horse.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Mr. Lykins planned to leave for San Francisco the morning after meeting Riley.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The old man sold his dog because it was a perfect companion for his journey.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Riley told Mr. Lykins the story to entertain him during their meeting.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The last complete story of Byomkesh Bakshi, Lahar Biscuit, was published in 1969.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Byomkesh Bakshi prefers to be called 'Sherlock' instead of 'detective'.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

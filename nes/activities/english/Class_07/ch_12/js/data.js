@@ -1,249 +1,264 @@
-export const chapter = "Chapter - 12: The Great Weep ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -12: The Great Weep";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "Who was the monarch of England in the second decade of the twentieth century?",
-        optionA: "King George V",
-        optionB: "King Edward VII",
-        optionC: "King William III",
-        correctAnswer: "King George V",
-     }),
-      shuffleOptions({
-        question: "What was King Hermann's nickname?",
-        optionA: "The Generous",
-        optionB: "The Irascible",
-        optionC: "The Silent",
-        correctAnswer: "The Irascible",
-     }),
-      shuffleOptions({
-        question:
-          "What legislative suggestion did King Hermann make regarding women's voting rights?",
-        optionA: "Optional voting for women",
-        optionB: "Compulsory voting for women",
-        optionC: "Abolishing women's voting rights",
-        correctAnswer: "Compulsory voting for women",
-     }),
-      shuffleOptions({
-        question:
-          "What penalty did female electors face for failing to vote in elections?",
-        optionA: "5 pounds",
-        optionB: "10 pounds",
-        optionC: "No penalty",
-        correctAnswer: "10 pounds",
-     }),
-      shuffleOptions({
-        question:
-          "What impact did the Compulsory Female Franchise have on society women's arrangements?",
-        optionA: "No impact",
-        optionB: "Impeded and upset arrangements",
-        optionC: "Improved arrangements",
-        correctAnswer: "Impeded and upset arrangements",
-     }),
-      shuffleOptions({
-        question:
-          "What movement emerged in opposition to female disenfranchisement?",
-        optionA: "The Pro-Votes-for-Women League",
-        optionB: "The We-Don't-Want-to-Vote League",
-        optionC: "The No-Votes-for-Women League",
-        correctAnswer: "The No-Votes-for-Women League",
-     }),
-      shuffleOptions({
-        question: "What method did some women use as a last resort to protest?",
-        optionA: "Violent protests",
-        optionB: "Organizing elections",
-        optionC: "The Great Weep",
-        correctAnswer: "The Great Weep",
-     }),
-      shuffleOptions({
-        question: "What was the government's response to the Great Weep?",
-        optionA: "They granted women the right to vote.",
-        optionB: "They continued to support women's voting rights.",
-        optionC:
-          "They yielded and passed a measure depriving women of the right to vote.",
-        correctAnswer:
-          "They yielded and passed a measure depriving women of the right to vote.",
-     }),
-      shuffleOptions({
-        question:
-          "What does King Hermann say about 'killing a cat' at the end of the text?",
-        optionA: "He prefers choking it with cream.",
-        optionB: "He prefers other methods.",
-        optionC: "He is unsure about the best method.",
-        correctAnswer: "He prefers other methods.",
-     }),
-      shuffleOptions({
-        question:
-          "What is King Hermann's second nickname mentioned in the text?",
-        optionA: "The Wise",
-        optionB: "The Generous",
-        optionC: "The Compassionate",
-        correctAnswer: "The Wise",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "Who was the monarch ruling England in the second decade of the twentieth century in the given text?",
+          optionA: "a) Hermann the Wise",
+          optionB: "b) Hermann the Irascible",
+          optionC: "c) The Prime Minister",
+          correctAnswer: "b) Hermann the Irascible",
+        },
+        {
+          question:
+            "What legislative suggestion did Hermann the Irascible make regarding women's voting rights?",
+          optionA: "a) Women must have the option to vote",
+          optionB: "b) Women must not be allowed to vote",
+          optionC: "c) Women must be obliged to vote",
+          correctAnswer: "c) Women must be obliged to vote",
+        },
+        {
+          question:
+            "What penalty did the female elector face for failing to vote at any election according to Hermann's proposal?",
+          optionA: "a) 5 pounds",
+          optionB: "b) 10 pounds",
+          optionC: "c) No penalty",
+          correctAnswer: "b) 10 pounds",
+        },
+        {
+          question:
+            "How did the female disenfranchisement agitation express its dissent?",
+          optionA: "a) Peaceful protests",
+          optionB: "b) Violent methods",
+          optionC: "c) Petitions to the government",
+          correctAnswer: "b) Violent methods",
+        },
+        {
+          question:
+            "What was the impact of the Compulsory Female Franchise on women's daily lives?",
+          optionA: "a) Increased leisure time",
+          optionB: "b) More opportunities for women",
+          optionC: "c) Disruption of daily routines",
+          correctAnswer: "c) Disruption of daily routines",
+        },
+        {
+          question:
+            "What expedient did women adopt as a last resort to protest against the government's stance on voting?",
+          optionA: "a) Peaceful demonstrations",
+          optionB: "b) The Great Weep",
+          optionC: "c) Political lobbying",
+          correctAnswer: "b) The Great Weep",
+        },
+        {
+          question: "How did the government respond to the Great Weep?",
+          optionA: "a) Agreed to women's demands",
+          optionB: "b) Ignored the protest",
+          optionC: "c) Passed a measure to deprive women of the right to vote",
+          correctAnswer:
+            "c) Passed a measure to deprive women of the right to vote",
+        },
+        {
+          question:
+            "What was the impact of the Great Weep on public places and events?",
+          optionA: "a) Increased attendance",
+          optionB: "b) Decreased attendance",
+          optionC: "c) Became centers of weeping",
+          correctAnswer: "c) Became centers of weeping",
+        },
+        {
+          question:
+            "Why did the Prime Minister decide to yield to women's demands?",
+          optionA: "a) The government sympathized with the protesters",
+          optionB: "b) Women had gained widespread support",
+          optionC: "c) The Great Weep disrupted daily life significantly",
+          correctAnswer: "c) The Great Weep disrupted daily life significantly",
+        },
+        {
+          question:
+            "What nickname is given to Hermann in the text, indicating both his temperament and wisdom?",
+          optionA: "a) The Wise",
+          optionB: "b) The Irascible",
+          optionC: "c) The Progressive",
+          correctAnswer: "b) The Irascible",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "In the second decade of the twentieth century, Hermann the Irascible, nicknamed also the Wise, sat on the British throne as the ruler of the British dominions within and beyond the seas. He was considered the most ______________ monarch.",
-        options: ["Progressive", "Conservative", "Controversial"],
-        correctAnswer: "Progressive",
-     }),
-      shuffleOptions({
-        question:
-          "The Prime Minister admitted that they were hampered by the 'votes-for-women' people, who disturbed their meetings throughout the country and tried to turn the capital into a sort of political picnic ground. The Prime Minister asked King Hermann how they should be ______________.",
-        options: ["Supported", "Ignored", "Dealt with"],
-        correctAnswer: "Dealt with",
-     }),
-      shuffleOptions({
-        question:
-          "King Hermann proposed drafting a Bill that would make it ______________ for women to vote at all future elections.",
-        options: ["Optional", "Compulsory", "Conditional"],
-        correctAnswer: "Compulsory",
-     }),
-      shuffleOptions({
-        question:
-          "Failure to vote at any election falling within her area of residence would involve the female elector in a penalty of ______________ pounds.",
-        options: ["5", "10", "20"],
-        correctAnswer: "10",
-     }),
-      shuffleOptions({
-        question:
-          "The Compulsory Female Franchise did not produce much elation, even among those who had been the loudest in demanding the vote. The most fanatical Suffragettes began to wonder what they had found so attractive in the prospect of putting ______________ into a box.",
-        options: ["Ballot-papers", "Money", "Flowers"],
-        correctAnswer: "Ballot-papers",
-     }),
-      shuffleOptions({
-        question:
-          "In the country districts, the task of carrying out the provisions of the new Act was ______________ enough, while in the towns and cities, it became an incubus.",
-        options: ["Enjoyable", "Irksome", "Exciting"],
-        correctAnswer: "Irksome",
-     }),
-      shuffleOptions({
-        question:
-          "Society women found their arrangements impeded and upset by the continual necessity for attending the polling stations, and weekend parties and summer holidays became gradually a masculine ______________.",
-        options: ["Necessity", "Luxury", "Inconvenience"],
-        correctAnswer: "Luxury",
-     }),
-      shuffleOptions({
-        question:
-          "The No-Votes-for-Women League, with its flags flaunted everywhere, became a formidable movement, and its battle hymn, 'We Don't Want to Vote,' became a popular ______________.",
-        options: ["Refrain", "Jingle", "Anthem"],
-        correctAnswer: "Refrain",
-     }),
-      shuffleOptions({
-        question:
-          "As a last resort, some woman hit upon an expedient, and the Great Weep was organized, with relays of women, ten thousand at a time, weeping continuously in the public places of the ______________.",
-        options: ["Countryside", "Metropolis", "Seaside"],
-        correctAnswer: "Metropolis",
-     }),
-      shuffleOptions({
-        question:
-          "King Hermann quoted, 'There are more ways of killing a cat than by choking it with cream.' This statement implies that there are various approaches to solving a problem, and sometimes the most unexpected one might be the ______________.",
-        options: ["Most obvious", "Most effective", "Best way"],
-        correctAnswer: "Best way",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "Hermann the Irascible, also known as ________, sat on the British throne in the second decade of the twentieth century.",
+          optionA: "a) The Progressive",
+          optionB: "b) The Wise",
+          optionC: "c) The Irresistible",
+          correctAnswer: "b) The Wise",
+        },
+        {
+          question:
+            "Hermann suggested a Bill that mandated women to vote at all future elections, with a penalty of ________ for failure to vote.",
+          optionA: "a) 5 pounds",
+          optionB: "b) 10 pounds",
+          optionC: "c) 15 pounds",
+          correctAnswer: "b) 10 pounds",
+        },
+        {
+          question:
+            "The Compulsory Female Franchise made elections an ________ task in country districts and an incubus in towns and cities.",
+          optionA: "a) Enjoyable",
+          optionB: "b) Irksome",
+          optionC: "c) Effortless",
+          correctAnswer: "b) Irksome",
+        },
+        {
+          question:
+            "The No-Votes-for-Women League's battle hymn was \"We Don't Want to Vote,\" and it became a popular ________.",
+          optionA: "a) Slogan",
+          optionB: "b) Refrain",
+          optionC: "c) Anthem",
+          correctAnswer: "b) Refrain",
+        },
+        {
+          question:
+            "Women organized the Great Weep as a ________ to protest, with relays of ten thousand women weeping continuously in public places.",
+          optionA: "a) Celebration",
+          optionB: "b) Festival",
+          optionC: "c) Expedient",
+          correctAnswer: "c) Expedient",
+        },
+        {
+          question:
+            "The King suggested passing a measure through the two Houses depriving women of the right to vote as a ________ to the Great Weep.",
+          optionA: "a) Solution",
+          optionB: "b) Countermeasure",
+          optionC: "c) Response",
+          correctAnswer: "b) Countermeasure",
+        },
+        {
+          question:
+            "The Minister withdrew as Hermann the Irascible gave a profound ________.",
+          optionA: "a) Smile",
+          optionB: "b) Laughter",
+          optionC: "c) Chuckle",
+          correctAnswer: "c) Chuckle",
+        },
+        {
+          question:
+            'Hermann the Irascible quoted, "There are more ways of killing a cat than by choking it with cream," indicating his ________.',
+          optionA: "a) Humor",
+          optionB: "b) Wisdom",
+          optionC: "c) Mischief",
+          correctAnswer: "b) Wisdom",
+        },
+        {
+          question:
+            'The Prime Minister asked, "What are we to do?" as his cook had wept into all the ________ dishes.',
+          optionA: "a) Lunch",
+          optionB: "b) Dinner",
+          optionC: "c) Breakfast",
+          correctAnswer: "c) Breakfast",
+        },
+        {
+          question:
+            "Hermann suggested passing a measure to deprive women of the right to vote as a ________ to the continuous protests.",
+          optionA: "a) Concession",
+          optionB: "b) Compromise",
+          optionC: "c) Resolution",
+          correctAnswer: "a) Concession",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "England was ruled by King Hermann the Irascible in the second decade of the twentieth century.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "King Hermann's nickname was 'The Generous.'",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The Prime Minister was pleased with the votes-for-women movement.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "King Hermann proposed a Bill to make voting for women optional.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Failure to vote in elections could result in a 5-pound penalty for women.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The Compulsory Female Franchise had a positive impact on society women's arrangements.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The No-Votes-for-Women League supported the idea of women's suffrage.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The government was easily persuaded by peaceful protests.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The Great Weep was organized as a violent protest by women.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "King Hermann preferred choking a cat with cream to other methods.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "The monarch in England during the twentieth century in the provided text was Hermann the Wise.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Hermann the Irascible proposed a Bill making voting optional for both male and female electors.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The Compulsory Female Franchise resulted in elation among circles that had demanded the vote.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The penalty for failing to vote under the new Act was 5 pounds.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Laundresses and seamstresses in country districts had to vote for candidates they hadn't heard of before.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The Great Weep involved women weeping continuously in public places as a form of protest.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The government yielded to the No-Votes-for-Women League's demands after the Great Weep.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The King suggested passing a measure to grant women even more voting rights.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The female disenfranchisement agitation led to a decline in weekend parties and summer holidays.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            'Hermann the Irascible quoted, "There are more ways of killing a cat than by choking it with cream," as a serious suggestion.',
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

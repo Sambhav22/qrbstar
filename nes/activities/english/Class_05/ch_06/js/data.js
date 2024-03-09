@@ -1,245 +1,249 @@
-export const chapter = "Chapter - 6: Rain, Wind and Snow ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -06: Rain, Wind and Snow";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "What does the April rain bring back?",
-        optionA: "Leaves",
-        optionB: "Flowers",
-        optionC: "Snow",
-        correctAnswer: "Flowers",
-     }),
-      shuffleOptions({
-        question: "Which of the following flowers is mentioned in the text?",
-        optionA: "Roses",
-        optionB: "Tulips",
-        optionC: "Daisies",
-        correctAnswer: "Daisies",
-     }),
-      shuffleOptions({
-        question:
-          "What season does the text mention when it says, 'Wind, wind, Autumn wind!'?",
-        optionA: "Summer",
-        optionB: "Autumn",
-        optionC: "Spring",
-        correctAnswer: "Autumn",
-     }),
-      shuffleOptions({
-        question: "What does the wind do to the leafy trees in autumn?",
-        optionA: "Waters them",
-        optionB: "Grows them",
-        optionC: "Thins them",
-        correctAnswer: "Thins them",
-     }),
-      shuffleOptions({
-        question:
-          "How should you respond to the loud roaring and shouting of the wind in the text?",
-        optionA: "Welcome it inside",
-        optionB: "Bar the door and keep it out",
-        optionC: "Go outside to play in it",
-        correctAnswer: "Bar the door and keep it out",
-     }),
-      shuffleOptions({
-        question: "What does the snow cover in the fields in the text?",
-        optionA: "Flowers",
-        optionB: "Trees",
-        optionC: "Seed",
-        correctAnswer: "Seed",
-     }),
-      shuffleOptions({
-        question:
-          "What is the purpose of covering the seed with snow according to the text?",
-        optionA: "To make it cold",
-        optionB: "To keep it hidden",
-        optionC: "To protect it from harm",
-        correctAnswer: "To protect it from harm",
-     }),
-      shuffleOptions({
-        question:
-          "Which weather elements are mentioned in the text as being welcomed in turn?",
-        optionA: "Rain, wind, sunshine",
-        optionB: "Wind, snow, hail",
-        optionC: "Rain, wind, snow",
-        correctAnswer: "Rain, wind, snow",
-     }),
-      shuffleOptions({
-        question:
-          "What does the text suggest about the intentions of rain, wind, and snow on Earth?",
-        optionA: "They are destructive",
-        optionB: "They have no specific intent",
-        optionC: "They have good intent",
-        correctAnswer: "They have good intent",
-     }),
-      shuffleOptions({
-        question: "Which season is associated with 'April rain' in the text?",
-        optionA: "Winter",
-        optionB: "Spring",
-        optionC: "Summer",
-        correctAnswer: "Spring",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "What is the purpose of the rain in the poem?",
+          optionA: "To bring snow",
+          optionB: "To bring flowers back",
+          optionC: "To thin the leafy trees",
+          correctAnswer: "To bring flowers back",
+        },
+        {
+          question: "Which flowers are mentioned in the poem?",
+          optionA: "Roses and tulips",
+          optionB: "Yellow and cowslip",
+          optionC: "Orchids and lilies",
+          correctAnswer: "Yellow and cowslip",
+        },
+        {
+          question: "What season is associated with the wind in the poem?",
+          optionA: "Spring",
+          optionB: "Summer",
+          optionC: "Autumn",
+          correctAnswer: "Autumn",
+        },
+        {
+          question: "What is the wind doing to the leafy trees in the poem?",
+          optionA: "Planting seeds",
+          optionB: "Thinning the trees",
+          optionC: "Providing shade",
+          correctAnswer: "Thinning the trees",
+        },
+        {
+          question:
+            "What action does the poem suggest when the wind is roaring and shouting?",
+          optionA: "Dance",
+          optionB: "Bar the door and keep him out",
+          optionC: "Embrace the wind",
+          correctAnswer: "Bar the door and keep him out",
+        },
+        {
+          question: "What does the snow cover in the poem?",
+          optionA: "Flowers",
+          optionB: "Fields",
+          optionC: "Trees",
+          correctAnswer: "Fields",
+        },
+        {
+          question:
+            "What is the purpose of covering up the seed with snow in the poem?",
+          optionA: "Preventing growth",
+          optionB: "Keeping warm through winter",
+          optionC: "Attracting birds",
+          correctAnswer: "Keeping warm through winter",
+        },
+        {
+          question: "What are the three elements mentioned in the last stanza?",
+          optionA: "Rain, hail, thunder",
+          optionB: "Rain, wind, snow",
+          optionC: "Sun, breeze, fog",
+          correctAnswer: "Rain, wind, snow",
+        },
+        {
+          question:
+            "According to the poem, what is the intent of the rain, wind, and snow?",
+          optionA: "Destruction",
+          optionB: "Mischief",
+          optionC: "Good intent",
+          correctAnswer: "Good intent",
+        },
+        {
+          question: "In what season do the flowers make a return in the poem?",
+          optionA: "Summer",
+          optionB: "Autumn",
+          optionC: "Spring",
+          correctAnswer: "Spring",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "Fill in the blank: 'Rain, rain, April rain! Bring the _______ back again.'",
-        options: ["Sunshine", "Flowers", "Snow"],
-        correctAnswer: "Flowers",
-     }),
-      shuffleOptions({
-        question:
-          "Complete the sentence: 'Yellow, cowslip, violet, blue, Butter-cups and _______ too.'",
-        options: ["Roses", "Daisies", "Sunflowers"],
-        correctAnswer: "Daisies",
-     }),
-      shuffleOptions({
-        question:
-          "Fill in the blank: 'Wind, wind, Autumn wind! He the leafy trees has _______.'",
-        options: ["Watered", "Thinned", "Planted"],
-        correctAnswer: "Thinned",
-     }),
-      shuffleOptions({
-        question:
-          "Finish the sentence: 'Loudly hear him roar and shout; Bar the door and keep him _______.'",
-        options: ["Quiet", "Inside", "Out"],
-        correctAnswer: "Out",
-     }),
-      shuffleOptions({
-        question:
-          "Fill in the blank: 'Snow, snow, pure white snow! O'er the fields thy covering _______.'",
-        options: ["Disappear", "Melt", "Throw"],
-        correctAnswer: "Throw",
-     }),
-      shuffleOptions({
-        question:
-          "Complete the sentence: 'Cover up the seed so warm Through the winter safe from _______.'",
-        options: ["Frost", "Danger", "Harm"],
-        correctAnswer: "Harm",
-     }),
-      shuffleOptions({
-        question:
-          "Fill in the blank: 'Rain, wind, snow, all three, Each in turn shall _______ be.'",
-        options: ["Dance", "Welcome", "Cry"],
-        correctAnswer: "Welcome",
-     }),
-      shuffleOptions({
-        question:
-          "Complete the sentence: 'Each and all in turn are sent On the earth with good _______.'",
-        options: ["Intention", "Purpose", "Content"],
-        correctAnswer: "Intention",
-     }),
-      shuffleOptions({
-        question:
-          "Fill in the blank: 'Rain, rain, April rain! Bring the _______ back again.'",
-        options: ["Sunshine", "Flowers", "Snow"],
-        correctAnswer: "Flowers",
-     }),
-      shuffleOptions({
-        question:
-          "Finish the sentence: 'Yellow, cowslip, violet, blue, Butter-cups and _______ too.'",
-        options: ["Roses", "Daisies", "Sunflowers"],
-        correctAnswer: "Daisies",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "Rain, rain, April rain! Bring the flowers back again, Yellow, cowslip, violet, blue, Butter-cups and daisies too.",
+          optionA: "May",
+          optionB: "April",
+          optionC: "June",
+          correctAnswer: "April",
+        },
+        {
+          question:
+            "Wind, wind, Autumn wind! He the leafy trees has thinned, Loudly hear him roar and shout; Bar the door and keep him ____________.",
+          optionA: "In",
+          optionB: "Out",
+          optionC: "Open",
+          correctAnswer: "Out",
+        },
+        {
+          question:
+            "Snow, snow, pure white snow! O'er the fields thy covering throw. Cover up the ____________ so warm Through the winter safe from harm.",
+          optionA: "Leaves",
+          optionB: "Seed",
+          optionC: "Flowers",
+          correctAnswer: "Seed",
+        },
+        {
+          question:
+            "Rain, wind, snow, all three, Each in turn shall welcome be, Each and all in turn are ____________ On the earth with good intent.",
+          optionA: "Enjoyed",
+          optionB: "Sent",
+          optionC: "Avoided",
+          correctAnswer: "Sent",
+        },
+        {
+          question:
+            "Bring the flowers back again, Yellow, cowslip, violet, ____________, Butter-cups and daisies too.",
+          optionA: "Pink",
+          optionB: "Blue",
+          optionC: "Red",
+          correctAnswer: "Blue",
+        },
+        {
+          question:
+            "Wind, wind, Autumn wind! He the leafy trees has ____________, Loudly hear him roar and shout; Bar the door and keep him out.",
+          optionA: "Watered",
+          optionB: "Thinned",
+          optionC: "Strengthened",
+          correctAnswer: "Thinned",
+        },
+        {
+          question:
+            "Snow, snow, pure white snow! O'er the fields thy covering ____________. Cover up the seed so warm Through the winter safe from harm.",
+          optionA: "Hide",
+          optionB: "Throw",
+          optionC: "Melt",
+          correctAnswer: "Throw",
+        },
+        {
+          question:
+            "Rain, wind, snow, all three, Each in turn shall welcome be, Each and all in turn are ____________ On the earth with good intent.",
+          optionA: "Sky",
+          optionB: "Earth",
+          optionC: "Ocean",
+          correctAnswer: "Earth",
+        },
+        {
+          question:
+            "Bring the flowers back again, Yellow, ____________, violet, blue, Butter-cups and daisies too.",
+          optionA: "Sunflower",
+          optionB: "Cowslip",
+          optionC: "Tulip",
+          correctAnswer: "Cowslip",
+        },
+        {
+          question:
+            "Wind, wind, Autumn wind! He the ____________ trees has thinned, Loudly hear him roar and shout; Bar the door and keep him out.",
+          optionA: "Fruitful",
+          optionB: "Leafy",
+          optionC: "Evergreen",
+          correctAnswer: "Leafy",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "Rain, wind, and snow all have good intentions when they come to Earth.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Wind in autumn makes the trees grow thicker.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "April rain brings back leaves to the trees.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Snow covers the fields to protect seeds from harm.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Buttercups and daisies are mentioned in the text as spring flowers.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Albert Einstein's father wanted him to pursue a career in electrical engineering.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Albert Einstein played the flute to entertain himself as a child.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Albert Einstein was supportive of the German government during World War I.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Einstein refused to ride a man-pulled rickshaw in India out of respect.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Albert Einstein spent his last years traveling the world as a diplomat.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "Heavy rain in April brings flowers back.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "The wind in autumn thins the leafy trees.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "Snow covers the seeds to keep them warm through winter.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Rain, wind, and snow are all sent with destructive intent.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Flowers such as cowslip and violet are mentioned in the poem.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "Wind in autumn is gentle and soothing.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Snow covers the fields with a colorful blanket.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "The poem suggests welcoming rain, wind, and snow.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "The wind shouts and roars loudly in autumn.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "Rain brings harm to the seeds during winter.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

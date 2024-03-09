@@ -1,247 +1,256 @@
-export const chapter = "Chapter - 12: The Great Feast";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -12: The Great Feast";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "What is the setting of the story when the Play Angel arrives?",
-        optionA: "A bakery",
-        optionB: "A playground",
-        optionC: "A nursery",
-        correctAnswer: "A nursery",
-     }),
-      shuffleOptions({
-        question:
-          "Why do the children in the nursery have sad and troubled faces?",
-        optionA: "They don't like cookies.",
-        optionB:
-          "They wanted to have a grand feast, but there's only one small cookie.",
-        optionC: "They are tired of playing.",
-        correctAnswer:
-          "They wanted to have a grand feast, but there's only one small cookie.",
-     }),
-      shuffleOptions({
-        question: "Who breaks the cookie into four pieces?",
-        optionA: "The littlest child",
-        optionB: "The child whose nursery it is",
-        optionC: "The Play Angel",
-        correctAnswer: "The Play Angel",
-     }),
-      shuffleOptions({
-        question:
-          "What does the Play Angel call the first piece of the cookie she gives to the littlest child?",
-        optionA: "A roast rusk",
-        optionB: "A chocolate bar",
-        optionC: "A cupcake",
-        correctAnswer: "A roast rusk",
-     }),
-      shuffleOptions({
-        question:
-          "What does the child who receives the second piece of the cookie describe it as?",
-        optionA: "A sandwich",
-        optionB: "A little pie",
-        optionC: "A muffin",
-        correctAnswer: "A little pie",
-     }),
-      shuffleOptions({
-        question:
-          "How does the Play Angel describe the cake she gives to the third child?",
-        optionA: "A chocolate cake",
-        optionB: "A plain cake",
-        optionC: "A round cake with frosting and decorations",
-        correctAnswer: "A round cake with frosting and decorations",
-     }),
-      shuffleOptions({
-        question:
-          "What is the fourth piece of the cookie transformed into by the Play Angel?",
-        optionA: "A piece of candy",
-        optionB: "An ice-cream rabbit",
-        optionC: "A brownie",
-        correctAnswer: "An ice-cream rabbit",
-     }),
-      shuffleOptions({
-        question:
-          "What does the Play Angel ask the children to do after they eat the feast?",
-        optionA: "Clap their hands",
-        optionB: "Sing a song",
-        optionC: "Share the crumbs with the birds",
-        correctAnswer: "Share the crumbs with the birds",
-     }),
-      shuffleOptions({
-        question:
-          "Who originally raises a concern that the child whose nursery it is addresses?",
-        optionA: "The littlest child",
-        optionB: "The child whose nursery it is",
-        optionC: "The Play Angel",
-        correctAnswer: "The child whose nursery it is",
-     }),
-      shuffleOptions({
-        question:
-          "What does the Play Angel reveal about herself at the end of the story?",
-        optionA: "She's a fairy",
-        optionB: "She's an illusion",
-        optionC: "She had the feast all along",
-        correctAnswer: "She had the feast all along",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "What did the Play Angel do to solve the problem of the small cookie?",
+          optionA: "Broke it into four pieces",
+          optionB: "Gave it to the littlest child",
+          optionC: "Ate it herself",
+          correctAnswer: "Broke it into four pieces",
+        },
+        {
+          question:
+            "What did the Play Angel pretend the broken cookie pieces were?",
+          optionA: "Roast beef",
+          optionB: "Roast rusk with cranberry sauce and mashed potato",
+          optionC: "Ice cream rabbits",
+          correctAnswer: "Roast rusk with cranberry sauce and mashed potato",
+        },
+        {
+          question: "What did the child who was a cousin say about the cookie?",
+          optionA: '"It\'s big enough for me!"',
+          optionB: '"It\'s very small!"',
+          optionC: '"It\'s delicious!"',
+          correctAnswer: '"It\'s very small!"',
+        },
+        {
+          question:
+            "What did the Play Angel give to the child who said the cookie wasn't big enough for them?",
+          optionA: "A little pie",
+          optionB: "A round cake",
+          optionC: "An ice-cream rabbit",
+          correctAnswer: "An ice-cream rabbit",
+        },
+        {
+          question:
+            "What was special about the little pie the Play Angel gave?",
+          optionA: "It was filled with vegetables",
+          optionB: "It had a wreath of pastry leaves around the edge",
+          optionC: "It had a mountain of mashed potato inside",
+          correctAnswer: "It had a wreath of pastry leaves around the edge",
+        },
+        {
+          question: "What did the child say about the round cake?",
+          optionA: '"It\'s ugly!"',
+          optionB: '"It\'s the prettiest cake I ever saw!"',
+          optionC: '"It\'s too big for me!"',
+          correctAnswer: '"It\'s the prettiest cake I ever saw!"',
+        },
+        {
+          question:
+            "What was special about the round cake the Play Angel gave?",
+          optionA: "It had chopped-up almonds and raisins inside",
+          optionB: "It had a mountain of mashed potato inside",
+          optionC: "It had red barley sugar eyes",
+          correctAnswer: "It had chopped-up almonds and raisins inside",
+        },
+        {
+          question: "What did the last child receive from the Play Angel?",
+          optionA: "A little pie",
+          optionB: "A round cake",
+          optionC: "An ice-cream rabbit",
+          correctAnswer: "An ice-cream rabbit",
+        },
+        {
+          question:
+            "What did the Play Angel say about the crumbs left over from the feast?",
+          optionA: "They would be thrown away",
+          optionB: "They would be given to the children",
+          optionC: "They would be given to the birds",
+          correctAnswer: "They would be given to the birds",
+        },
+        {
+          question: "Who had the entire feast according to the Play Angel?",
+          optionA: "The children",
+          optionB: "The Play Angel herself",
+          optionC: "The little birds",
+          correctAnswer: "The Play Angel herself",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "Once the Play Angel came into a ________ where four little children sat on the floor with sad and troubled faces.",
-        options: ["bakery", "garden", "nursery"],
-        correctAnswer: "nursery",
-     }),
-      shuffleOptions({
-        question:
-          '"What is the matter, dears?" asked the Play Angel. "We wanted to have a grand ________!" said the child whose nursery it was.',
-        options: ["meal", "feast", "party"],
-        correctAnswer: "feast",
-     }),
-      shuffleOptions({
-        question:
-          '"But there is only one ________!" said the child whose nursery it was.',
-        options: ["toy", "cookie", "friend"],
-        correctAnswer: "cookie",
-     }),
-      shuffleOptions({
-        question:
-          '"And it is a very small ________!" said the child who was a cousin, and therefore felt a right to speak.',
-        options: ["cake", "cookie", "gift"],
-        correctAnswer: "cookie",
-     }),
-      shuffleOptions({
-        question: "She broke the cookie into four ________.",
-        options: ["pieces", "crumbs", "slices"],
-        correctAnswer: "pieces",
-     }),
-      shuffleOptions({
-        question:
-          '"See!" she said. "This is a roast rusk. It is just as brown and crispy as it can be, and there is cranberry sauce on one side, and on the other a little mountain of mashed ________; it must be a volcano, it smokes so. Do you see?"',
-        options: ["potato", "bread", "cookie"],
-        correctAnswer: "potato",
-     }),
-      shuffleOptions({
-        question:
-          '"Now here," said the Angel to the third child, "is a round cake. Look at it! The frosting is half an inch thick, with candied rose-leaves and ________ laid on in true-lovers\' knots; and inside there are chopped-up almonds and raisins and great slices of citron. It is the prettiest cake I ever saw, and the best."',
-        options: ["candy canes", "chocolate chips", "angelica"],
-        correctAnswer: "angelica",
-     }),
-      shuffleOptions({
-        question:
-          'So the children ate the feast all up. "There!" said the Angel. "Did ever you see such a grand ________?"',
-        options: ["banquet", "meal", "feast"],
-        correctAnswer: "feast",
-     }),
-      shuffleOptions({
-        question:
-          '"But you didn\'t have any!" said the child whose nursery it was. "Oh, yes!" said the Angel. "I had it all!" "And there are some ________ left over," said the Angel. "Come, and we will give them to the little birds who are our brothers and sisters!"',
-        options: ["toys", "crumbs", "cookies"],
-        correctAnswer: "crumbs",
-     }),
-      shuffleOptions({
-        question:
-          '"And there are some ________ left over," said the Angel. "Come, and we will give them to the little birds who are our brothers and sisters!"',
-        options: ["toys", "crumbs", "cookies"],
-        correctAnswer: "crumbs",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "The child whose nursery it was wanted to have a grand feast, but there was only _________ cookie.",
+          optionA: "one small",
+          optionB: "a large",
+          optionC: "many big",
+          correctAnswer: "one small",
+        },
+        {
+          question:
+            "The child who was a cousin said the cookie was very _________.",
+          optionA: "tasty",
+          optionB: "big",
+          optionC: "small",
+          correctAnswer: "small",
+        },
+        {
+          question: "The Play Angel broke the cookie into ________ pieces.",
+          optionA: "two",
+          optionB: "three",
+          optionC: "four",
+          correctAnswer: "four",
+        },
+        {
+          question:
+            "The Play Angel gave the littlest child a piece that she pretended was a roast rusk with cranberry sauce and mashed ________.",
+          optionA: "carrots",
+          optionB: "potato",
+          optionC: "rice",
+          correctAnswer: "potato",
+        },
+        {
+          question:
+            "The child whose nursery it was received a piece that the Play Angel pretended was an ice-cream ________.",
+          optionA: "lion",
+          optionB: "tiger",
+          optionC: "rabbit",
+          correctAnswer: "rabbit",
+        },
+        {
+          question:
+            "The little pie given by the Play Angel had a wreath of pastry leaves around the ________.",
+          optionA: "sides",
+          optionB: "edges",
+          optionC: "top",
+          correctAnswer: "edges",
+        },
+        {
+          question:
+            "The round cake given by the Play Angel had frosting with candied rose-leaves and ________ laid on in true lovers' knots.",
+          optionA: "chocolate chips",
+          optionB: "angelica",
+          optionC: "raisins",
+          correctAnswer: "angelica",
+        },
+        {
+          question:
+            "The last child received an ice-cream rabbit with eyes made of red barley ________.",
+          optionA: "milk",
+          optionB: "sugar",
+          optionC: "flour",
+          correctAnswer: "sugar",
+        },
+        {
+          question:
+            "According to the Play Angel, the crumbs left over from the feast would be given to the ________.",
+          optionA: "children",
+          optionB: "birds",
+          optionC: "dogs",
+          correctAnswer: "birds",
+        },
+        {
+          question: "According to the Play Angel, who had the entire feast?",
+          optionA: "The children",
+          optionB: "The Play Angel herself",
+          optionC: "The little birds",
+          correctAnswer: "The Play Angel herself",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "The Play Angel arrived at a bakery.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The children in the nursery wanted to have a grand feast.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "The cookie was large enough to satisfy all the children.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The Play Angel gave the littlest child a piece of cake.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The second child received a piece of a roast rusk.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The cake given to the third child had candied rose-leaves and angelica.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The Play Angel described the cake as plain and unattractive.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The Play Angel asked the children to leave some crumbs for the little birds.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The children refused to share the feast with the little birds.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The Play Angel consumed most of the feast herself.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "The child whose nursery it was wanted to have a grand feast because there was only one small cookie.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "The child who was a cousin felt it was a large cookie.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "The Play Angel broke the cookie into three pieces.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The littlest child received a piece that the Play Angel pretended was a roast rusk with cranberry sauce and mashed potato.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The child whose nursery it was received a piece that the Play Angel pretended was an ice-cream tiger.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The little pie given by the Play Angel had a wreath of pastry leaves around the top.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The round cake given by the Play Angel had frosting with candied rose-leaves and chocolate chips laid on in true lovers' knots.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The last child received an ice-cream rabbit with eyes made of red barley flour.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "According to the Play Angel, the crumbs left over from the feast would be given to the children.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The Play Angel stated that the children had the entire feast.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

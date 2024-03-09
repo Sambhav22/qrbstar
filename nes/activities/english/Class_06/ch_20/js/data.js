@@ -1,253 +1,257 @@
-export const chapter = "Chapter - 20: How the Leopard Got His Spots";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -20:How the Leopard Got His Spots";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Where did the Leopard live in the beginning?",
-        optionA: "In the forest",
-        optionB: "On the High Veldt",
-        optionC: "Near the river",
-        correctAnswer: "On the High Veldt",
-     }),
-      shuffleOptions({
-        question: "Which animals shared the High Veldt with the Leopard?",
-        optionA: "Lions and Tigers",
-        optionB: "Giraffe, Zebra, Eland, Koodoo, and Hartebeest",
-        optionC: "Elephants and Rhinoceroses",
-        correctAnswer: "Giraffe, Zebra, Eland, Koodoo, and Hartebeest",
-     }),
-      shuffleOptions({
-        question: "How did the Leopard's appearance match the High Veldt?",
-        optionA: "He was gray and fuzzy.",
-        optionB: "He was exclusively sandy-yellowish-brown.",
-        optionC: "He was covered in spots.",
-        correctAnswer: "He was exclusively sandy-yellowish-brown.",
-     }),
-      shuffleOptions({
-        question: "Who hunted with the Leopard on the High Veldt?",
-        optionA: "A lion",
-        optionB: "A hyena",
-        optionC: "An Ethiopian with bows and arrows",
-        correctAnswer: "An Ethiopian with bows and arrows",
-     }),
-      shuffleOptions({
-        question: "Why did the Giraffe and Zebra start avoiding the Leopard?",
-        optionA: "They were scared of the Ethiopian.",
-        optionB: "The Leopard had sharp teeth and claws.",
-        optionC: "The Leopard's appearance made him hard to spot.",
-        correctAnswer: "The Leopard's appearance made him hard to spot.",
-     }),
-      shuffleOptions({
-        question:
-          "Where did the animals hide from the Leopard and the Ethiopian?",
-        optionA: "In the mountains",
-        optionB: "In a great forest",
-        optionC: "In caves",
-        correctAnswer: "In a great forest",
-     }),
-      shuffleOptions({
-        question: "Who is described as the wisest animal in all South Africa?",
-        optionA: "The Giraffe",
-        optionB: "The Leopard",
-        optionC: "Baviaan, the dog-headed Baboon",
-        correctAnswer: "Baviaan, the dog-headed Baboon",
-     }),
-      shuffleOptions({
-        question: "What did the Ethiopian change to hide better in the forest?",
-        optionA: "His name",
-        optionB: "His skin color",
-        optionC: "His location",
-        correctAnswer: "His skin color",
-     }),
-      shuffleOptions({
-        question: "What did the Leopard choose to change to hide better?",
-        optionA: "Stripes like Zebra",
-        optionB: "Bright yellow spots",
-        optionC: "Black spots on his yellow coat",
-        correctAnswer: "Black spots on his yellow coat",
-     }),
-      shuffleOptions({
-        question:
-          "How do you know a Leopard's spots were made by the Ethiopian's fingers?",
-        optionA: "They are perfectly round.",
-        optionB: "They are larger than a human hand.",
-        optionC: "There are always five marks left by five finger-tips.",
-        correctAnswer: "There are always five marks left by five finger-tips.",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "What was the Leopard's appearance in the High Veldt?",
+          optionA: "Exclusively sandy-yellowish-brownish",
+          optionB: "Grayish-yellowish catty-shaped",
+          optionC: "Exclusively sandy-coloured",
+          correctAnswer: "B. Grayish-yellowish catty-shaped",
+        },
+        {
+          question:
+            "Which animals lived exclusively in the High Veldt with the Leopard?",
+          optionA: "Giraffe, Zebra, Eland, Koodoo, Hartebeest",
+          optionB: "Giraffe, Elephant, Zebra, Lion, Buffalo",
+          optionC: "Cheetah, Antelope, Rhino, Hyena, Wildebeest",
+          correctAnswer: "A. Giraffe, Zebra, Eland, Koodoo, Hartebeest",
+        },
+        {
+          question:
+            "Why did the Giraffe, Zebra, and other animals leave the High Veldt?",
+          optionA: "They were tired of the Leopard and Ethiopian.",
+          optionB: "The Leopard surprised them during hunting.",
+          optionC: "They wanted a change and found a forest.",
+          correctAnswer: "C. They wanted a change and found a forest.",
+        },
+        {
+          question: "How did the Giraffe and Zebra hide in the forest?",
+          optionA: "By changing their colors",
+          optionB: "By growing blotchy and stripy patterns",
+          optionC: "By climbing tall trees",
+          correctAnswer: "B. By growing blotchy and stripy patterns",
+        },
+        {
+          question: "What advice did Baviaan give to the Leopard?",
+          optionA: "Change your spots like the Ethiopian.",
+          optionB: "Go into other spots as soon as possible.",
+          optionC: "Keep hunting in the High Veldt.",
+          correctAnswer: "B. Go into other spots as soon as possible.",
+        },
+        {
+          question: "What did the Ethiopian change about himself in the end?",
+          optionA: "His hair color",
+          optionB: "His skin color",
+          optionC: "His clothing",
+          correctAnswer: "B. His skin color",
+        },
+        {
+          question:
+            "How did the Leopard react to the Ethiopian's suggestion of changing spots?",
+          optionA: "He preferred stripes like Zebra.",
+          optionB: "He insisted on spots but not too vulgar-big.",
+          optionC: "He rejected the idea of changing spots.",
+          correctAnswer: "B. He insisted on spots but not too vulgar-big.",
+        },
+        {
+          question:
+            "What did the Ethiopian use to create spots on the Leopard?",
+          optionA: "A brush",
+          optionB: "His five fingers",
+          optionC: "A spray can",
+          correctAnswer: "B. His five fingers",
+        },
+        {
+          question:
+            "What did the Leopard become after the Ethiopian created spots on him?",
+          optionA: "A beauty with purple stripes",
+          optionB: "A perfect sifter of sunshine",
+          optionC: "A heap of pebbles",
+          correctAnswer: "C. A heap of pebbles",
+        },
+        {
+          question: "How did the story end for the Leopard and the Ethiopian?",
+          optionA: "They continued hunting in the High Veldt.",
+          optionB: "They changed their spots and lived happily ever afterward.",
+          optionC: "They regretted changing their appearances.",
+          correctAnswer:
+            "B. They changed their spots and lived happily ever afterward.",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "In the beginning, the Leopard lived in a place called the High Veldt, which was exclusively covered in ____________-coloured sand and rock.",
-        options: ["Green", "Yellow", "Red"],
-        correctAnswer: "Yellow",
-     }),
-      shuffleOptions({
-        question:
-          "The Leopard's appearance matched the Veldt to ____________ hair.",
-        options: ["One", "Two", "Three"],
-        correctAnswer: "One",
-     }),
-      shuffleOptions({
-        question:
-          "The Ethiopian hunted alongside the Leopard on the High Veldt, using ____________ and arrows.",
-        options: ["Spears", "Bows", "Clubs"],
-        correctAnswer: "Bows",
-     }),
-      shuffleOptions({
-        question:
-          "The Giraffe and the Zebra started avoiding the Leopard because he was difficult to ____________.",
-        options: ["Catch", "Spot", "Identify"],
-        correctAnswer: "Spot",
-     }),
-      shuffleOptions({
-        question:
-          "The animals hid in a great forest, which was exclusively full of ____________ and speckly shadows.",
-        options: ["Water", "Trees", "Rocks"],
-        correctAnswer: "Trees",
-     }),
-      shuffleOptions({
-        question:
-          "Baviaan, the wise Baboon, suggested to the Leopard to go into ____________.",
-        options: ["Hiding", "Spots", "Other spots"],
-        correctAnswer: "Other spots",
-     }),
-      shuffleOptions({
-        question:
-          "The Ethiopian decided to change his skin color to a nice working ____________.",
-        options: ["Red", "Blue", "Blackish-brownish"],
-        correctAnswer: "Blackish-brownish",
-     }),
-      shuffleOptions({
-        question:
-          "The Leopard chose to change his skin with ____________ on his yellow coat.",
-        options: ["Dots", "Stripes", "Whiskers"],
-        correctAnswer: "Dots",
-     }),
-      shuffleOptions({
-        question:
-          "The Leopard's spots were made by the Ethiopian's ____________.",
-        options: ["Claws", "Teeth", "Fingers"],
-        correctAnswer: "Fingers",
-     }),
-      shuffleOptions({
-        question:
-          "In the end, the Leopard and the Ethiopian lived happily ever after, content with their ____________.",
-        options: ["Stripes and spots", "Yellow skin", "Changed appearances"],
-        correctAnswer: "Stripes and spots",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "In the High Veldt, the Leopard's appearance was exclusively ________.",
+          optionA: "sandy-yellowish",
+          optionB: "grayish-yellowish catty-shaped",
+          optionC: "exclusively sandy-coloured",
+          correctAnswer: "B) grayish-yellowish catty-shaped",
+        },
+        {
+          question:
+            "The Giraffe and the Zebra, along with other animals, lived exclusively in the High Veldt, and they were all ________.",
+          optionA: "exclusively sandy-yellowish",
+          optionB: "exclusively sandy-yellow-brownish",
+          optionC: "exclusively grayish-yellowish",
+          correctAnswer: "B) exclusively sandy-yellow-brownish",
+        },
+        {
+          question:
+            "The Giraffe and the Zebra scuttled away from the High Veldt and hid in a forest full of trees, bushes, and ________ shadows.",
+          optionA: "stripy, speckly, patchy-blatchy",
+          optionB: "exclusively sandy-coloured",
+          optionC: "sandy-yellowish",
+          correctAnswer: "A) stripy, speckly, patchy-blatchy",
+        },
+        {
+          question:
+            "The Giraffe grew blotchy, the Zebra grew stripy, and the Eland and Koodoo grew darker with little wavy gray lines on their backs like ________.",
+          optionA: "sand dunes",
+          optionB: "tree bark",
+          optionC: "grass blades",
+          correctAnswer: "B) tree bark",
+        },
+        {
+          question:
+            "Baviaan, the dog-headed, barking Baboon, advised the Leopard to go into ________.",
+          optionA: "other spots as soon as possible",
+          optionB: "hiding in the forest",
+          optionC: "exclusively yellowish-grayish-brownish areas",
+          correctAnswer: "A) other spots as soon as possible",
+        },
+        {
+          question:
+            "The aboriginal Fauna joined the aboriginal Flora, and the Ethiopian decided to change by altering his ________.",
+          optionA: "hair color",
+          optionB: "skin color",
+          optionC: "clothing style",
+          correctAnswer: "B) skin color",
+        },
+        {
+          question:
+            "The Ethiopian advised the Leopard to go into spots, meaning spots on ________.",
+          optionA: "the High Veldt",
+          optionB: "South Africa",
+          optionC: "their skin",
+          correctAnswer: "C) their skin",
+        },
+        {
+          question:
+            "The Ethiopian created spots on the Leopard using ________.",
+          optionA: "a brush",
+          optionB: "his five fingers",
+          optionC: "a spray can",
+          correctAnswer: "B) his five fingers",
+        },
+        {
+          question:
+            "The Leopard, after the change, looked like a heap of ________.",
+          optionA: "stones",
+          optionB: "pebbles",
+          optionC: "rocks",
+          correctAnswer: "B) pebbles",
+        },
+        {
+          question:
+            "The story concludes with the Leopard and the Ethiopian living ________.",
+          optionA: "regretting the change",
+          optionB: "happily ever afterward",
+          optionC: "in the High Veldt",
+          correctAnswer: "B) happily ever afterward",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "Parrots and lovebirds were commonly kept as pets in North India in the past.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The parrot in the story refused to talk despite Aunt Ruby's efforts.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Aunt Ruby gave up her efforts to show love to the parrot after it knocked off her spectacles.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The responsibility of feeding the parrot fell upon Aunt Ruby.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Aunt Ruby's tantrums were pleasant to watch.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The narrator was responsible for leaving the cage door open, allowing the parrot to escape.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The parrot enjoyed green chillies and ripe tomatoes as treats.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Aunt Ruby was upset when the parrot escaped but was easily distracted with the promise of a new parrot.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The parrot never learned to talk.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The parrot became a regular visitor to the garden and verandah, singing praises to Aunt Ruby.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "The Leopard lived in a place called the High Veldt.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The Giraffe and the Zebra scuttled away from the High Veldt and hid in a forest.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The Leopard and the Ethiopian used bows and arrows to hunt together.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "The aboriginal Fauna joined the aboriginal Flora.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "The Leopard changed its spots by using a brush.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The spots on the Leopard were created with the tips of the Ethiopian's fingers.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The Giraffe's appearance was exclusively sandy-yellowish in the High Veldt.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Baviaan, the Baboon, advised the Leopard to go into hiding in the forest.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The Leopard and the Ethiopian lived happily ever afterward.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The Ethiopian changed his skin color to exclusively sandy-yellowish.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

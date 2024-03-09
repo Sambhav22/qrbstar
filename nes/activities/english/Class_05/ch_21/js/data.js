@@ -1,256 +1,256 @@
-export const chapter = "Chapter - 21: Return of the Child ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -21: Return of the child";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Who is Cyrus II better known as?",
-        optionA: "Cyrus the Great",
-        optionB: "Cyrus the Conqueror",
-        optionC: "Cyrus the Wise",
-        correctAnswer: "Cyrus the Great",
-     }),
-      shuffleOptions({
-        question: "Who was Cyrus II's grandfather?",
-        optionA: "King Cambyses I",
-        optionB: "King Astyages",
-        optionC: "Herpagus",
-        correctAnswer: "King Astyages",
-     }),
-      shuffleOptions({
-        question: "What was the dream that King Astyages had about Cyrus II?",
-        optionA: "A crow flying with a kite",
-        optionB: "A crow resting on a silken pink cloth",
-        optionC: "A kite dropping on a black cloth",
-        correctAnswer: "A crow flying with a kite",
-     }),
-      shuffleOptions({
-        question: "Why did Astyages order Herpagus to kill the infant Cyrus?",
-        optionA: "He wanted to protect his daughter",
-        optionB: "He believed the dream's prediction",
-        optionC: "He wanted to test Herpagus's loyalty",
-        correctAnswer: "He believed the dream's prediction",
-     }),
-      shuffleOptions({
-        question:
-          "Who was entrusted with raising Cyrus instead of killing him?",
-        optionA: "Cambyses I",
-        optionB: "Herpagus",
-        optionC: "Mithridates",
-        correctAnswer: "Mithridates",
-     }),
-      shuffleOptions({
-        question:
-          "How did Astyages react when he met Cyrus for the first time?",
-        optionA: "He ordered his immediate execution",
-        optionB: "He kissed him affectionately",
-        optionC: "He ignored his presence",
-        correctAnswer: "He kissed him affectionately",
-     }),
-      shuffleOptions({
-        question:
-          "After his father's death, Cyrus ascended the throne of which place?",
-        optionA: "Persia",
-        optionB: "Anshan",
-        optionC: "Astyages' kingdom",
-        correctAnswer: "Anshan",
-     }),
-      shuffleOptions({
-        question:
-          "How did Cyrus ultimately become the king of the whole of Persia?",
-        optionA: "Through a peaceful agreement",
-        optionB: "By defeating his grandfather in battle",
-        optionC: "By being appointed by his father",
-        correctAnswer: "By defeating his grandfather in battle",
-     }),
-      shuffleOptions({
-        question:
-          "What territories did Cyrus's empire extend to in about 20 years?",
-        optionA: "Turkey and Azerbaijan",
-        optionB: "Turkey and Kazakhstan",
-        optionC: "Kazakhstan and Pakistan",
-        correctAnswer: "Kazakhstan and Pakistan",
-     }),
-      shuffleOptions({
-        question:
-          "Why is Cyrus II known as one of the one hundred most influential personalities in history?",
-        optionA: "For his extensive empire",
-        optionB: "For his qualities of head and heart",
-        optionC: "For his military conquests",
-        correctAnswer: "For his qualities of head and heart",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "What is Cyrus II of Persia better known as?",
+          optionA: "Cyrus the Brave",
+          optionB: "Cyrus the Great",
+          optionC: "Cyrus the Wise",
+          correctAnswer: "Cyrus the Great",
+        },
+        {
+          question: "Who was Cyrus II's grandfather?",
+          optionA: "Cambyses I",
+          optionB: "Astyages",
+          optionC: "Mandane",
+          correctAnswer: "Astyages",
+        },
+        {
+          question:
+            "What did Astyages see in his dream that led to a decision about Cyrus II?",
+          optionA: "A lion hunting in the forest",
+          optionB: "A kite and a crow with a pink cloth",
+          optionC: "A river flowing through the mountains",
+          correctAnswer: "A kite and a crow with a pink cloth",
+        },
+        {
+          question:
+            "How did Astyages react when told about the dream's interpretation?",
+          optionA: "He rejoiced",
+          optionB: "He was indifferent",
+          optionC: "He ordered the killing of Cyrus II",
+          correctAnswer: "He ordered the killing of Cyrus II",
+        },
+        {
+          question: "Who was ordered to kill the infant Cyrus II?",
+          optionA: "Mithridates",
+          optionB: "Herpagus",
+          optionC: "Cambyses I",
+          correctAnswer: "Herpagus",
+        },
+        {
+          question:
+            "How did Herpagus handle the situation after receiving the order to kill Cyrus II?",
+          optionA: "He killed Cyrus II",
+          optionB: "He handed the child to Mithridates",
+          optionC: "He disobeyed the order and revealed the truth",
+          correctAnswer: "He handed the child to Mithridates",
+        },
+        {
+          question:
+            "What happened when Cyrus II was summoned to Astyages' court after ten years?",
+          optionA: "He was killed",
+          optionB: "He was embraced by Astyages",
+          optionC: "He was ignored",
+          correctAnswer: "He was embraced by Astyages",
+        },
+        {
+          question: "Why did Astyages punish Herpagus?",
+          optionA: "For not killing Cyrus II",
+          optionB: "For revealing the truth",
+          optionC: "For disobeying orders",
+          correctAnswer: "For disobeying orders",
+        },
+        {
+          question:
+            "In what year did Cyrus II declare himself the king of the whole of Persia?",
+          optionA: "560 BC",
+          optionB: "550 or 549 BC",
+          optionC: "500 BC",
+          correctAnswer: "550 or 549 BC",
+        },
+        {
+          question: "What did Cyrus II achieve in about 20 years' time?",
+          optionA: "The overthrow of Astyages",
+          optionB: "The largest kingdom on earth",
+          optionC: "Recognition as a wise ruler",
+          correctAnswer: "The largest kingdom on earth",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Cyrus II of Persia is better known as Cyrus ___________.",
-        options: ["the Great", "the Conqueror", "the Wise"],
-        correctAnswer: "the Great",
-     }),
-      shuffleOptions({
-        question:
-          "Astyages, upon learning the truth about Cyrus, did not harm the boy and instead took him in his lap and kissed him affectionately, declaring, 'Even if I were destined to be overthrown by him, so ___________.'",
-        options: ["be it", "never", "shall it"],
-        correctAnswer: "be it",
-     }),
-      shuffleOptions({
-        question:
-          "Astyages saw a strange dream involving a kite and a crow, and the astrologers predicted that his own grandson, Cyrus II, would overthrow him from the ___________.",
-        options: ["throne", "court", "kingdom"],
-        correctAnswer: "throne",
-     }),
-      shuffleOptions({
-        question:
-          "Cyrus started his campaign to expand his territory and influence by first overthrowing the overlordship, and he defeated his grandfather, ___________.",
-        options: ["Astyages", "Cambyses", "Herpagus"],
-        correctAnswer: "Astyages",
-     }),
-      shuffleOptions({
-        question:
-          "In about 20 years' time, Persia became the largest kingdom on the earth, extending from Turkey and Azerbaijan in the west to Kazakhstan, Kyrgyzstan, and Pakistan in the ___________.",
-        options: ["south", "east", "north"],
-        correctAnswer: "east",
-     }),
-      shuffleOptions({
-        question:
-          "Astyages, Cyrus's grandfather, had great faith in ___________.",
-        options: ["astronomy", "astrology", "geology"],
-        correctAnswer: "astrology",
-     }),
-      shuffleOptions({
-        question:
-          "Herpagus, morally unable to kill the infant, handed Cyrus over to a herdsman named ___________.",
-        options: ["Astyages", "Cambyses", "Mithridates"],
-        correctAnswer: "Mithridates",
-     }),
-      shuffleOptions({
-        question:
-          "After his father's death, Cyrus ascended the throne of ___________.",
-        options: ["Persia", "Anshan", "Astyages' kingdom"],
-        correctAnswer: "Anshan",
-     }),
-      shuffleOptions({
-        question:
-          "Cyrus had royal physical features and conduct that did not match the humble surroundings in which he was being brought up, leading the neighbors to doubt if he was really the son of the ___________.",
-        options: ["herdsman", "king", "astrologer"],
-        correctAnswer: "herdsman",
-     }),
-      shuffleOptions({
-        question:
-          "To prevent the fulfillment of the astrologers' prediction, Astyages ordered one of his army commanders, Herpagus, to go and ___________ the infant Cyrus.",
-        options: ["crown", "educate", "kill"],
-        correctAnswer: "kill",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question: "Cyrus II of Persia is better known as ____________.",
+          optionA: "Cyrus the Conqueror",
+          optionB: "Cyrus the Great",
+          optionC: "Cyrus the Wise",
+          correctAnswer: "Cyrus the Great",
+        },
+        {
+          question:
+            "Cyrus II's mother, Mandane, was the daughter of King ____________.",
+          optionA: "Cambyses I",
+          optionB: "Astyages",
+          optionC: "Cyrus I",
+          correctAnswer: "Astyages",
+        },
+        {
+          question:
+            "Astyages, Cyrus II's grandfather, ruled over a very large territory in Persia with an ____________ hand.",
+          optionA: "Open",
+          optionB: "Iron",
+          optionC: "Gentle",
+          correctAnswer: "Iron",
+        },
+        {
+          question:
+            "Astyages had great faith in ____________ and consulted astrologers in his court.",
+          optionA: "Astronomy",
+          optionB: "Mathematics",
+          optionC: "Astrology",
+          correctAnswer: "Astrology",
+        },
+        {
+          question:
+            "According to Astyages' dream, a crow flew away with a kite and dropped it at a ____________ cloth.",
+          optionA: "Blue",
+          optionB: "Black",
+          optionC: "White",
+          correctAnswer: "Black",
+        },
+        {
+          question:
+            "Astyages ordered his army commander, ____________, to go and kill the infant Cyrus II.",
+          optionA: "Mithridates",
+          optionB: "Herodotus",
+          optionC: "Herpagus",
+          correctAnswer: "Herpagus",
+        },
+        {
+          question:
+            "After ten years, Cyrus II was summoned to Astyages' court, and he embraced him ____________.",
+          optionA: "Affectionately",
+          optionB: "Angrily",
+          optionC: "Indifferently",
+          correctAnswer: "Affectionately",
+        },
+        {
+          question:
+            "Cyrus II declared himself the king of the whole of Persia in ____________ or 549 BC.",
+          optionA: "560 BC",
+          optionB: "550",
+          optionC: "540 BC",
+          correctAnswer: "550 or 549 BC",
+        },
+        {
+          question:
+            "In about 20 years, Persia became the largest kingdom on earth, extending from ____________ to Pakistan.",
+          optionA: "Greece and Egypt",
+          optionB: "Turkey and Azerbaijan",
+          optionC: "Italy and Spain",
+          correctAnswer: "Turkey and Azerbaijan",
+        },
+        {
+          question:
+            "Cyrus II is known as one of the one hundred most influential personalities in ____________.",
+          optionA: "Persian history",
+          optionB: "Ancient literature",
+          optionC: "History",
+          correctAnswer: "History",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Cyrus II of Persia is better known as Cyrus the Great.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Astyages, Cyrus's grandfather, had great faith in astronomy.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Astyages ordered Herpagus to go and kill the infant Cyrus to prevent the fulfillment of the astrologers' prediction.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Herpagus, morally unable to kill the infant, handed Cyrus over to a herdsman named Mithridates.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Astyages took the young Cyrus in his lap and kissed him affectionately when they finally met.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "After his father's death, Cyrus ascended the throne of Persia.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Cyrus started his campaign to expand his territory and influence by forming an alliance with his grandfather, Astyages.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "In about 20 years' time, Persia became the largest kingdom on the earth, extending from Spain to India.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Cyrus II is primarily known for his military conquests.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Astyages initially punished Herpagus for disobeying his order to kill Cyrus.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "Cyrus II of Persia is also known as Cyrus the Great.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Astyages, the grandfather of Cyrus II, ruled over a small territory in Persia.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Astyages had great faith in astronomy and consulted astronomers in his court.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "In Astyages' dream, a crow dropped the kite at a white cloth.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Herpagus, the army commander, obeyed Astyages' order and killed the infant Cyrus II.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Cyrus II was embraced by Astyages when summoned to his court after ten years.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "Cyrus II declared himself the king of Persia in 560 BC.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Persia became the largest kingdom on earth within 20 years under Cyrus II's rule.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Cyrus II recognized the overlordship of his grandfather Astyages throughout his reign.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Cyrus II is considered one of the one hundred most influential personalities in Persian history.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

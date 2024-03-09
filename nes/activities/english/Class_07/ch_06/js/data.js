@@ -1,244 +1,260 @@
-export const chapter = "Chapter - 6: A Chameleon ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -06: A Chameleon";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "Who is walking across the market square wearing a new overcoat and carrying a parcel under his arm?",
-        optionA: "Yelov",
-        optionB: "Hukin",
-        optionC: "Yeldrin",
-        correctAnswer: "Yelov",
-     }),
-      shuffleOptions({
-        question: "What does the red-haired policeman carry in his hands?",
-        optionA: "A report",
-        optionB: "Confiscated gooseberries",
-        optionC: "A dog",
-        correctAnswer: "Confiscated gooseberries",
-     }),
-      shuffleOptions({
-        question: "What kind of dog is at the center of the commotion?",
-        optionA: "A borzoy",
-        optionB: "A setter",
-        optionC: "A stray dog",
-        correctAnswer: "A borzoy",
-     }),
-      shuffleOptions({
-        question: "Who is the goldsmith that got bitten by the dog?",
-        optionA: "Yelov",
-        optionB: "Hukin",
-        optionC: "Yeldrin",
-        correctAnswer: "Hukin",
-     }),
-      shuffleOptions({
-        question: "What does Yelov plan to do with the dog?",
-        optionA: "Strangle it",
-        optionB: "Take it home",
-        optionC: "Return it to the General",
-        correctAnswer: "Strangle it",
-     }),
-      shuffleOptions({
-        question:
-          "What does Yeldrin suggest might have caused the dog to bite Hukin?",
-        optionA: "Scratching its finger with a nail",
-        optionB: "Putting a cigarette in its face",
-        optionC: "Stepping on its tail",
-        correctAnswer: "Putting a cigarette in its face",
-     }),
-      shuffleOptions({
-        question:
-          "According to Yelov, whose dog does he initially suspect the borzoy belongs to?",
-        optionA: "General Zhigalov",
-        optionB: "Vladimir Ivanitch",
-        optionC: "Hukin",
-        correctAnswer: "General Zhigalov",
-     }),
-      shuffleOptions({
-        question: "What does Yelov instruct Yeldrin to do with the dog?",
-        optionA: "Strangle it immediately",
-        optionB: "Return it to Hukin",
-        optionC: "Take it to the General's bungalow",
-        correctAnswer: "Take it to the General's bungalow",
-     }),
-      shuffleOptions({
-        question:
-          "What is the reason given for the dog's behavior towards Hukin?",
-        optionA: "The dog is mad",
-        optionB: "Hukin provoked it",
-        optionC: "The dog is hungry",
-        correctAnswer: "Hukin provoked it",
-     }),
-      shuffleOptions({
-        question: "Who finally confirms the ownership of the dog?",
-        optionA: "Yelov",
-        optionB: "Hukin",
-        optionC: "Prohor",
-        correctAnswer: "Prohor",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "What is the police superintendent Yelov wearing while walking across the market square?",
+          optionA: "Blue shirt",
+          optionB: "New overcoat",
+          optionC: "Black suit",
+          correctAnswer: "b) New overcoat",
+        },
+        {
+          question:
+            "Who is walking behind Yelov with a sieve full of confiscated gooseberries?",
+          optionA: "Red-haired beggar",
+          optionB: "Unidentified person",
+          optionC: "Red-haired policeman",
+          correctAnswer: "c) Red-haired policeman",
+        },
+        {
+          question:
+            "What does Yelov suggest doing to the dog that bit Hukin's finger?",
+          optionA: "Send it to a shelter",
+          optionB: "Strangle it without delay",
+          optionC: "Fine the owner",
+          correctAnswer: "b) Strangle it without delay",
+        },
+        {
+          question: "How does Hukin claim he got injured by the dog?",
+          optionA: "Scratched by a nail",
+          optionB: "Bit on the foot",
+          optionC: "Burned by a cigarette",
+          correctAnswer: "a) Scratched by a nail",
+        },
+        {
+          question:
+            "What does Yelov instruct the policeman Yeldrin to do regarding the dog?",
+          optionA: "Adopt it",
+          optionB: "Draw up a report",
+          optionC: "Ignore it",
+          correctAnswer: "b) Draw up a report",
+        },
+        {
+          question: "Who does the crowd speculate the dog belongs to?",
+          optionA: "General Zhigalov",
+          optionB: "Yelov",
+          optionC: "Hukin",
+          correctAnswer: "a) General Zhigalov",
+        },
+        {
+          question: "How does Yelov find out the true owner of the dog?",
+          optionA: "Asking the crowd",
+          optionB: "Checking the dog's tag",
+          optionC: "Sending Yeldrin to inquire at the General's bungalow",
+          correctAnswer:
+            "c) Sending Yeldrin to inquire at the General's bungalow",
+        },
+        {
+          question: "Who is revealed to be the actual owner of the dog?",
+          optionA: "Yelov",
+          optionB: "Hukin",
+          optionC: "General Zhigalov's brother",
+          correctAnswer: "c) General Zhigalov's brother",
+        },
+        {
+          question:
+            "What does Yelov decide to do with the dog once its ownership is confirmed?",
+          optionA: "Keep it as a pet",
+          optionB: "Release it in the street",
+          optionC: "Destroy it",
+          correctAnswer: "c) Destroy it",
+        },
+        {
+          question:
+            "How does the crowd react when Prohor denies the dog belonging to the General?",
+          optionA: "Applauds",
+          optionB: "Laughs at Hukin",
+          optionC: "Condemns Prohor",
+          correctAnswer: "b) Laughs at Hukin",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "Police superintendent Yelov is walking across the market square wearing a new overcoat and carrying a parcel under his arm. A red-haired policeman strides after him with a sieve full of confiscated _________ in his hands.",
-        options: ["apples", "gooseberries", "cherries"],
-        correctAnswer: "gooseberries",
-     }),
-      shuffleOptions({
-        question:
-          "Yelov sees a dog, hopping on three legs and looking about her, run out of a timber yard. A man in a starched cotton shirt, with his waistcoat unbuttoned, is chasing her. He cries: 'So you bite, you damned brute? Lads, don't let her go! Biting is prohibited nowadays! Hold him! ah ... ah!' (He runs after her, and throwing his body forward falls down and seizes the dog by her _________.",
-        options: ["head", "hind legs", "tail"],
-        correctAnswer: "hind legs",
-     }),
-      shuffleOptions({
-        question: "In this man, Yelov recognizes Hukin, the _________.",
-        options: ["butcher", "baker", "goldsmith"],
-        correctAnswer: "goldsmith",
-     }),
-      shuffleOptions({
-        question:
-          "Hukin claims he was bitten by a dog for no rhyme or reason and demands damages because he won't be able to use his finger for a week, maybe ten days. Yelov mentions that he must have scratched his finger with a nail and is simply trying to get _________ for it.",
-        options: ["justice", "sympathy", "damages"],
-        correctAnswer: "damages",
-     }),
-      shuffleOptions({
-        question:
-          "Yelov decides that the dog must be strangled because it's likely _________.",
-        options: ["a valuable breed", "a stray dog", "mad"],
-        correctAnswer: "mad",
-     }),
-      shuffleOptions({
-        question:
-          "Yeldrin suggests that Hukin might have provoked the dog by putting a _________ in her face for a joke.",
-        options: ["biscuit", "cigarette", "flower"],
-        correctAnswer: "cigarette",
-     }),
-      shuffleOptions({
-        question:
-          "The text mentions that Yelov recognizes Hukin when he sees him holding his right hand in the air and displaying a bleeding finger to the crowd. On Hukin's face, there is plainly written: 'I'll pay you out, you rogue!' and indeed the very finger has the look of a flag of _________.",
-        options: ["victory", "defeat", "truce"],
-        correctAnswer: "victory",
-     }),
-      shuffleOptions({
-        question:
-          "Yeldrin implies that Hukin is a nonsensical fellow who put a cigarette in the dog's face for a joke, and the dog had the sense to snap at him. Hukin denies this and insists that the police officer will determine who is telling lies and who is telling the truth, as in _________ sight.",
-        options: ["the judge's", "God's", "the officer's"],
-        correctAnswer: "God's",
-     }),
-      shuffleOptions({
-        question:
-          "Yelov remarks that the dog is not a valuable breed like the General's dogs, which are mostly _________.",
-        options: ["Labradors", "Setters", "Bulldogs"],
-        correctAnswer: "Setters",
-     }),
-      shuffleOptions({
-        question:
-          "Prohor, the General's cook, confirms that the dog belongs to the General's brother, who recently arrived on a visit. Yelov is delighted to hear this and takes the dog, calling it a nice little pup that snapped at Hukin's finger, saying, 'The rogue is angry ... a nice little pup.' This suggests that Yelov believes the dog's behavior was playful rather than _________.",
-        options: ["dangerous", "aggressive", "defensive"],
-        correctAnswer: "aggressive",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "The police superintendent Yelov is walking across the market square wearing a new overcoat and carrying a parcel under his ___________.",
+          optionA: "Arm",
+          optionB: "Hat",
+          optionC: "Leg",
+          correctAnswer: "a) Arm",
+        },
+        {
+          question:
+            "A red-haired policeman strides after Yelov with a sieve full of confiscated ___________ in his hands.",
+          optionA: "Apples",
+          optionB: "Gooseberries",
+          optionC: "Oranges",
+          correctAnswer: "b) Gooseberries",
+        },
+        {
+          question:
+            "Yelov looks in the direction of the sound and sees a dog, hopping on three legs and looking about her, run out of a ___________.",
+          optionA: "Grocery store",
+          optionB: "Timber yard",
+          optionC: "Clothing store",
+          correctAnswer: "b) Timber yard",
+        },
+        {
+          question:
+            "A man in a starched cotton shirt, with his waistcoat unbuttoned, is chasing the dog and cries: 'So you bite, you damned brute? Lads, don't let her go! Biting is prohibited nowadays! Hold him! ___________!'",
+          optionA: "Hurry up",
+          optionB: "Ah",
+          optionC: "Stop",
+          correctAnswer: "b) Ah",
+        },
+        {
+          question:
+            "Yelov recognizes the goldsmith Hukin, who claims the dog bit his ___________.",
+          optionA: "Hand",
+          optionB: "Foot",
+          optionC: "Nose",
+          correctAnswer: "a) Hand",
+        },
+        {
+          question:
+            "Yelov instructs the policeman Yeldrin to find out whose ___________ this is and draw up a report.",
+          optionA: "Cat",
+          optionB: "Dog",
+          optionC: "Bird",
+          correctAnswer: "b) Dog",
+        },
+        {
+          question:
+            "Yelov decides that the dog must be ___________ without delay because it's sure to be mad.",
+          optionA: "Adopted",
+          optionB: "Released",
+          optionC: "Strangled",
+          correctAnswer: "c) Strangled",
+        },
+        {
+          question:
+            "A person in the crowd suggests that the dog might belong to ___________.",
+          optionA: "General Zhigalov",
+          optionB: "Yelov",
+          optionC: "Hukin",
+          correctAnswer: "a) General Zhigalov",
+        },
+        {
+          question:
+            "Yelov wraps himself in his great coat and goes on his way across the ___________.",
+          optionA: "Desert",
+          optionB: "Square",
+          optionC: "Forest",
+          correctAnswer: "b) Square",
+        },
+        {
+          question:
+            "Prohor, the General's cook, denies that the dog belongs to the General but mentions it belongs to the General's ___________.",
+          optionA: "Cousin",
+          optionB: "Brother",
+          optionC: "Neighbor",
+          correctAnswer: "b) Brother",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "Hukin demanded damages for his bitten finger because he couldn't use it for a week.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "The dog that bit Hukin had a yellow patch on its back.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Yelov decided that the dog should be strangled because it was a valuable breed.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Yeldrin suggested that Hukin provoked the dog by offering it a biscuit.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The crowd laughed at Hukin after Prohor confirmed the dog belonged to the General's brother.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Yelov was unaware of the General's brother's visit until Prohor mentioned it.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Hukin claimed that the police officer would decide who was telling the truth based on the law.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "The dog that caused the commotion was a Labradors breed.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Yelov believed that the dog's behavior was defensive rather than aggressive.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Yelov wrapped himself in his great coat and went on his way across the square after the incident.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "Uncertainty is part and parcel of life, which can either make or break a person.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "A person cannot predict the sea of future uncertainties in his life, be it personal or professional.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "It is the mark of a critical mind to show prudence in the event of an uncertain scenario and react wisely.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Uncertainty is like a teacher that tests your ability to get through a tough situation.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The crow flew all over the fields looking for water, failed, still did not lose hope, put in more effort, found a pitcher of water but with a little amount of water in it, gave thought to finding a solution to this problem, and succeeded.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Courage, determination, self-faith, and fear of failure play their part in the event of uncertainty.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "Man is inclined to think negatively.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            'Lord Krishna says in the Geeta, "You have control over action and not the result, which lies with the Divine."',
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Life has been filled with uncertainties, and it is through these uncertainties that the world has progressed to the present level.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The Murphy's law states that if anything can possibly go wrong, it will go wrong.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

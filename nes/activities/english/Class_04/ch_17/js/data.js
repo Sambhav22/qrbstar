@@ -1,253 +1,247 @@
-export const chapter = "Chapter - 17: The Temperature";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -17: The Temperature";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "What is Schatz's age?",
-        optionA: "Seven years",
-        optionB: "Nine years",
-        optionC: "Twelve years",
-        correctAnswer: "Nine years",
-     }),
-      shuffleOptions({
-        question: "What is Schatz's ailment?",
-        optionA: "Stomachache",
-        optionB: "Headache",
-        optionC: "Toothache",
-        correctAnswer: "Headache",
-     }),
-      shuffleOptions({
-        question: "Who is Schatz's father?",
-        optionA: "Mr. Johnson",
-        optionB: "Mr. Smith",
-        optionC: "Mr. Mark",
-        correctAnswer: "Mr. Mark",
-     }),
-      shuffleOptions({
-        question: "What does the doctor prescribe for Schatz?",
-        optionA: "Medicine for fever",
-        optionB: "Medicine for stomachache",
-        optionC: "Medicine for headache",
-        correctAnswer: "Medicine for fever",
-     }),
-      shuffleOptions({
-        question:
-          "At what temperature does the doctor advise to send for him again?",
-        optionA: "100 degrees Fahrenheit",
-        optionB: "102 degrees Fahrenheit",
-        optionC: "104 degrees Fahrenheit",
-        correctAnswer: "104 degrees Fahrenheit",
-     }),
-      shuffleOptions({
-        question: "What does Mr. Mark offer to do for Schatz while he's ill?",
-        optionA: "Sing a lullaby",
-        optionB: "Read a story",
-        optionC: "Cook a meal",
-        correctAnswer: "Read a story",
-     }),
-      shuffleOptions({
-        question: "What does Schatz ask his father about his impending death?",
-        optionA: "How can I avoid it?",
-        optionB: "About what time will it happen?",
-        optionC: "Can you take me to the doctor?",
-        correctAnswer: "About what time will it happen?",
-     }),
-      shuffleOptions({
-        question: "Why does Schatz think he's going to die?",
-        optionA: "Because he has a high fever",
-        optionB: "Because of a headache",
-        optionC: "Because of a stomachache",
-        correctAnswer: "Because he has a high fever",
-     }),
-      shuffleOptions({
-        question:
-          "What does Mr. Mark compare the two different thermometers to?",
-        optionA: "Kilometers and miles",
-        optionB: "Fahrenheit and Celsius",
-        optionC: "Inches and centimeters",
-        correctAnswer: "Kilometers and miles",
-     }),
-      shuffleOptions({
-        question:
-          "How does Schatz react once he learns about the different thermometer scales?",
-        optionA: "He becomes more worried",
-        optionB: "He recovers immediately",
-        optionC: "He asks for a second opinion",
-        correctAnswer: "He recovers immediately",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "What is Schatz's main complaint?",
+          optionA: "Stomach ache",
+          optionB: "Headache",
+          optionC: "Backache",
+          correctAnswer: "Headache",
+        },
+        {
+          question:
+            "What temperature does the doctor find when he checks Schatz?",
+          optionA: "100.2 degrees",
+          optionB: "104 degrees",
+          optionC: "98.6 degrees",
+          correctAnswer: "100.2 degrees",
+        },
+        {
+          question: "How often should Schatz take the fever medicine?",
+          optionA: "Once a day",
+          optionB: "Twice a day",
+          optionC: "Three times a day",
+          correctAnswer: "Three times a day",
+        },
+        {
+          question: "What book does Mr. Mark start reading to Schatz?",
+          optionA: "Book of Pirates",
+          optionB: "Alice in Wonderland",
+          optionC: "Robinson Crusoe",
+          correctAnswer: "Book of Pirates",
+        },
+        {
+          question: "What does Schatz ask his father about?",
+          optionA: "The weather",
+          optionB: "His temperature",
+          optionC: "His favourite story",
+          correctAnswer: "His temperature",
+        },
+        {
+          question: "Why does Schatz think he is going to die?",
+          optionA: "Because of his headache",
+          optionB: "Because of his high fever",
+          optionC: "Because of his stomach ache",
+          correctAnswer: "Because of his high fever",
+        },
+        {
+          question: "What temperature does Schatz think is fatal?",
+          optionA: "100 degrees",
+          optionB: "102 degrees",
+          optionC: "44 degrees",
+          correctAnswer: "44 degrees",
+        },
+        {
+          question:
+            "How does Mr. Mark explain the difference in temperature readings?",
+          optionA: "By comparing miles and kilometres",
+          optionB: "By comparing litres and millilitres",
+          optionC: "By comparing inches and centimetres",
+          correctAnswer: "By comparing miles and kilometres",
+        },
+        {
+          question: "What helps Schatz recover immediately?",
+          optionA: "Taking a walk",
+          optionB: "Joking with his parents",
+          optionC: "Understanding the temperature readings",
+          correctAnswer: "Understanding the temperature readings",
+        },
+        {
+          question: "What is the normal body temperature in Celsius?",
+          optionA: "37 degrees",
+          optionB: "98.6 degrees",
+          optionC: "44 degrees",
+          correctAnswer: "37 degrees",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Schatz is a ________________-year-old boy.",
-        options: ["Seven", "Nine", "Twelve"],
-        correctAnswer: "Nine",
-     }),
-      shuffleOptions({
-        question:
-          "Schatz tells his father that he feels ill, and his body ________________.",
-        options: ["aches", "itches", "shivers"],
-        correctAnswer: "aches",
-     }),
-      shuffleOptions({
-        question:
-          "Mr. Mark notices that Schatz's forehead feels ________________, and he decides to send for the doctor.",
-        options: ["cold", "warm", "wet"],
-        correctAnswer: "warm",
-     }),
-      shuffleOptions({
-        question:
-          "The doctor prescribes a medicine for fever to be taken ________________ times a day.",
-        options: ["one", "two", "three"],
-        correctAnswer: "three",
-     }),
-      shuffleOptions({
-        question:
-          "The doctor mentions that if Schatz's temperature rises above ________________, they should send for him again.",
-        options: ["a hundred", "a hundred and two", "a hundred and four"],
-        correctAnswer: "a hundred and four",
-     }),
-      shuffleOptions({
-        question:
-          "Mr. Mark suggests that Schatz try to ________________ while he waits for his medicines.",
-        options: ["dance", "sleep", "read"],
-        correctAnswer: "sleep",
-     }),
-      shuffleOptions({
-        question:
-          "When Mr. Mark takes Schatz's temperature again, it has come down to ________________.",
-        options: ["a hundred", "a hundred and two", "a normal level"],
-        correctAnswer: "a normal level",
-     }),
-      shuffleOptions({
-        question:
-          "Schatz worries about dying because he heard his temperature was ________________.",
-        options: ["too low", "normal", "a hundred and two"],
-        correctAnswer: "a hundred and two",
-     }),
-      shuffleOptions({
-        question:
-          "Mr. Mark explains that there are different kinds of thermometers and that ________________ is normal on each type.",
-        options: ["thirty-seven", "ninety-eight", "a hundred and two"],
-        correctAnswer: "ninety-eight",
-     }),
-      shuffleOptions({
-        question:
-          "Schatz seems to recover immediately after understanding the difference in thermometer scales and starts ________________ with his parents.",
-        options: ["crying", "walking", "singing"],
-        correctAnswer: "walking",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question: "What does Schatz complain about feeling?",
+          optionA: "Stomach ache",
+          optionB: "Headache",
+          optionC: "Backache",
+          correctAnswer: "Headache",
+        },
+        {
+          question:
+            "The doctor found Schatz's temperature to be ______ degrees.",
+          optionA: "100.2",
+          optionB: "104",
+          optionC: "98.6",
+          correctAnswer: "100.2",
+        },
+        {
+          question:
+            "How many times a day does the doctor instruct Schatz to take the fever medicine?",
+          optionA: "Once",
+          optionB: "Twice",
+          optionC: "Three times",
+          correctAnswer: "Three times",
+        },
+        {
+          question: "Mr. Mark starts reading from which book to Schatz?",
+          optionA: "Book of Pirates",
+          optionB: "Alice in Wonderland",
+          optionC: "Robinson Crusoe",
+          correctAnswer: "Book of Pirates",
+        },
+        {
+          question:
+            "What does Schatz ask his father about regarding his health?",
+          optionA: "The weather",
+          optionB: "His temperature",
+          optionC: "His favourite story",
+          correctAnswer: "His temperature",
+        },
+        {
+          question: "What does Schatz believe will lead to his death?",
+          optionA: "His headache",
+          optionB: "His high fever",
+          optionC: "His stomach ache",
+          correctAnswer: "His high fever",
+        },
+        {
+          question: "What temperature does Schatz think is fatal?",
+          optionA: "100",
+          optionB: "102",
+          optionC: "44",
+          correctAnswer: "44",
+        },
+        {
+          question:
+            "How does Mr. Mark explain the discrepancy in temperature readings to Schatz?",
+          optionA: "By comparing miles and kilometres",
+          optionB: "By comparing litres and millilitres",
+          optionC: "By comparing inches and centimetres",
+          correctAnswer: "By comparing miles and kilometres",
+        },
+        {
+          question: "What helps Schatz recover immediately?",
+          optionA: "Taking a walk",
+          optionB: "Joking with his parents",
+          optionC: "Understanding the temperature readings",
+          correctAnswer: "Understanding the temperature readings",
+        },
+        {
+          question: "What is the normal body temperature in Celsius?",
+          optionA: "37",
+          optionB: "98.6",
+          optionC: "44",
+          correctAnswer: "37",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Schatz is a twelve-year-old boy.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Schatz complains of having a stomachache.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Mr. Mark sends for the doctor when he touches Schatz's forehead and it feels cold.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The doctor prescribes a medicine for headache to be taken three times a day.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The doctor advises sending for him again if Schatz's temperature rises above a hundred degrees.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Mr. Mark suggests that Schatz try to sleep while he waits for his medicines.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Schatz's temperature comes down to a normal level after Mr. Mark takes it again.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Schatz worries about dying because he heard that a temperature of a hundred and two is normal.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Mr. Mark explains that on one thermometer, thirty-seven is normal, and on another, ninety-eight is normal.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Schatz seems to recover immediately after understanding the difference in thermometer scales.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "Schatz's father is not worried about his condition.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "The doctor prescribes medicine for Schatz's stomach ache.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Schatz believes he will die because his temperature is 100.2 degrees.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Mr. Mark compares the Fahrenheit and Celsius scales to explain temperature to Schatz.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Schatz initially feels better after his father explains the temperature readings.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The doctor advises Schatz to take the fever medicine twice a day.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Schatz believes a temperature of 44 degrees is fatal.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Mr. Mark reads a storybook to Schatz when he is feeling ill.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Schatz understands the difference between the two temperature scales after his father's explanation.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Schatz recovers immediately after taking the medicine prescribed by the doctor.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

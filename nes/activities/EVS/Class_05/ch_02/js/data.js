@@ -1,123 +1,83 @@
-export const chapter = "Chapter - 2: Animals and their Masters";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
-
+export const chapter = "Chapter -2: Animal and Their Masters";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      {
-        questions: [
-          {
-            question:
-              "What is the term used to describe the illegal hunting of animals for valuable body parts such as skin, tusk, teeth, fur, and horn?",
-            options: ["Preservation", "Conservation", "Poaching"],
-            answer: "Poaching",
-          },
-          {
-            question:
-              "Why is the government concerned about the declining number of wild animals?",
-            options: [
-              "To increase industrialization",
-              "To maintain a balance in the environment",
-              "To encourage illegal hunting",
-            ],
-            answer: "To maintain a balance in the environment",
-          },
-          {
-            question:
-              "What initiative was launched by the government in 1973 to protect tigers and their habitats?",
-            options: ["Project Elephant", "Project Wildlife", "Project Tiger"],
-            answer: "Project Tiger",
-          },
-          {
-            question: "What is the main purpose of Project Tiger?",
-            options: [
-              "To train tigers for entertainment",
-              "To increase the population of tigers for hunting",
-              "To protect tigers and their habitats",
-            ],
-            answer: "To protect tigers and their habitats",
-          },
-          {
-            question:
-              "What is the consequence of the exploitation of animals for entertainment purposes, such as making them dance in circuses?",
-            options: [
-              "Increase in animal population",
-              "Decrease in revenue for circus authority",
-              "Exploitation of a wide range of animal species",
-            ],
-            answer: "Exploitation of a wide range of animal species",
-          },
-          {
-            question:
-              "What are animals whose life is in danger of being extinct called?",
-            options: [
-              "Endangered animals",
-              "Exploited animals",
-              "Extinct animals",
-            ],
-            answer: "Endangered animals",
-          },
-          {
-            question:
-              "Which of the following animals is mentioned as an example of an endangered species?",
-            options: ["Dodo", "Blue whale", "Elephant"],
-            answer: "Blue whale",
-          },
-          {
-            question:
-              "What is the major threat to the survival of animals mentioned in the text?",
-            options: [
-              "Conservation efforts",
-              "Industrialization and modernization",
-              "Government regulations",
-            ],
-            answer: "Industrialization and modernization",
-          },
-          {
-            question:
-              "What is the main message for individuals to protect wildlife mentioned in the text?",
-            options: [
-              "Encourage the use of animal products",
-              "Destroy natural habitats for urbanization",
-              "Raise awareness about the significance of wildlife",
-            ],
-            answer: "Raise awareness about the significance of wildlife",
-          },
-          {
-            question:
-              "What initiative was launched to conserve wildlife in India by setting up national parks and sanctuaries?",
-            options: ["Project Tiger", "Project Elephant", "Project Wildlife"],
-            answer: "Project Wildlife",
-          },
-        ],
-      },
+      [
+        {
+            "question": "What are examples of pucca houses?",
+            "optionA": "Thatched cottages and farm houses",
+            "optionB": "Bungalows and havelis",
+            "optionC": "Apartments and flats",
+            "correctAnswer": "Apartments and flats"
+        },
+        {
+            "question": "What materials were commonly used to build houses in olden times?",
+            "optionA": "Bricks, cement, and steel",
+            "optionB": "Limestone, wood, and stone chips",
+            "optionC": "Cement, concrete, and glass",
+            "correctAnswer": "Limestone, wood, and stone chips"
+        },
+        {
+            "question": "Where do people who are forced to leave their own shelter due to poverty often end up living?",
+            "optionA": "In apartments",
+            "optionB": "In slums or on footpath",
+            "optionC": "In small cottages",
+            "correctAnswer": "In slums or on footpath"
+        },
+        {
+            "question": "What is Dharavi in Mumbai known as?",
+            "optionA": "The first largest slum in Asia",
+            "optionB": "The third largest slum in Asia",
+            "optionC": "The largest slum in the world",
+            "correctAnswer": "The third largest slum in the world"
+        },
+        {
+            "question": "What was a common feature of houses in olden days?",
+            "optionA": "Large open spaces",
+            "optionB": "Small area",
+            "optionC": "Advanced technology",
+            "correctAnswer": "Large open spaces"
+        },
+        {
+            "question": "Which materials are commonly used to build houses in modern times?",
+            "optionA": "Mud and wood",
+            "optionB": "Bricks and steel",
+            "optionC": "Cement and glass",
+            "correctAnswer": "Cement and glass"
+        },
+        {
+            "question": "What has advanced technology helped achieve in modern houses?",
+            "optionA": "Decrease in population",
+            "optionB": "Smaller area",
+            "optionC": "More facilities",
+            "correctAnswer": "More facilities"
+        },
+        {
+            "question": "What did people in olden days prefer to have in their houses for family gatherings?",
+            "optionA": "Common bathrooms",
+            "optionB": "Verandah",
+            "optionC": "Bricks and mud",
+            "correctAnswer": "Verandah"
+        },
+        {
+            "question": "What is a common issue faced by people living in slums?",
+            "optionA": "Lack of clean drinking water",
+            "optionB": "Strong houses",
+            "optionC": "Urban areas",
+            "correctAnswer": "Lack of clean drinking water"
+        },
+        {
+            "question": "What is a characteristic of modern houses regarding damage from heavy rain or storm?",
+            "optionA": "Easily damaged",
+            "optionB": "Strong and resistant",
+            "optionC": "Made with mud and wood",
+            "correctAnswer": "Strong and resistant"
+        }
+    ]
+    
     ],
   };
 }
@@ -126,82 +86,79 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      {
-        fillInTheBlankQuestions: [
-          {
-            question:
-              "Animals play a very important role in human life. They carry a special bond with their masters. Domestic or pet animals love their masters a lot. But in the cases of wild animals, these are trapped and sold in the market for their ________, ________, ________, ________, etc. as these are very valuable in Indian and international markets.",
-            options: [
-              "fur, horn, scales, feathers",
-              "skin, tusk, teeth, fur",
-              "hooves, antlers, claws, fins",
-            ],
-            answer: "skin, tusk, teeth, fur",
-          },
-          {
-            question:
-              "Preservation and protection of wildlife is crucial to balance the environment. The government has launched certain important programmes to conserve wildlife, and many national parks and sanctuaries have been set up. One such initiative is Project ________, which aims to protect tigers and their habitats.",
-            options: ["Lion", "Tiger", "Elephant"],
-            answer: "Tiger",
-          },
-          {
-            question:
-              "Despite being the national animal of India, tigers are still being killed ruthlessly for their ________. The government initiated the Project Tiger in ________ to protect them and their habitats.",
-            options: ["meat, bones", "skin, tusks", "fur, claws"],
-            answer: "skin, tusks",
-          },
-          {
-            question:
-              "Some animal masters, like snake charmers and circus trainers, exploit animals for entertainment purposes. To make money, they make animals dance on their tune, which exploits a wide range of species. This method of entertainment raises great revenue for the circus _________.",
-            options: ["administration", "management", "authority"],
-            answer: "authority",
-          },
-          {
-            question:
-              "Increasing population, industrialization, and modernization are threats to the survival of animals. Animals whose life is in danger of being extinct are called ________ animals. Examples include blue whale, giant panda, and ________ leopard.",
-            options: ["African wild dog", "Snow", "Cheetah"],
-            answer: "Snow",
-          },
-          {
-            question:
-              "To protect wildlife, individuals should be aware of the significance of wildlife, avoid using products made from animals' skin, and refrain from destroying natural habitats for ________ and ________.",
-            options: [
-              "agriculture, mining",
-              "urbanization, industrialization",
-              "tourism, recreation",
-            ],
-            answer: "urbanization, industrialization",
-          },
-          {
-            question:
-              "The government's concern about the declining number of wild animals has led to the launch of various programmes. Projects like Project Tiger and Project Elephant have been started to protect wildlife in their _________.",
-            options: ["zoos", "habitats", "sanctuaries"],
-            answer: "habitats",
-          },
-          {
-            question:
-              "Animals, such as donkey, horse, and ox, are used for transportation purposes. Despite people depending on animals for their livelihood, they are often harsh and ________ towards them.",
-            options: ["kind", "cruel", "loving"],
-            answer: "cruel",
-          },
-          {
-            question:
-              "The population of tigers in India decreased significantly from about 10,000 in the early 1900s to only 1827 in 1972. Due to this, tigers got listed under the category of ________ species by the government.",
-            options: ["Protected", "Endangered", "Extinct"],
-            answer: "Endangered",
-          },
-          {
-            question:
-              "To conserve wildlife, individuals should raise awareness, motivate people not to use products made from animals' skin, and avoid destroying natural habitats for ________ and ________.",
-            options: [
-              "agriculture, urbanization",
-              "industrialization, tourism",
-              "mining, recreation",
-            ],
-            answer: "urbanization, industrialization",
-          },
-        ],
-      },
+      [
+        {
+            "question": "Beautiful bungalow with modern architectural design is made up of ________, cement, steel, marbles, tiles etc.",
+            "optionA": "Limestone",
+            "optionB": "Bricks",
+            "optionC": "Concrete",
+            "correctAnswer": "Bricks"
+        },
+        {
+            "question": "Small thatched cottages, farm houses, and havelis were constructed using ________, wood, stone chips, and mud bricks.",
+            "optionA": "Cement",
+            "optionB": "Limestone",
+            "optionC": "Stone chips",
+            "correctAnswer": "Limestone"
+        },
+        {
+            "question": "People forced to leave their own shelter due to poverty often end up living in ________ or on footpath.",
+            "optionA": "Bungalows",
+            "optionB": "Slums",
+            "optionC": "Apartments",
+            "correctAnswer": "Slums"
+        },
+        {
+            "question": "Dharavi in Mumbai is known as the ________ largest slum in the world.",
+            "optionA": "First",
+            "optionB": "Second",
+            "optionC": "Third",
+            "correctAnswer": "Third"
+        },
+        {
+            "question": "In olden days, houses had large open spaces called ________, where family members sat together in the evening.",
+            "optionA": "Common bathrooms",
+            "optionB": "Verandahs",
+            "optionC": "Kitchens",
+            "correctAnswer": "Verandahs"
+        },
+        {
+            "question": "Modern houses are commonly built using ________ and glass.",
+            "optionA": "Mud",
+            "optionB": "Bricks",
+            "optionC": "Cement",
+            "correctAnswer": "Cement"
+        },
+        {
+            "question": "Advanced technology has enabled modern houses to have ________ facilities than earlier.",
+            "optionA": "Fewer",
+            "optionB": "More",
+            "optionC": "Similar",
+            "correctAnswer": "More"
+        },
+        {
+            "question": "People in olden days preferred to have ________ in their houses for family gatherings.",
+            "optionA": "Common bathrooms",
+            "optionB": "Verandahs",
+            "optionC": "Kitchens",
+            "correctAnswer": "Verandahs"
+        },
+        {
+            "question": "A common issue faced by people living in slums is the lack of ________.",
+            "optionA": "Strong houses",
+            "optionB": "Urban areas",
+            "optionC": "Clean drinking water",
+            "correctAnswer": "Clean drinking water"
+        },
+        {
+            "question": "Modern houses are characterized by being ________ and resistant to damage from heavy rain or storm.",
+            "optionA": "Easily damaged",
+            "optionB": "Strong",
+            "optionC": "Made with mud and wood",
+            "correctAnswer": "Strong"
+        }
+    ]
+    
     ],
   };
 }
@@ -210,80 +167,69 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      {
-        trueOrFalseQuestions: [
-          {
-            question:
-              "Animals play a very important role in human life. They carry a special bond with their masters. Domestic or pet animals love their masters a lot.",
+      [
+        {
+            question: "A family is a group of people who live together and are related to each other.",
             optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "Preservation and protection of wildlife are not crucial to balance the environment.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Project Tiger, initiated by the government in 1973, aims to protect elephants and their habitats.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Animals like donkey, horse, and ox are never used for transportation purposes.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "The government is not concerned about the declining number of wild animals.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Project Tiger seeks to protect tigers and the area in which they live, providing a suitable environment for their life.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "Exploitation of animals for entertainment purposes, such as making them dance in circuses, does not raise great revenue for circus authority.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Endangered animals are those whose life is in danger of being extinct.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "The government's concern about the declining number of wild animals has led to the launch of various conservation programs.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "Individuals should not raise awareness about the significance of wildlife to protect it.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-        ],
-      },
+            optionB: "False",
+            correctAnswer: "True"
+        },
+        {
+            "question": "Immediate family members include uncles, aunts, cousins, and nephews.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "In the olden times, houses were commonly built with bricks, cement, and steel.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Slums and footpaths are usually preferred living places for the wealthy.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Dharavi in Mumbai is the largest slum in Asia.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Houses in olden times had large open spaces called verandahs for family gatherings.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "True"
+        },
+        {
+            "question": "Modern houses are commonly built with materials like mud and wood.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Advanced technology has not contributed to providing more facilities in modern houses.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "People living in slums often face issues like lack of clean drinking water.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "True"
+        },
+        {
+            "question": "Modern houses are easily damaged by heavy rain or storm.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        }
+    ]
+    
     ],
   };
 }

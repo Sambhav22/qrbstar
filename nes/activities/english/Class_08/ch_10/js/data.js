@@ -1,244 +1,252 @@
-export const chapter = "Chapter - 10: Food in Garbage ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -10: Food in Garbage";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "What did Saran and Madhur plan to do after school?",
-        optionA: "Study for another test",
-        optionB: "Have lunch in the sun",
-        optionC: "Visit the burger shop",
-        correctAnswer: "Visit the burger shop",
-     }),
-      shuffleOptions({
-        question: "Why did Saran and Madhur push their lunches aside?",
-        optionA: "They weren't hungry",
-        optionB: "They didn't like the food",
-        optionC: "They were busy studying",
-        correctAnswer: "They didn't like the food",
-     }),
-      shuffleOptions({
-        question: "What subject were Saran and Madhur studying for?",
-        optionA: "Math",
-        optionB: "Science",
-        optionC: "English",
-        correctAnswer: "English",
-     }),
-      shuffleOptions({
-        question:
-          "What did people eat in the olden days when the sky was close to the earth?",
-        optionA: "Sky",
-        optionB: "Ripe bananas",
-        optionC: "The sky turned dark",
-        correctAnswer: "Ripe bananas",
-     }),
-      shuffleOptions({
-        question:
-          "How did the sky's taste change when people ate it in the olden days?",
-        optionA: "It always tasted like roasted potatoes",
-        optionB: "It was always delicious and different",
-        optionC: "It tasted like tamarind seeds",
-        correctAnswer: "It was always delicious and different",
-     }),
-      shuffleOptions({
-        question:
-          "What did some people do with the pieces of the sky that made the sky angry?",
-        optionA: "Ate them all",
-        optionB: "Threw them away",
-        optionC: "Shared them with their family",
-        correctAnswer: "Threw them away",
-     }),
-      shuffleOptions({
-        question: "What happened when the sky turned angry?",
-        optionA: "The king and people were happy",
-        optionB: "The sky gave more food",
-        optionC: "Dark clouds and thunder occurred",
-        correctAnswer: "Dark clouds and thunder occurred",
-     }),
-      shuffleOptions({
-        question: "What did the sky warn the people about?",
-        optionA: "Not to eat sky food",
-        optionB: "Not to waste the gift of food",
-        optionC: "Not to throw away their food",
-        correctAnswer: "Not to waste the gift of food",
-     }),
-      shuffleOptions({
-        question: "How did people need to obtain food after the sky went away?",
-        optionA: "By reaching up to the sky",
-        optionB: "By planting crops and hunting",
-        optionC: "By buying it from the market",
-        correctAnswer: "By planting crops and hunting",
-     }),
-      shuffleOptions({
-        question:
-          "What message did Mr. Tyagi want the students to take from the story?",
-        optionA: "To eat more food",
-        optionB: "To waste the gifts of nature",
-        optionC: "To care for the gifts of nature and not waste them",
-        correctAnswer: "To care for the gifts of nature and not waste them",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "What did most students do during recess in the story?",
+          optionA: "Headed to the burger shop",
+          optionB: "Sat in the grass for lunch",
+          optionC: "Played near the water taps",
+          correctAnswer: "B) Sat in the grass for lunch",
+        },
+        {
+          question:
+            "Why were Saran and Madhur disappointed with their lunches?",
+          optionA: "They had too much food",
+          optionB: "They forgot their lunch boxes",
+          optionC: "They had the same lunch items repeatedly",
+          correctAnswer: "C) They had the same lunch items repeatedly",
+        },
+        {
+          question:
+            "What subject were Saran and Madhur studying for after recess?",
+          optionA: "Mathematics",
+          optionB: "English",
+          optionC: "Science",
+          correctAnswer: "B) English",
+        },
+        {
+          question:
+            "What did Saran suggest they do after school instead of having lunch?",
+          optionA: "Go to the park",
+          optionB: "Visit a friend's house",
+          optionC: "Get something at the burger shop",
+          correctAnswer: "C) Get something at the burger shop",
+        },
+        {
+          question:
+            "What did Mr. Tyagi share with the students after the English test?",
+          optionA: "A math problem",
+          optionB: "A story",
+          optionC: "A science experiment",
+          correctAnswer: "B) A story",
+        },
+        {
+          question:
+            "In the African folktale, how did people get their food before?",
+          optionA: "From a supermarket",
+          optionB: "By hunting and planting crops",
+          optionC: "By trading with other tribes",
+          correctAnswer: "B) By hunting and planting crops",
+        },
+        {
+          question: "Why did the sky become angry in the folktale?",
+          optionA: "People stopped eating the sky",
+          optionB: "People wasted the food from the sky",
+          optionC: "People didn't appreciate the sky's gifts",
+          correctAnswer: "B) People wasted the food from the sky",
+        },
+        {
+          question:
+            "What did Aadmi do with the extra pieces of the sky he couldn't eat?",
+          optionA: "Shared them with his friends",
+          optionB: "Hid them in the garbage pile",
+          optionC: "Gave them to his children",
+          correctAnswer: "B) Hid them in the garbage pile",
+        },
+        {
+          question:
+            "What was the consequence of Aadmi's actions in the folktale?",
+          optionA: "The sky disappeared",
+          optionB: "Aadmi became the king",
+          optionC: "People learned how to fly",
+          correctAnswer: "A) The sky disappeared",
+        },
+        {
+          question:
+            "What lesson did Mr. Tyagi want the students to learn from the folktale?",
+          optionA: "Food should always be shared",
+          optionB: "Nature's gifts should be appreciated and not wasted",
+          optionC: "Burgers are better than homemade lunches",
+          correctAnswer:
+            "B) Nature's gifts should be appreciated and not wasted",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "Saran and Madhur planned to visit the ________ after school.",
-        options: ["library", "playground", "burger shop"],
-        correctAnswer: "burger shop",
-     }),
-      shuffleOptions({
-        question:
-          "Saran and Madhur pushed their lunches aside because they didn't like the ________.",
-        options: ["weather", "food", "grass"],
-        correctAnswer: "food",
-     }),
-      shuffleOptions({
-        question: "They were busy studying for their upcoming ________ test.",
-        options: ["math", "science", "English"],
-        correctAnswer: "English",
-     }),
-      shuffleOptions({
-        question:
-          "In the olden days, people could reach up and break off a piece of the ________ to eat.",
-        options: ["ground", "sky", "river"],
-        correctAnswer: "sky",
-     }),
-      shuffleOptions({
-        question: "The taste of the sky was always ________ and different.",
-        options: ["sweet", "delicious", "sour"],
-        correctAnswer: "delicious",
-     }),
-      shuffleOptions({
-        question:
-          "The sky became angry when people took more food than they could eat and discarded it in the ________.",
-        options: ["river", "forest", "garbage"],
-        correctAnswer: "garbage",
-     }),
-      shuffleOptions({
-        question: "The sky warned people not to waste the gift of ________.",
-        options: ["money", "food", "time"],
-        correctAnswer: "food",
-     }),
-      shuffleOptions({
-        question:
-          "After the sky went away, people had to learn how to plant crops in the ________ and hunt in the ________.",
-        options: ["sky, water", "ground, forests", "air, mountains"],
-        correctAnswer: "ground, forests",
-     }),
-      shuffleOptions({
-        question:
-          "The inscription over the monastery doorway read, 'Be Honest At All ________.'",
-        options: ["Days", "Times", "Nights"],
-        correctAnswer: "Times",
-     }),
-      shuffleOptions({
-        question:
-          "The youngest brother revealed the name of the donor, ________, on the tablet that the other brothers didn't see.",
-        options: ["Oba", "Aadmi", "Wang Lee"],
-        correctAnswer: "Wang Lee",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "The bell rang for recess, and the students spread out in the large lawn. Some headed towards the water taps while most sat in the grass to have their lunch in the winter sun. Saran and Madhur also had their books in their hands as they had to appear in the test soon after _______-time.",
+          optionA: "breakfast",
+          optionB: "lunch",
+          optionC: "half",
+          correctAnswer: "C) half",
+        },
+        {
+          question:
+            "Saran looked at the food in his lunch box and made a face. 'The same parantha with pickle; it's always the same lunch,' he said to his friend Madhur. 'You think that's bad,' Madhur said, 'I've got bread and jam again. It's the third time this week!' They pushed the food aside. 'It appears as if our mothers have forgotten all their culinary skills. We can get something at the burger shop after _______.'",
+          optionA: "school",
+          optionB: "dinner",
+          optionC: "lunch",
+          correctAnswer: "A) school",
+        },
+        {
+          question:
+            "English was the next period, and Mr. Tyagi had a reputation for giving tough tests. When the bell rang, they dropped their uneaten lunches into the garbage bin. Mr. Tyagi was standing nearby. 'Not hungry, guys?' he asked. They shook their heads and hurried off to _______.",
+          optionA: "recess",
+          optionB: "class",
+          optionC: "lunch",
+          correctAnswer: "B) class",
+        },
+        {
+          question:
+            "Mr. Tyagi stood up and looked at his wristwatch. 'Students, we've some more time yet, and it's been long to have told you a story. Before I leave today,' he said, leaning against the desk, 'I'd like to share an old African folktale with you. I suppose you'll find this one _______.'",
+          optionA: "fascinating",
+          optionB: "boring",
+          optionC: "confusing",
+          correctAnswer: "A) fascinating",
+        },
+        {
+          question:
+            "Long ago, the sky was close to the earth. Men and women did not have to grow their food. Instead, when they were hungry, they just reached up and broke off a piece of the sky to eat. Sometimes the sky tasted like ripe bananas. Other times it tasted like roasted potatoes or tamarind seeds. Every time a person tasted the sky, it was delicious and _______.",
+          optionA: "familiar",
+          optionB: "different",
+          optionC: "bland",
+          correctAnswer: "B) different",
+        },
+        {
+          question:
+            "People spent their time making beautiful cloth, painting beautiful pictures, and singing songs at night. The grand king, Oba, had a wonderful palace. His servants made beautiful shapes out of the pieces of sky. However, all people were not as wise as others. Some of them did not use the gift of the sky wisely. They often took more than they could eat and discarded the extra food in the garbage. Whenever anyone took more than he could eat, the sky became _______.",
+          optionA: "happy",
+          optionB: "angry",
+          optionC: "sad",
+          correctAnswer: "B) angry",
+        },
+        {
+          question:
+            "One day, the angry sky turned dark. Black clouds hung over the land, and the great voice of the sky reverberated over the land, 'You are wasting my gift of food. I warn you not to take more than you can eat. I don't want to see pieces of me in the garbage any more. You all must be wise, or I will take my gift away. That's the _______.'",
+          optionA: "conclusion",
+          optionB: "ultimatum",
+          optionC: "warning",
+          correctAnswer: "B) ultimatum",
+        },
+        {
+          question:
+            "The king and the people trembled with fear. King Oba said, 'Let's be careful about how much food we take.' For a time, all the people were careful, but this did not continue for long. One man named Aadmi wasn't careful. At festival time, he broke so many delicious pieces of the sky that he couldn't eat them all. He knew he must not throw them away. He tried to give the pieces to his wife. 'Here, wife,' Aadmi said. 'You eat the _______.'",
+          optionA: "leftovers",
+          optionB: "snacks",
+          optionC: "dinner",
+          correctAnswer: "A) leftovers",
+        },
+        {
+          question:
+            "Aadmi asked all his children to help him eat the delicious pieces of sky, but the children had already eaten to their appetite and couldn't eat even one more bite. So Aadmi decided to be clever; he hid the pieces at the bottom of the garbage pile, but he could not hide his folly. The sky had already seen him. It suddenly turned angry; the dark clouds surrounded the earth. 'You have wasted my gift of food again,' thundered the sky while lightning flashed. 'You have ignored my warning, so you get food no more. I have decided to go away so you cannot waste me anymore.' All people cried and begged for mercy, 'What will we eat? We might _______.'",
+          optionA: "feast",
+          optionB: "starve",
+          optionC: "celebrate",
+          correctAnswer: "B) starve",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "The three elderly brothers lived in a large house on the outskirts of a town in China.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The three brothers had perfect eyesight and never claimed to have the best vision.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The eldest brother was in charge of the finances of a poultry farm.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The youngest brother suggested taking charge of the finances because he had a habit of stealing money.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The second brother paid twenty yuans for an item when he should have paid only two yuans.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The third brother claimed that he could make a sheep from a goat.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The brothers decided to settle their financial matter by testing their cooking skills.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The inscription they were supposed to read at the monastery read, 'Money Is the Root of All Evil.'",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The second brother claimed to see a plain decoration around the inscription on the tablet when they arrived at the monastery.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The youngest brother, when they arrived at the monastery, pointed out that besides the inscription, there was also the name of the donor, Wang Lee, at the top of the tablet.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "The students headed towards the water taps during recess.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "Saran and Madhur were excited about their lunch options.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Mr. Tyagi shared an African folktale with the students after the English test.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "In the African folktale, people could grow their food without any effort.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "The grand king in the folktale was named King Oba.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The angry sky turned dark, and black clouds hung over the land in the folktale.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Aadmi hid the extra pieces of the sky in the garbage pile.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The sky warned the people not to waste its gift of food in the folktale.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "King Oba suggested being careless about the amount of food people take.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The students promised Mr. Tyagi not to put their lunches in the garbage anymore.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

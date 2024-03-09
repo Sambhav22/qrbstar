@@ -1,249 +1,265 @@
-export const chapter = "Chapter - 1: The Cable Is Snapped";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -6: The Cable Is Snapped";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Why does the narrator like the evening TV program the most?",
-        optionA: "Because it has an interesting story.",
-        optionB: "Because it features popular actors.",
-        optionC: "Because it airs during dinner time.",
-        correctAnswer: "Because it airs during dinner time.",
-     }),
-      shuffleOptions({
-        question: "How long has the family been watching the same TV program?",
-        optionA: "One year.",
-        optionB: "Two years.",
-        optionC: "Three years.",
-        correctAnswer: "Three years.",
-     }),
-      shuffleOptions({
-        question:
-          "Why does the narrator's daughter offer to serve dinner when the cable connection is lost?",
-        optionA: "Because she loves cooking.",
-        optionB: "Because the vegetable is delicious.",
-        optionC: "Because she wants to help during the TV downtime.",
-        correctAnswer: "Because she wants to help during the TV downtime.",
-     }),
-      shuffleOptions({
-        question:
-          "What happened to the cable connection on the fateful evening?",
-        optionA: "The TV stopped working.",
-        optionB: "The wire came loose.",
-        optionC: "The cable connection snapped.",
-        correctAnswer: "The cable connection snapped.",
-     }),
-      shuffleOptions({
-        question:
-          "How did the neighbors feel about the cable connection being down?",
-        optionA: "They were happy.",
-        optionB: "They were disappointed.",
-        optionC: "They were indifferent.",
-        correctAnswer: "They were happy.",
-     }),
-      shuffleOptions({
-        question:
-          "How long was the cable connection expected to be out of service?",
-        optionA: "One day.",
-        optionB: "Two days.",
-        optionC: "Three days.",
-        correctAnswer: "Two days.",
-     }),
-      shuffleOptions({
-        question:
-          "Why did Mr. Raghav have a smile on his face during the cable outage?",
-        optionA: "He fixed the cable connection.",
-        optionB: "He was happy to see his neighbors.",
-        optionC: "He had an alternative source of entertainment.",
-        correctAnswer: "He was happy to see his neighbors.",
-     }),
-      shuffleOptions({
-        question: "How did the absence of television affect the family?",
-        optionA: "They were bored and upset.",
-        optionB: "They enjoyed more family time and interaction.",
-        optionC: "They missed their favorite TV show.",
-        correctAnswer: "They enjoyed more family time and interaction.",
-     }),
-      shuffleOptions({
-        question:
-          "What did the narrator tell her daughter about her own childhood without TV and mobile phones?",
-        optionA: "She studied all the time.",
-        optionB: "She played and learned in the lap of nature.",
-        optionC: "She had no friends to talk to.",
-        correctAnswer: "She played and learned in the lap of nature.",
-     }),
-      shuffleOptions({
-        question:
-          "What decision did the family make regarding their TV-watching habits at the end of the story?",
-        optionA: "They decided to watch more TV.",
-        optionB: "They resolved to limit their TV time to one hour a day.",
-        optionC: "They decided to stop watching TV altogether.",
-        correctAnswer:
-          "They resolved to limit their TV time to one hour a day.",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "Why does the narrator like the TV soap mentioned in the text?",
+          optionA: "The interesting storyline",
+          optionB: "The popular actors",
+          optionC: "It airs during dinner time",
+          correctAnswer: "It airs during dinner time",
+        },
+        {
+          question: "What happens when the cable connection is snapped?",
+          optionA: "The family switches to a different channel",
+          optionB: "The family enjoys a lively dinner and conversation",
+          optionC: "The family immediately calls the cable-man",
+          correctAnswer: "The family enjoys a lively dinner and conversation",
+        },
+        {
+          question:
+            "What is Mr. Raghav's attitude towards the cable connection being down?",
+          optionA: "He is indifferent",
+          optionB: "He is upset",
+          optionC: "He is delighted",
+          correctAnswer: "He is delighted",
+        },
+        {
+          question:
+            "How long does the cable-man say it will take to restore the cable connection?",
+          optionA: "One day",
+          optionB: "Two days",
+          optionC: "Three days",
+          correctAnswer: "Two days",
+        },
+        {
+          question:
+            "What surprising skill does the daughter, Radhika, display during the cable outage?",
+          optionA: "Singing",
+          optionB: "Cooking",
+          optionC: "Dancing",
+          correctAnswer: "Cooking",
+        },
+        {
+          question:
+            "What does the family realize during the two days without TV?",
+          optionA: "They miss their favorite shows",
+          optionB: "Quality time and family interactions are important",
+          optionC: "They need to find a new cable provider",
+          correctAnswer: "Quality time and family interactions are important",
+        },
+        {
+          question:
+            "What childhood activities does the narrator describe to her daughter?",
+          optionA: "Playing video games",
+          optionB:
+            "Playing under tamarind trees, stoning trees, and making clay playthings",
+          optionC: "Watching TV",
+          correctAnswer:
+            "Playing under tamarind trees, stoning trees, and making clay playthings",
+        },
+        {
+          question:
+            "What was more important than scoring high marks during the narrator's childhood?",
+          optionA: "Being healthy and well-behaved",
+          optionB: "Studying for long hours",
+          optionC: "Winning sports competitions",
+          correctAnswer: "Being healthy and well-behaved",
+        },
+        {
+          question:
+            "What virtue does the family learn during the two days without TV?",
+          optionA: "Patience",
+          optionB: "Virtue",
+          optionC: "Curiosity",
+          correctAnswer: "Virtue",
+        },
+        {
+          question:
+            "How does the family decide to manage their TV time after the cable connection is restored?",
+          optionA: "No more TV",
+          optionB: "One hour of TV every day",
+          optionC: "Only weekends for TV",
+          correctAnswer: "One hour of TV every day",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "My family and I were glued to the TV screen during our favorite soap opera, especially during ____________ time.",
-        options: ["breakfast", "lunch", "dinner"],
-        correctAnswer: "dinner",
-     }),
-      shuffleOptions({
-        question:
-          "The family had been watching this program for the last ____________ years.",
-        options: ["one", "two", "three"],
-        correctAnswer: "three",
-     }),
-      shuffleOptions({
-        question:
-          "The family's cable connection was snapped, causing a moment of ____________.",
-        options: ["excitement", "shock", "celebration"],
-        correctAnswer: "shock",
-     }),
-      shuffleOptions({
-        question:
-          "The narrator's daughter offered to serve dinner because the TV was down and the vegetable wasn't to their ____________.",
-        options: ["preference", "delight", "satisfaction"],
-        correctAnswer: "preference",
-     }),
-      shuffleOptions({
-        question:
-          "According to Mr. Raghav, he felt delighted because he could see the faces of his neighbors and have some ____________ interaction.",
-        options: ["social", "television", "isolated"],
-        correctAnswer: "social",
-     }),
-      shuffleOptions({
-        question:
-          "The cable connection was expected to be out of service for at least ____________ days.",
-        options: ["one", "two", "three"],
-        correctAnswer: "two",
-     }),
-      shuffleOptions({
-        question:
-          "During the cable outage, the family enjoyed more ____________ and interaction with each other.",
-        options: ["TV shows", "solitude", "family time"],
-        correctAnswer: "family time",
-     }),
-      shuffleOptions({
-        question:
-          "The narrator reminisced about her childhood, where they played under tamarind trees, jumped into the village pond, and made playthings out of ____________.",
-        options: ["toys", "pebbles and clay", "expensive materials"],
-        correctAnswer: "pebbles and clay",
-     }),
-      shuffleOptions({
-        question:
-          "The family's decision at the end of the story was to limit their TV time to ____________ hours a day.",
-        options: ["two", "three", "one"],
-        correctAnswer: "one",
-     }),
-      shuffleOptions({
-        question:
-          "The story conveys that some children face challenges accessing education due to ____________, but efforts are being made to change this.",
-        options: ["lack of interest", "a lack of good schools", "distance"],
-        correctAnswer: "distance",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "The family sat clung to the __________ screen tuned to their favorite soap opera.",
+          optionA: "Radio",
+          optionB: "Computer",
+          optionC: "TV",
+          correctAnswer: "TV",
+        },
+        {
+          question:
+            "The narrator's daughter and husband have been watching the soap opera for the last __________ years.",
+          optionA: "Two",
+          optionB: "Three",
+          optionC: "Four",
+          correctAnswer: "Three",
+        },
+        {
+          question:
+            "The cable connection could not be restored for __________ days due to a major fault.",
+          optionA: "One",
+          optionB: "Two",
+          optionC: "Three",
+          correctAnswer: "Two",
+        },
+        {
+          question:
+            "The daughter, Radhika, surprises everyone by displaying her __________ skills during the cable outage.",
+          optionA: "Cooking",
+          optionB: "Singing",
+          optionC: "Dancing",
+          correctAnswer: "Cooking",
+        },
+        {
+          question:
+            "The family decides to limit their TV time to only __________ hour(s) every day after the cable connection is restored.",
+          optionA: "Half",
+          optionB: "One",
+          optionC: "Two",
+          correctAnswer: "One",
+        },
+        {
+          question:
+            "According to the narrator, during the two days without TV, they had more time for __________ and __________.",
+          optionA: "Sleeping, studying",
+          optionB: "Eating, sleeping",
+          optionC: "Talking, laughing",
+          correctAnswer: "Talking, laughing",
+        },
+        {
+          question:
+            "The cable-man informs the neighborhood that the cable connection cannot be restored for at least __________ days.",
+          optionA: "One",
+          optionB: "Two",
+          optionC: "Three",
+          correctAnswer: "Two",
+        },
+        {
+          question:
+            "The narrator reminisces about her childhood and describes playing under __________ trees and stoning trees.",
+          optionA: "Mango",
+          optionB: "Tamarind",
+          optionC: "Oak",
+          correctAnswer: "Tamarind",
+        },
+        {
+          question:
+            "The narrator's husband teaches their daughter casio during the cable outage, which adds a new streak of __________.",
+          optionA: "Learning",
+          optionB: "Entertainment",
+          optionC: "Cooking",
+          correctAnswer: "Learning",
+        },
+        {
+          question:
+            "Radhika suggests that they can continue limiting their TV time to __________ hour(s) even after the cable connection is restored.",
+          optionA: "Half",
+          optionB: "One",
+          optionC: "Two",
+          correctAnswer: "One",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "The family enjoys their favorite soap opera during dinner time.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The family had been watching the same TV program for five years.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The cable connection was lost due to a thunderstorm.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The narrator's daughter served dinner because the vegetable was tasty.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Mr. Raghav was upset when the cable connection was down.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The cable connection was expected to be restored within a day.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The absence of television led to more family time and interaction.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The narrator's childhood memories included playing under oak trees.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The family decided to watch more TV after the cable connection was restored.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The story conveys that education is easily accessible to all children.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "The family watched their favorite soap opera every evening.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The cable connection was snapped due to a major fault and couldn't be restored for one day.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Radhika surprised everyone by displaying her singing skills during the cable outage.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The cable-man informed that the cable connection would take at least three days to be restored.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The family decided to watch TV for two hours every day after the cable connection was restored.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "During the two days without TV, the family had more time for sleeping and studying.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The narrator reminisced about playing under mango trees during her childhood.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Radhika suggested continuing to limit TV time to one hour even after the cable connection was restored.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The narrator's husband taught their daughter cooking skills during the cable outage.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The family realized that the absence of TV brought them closer, and they continued limiting TV time to two hours.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

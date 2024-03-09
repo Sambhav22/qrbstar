@@ -1,246 +1,260 @@
-export const chapter = "Chapter - 4: The Real Culprit ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -4: The Real Culprit";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "What instrument did the little hunchback play and sing sweetly?",
-        optionA: "Violin",
-        optionB: "Tambour",
-        optionC: "Flute",
-        correctAnswer: "Tambour",
-     }),
-      shuffleOptions({
-        question:
-          "What did the barber and his wife serve for dinner on the evening of the incident?",
-        optionA: "Chicken",
-        optionB: "Fish",
-        optionC: "Vegetables",
-        correctAnswer: "Fish",
-     }),
-      shuffleOptions({
-        question: "How did the hunchback die?",
-        optionA: "He was poisoned",
-        optionB: "He choked on a fishbone",
-        optionC: "He had a heart attack",
-        correctAnswer: "He choked on a fishbone",
-     }),
-      shuffleOptions({
-        question:
-          "What did the barber and his wife plan to do with the hunchback's body?",
-        optionA: "Bury it in their backyard",
-        optionB: "Leave it in the street",
-        optionC: "Place it in the doctor's clinic",
-        correctAnswer: "Place it in the doctor's clinic",
-     }),
-      shuffleOptions({
-        question:
-          "How did the doctor react when he tripped over the hunchback's body?",
-        optionA: "He fainted",
-        optionB: "He quickly left the scene",
-        optionC: "He examined the body",
-        correctAnswer: "He examined the body",
-     }),
-      shuffleOptions({
-        question:
-          "What was the neighbor's profession in whose store-room the body was hidden?",
-        optionA: "Baker",
-        optionB: "Oil man",
-        optionC: "Tailor",
-        correctAnswer: "Oil man",
-     }),
-      shuffleOptions({
-        question: "Why did the oil man hit the dead body with a stout staff?",
-        optionA: "He thought it was a thief",
-        optionB: "He was practicing self-defense",
-        optionC: "He was testing the body's reaction",
-        correctAnswer: "He thought it was a thief",
-     }),
-      shuffleOptions({
-        question: "How did the merchant get involved in the murder case?",
-        optionA: "He was a witness to the murder",
-        optionB: "He was the king's messenger",
-        optionC: "He accidentally hit the body in self-defense",
-        correctAnswer: "He accidentally hit the body in self-defense",
-     }),
-      shuffleOptions({
-        question: "Who ultimately confessed to causing the hunchback's death?",
-        optionA: "The merchant",
-        optionB: "The doctor",
-        optionC: "The barber",
-        correctAnswer: "The barber",
-     }),
-      shuffleOptions({
-        question: "What was the punishment ordered by the king for the barber?",
-        optionA: "Death penalty",
-        optionB: "Imprisonment",
-        optionC: "Five lashes on his bare back",
-        correctAnswer: "Five lashes on his bare back",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "What did the barber initially plan to do with the little hunchback?",
+          optionA: "Give him a haircut",
+          optionB: "Take him home to entertain his wife with music",
+          optionC: "Invite him for dinner",
+          correctAnswer: "B) Take him home to entertain his wife with music",
+        },
+        {
+          question:
+            "What did the hunchback accidentally swallow that led to his death?",
+          optionA: "Bone",
+          optionB: "Water",
+          optionC: "Tambour",
+          correctAnswer: "A) Bone",
+        },
+        {
+          question:
+            "How did the barber and his wife try to avoid being accused of murder?",
+          optionA: "They hid the body in the doctor's clinic",
+          optionB: "They threw the body into the river",
+          optionC: "They buried the body in their backyard",
+          correctAnswer: "A) They hid the body in the doctor's clinic",
+        },
+        {
+          question: "Why did the doctor think he had killed the hunchback?",
+          optionA: "He accidentally poisoned him",
+          optionB: "He tripped over the body and thought he caused the death",
+          optionC: "He intentionally hit the hunchback on the head",
+          correctAnswer:
+            "B) He tripped over the body and thought he caused the death",
+        },
+        {
+          question: "What was the oil man's occupation?",
+          optionA: "Doctor",
+          optionB: "Barber",
+          optionC: "Merchant",
+          correctAnswer: "A) Oil man",
+        },
+        {
+          question: "Why did the oil man believe he had killed the hunchback?",
+          optionA: "He accidentally hit him while trying to defend himself",
+          optionB: "He thought the hunchback was a thief",
+          optionC: "He intentionally attacked the hunchback",
+          correctAnswer:
+            "A) He accidentally hit him while trying to defend himself",
+        },
+        {
+          question:
+            "How did the rich merchant react when he encountered the dead body?",
+          optionA: "He tried to help the hunchback",
+          optionB: "He thought he was being attacked and hit the body",
+          optionC: "He ran away in fear",
+          correctAnswer: "B) He thought he was being attacked and hit the body",
+        },
+        {
+          question: "What was the reason for the merchant's arrest?",
+          optionA: "Drinking wine",
+          optionB: "Robbery",
+          optionC: "Murdering the hunchback",
+          correctAnswer: "C) Murdering the hunchback",
+        },
+        {
+          question:
+            "Who finally revealed the truth about the hunchback's death in the court?",
+          optionA: "The oil man",
+          optionB: "The merchant",
+          optionC: "The barber",
+          correctAnswer: "C) The barber",
+        },
+        {
+          question: "What punishment did the king order for the barber?",
+          optionA: "Death penalty",
+          optionB: "Imprisonment",
+          optionC: "Five lashes on his bare back",
+          correctAnswer: "C) Five lashes on his bare back",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "The little hunchback came to the barber's shop for a haircut. As he waited for his turn, he played a _______________ and sang sweetly. The ________ suggests this idea.",
-        options: ["Guitar", "Tambour", "Flute"],
-        correctAnswer: "Tambour",
-     }),
-      shuffleOptions({
-        question:
-          "The barber was very impressed with the hunchback's singing, so he decided to take him home to entertain his wife when he was away at the shop. The barber's wife cooked _______________ for dinner.",
-        options: ["Chicken", "Fish", "Vegetables"],
-        correctAnswer: "Fish",
-     }),
-      shuffleOptions({
-        question:
-          "Unfortunately, the hunchback choked to death when he swallowed a _______________ while having dinner with the barber and his wife. The ________ must ensure this.",
-        options: ["Bone", "Nut", "Potato"],
-        correctAnswer: "Bone",
-     }),
-      shuffleOptions({
-        question:
-          "Fearing that they would be accused of murder, the barber and his wife planned to leave the dead body at a _______________ clinic on the first floor. The ________ explained the entire story.",
-        options: ["Dentist", "Tailor", "Doctor's"],
-        correctAnswer: "Doctor's",
-     }),
-      shuffleOptions({
-        question:
-          "The doctor who lived on the first floor was not aware that the body was dead. He tripped over it while coming down the staircase. He thought he had killed the hunchback and decided to carry the body to his wife's _______________.",
-        options: ["Bedroom", "Living room", "Kitchen"],
-        correctAnswer: "Bedroom",
-     }),
-      shuffleOptions({
-        question:
-          "The doctor and his wife successfully moved the dead body to their neighbor's roof, who was an _______________ man. The ________ explained the entire story.",
-        options: ["Electrician", "Oil", "Carpenter"],
-        correctAnswer: "Oil",
-     }),
-      shuffleOptions({
-        question:
-          "The oil man returned home at midnight and found a _______________ standing by the wall, just below the chimney, where the body was hidden. He thought he was being attacked by a _______________.",
-        options: ["Stranger", "Thief", "Policeman"],
-        correctAnswer: "Thief",
-     }),
-      shuffleOptions({
-        question:
-          "The oil man thought he was being attacked and hit the thief on the head with a stout staff. He later realized he had killed the hunchback and believed he would be hanged to death. He decided to place the body near a _______________.",
-        options: ["Police station", "Market", "River"],
-        correctAnswer: "Market",
-     }),
-      shuffleOptions({
-        question:
-          "The merchant, returning from a feast in an intoxicated state, encountered the dead body in the dark. He touched the body, and it fell toward him. In his panic, he hit the body several times, believing he was being attacked by a _______________.",
-        options: ["Ghost", "Wild animal", "Thief"],
-        correctAnswer: "Thief",
-     }),
-      shuffleOptions({
-        question:
-          "In the end, the king learned the truth about the hunchback's death, and it was the ________ who explained the entire story.",
-        options: ["Merchant", "Doctor", "Barber"],
-        correctAnswer: "Barber",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "Once in ancient times, there lived a barber with his ____. One day, a little hunchback came for a ____.",
+          optionA: "chef",
+          optionB: "wife",
+          optionC: "haircut",
+          correctAnswer: "C) haircut",
+        },
+        {
+          question:
+            "The barber was very impressed with the hunchback's ____. He thought, 'I should take him home to entertain my ____.",
+          optionA: "dancing",
+          optionB: "singing",
+          optionC: "cooking",
+          correctAnswer: "B) singing",
+        },
+        {
+          question:
+            "The hunchback swallowed a ____. It stuck in his throat, and he started ____.",
+          optionA: "coin",
+          optionB: "fishbone",
+          optionC: "feather",
+          correctAnswer: "B) fishbone",
+        },
+        {
+          question:
+            "To avoid being accused of murder, the barber and his wife hid the body in the ____.",
+          optionA: "river",
+          optionB: "doctor's clinic",
+          optionC: "graveyard",
+          correctAnswer: "B) doctor's clinic",
+        },
+        {
+          question:
+            "The oil man, thinking he had killed the hunchback, picked up the dead body and carried it to the ____.",
+          optionA: "market",
+          optionB: "river",
+          optionC: "king's palace",
+          correctAnswer: "A) market",
+        },
+        {
+          question: "The merchant was arrested for ____ the hunchback.",
+          optionA: "drinking wine",
+          optionB: "stealing",
+          optionC: "murdering",
+          correctAnswer: "C) murdering",
+        },
+        {
+          question:
+            "The rich merchant, in intoxication, swayed left and right and hit the dead body, thinking it was a(n) ____.",
+          optionA: "animal",
+          optionB: "attacker",
+          optionC: "friend",
+          correctAnswer: "B) attacker",
+        },
+        {
+          question:
+            "The doctor saved himself from falling when he tripped over the dead body in the dark ____.",
+          optionA: "alley",
+          optionB: "staircase",
+          optionC: "room",
+          correctAnswer: "B) staircase",
+        },
+        {
+          question:
+            "The king ordered a punishment of ____ lashes on the barber's bare back for causing confusion.",
+          optionA: "ten",
+          optionB: "five",
+          optionC: "two",
+          correctAnswer: "B) five",
+        },
+        {
+          question:
+            "The barber revealed the truth about the hunchback's death, explaining that he died from ____. ",
+          optionA: "poisoning",
+          optionB: "choking",
+          optionC: "drowning",
+          correctAnswer: "B) choking",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "The little hunchback played a musical instrument and sang sweetly.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The barber's wife cooked fish for dinner when the hunchback came to their home.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "The hunchback died because he swallowed a fishbone.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The doctor and his wife planned to leave the dead body at a dentist's clinic.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The oil man thought the body he found was a thief and hit it with a stout staff.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The merchant hit the dead body because he thought it was a wild animal.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The doctor and his wife successfully moved the dead body to their neighbor's roof.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "The oil man placed the dead body near a police station.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The animals in the story wanted to keep the king from hunting them.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The king ordered the barber to be hanged for the hunchback's death.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "The barber's wife cooked fish for dinner, and the hunchback choked to death.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The doctor tripped over the dead body and thought he had killed the hunchback.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The oil man, upon returning home, found the thief standing by the wall.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The rich merchant thought he was being attacked when he encountered the dead body.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Einstein's father wanted him to study law and become a lawyer.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The hunchback's body was successfully pushed into the neighbor's house through the chimney.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The doctor's wife suggested confessing to the murder to save him from punishment.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The oil man returned home at noon and found the dead body in his store-room.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The king ordered the merchant to be hanged by the neck for the murder of the hunchback.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The barber received a reward from the king for revealing the truth about the hunchback's death.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

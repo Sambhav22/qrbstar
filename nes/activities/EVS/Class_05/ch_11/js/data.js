@@ -1,127 +1,83 @@
-export const chapter = "Chapter - 11: Let's See a Family in Transit";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
-
+export const chapter = "Chapter -8: Let's See a Family in Transit";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      {
-        questions: [
-          {
-            question: "What is a family tree typically used to represent?",
-            options: [
-              "A) Economic relationships within a family",
-              "B) Three generations of people and their relationships in a family",
-              "C) Environmental impact on a family",
-            ],
-            answer:
-              "B) Three generations of people and their relationships in a family",
-          },
-          {
-            question:
-              "What are the primary reasons for family migration mentioned in the text?",
-            options: [
-              "A) Cultural changes",
-              "B) Social, economic, and environmental reasons",
-              "C) Educational advancements",
-            ],
-            answer: "B) Social, economic, and environmental reasons",
-          },
-          {
-            question:
-              "What is the term used for the large-scale movement of people from one place to another in search of a new beginning?",
-            options: ["A) Immigration", "B) Migration", "C) Relocation"],
-            answer: "B) Migration",
-          },
-          {
-            question: "What are people who migrate called?",
-            options: ["A) Nomads", "B) Travellers", "C) Migrants"],
-            answer: "C) Migrants",
-          },
-          {
-            question:
-              "In a temporary migration, what do migrants do after completing their desired tasks?",
-            options: [
-              "A) Settle permanently in the new place",
-              "B) Return to their original place",
-              "C) Continue migrating to other places",
-            ],
-            answer: "B) Return to their original place",
-          },
-          {
-            question:
-              "What are the three primary reasons for migration mentioned in the text?",
-            options: [
-              "A) Social, political, and cultural",
-              "B) Social, economic, and environmental",
-              "C) Environmental, economic, and educational",
-            ],
-            answer: "B) Social, economic, and environmental",
-          },
-          {
-            question: "What does the term 'family tree' illustrate?",
-            options: [
-              "A) Economic status of a family",
-              "B) Three-dimensional structure of a family",
-              "C) Relationships within a family over three generations",
-            ],
-            answer: "C) Relationships within a family over three generations",
-          },
-          {
-            question:
-              "How do modern families differ from traditional families according to the text?",
-            options: [
-              "A) Modern families follow old customs.",
-              "B) Modern families don't adopt new methods.",
-              "C) Modern families change with cultural, educational, and living standards advancements.",
-            ],
-            answer:
-              "C) Modern families change with cultural, educational, and living standards advancements.",
-          },
-          {
-            question:
-              "What is the term used for people who do the work with their own will and interest, according to the text?",
-            options: ["A) Traditionalists", "B) Free agents", "C) Modernists"],
-            answer: "B) Free agents",
-          },
-          {
-            question:
-              "What is the result of harmful environmental impacts, such as drought, earthquake, and cyclone, mentioned in the text?",
-            options: [
-              "A) Economic growth",
-              "B) Migration",
-              "C) Stability in family life",
-            ],
-            answer: "B) Migration",
-          },
-        ],
-      },
+      [
+        {
+          "question": "What is a family?",
+          "optionA": "A group of unrelated people",
+          "optionB": "A group of people related to one another",
+          "optionC": "A group of friends living together",
+          "correctAnswer": "A group of people related to one another"
+        },
+        {
+          "question": "What does a family tree usually show?",
+          "optionA": "Only the parents and children",
+          "optionB": "All the people in a family over three generations and their relationships",
+          "optionC": "Only the grandparents and grandchildren",
+          "correctAnswer": "All the people in a family over three generations and their relationships"
+        },
+        {
+          "question": "What are the primary social reasons for families to move from one place to another?",
+          "optionA": "Economic stability",
+          "optionB": "Abnormal changes in society",
+          "optionC": "Environmental factors",
+          "correctAnswer": "Abnormal changes in society"
+        },
+        {
+          "question": "What is migration?",
+          "optionA": "Permanent settlement in a new place",
+          "optionB": "Temporary movement of people",
+          "optionC": "Large scale movement of people in search of new beginning",
+          "correctAnswer": "Large scale movement of people in search of new beginning"
+        },
+        {
+          "question": "What distinguishes displacement from migration?",
+          "optionA": "Displacement is voluntary, while migration is involuntary",
+          "optionB": "Displacement is due to social reasons, while migration is due to economic reasons",
+          "optionC": "Displacement is involuntary, while migration is due to government policy changes",
+          "correctAnswer": "Displacement is involuntary, while migration is due to government policy changes"
+        },
+        {
+          "question": "What changes occur in modern families compared to traditional families?",
+          "optionA": "Females go out for work",
+          "optionB": "Sons follow their father's occupation",
+          "optionC": "Decisions are made without mutual understanding",
+          "correctAnswer": "Females go out for work"
+        },
+        {
+          "question": "What is the primary reason for economic migration?",
+          "optionA": "To raise the standard of living",
+          "optionB": "To escape environmental disasters",
+          "optionC": "To find better social opportunities",
+          "correctAnswer": "To raise the standard of living"
+        },
+        {
+          "question": "What causes displacement?",
+          "optionA": "Social advancements",
+          "optionB": "Environmental factors",
+          "optionC": "Government policy changes",
+          "correctAnswer": "Government policy changes"
+        },
+        {
+          "question": "In which type of migration do migrants come back after completing their tasks?",
+          "optionA": "Permanent migration",
+          "optionB": "Temporary migration",
+          "optionC": "Forced migration",
+          "correctAnswer": "Temporary migration"
+        },
+        {
+          "question": "What term describes the movement of individuals forcibly to other countries or cities?",
+          "optionA": "Migration",
+          "optionB": "Displacement",
+          "optionC": "Emigration",
+          "correctAnswer": "Displacement"
+        }
+      ]
+      
     ],
   };
 }
@@ -130,70 +86,79 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      {
-        questions: [
-          {
-            question:
-              "A family is a group of people related to one another. It is made up of __________ and their children.",
-            options: ["A) Friends", "B) Siblings", "C) Parents"],
-            answer: "C) Parents",
-          },
-          {
-            question:
-              "A family tree usually shows all the people in a family over __________ generations and their relationships with one another.",
-            options: ["A) Two", "B) Three", "C) Four"],
-            answer: "B) Three",
-          },
-          {
-            question:
-              "Sometimes, a family may have to move due to social, economic, or __________ reasons.",
-            options: ["A) Political", "B) Educational", "C) Environmental"],
-            answer: "C) Environmental",
-          },
-          {
-            question:
-              "Abnormal changes in society leading to discomfort is a primary cause of shifting due to __________ reasons.",
-            options: ["A) Economic", "B) Social", "C) Cultural"],
-            answer: "B) Social",
-          },
-          {
-            question:
-              "To raise their standard of living, a family might decide to change locations due to __________ reasons.",
-            options: ["A) Social", "B) Economic", "C) Cultural"],
-            answer: "B) Economic",
-          },
-          {
-            question:
-              "Migration is the large-scale movement of people from one place to another in search of a new __________.",
-            options: ["A) Tradition", "B) Beginning", "C) Adventure"],
-            answer: "B) Beginning",
-          },
-          {
-            question:
-              "People who migrate are commonly referred to as __________.",
-            options: ["A) Nomads", "B) Travelers", "C) Migrants"],
-            answer: "C) Migrants",
-          },
-          {
-            question:
-              "In a temporary migration, migrants may return after completing their __________ tasks.",
-            options: ["A) Educational", "B) Desired", "C) Cultural"],
-            answer: "B) Desired",
-          },
-          {
-            question:
-              "With advancements in culture and education, traditional families often transform into __________ families.",
-            options: ["A) Conservative", "B) Modern", "C) Extended"],
-            answer: "B) Modern",
-          },
-          {
-            question:
-              "People now work with their own will and interest, reflecting a shift from traditional __________.",
-            options: ["A) Jobs", "B) Customs", "C) Practices"],
-            answer: "B) Customs",
-          },
-        ],
-      },
+      [
+        {
+          "question": "A family is a group of people related to one another. It is made up of parents and their __________.",
+          "optionA": "Siblings",
+          "optionB": "Children",
+          "optionC": "Grandparents",
+          "correctAnswer": "Children"
+        },
+        {
+          "question": "A family tree usually shows all the people in a family over __________ generations and their relationships with one another.",
+          "optionA": "Two",
+          "optionB": "Three",
+          "optionC": "Four",
+          "correctAnswer": "Three"
+        },
+        {
+          "question": "Migration is the large scale movement of people from one place to other in search of __________ beginning.",
+          "optionA": "Old",
+          "optionB": "Familiar",
+          "optionC": "New",
+          "correctAnswer": "New"
+        },
+        {
+          "question": "In permanent migration, migrants do not __________ back.",
+          "optionA": "Stay",
+          "optionB": "Return",
+          "optionC": "Leave",
+          "correctAnswer": "Return"
+        },
+        {
+          "question": "Migration is often confused with __________.",
+          "optionA": "Emigration",
+          "optionB": "Displacement",
+          "optionC": "Immigration",
+          "correctAnswer": "Displacement"
+        },
+        {
+          "question": "With the advancement in culture, education and living standards, most traditional families change into __________ families.",
+          "optionA": "Old-fashioned",
+          "optionB": "Modern",
+          "optionC": "Conservative",
+          "correctAnswer": "Modern"
+        },
+        {
+          "question": "Earlier, a son of a goldsmith became a goldsmith, a son of a farmer became a farmer, but now a son of a farmer may become an __________.",
+          "optionA": "Engineer",
+          "optionB": "IAS",
+          "optionC": "Artist",
+          "correctAnswer": "IAS"
+        },
+        {
+          "question": "With the change in education and advancement, people now do work with their own __________.",
+          "optionA": "Capability",
+          "optionB": "Interest",
+          "optionC": "Choice",
+          "correctAnswer": "Interest"
+        },
+        {
+          "question": "A family tree usually depicts the relationships among family members over __________ generations.",
+          "optionA": "One",
+          "optionB": "Two",
+          "optionC": "Three",
+          "correctAnswer": "Three"
+        },
+        {
+          "question": "Migration can be both __________ or temporary.",
+          "optionA": "Economic",
+          "optionB": "Permanent",
+          "optionC": "Seasonal",
+          "correctAnswer": "Permanent"
+        }
+      ]
+      
     ],
   };
 }
@@ -202,80 +167,69 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      {
-        questions: [
-          {
-            question:
-              "A family tree usually shows people in a family over three generations and their relationships with one another.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "Migration is the large-scale movement of people from one place to another in search of a new beginning.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "In temporary migration, migrants do not come back after completing their desired tasks.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Modern families often change with cultural, educational, and living standards advancements.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "Environmental reasons, such as drought and cyclones, can force people to move from their place to another.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "The term 'family tree' illustrates the economic status of a family.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "People who migrate are commonly referred to as travelers.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "In a permanent migration, migrants come back after completing their desired tasks.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Social, economic, and environmental reasons are mentioned as primary causes of family migration.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "With advancements in culture and education, most traditional families change into modern families.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-        ],
-      },
+      [
+        {
+          "question": "A family tree typically shows the relationships among family members over two generations.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "Migration refers to the permanent movement of people from one place to another.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "True"
+        },
+        {
+          "question": "In temporary migration, migrants do not return after completing their desired tasks.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "Displacement and migration are interchangeable terms with the same meaning.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "Modern families often adhere strictly to traditional customs and practices.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "Advancements in education have led to people pursuing careers based solely on family tradition.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "People now have more autonomy in choosing their occupations due to educational progress.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "True"
+        },
+        {
+          "question": "A family tree usually depicts relationships among family members over multiple generations.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "True"
+        },
+        {
+          "question": "Migration can only occur for economic reasons.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "Permanent migration involves migrants returning to their original location after a period of time.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        }
+      ]
+      
     ],
   };
 }

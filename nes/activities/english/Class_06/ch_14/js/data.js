@@ -1,259 +1,263 @@
-export const chapter = "Chapter - 14: Ragged Wisdom ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -14: Ragged Wisdom";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "What was the purpose of audience day at the king's court?",
-        optionA: "To celebrate the king's regal splendor",
-        optionB: "To present the king with gifts",
-        optionC: "To seek the king's help and redress grievances",
-        correctAnswer: "To seek the king's help and redress grievances",
-     }),
-      shuffleOptions({
-        question: "Who sat beside the king on his throne during audience day?",
-        optionA: "The queen",
-        optionB: "The prime minister",
-        optionC: "The royal guard",
-        correctAnswer: "The prime minister",
-     }),
-      shuffleOptions({
-        question: "What stood out about the ragged man in the court?",
-        optionA: "He was the richest person in the court.",
-        optionB: "He had a loud voice and demanded attention.",
-        optionC: "He hadn't asked for anything from the king.",
-        correctAnswer: "He hadn't asked for anything from the king.",
-     }),
-      shuffleOptions({
-        question:
-          "According to the ragged man, who takes the best care of a person's body in the world?",
-        optionA: "The king",
-        optionB: "The scholar",
-        optionC: "The wife (if she is chaste)",
-        correctAnswer: "The wife (if she is chaste)",
-     }),
-      shuffleOptions({
-        question:
-          "What did the ragged man believe was of the most service in the world?",
-        optionA: "Love",
-        optionB: "Money",
-        optionC: "Wisdom",
-        correctAnswer: "Money",
-     }),
-      shuffleOptions({
-        question: "Why did the ragged man come to the king for aid?",
-        optionA: "To seek charity for himself",
-        optionB: "To ask for a high position at the court",
-        optionC: "To provide for his ailing wife",
-        correctAnswer: "To provide for his ailing wife",
-     }),
-      shuffleOptions({
-        question: "What did the king decide to do for the ragged scholar?",
-        optionA: "Appoint him as the royal magician",
-        optionB: "Provide him with a luxurious mansion",
-        optionC: "Make him one of the learned men of the court",
-        correctAnswer: "Make him one of the learned men of the court",
-     }),
-      shuffleOptions({
-        question:
-          "What role did the ragged scholar eventually attain at the king's court?",
-        optionA: "Royal magician",
-        optionB: "Court jester",
-        optionC: "Minister of the court",
-        correctAnswer: "Minister of the court",
-     }),
-      shuffleOptions({
-        question:
-          "What caused jealousy and rumors about the ragged scholar at court?",
-        optionA: "His apparent lack of loyalty to the king",
-        optionB: "His association with evil spirits",
-        optionC: "His rapid rise to prominence despite his humble origins",
-        correctAnswer:
-          "His rapid rise to prominence despite his humble origins",
-     }),
-      shuffleOptions({
-        question:
-          "How did the ragged minister dispel the rumors about him using magic?",
-        optionA: "By revealing his secret silver chest",
-        optionB: "By casting a spell in front of the king",
-        optionC: "By confessing to practicing magic",
-        correctAnswer: "By revealing his secret silver chest",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "Who is allowed to approach the king in person on audience day?",
+          optionA: "Only the rich and mighty",
+          optionB: "Only the poor and lowly",
+          optionC: "Both rich and poor, mighty and lowly",
+          correctAnswer: "c) Both rich and poor, mighty and lowly",
+        },
+        {
+          question:
+            "What does the ragged man say is the key factor in a wife's care for her husband's body and soul?",
+          optionA: "Chastity",
+          optionB: "Wealth",
+          optionC: "Power",
+          correctAnswer: "a) Chastity",
+        },
+        {
+          question:
+            "According to the ragged man, what is the most serviceable thing in the world?",
+          optionA: "Love",
+          optionB: "Wisdom",
+          optionC: "Money",
+          correctAnswer: "c) Money",
+        },
+        {
+          question: "Why does the ragged scholar approach the king for aid?",
+          optionA: "He is hungry and needs food.",
+          optionB: "His wife is ill due to lack of good food.",
+          optionC: "He wants charity to improve his living conditions.",
+          correctAnswer: "b) His wife is ill due to lack of good food.",
+        },
+        {
+          question:
+            "What does the king decide to do for the ragged scholar after hearing his plea?",
+          optionA: "Grant him a large sum of money.",
+          optionB: "Appoint him as a minister in the court.",
+          optionC: "Ignore his request.",
+          correctAnswer: "b) Appoint him as a minister in the court.",
+        },
+        {
+          question:
+            "How does the ragged scholar continue to spend his time even after becoming a minister?",
+          optionA: "Engaging in luxurious activities.",
+          optionB: "Wandering in rags.",
+          optionC: "Devouring books in his leisure moments.",
+          correctAnswer: "c) Devouring books in his leisure moments.",
+        },
+        {
+          question:
+            "What do some courtiers grow jealous of regarding the ragged minister?",
+          optionA: "His wealth",
+          optionB: "His magical powers",
+          optionC: "His position at the court",
+          correctAnswer: "c) His position at the court",
+        },
+        {
+          question:
+            "What rumors do courtiers spread about the minister's daily routine to poison the king's mind?",
+          optionA: "He practices magic before meeting the king.",
+          optionB: "He is secretly conspiring against the king.",
+          optionC: "He is leading a rebellion in the kingdom.",
+          correctAnswer: "a) He practices magic before meeting the king.",
+        },
+        {
+          question:
+            "How does the minister respond when the king decides to visit his house to check the rumors?",
+          optionA: "He welcomes the king with open arms.",
+          optionB: "He tries to avoid the visit.",
+          optionC: "He insists the king accompany him.",
+          correctAnswer: "c) He insists the king accompany him.",
+        },
+        {
+          question:
+            "What does the minister reveal when the king opens the silver chest in his private chamber?",
+          optionA: "Hidden magical artifacts.",
+          optionB: "A bundle of old yellow rags.",
+          optionC: "A treasure trove of gold and jewels.",
+          correctAnswer: "b) A bundle of old yellow rags.",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "It was audience day at the king's court. It was the day when the rich and poor, the mighty and lowly, and anybody else might come to the king in person to present to him their woes and wrongs and appeal to him for _______ and _______.",
-        options: ["food, shelter", "succour, aid", "entertainment, rewards"],
-        correctAnswer: "succour, aid",
-     }),
-      shuffleOptions({
-        question:
-          "The king sat on his throne in regal splendour, with his prime minister at his side. He heard all supplicants and promised _______ to each, giving light and cheer to many hearts that erstwhile had been overshadowed.",
-        options: ["comfort", "succour", "disappointment"],
-        correctAnswer: "succour",
-     }),
-      shuffleOptions({
-        question:
-          "There also stood a little way from the king a very ragged man, gazing past the throne, as if into an undiscovered country beyond. He had evidently forgotten his own surroundings or even the errand upon which he had come, and wrapped in thought he alone of all the supplicants had failed to ask of the king a _______.",
-        options: ["gift", "boon", "favor"],
-        correctAnswer: "boon",
-     }),
-      shuffleOptions({
-        question:
-          "The prime minister answered without hesitation, 'Why, the ______, of course, your majesty.'",
-        options: ["king", "scholar", "wife"],
-        correctAnswer: "wife",
-     }),
-      shuffleOptions({
-        question:
-          "'Money, your majesty, for with it all things pertaining to the world can be had, if it be in the ______,' said the ragged one in the same thoughtful manner.",
-        options: ["hand", "chest", "heart"],
-        correctAnswer: "hand",
-     }),
-      shuffleOptions({
-        question:
-          "The king, noting the apparent wisdom of both replies, beckoned him to come nearer, and said, 'Who are you, and what do you want here? Already all supplicants have told me of their needs and you alone remain here and still have asked nothing of me. What can I do for you?'",
-        options: ["supplicants", "strangers", "courtiers"],
-        correctAnswer: "supplicants",
-     }),
-      shuffleOptions({
-        question:
-          "The man answered, 'Your majesty, I had not thought ever to come to you for aid, nor would I, were it not for the sake of one who is dear beyond all the world to me, my ______.'",
-        options: ["friend", "brother", "wife"],
-        correctAnswer: "wife",
-     }),
-      shuffleOptions({
-        question:
-          "'I make him one of the _______ of my court; see that his needs are fully supplied and add to them such luxuries as befit one of that position,' said the king.",
-        options: ["scholars", "nobles", "learned men"],
-        correctAnswer: "learned men",
-     }),
-      shuffleOptions({
-        question:
-          "The king's love for him was great because of the rare counsels which he gave and the beauty of his daily living. But at court there were those who grew jealous, that he, a ragged beggar, should have reached such heights at court, and many rumors went out with intent to poison the mind and heart of the king toward the minister.",
-        options: ["friends", "courtiers", "supplicants"],
-        correctAnswer: "courtiers",
-     }),
-      shuffleOptions({
-        question:
-          "'Out of the magic chamber I have come, 0 my friends; upon the magic casket and its charm I have looked, and now I shall pass sentence of punishment upon the magician himself, and proclaim him here the Prime Minister of all my ______.'",
-        options: ["realm", "kingdom", "subjects"],
-        correctAnswer: "realm",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "It was ________ day at the king's court when anyone, rich or poor, could approach the king personally.",
+          optionA: "Celebration",
+          optionB: "Audience",
+          optionC: "Ceremony",
+          correctAnswer: "b) Audience",
+        },
+        {
+          question:
+            "The king sat on his throne in regal splendour, with his prime minister at his side, promising succor to each, giving light and cheer to many hearts that had been previously ________.",
+          optionA: "Illuminated",
+          optionB: "Overshadowed",
+          optionC: "Brightened",
+          correctAnswer: "b) Overshadowed",
+        },
+        {
+          question:
+            "The ragged man, gazing past the throne, had evidently forgotten his surroundings, wrapped in thought, and alone of all the supplicants, had failed to ask the king for a ________.",
+          optionA: "Boon",
+          optionB: "Gift",
+          optionC: "Favor",
+          correctAnswer: "a) Boon",
+        },
+        {
+          question:
+            "The king asked his prime minister, 'Who is it that takes the best care of the body of a man in this world?' The minister responded, 'Why, the wife, of course, your majesty, if she be ________.'",
+          optionA: "Beautiful",
+          optionB: "Chaste",
+          optionC: "Wealthy",
+          correctAnswer: "b) Chaste",
+        },
+        {
+          question:
+            "According to the ragged man, the thing most serviceable in this world is ________.",
+          optionA: "Love",
+          optionB: "Wisdom",
+          optionC: "Money",
+          correctAnswer: "c) Money",
+        },
+        {
+          question:
+            "The ragged scholar approached the king for aid because his wife was very ill due to lack of good ________.",
+          optionA: "Clothing",
+          optionB: "Shelter",
+          optionC: "Food",
+          correctAnswer: "c) Food",
+        },
+        {
+          question:
+            "The king decided to make the ragged scholar one of the learned men of the court and instructed his minister to ensure the scholar's needs were fully supplied, adding luxuries befitting one of that ________.",
+          optionA: "Station",
+          optionB: "Position",
+          optionC: "Rank",
+          correctAnswer: "a) Station",
+        },
+        {
+          question:
+            "At court, some grew jealous of the ragged scholar's rapid rise and spread rumors about his involvement in ________ arts to bewitch the king.",
+          optionA: "Magical",
+          optionB: "Secret",
+          optionC: "Dark",
+          correctAnswer: "a) Magical",
+        },
+        {
+          question:
+            "The courtiers warned the king, saying the ragged scholar practices magic daily before meeting him, leading to suspicion against the minister's ________.",
+          optionA: "Loyalty",
+          optionB: "Honesty",
+          optionC: "Integrity",
+          correctAnswer: "c) Integrity",
+        },
+        {
+          question:
+            "When the king visited the minister's house to check the rumors, the minister revealed the silver chest contained not magical artifacts but a bundle of old ________.",
+          optionA: "Clothes",
+          optionB: "Rags",
+          optionC: "Fabrics",
+          correctAnswer: "b) Rags",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "The king's court held audience day where anyone could present their woes and seek help.",
-        optionA: "True",
-        optionB: "False",
-        answer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The ragged man who stood near the king's throne failed to ask the king for a boon.",
-        optionA: "True",
-        optionB: "False",
-        answer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The prime minister stated that the wife takes the best care of a man's body in the world.",
-        optionA: "True",
-        optionB: "False",
-        answer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The king believed that money is the most valuable thing in the world.",
-        optionA: "True",
-        optionB: "False",
-        answer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The ragged scholar came to the king to ask for charity to buy food for himself.",
-        optionA: "True",
-        optionB: "False",
-        answer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The ragged scholar became known as the most learned man in the court.",
-        optionA: "True",
-        optionB: "False",
-        answer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The king's love for the ragged scholar grew stronger because of the rumors spread by the courtiers.",
-        optionA: "True",
-        optionB: "False",
-        answer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The king followed the ragged scholar into an inner chamber and discovered a magical charm.",
-        optionA: "True",
-        optionB: "False",
-        answer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The ragged scholar's choice of riches brought him lasting happiness and contentment.",
-        optionA: "True",
-        optionB: "False",
-        answer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The fairy gave health to a little child, which was the most precious gift.",
-        optionA: "True",
-        optionB: "False",
-        answer: "True",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "The audience day at the king's court is a day for both the rich and poor to present their grievances to the king.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The ragged man who approached the king was the only supplicant who failed to ask the king for a boon.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The prime minister believed that a wife's care for her husband's body depends on her wealth.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The most serviceable thing in the world, according to the ragged man, is wisdom.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The ragged scholar approached the king for aid because he was hungry and needed food for himself.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The king decided to grant the ragged scholar a large sum of money to help him and his wife.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The courtiers at the king's court spread rumors about the ragged scholar, accusing him of practicing dark and magical arts.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The king, influenced by the courtiers' rumors, grew more fond of the ragged scholar and promoted him to the highest position in the court.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The minister, when confronted about the rumors, revealed a treasure trove of gold and jewels in his silver chest.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The ragged scholar, despite his rise to power, continued to spend his time wandering in rags.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

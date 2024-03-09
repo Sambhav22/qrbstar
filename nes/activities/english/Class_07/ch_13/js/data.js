@@ -1,250 +1,264 @@
-export const chapter = "Chapter - 13: The Mobile Phone";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -13: The Mobile Phone";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "What is the primary concern expressed in the text?",
-        optionA: "The nutritional habits of children",
-        optionB: "The impact of mobile screens on children",
-        optionC: "The importance of outdoor activities for children",
-        correctAnswer: "B",
-     }),
-      shuffleOptions({
-        question:
-          "According to the text, what is the author's opinion of mobile screens for children?",
-        optionA: "They are a valuable educational tool.",
-        optionB: "They should be used in moderation.",
-        optionC: "They should be avoided altogether.",
-        correctAnswer: "C",
-     }),
-      shuffleOptions({
-        question:
-          "What does the author say about the effect of mobile screens on a child's brain?",
-        optionA: "It enhances their creativity.",
-        optionB: "It makes them more intelligent.",
-        optionC: "It rots the sense in the head and kills imagination.",
-        correctAnswer: "C",
-     }),
-      shuffleOptions({
-        question:
-          "How does the author suggest parents can entertain their children without mobile screens?",
-        optionA: "Encourage them to play outside.",
-        optionB: "Provide them with a variety of books to read.",
-        optionC: "Let them watch television instead.",
-        correctAnswer: "B",
-     }),
-      shuffleOptions({
-        question:
-          "According to the text, what did children do before the invention of mobile screens?",
-        optionA: "They played video games.",
-        optionB: "They engaged in outdoor activities.",
-        optionC: "They used to read books.",
-        correctAnswer: "C",
-     }),
-      shuffleOptions({
-        question:
-          "What does the author suggest replacing the mobile screen with?",
-        optionA: "Outdoor play equipment",
-        optionB: "A lovely bookshelf with books",
-        optionC: "A bigger television",
-        correctAnswer: "B",
-     }),
-      shuffleOptions({
-        question: "How does the text describe the impact of books on children?",
-        optionA: "Books are boring and unhelpful.",
-        optionB: "Books stimulate children's imaginations and bring joy.",
-        optionC: "Books are outdated and irrelevant.",
-        correctAnswer: "B",
-     }),
-      shuffleOptions({
-        question:
-          "What kind of stories are mentioned that children used to read in the text?",
-        optionA: "Stories about cooking and recipes",
-        optionB: "Adventure and fantasy tales",
-        optionC: "Historical non-fiction",
-        correctAnswer: "B",
-     }),
-      shuffleOptions({
-        question:
-          "What is the author's attitude towards mobile screens in the text?",
-        optionA: "They are necessary for modern education.",
-        optionB: "They are a source of joy for children.",
-        optionC: "They are portrayed in a negative light.",
-        correctAnswer: "C",
-     }),
-      shuffleOptions({
-        question:
-          "According to the text, what will happen to children if mobile screens are replaced with books?",
-        optionA: "They will become bored and unhappy.",
-        optionB: "They will grow more curious and enthusiastic readers.",
-        optionC: "They will miss out on modern technology.",
-        correctAnswer: "B",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "What is the author's main concern about mobile screens in the text?",
+          optionA: "They are too expensive",
+          optionB: "They can be addictive for children",
+          optionC: "They are not useful for adults",
+          correctAnswer: "b. They can be addictive for children",
+        },
+        {
+          question:
+            "According to the author, what negative impact can mobile screens have on children?",
+          optionA: "They improve imagination",
+          optionB: "They make children dull and blind",
+          optionC: "They encourage outdoor activities",
+          correctAnswer: "b. They make children dull and blind",
+        },
+        {
+          question:
+            "How does the author suggest replacing mobile screens in the text?",
+          optionA: "With outdoor games",
+          optionB: "With a bookshelf and books",
+          optionC: "With educational apps",
+          correctAnswer: "b. With a bookshelf and books",
+        },
+        {
+          question:
+            "What did children use to do for entertainment before the invention of mobile screens, according to the text?",
+          optionA: "Play video games",
+          optionB: "Watch television",
+          optionC: "Read books",
+          correctAnswer: "c. Read books",
+        },
+        {
+          question:
+            "What is the author's tone towards mobile screens in the text?",
+          optionA: "Neutral",
+          optionB: "Positive",
+          optionC: "Negative",
+          correctAnswer: "c. Negative",
+        },
+        {
+          question:
+            "According to the text, what did the younger ones have by Beatrix Potter?",
+          optionA: "Purple pants",
+          optionB: "Fairyland",
+          optionC: "Dirty rotter",
+          correctAnswer: "b. Fairyland",
+        },
+        {
+          question:
+            "What does the author suggest about the impact of books on children in the text?",
+          optionA: "Books have no impact on children",
+          optionB: "Books enhance creativity and joy",
+          optionC: "Books make children dull",
+          correctAnswer: "b. Books enhance creativity and joy",
+        },
+        {
+          question:
+            "What activity does the author recommend to replace mobile screen usage?",
+          optionA: "Outdoor sports",
+          optionB: "Reading books",
+          optionC: "Playing with toys",
+          correctAnswer: "b. Reading books",
+        },
+        {
+          question:
+            "What does the author promise will happen if mobile screens are replaced with books?",
+          optionA: "Children will become more addicted",
+          optionB: "Children will lose interest in reading",
+          optionC: "Children will grow keen and love the change",
+          correctAnswer: "c. Children will grow keen and love the change",
+        },
+        {
+          question:
+            "How does the author describe the mobile screen in the text?",
+          optionA: "Lovely and clean",
+          optionB: "Repulsive and foul",
+          optionC: "Educational and useful",
+          correctAnswer: "b. Repulsive and foul",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "In almost every house we've been, we've watched them gaping at the ___________.",
-        options: ["sky", "screen", "book"],
-        correctAnswer: "screen",
-     }),
-      shuffleOptions({
-        question:
-          "They loll and slop and lounge about, And stare until their eyes ___________.",
-        options: ["close", "pop out", "brighten"],
-        correctAnswer: "pop out",
-     }),
-      shuffleOptions({
-        question:
-          "But did you ever stop to think, To wonder just exactly what This does to your beloved ________?",
-        options: ["pet", "child", "neighbor"],
-        correctAnswer: "child",
-     }),
-      shuffleOptions({
-        question: "HIS BRAIN BECOMES AS ________ AS CHEESE!",
-        options: ["sharp", "soft", "clear"],
-        correctAnswer: "soft",
-     }),
-      shuffleOptions({
-        question:
-          "We'll answer this by asking you, 'What used the darling ones to do? How used they keep themselves ___________ Before this monster was invented?'",
-        options: ["busy", "entertained", "contented"],
-        correctAnswer: "contented",
-     }),
-      shuffleOptions({
-        question:
-          "Oh, books, what books they used to ___________ Those children living long ago!",
-        options: ["enjoy", "hate", "read"],
-        correctAnswer: "read",
-     }),
-      shuffleOptions({
-        question:
-          "Such wondrous, fine, fantastic tales Of ___________, gypsies, queens, and whales",
-        options: ["dragons", "robots", "cars"],
-        correctAnswer: "dragons",
-     }),
-      shuffleOptions({
-        question:
-          "And Mr. Toad, and bless my soul, There's Mr. Rat and Mr. Mole— Oh, books, what books they used to ___________ Those children living long ago!",
-        options: ["detest", "treasure", "miss"],
-        correctAnswer: "treasure",
-     }),
-      shuffleOptions({
-        question:
-          "So please, oh please, we beg, we ___________; Go throw your mobile set away, And in its place you can install",
-        options: ["pray", "play", "nag"],
-        correctAnswer: "pray",
-     }),
-      shuffleOptions({
-        question:
-          "And later, each and every kid Will love you more for what you ___________.",
-        options: ["did", "didn't do", "ignored"],
-        correctAnswer: "did",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "The most important thing we've learned, So far as children are concerned, Is never, NEVER, NEVER let Them near your mobile set. Or better still, just don't buy The idiotic thing at all.",
+          optionA: "Engaged",
+          optionB: "Hypnotized",
+          optionC: "Bored",
+          correctAnswer: "b. Hypnotized",
+        },
+        {
+          question:
+            "Oh yes, we know it keeps them still, They don't climb out the window sill, They never fight or kick or punch, They leave you free to cook the lunch And wash the dishes in the sink-",
+          optionA: "Cat",
+          optionB: "Spot",
+          optionC: "Tot",
+          correctAnswer: "c. Tot",
+        },
+        {
+          question:
+            "IT ROTS THE SENSE IN THE HEAD! IT KILLS IMAGINATION DEAD! IT CLOGS AND CLUTTERS UP THE MIND!",
+          optionA: "Hard",
+          optionB: "Soft",
+          optionC: "Sharp",
+          correctAnswer: "b. Soft",
+        },
+        {
+          question:
+            "HE CANNOT THINK - HE ONLY SEES! 'All right!' you'll cry. 'All right!' you'll say, 'But if we take the set away, What shall we do to entertain Our darling children? Please explain!'",
+          optionA: "Born",
+          optionB: "Created",
+          optionC: "Invented",
+          correctAnswer: "c. Invented",
+        },
+        {
+          question:
+            "THEY ... USED ... TO ... READ! They'd READ and READ, AND READ and READ, and then proceed To READ some more. Great Scott! Gadzooks! One-half their lives was reading books!",
+          optionA: "Aplenty",
+          optionB: "Abundant",
+          optionC: "Galore",
+          correctAnswer: "c. Galore",
+        },
+        {
+          question:
+            "Such wondrous, fine, fantastic tales Of dragons, gypsies, queens, and whales And treasure isles, and distant shores Where smugglers rowed with ___________.",
+          optionA: "Hats",
+          optionB: "Coats",
+          optionC: "Pants",
+          correctAnswer: "c. Pants",
+        },
+        {
+          question:
+            "And in the bedroom, by the bed, More books were waiting to-be-read!­ The younger ones had Beatrix Potter With Mr. Tod, the dirty rotter, And Squirrel Nutkin, Pigling Bland, And Mrs. Tiggy-Winkle and ___________.",
+          optionA: "Hump",
+          optionB: "Jump",
+          optionC: "Lump",
+          correctAnswer: "a. Hump",
+        },
+        {
+          question:
+            "So please, oh please, we beg, we pray; Go throw your mobile set away, And in its place you can install A lovely ___________ on the wall.",
+          optionA: "Television",
+          optionB: "Bookshelf",
+          optionC: "Computer",
+          correctAnswer: "b. Bookshelf",
+        },
+        {
+          question:
+            "Of having nothing else to do, They'll now begin to feel the ___________ Of having something to read.",
+          optionA: "Boredom",
+          optionB: "Joy",
+          optionC: "Anguish",
+          correctAnswer: "b. Joy",
+        },
+        {
+          question:
+            "That, in about a week or two Of having nothing else to do, They'll now begin to feel the ___________ Of having something to read.",
+          optionA: "Did",
+          optionB: "Said",
+          optionC: "Hid",
+          correctAnswer: "a. Did",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "The author suggests that children should be kept away from mobile screens.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "According to the text, mobile screens have a positive impact on children's creativity.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The author encourages parents to replace mobile screens with a bookshelf filled with books.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The text mentions that children used to engage in outdoor activities before the invention of mobile screens.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The author believes that mobile screens are essential for modern education.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "According to the text, books stimulate children's imaginations and bring joy.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The text mentions that children should play video games instead of reading books.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The author thinks that mobile screens are a source of joy for children.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The text advises parents to continue allowing their children to watch television.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "According to the text, replacing mobile screens with books will make children miss out on modern technology.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "Cattle are often referred to as a farmer's second most precious possession after gold.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "b. False",
+        },
+        {
+          question:
+            "In Hinduism, Lord Krishna is known as Govind, which means the consumer of cows.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "a. True",
+        },
+        {
+          question:
+            "The five products of a cow, including milk, urine, dung, curd, and ghee, are collectively known as Pentalogy.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "b. False",
+        },
+        {
+          question:
+            "Buffalo milk in India is considered healthier than cow milk due to its higher content of protein.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "b. False",
+        },
+        {
+          question:
+            "The cattle found in India are unique to the Indian subcontinent and are not found in African countries.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "b. False",
+        },
+        {
+          question:
+            "The domesticated cattle differ from wild ones in their smaller size, horns, and the development of milk characteristics.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "a. True",
+        },
+        {
+          question:
+            "The cattle's stomach is divided into three sections, which play different roles in digestion.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "b. False",
+        },
+        {
+          question:
+            "Some courtiers grow jealous of the ragged minister in the story due to his magical powers at the court.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "b. False",
+        },
+        {
+          question:
+            "The minister's daily routine is falsely rumored to include practicing conspiracy before meeting the king.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "a. True",
+        },
+        {
+          question:
+            "To preserve milk and eliminate bacteria, it is recommended to carry out proper feeding.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "b. False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

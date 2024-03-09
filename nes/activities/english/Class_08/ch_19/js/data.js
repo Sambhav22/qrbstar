@@ -1,244 +1,264 @@
-export const chapter = "Chapter - 19: Buddha's Death";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -19: Buddha's Death";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Who wandered in many lands teaching truth to many nations?",
-        optionA: "Buddha",
-        optionB: "Buddha's faithful friend",
-        optionC: "Both A and B",
-        correctAnswer: "C) Both A and B",
-     }),
-      shuffleOptions({
-        question:
-          "Along the pathway, what unusual occurrences are associated with the saintly Master's presence?",
-        optionA: "Fruit trees blossomed out of season",
-        optionB: "A lovely fragrance in the air",
-        optionC: "All of the above",
-        correctAnswer: "C) All of the above",
-     }),
-      shuffleOptions({
-        question:
-          "What does the saintly Master whisper to his friend Ananda regarding true worship?",
-        optionA:
-          "True worship is rendered by offering flowers and sandal-powder.",
-        optionB: "True worship is rendered through heavenly music.",
-        optionC: "True worship is not rendered by these things.",
-        correctAnswer: "C) True worship is not rendered by these things.",
-     }),
-      shuffleOptions({
-        question: "According to the text, who performs true worship?",
-        optionA: "Those who offer flowers and sandal-powder",
-        optionB: "The brother and the sister",
-        optionC: "Those who enjoy heavenly music",
-        correctAnswer: "B) The brother and the sister",
-     }),
-      shuffleOptions({
-        question:
-          "What was the condition of saintly Buddha when night came on?",
-        optionA: "He was sleeping peacefully.",
-        optionB: "He was suffering and sick.",
-        optionC: "He was teaching the Brahman.",
-        correctAnswer: "B) He was suffering and sick.",
-     }),
-      shuffleOptions({
-        question: "Who came to see the holy man when night came on?",
-        optionA: "Ananda",
-        optionB: "A Brahman seeking wisdom",
-        optionC: "A woman holy",
-        correctAnswer: "B) A Brahman seeking wisdom",
-     }),
-      shuffleOptions({
-        question:
-          "What did Buddha assure the pious stranger who came seeking wisdom?",
-        optionA: "The stranger would receive riches and fame.",
-        optionB: "The stranger would find nothing of value.",
-        optionC: "The stranger would not come to him in vain.",
-        correctAnswer: "C) The stranger would not come to him in vain.",
-     }),
-      shuffleOptions({
-        question: "How did Buddha communicate the truth to the pious stranger?",
-        optionA: "He sang a song.",
-        optionB: "He wrote a book.",
-        optionC: "He spoke the truth in language plain.",
-        correctAnswer: "C) He spoke the truth in language plain.",
-     }),
-      shuffleOptions({
-        question:
-          "What happened to Buddha after he taught the law to the pious stranger?",
-        optionA: "He continued teaching others.",
-        optionB: "He fell into a deep sleep.",
-        optionC: "He stopped speaking and never spoke again.",
-        correctAnswer: "C) He stopped speaking and never spoke again.",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "What did they say happened along the pathway as the saintly Master went?",
+          optionA: "Fruit trees blossomed out of season",
+          optionB: "It rained heavily",
+          optionC: "The path became treacherous",
+          correctAnswer: "A. Fruit trees blossomed out of season",
+        },
+        {
+          question:
+            "According to the saintly Master, how is the soul's true worship rendered?",
+          optionA: "By flowers and sandal-powder",
+          optionB: "By music's heavenly strain",
+          optionC: "By a devout man and a holy woman",
+          correctAnswer: "C. By a devout man and a holy woman",
+        },
+        {
+          question:
+            "What did Buddha tell his friend Ananda about the external offerings like flowers and sandal-powder?",
+          optionA: "They are essential for worship",
+          optionB: "They are useless and vain",
+          optionC: "They are optional but appreciated",
+          correctAnswer: "B. They are useless and vain",
+        },
+        {
+          question:
+            "What did the Brahman, seeking wisdom, find when he came to see the saintly Buddha?",
+          optionA: "Buddha was enjoying good health",
+          optionB: "Buddha was sleeping peacefully",
+          optionC: "Buddha was suffering, sick, and wan",
+          correctAnswer: "C. Buddha was suffering, sick, and wan",
+        },
+        {
+          question:
+            "Who did Buddha say would not come to him in vain when seeking wisdom?",
+          optionA: "A merchant",
+          optionB: "A pious stranger",
+          optionC: "A warrior",
+          correctAnswer: "B. A pious stranger",
+        },
+        {
+          question:
+            "What did the saintly Master do when a Brahman seeking wisdom came to see him?",
+          optionA: "Ignored him",
+          optionB: "Anxiously stopped him",
+          optionC: "Welcomed him with joy",
+          correctAnswer: "B. Anxiously stopped him",
+        },
+        {
+          question:
+            "According to the text, what did NOT happen along the pathway as the saintly Master went?",
+          optionA: "Fruit trees blossomed out of season",
+          optionB: "Lovely fragrance lent",
+          optionC: "Rocks and thorns appeared",
+          correctAnswer: "C. Rocks and thorns appeared",
+        },
+        {
+          question:
+            "How did the saintly Master teach the law to the pious stranger?",
+          optionA: "With written scriptures",
+          optionB: "With dying accents",
+          optionC: "Through a disciple",
+          correctAnswer: "B. With dying accents",
+        },
+        {
+          question:
+            "According to the text, what should you not let your dreams become?",
+          optionA: "Unachievable",
+          optionB: "Your master",
+          optionC: "Ignored",
+          correctAnswer: "B. Your master",
+        },
+        {
+          question:
+            "Who, according to the text, truly performs the soul's worship?",
+          optionA: "A wealthy person",
+          optionB: "A devout man and a holy woman",
+          optionC: "A scholar",
+          correctAnswer: "B. A devout man and a holy woman",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "Thus in many lands they wandered, Buddha and his faithful friend, Teaching truth to many nations, Till his life approached its ___________.",
-        options: ["conclusion", "destination", "end"],
-        correctAnswer: "end",
-     }),
-      shuffleOptions({
-        question:
-          "And they say, along the pathway, as the saintly Master went, Fruit trees blossomed out of season And a lovely fragrance ___________!",
-        options: ["filled the air", "was present", "lent"],
-        correctAnswer: "lent",
-     }),
-      shuffleOptions({
-        question:
-          "But the saintly Master whispered To his friend beloved and blest, 'Tis not thus, 0 friend Ananda! That the Buddha's honoured ___________.",
-        options: ["followers", "best", "path"],
-        correctAnswer: "best",
-     }),
-      shuffleOptions({
-        question:
-          "Not by flowers or sandal-powder, Not by music's heavenly strain, Is the soul's true worship ___________, Useless are these things and vain!",
-        options: ["celebrated", "rendered", "adorned"],
-        correctAnswer: "rendered",
-     }),
-      shuffleOptions({
-        question:
-          "But the brother and the sister, Man devout and woman holy, Pure in life, in duty faithful, They perform the worship ___________!",
-        options: ["devoutly", "truly", "eagerly"],
-        correctAnswer: "truly",
-     }),
-      shuffleOptions({
-        question:
-          "Night came on, and saintly Buddha Slept in suffering, sick and ___________,",
-        options: ["joyful", "energetic", "wan"],
-        correctAnswer: "wan",
-     }),
-      shuffleOptions({
-        question:
-          "When a Brahman, seeking ___________, Came to see the holy man.",
-        options: ["riches", "wisdom", "fame"],
-        correctAnswer: "wisdom",
-     }),
-      shuffleOptions({
-        question:
-          "Anxiously Ananda stopped him, But spoke Buddha, though in ___________ 'He who comes to seek for wisdom Shall not come to me in vain!'",
-        options: ["anger", "pain", "joy"],
-        correctAnswer: "pain",
-     }),
-      shuffleOptions({
-        question:
-          "And he to the pious stranger Told the truth in language plain, Taught the law with dying accents, Stopped, and never spoke ___________!",
-        options: ["loudly", "again", "softly"],
-        correctAnswer: "again",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "Thus in many lands they wandered, Buddha and his faithful friend, teaching truth to many nations, till his life approached its __________.",
+          optionA: "zenith",
+          optionB: "pinnacle",
+          optionC: "terminus",
+          correctAnswer: "C. terminus",
+        },
+        {
+          question:
+            "And they say, along the pathway, as the saintly Master went, fruit trees blossomed out of __________.",
+          optionA: "sequence",
+          optionB: "season",
+          optionC: "order",
+          correctAnswer: "B. season",
+        },
+        {
+          question:
+            "But the saintly Master whispered to his friend beloved and blest, 'Tis not thus, O friend Ananda! That the Buddha's honored __________.",
+          optionA: "glory",
+          optionB: "esteem",
+          optionC: "best",
+          correctAnswer: "C. best",
+        },
+        {
+          question:
+            "Not by flowers or sandal-powder, not by music's heavenly strain, is the soul's true worship __________.",
+          optionA: "validated",
+          optionB: "rendered",
+          optionC: "concluded",
+          correctAnswer: "B. rendered",
+        },
+        {
+          question:
+            "But the brother and the sister, man devout and woman holy, pure in life, in duty faithful, they perform the worship __________.",
+          optionA: "absolutely",
+          optionB: "genuinely",
+          optionC: "necessarily",
+          correctAnswer: "B. genuinely",
+        },
+        {
+          question:
+            "Night came on, and saintly Buddha slept in suffering, sick and __________.",
+          optionA: "weak",
+          optionB: "wan",
+          optionC: "frail",
+          correctAnswer: "B. wan",
+        },
+        {
+          question:
+            "When a Brahman, seeking wisdom, came to see the holy man, anxiously Ananda __________ him.",
+          optionA: "questioned",
+          optionB: "stopped",
+          optionC: "welcomed",
+          correctAnswer: "B. stopped",
+        },
+        {
+          question:
+            "But spoke Buddha, though in pain, 'He who comes to seek for wisdom shall not come to me in __________!'",
+          optionA: "despair",
+          optionB: "futility",
+          optionC: "vain",
+          correctAnswer: "C. vain",
+        },
+        {
+          question:
+            "And he to the pious stranger told the truth in language __________.",
+          optionA: "intricate",
+          optionB: "plain",
+          optionC: "elaborate",
+          correctAnswer: "B. plain",
+        },
+        {
+          question:
+            "Taught the law with dying accents, stopped, and never spoke __________.",
+          optionA: "later",
+          optionB: "again",
+          optionC: "moreover",
+          correctAnswer: "B. again",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "The speaker in the text emphasizes the importance of patience and self-trust.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The text suggests that it's acceptable to deal in lies when being lied about.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "According to the text, it is advisable to give way to hating when being hated.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The text advises looking too good and talking too wisely.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The text encourages making dreams your master.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Triumph and disaster are described as impostors in the text.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The text suggests retaliating when the truth you've spoken is twisted by knaves.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The ultimate reward for following the described principles in the text is worldly success.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The text implies that the traveler met a beautiful child on his journey.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The speaker in the text advocates losing patience when all about you are losing theirs.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "Buddha and his faithful friend wandered in many lands teaching truth to many nations.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Fruit trees blossomed out of season along the pathway as the saintly Master went.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The saintly Master whispered that the soul's true worship is rendered by flowers and sandal-powder.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "According to the text, the brother and the sister perform the soul's worship truly.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Saintly Buddha slept peacefully when night came on, and he was healthy and strong.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Ananda stopped a Brahman seeking wisdom from seeing the saintly man.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Buddha spoke with joy, welcoming the pious stranger who sought wisdom.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The saintly Master emphasized that external offerings like flowers are essential for worship.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The Brahman seeking wisdom left without gaining any insights from the saintly Buddha.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The text advises that one should confront those who doubt them when seeking wisdom.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

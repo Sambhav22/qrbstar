@@ -1,247 +1,258 @@
-export const chapter = "Chapter - 12: At the Top of the World ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -12: At the Top of the World";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Why do people want to look at mountains for a long time?",
-        optionA: "Because they are challenging to climb",
-        optionB: "Because they look beautiful and mysterious",
-        optionC: "Because they are covered with snow",
-        correctAnswer: "Because they look beautiful and mysterious",
-     }),
-      shuffleOptions({
-        question:
-          "What makes mountains covered with snow appear more charming?",
-        optionA: "The shiny silver appearance",
-        optionB: "The challenging climb",
-        optionC: "The dangerous nature of mountaineering",
-        correctAnswer: "The shiny silver appearance",
-     }),
-      shuffleOptions({
-        question: "What is the highest peak in the world among the Himalayas?",
-        optionA: "Mount Kilimanjaro",
-        optionB: "Mount K2",
-        optionC: "Mount Everest",
-        correctAnswer: "Mount Everest",
-     }),
-      shuffleOptions({
-        question:
-          "What personal qualities are essential for successful mountaineering?",
-        optionA: "Patience and creativity",
-        optionB: "Fortitude and courage",
-        optionC: "Kindness and humility",
-        correctAnswer: "Fortitude and courage",
-     }),
-      shuffleOptions({
-        question: "When did Bachendri Pal's first climb start?",
-        optionA: "8 May",
-        optionB: "15-16 May",
-        optionC: "1 May",
-        correctAnswer: "8 May",
-     }),
-      shuffleOptions({
-        question: "What caused an avalanche at Camp III?",
-        optionA: "A loud explosion",
-        optionB: "A heavy object falling on the camp",
-        optionC: "A strong wind blowing",
-        correctAnswer: "A loud explosion",
-     }),
-      shuffleOptions({
-        question:
-          "What was the temperature at the South Col camp on 23 May, 1984?",
-        optionA: "Minus 30 or 40 degrees",
-        optionB: "Minus 10 degrees",
-        optionC: "Zero degrees",
-        correctAnswer: "Minus 30 or 40 degrees",
-     }),
-      shuffleOptions({
-        question: "How many teammates joined Bachendri Pal at the Summit Camp?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        correctAnswer: "Two",
-     }),
-      shuffleOptions({
-        question:
-          "What did Bachendri Pal do when she reached the summit of Mount Everest?",
-        optionA: "She started climbing down immediately.",
-        optionB: "She kissed the peak and said a short prayer.",
-        optionC: "She took a long rest.",
-        correctAnswer: "She kissed the peak and said a short prayer.",
-     }),
-      shuffleOptions({
-        question:
-          "What made Bachendri Pal the first Indian woman to reach the summit of Mount Everest?",
-        optionA: "She was the first woman in the world to do so.",
-        optionB: "She reached the summit before her teammates.",
-        optionC: "She was the fifth woman in the world to reach the summit.",
-        correctAnswer:
-          "She was the fifth woman in the world to reach the summit.",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "What is the primary reason people are attracted to mountains, as mentioned in the passage?",
+          optionA: "Because they are covered with snow",
+          optionB: "Due to their infinite beauty",
+          optionC: "Because they are the highest points in the world",
+          correctAnswer: "Due to their infinite beauty",
+        },
+        {
+          question:
+            "Among the Himalayas, which mountain is mentioned as the highest peak in the world?",
+          optionA: "K2",
+          optionB: "Mount Everest",
+          optionC: "Annapurna",
+          correctAnswer: "Mount Everest",
+        },
+        {
+          question:
+            "What qualities are mentioned as essential for mountaineering success?",
+          optionA: "Teamwork and personal qualities like fortitude and courage",
+          optionB: "Physical strength and technical skills",
+          optionC: "Planning and preparation",
+          correctAnswer:
+            "Teamwork and personal qualities like fortitude and courage",
+        },
+        {
+          question:
+            "What happened during the ascent on 15-16 May, according to the passage?",
+          optionA: "They reached the Summit Camp",
+          optionB: "They faced severe cold",
+          optionC: "An avalanche occurred, and Bachendri Pal was injured",
+          correctAnswer: "An avalanche occurred, and Bachendri Pal was injured",
+        },
+        {
+          question: "What did Bachendri Pal do after the avalanche incident?",
+          optionA: "She decided to abandon the climb",
+          optionB: "She continued to climb up further",
+          optionC: "She called for immediate evacuation",
+          correctAnswer: "She continued to climb up further",
+        },
+        {
+          question:
+            "On which date did Bachendri Pal and her teammate start the ascent towards the summit?",
+          optionA: "15 May, 1984",
+          optionB: "22 May, 1984",
+          optionC: "23 May, 1984",
+          correctAnswer: "23 May, 1984",
+        },
+        {
+          question:
+            "What did Bachendri Pal and her teammate use to avoid skidding on the steep frozen slopes?",
+          optionA: "Ice-axes",
+          optionB: "Ropes",
+          optionC: "Crampons",
+          correctAnswer: "Ice-axes",
+        },
+        {
+          question: "What time did Bachendri Pal reach the summit?",
+          optionA: "4:00 a.m.",
+          optionB: "6:20 a.m.",
+          optionC: "1:07 p.m.",
+          correctAnswer: "1:07 p.m.",
+        },
+        {
+          question: "What did Bachendri Pal do when she reached the summit?",
+          optionA: "She immediately began descending",
+          optionB: "She kissed the peak and said a short prayer",
+          optionC: "She celebrated for an hour",
+          correctAnswer: "She kissed the peak and said a short prayer",
+        },
+        {
+          question: "What was Bachendri Pal's achievement on Everest?",
+          optionA: "First woman to attempt the climb",
+          optionB:
+            "Fifth woman in the world and the first Indian to reach the summit",
+          optionC: "Leader of the climbing team",
+          correctAnswer:
+            "Fifth woman in the world and the first Indian to reach the summit",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "Mountaineering is essentially ________ - - - a team work, but without personal qualities like fortitude and courage, it is hard to succeed.",
-        options: ["about", "primarily", "mainly"],
-        correctAnswer: "primarily",
-     }),
-      shuffleOptions({
-        question:
-          "Bachendri Pal's first climb started on ________ May. She stayed at the Camp II on 9 May. She reached the Camp III on 15-16 May.",
-        options: ["7", "8", "10"],
-        correctAnswer: "8",
-     }),
-      shuffleOptions({
-        question:
-          "Bachendri Pal woke up early morning at 4 a.m. on 23 May, 1984. The temperature was as low as minus 30 or 40 degrees. She and her teammate Ang Dorjee started the ascent. The two were determined to face any challenge. Step by step they moved ahead on the steep frozen slopes. Severe cold had virtually turned the ice into hard and brittle glass. To avoid skidding, they were using their ________.",
-        options: ["backpacks", "ice-axes", "ropes"],
-        correctAnswer: "ice-axes",
-     }),
-      shuffleOptions({
-        question:
-          "In less than two hours, they were at the ________ Camp. They took a brief rest, made themselves tea and were preparing to move ahead when another teammate, Lhatoo joined them.",
-        options: ["Base", "Summit", "South Col"],
-        correctAnswer: "Summit",
-     }),
-      shuffleOptions({
-        question:
-          "As they gained height, the speed of breeze increased. The strong winds whipped up the powder snow, reducing the visibility to almost ________.",
-        options: ["clear", "normal", "nil"],
-        correctAnswer: "nil",
-     }),
-      shuffleOptions({
-        question:
-          "It was dangerous to walk on the ________ ridge with sheer drop on either side.",
-        options: ["flat", "broad", "knife-edge"],
-        correctAnswer: "knife-edge",
-     }),
-      shuffleOptions({
-        question:
-          "Bachendri Pal took step after step, digging her ice-axe into the ice at every step. After a long hard work, when she raised her head, she found that her goal was within her reach. The peak was just a few steps away. The sun was shining bright, and soon she found that she was standing atop the ________.",
-        options: ["valley", "hill", "world"],
-        correctAnswer: "world",
-     }),
-      shuffleOptions({
-        question:
-          "It was 1:07 p.m. when she reached the summit; she was the fifth woman in the world and the first Indian to do so. Bachendri Pal knelt down in gratitude and kissed the peak. She buried the image of ________ and her Hanuman Chalisa wrapping it in a piece of red cloth.",
-        options: ["Buddha", "Goddess Durga", "Jesus"],
-        correctAnswer: "Goddess Durga",
-     }),
-      shuffleOptions({
-        question:
-          "After every few steps, she would look back at the highest peak with ________ and delight.",
-        options: ["satisfaction", "reverence", "despair"],
-        correctAnswer: "reverence",
-     }),
-      shuffleOptions({
-        question:
-          "Bachendri Pal achieved the incredible feat of reaching the ________ point in the world.",
-        options: ["highest", "lowest", "deepest"],
-        correctAnswer: "highest",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question: "When covered with snow, mountains shine like __________.",
+          optionA: "Gold",
+          optionB: "Silver",
+          optionC: "Crystal",
+          correctAnswer: "Silver",
+        },
+        {
+          question:
+            "Bachendri Pal was born in 1954 in the village of Nakuri in __________.",
+          optionA: "Garhwal",
+          optionB: "Annapurna",
+          optionC: "K2",
+          correctAnswer: "Garhwal",
+        },
+        {
+          question: "Mount Everest is the __________ peak in the world.",
+          optionA: "Tallest",
+          optionB: "Shortest",
+          optionC: "Steepest",
+          correctAnswer: "Tallest",
+        },
+        {
+          question:
+            "Mountaineering is a challenging adventure that requires planning, preparation, training, and __________ of resources.",
+          optionA: "Utilization",
+          optionB: "Conservation",
+          optionC: "Management",
+          correctAnswer: "Management",
+        },
+        {
+          question:
+            "Bachendri Pal's first climb on Everest started on __________, 1984.",
+          optionA: "1 May",
+          optionB: "8 May",
+          optionC: "15 May",
+          correctAnswer: "8 May",
+        },
+        {
+          question: "Bachendri Pal reached the Summit Camp on __________ May.",
+          optionA: "9",
+          optionB: "15",
+          optionC: "22",
+          correctAnswer: "9",
+        },
+        {
+          question:
+            "The avalanche incident occurred when Bachendri Pal was at __________.",
+          optionA: "Camp II",
+          optionB: "Camp III",
+          optionC: "South Col camp",
+          correctAnswer: "Camp III",
+        },
+        {
+          question:
+            "Bachendri Pal and her teammate Ang Dorjee started the ascent to the summit on __________ May, 1984.",
+          optionA: "15",
+          optionB: "22",
+          optionC: "23",
+          correctAnswer: "23",
+        },
+        {
+          question:
+            "The temperature during the ascent was as low as __________ degrees.",
+          optionA: "Minus 20",
+          optionB: "Minus 30 or 40",
+          optionC: "Minus 50",
+          correctAnswer: "Minus 30 or 40",
+        },
+        {
+          question:
+            "Bachendri Pal reached the summit at __________ on 23 May, 1984.",
+          optionA: "4:00 a.m.",
+          optionB: "6:20 a.m.",
+          optionC: "1:07 p.m.",
+          correctAnswer: "1:07 p.m.",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "Mountains look beautiful and mysterious, especially when covered with snow.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "The Himalayas are the highest mountain range in the world.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Bachendri Pal's first climb started on 8 May, 1984.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Bachendri Pal and her team encountered an avalanche at Camp III.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Bachendri Pal and her teammate Ang Dorjee reached the Summit Camp in less than two hours.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The temperature at the South Col camp on 23 May, 1984, was about 10 degrees.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Bachendri Pal and her team used backpacks to prevent skidding on the steep frozen slopes.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Bachendri Pal was the first woman in the world to reach the summit of Mount Everest.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Bachendri Pal buried an image of Lord Buddha at the summit of Mount Everest.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Bachendri Pal's ascent to the summit of Mount Everest took less than an hour.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "Mount Everest is the highest peak among the Himalayas.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Mountaineering requires only physical strength and technical skills.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Bachendri Pal started her first climb on Mount Everest on 1 May, 1984.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "An avalanche blew over the camp where Bachendri Pal was sleeping during her climb.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "Bachendri Pal reached the Summit Camp on 15-16 May.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Bachendri Pal and her teammate Ang Dorjee started the ascent on 22 May, 1984.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The temperature during the ascent was as low as minus 50 degrees.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Bachendri Pal reached the summit at 4:00 a.m. on 23 May, 1984.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Mountaineering is essentially an individual effort, and teamwork is not crucial.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Bachendri Pal was the first woman in the world to reach the summit of Mount Everest.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

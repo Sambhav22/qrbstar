@@ -1,132 +1,83 @@
-export const chapter = "Chapter - 12: Conduct in a Family";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
-
+export const chapter = "Chapter -12: Conduct in a Family";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      {
-        questions: [
-          {
-            question:
-              "Why do individuals in a family have different likes and dislikes?",
-            options: [
-              "Due to different sense organs",
-              "Because of similar upbringing",
-              "Differences in brain perception",
-            ],
-            answer: "Differences in brain perception",
-          },
-          {
-            question:
-              "What is the role of sensory nerves in the process of developing likes and dislikes?",
-            options: [
-              "Carry information from brain to body",
-              "Transmit information from sense organs to the brain",
-              "Connect different family members",
-            ],
-            answer: "Transmit information from sense organs to the brain",
-          },
-          {
-            question:
-              "How does family influence likes and dislikes according to the passage?",
-            options: [
-              "Family members always have the same preferences",
-              "Traditional upbringing shapes likes and dislikes",
-              "Ethical behavior is irrelevant in family preferences",
-            ],
-            answer: "Traditional upbringing shapes likes and dislikes",
-          },
-          {
-            question:
-              "What factor can influence a person's liking for non-vegetarian dishes according to the text?",
-            options: ["Cultural background", "Occupation", "Mental state"],
-            answer: "Cultural background",
-          },
-          {
-            question:
-              "According to the passage, what is the impact of society or environment on a person's likes and dislikes?",
-            options: [
-              "No impact",
-              "Influences mental state",
-              "Determines occupation",
-            ],
-            answer: "Influences mental state",
-          },
-          {
-            question:
-              "Why do some family members share common traits and beliefs?",
-            options: [
-              "Due to heredity",
-              "Random chance",
-              "Environmental influence",
-            ],
-            answer: "Due to heredity",
-          },
-          {
-            question:
-              "How are special children in families treated according to the text?",
-            options: [
-              "Neglect and isolation",
-              "Treated with love and care",
-              "Sent to regular schools without special care",
-            ],
-            answer: "Treated with love and care",
-          },
-          {
-            question:
-              "What is the Braille script used for according to the passage?",
-            options: [
-              "Writing secret messages",
-              "Communication in high society",
-              "Reading for blind and partially sighted people",
-            ],
-            answer: "Reading for blind and partially sighted people",
-          },
-          {
-            question:
-              "Who designed the Braille script, as mentioned in the text?",
-            options: ["Louis Armstrong", "Louis Braille", "Louis Vuitton"],
-            answer: "Louis Braille",
-          },
-          {
-            question:
-              "How does the passage describe the uniqueness of each member in a family despite certain similarities?",
-            options: [
-              "They all look the same",
-              "Despite similarities, each member is unique",
-              "Similarities are rare in families",
-            ],
-            answer: "Despite similarities, each member is unique",
-          },
-        ],
-      },
+      [
+        {
+          "question": "Why do people have different likes and dislikes?",
+          "optionA": "Due to different perceptions, likes, and dislikes.",
+          "optionB": "Due to similar perceptions, likes, and dislikes.",
+          "optionC": "Due to similar sense organs.",
+          "correctAnswer": "Due to different perceptions, likes, and dislikes."
+        },
+        {
+          "question": "Which nerves carry messages from sensory organs to the brain?",
+          "optionA": "Motor nerves",
+          "optionB": "Sensory nerves",
+          "optionC": "Muscular nerves",
+          "correctAnswer": "Sensory nerves"
+        },
+        {
+          "question": "Family plays a key role in determining our likes and dislikes because __________.",
+          "optionA": "We share the same likes and dislikes as our friends.",
+          "optionB": "We follow the ethics of our family.",
+          "optionC": "We have different upbringing from our family.",
+          "correctAnswer": "We follow the ethics of our family."
+        },
+        {
+          "question": "If a person's family has been consuming non-vegetarian food for generations, the person is likely to develop a preference for __________.",
+          "optionA": "Vegetarian dishes",
+          "optionB": "Non-vegetarian dishes",
+          "optionC": "Fast food",
+          "correctAnswer": "Non-vegetarian dishes"
+        },
+        {
+          "question": "A person's occupation can influence their likes and dislikes based on __________.",
+          "optionA": "Income level",
+          "optionB": "Physical fitness",
+          "optionC": "Education level",
+          "correctAnswer": "Income level"
+        },
+        {
+          "question": "The mental state of an individual can be influenced by __________.",
+          "optionA": "Family traits",
+          "optionB": "Society or environment",
+          "optionC": "Physical appearance",
+          "correctAnswer": "Society or environment"
+        },
+        {
+          "question": "Some members of a family may share common traits due to __________.",
+          "optionA": "Heredity",
+          "optionB": "Occupation",
+          "optionC": "Cultural background",
+          "correctAnswer": "Heredity"
+        },
+        {
+          "question": "What is the term used to refer to people with disabilities?",
+          "optionA": "Abled individuals",
+          "optionB": "Differently abled individuals",
+          "optionC": "Special individuals",
+          "correctAnswer": "Differently abled individuals"
+        },
+        {
+          "question": "What is the writing system used by blind and partially sighted people?",
+          "optionA": "Braille Script",
+          "optionB": "Alphabet Script",
+          "optionC": "Cursive Script",
+          "correctAnswer": "Braille Script"
+        },
+        {
+          "question": "Who designed the Braille script?",
+          "optionA": "Louis Braille",
+          "optionB": "Alexander Graham Bell",
+          "optionC": "Thomas Edison",
+          "correctAnswer": "Louis Braille"
+        }
+      ]
+      
     ],
   };
 }
@@ -135,82 +86,79 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      {
-        fill_in_the_blank_questions: [
-          {
-            question:
-              "Family plays a key role in determining our likes and dislikes. If we belong to a traditional family that follows __________, our upbringing will be the same.",
-            options: ["Modern practices", "Ethics", "Fashion trends"],
-            answer: "Ethics",
-          },
-          {
-            question:
-              "People who are blind read books written in a special script called __________.",
-            options: ["Hieroglyphics", "Morse code", "Braille script"],
-            answer: "Braille script",
-          },
-          {
-            question:
-              "It is a well-known fact that if a person has a good income, then he likes according to his __________.",
-            options: ["Hobbies", "Status", "Education"],
-            answer: "Status",
-          },
-          {
-            question:
-              "Sometimes in families, babies are born with some disabilities. They are physically or mentally challenged and are treated as __________.",
-            options: [
-              "Ordinary children",
-              "Special children",
-              "Exceptional children",
-            ],
-            answer: "Special children",
-          },
-          {
-            question:
-              "If one's family takes non-veg since long, then the person automatically develops the craving for __________ dishes.",
-            options: ["Vegetarian", "Non-vegetarian", "Spicy"],
-            answer: "Non-vegetarian",
-          },
-          {
-            question:
-              "Despite certain similarities, each member of a family is unique and special in __________.",
-            options: ["Their own way", "Appearance", "Personality"],
-            answer: "Their own way",
-          },
-          {
-            question:
-              "The Braille script was designed by a French boy named __________, who went blind following a childhood accident.",
-            options: ["Louis Armstrong", "Louis Braille", "Louis Vuitton"],
-            answer: "Louis Braille",
-          },
-          {
-            question:
-              "Society or environment are the key players in making the __________.",
-            options: [
-              "Sense organs function",
-              "State of mind",
-              "Physical appearance",
-            ],
-            answer: "State of mind",
-          },
-          {
-            question:
-              "If we reside in high society or social environment, we derive our likes and dislikes according to __________ only.",
-            options: [
-              "Personal preferences",
-              "Family traditions",
-              "That environment",
-            ],
-            answer: "That environment",
-          },
-          {
-            question:
-              "Special children in families are provided an education platform using __________ and are sent to special care-giving schools.",
-            options: ["Sign language", "Morse code", "Braille script"],
-            answer: "Braille script",
-          },
-        ],
-      },
+      [
+        {
+          "question": "Family plays a key role in determining our likes and dislikes. If we belong to a traditional family that follows ethics, our upbringing will be the same, we will have likes as per our family and will avoid the group of friends who have __________ behaviour.",
+          "optionA": "Unethical",
+          "optionB": "Friendly",
+          "optionC": "Educated",
+          "correctAnswer": "Unethical"
+        },
+        {
+          "question": "If one's family takes non-veg since long, then the person automatically develops the craving for __________ dishes.",
+          "optionA": "Vegetarian",
+          "optionB": "Non-vegetarian",
+          "optionC": "Fast food",
+          "correctAnswer": "Non-vegetarian"
+        },
+        {
+          "question": "It is a well-known fact that if a person has good income then he likes according to his status. On the other hand, if a person works in a factory and has a limited income, then his likes are only to satisfy his __________ needs.",
+          "optionA": "Luxurious",
+          "optionB": "Basic",
+          "optionC": "Entertainment",
+          "correctAnswer": "Basic"
+        },
+        {
+          "question": "Society or environment are the key players in making the state of mind. If we reside in a high society or social environment, we derive our likes and dislikes according to that only.",
+          "optionA": "High-income",
+          "optionB": "Middle-income",
+          "optionC": "Low-income",
+          "correctAnswer": "High-income"
+        },
+        {
+          "question": "Sometimes it is seen that some members of a family share common traits and beliefs. It is seen that their physical appearance, voice, tone, skin colour, etc. are similar to some members. It is because of __________ or passing of traits from one generation to the other.",
+          "optionA": "Heredity",
+          "optionB": "Environment",
+          "optionC": "Education",
+          "correctAnswer": "Heredity"
+        },
+        {
+          "question": "Babies born with disabilities are treated as special children. Families provide them education platform using __________ and send them to special care giving schools.",
+          "optionA": "Normal textbooks",
+          "optionB": "Braille Script",
+          "optionC": "Digital resources",
+          "correctAnswer": "Braille Script"
+        },
+        {
+          "question": "People who are blind read books written in a special script called __________.",
+          "optionA": "Alphabet Script",
+          "optionB": "Cursive Script",
+          "optionC": "Braille Script",
+          "correctAnswer": "Braille Script"
+        },
+        {
+          "question": "The Braille script was designed by a French boy named __________.",
+          "optionA": "Louis Braille",
+          "optionB": "Alexander Graham Bell",
+          "optionC": "Thomas Edison",
+          "correctAnswer": "Louis Braille"
+        },
+        {
+          "question": "Despite certain similarities, each member of a family is unique and special __________.",
+          "optionA": "In his own way",
+          "optionB": "According to society",
+          "optionC": "Based on wealth",
+          "correctAnswer": "In his own way"
+        },
+        {
+          "question": "Our sense organs sense different things differently because of the way our __________ processes the information.",
+          "optionA": "Skin",
+          "optionB": "Brain",
+          "optionC": "Heart",
+          "correctAnswer": "Brain"
+        }
+      ]
+      
     ],
   };
 }
@@ -219,79 +167,69 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      {
-        true_false_questions: [
-          {
-            question:
-              "All family members have the same preferences based on their upbringing.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "The Braille script enables blind and partially sighted people to read and write through touch.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "A person's liking for non-vegetarian dishes is solely influenced by their occupation.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Special children born in families are often neglected and isolated.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Our sense organs sense things similarly, and differences in likes and dislikes are solely due to upbringing.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Being part of a high society or social environment has no impact on an individual's likes and dislikes.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Members of a family sharing common traits is always due to heredity.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "Special children in families are provided education platforms using sign language.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question: "The Braille script was designed by Louis Armstrong.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "A person's mental state is not influenced by society or environment.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-        ],
-      },
+      [
+        {
+          "question": "Family upbringing has no influence on an individual's likes and dislikes.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "If a person's family has been vegetarian for generations, the person is likely to develop a preference for non-vegetarian dishes.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "Income level does not affect an individual's preferences and likes.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "People's likes and dislikes are solely determined by their individual traits and not influenced by society.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "Traits passed down through generations do not contribute to similarities among family members.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "Special children in families receive the same education as non-disabled children.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "Braille script is a writing system designed for people who are blind or partially sighted.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "True"
+        },
+        {
+          "question": "The Braille script was created by Alexander Graham Bell.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "Every member of a family shares identical characteristics.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "The brain plays a role in processing information from sense organs, leading to different perceptions and preferences.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "True"
+        }
+      ]
+      
     ],
   };
 }

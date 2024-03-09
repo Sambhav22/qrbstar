@@ -1,240 +1,247 @@
-export const chapter = "Chapter - 19: Two Wheels";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -19: Two Wheels";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "What does the author like to look at in the photographs?",
-        optionA: "Photos of friends",
-        optionB: "Photos of their old trike",
-        optionC: "Photos of their favorite bike",
-        correctAnswer: "B) Photos of their old trike",
-     }),
-      shuffleOptions({
-        question: "How many wheels did the author's old trike have?",
-        optionA: "Two wheels",
-        optionB: "Three wheels",
-        optionC: "Four wheels",
-        correctAnswer: "B) Three wheels",
-     }),
-      shuffleOptions({
-        question: "What did stabilizers do for the author's bike?",
-        optionA: "Made it faster",
-        optionB: "Made it easier to ride",
-        optionC: "Made it look cooler",
-        correctAnswer: "B) Made it easier to ride",
-     }),
-      shuffleOptions({
-        question: "How many wheels did the bike have with stabilizers?",
-        optionA: "Two wheels",
-        optionB: "Three wheels",
-        optionC: "Four wheels",
-        correctAnswer: "C) Four wheels",
-     }),
-      shuffleOptions({
-        question: "What happened on the day the stabilizers were taken off?",
-        optionA: "The bike got faster",
-        optionB: "The author had a great ride",
-        optionC: "The author fell off the bike",
-        correctAnswer: "C) The author fell off the bike",
-     }),
-      shuffleOptions({
-        question:
-          "What does the author enjoy doing now that the stabilizers are off?",
-        optionA: "Ringing a bell",
-        optionB: "Looking at photos",
-        optionC: "Riding with friends",
-        correctAnswer: "A) Ringing a bell",
-     }),
-      shuffleOptions({
-        question: "What did the author ride when they had 'Two wheels'?",
-        optionA: "A trike",
-        optionB: "A bike with stabilizers",
-        optionC: "A bike with two wheels",
-        correctAnswer: "C) A bike with two wheels",
-     }),
-      shuffleOptions({
-        question: "What did the author like about their trike?",
-        optionA: "It was fast",
-        optionB: "It never wobbled",
-        optionC: "It had stabilizers",
-        correctAnswer: "B) It never wobbled",
-     }),
-      shuffleOptions({
-        question:
-          "What was the main difference between the author's bike and their trike?",
-        optionA: "The number of wheels",
-        optionB: "The presence of stabilizers",
-        optionC: "The color",
-        correctAnswer: "A) The number of wheels",
-     }),
-      shuffleOptions({
-        question: "Why did the author start running away from the bear?",
-        optionA: "The bear challenged the narrator to a race.",
-        optionB: "The bear had a gun.",
-        optionC: "The bear told the narrator to run.",
-        correctAnswer: "C) The bear told the narrator to run.",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "What did the author use to ride on that never used to wobble like their bike?",
+          optionA: "Stabilisers",
+          optionB: "Three Wheels",
+          optionC: "Four Wheels",
+          correctAnswer: "Three Wheels",
+        },
+        {
+          question: "How did stabilisers make the bike easier to ride?",
+          optionA: "By making it wobble",
+          optionB: "By preventing it from falling over",
+          optionC: "By adding an extra wheel",
+          correctAnswer: "By preventing it from falling over",
+        },
+        {
+          question:
+            "What did the author enjoy doing on their trike with three wheels?",
+          optionA: "Tinkling on the bell",
+          optionB: "Riding on two wheels",
+          optionC: "Looking at photographs",
+          correctAnswer: "Looking at photographs",
+        },
+        {
+          question:
+            "What is mentioned as not quite a bike, not quite a trike, with four wheels?",
+          optionA: "Stabilisers",
+          optionB: "The author's bike",
+          optionC: "Something else",
+          correctAnswer: "Something else",
+        },
+        {
+          question: "What happened on the day the stabilisers were taken off?",
+          optionA: "The bike fell over",
+          optionB: "The author came off the bike",
+          optionC: "The bike started wobbling",
+          correctAnswer: "The author came off the bike",
+        },
+        {
+          question:
+            "What does the author enjoy doing now on the bike with two wheels?",
+          optionA: "Riding on three wheels",
+          optionB: "Tinkling on the bell",
+          optionC: "Looking at old photographs",
+          correctAnswer: "Tinkling on the bell",
+        },
+        {
+          question:
+            "What made the bike with two wheels different from the trike?",
+          optionA: "It had stabilisers",
+          optionB: "It had fewer wheels",
+          optionC: "It wobbled less",
+          correctAnswer: "It had fewer wheels",
+        },
+        {
+          question: "What is the author's current preference for riding?",
+          optionA: "On three wheels",
+          optionB: "On four wheels",
+          optionC: "On two wheels",
+          correctAnswer: "On two wheels",
+        },
+        {
+          question: "What used to make the bike wobble less?",
+          optionA: "Three wheels",
+          optionB: "Four wheels",
+          optionC: "Stabilisers",
+          correctAnswer: "Stabilisers",
+        },
+        {
+          question:
+            "What did the author experience when the stabilisers were taken off?",
+          optionA: "The bike became stable",
+          optionB: "The bike started wobbling",
+          optionC: "The author came off the bike",
+          correctAnswer: "The author came off the bike",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "I like to look at photographs of me on my old ________.",
-        options: ["tricycle", "trike", "bicycle"],
-        correctAnswer: "trike",
-     }),
-      shuffleOptions({
-        question: "My old trike had ________ wheels.",
-        options: ["two", "three", "four"],
-        correctAnswer: "three",
-     }),
-      shuffleOptions({
-        question:
-          "Stabilizers made my bike easier to ride. They stopped it from falling over when it tilted to one ________.",
-        options: ["side", "front", "back"],
-        correctAnswer: "side",
-     }),
-      shuffleOptions({
-        question: "Not quite a bike, not quite a trike, with ________ wheels.",
-        options: ["two", "three", "four"],
-        correctAnswer: "four",
-     }),
-      shuffleOptions({
-        question: "On the day we took them off, I came ________ as well.",
-        options: ["back", "off", "forward"],
-        correctAnswer: "off",
-     }),
-      shuffleOptions({
-        question:
-          "But now it's great to ride around and tinkle on my ________.",
-        options: ["whistle", "horn", "bell"],
-        correctAnswer: "bell",
-     }),
-      shuffleOptions({
-        question: "That's what I like riding my bike with ________ wheels.",
-        options: ["one", "three", "two"],
-        correctAnswer: "two",
-     }),
-      shuffleOptions({
-        question: "I used to like riding my ________ with three wheels.",
-        options: ["scooter", "tricycle", "skateboard"],
-        correctAnswer: "tricycle",
-     }),
-      shuffleOptions({
-        question:
-          "Riding on four wheels! Not quite a bike, not quite a trike, with ________ wheels.",
-        options: ["two", "three", "five"],
-        correctAnswer: "three",
-     }),
-      shuffleOptions({
-        question:
-          "Stabilizers made my bike easier to ride. They stopped it from falling over when it tilted to one ________.",
-        options: ["side", "front", "corner"],
-        correctAnswer: "side",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question: "I used to like riding my __________ with three wheels.",
+          optionA: "Bike",
+          optionB: "Scooter",
+          optionC: "Trike",
+          correctAnswer: "Trike",
+        },
+        {
+          question: "Stabilisers made my bike easier to __________.",
+          optionA: "Drive",
+          optionB: "Ride",
+          optionC: "Walk",
+          correctAnswer: "Ride",
+        },
+        {
+          question:
+            "Not quite a bike, not quite a trike, with __________ wheels.",
+          optionA: "Two",
+          optionB: "Three",
+          optionC: "Four",
+          correctAnswer: "Four",
+        },
+        {
+          question: "On the day we took them off, I __________ as well.",
+          optionA: "Came off",
+          optionB: "Fell off",
+          optionC: "Stayed on",
+          correctAnswer: "Came off",
+        },
+        {
+          question:
+            "But now it's great to ride around and __________ on my bell.",
+          optionA: "Ring",
+          optionB: "Sing",
+          optionC: "Dance",
+          correctAnswer: "Ring",
+        },
+        {
+          question: "That's what I like riding my bike with __________ wheels.",
+          optionA: "One",
+          optionB: "Two",
+          optionC: "Three",
+          correctAnswer: "Two",
+        },
+        {
+          question:
+            "Stabilisers made my bike easier to ride by preventing it from __________ over.",
+          optionA: "Tipping",
+          optionB: "Rolling",
+          optionC: "Sliding",
+          correctAnswer: "Tipping",
+        },
+        {
+          question: "Riding on __________ wheels!",
+          optionA: "Three",
+          optionB: "Four",
+          optionC: "Five",
+          correctAnswer: "Three",
+        },
+        {
+          question: "I like to look at photographs of me on my old __________.",
+          optionA: "Car",
+          optionB: "Trike",
+          optionC: "Skateboard",
+          correctAnswer: "Trike",
+        },
+        {
+          question: "That's what I like riding my bike with __________.",
+          optionA: "One",
+          optionB: "Two",
+          optionC: "Three",
+          correctAnswer: "Two",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "I like to look at photographs of me on my old trike.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "My old trike had four wheels.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Stabilizers made my bike harder to ride.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Riding on four wheels, my bike was not quite a bike or a trike.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "On the day we took off the stabilizers, I didn't come off.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "It's great to ride around and tinkle on my bell now.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "I used to like riding my trike with three wheels.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "My bike with stabilizers had five wheels.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The lowest branch was fifteen feet high.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The narrator's encounter with the bear ended humorously.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "The author's old trike had four wheels.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Stabilisers made the author's bike wobble less.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "Riding on three wheels was the author's preference.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "The bike, with four wheels, was exactly like a trike.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "On the day the stabilisers were removed, the author stayed on the bike.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The author enjoys tinkling on a horn while riding a bike with two wheels.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Stabilisers made the bike wobble less by preventing it from tipping over.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "The author currently prefers riding on three wheels.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The stabilisers were removed on the day the author came off the bike.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "The author used to ride a scooter with three wheels.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

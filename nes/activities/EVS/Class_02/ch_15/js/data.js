@@ -1,280 +1,261 @@
-export const chapter = "Chapter - 15: Let's Communicate ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
-
+export const chapter = "Chapter -15: Let's Communicate";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
+    questions: [
+      [
+        {
           question:
             "What is the process of sending and receiving information called?",
-          optionA: "Transmission",
+          optionA: "Transportation",
           optionB: "Communication",
-          optionC: "Interaction",
+          optionC: "Transference",
           correctAnswer: "Communication",
-         }),
-      shuffleOptions({
+        },
+        {
           question:
-            "What is the oldest means of communication among the options provided?",
-          optionA: "Radio",
-          optionB: "Television",
+            "What is the oldest means of communication among the given options?",
+          optionA: "Email",
+          optionB: "Fax",
           optionC: "Letter",
           correctAnswer: "Letter",
-         }),
-      shuffleOptions({
-          question:
-            "Which of the following is considered a means of private communication?",
-          optionA: "Radio",
-          optionB: "Email",
-          optionC: "Television",
-          correctAnswer: "Email",
-         }),
-      shuffleOptions({
-          question:
-            "In the context of the deadly virus, what is the anchor advising people to do in the TV show?",
-          optionA: "Use hand sanitizers",
-          optionB: "Maintain distance from people",
-          optionC: "Wear masks only when at home",
-          correctAnswer: "Maintain distance from people",
-         }),
-      shuffleOptions({
-          question:
-            "What is the medium of sending information to masses mentioned in the text?",
-          optionA: "Letter",
-          optionB: "Television",
-          optionC: "Fax",
-          correctAnswer: "Television",
-         }),
-      shuffleOptions({
-          question:
-            "Which means of communication is specifically mentioned as the oldest?",
-          optionA: "Radio",
-          optionB: "Newspaper",
-          optionC: "Letter",
-          correctAnswer: "Letter",
-         }),
-      shuffleOptions({
-          question: "What deadly virus is mentioned in the text?",
-          optionA: "SARS",
+        },
+        {
+          question: "What is the deadly virus mentioned in the news text?",
+          optionA: "H1N1",
           optionB: "Ebola",
           optionC: "Corona virus",
           correctAnswer: "Corona virus",
-         }),
-      shuffleOptions({
+        },
+        {
           question:
-            "What is recommended in the text as a preventive measure against the virus?",
-          optionA: "Wearing masks at all times",
-          optionB: "Using hand sanitizers frequently",
-          optionC: "Avoiding the use of fax",
-          correctAnswer: "Using hand sanitizers frequently",
-         }),
-      shuffleOptions({
+            "What is the primary medium of sending information to masses mentioned in the text?",
+          optionA: "Fax",
+          optionB: "Television",
+          optionC: "Radio",
+          correctAnswer: "Television",
+        },
+        {
           question:
-            "What are radio, newspaper, and magazine collectively referred to as?",
-          optionA: "Personal communication means",
-          optionB: "Mass communication means",
-          optionC: "Private communication means",
-          correctAnswer: "Mass communication means",
-         }),
-      shuffleOptions({
+            "Which of the following is not mentioned as a measure to prevent the spread of the virus in the TV show?",
+          optionA: "Wash your hands frequently",
+          optionB: "Wear a mask",
+          optionC: "Use hand sanitizer",
+          correctAnswer: "Use hand sanitizer",
+        },
+        {
           question:
-            "What is the primary focus of the TV show mentioned in the text?",
-          optionA: "Entertainment",
-          optionB: "News about the deadly virus",
-          optionC: "Fashion updates",
-          correctAnswer: "News about the deadly virus",
-           }),
-    ]),
-  }
+            "What are means of private communication used between two individuals?",
+          optionA: "Radio and television",
+          optionB: "Letter and fax",
+          optionC: "Email and phone",
+          correctAnswer: "Letter and fax",
+        },
+        {
+          question:
+            "What affects the respiratory system of individuals according to the news text?",
+          optionA: "Bacterial infection",
+          optionB: "Corona virus",
+          optionC: "Allergies",
+          correctAnswer: "Corona virus",
+        },
+        {
+          question:
+            "Which means of communication is specifically mentioned for sending information to many people at one point of time?",
+          optionA: "Letter",
+          optionB: "Magazine",
+          optionC: "Radio",
+          correctAnswer: "Radio",
+        },
+        {
+          question:
+            "In the TV show, what is the advice given to people to prevent themselves from the virus?",
+          optionA: "Wear a mask only",
+          optionB: "Stay Home Stay Safe",
+          optionC: "Use hand sanitizers only",
+          correctAnswer: "Stay Home Stay Safe",
+        },
+        {
+          question:
+            "What are the means of mass communication mentioned in the text?",
+          optionA: "Email and phone",
+          optionB: "Radio, newspaper, and magazine",
+          optionC: "Fax and television",
+          correctAnswer: "Radio, newspaper, and magazine",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
-    questions: shuffleQues([
-      shuffleOptions({
+    questions: [
+      [
+        {
           question:
-            "The process of sending and receiving information is called ___________.",
-          optionA: "Interaction",
-          optionB: "Transmission",
-          optionC: "Communication",
+            "The process of sending and receiving information is known as ____________.",
+          optionA: "Transport",
+          optionB: "Communication",
+          optionC: "Connection",
           correctAnswer: "Communication",
-         }),
-      shuffleOptions({
+        },
+        {
           question:
-            "Among the means of private communication, ________ is known as the oldest means.",
-          optionA: "Fax",
-          optionB: "Email",
-          optionC: "Letter",
-          correctAnswer: "Letter",
-         }),
-      shuffleOptions({
+            "Letter is considered as the ____________ means of communication among the mentioned options.",
+          optionA: "Newest",
+          optionB: "Oldest",
+          optionC: "Quickest",
+          correctAnswer: "Oldest",
+        },
+        {
           question:
-            "The deadly virus named _________ has spread in the masses.",
-          optionA: "SARS",
+            "The deadly virus mentioned in the news is named ____________.",
+          optionA: "H1N1",
           optionB: "Ebola",
           optionC: "Corona virus",
           correctAnswer: "Corona virus",
-         }),
-      shuffleOptions({
+        },
+        {
           question:
-            "The TV anchor advises people to wear a ________ in case they go out.",
-          optionA: "Tie",
-          optionB: "Socks",
-          optionC: "Mask",
-          correctAnswer: "Mask",
-         }),
-      shuffleOptions({
+            "In the TV show, people are advised to wash their hands frequently, use hand sanitizers, and wear a mask to prevent themselves from ____________.",
+          optionA: "Influenza",
+          optionB: "Virus",
+          optionC: "Bacteria",
+          correctAnswer: "Virus",
+        },
+        {
+          question: "__ is the medium of sending information to the masses.",
+          optionA: "Email",
+          optionB: "Television",
+          optionC: "Radio",
+          correctAnswer: "Television",
+        },
+        {
           question:
-            "Television, radio, newspaper, and magazine are collectively known as the means of __________ communication.",
-          optionA: "Personal",
+            "Means of private communication, used between two persons, include ____________.",
+          optionA: "Email and phone",
+          optionB: "Letter and fax",
+          optionC: "Radio and television",
+          correctAnswer: "Letter and fax",
+        },
+        {
+          question:
+            "The Corona virus outbreak affects the ____________ system of people.",
+          optionA: "Digestive",
+          optionB: "Respiratory",
+          optionC: "Circulatory",
+          correctAnswer: "Respiratory",
+        },
+        {
+          question:
+            "The TV show anchor advises people to step out from home only in need or else ____________.",
+          optionA: "Stay Home Stay Safe",
+          optionB: "Use hand sanitizers",
+          optionC: "Wear a mask",
+          correctAnswer: "Stay Home Stay Safe",
+        },
+        {
+          question:
+            "Radio, newspaper, and magazine are known as means of ____________ communication.",
+          optionA: "Public",
           optionB: "Private",
           optionC: "Mass",
           correctAnswer: "Mass",
-         }),
-      shuffleOptions({
+        },
+        {
           question:
-            "The outbreak of the Corona virus has quickly taken place _________.",
-          optionA: "Locally",
-          optionB: "Regionally",
-          optionC: "Around the world",
-          correctAnswer: "Around the world",
-         }),
-      shuffleOptions({
-          question:
-            "In private capacity, means of private communication are used between ________ persons.",
-          optionA: "One",
-          optionB: "Two",
-          optionC: "Multiple",
-          correctAnswer: "Two",
-         }),
-      shuffleOptions({
-          question:
-            "To prevent themselves from the virus, people are advised to step out from home only in ________.",
-          optionA: "Emergency",
-          optionB: "Need",
-          optionC: "Leisure",
-          correctAnswer: "Need",
-         }),
-      shuffleOptions({
-          question:
-            "Among the means of communication, letter is known as the ________ means.",
-          optionA: "Newest",
-          optionB: "Oldest",
-          optionC: "Modern",
-          correctAnswer: "Oldest",
-         }),
-      shuffleOptions({
-          question:
-            "The medium of sending information to masses mentioned in the text is ________.",
-          optionA: "Letter",
-          optionB: "Television",
-          optionC: "Fax",
-          correctAnswer: "Television",
-           }),
-    ]),
-  }
+            "Information can be transmitted quickly to many people at one point of time through ____________.",
+          optionA: "Email and phone",
+          optionB: "Television and radio",
+          optionC: "Fax and letter",
+          correctAnswer: "Television and radio",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
+    questions: [
+      [
+        {
           question:
-            "Communication is the process of sending and receiving information.",
+            "The process of sending and receiving information is known as communication.",
           optionA: "True",
-        optionB: "False",
+          optionB: "False",
           correctAnswer: "True",
-         }),
-      shuffleOptions({
-          question: "Email is known as the oldest means of communication.",
-          optionA: "True",
-        optionB: "False",
-          correctAnswer: "False",
-         }),
-      shuffleOptions({
+        },
+        {
           question:
-            "Television is considered a means of private communication.",
+            "Letter is considered the newest means of communication among the given options.",
           optionA: "True",
-        optionB: "False",
+          optionB: "False",
           correctAnswer: "False",
-         }),
-      shuffleOptions({
-          question:
-            "The deadly virus named Corona virus affects the digestive system.",
+        },
+        {
+          question: "The deadly virus mentioned in the news is named H1N1.",
           optionA: "True",
-        optionB: "False",
+          optionB: "False",
           correctAnswer: "False",
-         }),
-      shuffleOptions({
+        },
+        {
           question:
-            "Means of Mass Communication include radio, newspaper, and magazine.",
+            "In the TV show, people are advised to use hand sanitizers to prevent themselves from the virus.",
           optionA: "True",
-        optionB: "False",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Television is the only medium mentioned for sending information to the masses.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Means of private communication are used between two persons.",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "True",
-         }),
-      shuffleOptions({
+        },
+        {
           question:
-            "Wearing masks is not recommended as a preventive measure against the virus.",
+            "The Corona virus outbreak affects the digestive system of people.",
           optionA: "True",
-        optionB: "False",
+          optionB: "False",
           correctAnswer: "False",
-         }),
-      shuffleOptions({
-          question: "Letter is known as the newest means of communication.",
-          optionA: "True",
-        optionB: "False",
-          correctAnswer: "False",
-         }),
-      shuffleOptions({
+        },
+        {
           question:
-            "The outbreak of the Corona virus has quickly taken place globally.",
+            "The TV show anchor advises people to step out from home only in need or else wear a mask.",
           optionA: "True",
-        optionB: "False",
+          optionB: "False",
           correctAnswer: "True",
-         }),
-      shuffleOptions({
-          question: "Fax and email are means of private communication.",
-          optionA: "True",
-        optionB: "False",
-          correctAnswer: "True",
-         }),
-      shuffleOptions({
+        },
+        {
           question:
-            "Maintaining distance from people is not advised as a preventive measure.",
+            "Information can be transmitted quickly to many people at one point of time through radio, newspaper, and magazine.",
           optionA: "True",
-        optionB: "False",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Email and phone are considered means of mass communication.",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "False",
-           }),
-    ]),
-  }
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

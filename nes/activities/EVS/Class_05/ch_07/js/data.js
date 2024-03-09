@@ -1,127 +1,84 @@
-export const chapter = "Chapter - 7: The World of Food";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
-
+export const chapter = "Chapter -7: The World of Food";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      {
-        questions: [
-          {
-            question:
-              "What are the two main types of food mentioned in the text?",
-            options: [
-              "Fresh and dried",
-              "Perishable and non-perishable",
-              "Sweet and savory",
-            ],
-            answer: "Perishable and non-perishable",
-          },
-          {
-            question: "Why do perishable foods need to be conserved?",
-            options: [
-              "They are expensive",
-              "They have a bad taste",
-              "They spoil quickly",
-            ],
-            answer: "They spoil quickly",
-          },
-          {
-            question:
-              "What is the primary reason for food spoilage mentioned in the text?",
-            options: [
-              "Exposure to air",
-              "Germs landing on it",
-              "Temperature fluctuations",
-            ],
-            answer: "Germs landing on it",
-          },
-          {
-            question:
-              "Which method involves cooking fruits or vegetables, sealing them in sterile cans or jars, and boiling the containers to kill or weaken any remaining bacteria?",
-            options: ["Freezing", "Vacuum packing", "Canning"],
-            answer: "Canning",
-          },
-          {
-            question:
-              "What does pasteurization involve to give a longer life to dairy products?",
-            options: [
-              "Boiling to a high temperature and sudden cooling",
-              "Adding preservatives",
-              "Drying",
-            ],
-            answer: "Boiling to a high temperature and sudden cooling",
-          },
-          {
-            question: "What is a natural preservative mentioned in the text?",
-            options: ["Sodium benzoate", "Salt", "Sugar"],
-            answer: "Salt",
-          },
-          {
-            question:
-              "What is the purpose of adding preservatives like sodium benzoate to food?",
-            options: [
-              "To improve taste",
-              "To reduce water activity",
-              "To prevent or slow down spoilage",
-            ],
-            answer: "To prevent or slow down spoilage",
-          },
-          {
-            question:
-              "How can individuals contribute to preventing the wastage of food, according to the text?",
-            options: [
-              "Cook food in excess",
-              "Store perishable items for a long time",
-              "Eat according to appetite and avoid leaving food in the plate",
-            ],
-            answer:
-              "Eat according to appetite and avoid leaving food in the plate",
-          },
-          {
-            question:
-              "What are the natural causes of food scarcity mentioned in the text?",
-            options: [
-              "Poverty and government actions",
-              "Pests and locusts",
-              "Droughts, floods, and diseases to crops",
-            ],
-            answer: "Droughts, floods, and diseases to crops",
-          },
-          {
-            question:
-              "What is mentioned as a man-made cause of food scarcity in the text?",
-            options: ["Droughts", "Poverty", "Pests and locusts"],
-            answer: "Poverty",
-          },
-        ],
-      },
+        [
+            {
+                "question": "Food preservation is the process of treating and handling food to __________ spoilage.",
+                "optionA": "accelerate",
+                "optionB": "stop or slow down",
+                "optionC": "cause",
+                "correctAnswer": "stop or slow down"
+            },
+            {
+                "question": "Which of the following techniques involves lowering the temperature to levels unsuitable for microbial growth?",
+                "optionA": "Canning",
+                "optionB": "Freezing",
+                "optionC": "Drying",
+                "correctAnswer": "Freezing"
+            },
+            {
+                "question": "Which technique involves cooking fruits or vegetables, sealing them in sterile containers, and boiling the containers to kill bacteria?",
+                "optionA": "Vacuum sealing",
+                "optionB": "Pasteurization",
+                "optionC": "Adding preservatives",
+                "correctAnswer": "Canning"
+            },
+            {
+                "question": "Which of the following is a natural preservative?",
+                "optionA": "Sodium benzoate",
+                "optionB": "Oil",
+                "optionC": "Pickles",
+                "correctAnswer": "Oil"
+            },
+            {
+                "question": "What process involves boiling milk to a high temperature, then suddenly cooling it to extend its shelf life?",
+                "optionA": "Fermentation",
+                "optionB": "Pasteurization",
+                "optionC": "Distillation",
+                "correctAnswer": "Pasteurization"
+            },
+            {
+                "question": "What should individuals avoid to prevent food wastage?",
+                "optionA": "Cooking food in excess",
+                "optionB": "Storing perishable items for a long time",
+                "optionC": "Eating according to appetite",
+                "correctAnswer": "Cooking food in excess"
+            },
+            {
+                "question": "Which of the following is a natural cause of food scarcity?",
+                "optionA": "Poverty",
+                "optionB": "Floods",
+                "optionC": "Government policies",
+                "correctAnswer": "Floods"
+            },
+            {
+                "question": "Which man-made cause of food scarcity involves storing food to be sold at a profit?",
+                "optionA": "Poverty",
+                "optionB": "Natural disasters",
+                "optionC": "Hoarding",
+                "correctAnswer": "Hoarding"
+            },
+            {
+                "question": "What percentage of the Indian population are tribal people?",
+                "optionA": "8%",
+                "optionB": "12%",
+                "optionC": "15%",
+                "correctAnswer": "8%"
+            },
+            {
+                "question": "What type of food has a longer shelf life, grains or vegetables?",
+                "optionA": "Grains",
+                "optionB": "Vegetables",
+                "optionC": "Both have the same shelf life",
+                "correctAnswer": "Grains"
+            }
+        ]
+        
+    
     ],
   };
 }
@@ -130,69 +87,80 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      {
-        fill_in_the_blank_questions: [
-          {
-            question: "Food is very important for our ___________.",
-            options: ["hobbies", "survival", "entertainment"],
-            answer: "survival",
-          },
-          {
-            question:
-              "Perishable foods like vegetables, fruits, bread etc. need to be conserved ________ as it gets spoiled in a short span of time.",
-            options: ["warm", "fresh", "frozen"],
-            answer: "fresh",
-          },
-          {
-            question:
-              "Germs that cause food spoilage are too small to be seen by __________ eyes.",
-            options: ["magnifying", "naked", "microscopic"],
-            answer: "naked",
-          },
-          {
-            question:
-              "Food preservation is the process of treating and handling food to stop or slow down __________.",
-            options: ["cooking", "growth", "decay"],
-            answer: "decay",
-          },
-          {
-            question:
-              "Freezing foods lowers the temperature to levels that make the environment unsuitable for __________ growth.",
-            options: ["bacterial", "microbial", "viral"],
-            answer: "microbial",
-          },
-          {
-            question:
-              "Drying reduces water activity sufficiently to delay or prevent __________ growth.",
-            options: ["bacterial", "viral", "fungal"],
-            answer: "bacterial",
-          },
-          {
-            question:
-              "Preservatives like sodium benzoate are added to food to prevent or slow down __________.",
-            options: ["spoilage", "cooking", "freezing"],
-            answer: "spoilage",
-          },
-          {
-            question:
-              "Food is wrapped in polythene packages with no air in it to preserve items like cheese, meat, and cooked vegetables from __________.",
-            options: ["drying", "decay", "contamination"],
-            answer: "decay",
-          },
-          {
-            question:
-              "Milk is boiled to a high temperature for 10 minutes and then suddenly cooled to a very low temperature, a process known as __________.",
-            options: ["boiling", "pasteurization", "freezing"],
-            answer: "pasteurization",
-          },
-          {
-            question:
-              "To prevent the wastage of food, individuals should eat according to their __________ and avoid leaving food in the plate.",
-            options: ["preferences", "appetite", "dietary restrictions"],
-            answer: "appetite",
-          },
-        ],
-      },
+        [
+            {
+                "question": "Food preservation is the process of treating and handling food to __________ spoilage.",
+                "optionA": "accelerate",
+                "optionB": "stop",
+                "optionC": "reduce",
+                "correctAnswer": "stop"
+            },
+            {
+                "question": "__________ foods involves lowering the temperature to levels that make the environment unsuitable for microbial growth.",
+                "optionA": "Canning",
+                "optionB": "Freezing",
+                "optionC": "Drying",
+                "correctAnswer": "Freezing"
+            },
+            {
+                "question": "Canning involves cooking fruits or vegetables, sealing them in sterile containers, and boiling the containers to kill or weaken any remaining __________.",
+                "optionA": "bacteria",
+                "optionB": "yeast",
+                "optionC": "mold",
+                "correctAnswer": "bacteria"
+            },
+            {
+                "question": "__________ are natural preservatives like oil, salt, and sugar.",
+                "optionA": "Sodium benzoate",
+                "optionB": "Oil",
+                "optionC": "Pickles",
+                "correctAnswer": "Oil"
+            },
+            {
+                "question": "Milk is boiled to a high temperature for 10 minutes and then suddenly cooled to a very low temperature in the process of __________.",
+                "optionA": "Fermentation",
+                "optionB": "Pasteurization",
+                "optionC": "Distillation",
+                "correctAnswer": "Pasteurization"
+            },
+            {
+                "question": "Individuals should avoid cooking food in excess and storing perishable items for a long time to prevent __________ of food.",
+                "optionA": "freshness",
+                "optionB": "wastage",
+                "optionC": "preservation",
+                "correctAnswer": "wastage"
+            },
+            {
+                "question": "Natural causes of food scarcity include droughts, floods, and diseases to the __________.",
+                "optionA": "animals",
+                "optionB": "crops",
+                "optionC": "water sources",
+                "correctAnswer": "crops"
+            },
+            {
+                "question": "__________ is a man-made cause of food scarcity where people store food to be sold at a profit.",
+                "optionA": "Poverty",
+                "optionB": "Natural disasters",
+                "optionC": "Hoarding",
+                "correctAnswer": "Hoarding"
+            },
+            {
+                "question": "Tribal people form about __________ of the Indian population.",
+                "optionA": "5%",
+                "optionB": "8%",
+                "optionC": "12%",
+                "correctAnswer": "8%"
+            },
+            {
+                "question": "__________ have a longer shelf life compared to vegetables.",
+                "optionA": "Grains",
+                "optionB": "Fruits",
+                "optionC": "Meat",
+                "correctAnswer": "Grains"
+            }
+        ]
+        
+    
     ],
   };
 }
@@ -201,80 +169,69 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      {
-        true_false_questions: [
-          {
-            question:
-              "Perishable foods like vegetables, fruits, and bread have a long life.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Germs that cause food spoilage can be seen with naked eyes.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Canning involves cooking fruits or vegetables, sealing them in sterile cans or jars, and boiling the containers.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "Vacuum packing is a method of food preservation that involves adding preservatives like sodium benzoate.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Pasteurization involves boiling milk to a high temperature for 10 minutes and then suddenly cooling it to a very low temperature.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "Droughts, floods, and diseases to crops are natural causes of food scarcity.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "Poverty is not considered a man-made cause of food scarcity.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Adding sugar is a method of preserving fruits to make jams and jellies.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "Freezing foods lowers the temperature to levels that make the environment suitable for microbial growth.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Wastage of food does not contribute to future problems, according to the text.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-        ],
-      },
+        [
+            {
+                "question": "Perishable foods like vegetables, fruits, and bread have a long shelf life.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "False"
+            },
+            {
+                "question": "Food preservation is the process of treating and handling food to accelerate spoilage.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "False"
+            },
+            {
+                "question": "Freezing is a food preservation technique that lowers the temperature to levels unsuitable for microbial growth.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "True"
+            },
+            {
+                "question": "Canning involves cooking fruits or vegetables, sealing them in sterile containers, and boiling the containers to kill bacteria.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "True"
+            },
+            {
+                "question": "Vacuum sealing is a technique where preservatives like sodium benzoate are added to food.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "False"
+            },
+            {
+                "question": "Pasteurization involves boiling milk to a high temperature, then suddenly cooling it to extend its shelf life.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "True"
+            },
+            {
+                "question": "Individuals should avoid cooking food in excess to prevent food wastage.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "True"
+            },
+            {
+                "question": "Natural causes of food scarcity include poverty and government policies.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "False"
+            },
+            {
+                "question": "Hoarding is a man-made cause of food scarcity where food is stored to be sold at a profit.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "True"
+            },
+            {
+                "question": "Tribal people form about 15% of the Indian population.",
+                "optionA": "True",
+                "optionB": "False",
+                "correctAnswer": "False"
+            }
+        ]
+        
     ],
   };
 }

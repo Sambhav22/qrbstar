@@ -1,187 +1,164 @@
-export const chapter = "Chapter - 4: Smart Senses";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
-
+export const chapter = "Chapter -8: Smart Senses";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      {
-        questions: [
-          {
-            question: "What is the primary function of the eye?",
-            options: ["Smelling", "Seeing", "Hearing"],
-            answer: "Seeing",
-          },
-          {
-            question: "Which organ is responsible for the sense of smell?",
-            options: ["Eye", "Nose", "Tongue"],
-            answer: "Nose",
-          },
-          {
-            question: "Which sense organ is known as the fastest sense?",
-            options: ["Tongue", "Ear", "Skin"],
-            answer: "Ear",
-          },
-          {
-            question:
-              "What is the role of taste buds in the perception of taste?",
-            options: [
-              "Detecting light",
-              "Detecting vibrations",
-              "Reacting chemically with substances in the mouth",
-            ],
-            answer: "Reacting chemically with substances in the mouth",
-          },
-          {
-            question: "How does the sense of touch work?",
-            options: [
-              "Receptors in the skin pick up signals from the environment",
-              "Ears detect vibrations and sounds",
-              "Eyes detect light and send signals to the brain",
-            ],
-            answer:
-              "Receptors in the skin pick up signals from the environment",
-          },
-          {
-            question:
-              "What are the four basic sensations felt through the sense of touch?",
-            options: [
-              "Sweet, bitter, sour, salty",
-              "Cold, hot, pressure, pain",
-              "Vision, hearing, taste, smell",
-            ],
-            answer: "Cold, hot, pressure, pain",
-          },
-          {
-            question: "Which layer of the skin acts as a protective barrier?",
-            options: ["Dermis", "Epidermis", "Subcutis"],
-            answer: "Epidermis",
-          },
-          {
-            question: "What distinguishes good touches from bad touches?",
-            options: [
-              "Location on the body",
-              "Feelings of pain or pleasure",
-              "Frequency of occurrence",
-            ],
-            answer: "Feelings of pain or pleasure",
-          },
-          {
-            question:
-              "What helps differently-abled people who are unable to see to understand and learn concepts?",
-            options: ["Hearing", "Touch", "Smell"],
-            answer: "Touch",
-          },
-          {
-            question:
-              "According to the text, what is a fact about an ant's sense of smell?",
-            options: [
-              "It is better than humans.",
-              "It is as good as a dog's.",
-              "It is not well-developed.",
-            ],
-            answer: "It is as good as a dog's.",
-          },
+      [
+        {
+            "question": "Which of the following is not a sense organ?",
+            "optionA": "Liver",
+            "optionB": "Eye",
+            "optionC": "Nose",
+            "correctAnswer": "Liver"
+        },
+        {
+            "question": "Which sense organ is responsible for detecting light and enabling vision?",
+            "optionA": "Ear",
+            "optionB": "Eye",
+            "optionC": "Tongue",
+            "correctAnswer": "Eye"
+        },
+        {
+            "question": "Which sense organ is responsible for the sense of smell?",
+            "optionA": "Tongue",
+            "optionB": "Nose",
+            "optionC": "Ear",
+            "correctAnswer": "Nose"
+        },
+        {
+            "question": "What is the function of the optic nerve?",
+            "optionA": "Detect vibrations",
+            "optionB": "Detect light and send signals to the brain",
+            "optionC": "Detect taste",
+            "correctAnswer": "Detect light and send signals to the brain"
+        },
+        {
+            "question": "Which sense organ is responsible for the perception of taste?",
+            "optionA": "Nose",
+            "optionB": "Ear",
+            "optionC": "Tongue",
+            "correctAnswer": "Tongue"
+        },
+        {
+            "question": "Which sense is known as the fastest sense?",
+            "optionA": "Taste",
+            "optionB": "Smell",
+            "optionC": "Hearing",
+            "correctAnswer": "Hearing"
+        },
+        {
+            "question": "What is the function of the receptors in our skin?",
+            "optionA": "Detect pressure",
+            "optionB": "Detect taste",
+            "optionC": "Detect light",
+            "correctAnswer": "Detect pressure"
+        },
+        {
+            "question": "What is an example of a good touch?",
+            "optionA": "Pinching",
+            "optionB": "Hugging",
+            "optionC": "Hurting",
+            "correctAnswer": "Hugging"
+        },
+        {
+            "question": "Which sense organ helps us to sense what we are smelling?",
+            "optionA": "Eye",
+            "optionB": "Ear",
+            "optionC": "Nose",
+            "correctAnswer": "Nose"
+        },
+        {
+            "question": "What method do blind individuals use to read and interpret the meaning of text?",
+            "optionA": "Visual observation",
+            "optionB": "Auditory perception",
+            "optionC": "Braille",
+            "correctAnswer": "Braille"
+            }
+          ],
         ],
-      },
-    ],
-  };
-}
+      };
+    }
+    
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blanks:",
+    activity: "Fill in the Blanks:",
     questions: [
-      {
-        fill_in_the_blank_questions: [
-          {
-            question:
-              "Our ____________ help us to know the world around us. These work smartly.",
-            options: ["Muscles", "Sense organs", "Bones"],
-            answer: "Sense organs",
-          },
-          {
-            question:
-              "The organ responsible for the sense of ____________ is the nose.",
-            options: ["Sight", "Taste", "Smell"],
-            answer: "Smell",
-          },
-          {
-            question:
-              "Through auditory perception, our ears detect ____________ and sounds.",
-            options: ["Vibrations", "Light", "Pressure"],
-            answer: "Vibrations",
-          },
-          {
-            question:
-              "Taste is the perception produced when a substance reacts chemically with taste receptor cells located on ____________.",
-            options: ["Skin", "Tongue", "Ear"],
-            answer: "Tongue",
-          },
-          {
-            question:
-              "The sense of touch includes four basic sensations: cold, hot, pressure, and ____________.",
-            options: ["Light", "Pain", "Sound"],
-            answer: "Pain",
-          },
-          {
-            question:
-              "The ____________ layer of the skin acts as a protective barrier.",
-            options: ["Dermis", "Epidermis", "Subcutis"],
-            answer: "Epidermis",
-          },
-          {
-            question:
-              "Good touches are those that make us feel ____________, loved, and cared.",
-            options: ["Sad", "Angry", "Good"],
-            answer: "Good",
-          },
-          {
-            question:
-              "Receptors present in our nose help us to sense ____________.",
-            options: ["Light", "Sound", "Smell"],
-            answer: "Smell",
-          },
-          {
-            question:
-              "Differently-abled people, if they lose one sense, may develop extra talent, such as reading through ____________.",
-            options: ["Vision", "Braille", "Touch"],
-            answer: "Braille",
-          },
-          {
-            question:
-              "According to the text, an ant's sense of smell is as good as a ____________.",
-            options: ["Human's", "Cat's", "Dog's"],
-            answer: "Dog's",
-          },
-        ],
-      },
+      [
+        {
+            "question": "All animals and human beings have _________ organs.",
+            "optionA": "smell",
+            "optionB": "sense",
+            "optionC": "taste",
+            "correctAnswer": "sense"
+        },
+        {
+            "question": "Our sense organs help us to _________ the world around us.",
+            "optionA": "see",
+            "optionB": "smell",
+            "optionC": "know",
+            "correctAnswer": "know"
+        },
+        {
+            "question": "The sense organs contain thousands of _________.",
+            "optionA": "muscles",
+            "optionB": "nerves",
+            "optionC": "bones",
+            "correctAnswer": "nerves"
+        },
+        {
+            "question": "The brain processes the signals received from the sense organs and sends a message back to _________.",
+            "optionA": "the heart",
+            "optionB": "the sense organs",
+            "optionC": "the liver",
+            "correctAnswer": "the sense organs"
+        },
+        {
+            "question": "The organ of vision is the _________.",
+            "optionA": "tongue",
+            "optionB": "nose",
+            "optionC": "eye",
+            "correctAnswer": "eye"
+        },
+        {
+            "question": "The organ responsible for the sense of smell is the _________.",
+            "optionA": "tongue",
+            "optionB": "nose",
+            "optionC": "ear",
+            "correctAnswer": "nose"
+        },
+        {
+            "question": "Our skin helps us to sense _________.",
+            "optionA": "temperature",
+            "optionB": "colors",
+            "optionC": "sounds",
+            "correctAnswer": "temperature"
+        },
+        {
+            "question": "Touches that hurt our feelings and cause us to sense pain are categorized as _________ touches.",
+            "optionA": "good",
+            "optionB": "bad",
+            "optionC": "neutral",
+            "correctAnswer": "bad"
+        },
+        {
+            "question": "Receptors present in our nose help us to _________.",
+            "optionA": "see",
+            "optionB": "smell",
+            "optionC": "hear",
+            "correctAnswer": "smell"
+        },
+        {
+            "question": "Differently-Abled People are those whose one or more body parts do not function properly, and they often compensate by using their _________.",
+            "optionA": "remaining senses",
+            "optionB": "gadgets",
+            "optionC": "money",
+            "correctAnswer": "remaining senses"
+        }
+    ]
+    
     ],
   };
 }
@@ -190,76 +167,70 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      {
-        true_or_false_questions: [
-          {
-            question:
-              "Humans have six sense organs - taste, smell, feel, vision, hear, and touch.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question: "The organ of vision is the ear.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "The sense of touch includes sensations such as cold, hot, pressure, and pain.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question: "The primary function of the skin is to detect light.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Good touches are those that hurt our feelings and cause pain.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question: "Receptors in the nose help us sense smell.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "Differently-abled people may develop extra talents if they lose one sense.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question: "An ant's sense of smell is better than a human's.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question: "The sense of taste is primarily detected by the ears.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question: "The epidermis is the outermost layer of the skin.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-        ],
-      },
-    ],
+      [
+        {
+            "question": "Animals and human beings do not possess sense organs.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Sense organs help us to perceive the world around us.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "True"
+        },
+        {
+            "question": "The sense organs contain hundreds of nerves.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "The brain does not process signals received from the sense organs.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "The sense of smell is not related to receptors present in the nose.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "All animals have the same sense organs.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Differently-Abled People cannot compensate for their disabilities.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Blind individuals cannot learn concepts through touch using Braille.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Helen Keller was neither blind nor deaf.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Physical disabilities always prevent individuals from achieving their dreams.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        }
+    ]
+
+  ],
   };
 }
-
 export var activityData;

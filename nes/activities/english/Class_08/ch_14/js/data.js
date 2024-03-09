@@ -1,237 +1,244 @@
-export const chapter = "Chapter - 14: It's Diwali Tonight ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -14: It's Diwali Tonight";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "What is the occasion being celebrated in the text?",
-        optionA: "Christmas",
-        optionB: "Diwali",
-        optionC: "New Year",
-        correctAnswer: "Diwali",
-     }),
-      shuffleOptions({
-        question: "How is the atmosphere described in the text?",
-        optionA: "Dark and gloomy",
-        optionB: "Bright with light",
-        optionC: "Cloudy and overcast",
-        correctAnswer: "Bright with light",
-     }),
-      shuffleOptions({
-        question: "What have people done to guide others to their front door?",
-        optionA: "Hung decorations",
-        optionB: "Lit lamps",
-        optionC: "Put up a sign",
-        correctAnswer: "Lit lamps",
-     }),
-      shuffleOptions({
-        question:
-          "What have people done on the floor as part of the celebration?",
-        optionA: "Sprinkled colored powders to make pictures",
-        optionB: "Vacuumed the floor",
-        optionC: "Painted the floor",
-        correctAnswer: "Sprinkled colored powders to make pictures",
-     }),
-      shuffleOptions({
-        question: "What kind of gifts are exchanged during this celebration?",
-        optionA: "Clothes",
-        optionB: "Sweets",
-        optionC: "Toys",
-        correctAnswer: "Sweets",
-     }),
-      shuffleOptions({
-        question: "What is the central theme of the text?",
-        optionA: "Halloween",
-        optionB: "Diwali preparations and celebrations",
-        optionC: "Thanksgiving",
-        correctAnswer: "Diwali preparations and celebrations",
-     }),
-      shuffleOptions({
-        question: "What is used to create pictures on the floor during Diwali?",
-        optionA: "Colored pencils",
-        optionB: "Rangoli",
-        optionC: "Stickers",
-        correctAnswer: "Rangoli",
-     }),
-      shuffleOptions({
-        question: "What is the common sentiment among the people in the text?",
-        optionA: "Sadness",
-        optionB: "Joy",
-        optionC: "Anger",
-        correctAnswer: "Joy",
-     }),
-      shuffleOptions({
-        question: "What is the significance of lighting lamps in the text?",
-        optionA: "To save electricity",
-        optionB: "To guide the way to the front door",
-        optionC: "For decoration",
-        correctAnswer: "To guide the way to the front door",
-     }),
-      shuffleOptions({
-        question: "When is Diwali being celebrated in the text?",
-        optionA: "In the morning",
-        optionB: "In the afternoon",
-        optionC: "At night",
-        correctAnswer: "At night",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "What is the occasion being celebrated in the text?",
+          optionA: "Christmas",
+          optionB: "Diwali",
+          optionC: "New Year",
+          correctAnswer: "B) Diwali",
+        },
+        {
+          question: "What has been done to show the way to the front door?",
+          optionA: "Lighting lamps",
+          optionB: "Hanging decorations",
+          optionC: "Playing music",
+          correctAnswer: "A) Lighting lamps",
+        },
+        {
+          question: "What has been sprinkled to create pictures on the floor?",
+          optionA: "Water",
+          optionB: "Coloured powders",
+          optionC: "Flower petals",
+          correctAnswer: "B) Coloured powders",
+        },
+        {
+          question: "What kind of gifts have been exchanged?",
+          optionA: "Toys",
+          optionB: "Sweets",
+          optionC: "Clothes",
+          correctAnswer: "B) Sweets",
+        },
+        {
+          question:
+            "What is described as being 'bright with light' in the text?",
+          optionA: "The sky",
+          optionB: "The lamps",
+          optionC: "The moon",
+          correctAnswer: "B) The lamps",
+        },
+        {
+          question: "Which festival is mentioned as 'tonight' in the text?",
+          optionA: "Christmas",
+          optionB: "Diwali",
+          optionC: "New Year",
+          correctAnswer: "B) Diwali",
+        },
+        {
+          question: "What has been done to prepare for the new year?",
+          optionA: "Decorating the house",
+          optionB: "Lighting lamps",
+          optionC: "Both A and B",
+          correctAnswer: "C) Both A and B",
+        },
+        {
+          question: "What is the atmosphere described as in the text?",
+          optionA: "Sad",
+          optionB: "Joyful",
+          optionC: "Quiet",
+          correctAnswer: "B) Joyful",
+        },
+        {
+          question: "What is mentioned as being full of joy?",
+          optionA: "The house",
+          optionB: "The people",
+          optionC: "The gifts",
+          correctAnswer: "B) The people",
+        },
+        {
+          question: "What has been done with the colored powders?",
+          optionA: "Used for cooking",
+          optionB: "Sprinkled on the floor to make pictures",
+          optionC: "Thrown in the air for celebration",
+          correctAnswer: "B) Sprinkled on the floor to make pictures",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Everything's ready to greet the ________.",
-        options: ["morning", "new year", "Christmas"],
-        correctAnswer: "new year",
-     }),
-      shuffleOptions({
-        question: "Everything is bright with ________.",
-        options: ["darkness", "light", "colors"],
-        correctAnswer: "light",
-     }),
-      shuffleOptions({
-        question: "Everyone's dressed up and full of ________.",
-        options: ["sorrow", "fear", "joy"],
-        correctAnswer: "joy",
-     }),
-      shuffleOptions({
-        question: "It's ________ tonight!",
-        options: ["Halloween", "Diwali", "Christmas"],
-        correctAnswer: "Diwali",
-     }),
-      shuffleOptions({
-        question:
-          "We've lit the lamps to show the ________ up to our front door.",
-        options: ["path", "way", "darkness"],
-        correctAnswer: "path",
-     }),
-      shuffleOptions({
-        question:
-          "We've sprinkled colored powders to make ________ on the floor.",
-        options: ["pictures", "drawings", "sculptures"],
-        correctAnswer: "pictures",
-     }),
-      shuffleOptions({
-        question: "We've given each other gifts of ________.",
-        options: ["toys", "sweets", "flowers"],
-        correctAnswer: "sweets",
-     }),
-      shuffleOptions({
-        question: "There's a lot of delicious things to ________.",
-        options: ["see", "hear", "eat"],
-        correctAnswer: "eat",
-     }),
-      shuffleOptions({
-        question: "Everything's ready to greet the ________.",
-        options: ["morning", "new year", "Christmas"],
-        correctAnswer: "new year",
-     }),
-      shuffleOptions({
-        question: "Everything is bright with ________.",
-        options: ["darkness", "light", "colors"],
-        correctAnswer: "light",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question: "Everything's ready to greet the new __________.",
+          optionA: "day",
+          optionB: "year",
+          optionC: "season",
+          correctAnswer: "B) year",
+        },
+        {
+          question: "Everything's bright with __________.",
+          optionA: "darkness",
+          optionB: "light",
+          optionC: "color",
+          correctAnswer: "B) light",
+        },
+        {
+          question: "Everyone's dressed up and full of __________.",
+          optionA: "sorrow",
+          optionB: "joy",
+          optionC: "anger",
+          correctAnswer: "B) joy",
+        },
+        {
+          question: "It's __________ tonight!",
+          optionA: "Christmas",
+          optionB: "Diwali",
+          optionC: "Halloween",
+          correctAnswer: "B) Diwali",
+        },
+        {
+          question:
+            "We've lit the lamps to show the way up to our __________ door.",
+          optionA: "back",
+          optionB: "front",
+          optionC: "side",
+          correctAnswer: "B) front",
+        },
+        {
+          question:
+            "We've sprinkled colored __________ to make pictures on the floor.",
+          optionA: "flowers",
+          optionB: "powders",
+          optionC: "lights",
+          correctAnswer: "B) powders",
+        },
+        {
+          question: "We've given each other gifts of __________.",
+          optionA: "toys",
+          optionB: "sweets",
+          optionC: "clothes",
+          correctAnswer: "B) sweets",
+        },
+        {
+          question: "There's a lot of delicious things to __________.",
+          optionA: "see",
+          optionB: "hear",
+          optionC: "eat",
+          correctAnswer: "C) eat",
+        },
+        {
+          question: "Everything's ready to greet the new __________.",
+          optionA: "day",
+          optionB: "year",
+          optionC: "month",
+          correctAnswer: "B) year",
+        },
+        {
+          question: "Everyone's dressed up and full of __________.",
+          optionA: "sorrow",
+          optionB: "joy",
+          optionC: "fear",
+          correctAnswer: "B) joy",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Mount Everest is the tallest mountain in the world.",
-        optionA: "True",
-        optionB: "False",
-        answer: "True",
-     }),
-      shuffleOptions({
-        question: "The Nile River is the longest river on Earth.",
-        optionA: "True",
-        optionB: "False",
-        answer: "True",
-     }),
-      shuffleOptions({
-        question: "The Earth orbits the Moon.",
-        optionA: "True",
-        optionB: "False",
-        answer: "False",
-     }),
-      shuffleOptions({
-        question: "The Great Wall of China can be seen from space.",
-        optionA: "True",
-        optionB: "False",
-        answer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Mars is known as the Red Planet because of its reddish appearance.",
-        optionA: "True",
-        optionB: "False",
-        answer: "True",
-     }),
-      shuffleOptions({
-        question: "The Eiffel Tower is located in London.",
-        optionA: "True",
-        optionB: "False",
-        answer: "False",
-     }),
-      shuffleOptions({
-        question: "A human has four lungs.",
-        optionA: "True",
-        optionB: "False",
-        answer: "False",
-     }),
-      shuffleOptions({
-        question: "Gold is a liquid at room temperature.",
-        optionA: "True",
-        optionB: "False",
-        answer: "False",
-     }),
-      shuffleOptions({
-        question: "The Sun is a planet.",
-        optionA: "True",
-        optionB: "False",
-        answer: "False",
-     }),
-      shuffleOptions({
-        question: "Water boils at 100 degrees Fahrenheit.",
-        optionA: "True",
-        optionB: "False",
-        answer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "Walt Irvine and Madge called the dog Klondike because he looked like a wolf.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Wolf was initially playful when he first arrived at the mountain cottage.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Skiff Miller suggested that Wolf's real name was Brown.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "To win Wolf's affection, Walt Irvine had a metal plate made, stamped with his phone number.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Wolf had an obsession that drove him south.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Skiff Miller made Wolf wear a collar with a metal plate, which had Irvine's address.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Skiff Miller suggested leaving it up to Madge to decide where he wanted to live.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Wolf followed Skiff Miller when he walked away after the decision, indicating his loyalty.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Madge suggested that Wolf might prefer Canada to Alaska.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Wolf's final choice demonstrated his attachment and loyalty.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

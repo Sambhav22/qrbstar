@@ -1,251 +1,257 @@
-export const chapter = "Chapter - 17: My Story";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -17:My Story";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "What was John Clemens' occupation?",
-        optionA: "Farmer",
-        optionB: "Inventor",
-        optionC: "Merchant",
-        correctAnswer: "Merchant",
-     }),
-      shuffleOptions({
-        question: "What was Mrs. Clemens' attitude towards work?",
-        optionA: "She avoided work as much as possible.",
-        optionB: "She enjoyed working and having a real frolic.",
-        optionC: "She left all the work to her husband.",
-        correctAnswer: "She enjoyed working and having a real frolic.",
-     }),
-      shuffleOptions({
-        question:
-          "What did John Clemens spend a good deal of time thinking about?",
-        optionA: "Inventing new machines",
-        optionB: "His large land tract in Tennessee",
-        optionC: "Making his children laugh",
-        correctAnswer: "His large land tract in Tennessee",
-     }),
-      shuffleOptions({
-        question:
-          "What did the children do during the day when Mrs. Clemens was busy?",
-        optionA: "Played board games",
-        optionB: "Roamed the countryside and picked nuts and berries",
-        optionC: "Helped with housework",
-        correctAnswer: "Roamed the countryside and picked nuts and berries",
-     }),
-      shuffleOptions({
-        question: "Who was a famous storyteller among the children?",
-        optionA: "John Clemens",
-        optionB: "Jennie",
-        optionC: "Uncle Ned",
-        correctAnswer: "Uncle Ned",
-     }),
-      shuffleOptions({
-        question: "What nickname was given to Sam Clemens when he was a child?",
-        optionA: "Little John",
-        optionB: "Little Sam",
-        optionC: "Little Ned",
-        correctAnswer: "Little Sam",
-     }),
-      shuffleOptions({
-        question: "Where did Sam Clemens spend his summers as a child?",
-        optionA: "In Hannibal",
-        optionB: "On the Quarles farm in Florida",
-        optionC: "In Tennessee",
-        correctAnswer: "On the Quarles farm in Florida",
-     }),
-      shuffleOptions({
-        question: "What did Sam Clemens excel in at school?",
-        optionA: "Mathematics",
-        optionB: "Spelling",
-        optionC: "History",
-        correctAnswer: "Spelling",
-     }),
-      shuffleOptions({
-        question: "What did Sam Clemens long to be when he was a boy?",
-        optionA: "A writer",
-        optionB: "A pilot on the Mississippi River",
-        optionC: "A teacher",
-        correctAnswer: "A pilot on the Mississippi River",
-     }),
-      shuffleOptions({
-        question: "What pen name did Sam Clemens use for his writings?",
-        optionA: "John Clemens",
-        optionB: "Mark Twain",
-        optionC: "Will Bowen",
-        correctAnswer: "Mark Twain",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "What was John Clemens known for?",
+          optionA: "Farmer, merchant, and postmaster",
+          optionB: "Doctor and scholar",
+          optionC: "Inventor and scientist",
+          correctAnswer: "A) Farmer, merchant, and postmaster",
+        },
+        {
+          question: "What was the personality of John Clemens like?",
+          optionA: "Merry and jolly",
+          optionB: "Serious and not merry",
+          optionC: "Adventurous and carefree",
+          correctAnswer: "B) Serious and not merry",
+        },
+        {
+          question: "What did the Clemens children do during the day?",
+          optionA: "Played video games",
+          optionB: "Roamed through the country, picking nuts and berries",
+          optionC: "Attended school and studied",
+          correctAnswer:
+            "B) Roamed through the country, picking nuts and berries",
+        },
+        {
+          question:
+            "Who was the famous storyteller among the Clemens' children?",
+          optionA: "John Clemens",
+          optionB: "Jane Clemens",
+          optionC: "Uncle Ned",
+          correctAnswer: "C) Uncle Ned",
+        },
+        {
+          question:
+            "What was the nickname given to Samuel Clemens when he was a child?",
+          optionA: "Little Joe",
+          optionB: "Little Sam",
+          optionC: "Little Mark",
+          correctAnswer: "B) Little Sam",
+        },
+        {
+          question:
+            "Where did Samuel Clemens spend his summers with his mother and siblings?",
+          optionA: "Florida",
+          optionB: "Hannibal",
+          optionC: "Quarles farm",
+          correctAnswer: "C) Quarles farm",
+        },
+        {
+          question: "What did Samuel Clemens admire Uncle Ned for?",
+          optionA: "Cooking skills",
+          optionB: "Storytelling",
+          optionC: "Singing",
+          correctAnswer: "B) Storytelling",
+        },
+        {
+          question: "At what age did Samuel Clemens start going to school?",
+          optionA: "3",
+          optionB: "5",
+          optionC: "9",
+          correctAnswer: "B) 5",
+        },
+        {
+          question:
+            "What profession did Samuel Clemens learn after his father's death?",
+          optionA: "Farmer",
+          optionB: "Pilot",
+          optionC: "Doctor",
+          correctAnswer: "B) Pilot",
+        },
+        {
+          question:
+            "What name did Samuel Clemens use when signing his writings?",
+          optionA: "Samuel Clemens Jr.",
+          optionB: "Mark Twain",
+          optionC: "John Briggs",
+          correctAnswer: "B) Mark Twain",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "John Clemens was a farmer, merchant, and postmaster in the Missouri town of ____________.",
-        options: ["Hannibal", "Florida", "Mississippi"],
-        correctAnswer: "Florida",
-     }),
-      shuffleOptions({
-        question:
-          "Mrs. Clemens liked to get her work done and then have a real ____________.",
-        options: ["vacation", "frolic", "rest"],
-        correctAnswer: "frolic",
-     }),
-      shuffleOptions({
-        question:
-          "John Clemens spent a good deal of time thinking about selling a great tract of land in ____________.",
-        options: ["Florida", "Tennessee", "Missouri"],
-        correctAnswer: "Tennessee",
-     }),
-      shuffleOptions({
-        question:
-          "The children would often listen to stories from Uncle Ned, who was known for describing ____________ and goblins.",
-        options: ["witches", "pirates", "fairies"],
-        correctAnswer: "witches",
-     }),
-      shuffleOptions({
-        question:
-          "Sam Clemens was often referred to as '____________' by the neighbors.",
-        options: ["John", "Mark Twain", "little Sam"],
-        correctAnswer: "little Sam",
-     }),
-      shuffleOptions({
-        question:
-          "Sam ran away and hid on board a ____________ until it was well down the river.",
-        options: ["train", "ship", "carriage"],
-        correctAnswer: "ship",
-     }),
-      shuffleOptions({
-        question:
-          "At the age of nine, Sam was known for being a good ____________.",
-        options: ["speller", "writer", "swimmer"],
-        correctAnswer: "swimmer",
-     }),
-      shuffleOptions({
-        question: "Sam's two best chums were Will Bowen and John ____________.",
-        options: ["Clemens", "Briggs", "Quarles"],
-        correctAnswer: "Briggs",
-     }),
-      shuffleOptions({
-        question:
-          "Sam's teachers thought he should train himself for a ____________.",
-        options: ["doctor", "writer", "pilot"],
-        correctAnswer: "writer",
-     }),
-      shuffleOptions({
-        question:
-          "Sam Clemens signed his writings with the pen name ____________.",
-        options: ["John Clemens", "Mark Twain", "Will Bowen"],
-        correctAnswer: "Mark Twain",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "John Clemens, Samuel's ____________, was a farmer, merchant, and postmaster in a Missouri town, called Florida.",
+          optionA: "Uncle",
+          optionB: "Father",
+          optionC: "Brother",
+          correctAnswer: "B) Father",
+        },
+        {
+          question:
+            "Mrs. Clemens did not like to have any one around when she was bustling through the ____________, so the six children spent the days roaming through the country, picking nuts and berries.",
+          optionA: "Library",
+          optionB: "Housework",
+          optionC: "Garden",
+          correctAnswer: "B) Housework",
+        },
+        {
+          question:
+            "Uncle Ned was a famous ____________. When he described witches and goblins, the children would look over their shoulders as if they half expected to see the queer creatures in the room.",
+          optionA: "Musician",
+          optionB: "Storyteller",
+          optionC: "Magician",
+          correctAnswer: "B) Storyteller",
+        },
+        {
+          question:
+            "Sam was a delicate child. The neighbors used to shake their heads and declare he would never live to be a man, and every one always spoke of him as 'little ____________.'",
+          optionA: "Joe",
+          optionB: "Tom",
+          optionC: "Sam",
+          correctAnswer: "C) Sam",
+        },
+        {
+          question:
+            "When Mr. Clemens moved to another town some distance away, the mother said instantly: 'Well, Hannibal may be all right for your business, but Florida agrees so well with little Sam, that I shall spend every summer here with the children, on the ____________ farm.'",
+          optionA: "Smith",
+          optionB: "Quarles",
+          optionC: "Thompson",
+          correctAnswer: "B) Quarles",
+        },
+        {
+          question:
+            "Sam grew plump. A funny thing happened the first summer they went to nice Mr. Quarles's. Mrs. Clemens, with the older children, the new baby, and Jennie, went on ahead in a large ____________.",
+          optionA: "Wagon",
+          optionB: "Car",
+          optionC: "Boat",
+          correctAnswer: "A) Wagon",
+        },
+        {
+          question:
+            "At nine he had a head rather too large for his body, and it looked even bigger because he had such a lot of waving, ____________ hair.",
+          optionA: "Brown",
+          optionB: "Black",
+          optionC: "Sandy",
+          correctAnswer: "C) Sandy",
+        },
+        {
+          question:
+            "Sam learned the ____________ trade. He was very quick in setting type and accurate, so that he soon helped his older brother start a newspaper.",
+          optionA: "Blacksmith",
+          optionB: "Printer's",
+          optionC: "Carpenter's",
+          correctAnswer: "B) Printer's",
+        },
+        {
+          question:
+            "He meant to travel, and as he earned enough by newspaper work, he visited New York, Philadelphia, and was on his way to ____________ when he got a chance to be a pilot on the Mississippi River.",
+          optionA: "Europe",
+          optionB: "Asia",
+          optionC: "South America",
+          correctAnswer: "C) South America",
+        },
+        {
+          question:
+            "After his death, Sam learned the ____________ trade. He was very quick in setting type and accurate, so that he soon helped his older brother start a newspaper.",
+          optionA: "Carpenter's",
+          optionB: "Farmer's",
+          optionC: "Printer's",
+          correctAnswer: "C) Printer's",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Is John Clemens known for being a merry man?",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Did Mrs. Clemens enjoy having people around when doing housework?",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Did John Clemens buy seventy-five thousand acres of land in Tennessee for a few cents an acre?",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Did Uncle Ned tell stories that always began with 'Once 'pon a time'?",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Was Sam Clemens often called 'Little John' by the neighbors?",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Did Sam run away and hide on a train at the age of nine?",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Did Sam have fine gray eyes and a fast, energetic voice?",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Were Sam's two best friends, Will Bowen and John Briggs, excellent swimmers?",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Did Sam's teachers believe he should pursue a career as a writer?",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Did Sam Clemens sign his writings with the pen name 'John Clemens'?",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "John Clemens, Samuel's father, was a farmer, merchant, and postmaster in a Missouri town called Florida.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Mrs. Clemens liked to have people around when she was bustling through the housework.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Uncle Ned, a coloured farm-hand, was not a good storyteller according to the children.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Sam Clemens was often called 'Little Joe' by his neighbors.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "The Clemens family spent their summers on the Smith farm.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Sam's mother, Mrs. Clemens, went ahead to Quarles farm in a car with the older children, the new baby, and Jennie.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Sam had brown hair and fine gray eyes when he was nine.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Sam learned the carpenter's trade after his father's death.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Sam visited Europe, Asia, and South America during his travels.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Sam signed his writings with the name 'Little Sam.'",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

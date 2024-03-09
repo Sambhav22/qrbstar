@@ -1,255 +1,261 @@
-export const chapter = "Chapter - 21: fhe Stranger Mother";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -21: The Stranger Mother";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Where was the narrator waiting for the north-bound train?",
-        options: ["a) Bus station", "b) Ambala station", "c) School"],
-        answer: "b) Ambala station",
-     }),
-      shuffleOptions({
-        question: "How old was the narrator when this incident occurred?",
-        options: ["a) 10", "b) 12", "c) 14"],
-        answer: "b) 12",
-     }),
-      shuffleOptions({
-        question: "What did the woman offer to the narrator at the station?",
-        options: ["a) Books", "b) Tea and sweets", "c) Jewelry"],
-        answer: "b) Tea and sweets",
-     }),
-      shuffleOptions({
-        question:
-          "How did the woman's kindness and generosity affect the narrator's feelings?",
-        options: [
-          "a) Made him suspicious",
-          "b) Made him feel grateful and open up",
-          "c) Made him dislike her",
-        ],
-        answer: "b) Made him feel grateful and open up",
-     }),
-      shuffleOptions({
-        question:
-          "What did the narrator say about his liking for strangers when he was cautioned by Satish's mother?",
-        options: [
-          "a) He dislikes strangers",
-          "b) He likes strangers",
-          "c) He is indifferent to strangers",
-        ],
-        answer: "b) He likes strangers",
-     }),
-      shuffleOptions({
-        question:
-          "Who did the woman pretend to be when questioned by Satish's mother?",
-        options: [
-          "a) A school teacher",
-          "b) A relative",
-          "c) The narrator's mother",
-        ],
-        answer: "c) The narrator's mother",
-     }),
-      shuffleOptions({
-        question:
-          "What gift did Satish's mother give to the narrator to share with Satish?",
-        options: [
-          "a) A cricket bat",
-          "b) A bag of fruits and a big box of chocolates",
-          "c) A football",
-        ],
-        answer: "b) A bag of fruits and a big box of chocolates",
-     }),
-      shuffleOptions({
-        question:
-          "How did the narrator feel about Satish's mother's patronizing tone?",
-        options: ["a) Grateful", "b) Indifferent", "c) Hateful"],
-        answer: "c) Hateful",
-     }),
-      shuffleOptions({
-        question: "How does the story end?",
-        options: [
-          "a) The narrator and Satish's mother have a heated argument.",
-          "b) The narrator and Satish's mother wave goodbye.",
-          "c) The narrator kisses the woman on the platform.",
-        ],
-        answer: "c) The narrator kisses the woman on the platform.",
-     }),
-      shuffleOptions({
-        question: "What color was the woman's attire at the station?",
-        options: ["a) Red", "b) Blue", "c) White"],
-        answer: "c) White",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "What is the protagonist doing at the beginning of the story?",
+          optionA: "Waiting for a bus",
+          optionB: "Waiting for a friend",
+          optionC: "Waiting for a train",
+          correctAnswer: "C. Waiting for a train",
+        },
+        {
+          question: "Why is the protagonist at Ambala station?",
+          optionA: "Visiting friends",
+          optionB: "Going to school",
+          optionC: "Meeting family",
+          correctAnswer: "B. Going to school",
+        },
+        {
+          question:
+            "How does the woman initiate a conversation with the protagonist?",
+          optionA: "She asks about his family",
+          optionB: "She offers him sweets and tea",
+          optionC: "She compliments his appearance",
+          correctAnswer: "B. She offers him sweets and tea",
+        },
+        {
+          question:
+            "What is the woman's demeanor that attracts the protagonist?",
+          optionA: "Assertive",
+          optionB: "Poor",
+          optionC: "Dignified and kind",
+          correctAnswer: "C. Dignified and kind",
+        },
+        {
+          question:
+            "Why does the woman clasp the protagonist's arm when the boy crosses the rails?",
+          optionA: "She is afraid for the boy",
+          optionB: "She is angry with the boy",
+          optionC: "She wants to protect the protagonist",
+          correctAnswer: "A. She is afraid for the boy",
+        },
+        {
+          question:
+            "How does Satish's mother react when she discovers the woman isn't the protagonist's real mother?",
+          optionA: "Surprised but understanding",
+          optionB: "Angry and accusatory",
+          optionC: "Disinterested",
+          correctAnswer: "B. Angry and accusatory",
+        },
+        {
+          question:
+            "What does Satish's mother warn the protagonist about before boarding the train?",
+          optionA: "Not to talk to strangers",
+          optionB: "Not to eat on the train",
+          optionC: "Not to jump off moving trains",
+          correctAnswer: "A. Not to talk to strangers",
+        },
+        {
+          question:
+            "How does the protagonist feel about Satish's mother's advice?",
+          optionA: "Grateful",
+          optionB: "Resentful",
+          optionC: "Indifferent",
+          correctAnswer: "B. Resentful",
+        },
+        {
+          question: "What does the protagonist do as the train starts moving?",
+          optionA: "Jumps off the train",
+          optionB: "Kisses the woman's cheek",
+          optionC: "Ignores the woman",
+          correctAnswer: "B. Kisses the woman's cheek",
+        },
+        {
+          question: "How does the story end?",
+          optionA: "The protagonist waves enthusiastically",
+          optionB:
+            "The protagonist watches the woman until she is lost in the crowd",
+          optionC: "The protagonist shouts goodbye loudly",
+          correctAnswer:
+            "B. The protagonist watches the woman until she is lost in the crowd",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "In the story, the narrator was waiting for the north-bound train at ________ station.",
-        options: ["a) Bus", "b) Ambala", "c) School"],
-        answer: "b) Ambala",
-     }),
-      shuffleOptions({
-        question:
-          "The narrator was about ________ years old when this incident occurred.",
-        options: ["a) 10", "b) 12", "c) 14"],
-        answer: "b) 12",
-     }),
-      shuffleOptions({
-        question:
-          "The woman at the station offered the narrator tea and ________.",
-        options: ["a) Books", "b) Sweets", "c) Jewelry"],
-        answer: "b) Sweets",
-     }),
-      shuffleOptions({
-        question:
-          "The woman's kindness and generosity made the narrator feel __________ and open up.",
-        options: ["a) Suspicious", "b) Grateful", "c) Disliked"],
-        answer: "b) Grateful",
-     }),
-      shuffleOptions({
-        question:
-          "When cautioned by Satish's mother, the narrator expressed that he __________ strangers.",
-        options: ["a) Dislikes", "b) Likes", "c) Is indifferent to"],
-        answer: "b) Likes",
-     }),
-      shuffleOptions({
-        question:
-          "The woman pretended to be the narrator's ________ when questioned by Satish's mother.",
-        options: ["a) School teacher", "b) Relative", "c) Mother"],
-        answer: "c) Mother",
-     }),
-      shuffleOptions({
-        question:
-          "Satish's mother gave the narrator a bag of fruits and a big box of _______ to share with Satish.",
-        options: ["a) Cricket bat", "b) Sweets", "c) Chocolates"],
-        answer: "c) Chocolates",
-     }),
-      shuffleOptions({
-        question:
-          "The narrator felt __________ about Satish's mother's patronizing tone.",
-        options: ["a) Grateful", "b) Indifferent", "c) Hateful"],
-        answer: "c) Hateful",
-     }),
-      shuffleOptions({
-        question:
-          "The story ends with the narrator kissing the woman on the platform as the ________ moves slowly out of the station.",
-        options: ["a) Bus", "b) Train", "c) Car"],
-        answer: "b) Train",
-     }),
-      shuffleOptions({
-        question:
-          "The woman on the platform is described as a pale, sweet woman in a ________ attire.",
-        options: ["a) Red", "b) Blue", "c) White"],
-        answer: "c) White",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "It was the protagonist's __________ year at boarding school.",
+          optionA: "first",
+          optionB: "second",
+          optionC: "third",
+          correctAnswer: "B. second",
+        },
+        {
+          question:
+            "The protagonist was waiting for the north-bound train on Platform No. __________.",
+          optionA: "6",
+          optionB: "8",
+          optionC: "10",
+          correctAnswer: "B. 8",
+        },
+        {
+          question:
+            "The protagonist had arrived at Ambala early in the evening and had to wait till __________ for the train.",
+          optionA: "ten",
+          optionB: "eleven",
+          optionC: "twelve",
+          correctAnswer: "C. twelve",
+        },
+        {
+          question:
+            "Most of the time, the protagonist had been pacing up and down the platform, browsing at the __________, or feeding broken biscuits to stray dogs.",
+          optionA: "food court",
+          optionB: "bookstall",
+          optionC: "ticket counter",
+          correctAnswer: "B. bookstall",
+        },
+        {
+          question:
+            "The woman who approached the protagonist was dressed in a __________ sari.",
+          optionA: "red",
+          optionB: "white",
+          optionC: "blue",
+          correctAnswer: "B. white",
+        },
+        {
+          question:
+            'The woman asked the protagonist if his parents came to see him off, and he replied, "I don\'t live here. I had to change trains. Anyway, I can travel __________."',
+          optionA: "alone",
+          optionB: "with friends",
+          optionC: "with family",
+          correctAnswer: "A. alone",
+        },
+        {
+          question:
+            "The woman took the protagonist to the station dining room and ordered tea, samosas, and __________.",
+          optionA: "sandwiches",
+          optionB: "jalebis",
+          optionC: "burgers",
+          correctAnswer: "B. jalebis",
+        },
+        {
+          question:
+            "The protagonist began to talk freely under the influence of tea and sweets, and he told the woman about his school, his friends, and his likes and dislikes, but not about his __________.",
+          optionA: "hobbies",
+          optionB: "family",
+          optionC: "hometown",
+          correctAnswer: "B. family",
+        },
+        {
+          question:
+            "The woman clasped the protagonist's arm when a boy leapt off the platform and ran across the __________.",
+          optionA: "tracks",
+          optionB: "road",
+          optionC: "bridge",
+          correctAnswer: "A. tracks",
+        },
+        {
+          question:
+            "Satish's mother warned the protagonist not to talk to strangers and advised him to be very careful, especially at a big station like this, as there are so many __________ hanging about.",
+          optionA: "friends",
+          optionB: "suspicious characters",
+          optionC: "security guards",
+          correctAnswer: "B. suspicious characters",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "The narrator was waiting for the south-bound train.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The woman at the station offered the narrator books.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The woman's kindness and generosity made the narrator feel suspicious.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The woman pretended to be the narrator's school teacher when questioned by Satish's mother.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Satish's mother gave the narrator a bag of fruits and a big box of chocolates to share with Satish.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The narrator felt grateful about Satish's mother's patronizing tone.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The story ends with the narrator kissing the woman on the platform as the train moves slowly out of the station.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The woman on the platform is described as a pale, sweet woman in a red attire.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The narrator was traveling with his parents.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Satish and the narrator had a heated argument on the platform.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "The protagonist was waiting for a bus at Ambala station.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The protagonist's parents came to see him off at Ambala station.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "The woman who approached the protagonist wore a red sari.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The woman ordered tea, samosas, and burgers in the station dining room.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The protagonist talked freely about his family, school, and friends with the woman.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The woman clutched the protagonist's arm when a boy leapt off the platform.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Satish's mother was pleased to know that the protagonist could travel alone.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The protagonist felt grateful for Satish's mother's advice about talking to strangers.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The woman kissed the protagonist when the train started moving.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The story ends with the protagonist waving enthusiastically to the woman on the platform.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

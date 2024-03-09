@@ -1,242 +1,252 @@
-export const chapter = "Chapter - 19: The Bear and I";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -19: The Bear and I";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "What did the narrator encounter the other day?",
-        optionA: "A rabbit",
-        optionB: "A bear",
-        optionC: "A squirrel",
-        correctAnswer: "A bear",
-     }),
-      shuffleOptions({
-        question: "Where did the bear appear?",
-        optionA: "In the narrator's house",
-        optionB: "Up in a tree",
-        optionC: "In a cave",
-        correctAnswer: "Up in a tree",
-     }),
-      shuffleOptions({
-        question:
-          "How did the bear and the narrator initially react to each other?",
-        optionA: "They both ran away",
-        optionB: "They stared at each other",
-        optionC: "They had a friendly conversation",
-        correctAnswer: "They stared at each other",
-     }),
-      shuffleOptions({
-        question: "What did the bear say to the narrator?",
-        optionA: "Let's be friends.",
-        optionB: "You should climb the tree.",
-        optionC: "Why don't you run?",
-        correctAnswer: "Why don't you run?",
-     }),
-      shuffleOptions({
-        question: "Why did the narrator start running away from the bear?",
-        optionA: "The bear challenged the narrator to a race.",
-        optionB: "The bear had a gun.",
-        optionC: "The bear told the narrator to run.",
-        correctAnswer: "The bear told the narrator to run.",
-     }),
-      shuffleOptions({
-        question:
-          "What obstacle did the narrator encounter while running from the bear?",
-        optionA: "A river",
-        optionB: "A mountain",
-        optionC: "A tree",
-        correctAnswer: "A tree",
-     }),
-      shuffleOptions({
-        question:
-          "How high was the lowest branch of the tree the narrator had to jump to?",
-        optionA: "Five feet",
-        optionB: "Ten feet",
-        optionC: "Fifteen feet",
-        correctAnswer: "Ten feet",
-     }),
-      shuffleOptions({
-        question:
-          "What happened when the narrator jumped into the air to reach the tree branch?",
-        optionA: "They missed the branch and fell to the ground.",
-        optionB: "They grabbed the branch on the first try.",
-        optionC: "They landed on the bear.",
-        correctAnswer: "They missed the branch and fell to the ground.",
-     }),
-      shuffleOptions({
-        question:
-          "How did the narrator eventually reach the branch they missed?",
-        optionA: "They didn't reach the branch.",
-        optionB: "They used a ladder.",
-        optionC: "They caught it on the way back down.",
-        correctAnswer: "They caught it on the way back down.",
-     }),
-      shuffleOptions({
-        question:
-          "What does the narrator hint at in the last line of the poem?",
-        optionA: "They won't meet the bear again.",
-        optionB: "They hope to have a rematch with the bear.",
-        optionC: "They are excited to see the bear soon.",
-        correctAnswer: "They hope to have a rematch with the bear.",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "What did the bear ask the speaker to do?",
+          optionA: "Run away",
+          optionB: "Fight him",
+          optionC: "Climb a tree",
+          correctAnswer: "Run away",
+        },
+        {
+          question: "What did the speaker do when the bear asked him to run?",
+          optionA: "He ran away",
+          optionB: "He stayed still",
+          optionC: "He confronted the bear",
+          correctAnswer: "He ran away",
+        },
+        {
+          question:
+            "What obstacle did the speaker encounter while running away?",
+          optionA: "A river",
+          optionB: "A fence",
+          optionC: "A tree",
+          correctAnswer: "A tree",
+        },
+        {
+          question: "How did the speaker attempt to evade the bear?",
+          optionA: "By hiding in a bush",
+          optionB: "By climbing a tree",
+          optionC: "By pretending to be dead",
+          correctAnswer: "By climbing a tree",
+        },
+        {
+          question: "What did the speaker try to grab onto while jumping?",
+          optionA: "A vine",
+          optionB: "A rope",
+          optionC: "A tree branch",
+          correctAnswer: "A tree branch",
+        },
+        {
+          question:
+            "Did the speaker successfully catch the lowest branch of the tree?",
+          optionA: "Yes",
+          optionB: "No",
+          optionC: "It is not mentioned",
+          correctAnswer: "No",
+        },
+        {
+          question: "How did the speaker eventually stop his fall?",
+          optionA: "By grabbing onto the ground",
+          optionB: "By catching a branch on the way down",
+          optionC: "By landing in a river",
+          correctAnswer: "By catching a branch on the way down",
+        },
+        {
+          question:
+            "What emotion did the speaker ask the audience not to express?",
+          optionA: "Anger",
+          optionB: "Fear",
+          optionC: "Disappointment",
+          correctAnswer: "Fear",
+        },
+        {
+          question:
+            "What did the speaker assure the audience about meeting the bear again?",
+          optionA: "It won't happen",
+          optionB: "It's inevitable",
+          optionC: "It's up to fate",
+          correctAnswer: "It's inevitable",
+        },
+        {
+          question: "How does the speaker conclude the story?",
+          optionA: "With a warning",
+          optionB: "With a promise",
+          optionC: "With a resolution",
+          correctAnswer: "With a promise",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "The other day I met a _______ bear.",
-        options: ["friendly", "great big", "tiny"],
-        correctAnswer: "great big",
-     }),
-      shuffleOptions({
-        question: "He said to me, 'Why don't you _______?",
-        options: ["walk", "run", "hide"],
-        correctAnswer: "run",
-     }),
-      shuffleOptions({
-        question: "The lowest branch was _______ feet high.",
-        options: ["five", "ten", "fifteen"],
-        correctAnswer: "ten",
-     }),
-      shuffleOptions({
-        question: "I had to jump and trust my _______.",
-        options: ["luck", "bear", "speed"],
-        correctAnswer: "luck",
-     }),
-      shuffleOptions({
-        question: "And missed that branch way up _______.",
-        options: ["here", "there", "above"],
-        correctAnswer: "there",
-     }),
-      shuffleOptions({
-        question: "I caught that branch on the way back _______.",
-        options: ["up", "down", "sideways"],
-        correctAnswer: "down",
-     }),
-      shuffleOptions({
-        question: "The narrator's encounter with the bear ended _______.",
-        options: ["sadly", "strangely", "humorously"],
-        correctAnswer: "humorously",
-     }),
-      shuffleOptions({
-        question:
-          "The narrator's experience with the bear left them wanting to meet the bear _______.",
-        options: ["never again", "every day", "tomorrow"],
-        correctAnswer: "soon",
-     }),
-      shuffleOptions({
-        question: "The narrator and the bear both _______ each other.",
-        options: ["avoided", "ignored", "sized up"],
-        correctAnswer: "sized up",
-     }),
-      shuffleOptions({
-        question: "That's all there is, there is no _______.",
-        options: ["bear", "more", "tree"],
-        correctAnswer: "more",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "What did the speaker encounter while running away from the bear? He encountered a ____________.",
+          optionA: "River",
+          optionB: "Fence",
+          optionC: "Tree",
+          correctAnswer: "Tree",
+        },
+        {
+          question:
+            "The speaker attempted to evade the bear by climbing a ____________.",
+          optionA: "Bush",
+          optionB: "Rock",
+          optionC: "Tree",
+          correctAnswer: "Tree",
+        },
+        {
+          question:
+            "While running away, the speaker had to jump and trust his ____________.",
+          optionA: "Speed",
+          optionB: "Instincts",
+          optionC: "Luck",
+          correctAnswer: "Luck",
+        },
+        {
+          question:
+            "The speaker tried to grab onto a ____________ while jumping.",
+          optionA: "Vine",
+          optionB: "Rope",
+          optionC: "Branch",
+          correctAnswer: "Branch",
+        },
+        {
+          question:
+            "Did the speaker successfully catch the lowest branch of the tree? No, he ____________ it.",
+          optionA: "Caught",
+          optionB: "Missed",
+          optionC: "Touched",
+          correctAnswer: "Missed",
+        },
+        {
+          question:
+            "How did the speaker eventually stop his fall? By catching a branch ____________.",
+          optionA: "On the ground",
+          optionB: "In mid-air",
+          optionC: "On the way down",
+          correctAnswer: "On the way down",
+        },
+        {
+          question:
+            "What emotion did the speaker ask the audience not to express? He asked them not to ____________.",
+          optionA: "Laugh",
+          optionB: "Cry",
+          optionC: "Fret",
+          correctAnswer: "Fret",
+        },
+        {
+          question:
+            "What did the speaker assure the audience about meeting the bear again? It's ____________ to happen.",
+          optionA: "Unlikely",
+          optionB: "Likely",
+          optionC: "Up to fate",
+          correctAnswer: "Up to fate",
+        },
+        {
+          question:
+            "How does the speaker conclude the story? With a ____________.",
+          optionA: "Warning",
+          optionB: "Promise",
+          optionC: "Resolution",
+          correctAnswer: "Promise",
+        },
+        {
+          question:
+            "The speaker met a bear and had a(n) ____________ encounter.",
+          optionA: "Exciting",
+          optionB: "Unpleasant",
+          optionC: "Amusing",
+          correctAnswer: "Unpleasant",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "The bear in the story was small.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The narrator ran away from the bear as soon as they saw it.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "The lowest branch of the tree was twenty feet high.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The bear suggested that the narrator climb the tree.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The narrator successfully caught the tree branch on the first try.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The encounter with the bear ended tragically.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The narrator has no intention of meeting the bear again.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The narrator and the bear sized each other up.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "The narrator caught the tree branch on the way back up.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The story implies that the bear and the narrator became friends.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "The speaker encountered a bear while walking in the forest.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "The bear asked the speaker why he didn't have a gun.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The speaker successfully caught the lowest branch of the tree while jumping.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "The speaker fell to the ground after missing the branch.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "The speaker asked the audience not to laugh or cry.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The speaker assured the audience that he would never meet the bear again.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "The speaker concluded the story with a warning.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "The encounter with the bear was described as pleasant.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The speaker's fall was stopped by catching onto a branch on the ground.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "The speaker met the bear again and had another encounter.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

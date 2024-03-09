@@ -1,255 +1,262 @@
-export const chapter = "Chapter - 6: Christmas Every Day ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -06:Christmas Every day";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "What did the little girl want every day instead of the usual once-a-year Christmas?",
-        optionA: "Little pigs",
-        optionB: "Thanksgiving feasts",
-        optionC: "Christmas",
-        correctAnswer: "Christmas",
-     }),
-      shuffleOptions({
-        question:
-          "How did the little girl's family react when they had Christmas every day?",
-        optionA: "They were excited and happy.",
-        optionB: "They were puzzled and cross.",
-        optionC: "They were grateful and content.",
-        correctAnswer: "They were puzzled and cross.",
-     }),
-      shuffleOptions({
-        question: "What happened to the woods and orchards in the story?",
-        optionA: "They were transformed into Christmas markets.",
-        optionB: "They were cut down to make Christmas trees.",
-        optionC: "They were decorated with lights and ornaments.",
-        correctAnswer: "They were cut down to make Christmas trees.",
-     }),
-      shuffleOptions({
-        question:
-          "What did the little girl do when she couldn't take any more Christmas?",
-        optionA: "She ran away from home.",
-        optionB: "She shared her presents with others.",
-        optionC: "She had a breakdown and became crazy.",
-        correctAnswer: "She had a breakdown and became crazy.",
-     }),
-      shuffleOptions({
-        question: "Why did the little girl's family stop playing with her?",
-        optionA:
-          "Because they were too busy with their own Christmas celebrations.",
-        optionB: "Because she talked about her dreams.",
-        optionC: "Because they blamed her for the continuous Christmases.",
-        correctAnswer:
-          "Because they blamed her for the continuous Christmases.",
-     }),
-      shuffleOptions({
-        question:
-          "How did the little girl try to stop the continuous Christmases?",
-        optionA: "By sending letters to the Christmas Fairy.",
-        optionB: "By eating less candy.",
-        optionC: "By going to church and praying.",
-        correctAnswer: "By sending letters to the Christmas Fairy.",
-     }),
-      shuffleOptions({
-        question:
-          "What happened when the little girl went to the Christmas Fairy's house to stop the Christmases?",
-        optionA: "She received a warm welcome.",
-        optionB: "She met the Christmas Fairy in person.",
-        optionC: "She was turned away with excuses.",
-        correctAnswer: "She was turned away with excuses.",
-     }),
-      shuffleOptions({
-        question:
-          "How did the little girl's family respond to her request to go to church on Thanksgiving?",
-        optionA: "They agreed and went to church.",
-        optionB:
-          "They told her all the cakes had been eaten for her Christmas dinners.",
-        optionC: "They were excited and eagerly joined her.",
-        correctAnswer:
-          "They told her all the cakes had been eaten for her Christmas dinners.",
-     }),
-      shuffleOptions({
-        question:
-          "How did the little girl finally resolve her situation with the continuous Christmases?",
-        optionA: "She continued to enjoy them.",
-        optionB: "She managed to stop them.",
-        optionC: "She went on a vacation to avoid them.",
-        correctAnswer: "She continued to enjoy them.",
-     }),
-      shuffleOptions({
-        question:
-          "What was the ultimate fate of the little girl's voice in the story?",
-        optionA: "She lost her voice from singing carols.",
-        optionB:
-          "She couldn't make a sound because she had talked about Christmas too much.",
-        optionC: "She had a beautiful singing voice throughout the story.",
-        correctAnswer:
-          "She couldn't make a sound because she had talked about Christmas too much.",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "What did the little girl usually ask for on Saturday mornings before breakfast?",
+          optionA: "Candy",
+          optionB: "Little pig stories",
+          optionC: "Christmas stories",
+          correctAnswer: "C) Christmas stories",
+        },
+        {
+          question:
+            "Why did the little girl stop her papa when he began telling a story about a little pig?",
+          optionA: "She preferred stories about Christmas.",
+          optionB: "She didn't like little pig stories.",
+          optionC: "She wanted a different type of story.",
+          correctAnswer: "B) She didn't like little pig stories.",
+        },
+        {
+          question:
+            "What was the little girl's request for a story about on that Saturday morning?",
+          optionA: "Little pigs",
+          optionB: "Christmas",
+          optionC: "Thanksgiving",
+          correctAnswer: "B) Christmas",
+        },
+        {
+          question:
+            "How did the little girl react when the Christmas Fairy granted her wish for Christmas every day?",
+          optionA: "She cried",
+          optionB: "She was excited",
+          optionC: "She was disappointed",
+          correctAnswer: "B) She was excited",
+        },
+        {
+          question: "What happened to the stockings on Christmas morning?",
+          optionA: "They were empty",
+          optionB: "They were filled with coal",
+          optionC: "They were lumpy with presents",
+          correctAnswer: "C) They were lumpy with presents",
+        },
+        {
+          question:
+            "What happened to the Christmas celebrations as the days went by?",
+          optionA: "They became more joyful",
+          optionB: "They became exhausting",
+          optionC: "They were canceled",
+          correctAnswer: "B) They became exhausting",
+        },
+        {
+          question:
+            "What did the little girl start doing to dolls as Christmas continued every day?",
+          optionA: "Decorating them",
+          optionB: "Sitting on them",
+          optionC: "Giving them away",
+          correctAnswer: "B) Sitting on them",
+        },
+        {
+          question: "Why did people start going to the poor-house initially?",
+          optionA: "They were poor",
+          optionB: "They lost their voices",
+          optionC: "They were rich and proud",
+          correctAnswer: "A) They were poor",
+        },
+        {
+          question:
+            "How did people express their frustration with Christmas presents towards the end?",
+          optionA: "They wrote polite notes",
+          optionB: "They threw presents over fences",
+          optionC: "They returned the presents",
+          correctAnswer: "B) They threw presents over fences",
+        },
+        {
+          question:
+            "What did the little girl's family want to do on Thanksgiving, and why did they resist?",
+          optionA: "Go to the poor-house; they were poor",
+          optionB: "Celebrate Christmas; they were exhausted",
+          optionC: "Show gratitude; cakes were eaten for Christmas",
+          correctAnswer: "C) Show gratitude; cakes were eaten for Christmas",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "What did the little girl want every day instead of the usual once-a-year Christmas? She wanted it to be ________ every day in the year.",
-        options: ["Christmas", "Thanksgiving", "Halloween"],
-        correctAnswer: "Christmas",
-     }),
-      shuffleOptions({
-        question:
-          "The little girl's father tried to beg off telling a story because he was very ________, but she insisted on hearing a story.",
-        options: ["busy", "hungry", "tired"],
-        correctAnswer: "busy",
-     }),
-      shuffleOptions({
-        question:
-          "The little girl got a letter from the Christmas Fairy, saying she could have Christmas every day for a ________.",
-        options: ["month", "year", "week"],
-        correctAnswer: "year",
-     }),
-      shuffleOptions({
-        question:
-          "After the little girl got her Christmas wish, she ate so much candy that she didn't want any ________.",
-        options: ["breakfast", "lunch", "dinner"],
-        correctAnswer: "breakfast",
-     }),
-      shuffleOptions({
-        question:
-          "People started cutting down woods and orchards to make Christmas ________.",
-        options: ["cookies", "decorations", "trees"],
-        correctAnswer: "trees",
-     }),
-      shuffleOptions({
-        question:
-          "The little girl's family began to get ________ as the continuous Christmases went on, and they had to go to the poorhouse.",
-        options: ["richer", "sicker", "poorer"],
-        correctAnswer: "poorer",
-     }),
-      shuffleOptions({
-        question:
-          "The little girl wanted her family to go to church on ________, but they refused, blaming her for the continuous Christmases.",
-        options: ["Thanksgiving", "Christmas Eve", "New Year's Day"],
-        correctAnswer: "Thanksgiving",
-     }),
-      shuffleOptions({
-        question:
-          "The little girl's family began to ________ their presents anywhere, and the police had to intervene to clear the sidewalks.",
-        options: ["share", "throw", "hide"],
-        correctAnswer: "throw",
-     }),
-      shuffleOptions({
-        question:
-          "The little girl couldn't make a sound because she had talked about Christmas too much and lost her ________.",
-        options: ["appetite", "voice", "presents"],
-        correctAnswer: "voice",
-     }),
-      shuffleOptions({
-        question:
-          "Who finally confirmed the ownership of the dog that caused the commotion in the story?",
-        options: ["Yelov", "Hukin", "Prohor"],
-        correctAnswer: "Prohor",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "The little girl asked her papa for a story, and he began telling one about a little ___________.",
+          optionA: "Dog",
+          optionB: "Pig",
+          optionC: "Cat",
+          correctAnswer: "B) Pig",
+        },
+        {
+          question:
+            "The little girl wanted Christmas every day, and the Christmas Fairy granted her wish for a year. She received lumpy stockings filled with presents, including candy, oranges, and ___________.",
+          optionA: "Potatoes",
+          optionB: "Coal",
+          optionC: "Books",
+          correctAnswer: "B) Coal",
+        },
+        {
+          question:
+            "As Christmas continued every day, the little girl became ___________ with the constant celebrations.",
+          optionA: "Excited",
+          optionB: "Exhausted",
+          optionC: "Grateful",
+          correctAnswer: "B) Exhausted",
+        },
+        {
+          question:
+            "People started going to the poor-house because of the excessive celebration of Christmas. The poor-houses got so full that they had to send people back to their own ___________.",
+          optionA: "Apartments",
+          optionB: "Houses",
+          optionC: "Mansions",
+          correctAnswer: "B) Houses",
+        },
+        {
+          question:
+            "By Thanksgiving, the little girl wanted her family to go to church, have squash-pie, and show their ___________. However, people resisted because cakes were eaten up for Christmas, and they felt ___________.",
+          optionA: "Gratitude; exhausted",
+          optionB: "Joy; excited",
+          optionC: "Resentment; wealthy",
+          correctAnswer: "A) Gratitude; exhausted",
+        },
+        {
+          question:
+            "The little girl, suffering from the constant Christmas celebrations, took to sitting down on ___________ wherever she found them because she hated the sight of them.",
+          optionA: "Chairs",
+          optionB: "Dolls",
+          optionC: "Tables",
+          correctAnswer: "B) Dolls",
+        },
+        {
+          question:
+            "The little girl's family received presents, including books, portfolios, and ___________, on the once-a-year Christmas. The big Christmas-tree was lit and standing in a ___________.",
+          optionA: "Candy; waste-basket",
+          optionB: "Skates; playground",
+          optionC: "Waterproofs; forest",
+          correctAnswer: "A) Candy; waste-basket",
+        },
+        {
+          question:
+            "The little girl's family, initially excited about the daily Christmas, eventually expressed their frustration by throwing presents over ___________.",
+          optionA: "Fences",
+          optionB: "Roofs",
+          optionC: "Windows",
+          correctAnswer: "A) Fences",
+        },
+        {
+          question:
+            "The little girl tried to stop the constant Christmas celebrations by sending letters and telegrams to the Christmas Fairy, but it didn't do any ___________.",
+          optionA: "Good",
+          optionB: "Harm",
+          optionC: "Change",
+          correctAnswer: "A) Good",
+        },
+        {
+          question:
+            "The little girl's family wanted to go to the poor-house initially, but they had to return home because the poor-houses got so full. People had lost their ___________ from saying 'Merry Christmas' so much.",
+          optionA: "Voices",
+          optionB: "Patience",
+          optionC: "Money",
+          correctAnswer: "A) Voices",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "Hukin demanded damages for his bitten finger because he couldn't use it for a week.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "The dog that bit Hukin had a yellow patch on its back.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Yelov decided that the dog should be strangled because it was a valuable breed.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Yeldrin suggested that Hukin provoked the dog by offering it a biscuit.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The crowd laughed at Hukin after Prohor confirmed the dog belonged to the General's brother.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Yelov was unaware of the General's brother's visit until Prohor mentioned it.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Hukin claimed that the police officer would decide who was telling the truth based on the law.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "The dog that caused the commotion was a Labradors breed.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Yelov believed that the dog's behavior was defensive rather than aggressive.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Yelov wrapped himself in his great coat and went on his way across the square after the incident.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "The little girl wanted Christmas every day, and the Christmas Fairy granted her wish for a year.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The little girl's family initially went to the poor-house due to their extravagant Christmas celebrations.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "As Christmas continued every day, the little girl became excited and joyful with the constant celebrations.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "People started going to the poor-house because they had lost their voices from saying 'Merry Christmas' so much.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The little girl's family, by Thanksgiving, resisted going to church and showing gratitude because cakes were eaten up for Christmas.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The little girl expressed her frustration with the constant Christmas celebrations by throwing presents over fences.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The little girl tried to stop the constant Christmas celebrations by sending letters and telegrams to the Easter Bunny.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The little girl's family wanted to go to the poor-house initially but had to return home because the poor-houses got so full.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The little girl, suffering from constant Christmas celebrations, took to sitting down on chairs wherever she found them.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The little girl's family, initially excited about daily Christmas, eventually expressed their frustration by throwing presents over roofs.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

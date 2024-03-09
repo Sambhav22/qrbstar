@@ -1,125 +1,88 @@
-export const chapter = "Chapter - 14: Let's Send a Letter ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
-
+export const chapter = "Chapter -14: Let's Send a Letter";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      {
-        passage:
-          "Birds are singing beautifully in the morning. Two dogs are barking at each other. Aditya is writing a letter to her sister. Kavya is talking over the phone. Communication is transferring messages, ideas, and thoughts from one person to another. Earlier when people were not aware of the modes of communication, they communicated by using different signs and signals. Let's learn in detail:\n\nSigns: It is a form of language that directly communicates with the targeted audiences. For example, a dancer through gestures communicates her feelings to the audience during a performance.\n\nSymbols: It is a representation of an object, function, or process. For example, paintings on the walls of caves give a message in a symbolic form to the audience.\n\nMeans of Communication\nWith the passage of time, the modes of communication get developed, and now we have a number of means that have made our lives easy and comfortable.\n\nCommunication through Post\nThe cheapest way to communicate with people who live in different villages, towns, cities, and countries is through a letter. We use postcards and inland letters to send messages. To send a letter to someone who lives outside India, we use an aerogramme or airmail. Urgent letters can be sent through speed post or courier. Parcels and money orders can also be sent by post.\n\nCommunication through Phones\nMobile phones or cellular phones can be carried anywhere. They have made communication very easy. These are the fastest means of personal communication, and one can send his message to others instantly.\n\nCommunication with Masses\nExchanging information on a large scale is called mass communication. To communicate such messages, we need radio, TV, internet, journal, and newspaper as the medium of exchanging information. With the help of mass communication, we are able to know what is happening around the world.\n\nNeed for Communication\nLike food, water, and shelter, communication is also an important requirement for the survival of humans. What we want and what we need, all can be answered through communication only. People who do not speak also express their feelings and needs through their sign language. Similarly, in offices, schools, and at every place of work, we communicate with one another to convey our messages and ideas to others.",
-        questions: [
-          {
-            question: "What is the primary focus of the passage?",
-            options: [
-              "Birds singing in the morning",
-              "Modes of communication",
-              "Aditya writing a letter",
-            ],
-            answer: "Modes of communication",
-          },
-          {
-            question:
-              "Which of the following is an example of symbolic communication?",
-            options: [
-              "Two dogs barking",
-              "Aditya writing a letter",
-              "Paintings on cave walls",
-            ],
-            answer: "Paintings on cave walls",
-          },
-          {
-            question:
-              "What is the cheapest way to communicate with people in different locations?",
-            options: [
-              "Mobile phones",
-              "Letters through post",
-              "Speed post or courier",
-            ],
-            answer: "Letters through post",
-          },
-          {
-            question:
-              "Which is considered the fastest means of personal communication?",
-            options: ["Radio", "Letters through post", "Mobile phones"],
-            answer: "Mobile phones",
-          },
-          {
-            question: "What is mass communication?",
-            options: [
-              "Communicating with pets",
-              "Exchanging information on a large scale",
-              "Sending letters through airmail",
-            ],
-            answer: "Exchanging information on a large scale",
-          },
-          {
-            question: "What is the purpose of using an aerogramme or airmail?",
-            options: [
-              "To send urgent letters",
-              "To communicate with masses",
-              "To send letters outside India",
-            ],
-            answer: "To send letters outside India",
-          },
-          {
-            question:
-              "What is the importance of communication for humans according to the passage?",
-            options: [
-              "It is a luxury",
-              "It is necessary for survival",
-              "It is only for those who can speak",
-            ],
-            answer: "It is necessary for survival",
-          },
-          {
-            question:
-              "Which form of communication is used by a dancer to convey feelings during a performance?",
-            options: ["Signs", "Symbols", "Letters"],
-            answer: "Signs",
-          },
-          {
-            question: "What can be sent through speed post or courier?",
-            options: ["Money orders", "Parcels", "Letters through post"],
-            answer: "Parcels",
-          },
-          {
-            question: "What is the focus of mass communication in the passage?",
-            options: [
-              "Personal messages",
-              "Exchanging information on a large scale",
-              "Communicating with animals",
-            ],
-            answer: "Exchanging information on a large scale",
-          },
-        ],
-      },
+      [
+        {
+          question: "What is communication?",
+          optionA: "Transfer of goods and services",
+          optionB: "Transferring messages, ideas, and thoughts",
+          optionC: "Transporting physical objects",
+          correctAnswer: "Transferring messages, ideas, and thoughts",
+        },
+        {
+          question:
+            "How do dancers often communicate their feelings to the audience?",
+          optionA: "Through paintings",
+          optionB: "Using symbols",
+          optionC: "Through gestures",
+          correctAnswer: "Through gestures",
+        },
+        {
+          question: "What does a symbol represent in communication?",
+          optionA: "A hidden message",
+          optionB: "An object, function, or process",
+          optionC: "A direct language",
+          correctAnswer: "An object, function, or process",
+        },
+        {
+          question:
+            "What is the cheapest way to communicate with people in different locations?",
+          optionA: "Radio",
+          optionB: "Letters",
+          optionC: "Mobile phones",
+          correctAnswer: "Letters",
+        },
+        {
+          question: "How can urgent letters be sent according to the text?",
+          optionA: "Through mass communication",
+          optionB: "Using speed post or courier",
+          optionC: "Via email",
+          correctAnswer: "Using speed post or courier",
+        },
+        {
+          question:
+            "What is the fastest means of personal communication mentioned in the text?",
+          optionA: "Postcards",
+          optionB: "Mobile phones",
+          optionC: "Letters",
+          correctAnswer: "Mobile phones",
+        },
+        {
+          question: "What is mass communication?",
+          optionA: "Personal conversations",
+          optionB: "Large-scale exchange of information",
+          optionC: "Communication through symbols only",
+          correctAnswer: "Large-scale exchange of information",
+        },
+        {
+          question:
+            "What is stated as an essential requirement for the survival of humans in the text?",
+          optionA: "Mass communication",
+          optionB: "Shelter",
+          optionC: "Communication",
+          correctAnswer: "Communication",
+        },
+        {
+          question:
+            "How do people who do not speak often express their feelings and needs?",
+          optionA: "Through paintings",
+          optionB: "By using symbols",
+          optionC: "Through sign language",
+          correctAnswer: "Through sign language",
+        },
+        {
+          question:
+            "What enables us to know what is happening around the world, according to the text?",
+          optionA: "Letters",
+          optionB: "Mass communication",
+          optionC: "Mobile phones",
+          correctAnswer: "Mass communication",
+        },
+      ],
     ],
   };
 }
@@ -127,165 +90,171 @@ if (localStorage.getItem("activityNumber") == 1) {
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
-    questions: shuffleQues([
-      shuffleOptions({
+    questions: [
+      [
+        {
           question:
-            "Birds are singing beautifully in the _______. Two dogs are barking at each other.",
-          optionA: "afternoon",
-          optionB: "evening",
-          optionC: "morning",
-          correctAnswer: "morning",
-         }),
-      shuffleOptions({
+            "Communication is the ____________ of messages, ideas, and thoughts from one person to another.",
+          optionA: "Interpretation",
+          optionB: "Transfer",
+          optionC: "Reception",
+          correctAnswer: "Transfer",
+        },
+        {
           question:
-            "Aditya is writing a letter to _______ sister. Kavya is talking over the phone.",
-          optionA: "her",
-          optionB: "his",
-          optionC: "their",
-          correctAnswer: "her",
-         }),
-      shuffleOptions({
+            "Signs are a form of language that directly communicates with the targeted audiences, for example, a dancer communicates her feelings through ____________ during a performance.",
+          optionA: "Speech",
+          optionB: "Movements",
+          optionC: "Symbols",
+          correctAnswer: "Movements",
+        },
+        {
           question:
-            "Communication is the transferring of messages, ideas, and thoughts from one person to _______.",
-          optionA: "animal",
-          optionB: "another",
-          optionC: "object",
-          correctAnswer: "another",
-         }),
-      shuffleOptions({
+            "Symbols are a representation of an object, function, or process. For example, paintings on the walls of caves give a message in a ____________ form to the audience.",
+          optionA: "Verbal",
+          optionB: "Symbolic",
+          optionC: "Literal",
+          correctAnswer: "Symbolic",
+        },
+        {
           question:
-            "Earlier when people were not aware of the modes of communication, they communicated by using different _______ and signals.",
-          optionA: "sounds",
-          optionB: "signs",
-          optionC: "symbols",
-          correctAnswer: "signs",
-         }),
-      shuffleOptions({
+            "The cheapest way to communicate with people in different villages, towns, cities, and countries is through a ____________.",
+          optionA: "Phone call",
+          optionB: "Letter",
+          optionC: "Email",
+          correctAnswer: "Letter",
+        },
+        {
           question:
-            "Symbols are a representation of an object, function, or _______.",
-          optionA: "emotion",
-          optionB: "person",
-          optionC: "process",
-          correctAnswer: "process",
-         }),
-      shuffleOptions({
+            "Mobile phones are the fastest means of personal communication, and they allow one to send messages to others ____________.",
+          optionA: "Eventually",
+          optionB: "Promptly",
+          optionC: "Occasionally",
+          correctAnswer: "Promptly",
+        },
+        {
           question:
-            "The cheapest way to communicate with people who live in different villages, towns, cities, and countries is through a _______.",
-          optionA: "phone call",
-          optionB: "letter",
-          optionC: "radio broadcast",
-          correctAnswer: "letter",
-         }),
-      shuffleOptions({
+            "Exchanging information on a large scale is called ____________ communication, and it requires radio, TV, internet, journal, and newspaper as the medium of exchanging information.",
+          optionA: "Personal",
+          optionB: "Mass",
+          optionC: "Direct",
+          correctAnswer: "Mass",
+        },
+        {
           question:
-            "Mobile phones or cellular phones can be carried anywhere, making communication very _______.",
-          optionA: "difficult",
-          optionB: "easy",
-          optionC: "expensive",
-          correctAnswer: "easy",
-         }),
-      shuffleOptions({
+            "Communication is an important requirement for the survival of humans, similar to the importance of food, water, and ____________.",
+          optionA: "Shelter",
+          optionB: "Clothing",
+          optionC: "Entertainment",
+          correctAnswer: "Shelter",
+        },
+        {
           question:
-            "Exchanging information on a large scale is called _______ communication.",
-          optionA: "personal",
-          optionB: "mass",
-          optionC: "direct",
-          correctAnswer: "mass",
-         }),
-      shuffleOptions({
+            "People who do not speak often express their feelings and needs through their ____________ language.",
+          optionA: "Written",
+          optionB: "Verbal",
+          optionC: "Sign",
+          correctAnswer: "Sign",
+        },
+        {
           question:
-            "Like food, water, and shelter, communication is also an important requirement for the _______ of humans.",
-          optionA: "entertainment",
-          optionB: "survival",
-          optionC: "happiness",
-          correctAnswer: "survival",
-         }),
-      shuffleOptions({
+            "In offices, schools, and every place of work, individuals communicate with one another to convey their messages and ____________ to others.",
+          optionA: "Demands",
+          optionB: "Ideas",
+          optionC: "Commands",
+          correctAnswer: "Ideas",
+        },
+        {
           question:
-            "People who do not speak also express their feelings and needs through their _______ language.",
-          optionA: "spoken",
-          optionB: "written",
-          optionC: "sign",
-          correctAnswer: "sign",
-           }),
-    ]),
-  }
+            "Communication helps in answering what we want and need, and it is an essential requirement for the survival of humans, similar to food, water, and ____________.",
+          optionA: "Electricity",
+          optionB: "Shelter",
+          optionC: "Clothing",
+          correctAnswer: "Shelter",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-          question: "Birds sing beautifully in the morning.",
-          optionA: "True",
-        optionB: "False",
-          correctAnswer: "True",
-         }),
-      shuffleOptions({
-          question: "Aditya is writing a letter to his sister.",
-          optionA: "True",
-        optionB: "False",
-          correctAnswer: "False",
-         }),
-      shuffleOptions({
+    questions: [
+      [
+        {
           question:
-            "Symbols are a representation of an object, function, or emotion.",
+            "Communication through Post is the most expensive way to communicate.",
           optionA: "True",
-        optionB: "False",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Symbols are a representation of an object, function, or process.",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "True",
-         }),
-      shuffleOptions({
+        },
+        {
           question:
             "Mobile phones are the slowest means of personal communication.",
           optionA: "True",
-        optionB: "False",
+          optionB: "False",
           correctAnswer: "False",
-         }),
-      shuffleOptions({
+        },
+        {
           question:
             "Mass communication involves exchanging information on a small scale.",
           optionA: "True",
-        optionB: "False",
+          optionB: "False",
           correctAnswer: "False",
-         }),
-      shuffleOptions({
+        },
+        {
           question:
             "Communication is not considered an important requirement for the survival of humans.",
           optionA: "True",
-        optionB: "False",
-          correctAnswer: "False",
-         }),
-      shuffleOptions({
-          question:
-            "People who do not speak can express their feelings through sign language.",
-          optionA: "True",
-        optionB: "False",
+          optionB: "False",
           correctAnswer: "True",
-         }),
-      shuffleOptions({
+        },
+        {
           question:
-            "Symbols can only represent objects, not functions or processes.",
+            "People who do not speak often express their feelings and needs through spoken language.",
           optionA: "True",
-        optionB: "False",
+          optionB: "False",
           correctAnswer: "False",
-         }),
-      shuffleOptions({
+        },
+        {
           question:
-            "Letters through post are the most expensive way to communicate with people in different locations.",
+            "Birds with curved beaks, such as parrots, use them to crack nuts and eat hard fruits or food items.",
           optionA: "True",
-        optionB: "False",
-          correctAnswer: "False",
-         }),
-      shuffleOptions({
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
           question:
-            "Communication with masses involves the use of personal letters.",
+            "Communication with masses involves using radio, TV, internet, journal, and newspaper as mediums.",
           optionA: "True",
-        optionB: "False",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "In offices, schools, and every place of work, individuals communicate with one another to hide their messages and ideas from others.",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "False",
-           }),
-    ]),
-  }
+        },
+        {
+          question:
+            "Symbols are a form of language that directly communicates with the targeted audiences.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

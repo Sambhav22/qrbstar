@@ -1,258 +1,258 @@
-export const chapter = "Chapter - 21: Little Abdul Learns ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -21: Little Abdul Learns";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "What fascinated Little Abdul about birds?",
-        optionA: "How they sing",
-        optionB: "How they glide in the air",
-        optionC: "How they build nests",
-        correctAnswer: "How they glide in the air",
-     }),
-      shuffleOptions({
-        question:
-          "How did Little Abdul's teacher react when he asked, 'How do birds fly?'",
-        optionA: "The teacher scolded him.",
-        optionB: "The teacher praised him and explained the concept.",
-        optionC: "The teacher ignored him.",
-        correctAnswer: "The teacher praised him and explained the concept.",
-     }),
-      shuffleOptions({
-        question: "Why did the teacher take the students to the seashore?",
-        optionA: "To collect seashells",
-        optionB: "To watch flying birds and understand avian flight better",
-        optionC: "To have a picnic",
-        correctAnswer:
-          "To watch flying birds and understand avian flight better",
-     }),
-      shuffleOptions({
-        question:
-          "What did Little Abdul ask about the birds' behavior at the seashore?",
-        optionA: "Why they fly",
-        optionB: "Why they fold their legs back",
-        optionC: "Why they swim",
-        correctAnswer: "Why they fold their legs back",
-     }),
-      shuffleOptions({
-        question: "What was Little Abdul's father's occupation?",
-        optionA: "Teacher",
-        optionB: "Farmer",
-        optionC: "Ferryman",
-        correctAnswer: "Ferryman",
-     }),
-      shuffleOptions({
-        question:
-          "What did Little Abdul's father need to build after the boat was destroyed?",
-        optionA: "A house",
-        optionB: "A car",
-        optionC: "A new boat",
-        correctAnswer: "A new boat",
-     }),
-      shuffleOptions({
-        question:
-          "How did Little Abdul's cousin, Jallaluddin, respond when he didn't know the answer to a question?",
-        optionA: "He tried to evade the question.",
-        optionB:
-          "He admitted he didn't know and said he would find the answer.",
-        optionC: "He made up an answer.",
-        correctAnswer:
-          "He admitted he didn't know and said he would find the answer.",
-     }),
-      shuffleOptions({
-        question: "Why did white ants not eat teak wood?",
-        optionA: "It tastes good to them.",
-        optionB: "It is strong and dense.",
-        optionC: "It is too hard for them to chew.",
-        correctAnswer: "It is strong and dense.",
-     }),
-      shuffleOptions({
-        question:
-          "How did Little Abdul find out why white ants do not eat teak wood?",
-        optionA: "He asked his cousin, Jallaluddin.",
-        optionB: "He conducted an experiment.",
-        optionC: "He asked his science teacher.",
-        correctAnswer: "He asked his science teacher.",
-     }),
-      shuffleOptions({
-        question:
-          "What lesson did the teacher draw from the taste of teak wood for Little Abdul?",
-        optionA: "To eat more wood",
-        optionB: "To inculcate qualities that his enemies would not like",
-        optionC: "To avoid teak wood",
-        correctAnswer: "To inculcate qualities that his enemies would not like",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "What fascinated Little Abdul about birds?",
+          optionA: "Their ability to swim",
+          optionB: "Their majestic flight",
+          optionC: "Their colorful feathers",
+          correctAnswer: "Their majestic flight",
+        },
+        {
+          question:
+            "How did Little Abdul's science teacher initially explain avian flight?",
+          optionA: "Through diagrams and explanations in the classroom",
+          optionB:
+            "By taking the students to the seashore to observe flying birds",
+          optionC: "By demonstrating with live birds in the classroom",
+          correctAnswer: "Through diagrams and explanations in the classroom",
+        },
+        {
+          question:
+            "Why did Little Abdul find it difficult to understand avian flight initially?",
+          optionA: "Because the topic was too easy for him",
+          optionB: "Because the teacher's explanations were unclear",
+          optionC: "Because he was not interested in birds",
+          correctAnswer: "Because the teacher's explanations were unclear",
+        },
+        {
+          question:
+            "What helped Little Abdul grasp the concept of avian flight better?",
+          optionA: "Reading about birds in textbooks",
+          optionB: "Watching flying birds at the seashore",
+          optionC: "Listening to his cousin's explanations",
+          correctAnswer: "Watching flying birds at the seashore",
+        },
+        {
+          question:
+            "Why did birds fold their legs back according to Little Abdul's teacher?",
+          optionA: "To fly faster",
+          optionB: "To avoid predators",
+          optionC: "To sail through the air unhindered",
+          correctAnswer: "To sail through the air unhindered",
+        },
+        {
+          question: "What was Little Abdul's father's profession?",
+          optionA: "A scientist",
+          optionB: "A ferryman",
+          optionC: "A farmer",
+          correctAnswer: "A ferryman",
+        },
+        {
+          question:
+            "Why did no one want to give a loan to Little Abdul's father?",
+          optionA: "Because he was rich",
+          optionB: "Because he was a bad person",
+          optionC: "Because of his poor financial state",
+          correctAnswer: "Because of his poor financial state",
+        },
+        {
+          question:
+            "What did Little Abdul's cousin, Jallaluddin, do when he didn't know the answer to a question?",
+          optionA: "He tried to find answers from newspapers and books",
+          optionB: "He ignored the question",
+          optionC: "He made up an answer",
+          correctAnswer: "He tried to find answers from newspapers and books",
+        },
+        {
+          question:
+            "What did Little Abdul learn from his science teacher about why white ants don't eat teak?",
+          optionA: "Because it is too hard for them to chew",
+          optionB: "Because it is bitter in taste",
+          optionC: "Because it emits a repellent odor",
+          correctAnswer: "Because it is bitter in taste",
+        },
+        {
+          question:
+            "What lesson did Little Abdul learn from the bitter taste of teak?",
+          optionA: "To avoid eating wood",
+          optionB: "To develop qualities that make him immune to harm",
+          optionC: "To always listen to his science teacher",
+          correctAnswer: "To develop qualities that make him immune to harm",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "A.P.J. Abdul Kalam had a keen sense of ________.",
-        options: ["adventure", "observation", "curiosity"],
-        correctAnswer: "observation",
-     }),
-      shuffleOptions({
-        question:
-          "Little Abdul was fascinated by the way birds soared and glided in the air above the open ________.",
-        options: ["desert", "sea", "forest"],
-        correctAnswer: "sea",
-     }),
-      shuffleOptions({
-        question:
-          "Little Abdul asked his science teacher, Subramania ________ question about how birds fly.",
-        options: ["a confusing", "a silly", "a sincere"],
-        correctAnswer: "a sincere",
-     }),
-      shuffleOptions({
-        question:
-          "Little Abdul and his classmates found it hard to grasp the concept of ________ flight.",
-        options: ["avian", "terrestrial", "aquatic"],
-        correctAnswer: "avian",
-     }),
-      shuffleOptions({
-        question:
-          "Little Abdul's father was a ________ who ferried passengers from Rameshwaram to Dhanushkodi.",
-        options: ["doctor", "farmer", "ferryman"],
-        correctAnswer: "ferryman",
-     }),
-      shuffleOptions({
-        question:
-          "When the boat was destroyed in a storm, Little Abdul's father decided to build a new boat by himself from available ________.",
-        options: ["stones", "wood", "metal"],
-        correctAnswer: "wood",
-     }),
-      shuffleOptions({
-        question:
-          "Little Abdul's cousin, Jallaluddin, was always ready to answer his ________.",
-        options: ["phone calls", "queries", "messages"],
-        correctAnswer: "queries",
-     }),
-      shuffleOptions({
-        question:
-          "Jallaluddin explained that white ants did not eat teak wood because it is strong, dense, and has a ________ taste.",
-        options: ["sweet", "bitter", "salty"],
-        correctAnswer: "bitter",
-     }),
-      shuffleOptions({
-        question:
-          "When Little Abdul asked his science teacher why white ants did not eat teak wood, the teacher suggested that Abdul ________ the wood.",
-        options: ["carve", "paint", "taste"],
-        correctAnswer: "taste",
-     }),
-      shuffleOptions({
-        question:
-          "The teacher told Little Abdul that he should inculcate qualities in himself that his enemies would not find ________.",
-        options: ["delicious", "friendly", "palatable"],
-        correctAnswer: "palatable",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question: "Little Abdul had a passion for ________.",
+          optionA: "cars",
+          optionB: "birds",
+          optionC: "boats",
+          correctAnswer: "birds",
+        },
+        {
+          question:
+            "Little Abdul's science teacher's name was ________ Subramania.",
+          optionA: "Siva",
+          optionB: "Rajesh",
+          optionC: "Krishna",
+          correctAnswer: "Siva",
+        },
+        {
+          question: "The topic in class one day was ________.",
+          optionA: "mathematics",
+          optionB: "birds",
+          optionC: "history",
+          correctAnswer: "birds",
+        },
+        {
+          question:
+            "Little Abdul found it hard to grasp the concept of avian flight initially because the teacher's explanations were ________.",
+          optionA: "clear",
+          optionB: "unclear",
+          optionC: "funny",
+          correctAnswer: "unclear",
+        },
+        {
+          question: "Little Abdul's father was a poor ________.",
+          optionA: "businessman",
+          optionB: "farmer",
+          optionC: "ferryman",
+          correctAnswer: "ferryman",
+        },
+        {
+          question:
+            "No one wanted to give a loan to Little Abdul's father because of his poor ________.",
+          optionA: "health",
+          optionB: "financial state",
+          optionC: "education",
+          correctAnswer: "financial state",
+        },
+        {
+          question:
+            "Little Abdul's cousin, Jallaluddin, tried to find answers from ________ and books at his disposal.",
+          optionA: "movies",
+          optionB: "newspapers",
+          optionC: "television",
+          correctAnswer: "newspapers",
+        },
+        {
+          question:
+            "Little Abdul learned from his science teacher that teak wood is bitter in ________.",
+          optionA: "color",
+          optionB: "taste",
+          optionC: "texture",
+          correctAnswer: "taste",
+        },
+        {
+          question:
+            "According to Little Abdul's science teacher, teak wood's bitterness teaches a lesson about developing qualities that make one immune to ________.",
+          optionA: "failure",
+          optionB: "happiness",
+          optionC: "harm",
+          correctAnswer: "harm",
+        },
+        {
+          question:
+            "Little Abdul learned to cultivate a keen sense of ________ from studying A.P.J. Abdul Kalam's life.",
+          optionA: "humor",
+          optionB: "observation",
+          optionC: "creativity",
+          correctAnswer: "observation",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "A.P.J. Abdul Kalam was a famous scientist.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Little Abdul had a passion for studying fish.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Little Abdul's science teacher, Subramania, explained avian flight using a diagram on the blackboard.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Little Abdul's father was a doctor.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Little Abdul's father decided to build a new boat after the old one was destroyed in a storm.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Jallaluddin, Little Abdul's cousin, always had the answers to all of Abdul's questions.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "White ants don't eat teak wood because it tastes sweet to them.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Little Abdul conducted an experiment to find out why white ants don't eat teak wood.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Major Somnath Sharma and his soldiers fought bravely despite facing more than 700 attackers.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Major Somnath Sharma was killed when a bomb fell near him during the battle.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "Abdul Kalam was primarily interested in studying birds because of their majestic flight.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "Abdul Kalam's father was a wealthy businessman.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Abdul Kalam's father faced difficulties in getting a loan to rebuild his boat.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Abdul Kalam's cousin, Jallaluddin, always had answers to Abdul's questions.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Jallaluddin was highly educated and had access to numerous resources for finding answers to Abdul's questions.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Abdul Kalam's teachers were always able to satisfy his curiosity and desire for learning.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "Jallaluddin knew why white ants don't eat teak wood.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Teak wood is resistant to white ants because it has a bitter taste.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Abdul Kalam's science teacher encouraged him to taste teak wood to understand why white ants don't eat it.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The lesson Abdul Kalam learned from the bitter taste of teak wood was to develop qualities that make him immune to harm.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

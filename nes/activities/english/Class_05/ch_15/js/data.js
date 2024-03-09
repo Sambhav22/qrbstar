@@ -1,262 +1,265 @@
-export const chapter = "Chapter - 15: The Aged Mother  ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -15: The Aged Mother";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "What was the governor's proclamation in the story?",
-        optionA: "To harvest more crops",
-        optionB: "To execute all the elderly people",
-        optionC: "To build a new road in the province",
-        correctAnswer: "To execute all the elderly people",
-     }),
-      shuffleOptions({
-        question:
-          "How did the poor farmer and his mother feel about each other?",
-        optionA: "They had a strained relationship.",
-        optionB: "They loved and respected each other.",
-        optionC: "They didn't interact much.",
-        correctAnswer: "They loved and respected each other.",
-     }),
-      shuffleOptions({
-        question:
-          "What was the name of the mountain where the aged were supposed to be abandoned?",
-        optionA: "Obatsuyama",
-        optionB: "Abandonama",
-        optionC: "Elders' Summit",
-        correctAnswer: "Obatsuyama",
-     }),
-      shuffleOptions({
-        question:
-          "How did the farmer mark the path as he climbed the mountain with his mother?",
-        optionA: "By painting symbols on trees",
-        optionB: "By dropping twigs along the way",
-        optionC: "By singing a specific song",
-        correctAnswer: "By dropping twigs along the way",
-     }),
-      shuffleOptions({
-        question:
-          "What was the farmer supposed to make for the governor's order of a 'rope of ashes'?",
-        optionA: "A rope of twisted straw",
-        optionB: "A rope made of stones",
-        optionC: "A rope from the governor's hair",
-        correctAnswer: "A rope of twisted straw",
-     }),
-      shuffleOptions({
-        question: "How did the farmer create the 'rope of ashes'?",
-        optionA: "He burned a rope made of straw on a windy night.",
-        optionB: "He gathered ashes and twisted them into a rope.",
-        optionC: "He used a rope made of stones and set it on fire.",
-        correctAnswer: "He burned a rope made of straw on a windy night.",
-     }),
-      shuffleOptions({
-        question:
-          "What did the governor do when he learned the truth about the farmer's wisdom?",
-        optionA: "He ordered the farmer to be executed.",
-        optionB: "He praised the farmer and abolished the cruel law.",
-        optionC: "He banished the farmer from the province.",
-        correctAnswer: "He praised the farmer and abolished the cruel law.",
-     }),
-      shuffleOptions({
-        question:
-          "What saying did the governor recall after listening to the farmer's story?",
-        optionA: "'With great power comes great responsibility.'",
-        optionB: "'With the crown of snow, there cometh wisdom.'",
-        optionC: "'The early bird catches the worm.'",
-        correctAnswer: "'With the crown of snow, there cometh wisdom.'",
-     }),
-      shuffleOptions({
-        question:
-          "How did the governor change his stance after hearing the farmer's story?",
-        optionA: "He became even more despotic.",
-        optionB: "He decided to execute all the elderly people.",
-        optionC: "He realized the need for wisdom in the province.",
-        correctAnswer: "He realized the need for wisdom in the province.",
-     }),
-      shuffleOptions({
-        question:
-          "What was the ultimate outcome of the governor's actions in the story?",
-        optionA: "The elderly were executed.",
-        optionB: "The province remained the same.",
-        optionC: "The elderly could lead a life full of dignity.",
-        correctAnswer: "The elderly could lead a life full of dignity.",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "What was the governor's cruel proclamation in the story?",
+          optionA: "All young people should be banished.",
+          optionB: "All aged people should be put to death.",
+          optionC: "All farmers should surrender their lands.",
+          correctAnswer: "All aged people should be put to death.",
+        },
+        {
+          question:
+            "How did the poor farmer react to the governor's order regarding the aged?",
+          optionA: "He openly defied the governor.",
+          optionB:
+            "He prepared for the kindest mode of death as per the order.",
+          optionC: "He fled the province with his mother.",
+          correctAnswer:
+            "He prepared for the kindest mode of death as per the order.",
+        },
+        {
+          question:
+            "What did the poor farmer carry on his journey up the mountain?",
+          optionA: "A sword and armor.",
+          optionB: "Brown rice, a cloth bundle, and a gourd of water.",
+          optionC: "Gold and jewels.",
+          correctAnswer: "Brown rice, a cloth bundle, and a gourd of water.",
+        },
+        {
+          question: "How did the old mother help her son on the mountain path?",
+          optionA: "She carried some of the load for him.",
+          optionB: "She marked the path with twigs.",
+          optionC: "She warned him of dangers ahead.",
+          correctAnswer: "She marked the path with twigs.",
+        },
+        {
+          question:
+            "What was the son's reaction when he reached the summit of the mountain?",
+          optionA: "He rejoiced and celebrated.",
+          optionB:
+            "He gently released his burden and prepared a place for his mother.",
+          optionC: "He decided to abandon his mother.",
+          correctAnswer:
+            "He gently released his burden and prepared a place for his mother.",
+        },
+        {
+          question:
+            "What did the mother instruct her son regarding the path down the mountain?",
+          optionA: "To follow the moonlight.",
+          optionB: "To look carefully for piles of twigs to guide him.",
+          optionC: "To listen for the sound of water.",
+          correctAnswer: "To look carefully for piles of twigs to guide him.",
+        },
+        {
+          question:
+            "How did the son hide his mother when the governor's unreasonable order for a rope of ashes arrived?",
+          optionA: "He buried her in the backyard.",
+          optionB:
+            "He concealed her in a walled closet beneath the kitchen floor.",
+          optionC: "He disguised her as a servant.",
+          correctAnswer:
+            "He concealed her in a walled closet beneath the kitchen floor.",
+        },
+        {
+          question: "What was the governor's demand for the rope of ashes?",
+          optionA: "He wanted it as a decoration.",
+          optionB: "He needed it for a special ceremony.",
+          optionC: "It was an unreasonable order to showcase his power.",
+          correctAnswer: "It was an unreasonable order to showcase his power.",
+        },
+        {
+          question: "How did the son create the rope of ashes?",
+          optionA: "He collected ashes from the fireplace.",
+          optionB:
+            "He burned a rope made of twisted straw on a windless night.",
+          optionC: "He tricked the governor with a fake rope.",
+          correctAnswer:
+            "He burned a rope made of twisted straw on a windless night.",
+        },
+        {
+          question: "What was the final outcome of the story?",
+          optionA: "The governor became more tyrannical.",
+          optionB:
+            "The cruel law was abolished, and the elderly could lead a dignified life.",
+          optionC: "The son was punished for disobedience.",
+          correctAnswer:
+            "The cruel law was abolished, and the elderly could lead a dignified life.",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "The poor farmer and his aged, widowed mother lived at the foot of a mountain and owned a bit of land that supplied them with ___________.",
-        options: ["riches", "happiness", "food"],
-        correctAnswer: "food",
-     }),
-      shuffleOptions({
-        question:
-          "The despotic governor's proclamation ordered the immediate execution of ___________.",
-        options: [
-          "all the wealthy people",
-          "all the aged people",
-          "all the farmers",
-        ],
-        correctAnswer: "all the aged people",
-     }),
-      shuffleOptions({
-        question:
-          "The farmer's journey up the mountain was towards the high bare summit of ___________.",
-        options: ["Abandonama", "Elders' Summit", "___________"],
-        correctAnswer: "Abandonama",
-     }),
-      shuffleOptions({
-        question:
-          "The farmer marked the path as he climbed the mountain by dropping ___________ along the way.",
-        options: ["rocks", "twigs", "leaves"],
-        correctAnswer: "twigs",
-     }),
-      shuffleOptions({
-        question:
-          "To create the 'rope of ashes,' the farmer was instructed to make a rope of twisted ___________ and burn it on a windless night.",
-        options: ["straw", "twigs", "cloth"],
-        correctAnswer: "straw",
-     }),
-      shuffleOptions({
-        question:
-          "The governor was pleased with the farmer's wit in creating the 'rope of ashes' and demanded to know where he had obtained his ___________.",
-        options: ["wealth", "intelligence", "wisdom"],
-        correctAnswer: "wisdom",
-     }),
-      shuffleOptions({
-        question:
-          "The governor mentioned a well-known saying, 'With the crown of snow, there cometh ___________.'",
-        options: ["hardship", "wealth", "wisdom"],
-        correctAnswer: "wisdom",
-     }),
-      shuffleOptions({
-        question:
-          "What did the farmer use to guide him and his mother down the mountain?",
-        options: [
-          "The stars in the night sky",
-          "The twigs they had dropped",
-          "A map he had drawn",
-        ],
-        correctAnswer: "The twigs they had dropped",
-     }),
-      shuffleOptions({
-        question:
-          "What did the governor demand from his subjects in his unreasonable order?",
-        options: ["A sack of gold", "A rope of ashes", "A bushel of rice"],
-        correctAnswer: "A rope of ashes",
-     }),
-      shuffleOptions({
-        question:
-          "The governor abolished the cruel law, and as a result, the elderly in the province could lead a life full of ___________.",
-        options: ["fear", "hardship", "dignity"],
-        correctAnswer: "dignity",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "Just at sunset, the poor farmer took a quantity of ______________, which was the principal food for the poor.",
+          optionA: "White bread",
+          optionB: "Brown rice",
+          optionC: "Cornmeal",
+          correctAnswer: "Brown rice",
+        },
+        {
+          question:
+            "The governor's proclamation ordered the immediate death of all ______________.",
+          optionA: "Young people",
+          optionB: "Farmers",
+          optionC: "Aged people",
+          correctAnswer: "Aged people",
+        },
+        {
+          question:
+            "The mountain the youth climbed was known as ______________.",
+          optionA: "Everest",
+          optionB: "Obatsuyama",
+          optionC: "Kilimanjaro",
+          correctAnswer: "Obatsuyama",
+        },
+        {
+          question:
+            "The old mother marked the path with tiny piles of ______________.",
+          optionA: "Stones",
+          optionB: "Leaves",
+          optionC: "Twigs",
+          correctAnswer: "Twigs",
+        },
+        {
+          question:
+            "At the summit, the youth prepared a place for his old mother using fallen ______________.",
+          optionA: "Feathers",
+          optionB: "Pine needles",
+          optionC: "Hay",
+          correctAnswer: "Pine needles",
+        },
+        {
+          question:
+            "The son hid his mother beneath the kitchen floor in a walled closet for ______________.",
+          optionA: "Clothes",
+          optionB: "Food",
+          optionC: "Gold",
+          correctAnswer: "Food",
+        },
+        {
+          question:
+            "The governor demanded that his subjects present him with a ______________ made of ashes.",
+          optionA: "Necklace",
+          optionB: "Rope",
+          optionC: "Crown",
+          correctAnswer: "Rope",
+        },
+        {
+          question:
+            "In response to the governor's order, the son made a rope of twisted ______________.",
+          optionA: "Straw",
+          optionB: "Hemp",
+          optionC: "Silk",
+          correctAnswer: "Straw",
+        },
+        {
+          question: "The youth burned the rope on a ______________ night.",
+          optionA: "Stormy",
+          optionB: "Windless",
+          optionC: "Rainy",
+          correctAnswer: "Windless",
+        },
+        {
+          question:
+            "The governor praised the youth's wit but demanded to know where he had obtained his ______________.",
+          optionA: "Wealth",
+          optionB: "Wisdom",
+          optionC: "Strength",
+          correctAnswer: "Wisdom",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "The poor farmer and his mother were wealthy.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The governor's proclamation demanded the execution of the elderly.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "The farmer marked the path using stones.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The farmer made the 'rope of ashes' using straw.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "The governor was displeased with the farmer's wit.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The governor mentioned a saying about the crown of snow and wisdom.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "The farmer used the stars to guide him down the mountain.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The governor demanded a sack of gold from his subjects.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The elderly in the province could lead a life full of fear after the governor's proclamation was abolished.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The farmer's mother helped create the 'rope of ashes.'",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "The poor farmer and his aged mother lived at the foot of the mountain.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The despotic governor's proclamation ordered the immediate death of all young people.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The poor farmer prepared for what was considered the kindest mode of death.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The youth carried a bundle of white rice and a jug of water up the mountain.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The old mother marked the mountain path with fallen leaves.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "The youth reached the summit and abandoned his mother.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The son hid his mother in a walled closet beneath the kitchen floor.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "The governor demanded a rope of ashes from his subjects.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The son made a rope of twisted straw to fulfill the governor's demand.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "The governor praised the youth's wealth and strength.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

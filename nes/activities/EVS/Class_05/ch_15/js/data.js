@@ -1,138 +1,83 @@
-export const chapter = "Chapter - 15: Fuels ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
-
+export const chapter = "Chapter -15: Fuels";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      {
-        questions: [
-          {
-            question:
-              "What is the primary reason for classifying fuels into fossil fuels and alternate fuels?",
-            options: [
-              "A) Geographical origin",
-              "B) Combustion rate",
-              "C) Renewability",
-            ],
-            answer: "C) Renewability",
-          },
-          {
-            question:
-              'Which of the following is known as "black gold" and is primarily used to run cars and two-wheelers?',
-            options: ["A) Coal", "B) Natural Gas", "C) Petroleum"],
-            answer: "C) Petroleum",
-          },
-          {
-            question:
-              "Where is coal found in India according to the given text?",
-            options: [
-              "A) Kerala and Karnataka",
-              "B) Jharkhand, Odisha, Chhattisgarh, West Bengal, and Madhya Pradesh",
-              "C) Punjab and Haryana",
-            ],
-            answer:
-              "B) Jharkhand, Odisha, Chhattisgarh, West Bengal, and Madhya Pradesh",
-          },
-          {
-            question:
-              "Which fossil fuel is lighter than oil and is found above the layers of petroleum deposits?",
-            options: [
-              "A) Compressed Natural Gas (CNG)",
-              "B) Liquified Petroleum Gas (LPG)",
-              "C) Natural Gas",
-            ],
-            answer: "C) Natural Gas",
-          },
-          {
-            question:
-              "What is the advantage of fossil fuels mentioned in the text?",
-            options: [
-              "A) They are renewable resources.",
-              "B) They release oxygen during combustion.",
-              "C) They can generate a large amount of electricity at a single location.",
-            ],
-            answer:
-              "C) They can generate a large amount of electricity at a single location.",
-          },
-          {
-            question:
-              "What environmental issue is associated with the burning of fossil fuels, according to the text?",
-            options: [
-              "A) Ozone layer depletion",
-              "B) Soil erosion",
-              "C) Greenhouse effect and global warming",
-            ],
-            answer: "C) Greenhouse effect and global warming",
-          },
-          {
-            question:
-              "Which renewable resource is created by powering electrical generators with the heat of the earth and subterranean hot water reservoirs?",
-            options: [
-              "A) Biomass Energy",
-              "B) Geothermal Energy",
-              "C) Wind Energy",
-            ],
-            answer: "B) Geothermal Energy",
-          },
-          {
-            question:
-              "What is the source of biomass energy, as mentioned in the text?",
-            options: [
-              "A) Sunlight",
-              "B) Wind",
-              "C) Organic material from plants or animals",
-            ],
-            answer: "C) Organic material from plants or animals",
-          },
-          {
-            question:
-              "How does hydropower generate electricity, according to the text?",
-            options: [
-              "A) By harnessing the energy of ocean currents",
-              "B) By converting solar energy into electricity",
-              "C) By using the mechanical energy from flowing water",
-            ],
-            answer: "C) By using the mechanical energy from flowing water",
-          },
-          {
-            question:
-              "What is the recommended step in the text to save fuel for short distances?",
-            options: [
-              "A) Use public transports",
-              "B) Use eco-friendly fuels",
-              "C) Use bicycles instead of vehicles running on fuel",
-            ],
-            answer: "C) Use bicycles instead of vehicles running on fuel",
-          },
-        ],
-      },
+      [
+        {
+          "question": "What is the primary purpose of fossil fuels?",
+          "optionA": "To generate electricity",
+          "optionB": "To power vehicles",
+          "optionC": "To cook food",
+          "correctAnswer": "To power vehicles"
+        },
+        {
+          "question": "Which of the following is NOT considered a fossil fuel?",
+          "optionA": "Petroleum",
+          "optionB": "Biomass",
+          "optionC": "Coal",
+          "correctAnswer": "Biomass"
+        },
+        {
+          "question": "What is another term for petroleum?",
+          "optionA": "Black gold",
+          "optionB": "Liquid coal",
+          "optionC": "Natural gas",
+          "correctAnswer": "Black gold"
+        },
+        {
+          "question": "Where is coal primarily found in India?",
+          "optionA": "Punjab",
+          "optionB": "Jharkhand",
+          "optionC": "Kerala",
+          "correctAnswer": "Jharkhand"
+        },
+        {
+          "question": "What percentage of the world's total energy does natural gas contribute?",
+          "optionA": "10%",
+          "optionB": "23%",
+          "optionC": "40%",
+          "correctAnswer": "23%"
+        },
+        {
+          "question": "Which fuel is commonly used for cooking in households?",
+          "optionA": "Natural gas",
+          "optionB": "Compressed Natural Gas (CNG)",
+          "optionC": "Liquified Petroleum Gas (LPG)",
+          "correctAnswer": "Liquified Petroleum Gas (LPG)"
+        },
+        {
+          "question": "What is the primary advantage of fossil fuels in electricity generation?",
+          "optionA": "They are renewable resources",
+          "optionB": "They are cost-effective",
+          "optionC": "They release no harmful emissions",
+          "correctAnswer": "They are cost-effective"
+        },
+        {
+          "question": "What is a major disadvantage of burning fossil fuels?",
+          "optionA": "They release oxygen into the atmosphere",
+          "optionB": "They contribute to global warming",
+          "optionC": "They are easily renewable",
+          "correctAnswer": "They contribute to global warming"
+        },
+        {
+          "question": "Which renewable resource generates electricity by converting the mechanical energy from flowing water?",
+          "optionA": "Biomass energy",
+          "optionB": "Geothermal energy",
+          "optionC": "Hydropower",
+          "correctAnswer": "Hydropower"
+        },
+        {
+          "question": "What is one recommended step to save fuel?",
+          "optionA": "Increase the use of private vehicles",
+          "optionB": "Reduce carpooling",
+          "optionC": "Turn off car engines at red lights",
+          "correctAnswer": "Turn off car engines at red lights"
+        }
+      ]
+      
     ],
   };
 }
@@ -141,77 +86,79 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      {
-        questions: [
-          {
-            question: 'Petroleum is also known as "____ ____."',
-            options: ["A) Liquid Gold", "B) Black Gold", "C) Golden Oil"],
-            answer: "B) Black Gold",
-          },
-          {
-            question:
-              "Coal is used for various purposes such as cooking, heating, and generating _____________.",
-            options: ["A) Wind energy", "B) Solar power", "C) Electricity"],
-            answer: "C) Electricity",
-          },
-          {
-            question:
-              "Natural gas is considered one of the cleanest, safest, and most useful energy sources, constituting about __% of the world's total energy.",
-            options: ["A) 10%", "B) 23%", "C) 50%"],
-            answer: "B) 23%",
-          },
-          {
-            question:
-              "Liquified Petroleum Gas (LPG) is commonly used at homes for ___________.",
-            options: ["A) Heating", "B) Cooking", "C) Generating electricity"],
-            answer: "B) Cooking",
-          },
-          {
-            question:
-              "Compressed Natural Gas (CNG) is known for causing less air pollution and is commonly used to run ___________.",
-            options: [
-              "A) Ships",
-              "B) Trains",
-              "C) Auto-rickshaws, cars, and buses",
-            ],
-            answer: "C) Auto-rickshaws, cars, and buses",
-          },
-          {
-            question:
-              "Fossil fuels, such as petroleum and coal, are classified as ____________ sources because they deplete at faster rates and take millions of years to form.",
-            options: ["A) Renewable", "B) Sustainable", "C) Non-renewable"],
-            answer: "C) Non-renewable",
-          },
-          {
-            question:
-              "Advantages of fossil fuels include their ability to generate a large amount of electricity at a single location and their ____________.",
-            options: [
-              "A) Renewable nature",
-              "B) Low cost",
-              "C) Easy extraction",
-            ],
-            answer: "B) Low cost",
-          },
-          {
-            question:
-              "Burning fossil fuels releases carbon dioxide, contributing to the ____________ effect and increasing global warming.",
-            options: ["A) Greenhouse", "B) Cooling", "C) Ozone layer"],
-            answer: "A) Greenhouse",
-          },
-          {
-            question:
-              "Geothermal power is created by powering electrical generators with the heat of the earth and naturally occurring subterranean hot water ____________.",
-            options: ["A) Pools", "B) Reservoirs", "C) Streams"],
-            answer: "B) Reservoirs",
-          },
-          {
-            question:
-              "Biomass energy is derived from organic material from plants or animals, including wood, sewage, and ____________ (which comes from corn or other plants).",
-            options: ["A) Natural gas", "B) Ethanol", "C) Petroleum"],
-            answer: "B) Ethanol",
-          },
-        ],
-      },
+      [
+        {
+            "question": "Petroleum is also known as _______.",
+            "optionA": "Liquid Gold",
+            "optionB": "Black Gold",
+            "optionC": "Golden Fuel",
+            "correctAnswer": "B) Black Gold"
+        },
+        {
+            "question": "Diesel is commonly used to fuel _______.",
+            "optionA": "Two-wheelers",
+            "optionB": "Heavy vehicles",
+            "optionC": "Aeroplanes",
+            "correctAnswer": "B) Heavy vehicles"
+        },
+        {
+            "question": "Coal is primarily used for _______.",
+            "optionA": "Cooking",
+            "optionB": "Generating electricity",
+            "optionC": "Running cars",
+            "correctAnswer": "B) Generating electricity"
+        },
+        {
+            "question": "Natural gas is found _______.",
+            "optionA": "Below petroleum deposits",
+            "optionB": "In coal beds",
+            "optionC": "Above petroleum deposits",
+            "correctAnswer": "C) Above petroleum deposits"
+        },
+        {
+            "question": "Liquified Petroleum Gas (LPG) is commonly used for _______.",
+            "optionA": "Running cars",
+            "optionB": "Cooking",
+            "optionC": "Generating electricity",
+            "correctAnswer": "B) Cooking"
+        },
+        {
+            "question": "Compressed Natural Gas (CNG) is preferred for running vehicles due to its _______.",
+            "optionA": "High cost",
+            "optionB": "Environmental friendliness",
+            "optionC": "Low availability",
+            "correctAnswer": "B) Environmental friendliness"
+        },
+        {
+            "question": "Fossil fuels are considered non-renewable because _______.",
+            "optionA": "They can be replaced easily",
+            "optionB": "They deplete at faster rates",
+            "optionC": "They are formed quickly",
+            "correctAnswer": "B) They deplete at faster rates"
+        },
+        {
+            "question": "Biomass energy is derived from _______.",
+            "optionA": "Wind",
+            "optionB": "Organic material",
+            "optionC": "Geothermal sources",
+            "correctAnswer": "B) Organic material"
+        },
+        {
+            "question": "Hydropower generates electricity from _______.",
+            "optionA": "Flowing water",
+            "optionB": "Sunlight",
+            "optionC": "Biomass",
+            "correctAnswer": "A) Flowing water"
+        },
+        {
+            "question": "To save fuel, one can _______ at red lights.",
+            "optionA": "Turn on the engine",
+            "optionB": "Put off the engine",
+            "optionC": "Increase speed",
+            "correctAnswer": "B) Put off the engine"
+        }
+    ]
+    
     ],
   };
 }
@@ -220,76 +167,69 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      {
-        questions: [
-          {
-            question: "Coal is a renewable source of energy.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question: "Petroleum is commonly referred to as 'Golden Oil.'",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Natural gas contributes about 15% of the world's total energy.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Liquified Petroleum Gas (LPG) is primarily used for heating homes.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question: "Compressed Natural Gas (CNG) is heavier than oil.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Fossil fuels are considered sustainable sources of energy.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Geothermal power is generated by harnessing the heat of the sun.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question: "Biomass energy is derived from non-organic materials.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Hydropower uses the mechanical energy from flowing water to generate electricity.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "Wind energy is generated by converting solar energy into electricity.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-        ],
-      },
+      [
+        {
+          "question": "Petroleum is known as black gold and is primarily used to run cars and two-wheelers.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "True"
+        },
+        {
+          "question": "Coal is primarily used for cooking and heating purposes.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "True"
+        },
+        {
+          "question": "Natural gas is lighter than oil and is commonly found below the layers of petroleum deposits.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "Liquified Petroleum Gas (LPG) is primarily used for industrial purposes.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "Compressed Natural Gas (CNG) is used to control air pollution and is more expensive than petrol or diesel.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "Fossil fuels can be easily replaced once they are used up.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "Biomass energy includes organic material from plants or animals and can release heat energy when burned.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "True"
+        },
+        {
+          "question": "Hydropower generates electricity by converting the mechanical energy from flowing water.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "True"
+        },
+        {
+          "question": "Wind energy is generated by converting solar energy into electricity.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "False"
+        },
+        {
+          "question": "One of the steps to save fuel is to get the pollution level of your vehicle checked at regular intervals.",
+          "optionA": "True",
+          "optionB": "False",
+          "correctAnswer": "True"
+        }
+      ]
+      
     ],
   };
 }

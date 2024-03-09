@@ -1,113 +1,83 @@
-export const chapter = "Chapter - 9: Food for plants and Animals";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
-
+export const chapter = "Chapter -9: Food for Plants and Animals";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      {
-        questions: [
-          {
-            question:
-              "What is the process by which green plants make their own food?",
-            options: ["Respiration", "Photosynthesis", "Digestion"],
-            answer: "Photosynthesis",
-          },
-          {
-            question:
-              "Which components are essential for photosynthesis in plants?",
-            options: [
-              "Nitrogen, Sunlight, Oxygen",
-              "Carbon dioxide, Water, Sunlight",
-              "Oxygen, Water, Chlorophyll",
-            ],
-            answer: "Carbon dioxide, Water, Sunlight",
-          },
-          {
-            question:
-              "What are autotrophs also known as in the context of plant nutrition?",
-            options: ["Consumers", "Heterotrophs", "Producers"],
-            answer: "Producers",
-          },
-          {
-            question:
-              "What is the primary product of photosynthesis in plants?",
-            options: ["Starch", "Oxygen", "Water vapour"],
-            answer: "Starch",
-          },
-          {
-            question: "Which animals are classified as herbivores?",
-            options: [
-              "Lion, Tiger, Fox",
-              "Camel, Buffalo, Goat",
-              "Dog, Monkey, Bear",
-            ],
-            answer: "Camel, Buffalo, Goat",
-          },
-          {
-            question: "What do carnivores eat?",
-            options: [
-              "Only plants",
-              "Flesh of other animals",
-              "Both plants and animals",
-            ],
-            answer: "Flesh of other animals",
-          },
-          {
-            question:
-              "Animals that eat both plants and flesh of other animals are called:",
-            options: ["Herbivores", "Carnivores", "Omnivores"],
-            answer: "Omnivores",
-          },
-          {
-            question: "What do scavengers eat to keep the environment clean?",
-            options: [
-              "Plants",
-              "Flesh of dead animals",
-              "Other animals' leftovers",
-            ],
-            answer: "Flesh of dead animals",
-          },
-          {
-            question:
-              "Which organisms are considered decomposers in a food chain?",
-            options: ["Plants", "Fungi, Bacteria, Worms", "Herbivores"],
-            answer: "Fungi, Bacteria, Worms",
-          },
-          {
-            question:
-              "What is the network of interconnected food chains called in nature?",
-            options: ["Food Circle", "Food Web", "Food Line"],
-            answer: "Food Web",
-          },
-        ],
-      },
+      [
+        {
+            "question": "What is the process by which plants make their own food?",
+            "optionA": "Respiration",
+            "optionB": "Photosynthesis",
+            "optionC": "Digestion",
+            "correctAnswer": "Photosynthesis"
+        },
+        {
+            "question": "What are the primary components required for photosynthesis in plants?",
+            "optionA": "Oxygen, water, and sunlight",
+            "optionB": "Carbon dioxide, water, and sunlight",
+            "optionC": "Nitrogen, water, and sunlight",
+            "correctAnswer": "Carbon dioxide, water, and sunlight"
+        },
+        {
+            "question": "Which of the following is NOT a product of photosynthesis?",
+            "optionA": "Sugar",
+            "optionB": "Oxygen",
+            "optionC": "Carbon dioxide",
+            "correctAnswer": "Carbon dioxide"
+        },
+        {
+            "question": "What is starch converted into, after it is released during photosynthesis?",
+            "optionA": "Glucose",
+            "optionB": "Oxygen",
+            "optionC": "Minerals",
+            "correctAnswer": "Glucose"
+        },
+        {
+            "question": "Which of the following are examples of food stored by plants?",
+            "optionA": "Oxygen and nitrogen",
+            "optionB": "Potato, beetroot, carrot",
+            "optionC": "Minerals and vitamins",
+            "correctAnswer": "Potato, beetroot, carrot"
+        },
+        {
+            "question": "Carnivorous plants primarily trap insects to obtain:",
+            "optionA": "Energy",
+            "optionB": "Oxygen",
+            "optionC": "Nutrients",
+            "correctAnswer": "Nutrients"
+        },
+        {
+            "question": "Herbivores are also known as:",
+            "optionA": "Primary consumers",
+            "optionB": "Secondary consumers",
+            "optionC": "Tertiary consumers",
+            "correctAnswer": "Primary consumers"
+        },
+        {
+            "question": "Carnivores primarily consume:",
+            "optionA": "Plants",
+            "optionB": "Flesh of other animals",
+            "optionC": "Both plants and flesh of other animals",
+            "correctAnswer": "Flesh of other animals"
+        },
+        {
+            "question": "Omnivores consume:",
+            "optionA": "Only plants",
+            "optionB": "Only flesh of other animals",
+            "optionC": "Both plants and flesh of other animals",
+            "correctAnswer": "Both plants and flesh of other animals"
+        },
+        {
+            "question": "Food webs differ from food chains in that they:",
+            "optionA": "Follow a single path",
+            "optionB": "Show multiple interconnected paths",
+            "optionC": "Start with decomposer species",
+            "correctAnswer": "Show multiple interconnected paths"
+        }
+    ]
+    
     ],
   };
 }
@@ -116,82 +86,79 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      {
-        fillInTheBlankQuestions: [
-          {
-            question:
-              "Plants prepare their food through the process of ________________.",
-            options: [
-              "Cellular Respiration",
-              "Photosynthesis",
-              "Transpiration",
-            ],
-            answer: "Photosynthesis",
-          },
-          {
-            question:
-              "The green plants that make their own food are also known as ________________.",
-            options: ["Consumers", "Autotrophs", "Decomposers"],
-            answer: "Autotrophs",
-          },
-          {
-            question:
-              "The products of photosynthesis are ________________, ________________, and ________________.",
-            options: [
-              "Glucose, Nitrogen, Water",
-              "Starch, Oxygen, Water Vapour",
-              "Proteins, Carbon Dioxide, Sunlight",
-            ],
-            answer: "Starch, Oxygen, Water Vapour",
-          },
-          {
-            question:
-              "Herbivores are animals that primarily eat ________________.",
-            options: [
-              "Flesh of other animals",
-              "Both plants and animals",
-              "Only plants",
-            ],
-            answer: "Only plants",
-          },
-          {
-            question:
-              "Carnivores are also known as ________________ consumers.",
-            options: ["Primary", "Secondary", "Tertiary"],
-            answer: "Secondary",
-          },
-          {
-            question:
-              "Animals that eat both plants and the flesh of other animals are called ________________.",
-            options: ["Herbivores", "Carnivores", "Omnivores"],
-            answer: "Omnivores",
-          },
-          {
-            question:
-              "Scavengers play a role in keeping the environment clean by eating the ________________ of dead animals.",
-            options: ["Flesh", "Bones", "Feathers"],
-            answer: "Flesh",
-          },
-          {
-            question:
-              "Parasites depend on other living animals for ________________.",
-            options: ["Oxygen", "Food", "Water"],
-            answer: "Food",
-          },
-          {
-            question:
-              "Producers in a food chain are typically represented by ________________.",
-            options: ["Animals", "Fungi", "Plants"],
-            answer: "Plants",
-          },
-          {
-            question:
-              "A network of interconnected food chains is called a ________________.",
-            options: ["Food Circle", "Food Web", "Food Line"],
-            answer: "Food Web",
-          },
-        ],
-      },
+      [
+        {
+            "question": "__________, water, and carbon dioxide are the primary components required for photosynthesis in plants.",
+            "optionA": "Oxygen",
+            "optionB": "Sunlight",
+            "optionC": "Minerals",
+            "correctAnswer": "Sunlight"
+        },
+        {
+            "question": "The process by which plants make their own food is called __________.",
+            "optionA": "Respiration",
+            "optionB": "Photosynthesis",
+            "optionC": "Digestion",
+            "correctAnswer": "Photosynthesis"
+        },
+        {
+            "question": "The products of photosynthesis are __________, oxygen, and water vapor.",
+            "optionA": "Starch",
+            "optionB": "Sugar",
+            "optionC": "Protein",
+            "correctAnswer": "Sugar"
+        },
+        {
+            "question": "The sugar released during photosynthesis is converted into __________.",
+            "optionA": "Glucose",
+            "optionB": "Minerals",
+            "optionC": "Vitamins",
+            "correctAnswer": "Glucose"
+        },
+        {
+            "question": "Plants store their food in different parts such as __________, beetroot, carrot, etc.",
+            "optionA": "Oxygen",
+            "optionB": "Nitrogen",
+            "optionC": "Potato",
+            "correctAnswer": "Potato"
+        },
+        {
+            "question": "Carnivorous plants primarily trap insects to obtain __________.",
+            "optionA": "Energy",
+            "optionB": "Oxygen",
+            "optionC": "Nutrients",
+            "correctAnswer": "Nutrients"
+        },
+        {
+            "question": "Herbivores are also known as __________.",
+            "optionA": "Primary consumers",
+            "optionB": "Secondary consumers",
+            "optionC": "Tertiary consumers",
+            "correctAnswer": "Primary consumers"
+        },
+        {
+            "question": "Carnivores primarily consume the __________ of other animals.",
+            "optionA": "Plants",
+            "optionB": "Flesh",
+            "optionC": "Bones",
+            "correctAnswer": "Flesh"
+        },
+        {
+            "question": "Omnivores consume both __________ and flesh of other animals.",
+            "optionA": "Only plants",
+            "optionB": "Only minerals",
+            "optionC": "Plants",
+            "correctAnswer": "Plants"
+        },
+        {
+            "question": "Food webs differ from food chains in that they show __________ paths.",
+            "optionA": "Single",
+            "optionB": "Multiple interconnected",
+            "optionC": "Circular",
+            "correctAnswer": "Multiple interconnected"
+        }
+    ]
+    
     ],
   };
 }
@@ -200,76 +167,69 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      {
-        trueOrFalseQuestions: [
-          {
-            question:
-              "Plants prepare their food through the process of photosynthesis.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question: "Autotrophs are also known as consumers.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "The primary products of photosynthesis are Glucose, Nitrogen, and Water.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question: "Carnivores are animals that primarily eat plants.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question: "Herbivores are also known as Secondary consumers.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Omnivores eat both plants and the flesh of other animals.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "Scavengers play a role in keeping the environment clean by eating the bones of dead animals.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question: "Parasites depend on other living animals for water.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Producers in a food chain are typically represented by fungi.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "A network of interconnected food chains is called a Food Line.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-        ],
-      },
+      [
+        {
+            "question": "Photosynthesis is the process by which plants convert sunlight into water.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "The products of photosynthesis include sugar, oxygen, and water vapor.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "True"
+        },
+        {
+            "question": "Carnivorous plants primarily trap insects to obtain energy.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Herbivores are also known as secondary consumers.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Carnivores primarily consume plants.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Omnivores consume only flesh of other animals.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Food webs show single paths of energy flow in ecosystems.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Decomposers are organisms such as fungi, bacteria, and worms that feed on living plants and animals.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "The sun is the primary source of energy for nearly all living things on Earth.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "True"
+        },
+        {
+            "question": "Food chains follow multiple interconnected paths of energy flow.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        }
+    ]
+    
     ],
   };
 }

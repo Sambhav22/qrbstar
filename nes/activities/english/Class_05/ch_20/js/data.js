@@ -1,254 +1,253 @@
-export const chapter = "Chapter - 20: A Country Cottage";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -20: A Country Cottage";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Who were the two young people mentioned in the text?",
-        optionA: "Sasha and his uncle",
-        optionB: "Varya and her cousin",
-        optionC: "Sasha and Varya",
-        correctAnswer: "Sasha and Varya",
-     }),
-      shuffleOptions({
-        question:
-          "What were Sasha and Varya doing at the beginning of the text?",
-        optionA: "Arguing with each other",
-        optionB: "Walking on a country road",
-        optionC: "Walking on a platform at a train station",
-        correctAnswer: "Walking on a platform at a train station",
-     }),
-      shuffleOptions({
-        question: "What does the moon seem to envy in the text?",
-        optionA: "The fragrance of lilac and wild cherry",
-        optionB: "The corncrake's call in the distance",
-        optionC: "The happiness of Sasha and Varya",
-        correctAnswer: "The happiness of Sasha and Varya",
-     }),
-      shuffleOptions({
-        question: "What was heavy in the still air mentioned in the text?",
-        optionA: "The fragrance of lilac and wild cherry",
-        optionB: "The sound of a rushing train",
-        optionC: "The darkness of the night",
-        correctAnswer: "The fragrance of lilac and wild cherry",
-     }),
-      shuffleOptions({
-        question: "What was calling in the distance beyond the train line?",
-        optionA: "A corncrake",
-        optionB: "A telegraph post",
-        optionC: "The moon",
-        correctAnswer: "A corncrake",
-     }),
-      shuffleOptions({
-        question:
-          "What did Varya mention about the telegraph posts on the train line?",
-        optionA: "They were too noisy",
-        optionB: "They added a special note to the landscape",
-        optionC: "They were obstructing the view",
-        correctAnswer: "They added a special note to the landscape",
-     }),
-      shuffleOptions({
-        question: "What did Varya and Sasha have for supper?",
-        optionA: "Pudding with sweet salad",
-        optionB: "Fried chicken and mashed potatoes",
-        optionC: "Pizza and ice cream",
-        correctAnswer: "Pudding with sweet salad",
-     }),
-      shuffleOptions({
-        question: "Who came out on the platform as the train approached?",
-        optionA: "The conductor",
-        optionB: "The station master",
-        optionC: "The ticket collector",
-        correctAnswer: "The station master",
-     }),
-      shuffleOptions({
-        question:
-          "What was the reaction of Sasha and Varya upon seeing their uncle and his family?",
-        optionA: "They were delighted",
-        optionB: "They were horror-stricken",
-        optionC: "They were indifferent",
-        correctAnswer: "They were horror-stricken",
-     }),
-      shuffleOptions({
-        question: "What was Sasha's initial reaction to his relatives' visit?",
-        optionA: "He welcomed them with open arms",
-        optionB: "He felt happy and excited",
-        optionC: "He looked almost with hatred at his young wife",
-        correctAnswer: "He looked almost with hatred at his young wife",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "What were the young couple doing at the beginning of the text?",
+          optionA: "Cooking dinner",
+          optionB: "Walking up and down a platform",
+          optionC: "Sleeping",
+          correctAnswer: "Walking up and down a platform",
+        },
+        {
+          question:
+            "What added a special note to the landscape, suggesting humanity and civilization?",
+          optionA: "Lilac fragrance",
+          optionB: "Silent telegraph posts",
+          optionC: "Drifting cloudlets",
+          correctAnswer: "Silent telegraph posts",
+        },
+        {
+          question: "What was the young wife's name?",
+          optionA: "Varya",
+          optionB: "Sasha",
+          optionC: "Nina",
+          correctAnswer: "Varya",
+        },
+        {
+          question: "What did Varya cook for supper?",
+          optionA: "Pudding with sweet salad",
+          optionB: "Fried chicken",
+          optionC: "Pizza",
+          correctAnswer: "Pudding with sweet salad",
+        },
+        {
+          question:
+            "What did Sasha and Varya hear from one of the train carriages?",
+          optionA: "The sound of a corncrake",
+          optionB: "Shouting and arguing",
+          optionC: "Someone recognizing and calling them",
+          correctAnswer: "Someone recognizing and calling them",
+        },
+        {
+          question:
+            "Who were the two little girls that skipped out of the train?",
+          optionA: "Varya and Sasha",
+          optionB: "Nina and Fifa",
+          optionC: "Kolya and Kostya",
+          correctAnswer: "Nina and Fifa",
+        },
+        {
+          question:
+            "What did Sasha have a vision of while his uncle was talking?",
+          optionA: "A dream",
+          optionB: "Their little cottage filled with noise and confusion",
+          optionC: "A happy family gathering",
+          correctAnswer: "Their little cottage filled with noise and confusion",
+        },
+        {
+          question: "How did Sasha feel about his uncle and family visiting?",
+          optionA: "Happy and excited",
+          optionB: "Horror-stricken and angry",
+          optionC: "Indifferent",
+          correctAnswer: "Horror-stricken and angry",
+        },
+        {
+          question:
+            "What did Sasha think about his young wife when his relatives arrived?",
+          optionA: "He felt proud of her",
+          optionB: "He admired her hospitality",
+          optionC: "He looked almost with hatred at her",
+          correctAnswer: "He looked almost with hatred at her",
+        },
+        {
+          question:
+            "How did Varya respond to Sasha's feelings about the visitors?",
+          optionA: "She felt proud",
+          optionB: "She agreed with him",
+          optionC: "She smiled and welcomed the visitors",
+          correctAnswer: "She smiled and welcomed the visitors",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "The two young people had been married not very long ago. They were walking up and down the platform of a little country station, holding each other's hands and feeling __________.",
-        options: ["sad", "nervous", "very happy"],
-        correctAnswer: "very happy",
-     }),
-      shuffleOptions({
-        question:
-          "The moon peeped up from the drifting cloudlets, seemingly envious of their __________.",
-        options: ["calmness", "happiness", "laughter"],
-        correctAnswer: "happiness",
-     }),
-      shuffleOptions({
-        question:
-          "The still air was heavy with the fragrance of __________ and wild cherry.",
-        options: ["roses", "lilac", "daisies"],
-        correctAnswer: "lilac",
-     }),
-      shuffleOptions({
-        question:
-          "Somewhere in the distance beyond the line, a __________ was calling.",
-        options: ["bird", "corncrake", "dog"],
-        correctAnswer: "corncrake",
-     }),
-      shuffleOptions({
-        question:
-          '"How beautiful it is, Sasha, how beautiful!" murmured the young wife. They were amazed by the beauty of the __________.',
-        options: ["stars", "copse", "clouds"],
-        correctAnswer: "copse",
-     }),
-      shuffleOptions({
-        question:
-          "Varya mentioned that the solid, silent telegraph posts added a special note to the landscape, suggesting __________ in the distance.",
-        options: ["desolation", "loneliness", "humanity, civilization"],
-        correctAnswer: "humanity, civilization",
-     }),
-      shuffleOptions({
-        question:
-          "Varya prepared pudding with sweet salad for their supper, which she mentioned was just enough for __________.",
-        options: ["the entire family", "a large party", "two of them"],
-        correctAnswer: "two of them",
-     }),
-      shuffleOptions({
-        question:
-          'When the train was approaching, Varya expressed her excitement and said, "The train is coming!" How jolly!" They saw three eyes of fire in the distance, which were __________.',
-        options: ["car headlights", "signal lights", "lanterns"],
-        correctAnswer: "signal lights",
-     }),
-      shuffleOptions({
-        question:
-          "At the sight of their uncle and his family, the young husband and wife were __________.",
-        options: ["delighted", "horror-stricken", "indifferent"],
-        correctAnswer: "horror-stricken",
-     }),
-      shuffleOptions({
-        question:
-          "While his uncle talked and kissed them, Sasha had a vision of their little cottage filled with noise and confusion. He looked almost with __________ at his young wife.",
-        options: ["happiness", "love", "hatred"],
-        correctAnswer: "hatred",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "The two young people were married not very long ago. They were walking up and down the platform of a little __________ station.",
+          optionA: "City",
+          optionB: "Country",
+          optionC: "International",
+          correctAnswer: "Country",
+        },
+        {
+          question:
+            "The moon peeped up from the drifting __________. It seemed to envy their happiness.",
+          optionA: "Rain",
+          optionB: "Cloudlets",
+          optionC: "Fog",
+          correctAnswer: "Cloudlets",
+        },
+        {
+          question:
+            '"How beautiful it is, Sasha, how beautiful!" murmured the young wife. "It all seems like a __________."',
+          optionA: "Nightmare",
+          optionB: "Reality",
+          optionC: "Dream",
+          correctAnswer: "Dream",
+        },
+        {
+          question:
+            '"I have cooked pudding with sweet salad. It\'s just enough for two of us," said Varya. "What have you got for our __________ tonight?"',
+          optionA: "Breakfast",
+          optionB: "Lunch",
+          optionC: "Supper",
+          correctAnswer: "Supper",
+        },
+        {
+          question:
+            "The station master came out on the platform. Signal lights flashed here and there on the __________.",
+          optionA: "Road",
+          optionB: "Line",
+          optionC: "Sky",
+          correctAnswer: "Line",
+        },
+        {
+          question:
+            "The dark monster crept noiselessly alongside the platform and came to a __________.",
+          optionA: "Standstill",
+          optionB: "Halt",
+          optionC: "Speed",
+          correctAnswer: "Standstill",
+        },
+        {
+          question:
+            '"Here we are, dear boy!" began the whiskered gentleman, squeezing Sasha\'s __________.',
+          optionA: "Hand",
+          optionB: "Shoulder",
+          optionC: "Head",
+          correctAnswer: "Hand",
+        },
+        {
+          question:
+            'Sasha, turning his head away to hide his angry despairing face, struggled to give a note of cordial welcome to his voice as he said: "It is jolly of you! Welcome to the __________!"',
+          optionA: "Mansion",
+          optionB: "Castle",
+          optionC: "Cottage",
+          correctAnswer: "Cottage",
+        },
+        {
+          question:
+            "The moon came out again. She seemed to smile, as though she was glad she had no __________.",
+          optionA: "Friends",
+          optionB: "Relations",
+          optionC: "Visitors",
+          correctAnswer: "Relations",
+        },
+        {
+          question:
+            'Sasha looked almost with hatred at his young wife and whispered: "It\'s you they have come to __________! ..... Damn them!"',
+          optionA: "Visit",
+          optionB: "See",
+          optionC: "Ignore",
+          correctAnswer: "See",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "Parrots and lovebirds were commonly kept as pets in North India in the past.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The parrot in the story refused to talk despite Aunt Ruby's efforts.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Aunt Ruby gave up her efforts to show love to the parrot after it knocked off her spectacles.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The responsibility of feeding the parrot fell upon Aunt Ruby.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Aunt Ruby's tantrums were pleasant to watch.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The narrator was responsible for leaving the cage door open, allowing the parrot to escape.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The parrot enjoyed green chillies and ripe tomatoes as treats.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Aunt Ruby was upset when the parrot escaped but was easily distracted with the promise of a new parrot.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "The parrot never learned to talk.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The parrot became a regular visitor to the garden and verandah, singing praises to Aunt Ruby.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "The young couple was married a long time ago.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "The moon envied the happiness of the young couple.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "The station master did not come out on the platform.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Sasha and Varya cooked pizza for supper.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "The dark monster came to a speed on the platform.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "The whiskered gentleman squeezed Sasha's head.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Sasha and Varya welcomed their relatives to a mansion.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "The moon seemed to be glad that it had no visitors.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Sasha looked with love at his young wife when his relatives arrived.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Varya responded angrily to Sasha's feelings about the visitors.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

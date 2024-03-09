@@ -1,250 +1,261 @@
-export const chapter = "Chapter - 4: The Fate";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -04: The Fate";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "What is the name of the main character in the story?",
-        optionA: "Ivan Dmitrich Aksionov",
-        optionB: "Makar Semyonich",
-        optionC: "Vladimir",
-        correctAnswer: "Ivan Dmitrich Aksionov",
-     }),
-      shuffleOptions({
-        question: "Where did Aksionov live in Russia?",
-        optionA: "Moscow",
-        optionB: "St. Petersburg",
-        optionC: "Vladimir",
-        correctAnswer: "Vladimir",
-     }),
-      shuffleOptions({
-        question: "Why was Aksionov going to a fair in the summer?",
-        optionA: "To visit his family",
-        optionB: "To buy merchandise",
-        optionC: "To go on a vacation",
-        correctAnswer: "To buy merchandise",
-     }),
-      shuffleOptions({
-        question:
-          "What did the police officer find in Aksionov's bag that raised suspicion?",
-        optionA: "A stolen watch",
-        optionB: "A blood-stained knife",
-        optionC: "A bag of stolen money",
-        correctAnswer: "A blood-stained knife",
-     }),
-      shuffleOptions({
-        question:
-          "What was Aksionov's reaction when the officer accused him of murder and robbery?",
-        optionA: "He confessed immediately",
-        optionB: "He denied all allegations",
-        optionC: "He remained silent",
-        correctAnswer: "He denied all allegations",
-     }),
-      shuffleOptions({
-        question: "How many years did Aksionov spend in Siberia as a convict?",
-        optionA: "10 years",
-        optionB: "20 years",
-        optionC: "26 years",
-        correctAnswer: "26 years",
-     }),
-      shuffleOptions({
-        question:
-          "What nickname did the other prisoners give to Aksionov in Siberia?",
-        optionA: "Grandfather",
-        optionB: "Old Timer",
-        optionC: "Convict King",
-        correctAnswer: "Grandfather",
-     }),
-      shuffleOptions({
-        question: "Who eventually confesses to the murder of the merchant?",
-        optionA: "Aksionov",
-        optionB: "Makar Semyonich",
-        optionC: "The police officer",
-        correctAnswer: "Makar Semyonich",
-     }),
-      shuffleOptions({
-        question:
-          "How did Aksionov react when Makar Semyonich confessed to the murder?",
-        optionA: "He forgave him",
-        optionB: "He reported him to the jailor",
-        optionC: "He refused to forgive him",
-        correctAnswer: "He forgave him",
-     }),
-      shuffleOptions({
-        question:
-          "What changed in Aksionov's feelings and desires after Semyonich's confession?",
-        optionA: "He wanted to escape from prison",
-        optionB: "He longed to return home",
-        optionC: "He sought revenge on Semyonich",
-        correctAnswer: "He longed to return home",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "Why did Ivan Dmitrich Aksionov leave his family to go to the fair?",
+          optionA: "To meet a friend",
+          optionB: "To sell and buy merchandise",
+          optionC: "To visit relatives",
+          correctAnswer: "To sell and buy merchandise",
+        },
+        {
+          question:
+            "What was found in Aksionov's bag during the search by the police officer?",
+          optionA: "Money",
+          optionB: "A blood-stained knife",
+          optionC: "Stolen goods",
+          correctAnswer: "A blood-stained knife",
+        },
+        {
+          question:
+            "What reason did the police officer give for suspecting Aksionov of murder?",
+          optionA: "Witness accounts",
+          optionB: "Footprints at the crime scene",
+          optionC: "The presence of a blood-stained knife in his bag",
+          correctAnswer: "The presence of a blood-stained knife in his bag",
+        },
+        {
+          question: "How long was Aksionov imprisoned in Siberia?",
+          optionA: "10 years",
+          optionB: "20 years",
+          optionC: "26 years",
+          correctAnswer: "26 years",
+        },
+        {
+          question:
+            "What did Aksionov's fellow prisoners call him during his time in Siberia?",
+          optionA: "Father",
+          optionB: "Grandfather",
+          optionC: "Old man",
+          correctAnswer: "Grandfather",
+        },
+        {
+          question:
+            "What news did Makar Semyonich bring when he entered the prison?",
+          optionA: "News about Aksionov's family",
+          optionB: "News about Aksionov's hometown",
+          optionC: "News about the outside world",
+          correctAnswer: "News about Aksionov's hometown",
+        },
+        {
+          question:
+            "Why did Aksionov refuse to reveal the identity of the tunnel digger when questioned by the jailor?",
+          optionA: "Fear of retaliation",
+          optionB: "Loyalty to the other prisoners",
+          optionC: "A belief in God's will",
+          correctAnswer: "A belief in God's will",
+        },
+        {
+          question:
+            "What crime did Makar Semyonich confess to Aksionov in the prison cell?",
+          optionA: "Theft",
+          optionB: "Assault",
+          optionC: "Murder",
+          correctAnswer: "Murder",
+        },
+        {
+          question: "How did Aksionov react to Semyonich's confession?",
+          optionA: "He forgave Semyonich",
+          optionB: "He reported Semyonich to the jailor",
+          optionC: "He remained silent",
+          correctAnswer: "He forgave Semyonich",
+        },
+        {
+          question:
+            "What emotion did Aksionov feel when he heard Semyonich sobbing in the prison cell?",
+          optionA: "Anger",
+          optionB: "Pity",
+          optionC: "Indifference",
+          correctAnswer: "Pity",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "In Vladimir, Russia, there lived a young merchant named ________ Aksionov.",
-        options: ["Ivan Dmitrich", "Makar Semyonich", "Vladimir"],
-        correctAnswer: "Ivan Dmitrich",
-     }),
-      shuffleOptions({
-        question: "Aksionov was going to a fair to sell and buy ____________.",
-        options: ["jewelry", "merchandise", "clothing"],
-        correctAnswer: "merchandise",
-     }),
-      shuffleOptions({
-        question:
-          "Aksionov met a merchant on his way to the fair, and they put up at the same ____________ for the night.",
-        options: ["hotel", "inn", "hostel"],
-        correctAnswer: "inn",
-     }),
-      shuffleOptions({
-        question:
-          "The police officer accused Aksionov of murdering a merchant from ____________ and robbing him of twenty thousand rubles.",
-        options: ["Moscow", "Ryazan", "St. Petersburg"],
-        correctAnswer: "Ryazan",
-     }),
-      shuffleOptions({
-        question: "Aksionov spent ____________ years as a convict in Siberia.",
-        options: ["10", "20", "26"],
-        correctAnswer: "26",
-     }),
-      shuffleOptions({
-        question:
-          "Aksionov's fellow prisoners in Siberia called him ____________.",
-        options: ["Convict King", "Old Timer", "Grandfather"],
-        correctAnswer: "Grandfather",
-     }),
-      shuffleOptions({
-        question:
-          "Makar Semyonich confessed to being the one who murdered the merchant and hid the ____________ among Aksionov's things.",
-        options: ["stolen watch", "blood-stained knife", "bag of stolen money"],
-        correctAnswer: "blood-stained knife",
-     }),
-      shuffleOptions({
-        question:
-          "Aksionov forgave ____________ after he confessed to the murder.",
-        options: ["himself", "the police officer", "Makar Semyonich"],
-        correctAnswer: "Makar Semyonich",
-     }),
-      shuffleOptions({
-        question:
-          "Aksionov longed to return ____________ after Semyonich's confession.",
-        options: ["to prison", "to the fair", "home"],
-        correctAnswer: "home",
-     }),
-      shuffleOptions({
-        question:
-          "Makar Semyonich had dug a tunnel to escape from the prison cell, and Aksionov chose not to ____________ on him.",
-        options: ["report", "forgive", "confront"],
-        correctAnswer: "report",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "In Vladimir, Russia, there lived a young merchant named ____________ Aksionov.",
+          optionA: "Ivan Dmitriev",
+          optionB: "Alexei",
+          optionC: "Mikhail",
+          correctAnswer: "Ivan Dmitriev",
+        },
+        {
+          question:
+            "Aksionov was going to a fair to sell and buy _____________.",
+          optionA: "Clothes",
+          optionB: "Merchandise",
+          optionC: "Livestock",
+          correctAnswer: "Merchandise",
+        },
+        {
+          question:
+            "Aksionov met a merchant on his way to the fair, and they put up at the same ____________ for the night.",
+          optionA: "Hotel",
+          optionB: "Inn",
+          optionC: "Hostel",
+          correctAnswer: "Inn",
+        },
+        {
+          question:
+            "The police officer questioned Aksionov about the merchant found with his ____________ cut.",
+          optionA: "Throat",
+          optionB: "Arm",
+          optionC: "Leg",
+          correctAnswer: "Throat",
+        },
+        {
+          question:
+            "Aksionov was accused of murdering a merchant from ____________ and robbing him of twenty thousand rubles.",
+          optionA: "Moscow",
+          optionB: "Ryazan",
+          optionC: "St. Petersburg",
+          correctAnswer: "Ryazan",
+        },
+        {
+          question:
+            "Aksionov lived as a convict in Siberia for ____________ years.",
+          optionA: "15",
+          optionB: "20",
+          optionC: "26",
+          correctAnswer: "26",
+        },
+        {
+          question:
+            "Aksionov's fellow prisoners respected him and called him ____________.",
+          optionA: "Father",
+          optionB: "Grandfather",
+          optionC: "Elder",
+          correctAnswer: "Grandfather",
+        },
+        {
+          question:
+            "Makar Semyonich entered the prison, and Aksionov asked if he knew anything about the merchants Aksionov from ____________.",
+          optionA: "Moscow",
+          optionB: "Vladimir",
+          optionC: "St. Petersburg",
+          correctAnswer: "Vladimir",
+        },
+        {
+          question:
+            "Semyonich confessed to Aksionov that he killed the merchant and hid the ____________ among his things.",
+          optionA: "Money",
+          optionB: "Stolen goods",
+          optionC: "Knife",
+          correctAnswer: "Knife",
+        },
+        {
+          question:
+            "Aksionov forgave Semyonich, and when asked why he came to the prison cell, Semyonich said, 'Ivan Dmitrich, forgive me!' Aksionov replied, 'What for? It was I who was ____________.'",
+          optionA: "Unjust",
+          optionB: "Wronged",
+          optionC: "Mistaken",
+          correctAnswer: "Wronged",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Aksionov was a merchant.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Aksionov was going to a fair for a vacation.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Aksionov and the merchant he met stayed at different inns.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The police officer found a blood-stained knife in Aksionov's bag.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Aksionov immediately confessed to the murder and robbery accusations.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Aksionov spent 15 years as a convict in Siberia.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Aksionov's fellow prisoners called him 'Convict King.'",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Makar Semyonich confessed to being the one who murdered the merchant.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Aksionov forgave Makar Semyonich after his confession.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Aksionov longed to return to prison after Semyonich's confession.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "Ivan Dmitrich Aksionov was a young merchant living in St. Petersburg.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Aksionov went to the fair to meet a fellow merchant and have tea together.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The police officer questioned Aksionov because he was suspected of stealing money.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Aksionov spent 20 years as a convict in Siberia.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Aksionov's fellow prisoners in Siberia called him 'Father.'",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Makar Semyonich brought news about Aksionov's family when he entered the prison.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Semyonich confessed to Aksionov that he stole money from the merchant.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Aksionov forgave Semyonich when he learned the truth about the merchant's murder.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The text mentions that Aksionov's wife and children visited him in prison.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Aksionov chose to remain in prison even after learning the truth about Semyonich.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

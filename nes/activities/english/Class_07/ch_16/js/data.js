@@ -1,253 +1,259 @@
-export const chapter = "Chapter - 16: Bose and Chaki ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -16:Bose and Chaki";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "Who was the Chief Presidency Magistrate of Calcutta who sentenced revolutionaries to death?",
-        optionA: "Bhagat Singh",
-        optionB: "Savarkar",
-        optionC: "Kingsford",
-        correctAnswer: "Kingsford",
-     }),
-      shuffleOptions({
-        question:
-          "What event marked the beginning of the earliest phase of revolutionaries in India?",
-        optionA: "India's independence",
-        optionB: "A bomb explosion",
-        optionC: "Kingsford's sentencing",
-        correctAnswer: "A bomb explosion",
-     }),
-      shuffleOptions({
-        question:
-          "What was the original target of the bomb attack by Bose and Chaki?",
-        optionA: "Kingsford",
-        optionB: "Kennedy",
-        optionC: "A British officer",
-        correctAnswer: "Kingsford",
-     }),
-      shuffleOptions({
-        question: "What unfortunate incident happened during the bomb attack?",
-        optionA: "The bomb failed to explode.",
-        optionB:
-          "The carriage carrying Kingsford was mistaken for another officer's.",
-        optionC: "Bose and Chaki were arrested.",
-        correctAnswer:
-          "The carriage carrying Kingsford was mistaken for another officer's.",
-     }),
-      shuffleOptions({
-        question: "How did Bose and Chaki escape after the bomb explosion?",
-        optionA: "They were helped by local villagers.",
-        optionB: "They ran 25 miles through the night.",
-        optionC: "They hid in a nearby forest.",
-        correctAnswer: "They ran 25 miles through the night.",
-     }),
-      shuffleOptions({
-        question: "What happened to Khudi Ram Bose after his arrest?",
-        optionA: "He was released.",
-        optionB: "He was sentenced to life imprisonment.",
-        optionC: "He was sentenced to death by hanging.",
-        correctAnswer: "He was sentenced to death by hanging.",
-     }),
-      shuffleOptions({
-        question: "Where did Prafull Kumar Chaki make the supreme sacrifice?",
-        optionA: "In Muzaffarpur",
-        optionB: "In Samastipur",
-        optionC: "In Calcutta",
-        correctAnswer: "In Samastipur",
-     }),
-      shuffleOptions({
-        question: "How old was Khudi Ram Bose at the time of his hanging?",
-        optionA: "25 years old",
-        optionB: "20 years old",
-        optionC: "17 years old",
-        correctAnswer: "17 years old",
-     }),
-      shuffleOptions({
-        question: "What was Khudi Ram Bose's last wish before his hanging?",
-        optionA: "To be released",
-        optionB: "To be cremated by Kalidas Bose",
-        optionC: "To meet his family one last time",
-        correctAnswer: "To be cremated by Kalidas Bose",
-     }),
-      shuffleOptions({
-        question:
-          "How did people react to Khudi Ram Bose's sacrifice after his cremation?",
-        optionA: "They ignored it.",
-        optionB: "They preserved his ashes as a precious memento.",
-        optionC: "They protested against it.",
-        correctAnswer: "They preserved his ashes as a precious memento.",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "Who was the Chief Presidency Magistrate of Calcutta during the early phase of revolutionaries in India?",
+          optionA: "Savarkar",
+          optionB: "Kingsford",
+          optionC: "Bhagat Singh",
+          correctAnswer: "b. Kingsford",
+        },
+        {
+          question:
+            "What event triggered the revolutionaries' revolt against Kingsford?",
+          optionA: "Unjust imprisonment of Bhagat Singh",
+          optionB: "Atrocities on Savarkar",
+          optionC: "Death sentences for writing articles and pamphlets",
+          correctAnswer:
+            "c. Death sentences for writing articles and pamphlets",
+        },
+        {
+          question:
+            "Who were deputed by the revolutionaries for the mission to take revenge on Kingsford in Muzaffarpur?",
+          optionA: "Savarkar and Bhagat Singh",
+          optionB: "Khudi Ram Bose and Prafull Kumar Chaki",
+          optionC: "Bose and Chaki",
+          correctAnswer: "b. Khudi Ram Bose and Prafull Kumar Chaki",
+        },
+        {
+          question:
+            "When did the bomb blast targeting Kingsford's carriage take place?",
+          optionA: "May 2, 1908",
+          optionB: "April 30, 1908",
+          optionC: "May 1, 1908",
+          correctAnswer: "b. April 30, 1908",
+        },
+        {
+          question:
+            "What unfortunate event occurred as a result of the bomb blast?",
+          optionA: "Kennedy's wife and daughter sustained injuries",
+          optionB: "Kingsford was killed",
+          optionC: "The revolutionaries were caught",
+          correctAnswer: "a. Kennedy's wife and daughter sustained injuries",
+        },
+        {
+          question:
+            "Where did Khudi Ram Bose and Prafull Kumar Chaki escape to after the bomb blast?",
+          optionA: "Calcutta",
+          optionB: "Samastipur",
+          optionC: "Muzaffarpur",
+          correctAnswer: "b. Samastipur",
+        },
+        {
+          question: "How did Prafull Kumar Chaki meet his end?",
+          optionA: "Executed by hanging",
+          optionB: "Shot by police",
+          optionC: "Committed suicide",
+          correctAnswer: "c. Committed suicide",
+        },
+        {
+          question: "What happened to Khudi Ram Bose after his arrest?",
+          optionA: "Released",
+          optionB: "Sentenced to death",
+          optionC: "Served a long term in prison",
+          correctAnswer: "b. Sentenced to death",
+        },
+        {
+          question: "How old was Khudi Ram Bose when he was hanged?",
+          optionA: "Seventeen",
+          optionB: "Twenty",
+          optionC: "Twenty-five",
+          correctAnswer: "a. Seventeen",
+        },
+        {
+          question: "What was Khudi Ram Bose's last wish before his execution?",
+          optionA: "To be buried in a graveyard",
+          optionB: "To be cremated in the jail itself",
+          optionC: "To have a state funeral",
+          correctAnswer: "b. To be cremated in the jail itself",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "In protest against the British atrocities, the revolutionaries rose in revolt when the British atrocities reached _______________ limits.",
-        options: ["A) unbearable", "B) unprecedented", "C) unexpected"],
-        correctAnswer: "A) unbearable",
-     }),
-      shuffleOptions({
-        question:
-          "Kingsford, the Chief Presidency Magistrate of Calcutta, sentenced a number of revolutionaries to death because they were alleged to have written articles and pamphlets asking people to fight for the country's _______________.",
-        options: ["A) independence", "B) freedom", "C) justice"],
-        correctAnswer: "B) freedom",
-     }),
-      shuffleOptions({
-        question:
-          "The revolutionaries decided to do away with this unreasonable officer, so they deputed Khudi Ram Bose and Prafull Kumar Chaki for this _______________.",
-        options: ["A) mission", "B) purpose", "C) sacrifice"],
-        correctAnswer: "A) mission",
-     }),
-      shuffleOptions({
-        question:
-          "One thing we must appreciate is that they were fighting for freedom taking a huge risk to their lives and families, while they operated with _______________ facilities.",
-        options: ["A) abundant", "B) scarce", "C) modern"],
-        correctAnswer: "B) scarce",
-     }),
-      shuffleOptions({
-        question:
-          "Bose and Chaki decided to hurl a bomb at him as soon as his carriage drove out of the club. Unfortunately, they did not know that an identical carriage was also in the possession of another officer named _______________.",
-        options: ["A) Kennedy", "B) Kingsford", "C) Savarkar"],
-        correctAnswer: "A) Kennedy",
-     }),
-      shuffleOptions({
-        question:
-          "In the dark, the young revolutionaries could not make out who was traveling in the carriage. As soon as the carriage came out of the iron gate, the bomb was hurled _______________.",
-        options: ["A) silently", "B) towards it", "C) intentionally"],
-        correctAnswer: "B) towards it",
-     }),
-      shuffleOptions({
-        question:
-          "The two ladies in it sustained severe injuries. Kennedy's daughter succumbed to her injuries an hour later, while his wife died a few days later on _______________.",
-        options: ["A) April 30", "B) May 2", "C) April 15"],
-        correctAnswer: "B) May 2",
-     }),
-      shuffleOptions({
-        question:
-          "Khudi Ram Bose was arrested on 1 May, 1908, from the same village. A big unloaded pistol, a small loaded pistol, and 30 bullets were recovered from _______________.",
-        options: ["A) him", "B) his accomplice", "C) the police"],
-        correctAnswer: "A) him",
-     }),
-      shuffleOptions({
-        question:
-          "When he was being brought back to Muzaffarpur, the entire village walked to the railway station to catch a glimpse of this _______________ figure.",
-        options: ["A) revered", "B) notorious", "C) famous"],
-        correctAnswer: "A) revered",
-     }),
-      shuffleOptions({
-        question:
-          "With the holy Geeta in one hand and the slogans for his motherland on his tongue, the young Khudi Ram Bose, with curly hair covering his forehead and bright eyes, kissed the gallows before he beckoned the _______________ to do his duty.",
-        options: ["A) police", "B) hangman", "C) officer"],
-        correctAnswer: "B) hangman",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question: "In 1947, India gained her freedom on ________ August.",
+          optionA: "14th",
+          optionB: "15th",
+          optionC: "16th",
+          correctAnswer: "b. 15th",
+        },
+        {
+          question:
+            "The revolutionaries rose in revolt when the British atrocities reached __________ limits.",
+          optionA: "Tolerable",
+          optionB: "Unbearable",
+          optionC: "Reasonable",
+          correctAnswer: "b. Unbearable",
+        },
+        {
+          question:
+            "Kingsford, the Chief Presidency Magistrate, was transferred to __________ as the District Judge.",
+          optionA: "Calcutta",
+          optionB: "Muzaffarpur",
+          optionC: "Samastipur",
+          correctAnswer: "b. Muzaffarpur",
+        },
+        {
+          question:
+            "Khudi Ram Bose and Prafull Kumar Chaki planned to blast a bomb to kill Kingsford at his __________.",
+          optionA: "Residence",
+          optionB: "Club",
+          optionC: "Office",
+          correctAnswer: "b. Club",
+        },
+        {
+          question:
+            "The bomb exploded with a massive boom when hurled towards Kennedy's carriage on April 30, 1908, resulting in severe injuries to __________.",
+          optionA: "Khudi Ram Bose",
+          optionB: "Kingsford",
+          optionC: "Kennedy's daughter",
+          correctAnswer: "c. Kennedy's daughter",
+        },
+        {
+          question:
+            "After the bomb blast, Bose and Chaki managed to escape by running __________ miles overnight.",
+          optionA: "10",
+          optionB: "15",
+          optionC: "25",
+          correctAnswer: "c. 25",
+        },
+        {
+          question:
+            "Unfortunately, Khudi Ram Bose was arrested on __________, 1908, from the village where they had stayed.",
+          optionA: "April 30",
+          optionB: "May 1",
+          optionC: "May 2",
+          correctAnswer: "b. May 1",
+        },
+        {
+          question:
+            "Prafull Kumar Chaki, in an attempt to evade arrest, pulled his trigger on himself, making the __________ sacrifice.",
+          optionA: "Insignificant",
+          optionB: "Supreme",
+          optionC: "Unplanned",
+          correctAnswer: "b. Supreme",
+        },
+        {
+          question:
+            "Khudi Ram Bose was sentenced to death by hanging, and he was only __________ years old at that time.",
+          optionA: "Fifteen",
+          optionB: "Seventeen",
+          optionC: "Twenty",
+          correctAnswer: "b. Seventeen",
+        },
+        {
+          question:
+            "In his last wish, Khudi Ram Bose wanted to be cremated in the jail itself by his advocate __________.",
+          optionA: "Bhagat Singh",
+          optionB: "Kalidas Bose",
+          optionC: "Savarkar",
+          correctAnswer: "b. Kalidas Bose",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Bhima ruled in Berar during the ancient period.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Damyanti's heart was set on marrying a king named Nala.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Nala decided to visit Berar to meet Damyanti.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Nala was charmed by a swan in the royal gardens.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "The swan in the garden had shining silver wings.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Damyanti was uninterested in any other suitor at the Swayamvara.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The gods assumed Nala's form to compete for Damyanti's hand.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Damyanti identified the real Nala by their ability to cast shadows.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The gods blessed the couple and revealed their true identity.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Damyanti chose the gods as her groom at the Swayamvara.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "India gained her freedom on 15 August, 1947.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The revolutionaries rose in revolt due to the tolerable British atrocities.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Kingsford, the Chief Presidency Magistrate, was transferred to Samastipur as the District Judge.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Khudi Ram Bose and Prafull Kumar Chaki planned to blast a bomb at Kingsford's residence.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The bomb exploded with a massive boom, causing severe injuries to Khudi Ram Bose.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Bose and Chaki managed to escape by running 10 miles overnight.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Khudi Ram Bose was arrested on May 1, 1908, from the village where they had stayed.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Prafull Kumar Chaki committed suicide when surrounded by the police.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Khudi Ram Bose was sentenced to death by hanging at the age of twenty.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "In his last wish, Khudi Ram Bose wanted to be cremated outside the jail by Bhagat Singh.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

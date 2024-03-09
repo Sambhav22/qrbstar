@@ -1,128 +1,83 @@
-export const chapter = "Chapter - 2: Houses- Then and Now";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
-
+export const chapter = "Chapter -2: Houses-Then And Now";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      {
-        questions: [
-          {
-            question:
-              "What material is commonly used for constructing houses in desert regions?",
-            options: [
-              "a) Bamboo and wood",
-              "b) Bricks, cement, steel",
-              "c) Mud",
-            ],
-            answer: "c) Mud",
-          },
-          {
-            question:
-              "In places with heavy rainfall, what type of roofs do houses typically have?",
-            options: [
-              "a) Flat roofs",
-              "b) Slanting roofs",
-              "c) Thatched roofs",
-            ],
-            answer: "b) Slanting roofs",
-          },
-          {
-            question:
-              "What are houses in earthquake-prone areas primarily made of?",
-            options: [
-              "a) Bricks, cement, steel",
-              "b) Bamboo and wood",
-              "c) Blocks of snow",
-            ],
-            answer: "b) Bamboo and wood",
-          },
-          {
-            question:
-              "What type of houses are constructed in polar regions, using blocks of snow?",
-            options: ["a) Igloos", "b) Bungalows", "c) Cottages"],
-            answer: "a) Igloos",
-          },
-          {
-            question:
-              "What are modern architectural bungalows primarily made of in big cities?",
-            options: [
-              "a) Mud",
-              "b) Bamboo and wood",
-              "c) Bricks, cement, steel",
-            ],
-            answer: "c) Bricks, cement, steel",
-          },
-          {
-            question:
-              "What term is used for permanent, expensive houses that take a lot of time to build?",
-            options: ["a) Slums", "b) Pucca houses", "c) Cottages"],
-            answer: "b) Pucca houses",
-          },
-          {
-            question:
-              "What were the common building materials used in houses from olden times?",
-            options: [
-              "a) Cement, concrete, glass",
-              "b) Bricks, mud, wood",
-              "c) Steel, iron, marbles",
-            ],
-            answer: "b) Bricks, mud, wood",
-          },
-          {
-            question: "What is lacking in slums according to the text?",
-            options: [
-              "a) Clean drinking water, public services, proper infrastructure",
-              "b) Modern facilities",
-              "c) Adequate sunlight",
-            ],
-            answer:
-              "a) Clean drinking water, public services, proper infrastructure",
-          },
-          {
-            question:
-              "In the past, what open space was usually preferred by people for family gatherings?",
-            options: ["a) Verandah", "b) Patio", "c) Terrace"],
-            answer: "a) Verandah",
-          },
-          {
-            question:
-              "What has led to a change in the style of construction from olden to modern times?",
-            options: [
-              "a) Increase in population",
-              "b) Lack of building materials",
-              "c) Decrease in technology",
-            ],
-            answer: "a) Increase in population",
-          },
-        ],
-      },
+      [
+        {
+            "question": "What are examples of pucca houses?",
+            "optionA": "Thatched cottages and farm houses",
+            "optionB": "Bungalows and havelis",
+            "optionC": "Apartments and flats",
+            "correctAnswer": "Apartments and flats"
+        },
+        {
+            "question": "What materials were commonly used to build houses in olden times?",
+            "optionA": "Bricks, cement, and steel",
+            "optionB": "Limestone, wood, and stone chips",
+            "optionC": "Cement, concrete, and glass",
+            "correctAnswer": "Limestone, wood, and stone chips"
+        },
+        {
+            "question": "Where do people who are forced to leave their own shelter due to poverty often end up living?",
+            "optionA": "In apartments",
+            "optionB": "In slums or on footpath",
+            "optionC": "In small cottages",
+            "correctAnswer": "In slums or on footpath"
+        },
+        {
+            "question": "What is Dharavi in Mumbai known as?",
+            "optionA": "The first largest slum in Asia",
+            "optionB": "The third largest slum in Asia",
+            "optionC": "The largest slum in the world",
+            "correctAnswer": "The third largest slum in the world"
+        },
+        {
+            "question": "What was a common feature of houses in olden days?",
+            "optionA": "Large open spaces",
+            "optionB": "Small area",
+            "optionC": "Advanced technology",
+            "correctAnswer": "Large open spaces"
+        },
+        {
+            "question": "Which materials are commonly used to build houses in modern times?",
+            "optionA": "Mud and wood",
+            "optionB": "Bricks and steel",
+            "optionC": "Cement and glass",
+            "correctAnswer": "Cement and glass"
+        },
+        {
+            "question": "What has advanced technology helped achieve in modern houses?",
+            "optionA": "Decrease in population",
+            "optionB": "Smaller area",
+            "optionC": "More facilities",
+            "correctAnswer": "More facilities"
+        },
+        {
+            "question": "What did people in olden days prefer to have in their houses for family gatherings?",
+            "optionA": "Common bathrooms",
+            "optionB": "Verandah",
+            "optionC": "Bricks and mud",
+            "correctAnswer": "Verandah"
+        },
+        {
+            "question": "What is a common issue faced by people living in slums?",
+            "optionA": "Lack of clean drinking water",
+            "optionB": "Strong houses",
+            "optionC": "Urban areas",
+            "correctAnswer": "Lack of clean drinking water"
+        },
+        {
+            "question": "What is a characteristic of modern houses regarding damage from heavy rain or storm?",
+            "optionA": "Easily damaged",
+            "optionB": "Strong and resistant",
+            "optionC": "Made with mud and wood",
+            "correctAnswer": "Strong and resistant"
+        }
+    ]
+    
     ],
   };
 }
@@ -131,78 +86,79 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      {
-        fill_in_the_blank_questions: [
-          {
-            question:
-              "In desert regions, houses are primarily made of __________ to keep them cooler inside.",
-            options: ["a) Bamboo", "b) Mud", "c) Bricks, cement, steel"],
-            answer: "b) Mud",
-          },
-          {
-            question:
-              "Houses in earthquake-prone areas are constructed using __________ and wood.",
-            options: [
-              "a) Snow blocks",
-              "b) Bamboo",
-              "c) Bricks, cement, steel",
-            ],
-            answer: "b) Bamboo",
-          },
-          {
-            question:
-              "In polar regions, houses are made up of blocks of __________, known as Igloos.",
-            options: ["a) Wood", "b) Mud", "c) Snow"],
-            answer: "c) Snow",
-          },
-          {
-            question:
-              "Beautiful bungalows with modern architectural design are made up of bricks, cement, steel, marbles, tiles, etc., and are known as __________ houses.",
-            options: ["a) Pucca", "b) Thatched", "c) Slum"],
-            answer: "a) Pucca",
-          },
-          {
-            question:
-              "Slums lack basic necessities like clean drinking water, public services, and proper __________.",
-            options: ["a) Infrastructure", "b) Ventilation", "c) Sunlight"],
-            answer: "a) Infrastructure",
-          },
-          {
-            question:
-              "From olden to modern times, the style of construction has changed, and houses are now made with newer building materials like cement, concrete, glass, bricks, steel, and __________.",
-            options: ["a) Wood", "b) Iron", "c) Bamboo"],
-            answer: "b) Iron",
-          },
-          {
-            question:
-              "People who live in slums lead a miserable life due to the lack of basic necessities such as clean drinking water, public services, and proper __________.",
-            options: ["a) Sunlight", "b) Infrastructure", "c) Ventilation"],
-            answer: "b) Infrastructure",
-          },
-          {
-            question:
-              "In olden times, houses were constructed with limestone, wood, stone chips, and __________ bricks.",
-            options: ["a) Bamboo", "b) Mud", "c) Iron"],
-            answer: "b) Mud",
-          },
-          {
-            question:
-              "The houses in present times are made in smaller areas than the houses of olden times due to the increase in __________.",
-            options: [
-              "a) Building materials",
-              "b) Population",
-              "c) Technology",
-            ],
-            answer: "b) Population",
-          },
-          {
-            question:
-              "Advanced technology has helped make modern houses with far more facilities than earlier, primarily found in __________ areas.",
-            options: ["a) Rural", "b) Urban", "c) Polar"],
-            answer: "b) Urban",
-          },
-        ],
-      },
+      [
+        {
+            "question": "Beautiful bungalow with modern architectural design is made up of ________, cement, steel, marbles, tiles etc.",
+            "optionA": "Limestone",
+            "optionB": "Bricks",
+            "optionC": "Concrete",
+            "correctAnswer": "Bricks"
+        },
+        {
+            "question": "Small thatched cottages, farm houses, and havelis were constructed using ________, wood, stone chips, and mud bricks.",
+            "optionA": "Cement",
+            "optionB": "Limestone",
+            "optionC": "Stone chips",
+            "correctAnswer": "Limestone"
+        },
+        {
+            "question": "People forced to leave their own shelter due to poverty often end up living in ________ or on footpath.",
+            "optionA": "Bungalows",
+            "optionB": "Slums",
+            "optionC": "Apartments",
+            "correctAnswer": "Slums"
+        },
+        {
+            "question": "Dharavi in Mumbai is known as the ________ largest slum in the world.",
+            "optionA": "First",
+            "optionB": "Second",
+            "optionC": "Third",
+            "correctAnswer": "Third"
+        },
+        {
+            "question": "In olden days, houses had large open spaces called ________, where family members sat together in the evening.",
+            "optionA": "Common bathrooms",
+            "optionB": "Verandahs",
+            "optionC": "Kitchens",
+            "correctAnswer": "Verandahs"
+        },
+        {
+            "question": "Modern houses are commonly built using ________ and glass.",
+            "optionA": "Mud",
+            "optionB": "Bricks",
+            "optionC": "Cement",
+            "correctAnswer": "Cement"
+        },
+        {
+            "question": "Advanced technology has enabled modern houses to have ________ facilities than earlier.",
+            "optionA": "Fewer",
+            "optionB": "More",
+            "optionC": "Similar",
+            "correctAnswer": "More"
+        },
+        {
+            "question": "People in olden days preferred to have ________ in their houses for family gatherings.",
+            "optionA": "Common bathrooms",
+            "optionB": "Verandahs",
+            "optionC": "Kitchens",
+            "correctAnswer": "Verandahs"
+        },
+        {
+            "question": "A common issue faced by people living in slums is the lack of ________.",
+            "optionA": "Strong houses",
+            "optionB": "Urban areas",
+            "optionC": "Clean drinking water",
+            "correctAnswer": "Clean drinking water"
+        },
+        {
+            "question": "Modern houses are characterized by being ________ and resistant to damage from heavy rain or storm.",
+            "optionA": "Easily damaged",
+            "optionB": "Strong",
+            "optionC": "Made with mud and wood",
+            "correctAnswer": "Strong"
+        }
+    ]
+    
     ],
   };
 }
@@ -211,70 +167,69 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      {
-        true_false_questions: [
-          {
-            question:
-              "Houses in desert regions are primarily made of mud to keep them cooler inside.",
-            options: ["a) True", "b) False"],
-            answer: "a) True",
-          },
-          {
-            question:
-              "Houses in earthquake-prone areas are typically made of bamboo and wood.",
-            options: ["a) True", "b) False"],
-            answer: "a) True",
-          },
-          {
-            question:
-              "Polar region houses are constructed with bricks, cement, and steel.",
-            options: ["a) True", "b) False"],
-            answer: "b) False",
-          },
-          {
-            question:
-              "Slums often lack basic necessities like clean drinking water, public services, and proper infrastructure.",
-            options: ["a) True", "b) False"],
-            answer: "a) True",
-          },
-          {
-            question:
-              "In olden times, houses were constructed with limestone, wood, stone chips, and bamboo.",
-            options: ["a) True", "b) False"],
-            answer: "b) False",
-          },
-          {
-            question:
-              "Modern architectural bungalows are made of bricks, cement, steel, marbles, and tiles.",
-            options: ["a) True", "b) False"],
-            answer: "a) True",
-          },
-          {
-            question:
-              "People living in slums lead a comfortable life with all the modern facilities.",
-            options: ["a) True", "b) False"],
-            answer: "b) False",
-          },
-          {
-            question:
-              "Houses in present times are made with larger areas due to the decrease in population.",
-            options: ["a) True", "b) False"],
-            answer: "b) False",
-          },
-          {
-            question:
-              "From olden to modern times, the style of construction has remained the same.",
-            options: ["a) True", "b) False"],
-            answer: "b) False",
-          },
-          {
-            question:
-              "Advanced technology has contributed to making houses with more facilities than earlier.",
-            options: ["a) True", "b) False"],
-            answer: "a) True",
-          },
-        ],
-      },
+      [
+        {
+            question: "A family is a group of people who live together and are related to each other.",
+            optionA: "True",
+            optionB: "False",
+            correctAnswer: "True"
+        },
+        {
+            "question": "Immediate family members include uncles, aunts, cousins, and nephews.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "In the olden times, houses were commonly built with bricks, cement, and steel.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Slums and footpaths are usually preferred living places for the wealthy.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Dharavi in Mumbai is the largest slum in Asia.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Houses in olden times had large open spaces called verandahs for family gatherings.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "True"
+        },
+        {
+            "question": "Modern houses are commonly built with materials like mud and wood.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Advanced technology has not contributed to providing more facilities in modern houses.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "People living in slums often face issues like lack of clean drinking water.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "True"
+        },
+        {
+            "question": "Modern houses are easily damaged by heavy rain or storm.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        }
+    ]
+    
     ],
   };
 }

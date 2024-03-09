@@ -1,246 +1,242 @@
-export const chapter = "Chapter - 10: Festivals Round the Year ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
-
+export const chapter = "Chapter - 10: Clothes We Wear";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-          question: "________ is the festival of colours",
-          optionA: "Holi",
-          optionB: "Gurpurab",
-          optionC: "Diwali",
-          correctAnswer: "Holi",
-         }),
-      shuffleOptions({
-          question: "Diwali is the festival of _________",
-          optionA: "lights",
-          optionB: "colours",
-          optionC: "both",
-          correctAnswer: "colours",
-         }),
-      shuffleOptions({
-          question: "________ is the birthday of Jesus Christ",
-          optionA: "Christmas",
-          optionB: "Diwali",
-          optionC: "Holi",
-          correctAnswer: "Christmas",
-         }),
-      shuffleOptions({
+    questions: [
+      [
+        {
+          question: "What is Diwali primarily known as?",
+          optionA: "Festival of Colors",
+          optionB: "Festival of Lights",
+          optionC: "Festival of Independence",
+          correctAnswer: "Festival of Lights",
+        },
+        {
           question: "Which festival is celebrated after Ramadan?",
           optionA: "Holi",
-          optionB: "Eid",
-          optionC: "Gurpurab",
+          optionB: "Gurpurao",
+          optionC: "Eid",
           correctAnswer: "Eid",
-         }),
-      shuffleOptions({
-          question: "What is Mahavir Jayanti celebrating?",
-          optionA: "Birthday of Lord Mahavir",
-          optionB: "Republic Day",
-          optionC: "Independence Day",
-          correctAnswer: "Birthday of Lord Mahavir",
-         }),
-      shuffleOptions({
-          question: "Which festival celebrates the birthday of the Sikh Gurus?",
-          optionA: "Gurpurab",
-          optionB: "Diwali",
-          optionC: "Mahavir Jayanti",
-          correctAnswer: "Gurpurab",
-         }),
-      shuffleOptions({
-          question: "Which festival celebrates the birthday of Jesus Christ?",
+        },
+        {
+          question:
+            "What is celebrated on 15th August as mentioned in the text?",
           optionA: "Christmas",
-          optionB: "Eid",
-          optionC: "Diwali",
-          correctAnswer: "Christmas",
-         }),
-      shuffleOptions({
-          question: "What is celebrated on the 15th of August?",
-          optionA: "Diwali",
           optionB: "Independence Day",
           optionC: "Republic Day",
           correctAnswer: "Independence Day",
-         }),
-      shuffleOptions({
-          question:
-            "Which festival is a national festival celebrating the country's freedom?",
-          optionA: "Christmas",
-          optionB: "Independence Day",
-          optionC: "Gandhi Jayanti",
-          correctAnswer: "Independence Day",
-         }),
-      shuffleOptions({
+        },
+        {
+          question: "Which festival marks the birthday of the Sikh Gurus?",
+          optionA: "Gurpurao",
+          optionB: "Mahavir Jayanti",
+          optionC: "Holi",
+          correctAnswer: "Gurpurao",
+        },
+        {
           question: "When is Republic Day celebrated every year?",
           optionA: "2nd October",
-          optionB: "26th January",
-          optionC: "15th August",
+          optionB: "15th August",
+          optionC: "26th January",
           correctAnswer: "26th January",
-         }),
-      shuffleOptions({
-          question: "When is Gandhi Jayanti celebrated?",
-          optionA: "15th August",
-          optionB: "26th January",
-          optionC: "2nd October",
-          correctAnswer: "2nd October",
-           }),
-    ]),
-  }
+        },
+        {
+          question: "What is Mahavir Jayanti celebrating?",
+          optionA: "Lord Mahavir's victory",
+          optionB: "Lord Mahavir's birthday",
+          optionC: "Lord Mahavir's teachings",
+          correctAnswer: "Lord Mahavir's birthday",
+        },
+        {
+          question:
+            "Which festival is associated with the birthday of Jesus Christ?",
+          optionA: "Diwali",
+          optionB: "Christmas",
+          optionC: "Holi",
+          correctAnswer: "Christmas",
+        },
+        {
+          question: "Which festival is described as the festival of colors?",
+          optionA: "Diwali",
+          optionB: "Holi",
+          optionC: "Gurpurao",
+          correctAnswer: "Holi",
+        },
+        {
+          question: "What is celebrated on 2nd October every year?",
+          optionA: "Independence Day",
+          optionB: "Christmas",
+          optionC: "Gandhi Jayanti",
+          correctAnswer: "Gandhi Jayanti",
+        },
+        {
+          question:
+            "What is celebrated as the national festival on the 26th of January?",
+          optionA: "Independence Day",
+          optionB: "Christmas",
+          optionC: "Republic Day",
+          correctAnswer: "Republic Day",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
-    questions: shuffleQues([
-      shuffleOptions({
-          question: "__________ is the festival of lights.",
-          options: ["Diwali", "Holi", "Eid"],
-          correctAnswer: "Diwali",
-         }),
-      shuffleOptions({
-          question: "__________ is celebrated after Ramadan.",
-          options: ["Holi", "Diwali", "Eid"],
-          correctAnswer: "Eid",
-         }),
-      shuffleOptions({
-          question: "Gurpurab celebrates the birthday of the __________ Gurus.",
-          options: ["Hindu", "Sikh", "Buddhist"],
-          correctAnswer: "Sikh",
-         }),
-      shuffleOptions({
-          question: "Mahavir Jayanti marks the birthday of Lord __________.",
-          options: ["Shiva", "Vishnu", "Mahavir"],
+    questions: [
+      [
+        {
+          question:
+            "Festivals are the days of great celebration. People celebrate different festivals round the year. Some of them are Diwali (festival of _______________).",
+          optionA: "Music",
+          optionB: "Lights",
+          optionC: "Colors",
+          correctAnswer: "Lights",
+        },
+        {
+          question: "Holi is the festival of _______________.",
+          optionA: "Lights",
+          optionB: "Colors",
+          optionC: "Music",
+          correctAnswer: "Colors",
+        },
+        {
+          question: "Eid is celebrated after _______________.",
+          optionA: "Diwali",
+          optionB: "Holi",
+          optionC: "Ramadan",
+          correctAnswer: "Ramadan",
+        },
+        {
+          question: "Gurpurao is the birthday of the _______________.",
+          optionA: "Hindu Gods",
+          optionB: "Sikh Gurus",
+          optionC: "Buddhist Monks",
+          correctAnswer: "Sikh Gurus",
+        },
+        {
+          question: "Mahavir Jayanti is the birthday of Lord _______________.",
+          optionA: "Krishna",
+          optionB: "Mahavir",
+          optionC: "Ganesh",
           correctAnswer: "Mahavir",
-         }),
-      shuffleOptions({
-          question: "Christmas commemorates the birthday of __________.",
-          options: ["Prophet Muhammad", "Lord Mahavir", "Jesus Christ"],
+        },
+        {
+          question: "Christmas is the birthday of _______________.",
+          optionA: "Santa Claus",
+          optionB: "Jesus Christ",
+          optionC: "Mother Mary",
           correctAnswer: "Jesus Christ",
-         }),
-      shuffleOptions({
-          question: "Independence Day in India is celebrated on __________.",
-          options: ["26th January", "2nd October", "15th August"],
+        },
+        {
+          question:
+            "Independence Day is celebrated on the _______________ of August.",
+          optionA: "1st",
+          optionB: "15th",
+          optionC: "30th",
+          correctAnswer: "15th",
+        },
+        {
+          question:
+            "Republic Day is celebrated on _______________ January every year.",
+          optionA: "2nd",
+          optionB: "26th",
+          optionC: "30th",
+          correctAnswer: "26th",
+        },
+        {
+          question:
+            "Gandhi Jayanti is celebrated on the _______________ of October every year.",
+          optionA: "1st",
+          optionB: "2nd",
+          optionC: "10th",
+          correctAnswer: "2nd",
+        },
+        {
+          question: "Our country got freedom on _______________.",
+          optionA: "15th August",
+          optionB: "26th January",
+          optionC: "2nd October",
           correctAnswer: "15th August",
-         }),
-      shuffleOptions({
-          question: "Republic Day is observed on __________ every year.",
-          options: ["2nd October", "15th August", "26th January"],
-          correctAnswer: "26th January",
-         }),
-      shuffleOptions({
-          question: "Gandhi Jayanti is celebrated on __________.",
-          options: ["15th August", "2nd October", "26th January"],
-          correctAnswer: "2nd October",
-         }),
-      shuffleOptions({
-          question: "Independence Day celebrates the freedom of __________.",
-          options: ["Pakistan", "India", "China"],
-          correctAnswer: "India",
-         }),
-      shuffleOptions({
-          question: "Diwali is also known as the __________.",
-          options: [
-            "Festival of Colors",
-            "Festival of Lights",
-            "Festival of Freedom",
-          ],
-          correctAnswer: "Festival of Lights",
-           }),
-    ]),
-  }
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-          question: "Diwali is the festival of lights.",
+    questions: [
+      [
+        {
+          question: "Festivals are occasions of mourning.",
           optionA: "True",
-        optionB: "False",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Holi is celebrated during the winter season.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Eid is celebrated before the month of Ramadan.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Gurpurao is the birthday celebration of Sikh Gurus.",
+          optionA: "True",
+          optionB: "False",
           correctAnswer: "True",
-         }),
-      shuffleOptions({
-          question: "Holi is celebrated after Ramadan.",
+        },
+        {
+          question:
+            "Mahavir Jayanti commemorates the birthday of Lord Krishna.",
           optionA: "True",
-        optionB: "False",
+          optionB: "False",
           correctAnswer: "False",
-         }),
-      shuffleOptions({
-          question: "Gurpurab celebrates the birthday of Hindu Gurus.",
+        },
+        {
+          question: "Christmas marks the birthday of Santa Claus.",
           optionA: "True",
-        optionB: "False",
+          optionB: "False",
           correctAnswer: "False",
-         }),
-      shuffleOptions({
-          question: "Mahavir Jayanti marks the birthday of Lord Shiva.",
+        },
+        {
+          question: "Independence Day is celebrated on the 15th of August.",
           optionA: "True",
-        optionB: "False",
-          correctAnswer: "False",
-         }),
-      shuffleOptions({
-          question: "Christmas commemorates the birthday of Prophet Muhammad.",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "Republic Day is celebrated on the 2nd of October.",
           optionA: "True",
-        optionB: "False",
+          optionB: "False",
           correctAnswer: "False",
-         }),
-      shuffleOptions({
-          question: "Independence Day in India is celebrated on 26th January.",
+        },
+        {
+          question: "Gandhi Jayanti is celebrated on the 26th of January.",
           optionA: "True",
-        optionB: "False",
+          optionB: "False",
           correctAnswer: "False",
-         }),
-      shuffleOptions({
-          question: "Republic Day is observed on 2nd October every year.",
+        },
+        {
+          question: "Our country got freedom on the 26th of January.",
           optionA: "True",
-        optionB: "False",
+          optionB: "False",
           correctAnswer: "False",
-         }),
-      shuffleOptions({
-          question: "Gandhi Jayanti is celebrated on 15th August.",
-          optionA: "True",
-        optionB: "False",
-          correctAnswer: "False",
-         }),
-      shuffleOptions({
-          question: "Independence Day celebrates the freedom of Pakistan.",
-          optionA: "True",
-        optionB: "False",
-          correctAnswer: "False",
-         }),
-      shuffleOptions({
-          question: "Diwali is also known as the Festival of Freedom.",
-          optionA: "True",
-        optionB: "False",
-          correctAnswer: "False",
-           }),
-    ]),
-  }
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

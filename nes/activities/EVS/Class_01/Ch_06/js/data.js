@@ -1,113 +1,88 @@
-export const chapter = "Chapter - 6: Clothes We Wear ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
-
+export const chapter = "Chapter -6: Clothes We Wear";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      {
-        questions: [
-          {
-            question: "What type of clothes do we usually wear in summer?",
-            options: [
-              "a) Woolen clothes",
-              "b) Raincoat and gumboots",
-              "c) Cotton clothes",
-            ],
-            answer: "c) Cotton clothes",
-          },
-          {
-            question: "In which season do we wear raincoat and gumboots?",
-            options: ["a) Summer", "b) Winter", "c) Rainy season"],
-            answer: "c) Rainy season",
-          },
-          {
-            question:
-              "Besides seasonal clothes, where do we commonly wear uniforms?",
-            options: ["a) Parties", "b) School and work", "c) Celebrations"],
-            answer: "b) School and work",
-          },
-          {
-            question: "What is mentioned as an example of a uniform?",
-            options: ["a) Doctor", "b) Students", "c) Policeman"],
-            answer: "c) Policeman",
-          },
-          {
-            question:
-              "On what occasions do people wear nice and fancy party clothes?",
-            options: [
-              "a) Everyday activities",
-              "b) Special occasions and parties",
-              "c) Uniformed events",
-            ],
-            answer: "b) Special occasions and parties",
-          },
-          {
-            question: "Which type of clothes is typically worn in winter?",
-            options: ["a) Cotton clothes", "b) Raincoat", "c) Woolen clothes"],
-            answer: "c) Woolen clothes",
-          },
-          {
-            question:
-              "What kind of clothes are mentioned for a birthday party?",
-            options: [
-              "a) Uniforms",
-              "b) Raincoat and gumboots",
-              "c) Nice and fancy party clothes",
-            ],
-            answer: "c) Nice and fancy party clothes",
-          },
-          {
-            question: "Who is mentioned as wearing a uniform?",
-            options: ["a) Students", "b) Helpers at work", "c) Doctors"],
-            answer: "b) Helpers at work",
-          },
-          {
-            question: "Why do we wear clothes?",
-            options: [
-              "a) To look smart",
-              "b) To protect the body",
-              "c) Both a and b",
-            ],
-            answer: "c) Both a and b",
-          },
-          {
-            question: "What is the primary purpose of raincoat and gumboots?",
-            options: [
-              "a) To celebrate special occasions",
-              "b) To look fancy",
-              "c) To protect from rain in the rainy season",
-            ],
-            answer: "c) To protect from rain in the rainy season",
-          },
-        ],
-      },
+      [
+        {
+          question: "What type of clothes do we typically wear in summer?",
+          optionA: "Woolen clothes",
+          optionB: "Cotton clothes",
+          optionC: "Raincoat",
+          correctAnswer: "Cotton clothes",
+        },
+        {
+          question: "What is suitable attire for winter according to the text?",
+          optionA: "Raincoat",
+          optionB: "Cotton clothes",
+          optionC: "Woolen clothes",
+          correctAnswer: "Woolen clothes",
+        },
+        {
+          question: "What is recommended attire for the rainy season?",
+          optionA: "Woolen clothes",
+          optionB: "Raincoat",
+          optionC: "Cotton clothes",
+          correctAnswer: "Raincoat",
+        },
+        {
+          question:
+            "Which of the following is mentioned as an example of someone who wears a uniform at work?",
+          optionA: "Students",
+          optionB: "Doctor",
+          optionC: "Policeman",
+          correctAnswer: "Doctor",
+        },
+        {
+          question:
+            "When do people wear fancy party clothes according to the text?",
+          optionA: "When attending school",
+          optionB: "When celebrating special occasions",
+          optionC: "When wearing uniforms",
+          correctAnswer: "When celebrating special occasions",
+        },
+        {
+          question:
+            "What type of clothes do people wear to a birthday party in the text?",
+          optionA: "Uniforms",
+          optionB: "Fancy party clothes",
+          optionC: "Raincoat",
+          correctAnswer: "Fancy party clothes",
+        },
+        {
+          question: "What is the common factor mentioned for wearing uniforms?",
+          optionA: "Season",
+          optionB: "Special occasions",
+          optionC: "School or work",
+          correctAnswer: "School or work",
+        },
+        {
+          question:
+            "Which profession is specifically mentioned as wearing a uniform in the text?",
+          optionA: "Students",
+          optionB: "Policeman",
+          optionC: "Doctor",
+          correctAnswer: "Policeman",
+        },
+        {
+          question:
+            "What material are winter clothes typically made of, according to the text?",
+          optionA: "Cotton",
+          optionB: "Wool",
+          optionC: "Raincoat",
+          correctAnswer: "Wool",
+        },
+        {
+          question:
+            "When do we wear raincoats and gumboots according to the text?",
+          optionA: "Summer",
+          optionB: "Winter",
+          optionC: "Rainy season",
+          correctAnswer: "Rainy season",
+        },
+      ],
     ],
   };
 }
@@ -116,85 +91,81 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      {
-        questions: [
-          {
-            question: "Clothes protect our body and give us a ________ look.",
-            optionA: "Casual",
-            optionB: "Formal",
-            optionC: "Smart",
-            correctAnswer: "Smart",
-          },
-          {
-            question: "We wear ________ clothes in summer.",
-            optionA: "Winter",
-            optionB: "Summer",
-            optionC: "Rainy season",
-            correctAnswer: "Summer",
-          },
-          {
-            question: "Raincoat and gumboots are worn in the ________ season.",
-            optionA: "Summer",
-            optionB: "Winter",
-            optionC: "Rainy",
-            correctAnswer: "Rainy",
-          },
-          {
-            question: "Apart from seasonal clothes, we also wear ________.",
-            optionA: "Uniforms",
-            optionB: "Party clothes",
-            optionC: "Traditional attire",
-            correctAnswer: "Uniforms",
-          },
-          {
-            question:
-              "We wear uniforms to school, and helpers also wear uniforms at ________.",
-            optionA: "Parties",
-            optionB: "Work",
-            optionC: "Celebrations",
-            correctAnswer: "Work",
-          },
-          {
-            question:
-              "Let's go to a birthday party. Everyone has worn nice and fancy ________.",
-            optionA: "Everyday clothes",
-            optionB: "Party clothes",
-            optionC: "Casual attire",
-            correctAnswer: "Party clothes",
-          },
-          {
-            question:
-              "We wear such clothes when we attend parties or celebrate special ________.",
-            optionA: "Occasions",
-            optionB: "Meetings",
-            optionC: "Ceremonies",
-            correctAnswer: "Occasions",
-          },
-          {
-            question:
-              "Besides seasonal clothes, we also wear uniforms to ________.",
-            optionA: "Events",
-            optionB: "School",
-            optionC: "Workplaces",
-            correctAnswer: "Workplaces",
-          },
-          {
-            question:
-              "Wow! Everyone has worn nice and fancy party clothes at the ________.",
-            optionA: "School",
-            optionB: "Office",
-            optionC: "Birthday party",
-            correctAnswer: "Birthday party",
-          },
-          {
-            question: "Clothes protect our body and give us a ________ look.",
-            optionA: "Smart",
-            optionB: "Formal",
-            optionC: "Sporty",
-            correctAnswer: "Smart",
-          },
-        ],
-      },
+      [
+        {
+          question: "Clothes protect our body and give us a ________ look.",
+          optionA: "Casual",
+          optionB: "Elegant",
+          optionC: "Smart",
+          correctAnswer: "Smart",
+        },
+        {
+          question: "In summer, we typically wear ________ clothes.",
+          optionA: "Woolen",
+          optionB: "Cotton",
+          optionC: "Raincoat",
+          correctAnswer: "Cotton",
+        },
+        {
+          question: "Woollen clothes are worn in ________.",
+          optionA: "Rainy season",
+          optionB: "Winter",
+          optionC: "Summer",
+          correctAnswer: "Winter",
+        },
+        {
+          question: "Raincoat and gumboots are worn in the ________ season.",
+          optionA: "Winter",
+          optionB: "Summer",
+          optionC: "Rainy",
+          correctAnswer: "Rainy",
+        },
+        {
+          question: "Apart from seasonal clothes, we also wear ________.",
+          optionA: "Uniforms",
+          optionB: "Party clothes",
+          optionC: "Raincoats",
+          correctAnswer: "Uniforms",
+        },
+        {
+          question: "Uniforms are worn to school and by ________ at work.",
+          optionA: "Students",
+          optionB: "Doctor",
+          optionC: "Policeman",
+          correctAnswer: "Students",
+        },
+        {
+          question:
+            "Fancy party clothes are worn when we attend parties or celebrate ________ occasions.",
+          optionA: "Everyday",
+          optionB: "Regular",
+          optionC: "Special",
+          correctAnswer: "Special",
+        },
+        {
+          question:
+            "Wow! Everyone has worn nice and fancy party clothes. ________ has worn students.",
+          optionA: "Everyone",
+          optionB: "Nobody",
+          optionC: "Students",
+          correctAnswer: "Students",
+        },
+        {
+          question:
+            "We wear such clothes when we attend parties or celebrate ________.",
+          optionA: "Everyday",
+          optionB: "Regular",
+          optionC: "Special occasions",
+          correctAnswer: "Special occasions",
+        },
+        {
+          question: "Clothes protect our body and give us a ________ look.",
+          optionA: "Elegant",
+          optionB: "Untidy",
+          optionC: "Smart",
+          correctAnswer: "Elegant",
+        },
+      ],
     ],
   };
 }
@@ -203,73 +174,72 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      {
-        questions: [
-          {
-            question: "Clothes protect our body and give us a smart look.",
-            options: ["Smart", "Casual"],
-            answer: "Smart",
-          },
-          {
-            question: "Cotton clothes are typically worn in winter.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Raincoat and gumboots are suitable for the summer season.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question: "Uniforms are worn only during special occasions.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question: "Party clothes are commonly worn at work.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "Winter clothes are usually made of lightweight materials.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question: "Everyone wears fancy party clothes at a birthday party.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question: "Uniforms are worn exclusively by students.",
-            optionA: "True",
-        optionB: "False",
-            answer: "False",
-          },
-          {
-            question:
-              "People wear clothes to look smart and protect their bodies.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-          {
-            question:
-              "Raincoat and gumboots protect from rain in the rainy season.",
-            optionA: "True",
-        optionB: "False",
-            answer: "True",
-          },
-        ],
-      },
+      [
+        {
+          question: "Clothes protect our body and give us a smart look.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "We wear different kinds of clothes as per the season.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "Cotton clothes are typically worn in winter.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Raincoat and gumboots are suitable attire for the summer season.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Uniforms are only worn to school.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Fancy party clothes are worn for everyday activities.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Washing clothes on the river bank is recommended in the text.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Special occasions are not mentioned as a reason to wear fancy party clothes.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Summer is the season for wearing woolen clothes.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The text does not mention any benefits of a clean and green India.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+      ],
     ],
   };
 }

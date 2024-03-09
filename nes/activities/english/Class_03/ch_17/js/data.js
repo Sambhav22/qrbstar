@@ -1,248 +1,259 @@
-export const chapter = "Chapter - 17: Proposal to Marriage";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -17: Proposal to Marriage";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "What does the tiger first notice about the young girl?",
-        optionA: "Her fear",
-        optionB: "Her beauty",
-        optionC: "Her firewood",
-        correctAnswer: "Her beauty",
-     }),
-      shuffleOptions({
-        question:
-          "What does the tiger want to do when he first sees the young girl?",
-        optionA: "Kill her",
-        optionB: "Propose to her",
-        optionC: "Run away",
-        correctAnswer: "Propose to her",
-     }),
-      shuffleOptions({
-        question:
-          "Why does the girl run away from the tiger when he approaches her?",
-        optionA: "She is scared of being eaten.",
-        optionB: "She is scared of marriage.",
-        optionC: "She is gathering more firewood.",
-        correctAnswer: "She is scared of being eaten.",
-     }),
-      shuffleOptions({
-        question:
-          "What is the man's initial reaction when the tiger asks to marry his daughter?",
-        optionA: "He agrees immediately.",
-        optionB: "He runs away.",
-        optionC: "He is frightened but thinks for a while.",
-        correctAnswer: "He is frightened but thinks for a while.",
-     }),
-      shuffleOptions({
-        question:
-          "What does the man suggest as a solution to the problem of the tiger's sharp nails and teeth?",
-        optionA: "To run away with his daughter",
-        optionB: "To clip the tiger's nails and pull out his teeth",
-        optionC: "To invite the tiger for dinner",
-        correctAnswer: "To clip the tiger's nails and pull out his teeth",
-     }),
-      shuffleOptions({
-        question:
-          "How does the tiger react to the man's suggestion to clip his nails and pull out his teeth?",
-        optionA: "He refuses to do it.",
-        optionB: "He agrees willingly.",
-        optionC: "He suggests an alternative solution.",
-        correctAnswer: "He agrees willingly.",
-     }),
-      shuffleOptions({
-        question:
-          "Who ultimately beats the tiger and chases him back to the forest?",
-        optionA: "The young girl",
-        optionB: "The tiger's family",
-        optionC: "The girl's father",
-        correctAnswer: "The girl's father",
-     }),
-      shuffleOptions({
-        question:
-          "What is the tiger's condition after having his nails clipped and teeth pulled out?",
-        optionA: "Happy and excited",
-        optionB: "Angry and aggressive",
-        optionC: "Fearful and weak",
-        correctAnswer: "Happy and excited",
-     }),
-      shuffleOptions({
-        question: "How does the story end for the tiger?",
-        optionA: "He marries the girl and lives happily.",
-        optionB: "He is eaten by the man.",
-        optionC: "He is chased back to the forest.",
-        correctAnswer: "He is chased back to the forest.",
-     }),
-      shuffleOptions({
-        question: "What is the overall tone of this story?",
-        optionA: "Tragic",
-        optionB: "Humorous",
-        optionC: "Romantic",
-        correctAnswer: "Humorous",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "What is the tiger's initial reaction to the beautiful day?",
+          optionA: "He feels hungry",
+          optionB: "He plans to hunt for food",
+          optionC: "He decides to enjoy himself",
+          correctAnswer: "He decides to enjoy himself",
+        },
+        {
+          question:
+            "What does the tiger decide when he sees the young girl gathering firewood?",
+          optionA: "He decides to hunt her for food",
+          optionB: "He decides to marry her",
+          optionC: "He decides to ignore her and continue his stroll",
+          correctAnswer: "He decides to marry her",
+        },
+        {
+          question:
+            "How does the girl react when she sees the tiger approaching her?",
+          optionA: "She agrees to marry him immediately",
+          optionB: "She runs away nervously",
+          optionC: "She tries to fight the tiger",
+          correctAnswer: "She runs away nervously",
+        },
+        {
+          question:
+            "What does the tiger tell the girl's father when he catches up with them?",
+          optionA: "He wants to eat the girl",
+          optionB: "He wants to marry the girl",
+          optionC: "He wants to hunt with the girl's father",
+          correctAnswer: "He wants to marry the girl",
+        },
+        {
+          question:
+            "What problem does the girl's father point out to the tiger regarding his sharp nails and long teeth?",
+          optionA: "The girl may be allergic to tigers",
+          optionB: "The girl may get scared and run away",
+          optionC: "The girl may get hurt by the tiger's physical traits",
+          correctAnswer: "The girl may get hurt by the tiger's physical traits",
+        },
+        {
+          question:
+            "How does the girl's father suggest solving the problem with the tiger's sharp nails and long teeth?",
+          optionA: "By getting the tiger a different wife",
+          optionB: "By clipping the tiger's nails and pulling out his teeth",
+          optionC: "By asking the tiger to leave",
+          correctAnswer:
+            "By clipping the tiger's nails and pulling out his teeth",
+        },
+        {
+          question:
+            "What is the tiger's reaction to the idea of clipping his nails and pulling out his teeth?",
+          optionA: "He agrees immediately",
+          optionB: "He refuses to undergo the procedure",
+          optionC: "He suggests an alternative solution",
+          correctAnswer: "He agrees immediately",
+        },
+        {
+          question:
+            "Who performs the nail clipping and teeth pulling on the tiger?",
+          optionA: "The girl",
+          optionB: "The girl's father",
+          optionC: "The tiger himself",
+          correctAnswer: "The girl's father",
+        },
+        {
+          question: "How does the story end for the tiger?",
+          optionA: "He lives happily ever after with the girl",
+          optionB: "He suffers pain and is beaten by the girl's father",
+          optionC: "He returns to the forest alone",
+          correctAnswer: "He suffers pain and is beaten by the girl's father",
+        },
+        {
+          question: "What is the girl's reaction at the end of the story?",
+          optionA: "She is saddened by the tiger's fate",
+          optionB: "She is indifferent to the tiger's fate",
+          optionC:
+            "She looks on happily through the window as her father beats the tiger",
+          correctAnswer:
+            "She looks on happily through the window as her father beats the tiger",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "The tiger is ________ in the jungle.",
-        options: ["running", "sleeping", "roaming"],
-        correctAnswer: "roaming",
-     }),
-      shuffleOptions({
-        question:
-          "Tiger: (to himself) What a pretty day it is! I got a lavish meal in the ________. I can enjoy myself.",
-        options: ["evening", "morning", "afternoon"],
-        correctAnswer: "morning",
-     }),
-      shuffleOptions({
-        question: "The greenery really looks ________.",
-        options: ["ugly", "nice", "scary"],
-        correctAnswer: "nice",
-     }),
-      shuffleOptions({
-        question: "These flowers are really ________.",
-        options: ["colorful", "ugly", "pretty"],
-        correctAnswer: "pretty",
-     }),
-      shuffleOptions({
-        question: "The tiger notices a young girl. She is gathering ________.",
-        options: ["food", "firewood", "flowers"],
-        correctAnswer: "firewood",
-     }),
-      shuffleOptions({
-        question:
-          "Tiger: (to himself) I am not hungry, so I don't need to ________ her.",
-        options: ["chase", "kill", "marry"],
-        correctAnswer: "kill",
-     }),
-      shuffleOptions({
-        question:
-          "But let me see from near what she is doing. (looks at her from behind a ________)",
-        options: ["rock", "tree", "bush"],
-        correctAnswer: "tree",
-     }),
-      shuffleOptions({
-        question:
-          "She is very beautiful. I think she can be my ________. Let me propose to her.",
-        options: ["friend", "wife", "neighbor"],
-        correctAnswer: "wife",
-     }),
-      shuffleOptions({
-        question:
-          "Tiger: (calls from behind) Stop, girl, stop. I don't want to ________ you. I want to marry you.",
-        options: ["harm", "see", "kill"],
-        correctAnswer: "kill",
-     }),
-      shuffleOptions({
-        question:
-          "Man: Tiger, you are so handsome. You will make a good husband for her.",
-        options: ["ugly", "strong", "handsome"],
-        correctAnswer: "handsome",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question: "Tiger notices a young girl ________ firewood.",
+          optionA: "burning",
+          optionB: "collecting",
+          optionC: "igniting",
+          correctAnswer: "collecting",
+        },
+        {
+          question: "The tiger decides to ________ the girl.",
+          optionA: "hunt",
+          optionB: "marry",
+          optionC: "befriend",
+          correctAnswer: "marry",
+        },
+        {
+          question: "The girl reacts ________ when she sees the tiger.",
+          optionA: "calmly",
+          optionB: "nervously",
+          optionC: "happily",
+          correctAnswer: "nervously",
+        },
+        {
+          question: "The tiger wants to ________ the girl to her father.",
+          optionA: "befriend",
+          optionB: "eat",
+          optionC: "marry",
+          correctAnswer: "marry",
+        },
+        {
+          question:
+            "The girl's father points out that the tiger's physical traits may ________ her.",
+          optionA: "attract",
+          optionB: "scare",
+          optionC: "protect",
+          correctAnswer: "hurt",
+        },
+        {
+          question:
+            "The girl's father suggests ________ the tiger's nails and teeth.",
+          optionA: "ignoring",
+          optionB: "clipping",
+          optionC: "painting",
+          correctAnswer: "clipping",
+        },
+        {
+          question: "The tiger ________ to undergo the procedure.",
+          optionA: "refuses",
+          optionB: "agrees",
+          optionC: "ignores",
+          correctAnswer: "agrees",
+        },
+        {
+          question:
+            "The girl's father performs the nail clipping and teeth pulling ________.",
+          optionA: "quickly",
+          optionB: "slowly",
+          optionC: "carefully",
+          correctAnswer: "carefully",
+        },
+        {
+          question:
+            "The tiger ends up suffering ________ and is beaten by the girl's father.",
+          optionA: "pleasure",
+          optionB: "pain",
+          optionC: "happiness",
+          correctAnswer: "pain",
+        },
+        {
+          question:
+            "The girl looks on happily through the window as her father ________ the tiger.",
+          optionA: "befriends",
+          optionB: "beats",
+          optionC: "comforts",
+          correctAnswer: "beats",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Confucius had several pupils.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Lu was known for his aggressive nature.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Wei was known for his good brain and kind heart.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Wei's anger caused him health issues.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Lu and Wei never had any disagreements.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Confucius advised Wei to abandon his studies and return to his village.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Wei had 40 teeth.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "According to Confucius, teeth are the first to decay.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Wei's anger led to a fit of temper one thousand times in a year.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Confucius encouraged Wei to learn the lesson of patience.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "Tiger initially plans to hunt for food on the pretty day.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The tiger decides to marry the young girl after seeing her gathering firewood.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The girl reacts calmly when she sees the tiger approaching her.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The tiger wants to eat the girl when he catches up with her and her father.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The girl's father believes the tiger's physical traits may attract her.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The girl's father suggests ignoring the tiger's nails and teeth.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The tiger refuses to undergo the nail clipping and teeth pulling procedure.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The girl's father performs the nail clipping and teeth pulling procedure slowly and carelessly.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The tiger ends up suffering pleasure and is praised by the girl's father.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The girl looks on happily through the window as her father befriends the tiger.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

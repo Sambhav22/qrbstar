@@ -1,253 +1,258 @@
-export const chapter = "Chapter - 15: The Model Millionaire ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -15: The Model Millionaire";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "What is Hughie's primary source of income?",
-        optionA: "A successful profession",
-        optionB: "An inheritance",
-        optionC: "An old aunt's allowance",
-        correctAnswer: "C) An old aunt's allowance",
-     }),
-      shuffleOptions({
-        question: "Which profession did Hughie try but did not succeed in?",
-        optionA: "Stock Exchange",
-        optionB: "Tea merchant",
-        optionC: "Dry sherry sales",
-        correctAnswer: "B) Tea merchant",
-     }),
-      shuffleOptions({
-        question:
-          "What is the initial reaction of Hughie's friend Alan Trevor upon seeing him?",
-        optionA: "He is annoyed to be interrupted.",
-        optionB: "He is happy to see Hughie.",
-        optionC: "He is indifferent to Hughie's presence.",
-        correctAnswer: "B) He is happy to see Hughie.",
-     }),
-      shuffleOptions({
-        question:
-          "Why does Hughie's lover Laura's father refuse their engagement?",
-        optionA: "He doesn't like Hughie.",
-        optionB: "He thinks Hughie is poor.",
-        optionC: "He wants Hughie to have 10,000 pounds.",
-        correctAnswer: "C) He wants Hughie to have 10,000 pounds.",
-     }),
-      shuffleOptions({
-        question:
-          "How much does a model get for sitting, according to Alan Trevor?",
-        optionA: "A pound an hour",
-        optionB: "A guinea an hour",
-        optionC: "A shilling an hour",
-        correctAnswer: "C) A shilling an hour",
-     }),
-      shuffleOptions({
-        question:
-          "What gesture does Hughie make towards the old beggar in the studio?",
-        optionA: "He ignores him.",
-        optionB: "He offers him his old clothes.",
-        optionC: "He gives him a sovereign.",
-        correctAnswer: "C) He gives him a sovereign.",
-     }),
-      shuffleOptions({
-        question:
-          "What does Hughie discover about the old beggar from Alan Trevor?",
-        optionA: "He is homeless and destitute.",
-        optionB: "He is a millionaire.",
-        optionC: "He is a famous artist.",
-        correctAnswer: "B) He is a millionaire.",
-     }),
-      shuffleOptions({
-        question:
-          "How does Hughie react when he realizes he gave a sovereign to a millionaire?",
-        optionA: "He feels happy for the beggar.",
-        optionB: "He is angry at Alan for not telling him.",
-        optionC: "He is embarrassed and upset.",
-        correctAnswer: "C) He is embarrassed and upset.",
-     }),
-      shuffleOptions({
-        question:
-          "What does Baron Hausberg do for Hughie and Laura as a wedding present?",
-        optionA: "He offers his congratulations.",
-        optionB: "He delivers a heartfelt speech.",
-        optionC: "He gives them a cheque for 10,000 pounds.",
-        correctAnswer: "C) He gives them a cheque for 10,000 pounds.",
-     }),
-      shuffleOptions({
-        question:
-          "How does Alan Trevor describe model millionaires in the end?",
-        optionA: "As ordinary individuals",
-        optionB: "As rare but not unusual",
-        optionC: "As exceptionally rare",
-        correctAnswer: "C) As exceptionally rare",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "What is Hughie's financial situation?",
+          optionA: "A) He is wealthy",
+          optionB: "B) He lives on a small allowance from his aunt",
+          optionC: "C) He earns a substantial income",
+          correctAnswer: "B) He lives on a small allowance from his aunt",
+        },
+        {
+          question:
+            "Which profession did Hughie try first, but it did not work out?",
+          optionA: "A) Tea merchant",
+          optionB: "B) Stock Exchange",
+          optionC: "C) Selling dry sherry",
+          correctAnswer: "B) Stock Exchange",
+        },
+        {
+          question:
+            "What is the amount Hughie receives annually from his old aunt?",
+          optionA: "A) £100",
+          optionB: "B) £200",
+          optionC: "C) £500",
+          correctAnswer: "B) £200",
+        },
+        {
+          question: "Who is Alan Trevor?",
+          optionA: "A) A stockbroker",
+          optionB: "B) A painter",
+          optionC: "C) A tea merchant",
+          correctAnswer: "B) A painter",
+        },
+        {
+          question:
+            "How much does Alan receive for the portrait he is working on?",
+          optionA: "A) £1,000",
+          optionB: "B) £2,000",
+          optionC: "C) 1,000 guineas",
+          correctAnswer: "C) 1,000 guineas",
+        },
+        {
+          question:
+            "How much does Hughie give to the beggar model in the studio?",
+          optionA: "A) A shilling",
+          optionB: "B) A sovereign",
+          optionC: "C) Five pounds",
+          correctAnswer: "B) A sovereign",
+        },
+        {
+          question: "Who is the mysterious beggar model actually?",
+          optionA: "A) Alan Trevor",
+          optionB: "B) Baron Hausberg",
+          optionC: "C) Hughie's uncle",
+          correctAnswer: "B) Baron Hausberg",
+        },
+        {
+          question:
+            "How does Hughie feel when he realizes the beggar was Baron Hausberg?",
+          optionA: "A) Angry",
+          optionB: "B) Happy",
+          optionC: "C) Surprised and unhappy",
+          correctAnswer: "C) Surprised and unhappy",
+        },
+        {
+          question:
+            "What is the amount of the cheque Baron Hausberg gives as a wedding present?",
+          optionA: "A) £5,000",
+          optionB: "B) £10,000",
+          optionC: "C) £20,000",
+          correctAnswer: "B) £10,000",
+        },
+        {
+          question: "How does the story conclude for Hughie and Laura?",
+          optionA: "A) They break up",
+          optionB: "B) They get married with Baron Hausberg's blessing",
+          optionC: "C) They elope",
+          correctAnswer: "B) They get married with Baron Hausberg's blessing",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "Hughie lives on two hundred pounds a year that an old aunt has _______ him.",
-        options: ["left", "given", "allowed"],
-        correctAnswer: "allowed",
-     }),
-      shuffleOptions({
-        question:
-          "Hughie tried a variety of professions, including the Stock Exchange, but made more _______ than profit.",
-        options: ["loss", "money", "success"],
-        correctAnswer: "loss",
-     }),
-      shuffleOptions({
-        question:
-          "Alan Trevor is a _______ with his brush, and his pictures are eagerly sought after.",
-        options: ["failure", "master", "teacher"],
-        correctAnswer: "master",
-     }),
-      shuffleOptions({
-        question:
-          "Laura's father, a retired colonel, wants Hughie to have _______ pounds of his own before allowing their engagement.",
-        options: ["a hundred", "ten thousand", "a million"],
-        correctAnswer: "ten thousand",
-     }),
-      shuffleOptions({
-        question: "Alan Trevor is painting a model _______ in the studio.",
-        options: ["artist", "friend", "beggar"],
-        correctAnswer: "beggar",
-     }),
-      shuffleOptions({
-        question:
-          "Alan tells Hughie that the old beggar in the studio is one of the _______ men in Europe.",
-        options: ["poorest", "richest", "kindest"],
-        correctAnswer: "richest",
-     }),
-      shuffleOptions({
-        question: "Hughie gives the old beggar a _______.",
-        options: ["coat", "hat", "sovereign"],
-        correctAnswer: "sovereign",
-     }),
-      shuffleOptions({
-        question: "Baron Hausberg commissions Alan to paint him as a _______.",
-        options: ["soldier", "dandy", "beggar"],
-        correctAnswer: "beggar",
-     }),
-      shuffleOptions({
-        question:
-          "Hughie is surprised when he receives a cheque for _______ pounds as a wedding present from Baron Hausberg.",
-        options: ["1,000", "5,000", "10,000"],
-        correctAnswer: "10,000",
-     }),
-      shuffleOptions({
-        question: "Alan remarks that model millionaires are _______.",
-        options: ["ordinary", "rare but not unusual", "exceptionally rare"],
-        correctAnswer: "exceptionally rare",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "Hughie lives on an annual allowance of __________ pounds provided by his old aunt.",
+          optionA: "A) 100",
+          optionB: "B) 200",
+          optionC: "C) 500",
+          correctAnswer: "B) 200",
+        },
+        {
+          question:
+            "Hughie tried various professions, including working at the Stock Exchange for six months, where he experienced more __________ than profit.",
+          optionA: "A) Success",
+          optionB: "B) Loss",
+          optionC: "C) Challenges",
+          correctAnswer: "B) Loss",
+        },
+        {
+          question:
+            "Alan Trevor is a skilled __________, and his paintings are highly sought after.",
+          optionA: "A) Musician",
+          optionB: "B) Painter",
+          optionC: "C) Chef",
+          correctAnswer: "B) Painter",
+        },
+        {
+          question:
+            "The model in Alan's studio is a wizened old man with a coarse brown cloak, holding out a battered hat for __________.",
+          optionA: "A) Food",
+          optionB: "B) Alms",
+          optionC: "C) Water",
+          correctAnswer: "B) Alms",
+        },
+        {
+          question:
+            "Alan charges __________ guineas for the portrait he is working on.",
+          optionA: "A) 500",
+          optionB: "B) 1000",
+          optionC: "C) 2000",
+          correctAnswer: "C) 2000",
+        },
+        {
+          question:
+            "The amount Hughie gives to the beggar model in the studio is a __________.",
+          optionA: "A) Shilling",
+          optionB: "B) Pound",
+          optionC: "C) Sovereign",
+          correctAnswer: "C) Sovereign",
+        },
+        {
+          question:
+            "The mysterious beggar model in the studio turns out to be __________.",
+          optionA: "A) Alan Trevor",
+          optionB: "B) Hughie's uncle",
+          optionC: "C) Baron Hausberg",
+          correctAnswer: "C) Baron Hausberg",
+        },
+        {
+          question:
+            "Baron Hausberg gives Hughie a cheque as a wedding present, and the amount is __________ pounds.",
+          optionA: "A) 5000",
+          optionB: "B) 10000",
+          optionC: "C) 20000",
+          correctAnswer: "B) 10000",
+        },
+        {
+          question:
+            "Hughie is surprised when he learns that the old beggar model is __________, a wealthy man.",
+          optionA: "A) Alan Trevor",
+          optionB: "B) Baron Hausberg",
+          optionC: "C) Hughie's uncle",
+          correctAnswer: "B) Baron Hausberg",
+        },
+        {
+          question:
+            "The story concludes with Hughie and Laura getting married with the blessing of __________.",
+          optionA: "A) Alan Trevor",
+          optionB: "B) Hughie's aunt",
+          optionC: "C) Baron Hausberg",
+          correctAnswer: "C) Baron Hausberg",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Hughie inherited a large fortune from his old aunt.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Hughie had a successful career at the Stock Exchange.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Alan Trevor is a famous painter with highly sought-after paintings.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Laura's father insisted that Hughie should have 10,000 pounds before their engagement.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The old beggar in Alan's studio was actually a millionaire named Baron Hausberg.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Hughie gave the old beggar a brand new coat.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Alan was aware of Baron Hausberg's true identity from the beginning.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Baron Hausberg gave Hughie a cheque for 1,000 pounds as a wedding present.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Hughie was happy to learn about Baron Hausberg's true identity.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Alan thought that model millionaires were quite common.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "Hughie inherited a substantial amount of money from his family.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Alan Trevor is a renowned musician.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Hughie's aunt provides him with an annual allowance of £200.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "The mysterious beggar model in the studio turns out to be Baron Hausberg.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Alan charges 1000 guineas for the portrait he is working on.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The old beggar model in the studio is genuinely poor and in need of alms.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Baron Hausberg gives Hughie a cheque as a wedding present, and the amount is £10,000.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Hughie initially thought that the model in the studio was Alan Trevor.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Hughie and Laura break up in the end.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Alan Trevor is in fits of laughter when Hughie leaves his studio.",
+          optionTrue: "True",
+          optionFalse: "False",
+          correctAnswer: "True",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

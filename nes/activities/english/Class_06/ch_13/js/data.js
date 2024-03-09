@@ -1,234 +1,243 @@
-export const chapter = "Chapter - 13: Life: It's Fun";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -13: Life : It's Fun";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "What is described as a joy in the text?",
-        optionA: "Life",
-        optionB: "Birth",
-        optionC: "Pleasure",
-        correctAnswer: "B",
-     }),
-      shuffleOptions({
-        question: "How should life be treated according to the text?",
-        optionA: "As a burden",
-        optionB: "Like a treasure",
-        optionC: "With indifference",
-        correctAnswer: "B",
-     }),
-      shuffleOptions({
-        question: "What is compared to a treasure in the text?",
-        optionA: "Birth",
-        optionB: "Life",
-        optionC: "Pleasure",
-        correctAnswer: "B",
-     }),
-      shuffleOptions({
-        question:
-          "What should one do in the sun's warmth according to the text?",
-        optionA: "Bask",
-        optionB: "Hide",
-        optionC: "Shiver",
-        correctAnswer: "A",
-     }),
-      shuffleOptions({
-        question: "What is described as 'a poetry' in the text?",
-        optionA: "Nature's marvels",
-        optionB: "The flight of birds",
-        optionC: "Twinkling stars",
-        correctAnswer: "A",
-     }),
-      shuffleOptions({
-        question:
-          "What dispels the gloom of the darkness of the night in the text?",
-        optionA: "Radiant moon",
-        optionB: "Twinkling stars",
-        optionC: "Flight of birds",
-        correctAnswer: "A",
-     }),
-      shuffleOptions({
-        question: "How should one relate to others according to the text?",
-        optionA: "As foes",
-        optionB: "As friends",
-        optionC: "With indifference",
-        correctAnswer: "B",
-     }),
-      shuffleOptions({
-        question: "Who are referred to as 'His own creatures' in the text?",
-        optionA: "Humans only",
-        optionB: "Beasts and birds only",
-        optionC: "Everyone - men, beasts, and birds",
-        correctAnswer: "C",
-     }),
-      shuffleOptions({
-        question: "What should not be squandered, according to the text?",
-        optionA: "Time",
-        optionB: "Money",
-        optionC: "Energy",
-        correctAnswer: "A",
-     }),
-      shuffleOptions({
-        question:
-          "What is encouraged in the text instead of judging others' worth?",
-        optionA: "Treating everyone as foes",
-        optionB: "Relating with everyone as friends",
-        optionC: "Avoiding interaction with others",
-        correctAnswer: "B",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "What is described as a joy in the given text?",
+          optionA: "Life",
+          optionB: "Birth",
+          optionC: "Pleasure",
+          correctAnswer: "B) Birth",
+        },
+        {
+          question:
+            "What is encouraged to be treated like a treasure in the text?",
+          optionA: "Sun's warmth",
+          optionB: "Life",
+          optionC: "Nature's marvels",
+          correctAnswer: "B) Life",
+        },
+        {
+          question: "What is suggested to be feasted upon in the text?",
+          optionA: "Earth's aroma",
+          optionB: "Nature's marvels",
+          optionC: "Sun's warmth",
+          correctAnswer: "B) Nature's marvels",
+        },
+        {
+          question:
+            "What is described as colorful and intricate, resembling poetry?",
+          optionA: "Flight of birds",
+          optionB: "Stars",
+          optionC: "Nature's marvels",
+          correctAnswer: "C) Nature's marvels",
+        },
+        {
+          question:
+            "What dispels the gloom of the darkness of the night in the text?",
+          optionA: "Flight of birds",
+          optionB: "Twinkling stars",
+          optionC: "Radiant moon",
+          correctAnswer: "C) Radiant moon",
+        },
+        {
+          question: "What is emphasized as not to be squandered in the text?",
+          optionA: "Sun's warmth",
+          optionB: "Time",
+          optionC: "Earth's aroma",
+          correctAnswer: "B) Time",
+        },
+        {
+          question: "What is discouraged in the text regarding people's worth?",
+          optionA: "Judging",
+          optionB: "Relating",
+          optionC: "Squandering",
+          correctAnswer: "A) Judging",
+        },
+        {
+          question:
+            "What is suggested to be related to as friends, not foes, in the text?",
+          optionA: "Beasts",
+          optionB: "Birds",
+          optionC: "Men",
+          correctAnswer: "C) Men, beasts, and birds",
+        },
+        {
+          question: "According to the text, what are all considered as?",
+          optionA: "Treasures",
+          optionB: "Friends",
+          optionC: "Creatures",
+          correctAnswer: "C) Creatures",
+        },
+        {
+          question: "What is described as lustrous in the given text?",
+          optionA: "Flight of birds",
+          optionB: "Twinkling stars",
+          optionC: "Sun's warmth",
+          correctAnswer: "B) Twinkling stars",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Birth is a _______________ joy.",
-        options: ["great", "wonderful", "joyful"],
-        correctAnswer: "wonderful",
-     }),
-      shuffleOptions({
-        question: "Life is a _______________ pleasure.",
-        options: ["beautiful", "delightful", "pleasurable"],
-        correctAnswer: "pleasurable",
-     }),
-      shuffleOptions({
-        question: "Treat life like a _______________ treasure.",
-        options: ["hidden", "precious", "mysterious"],
-        correctAnswer: "precious",
-     }),
-      shuffleOptions({
-        question: "Bask in the sun's _______________ warmth.",
-        options: ["gentle", "soothing", "radiant"],
-        correctAnswer: "radiant",
-     }),
-      shuffleOptions({
-        question: "Inhale the aroma of _______________ Earth.",
-        options: ["fertile", "fragrant", "vibrant"],
-        correctAnswer: "fragrant",
-     }),
-      shuffleOptions({
-        question: "Feast your eyes on Nature's _______________ marvels.",
-        options: ["breathtaking", "awe-inspiring", "majestic"],
-        correctAnswer: "awe-inspiring",
-     }),
-      shuffleOptions({
-        question: "The flight of the birds in the _______________ sky.",
-        options: ["limitless", "boundless", "infinite"],
-        correctAnswer: "boundless",
-     }),
-      shuffleOptions({
-        question: "The twinkling stars so _______________.",
-        options: ["brilliant", "shimmering", "dazzling"],
-        correctAnswer: "dazzling",
-     }),
-      shuffleOptions({
-        question: "The radiant moon dispelling the _______________ gloom.",
-        options: ["endless", "intense", "pervading"],
-        correctAnswer: "pervading",
-     }),
-      shuffleOptions({
-        question: "Squander not time so _______________ precious.",
-        options: ["extremely", "exceptionally", "incredibly"],
-        correctAnswer: "incredibly",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question: "Birth is a _______.",
+          optionA: "Challenge",
+          optionB: "Joy",
+          optionC: "Mystery",
+          correctAnswer: "B) Joy",
+        },
+        {
+          question: "Life is described as a _______.",
+          optionA: "Duty",
+          optionB: "Pleasure",
+          optionC: "Burden",
+          correctAnswer: "B) Pleasure",
+        },
+        {
+          question: '"Live it to the full, Treat it like a _______."',
+          optionA: "Task",
+          optionB: "Treasure",
+          optionC: "Trial",
+          correctAnswer: "B) Treasure",
+        },
+        {
+          question: "Inhale the aroma of _______.",
+          optionA: "Sky",
+          optionB: "Earth",
+          optionC: "Water",
+          correctAnswer: "B) Earth",
+        },
+        {
+          question: "Feast your eyes on Nature's _______.",
+          optionA: "Mysteries",
+          optionB: "Marvels",
+          optionC: "Miracles",
+          correctAnswer: "B) Marvels",
+        },
+        {
+          question: "The flight of the _______ in the sky.",
+          optionA: "Fish",
+          optionB: "Birds",
+          optionC: "Butterflies",
+          correctAnswer: "B) Birds",
+        },
+        {
+          question: "The twinkling stars so _______.",
+          optionA: "Mysterious",
+          optionB: "Lustrous",
+          optionC: "Dull",
+          correctAnswer: "B) Lustrous",
+        },
+        {
+          question: "The radiant moon dispelling the _______.",
+          optionA: "Light",
+          optionB: "Gloom",
+          optionC: "Stars",
+          correctAnswer: "B) Gloom",
+        },
+        {
+          question: "Squander not time, it is _______.",
+          optionA: "Inexhaustible",
+          optionB: "Precious",
+          optionC: "Irrelevant",
+          correctAnswer: "B) Precious",
+        },
+        {
+          question: "Relate with everyone around, Men, _______ and Birds.",
+          optionA: "Machines",
+          optionB: "Beasts",
+          optionC: "Monsters",
+          correctAnswer: "B) Beasts",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "The disease mentioned in the text is caused by a virus.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Maintaining cleanliness is not essential for preventing diseases.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The text recommends eating snacks from the market for a healthy diet.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Physical exercise can include activities like running and playing games.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Brushing your teeth and taking a bath daily are mentioned as ways to maintain cleanliness.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "It is essential to wash your hands with soap when entering the house from outside.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The text suggests that sleeping late and rising late is beneficial for health.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Snacks are considered good for health because they are tasty to eat.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Maintaining hygiene can help keep diseases away.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "According to the text, thinking is a method to take a rest for the brain.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "The flight of birds in the sky is described as dull.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "In the text, life is portrayed as a burden.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Squandering time is encouraged in the given text.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The twinkling stars are described as lustrous in the text.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question: "The aroma of the Earth is not mentioned in the text.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The text suggests that all creatures, including men, beasts, and birds, should be treated as foes.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "The radiant moon contributes to the darkness of the night in the text.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Feasting your eyes on Nature's marvels is not recommended in the text.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Judging other people's worth is advised in the given text.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question: "Treating life as a treasure is suggested in the text.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

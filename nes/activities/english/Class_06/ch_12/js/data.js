@@ -1,240 +1,263 @@
-export const chapter = "Chapter - 12: Jimmy Scarecrow's Presents ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
+export const chapter = "Chapter -10: Jimmy Scarecrow's Presents";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "What was Jimmy Scarecrow's greatest sorrow during the winter?",
-        optionA: "Lack of food",
-        optionB: "Lack of friends",
-        optionC: "Lack of occupation",
-        correctAnswer: "Lack of occupation",
-     }),
-      shuffleOptions({
-        question:
-          "What did Jimmy Scarecrow ask Santa Claus for on Christmas Eve?",
-        optionA: "A new coat",
-        optionB: "A doll-baby",
-        optionC: "A warm fire",
-        correctAnswer: "A doll-baby",
-     }),
-      shuffleOptions({
-        question:
-          "What did Betsey give to Jimmy Scarecrow as a Christmas present?",
-        optionA: "A crazy quilt",
-        optionB: "A new hat",
-        optionC: "A pair of shoes",
-        correctAnswer: "A crazy quilt",
-     }),
-      shuffleOptions({
-        question:
-          "What did Santa Claus ask Jimmy Scarecrow to do at the North Pole?",
-        optionA: "Scare away crows",
-        optionB: "Scare away Arctic Explorers",
-        optionC: "Scare away polar bears",
-        correctAnswer: "Scare away Arctic Explorers",
-     }),
-      shuffleOptions({
-        question:
-          "How long did Santa Claus offer to keep Jimmy Scarecrow at the North Pole?",
-        optionA: "One day",
-        optionB: "One week",
-        optionC: "A thousand years",
-        correctAnswer: "A thousand years",
-     }),
-      shuffleOptions({
-        question:
-          "What happened to the crazy quilt given to Aunt Hannah and Betsey?",
-        optionA: "It was lost",
-        optionB: "It was stolen",
-        optionC: "It was remodeled and matched perfectly",
-        correctAnswer: "It was remodeled and matched perfectly",
-     }),
-      shuffleOptions({
-        question:
-          "Why did crows stop coming to the cornfield the following summer?",
-        optionA: "Because Jimmy Scarecrow scared them away",
-        optionB: "Because Santa Claus left a notice to crows",
-        optionC: "Because the cornfield was empty",
-        correctAnswer: "Because Santa Claus left a notice to crows",
-     }),
-      shuffleOptions({
-        question: "What did Santa Claus write on the notice to crows?",
-        optionA: "A message to eat more corn",
-        optionB: "A warning to stay away",
-        optionC: "A love letter to the crows",
-        correctAnswer: "A warning to stay away",
-     }),
-      shuffleOptions({
-        question:
-          "What change did Betsey notice in her doll-baby when she received it again the following Christmas?",
-        optionA: "It had become smaller",
-        optionB: "It had learned to talk",
-        optionC: "It had grown an inch and could walk and talk",
-        correctAnswer: "It had grown an inch and could walk and talk",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question: "What was Jimmy Scarecrow's greatest grief in the winter?",
+          optionA: "Lack of friends",
+          optionB: "Lack of presents",
+          optionC: "Lack of occupation",
+          correctAnswer: "C) Lack of occupation",
+        },
+        {
+          question:
+            "What did Jimmy Scarecrow ask Santa Claus for on Christmas Eve?",
+          optionA: "A new coat",
+          optionB: "A crazy quilt",
+          optionC: "A little present",
+          correctAnswer: "C) A little present",
+        },
+        {
+          question:
+            "What did Betsey give Jimmy Scarecrow as a Christmas present?",
+          optionA: "A pair of mittens",
+          optionB: "A doll-baby",
+          optionC: "A crazy quilt",
+          correctAnswer: "B) A doll-baby",
+        },
+        {
+          question:
+            "Why did Betsey bring Aunt Hannah's crazy quilt to Jimmy Scarecrow?",
+          optionA: "To keep him warm",
+          optionB: "To use as a sled",
+          optionC: "As a Christmas prank",
+          correctAnswer: "A) To keep him warm",
+        },
+        {
+          question:
+            "What did Santa Claus suggest Jimmy Scarecrow do at the North Pole?",
+          optionA: "Scare away crows",
+          optionB: "Scare away Arctic Explorers",
+          optionC: "Help make toys",
+          correctAnswer: "B) Scare away Arctic Explorers",
+        },
+        {
+          question:
+            "How did Santa Claus ensure the safety of the cornfield next summer?",
+          optionA: "Installed a scarecrow",
+          optionB: "Wrote a notice to crows",
+          optionC: "Used a magic spell",
+          correctAnswer: "B) Wrote a notice to crows",
+        },
+        {
+          question:
+            "What happened to the crazy quilt and the doll-baby when it started raining?",
+          optionA: "They disappeared",
+          optionB: "They turned into ice",
+          optionC: "They got soaked through",
+          correctAnswer: "C) They got soaked through",
+        },
+        {
+          question:
+            "Why did Aunt Hannah and Betsey think the quilt and doll were spoiled?",
+          optionA: "They were too small",
+          optionB: "They were not crazy enough",
+          optionC: "They got wet in the rain",
+          correctAnswer: "C) They got wet in the rain",
+        },
+        {
+          question:
+            "What did Aunt Hannah receive as a Christmas present the following year?",
+          optionA: "A new crazy quilt",
+          optionB: "A pair of spectacles",
+          optionC: "Her old crazy quilt, remodelled",
+          correctAnswer: "C) Her old crazy quilt, remodelled",
+        },
+        {
+          question:
+            "How did Jimmy Scarecrow ensure the safety of the cornfield in the absence of a scarecrow?",
+          optionA: "Wrote a letter to crows",
+          optionB: "Planted more corn",
+          optionC: "Cast a protective spell",
+          correctAnswer: "A) Wrote a letter to crows",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blank with correct option:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question: "Jimmy Scarecrow led a ______________ life in the winter.",
-        options: ["happy", "sad", "busy"],
-        correctAnswer: "sad",
-     }),
-      shuffleOptions({
-        question: "Jimmy's greatest grief was his lack of ______________.",
-        options: ["food", "occupation", "friends"],
-        correctAnswer: "occupation",
-     }),
-      shuffleOptions({
-        question:
-          "Every morning, when the wintry sun peered like a hard yellow eye across the dry ______________, Jimmy felt sad.",
-        options: ["meadow", "forest", "corn-stubble"],
-        correctAnswer: "corn-stubble",
-     }),
-      shuffleOptions({
-        question:
-          "On Christmas Eve, Santa Claus came in his sledge heaped high with presents, urging his team of reindeer across the field. He was on his way to the farmhouse where Betsey lived with her Aunt ______________.",
-        options: ["Emily", "Susan", "Mary"],
-        correctAnswer: "Susan",
-     }),
-      shuffleOptions({
-        question:
-          "Betsey was a very good little girl with very smooth yellow curls, and she had a great many ______________.",
-        options: ["toys", "presents", "friends"],
-        correctAnswer: "presents",
-     }),
-      shuffleOptions({
-        question:
-          'Santa Claus! Here I am!" he cried out, but Santa Claus did not ______________ him.',
-        options: ["see", "hear", "recognize"],
-        correctAnswer: "hear",
-     }),
-      shuffleOptions({
-        question:
-          '"Santa Claus, please give me a little ______________. I was good all summer and kept the crows out of the corn," pleaded the poor Scarecrow in his choking voice, but Santa Claus passed by with a merry halloo and a great clamor of ______________.',
-        options: ["present, bells", "candy, laughter", "toy, music"],
-        correctAnswer: "present, bells",
-     }),
-      shuffleOptions({
-        question:
-          "The next morning Betsey sat at the window holding her Christmas doll-baby, and she looked out at Jimmy Scarecrow standing alone in the field amidst the ______________.",
-        options: ["flowers", "snow", "corn-stubble"],
-        correctAnswer: "corn-stubble",
-     }),
-      shuffleOptions({
-        question:
-          '"I\'ve brought you a Christmas ______________," said she to Jimmy Scarecrow.',
-        options: ["card", "present", "tree"],
-        correctAnswer: "present",
-     }),
-      shuffleOptions({
-        question:
-          "The bright flash of colors under Jimmy's hat-brim dazzled his eyes, and he felt a little ______________.",
-        options: ["happy", "surprised", "alarmed"],
-        correctAnswer: "alarmed",
-      }),
-    ]),
-  }
+    activity: "Fill in the blanks:",
+    questions: [
+      [
+        {
+          question:
+            "Jimmy Scarecrow's greatest grief in the winter was his lack of ____________.",
+          optionA: "Friends",
+          optionB: "Presents",
+          optionC: "Occupation",
+          correctAnswer: "C) Occupation",
+        },
+        {
+          question:
+            "On Christmas Eve, Santa Claus came in his sledge heaped high with presents, urging his team of reindeer across the field. Santa was on his way to the farmhouse where Betsey lived with her Aunt __________.",
+          optionA: "Mary",
+          optionB: "Susan",
+          optionC: "Hannah",
+          correctAnswer: "C) Hannah",
+        },
+        {
+          question:
+            "Betsey's Christmas doll-baby was tucked up against the fur collar of Santa Claus's ____________.",
+          optionA: "Jacket",
+          optionB: "Coat",
+          optionC: "Vest",
+          correctAnswer: "B) Coat",
+        },
+        {
+          question:
+            "The next morning, Betsey looked out at Jimmy Scarecrow standing alone in the field amidst the ____________.",
+          optionA: "Flowers",
+          optionB: "Snowdrifts",
+          optionC: "Corn-stubble",
+          correctAnswer: "C) Corn-stubble",
+        },
+        {
+          question:
+            "Betsey brought Jimmy Scarecrow a Christmas present, a ____________.",
+          optionA: "Pair of mittens",
+          optionB: "Doll-baby",
+          optionC: "Crazy quilt",
+          correctAnswer: "B) Doll-baby",
+        },
+        {
+          question:
+            "Jimmy Scarecrow felt happy with the doll-baby under his coat until the snow began to turn to ____________.",
+          optionA: "Ice",
+          optionB: "Rain",
+          optionC: "Hail",
+          correctAnswer: "B) Rain",
+        },
+        {
+          question:
+            "To keep the doll-baby from getting wet, Betsey suggested that Jimmy Scarecrow should keep her under his ____________.",
+          optionA: "Hat",
+          optionB: "Overcoat",
+          optionC: "Scarf",
+          correctAnswer: "B) Overcoat",
+        },
+        {
+          question:
+            "Aunt Hannah spread her crazy quilt over the sofa with an air of ____________ after working on it until the middle of the afternoon.",
+          optionA: "Pride",
+          optionB: "Regret",
+          optionC: "Frustration",
+          correctAnswer: "A) Pride",
+        },
+        {
+          question:
+            "Aunt Hannah set out through the snow to carry a slice of plum-pudding to her sister ____________, who lived down the road.",
+          optionA: "Mary",
+          optionB: "Susan",
+          optionC: "Betsey",
+          correctAnswer: "B) Susan",
+        },
+        {
+          question:
+            "When Christmas came round again, Aunt Hannah and Betsey found their presents in the sitting-room: Aunt Hannah's old crazy quilt, remodelled, and Betsey's doll-baby, a year ____________.",
+          optionA: "Older",
+          optionB: "Younger",
+          optionC: "Smaller",
+          correctAnswer: "A) Older",
+        },
+      ],
+    ],
+  };
 }
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
-    questions: shuffleQues([
-      shuffleOptions({
-        question:
-          "Mountains look beautiful and mysterious, especially when covered with snow.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "The Himalayas are the highest mountain range in the world.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Bachendri Pal's first climb started on 8 May, 1984.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Bachendri Pal and her team encountered an avalanche at Camp III.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Bachendri Pal and her teammate Ang Dorjee reached the Summit Camp in less than two hours.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The temperature at the South Col camp on 23 May, 1984, was about 10 degrees.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Bachendri Pal and her team used backpacks to prevent skidding on the steep frozen slopes.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Bachendri Pal was the first woman in the world to reach the summit of Mount Everest.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Bachendri Pal buried an image of Lord Buddha at the summit of Mount Everest.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Bachendri Pal's ascent to the summit of Mount Everest took less than an hour.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-      }),
-    ]),
-  }
+    questions: [
+      [
+        {
+          question:
+            "Jimmy Scarecrow's greatest grief in the winter was his lack of occupation.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "On Christmas Eve, Santa Claus came in his sledge heaped high with toys for the children in the farmhouse.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Betsey gave Jimmy Scarecrow a pair of mittens as a Christmas present.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "To keep the doll-baby dry, Betsey suggested that Jimmy Scarecrow should keep her under his hat.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Aunt Hannah spread her crazy quilt over the sofa with an air of regret.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Aunt Hannah went out through the snow to carry a slice of plum-pudding to her sister Mary.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Betsey's doll-baby grew an inch and could walk and talk after a year.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Santa Claus suggested that Jimmy Scarecrow should scare away crows at the North Pole.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        },
+        {
+          question:
+            "Santa Claus wrote a notice to crows to keep the cornfield safe next summer.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+        {
+          question:
+            "Aunt Hannah and Betsey thought their presents were spoiled because they got wet in the rain.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        },
+      ],
+    ],
+  };
 }
 
 export var activityData;

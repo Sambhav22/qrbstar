@@ -1,134 +1,83 @@
-export const chapter = "Chapter - 5: Visit to a Fair ";
-export const noOfActivities = 3
-
-const shuffleQues = (ques) => {
-  let arr = ques.slice()
-  for (let i = arr.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1))
-    ;[arr[i], arr[j]] = [arr[j], arr[i]]
-  }
-  return arr
-}
-
-const shuffleOptions = (object) => {
-  const { optionA, optionB, optionC } = object
-  const optionsArray = [optionA, optionB, optionC]
-
-  for (let i = optionsArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]]
-  }
-
-  object.optionA = optionsArray[0]
-  object.optionB = optionsArray[1]
-  object.optionC = optionsArray[2]
-
-  return object
-}
-
+export const chapter = "Chapter -5: Visit to a fair";
+export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      {
-        questions: [
-          {
-            question: "What is Munia going to see in Punjab?",
-            options: ["a) Art exhibition", "b) Baisakhi fair", "c) Auto Expo"],
-            answer: "b) Baisakhi fair",
-          },
-          {
-            question:
-              "What recreational activities do people engage in during their free time, according to the passage?",
-            options: [
-              "a) Cooking and gardening",
-              "b) Sports, games, and music",
-              "c) Business and finance",
-            ],
-            answer: "b) Sports, games, and music",
-          },
-          {
-            question:
-              "What did people prefer to do in their leisure time in olden times?",
-            options: [
-              "a) Visit supermarkets",
-              "b) Visit fairs",
-              "c) Watch movies",
-            ],
-            answer: "b) Visit fairs",
-          },
-          {
-            question:
-              "What is the main focus of Traditional Fairs in villages or rural areas?",
-            options: [
-              "a) Promoting modern technology",
-              "b) Selling traditional handicraft items",
-              "c) Hosting wrestling matches",
-            ],
-            answer: "b) Selling traditional handicraft items",
-          },
-          {
-            question: "How have modern fairs changed over time?",
-            options: [
-              "a) They have become more traditional",
-              "b) They have become less popular",
-              "c) They have become multifunctional and objective-based",
-            ],
-            answer: "c) They have become multifunctional and objective-based",
-          },
-          {
-            question:
-              "What is the purpose of a book fair, according to the passage?",
-            options: [
-              "a) To promote traditional handicrafts",
-              "b) To promote books of different publishers",
-              "c) To promote food and fun rides",
-            ],
-            answer: "b) To promote books of different publishers",
-          },
-          {
-            question: "What is an Amusement Park created for in big cities?",
-            options: [
-              "a) Selling handicraft items",
-              "b) Promoting agriculture",
-              "c) Serving as a permanent source of recreation",
-            ],
-            answer: "c) Serving as a permanent source of recreation",
-          },
-          {
-            question:
-              "What has replaced the craze of fairs, according to the passage?",
-            options: [
-              "a) Traditional handicrafts",
-              "b) Theme parks and amusement parks",
-              "c) Auto Expo",
-            ],
-            answer: "b) Theme parks and amusement parks",
-          },
-          {
-            question:
-              "What do people enjoy in theme parks and amusement parks under one roof?",
-            options: [
-              "a) Traditional fairs",
-              "b) Food, fun rides, supermarkets, and parks",
-              "c) Book fairs",
-            ],
-            answer: "b) Food, fun rides, supermarkets, and parks",
-          },
-          {
-            question:
-              "How do exhibitors and visitors benefit from modern fairs?",
-            options: [
-              "a) They learn traditional crafts",
-              "b) They meet innovative ideas and get educated by market trends",
-              "c) They enjoy food and fun rides",
-            ],
-            answer:
-              "b) They meet innovative ideas and get educated by market trends",
-          },
-        ],
-      },
+      [
+        {
+            "question": "What are examples of recreational activities mentioned in the text?",
+            "optionA": "Sports and games",
+            "optionB": "Music and travel",
+            "optionC": "Dance and art",
+            "correctAnswer": "Music and travel"
+        },
+        {
+            "question": "In olden times, what did people generally prefer to do in their leisure time?",
+            "optionA": "Visit theme parks",
+            "optionB": "Participate in sports",
+            "optionC": "Attend fairs",
+            "correctAnswer": "Attend fairs"
+        },
+        {
+            "question": "What types of fairs are organized in villages or rural areas on festivals or special occasions?",
+            "optionA": "Modern fairs",
+            "optionB": "Amusement fairs",
+            "optionC": "Traditional fairs",
+            "correctAnswer": "Traditional fairs"
+        },
+        {
+            "question": "What is the objective of modern fairs like the Auto Expo mentioned in the text?",
+            "optionA": "To promote books of different publishers",
+            "optionB": "To showcase upcoming car and bike models",
+            "optionC": "To sell traditional handicraft items",
+            "correctAnswer": "To showcase upcoming car and bike models"
+        },
+        {
+            "question": "What do exhibitors and visitors do in modern fairs?",
+            "optionA": "Only meet with innovative ideas",
+            "optionB": "Fulfill their needs under one roof",
+            "optionC": "Only get educated by market trends",
+            "correctAnswer": "Fulfill their needs under one roof"
+        },
+        {
+            "question": "Which of the following is not mentioned as a big fair held in India?",
+            "optionA": "Kumbh Mela",
+            "optionB": "Kolkata Book Fair",
+            "optionC": "Disneyland Fair",
+            "correctAnswer": "Disneyland Fair"
+        },
+        {
+            "question": "What modern recreational places have taken the craze of fairs?",
+            "optionA": "Theme parks and amusement parks",
+            "optionB": "Supermarkets and malls",
+            "optionC": "Beaches and resorts",
+            "correctAnswer": "Theme parks and amusement parks"
+        },
+        {
+            "question": "What can people enjoy in theme parks and amusement parks?",
+            "optionA": "Food, fun rides, and parks",
+            "optionB": "Only food",
+            "optionC": "Only fun rides",
+            "correctAnswer": "Food, fun rides, and parks"
+        },
+        {
+            "question": "What type of fairs promotes the Indian handicraft industry by selling traditional handicraft items?",
+            "optionA": "Modern fairs",
+            "optionB": "Auto Expo",
+            "optionC": "Traditional fairs",
+            "correctAnswer": "Traditional fairs"
+        },
+        {
+            "question": "What has replaced the craze of fairs in big cities as a source of recreation?",
+            "optionA": "Traditional fairs",
+            "optionB": "Amusement parks and theme parks",
+            "optionC": "Book fairs",
+            "correctAnswer": "Amusement parks and theme parks"
+        }
+    ]
+    
     ],
   };
 }
@@ -137,78 +86,79 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      {
-        fill_in_the_blank_questions: [
-          {
-            question:
-              "Munia is going to see the famous __________ fair in Punjab.",
-            options: ["a) Diwali", "b) Baisakhi", "c) Holi"],
-            answer: "b) Baisakhi",
-          },
-          {
-            question:
-              "Recreational activities include sports, games, music, flying kites, travel, dance, art, craft, etc., which people engage in during their __________ time.",
-            options: ["a) Working", "b) Leisure", "c) School"],
-            answer: "b) Leisure",
-          },
-          {
-            question:
-              "In olden times, people generally preferred to visit a __________ in their leisure time.",
-            options: ["a) Movie theater", "b) Supermarket", "c) Fair"],
-            answer: "c) Fair",
-          },
-          {
-            question:
-              "Traditional fairs in villages promote the Indian __________ industry by selling traditional handicraft items.",
-            options: ["a) Technology", "b) Handicraft", "c) Automobile"],
-            answer: "b) Handicraft",
-          },
-          {
-            question:
-              "Modern fairs are multifunctional and objective-based, such as promoting upcoming models of cars and bikes in the __________.",
-            options: ["a) Auto Expo", "b) Book Fair", "c) Food Festival"],
-            answer: "a) Auto Expo",
-          },
-          {
-            question:
-              "Theme parks and amusement parks have replaced the craze of __________.",
-            options: [
-              "a) Traditional fairs",
-              "b) Movie theaters",
-              "c) Art exhibitions",
-            ],
-            answer: "a) Traditional fairs",
-          },
-          {
-            question:
-              "__________ are created in big cities permanently as a source of recreation, offering food, fun rides, supermarkets, and parks under one roof.",
-            options: [
-              "a) Traditional fairs",
-              "b) Supermarkets",
-              "c) Amusement parks",
-            ],
-            answer: "c) Amusement parks",
-          },
-          {
-            question:
-              "Traditional fairs in villages are organized on festivals or special occasions and serve as places where traditional __________ items are sold.",
-            options: ["a) Clothing", "b) Handicraft", "c) Technology"],
-            answer: "b) Handicraft",
-          },
-          {
-            question:
-              "In modern times, fairs have become __________ and objective-based, serving as a platform for exhibitors and visitors to meet innovative ideas and market trends.",
-            options: ["a) Traditional", "b) Multifunctional", "c) Exclusive"],
-            answer: "b) Multifunctional",
-          },
-          {
-            question:
-              "Recreational activities, including sports and games, help people pass their __________ time.",
-            options: ["a) Working", "b) Leisure", "c) School"],
-            answer: "b) Leisure",
-          },
-        ],
-      },
+      [
+        {
+            "question": "Recreational activities are done by people in their free time. They include sports, games, music, flying kites, travel, dance, __________, etc.",
+            "optionA": "painting",
+            "optionB": "cooking",
+            "optionC": "gardening",
+            "correctAnswer": "gardening"
+        },
+        {
+            "question": "In olden times, people had very less recreational equipment and they generally preferred to visit a __________ in their leisure time.",
+            "optionA": "museum",
+            "optionB": "zoo",
+            "optionC": "fair",
+            "correctAnswer": "fair"
+        },
+        {
+            "question": "There are two types of fairs in India: Traditional Fairs and __________.",
+            "optionA": "Cultural Fairs",
+            "optionB": "Modern Fairs",
+            "optionC": "International Fairs",
+            "correctAnswer": "Modern Fairs"
+        },
+        {
+            "question": "Modern fairs are multifunctional and objective-based, like to promote a book of an author. You can go to a book fair where you only get __________ of different publishers.",
+            "optionA": "clothes",
+            "optionB": "books",
+            "optionC": "toys",
+            "correctAnswer": "books"
+        },
+        {
+            "question": "In modern fairs, exhibitors and visitors both meet together to fulfill their needs under one roof, thereby meeting with innovative ideas and get educated by the market trends and latest __________.",
+            "optionA": "technologies",
+            "optionB": "information",
+            "optionC": "products",
+            "correctAnswer": "information"
+        },
+        {
+            "question": "A number of big fairs are held in India like Kumbh Mela, Kolkata Book Fair, Sonepur Cattle Fair, __________, etc.",
+            "optionA": "Jaipur Literature Festival",
+            "optionB": "Delhi Auto Expo",
+            "optionC": "Mumbai Film Festival",
+            "correctAnswer": "Pushkar Fair"
+        },
+        {
+            "question": "With the passage of time, the means of recreation are changing rapidly. Now, the theme parks and amusement parks have totally snatched the craze of __________.",
+            "optionA": "zoos",
+            "optionB": "malls",
+            "optionC": "fairs",
+            "correctAnswer": "fairs"
+        },
+        {
+            "question": "These are created for people in big cities permanently as a source of recreation. Here people enjoy food, fun rides, supermarkets, and parks under one __________.",
+            "optionA": "roof",
+            "optionB": "sky",
+            "optionC": "ground",
+            "correctAnswer": "roof"
+        },
+        {
+            "question": "In olden days, people used to build simple houses and buildings but they were large in size. The common building materials used were bricks, mud, and __________.",
+            "optionA": "concrete",
+            "optionB": "steel",
+            "optionC": "wood",
+            "correctAnswer": "wood"
+        },
+        {
+            "question": "The houses in present times are made with different architecture and with newer building materials like cement, concrete, glass, bricks, __________, and iron.",
+            "optionA": "plastic",
+            "optionB": "aluminum",
+            "optionC": "copper",
+            "correctAnswer": "steel"
+        }
+    ]
+    
     ],
   };
 }
@@ -217,69 +167,69 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      {
-        true_false_questions: [
-          {
-            question:
-              "Munia is going to see the famous Baisakhi fair in Punjab.",
-            options: ["a) True", "b) False"],
-            answer: "a) True",
-          },
-          {
-            question: "Recreational activities include cooking and gardening.",
-            options: ["a) True", "b) False"],
-            answer: "b) False",
-          },
-          {
-            question:
-              "In olden times, people generally preferred to visit supermarkets in their leisure time.",
-            options: ["a) True", "b) False"],
-            answer: "b) False",
-          },
-          {
-            question:
-              "Traditional fairs in villages promote the Indian technology industry.",
-            options: ["a) True", "b) False"],
-            answer: "b) False",
-          },
-          {
-            question:
-              "Modern fairs are multifunctional and objective-based, such as promoting upcoming models of cars and bikes in the Auto Expo.",
-            options: ["a) True", "b) False"],
-            answer: "a) True",
-          },
-          {
-            question:
-              "Theme parks and amusement parks have replaced the craze of art exhibitions.",
-            options: ["a) True", "b) False"],
-            answer: "a) True",
-          },
-          {
-            question:
-              "Amusement parks are created in big cities permanently as a source of recreation.",
-            options: ["a) True", "b) False"],
-            answer: "a) True",
-          },
-          {
-            question:
-              "Traditional fairs in villages are organized on festivals or special occasions and serve as places where traditional clothing items are sold.",
-            options: ["a) True", "b) False"],
-            answer: "b) False",
-          },
-          {
-            question:
-              "In modern times, fairs have become traditional and objective-based.",
-            options: ["a) True", "b) False"],
-            answer: "b) False",
-          },
-          {
-            question:
-              "Recreational activities, including sports and games, help people pass their working time.",
-            options: ["a) True", "b) False"],
-            answer: "b) False",
-          },
-        ],
-      },
+      [
+        {
+            "question": "Recreational activities include only physical activities like sports and games.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "Modern fairs are objective-based and multifunctional, serving various purposes beyond traditional fair activities.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "True"
+        },
+        {
+            "question": "Traditional fairs in India are primarily focused on promoting modern technology and innovations.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "People visit book fairs to purchase books from different publishers and explore new literary works.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "True"
+        },
+        {
+            "question": "Modern fairs provide a platform for exhibitors and visitors to exchange ideas and stay updated on market trends.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "True"
+        },
+        {
+            "question": "Kumbh Mela is an example of a traditional fair held in India.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "True"
+        },
+        {
+            "question": "Theme parks and amusement parks have gained more popularity than fairs in modern times.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "True"
+        },
+        {
+            "question": "Theme parks are only established in rural areas to provide recreation to villagers.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        },
+        {
+            "question": "In olden times, houses were built using materials like bricks, mud, and wood.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "True"
+        },
+        {
+            "question": "Modern houses are typically constructed using outdated materials like limestone and stone chips.",
+            "optionA": "True",
+            "optionB": "False",
+            "correctAnswer": "False"
+        }
+    ]
+    
     ],
   };
 }
