@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           "question": "What is an earthquake?",
           "optionA": "A sudden shaking of the ground caused by seismic waves",
@@ -76,9 +75,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           "optionC": "Start exercising the fractured area immediately",
           "correctAnswer": "Avoid moving the fractured area and support the broken bone with a splint"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 
@@ -86,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           "question": "Earthquake is defined as sudden shaking of the ground caused by the passage of ________ waves through earth's rocks.",
           "optionA": "Seismic",
@@ -157,9 +153,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           "optionC": "Doctor",
           "correctAnswer": "Doctor"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 
@@ -167,7 +161,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           "question": "Manual work involves physical effort such as toil a land, carry a load with our hands.",
           "optionA": "True",
@@ -228,9 +221,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           "optionB": "False",
           "correctAnswer": "False"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 

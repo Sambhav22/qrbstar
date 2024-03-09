@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is communication?",
           optionA: "Transfer of goods and services",
@@ -83,7 +82,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Mass communication",
         },
       ],
-    ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Communication is the ____________ of messages, ideas, and thoughts from one person to another.",
@@ -173,7 +170,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Shelter",
         },
       ],
-    ],
   };
 }
 
@@ -181,7 +177,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Communication through Post is the most expensive way to communicate.",
@@ -253,7 +248,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

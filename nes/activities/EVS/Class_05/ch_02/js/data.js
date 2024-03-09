@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
             "question": "What are examples of pucca houses?",
             "optionA": "Thatched cottages and farm houses",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
             "question": "Beautiful bungalow with modern architectural design is made up of ________, cement, steel, marbles, tiles etc.",
             "optionA": "Limestone",
@@ -167,7 +165,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
             question: "A family is a group of people who live together and are related to each other.",
             optionA: "True",

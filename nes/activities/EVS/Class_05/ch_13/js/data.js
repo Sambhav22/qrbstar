@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           "question": "What are houses for humans primarily designed to protect against?",
           "optionA": "A) Harsh weather",
@@ -76,9 +75,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           "optionC": "C) Aquatic animals",
           "correctAnswer": "B) Aerial animals"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 
@@ -86,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           "question": "In hilly and cold regions, houses are primarily made up of _______.",
           "optionA": "A) Bamboo",
@@ -157,9 +153,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           "optionC": "C) Migration",
           "correctAnswer": "C) Migration"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 
@@ -167,7 +161,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           "question": "Ants live in colonies and build anthills to establish their homes.",
           "optionA": "True",
@@ -228,9 +221,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           "optionB": "False",
           "correctAnswer": "False"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 

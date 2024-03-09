@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
             "question": "Which type of games are played as competitions?",
             "optionA": "Individual",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
             "question": "Kho-kho, a popular game, is typically played by _______ players in each team.",
             "optionA": "9",
@@ -167,7 +165,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
             "question": "Kho-kho is primarily played in Maharashtra.",
             "optionA": "True",

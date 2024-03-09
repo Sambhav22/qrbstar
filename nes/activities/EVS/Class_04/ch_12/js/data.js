@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
             "question": "What is the function of incisors?",
             "optionA": "Piercing and tearing the food",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
             "question": "The place where animals live is called their ________.",
             "optionA": "Shelter",
@@ -167,7 +165,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
             "question": "Animals that live predominantly on land are called aquatic animals.",
             "optionA": "True",

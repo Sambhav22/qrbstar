@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           "question": "Why do people have different likes and dislikes?",
           "optionA": "Due to different perceptions, likes, and dislikes.",
@@ -76,9 +75,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           "optionC": "Thomas Edison",
           "correctAnswer": "Louis Braille"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 
@@ -86,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           "question": "Family plays a key role in determining our likes and dislikes. If we belong to a traditional family that follows ethics, our upbringing will be the same, we will have likes as per our family and will avoid the group of friends who have __________ behaviour.",
           "optionA": "Unethical",
@@ -157,9 +153,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           "optionC": "Heart",
           "correctAnswer": "Brain"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 
@@ -167,7 +161,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           "question": "Family upbringing has no influence on an individual's likes and dislikes.",
           "optionA": "True",
@@ -228,9 +221,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           "optionB": "False",
           "correctAnswer": "True"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 

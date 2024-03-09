@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question:
             "What is the process of sending and receiving information called?",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Radio, newspaper, and magazine",
         },
       ],
-    ],
   };
 }
 
@@ -94,7 +92,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "The process of sending and receiving information is known as ____________.",
@@ -175,7 +172,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Television and radio",
         },
       ],
-    ],
   };
 }
 
@@ -183,7 +179,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "The process of sending and receiving information is known as communication.",
@@ -254,7 +249,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

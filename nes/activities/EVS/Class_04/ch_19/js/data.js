@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           "question": "Which disease is not considered a pandemic because it is not contagious?",
           "optionA": "Cancer",
@@ -76,9 +75,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           "optionC": "Close contact",
           "correctAnswer": "Social distancing"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 
@@ -86,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           "question": "The outbreak of an unusually deadly influenza pandemic in 1918 killed about ______ people in India.",
           "optionA": "1 crore",
@@ -157,9 +153,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           "optionC": "Inactive",
           "correctAnswer": "Proactive"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 
@@ -167,7 +161,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           "question": "Cancer is considered a pandemic because it is infectious.",
           "optionA": "True",
@@ -228,9 +221,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           "optionB": "False",
           "correctAnswer": "True"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is another name for a Nuclear Family?",
           optionA: "Extended Family",
@@ -82,7 +81,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Festivals",
         },
       ],
-    ],
   };
 }
 
@@ -90,7 +88,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "A family is considered the __________ support system for an individual.",
@@ -171,7 +168,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Similar looks",
         },
       ],
-    ],
   };
 }
 
@@ -179,7 +175,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "The Nuclear Family is also known as the Extended Family.",
           optionA: "True",
@@ -246,7 +241,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

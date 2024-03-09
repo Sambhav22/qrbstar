@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           "question": "What is a pandemic?",
           "optionA": "A disease that spreads slowly within a country",
@@ -76,9 +75,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           "optionC": "Meticulous preparation and response",
           "correctAnswer": "Meticulous preparation and response"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 
@@ -86,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           "question": "What is a pandemic?",
           "optionA": "A disease that spreads slowly within a country",
@@ -156,9 +152,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           "optionC": "Non-existent",
           "correctAnswer": "Meticulous"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 
@@ -166,7 +160,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           "question": "A pandemic spreads slowly within a country.",
           "optionA": "True",
@@ -227,9 +220,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           "optionB": "False",
           "correctAnswer": "False"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 

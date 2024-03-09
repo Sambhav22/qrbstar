@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
             "question": "What is the definition of a family?",
             "optionA": "A group of unrelated people living together",
@@ -85,7 +84,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
             "question": "A family is a group of people who live together and are __________ to each other.",
             "optionA": "related",
@@ -166,7 +164,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
             "question": "A family is a group of people who live together and are related to each other.",
             "optionA": "True",

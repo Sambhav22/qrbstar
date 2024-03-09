@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           "question": "What is emphasized as essential for mastering skills?",
           "optionA": "Natural talent",
@@ -76,9 +75,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           "optionC": "To sell craft items",
           "correctAnswer": "To impart knowledge and promote talents"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 
@@ -86,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           "question": "The profession of a chef involves ___________.",
           "optionA": "cooking and special training",
@@ -147,9 +143,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           "optionB": "Pilot",
           "correctAnswer": "Pilot"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 
@@ -157,7 +151,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           "question": "Skills are inherent and cannot be learned.",
           "optionA": "True",

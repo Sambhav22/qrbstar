@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           "question": "What is the primary purpose of fossil fuels?",
           "optionA": "To generate electricity",
@@ -76,9 +75,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           "optionC": "Turn off car engines at red lights",
           "correctAnswer": "Turn off car engines at red lights"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 
@@ -86,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
             "question": "Petroleum is also known as _______.",
             "optionA": "Liquid Gold",
@@ -167,7 +163,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           "question": "Petroleum is known as black gold and is primarily used to run cars and two-wheelers.",
           "optionA": "True",
@@ -228,9 +223,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           "optionB": "False",
           "correctAnswer": "True"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
             "question": "What are big and tall plants called?",
             "optionA": "Shrubs",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
             "question": "Plants with thin and woody stems are called __________.",
             "optionA": "Trees",
@@ -167,7 +165,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
             "question": "Plants with thin and woody stems are called __________.",
             "optionA": "Trees",

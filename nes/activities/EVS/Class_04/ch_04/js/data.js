@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
             "question": "Which of the following is not a sense organ?",
             "optionA": "Liver",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the Blanks:",
     questions: [
-      [
         {
             "question": "All animals and human beings have _________ organs.",
             "optionA": "smell",
@@ -167,7 +165,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
             "question": "Animals and human beings do not possess sense organs.",
             "optionA": "True",

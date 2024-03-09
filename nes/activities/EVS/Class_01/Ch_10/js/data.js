@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What is Diwali primarily known as?",
           optionA: "Festival of Colors",
@@ -80,7 +79,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Republic Day",
         },
       ],
-    ],
   };
 }
 
@@ -88,7 +86,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Festivals are the days of great celebration. People celebrate different festivals round the year. Some of them are Diwali (festival of _______________).",
@@ -164,7 +161,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "15th August",
         },
       ],
-    ],
   };
 }
 
@@ -172,7 +168,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Festivals are occasions of mourning.",
           optionA: "True",
@@ -235,7 +230,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "False",
         },
       ],
-    ],
   };
 }
 

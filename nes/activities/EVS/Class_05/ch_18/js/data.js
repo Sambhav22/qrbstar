@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           "question": "What are the two main types of work mentioned in the text?",
           "optionA": "Manual and Intellectual",
@@ -76,9 +75,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           "optionC": "Rejection",
           "correctAnswer": "Appreciation"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 
@@ -86,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           "question": "Manual work involves physical effort such as toil a land, carry a load with our __________.",
           "optionA": "Feet",
@@ -157,9 +153,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           "optionC": "Recognition",
           "correctAnswer": "Appreciation"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 
@@ -167,7 +161,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           "question": "Manual work only involves physical effort.",
           "optionA": "True",
@@ -228,9 +221,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           "optionB": "False",
           "correctAnswer": "False"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           "question": "What tool is used to dig the ground and place mortar in a head pan?",
           "optionA": "Measuring Tape",
@@ -66,9 +65,7 @@ if (localStorage.getItem("activityNumber") == 1) {
           "optionB": "Architect",
           "correctAnswer": "Civil engineer"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 
@@ -76,7 +73,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           "question": "A ________ is used to dig the ground and place mortar in a head pan.",
           "optionA": "Plumb Bob",
@@ -147,9 +143,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           "optionC": "speed and efficiency",
           "correctAnswer": "safety and durability"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 
@@ -157,7 +151,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           "question": "Bridges are constructed to connect two parts of the land.",
           "optionA": "True",
@@ -218,9 +211,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           "optionB": "False",
           "correctAnswer": "True"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 

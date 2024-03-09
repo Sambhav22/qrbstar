@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What type of clothes do we typically wear in summer?",
           optionA: "Woolen clothes",
@@ -83,7 +82,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Rainy season",
         },
       ],
-    ],
   };
 }
 
@@ -91,7 +89,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question: "Clothes protect our body and give us a ________ look.",
           optionA: "Casual",
@@ -166,7 +163,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Elegant",
         },
       ],
-    ],
   };
 }
 
@@ -174,7 +170,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question: "Clothes protect our body and give us a smart look.",
           optionA: "True",
@@ -240,7 +235,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 

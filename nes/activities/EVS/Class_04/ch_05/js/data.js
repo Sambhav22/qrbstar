@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
             "question": "What are examples of recreational activities mentioned in the text?",
             "optionA": "Sports and games",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
             "question": "Recreational activities are done by people in their free time. They include sports, games, music, flying kites, travel, dance, __________, etc.",
             "optionA": "painting",
@@ -167,7 +165,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
             "question": "Recreational activities include only physical activities like sports and games.",
             "optionA": "True",

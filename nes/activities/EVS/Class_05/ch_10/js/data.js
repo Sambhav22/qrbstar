@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
             "question": "What are plants that fix themselves at one place to the bottom of the water body called?",
             "optionA": "Floating plants",
@@ -86,7 +85,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           "question": "Aquatic plants that float on the surface of water are called __________ plants.",
           "optionA": "Fixed",
@@ -157,9 +155,7 @@ if (localStorage.getItem("activityNumber") == 2) {
           "optionC": "Underwater",
           "correctAnswer": "On land"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 
@@ -167,7 +163,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           "question": "Aquatic plants that float on the surface of water are called floating plants.",
           "optionA": "True",
@@ -228,9 +223,7 @@ if (localStorage.getItem("activityNumber") == 3) {
           "optionB": "False",
           "correctAnswer": "True"
         }
-      ]
-      
-    ],
+      ],
   };
 }
 

@@ -5,7 +5,6 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-      [
         {
           question: "What are the two main types of feathers found on birds?",
           optionA: "Soft and Hard",
@@ -84,7 +83,6 @@ if (localStorage.getItem("activityNumber") == 1) {
           correctAnswer: "Migration",
         },
       ],
-    ],
   };
 }
 
@@ -92,7 +90,6 @@ if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blanks:",
     questions: [
-      [
         {
           question:
             "Birds have two main types of feathers - down feathers keep the body warm, and __________ feathers are present on the wings and tails for flying.",
@@ -174,7 +171,6 @@ if (localStorage.getItem("activityNumber") == 2) {
           correctAnswer: "Hooked",
         },
       ],
-    ],
   };
 }
 
@@ -182,7 +178,6 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-      [
         {
           question:
             "Feathers on a bird's body are categorized into two types: down feathers for warmth and flight feathers for flying.",
@@ -254,7 +249,6 @@ if (localStorage.getItem("activityNumber") == 3) {
           correctAnswer: "True",
         },
       ],
-    ],
   };
 }
 
