@@ -1246,7 +1246,7 @@ display:block
 }
 .header_logo_part.with_border .logo>img {
 margin:2px;
-padding:2px 5px;
+padding:2px 2px;
 border:5px solid rgba(255 , 255 , 255 , .4);
 border-radius:2px
 }
@@ -6463,7 +6463,7 @@ max-height:50px;
 width:auto
 }
 .header_logo_part.with_border .logo>img:not(.logo_mobile) {
-padding:0 7px;
+padding:0 2px;
 margin:1px;
 border:1px solid rgba(255 , 255 , 255 , .4)
 }
@@ -6489,7 +6489,7 @@ max-height:50px;
 width:auto
 }
 .header_logo_part.with_border .logo>img:not(.logo_mobile) {
-padding:0 7px;
+padding:0 2px;
 margin:1px;
 border:1px solid rgba(255 , 255 , 255 , .4)
 }
