@@ -1,7 +1,21 @@
-/* Custom tweaks for static build */
-/* Use system font stack for base text for better rendering */
-body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+/* Optimized custom styles */
+
+/* System font stack */
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, "Helvetica Neue", Arial;
+}
 
 /* Prevent content from hiding under fixed navbar */
-#home { scroll-margin-top: 88px; }
-#about, #books, #features, #contact, #AboutUS { scroll-margin-top: 88px; }
+#home, #abouteducateindia, #books, #features, #contact {
+  scroll-margin-top: 88px;
+}
+
+/* Optimized hero background for mobile/desktop */
+.hero-bg {
+  background-image: url('hero-800.webp');
+}
+@media (min-width: 768px) {
+  .hero-bg {
+    background-image: url('hero-1600.webp');
+  }
+}
