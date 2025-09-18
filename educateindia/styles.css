@@ -1,0 +1,7 @@
+/* Custom tweaks for static build */
+/* Use system font stack for base text for better rendering */
+body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+/* Prevent content from hiding under fixed navbar */
+#home { scroll-margin-top: 88px; }
+#about, #books, #features, #contact, #AboutUS { scroll-margin-top: 88px; }
