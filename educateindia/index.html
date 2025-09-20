@@ -8,17 +8,6 @@
       name="description"
       content="Educational book publishing for children from nursery to class 8. Interactive learning materials, colorful textbooks, and comprehensive educational solutions for young learners."
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body class="min-h-screen">
@@ -35,8 +24,7 @@
               class="w-16 h-16 object-contain"
             />
             <h1
-              class="text-3xl font-black text-orange-600"
-              style="font-family: 'Pacifico', serif"
+              class="text-3xl font-black text-orange-600 font-pacifico"
             >
               Educate India
             </h1>
@@ -199,8 +187,7 @@
           <h2 class="text-center text-4xl font-black text-gray-900 mb-6">
             A Few Words About
             <span
-              class="text-3xl font-black text-orange-600"
-              style="font-family: 'Pacifico', serif"
+              class="text-3xl font-black text-orange-600 font-pacifico"
               >Educate India</span
             >
           </h2>
@@ -209,8 +196,7 @@
               class="text-xl text-black/95 mb-8 max-w-4xl mx-auto font-bold"
             >
               <span
-                class="text-3xl font-black text-orange-600"
-                style="font-family: 'Pacifico', serif"
+                class="text-3xl font-black text-orange-600 font-pacifico"
                 >Educate India</span
               >
               was founded by the promoters of UGS Group, leveraging more than 20
@@ -289,7 +275,7 @@
             📞 Call Now: 847534555
           </button>
           <button
-            class="border-2 border-white text-white px-10 py-5 rounded-2xl text-xl font-black hover:bg-white hover:text-orange-600 transition-colors cursor-pointer whitespace-nowrap"
+            class="bg-transparent border-2 border-white text-white px-10 py-5 rounded-2xl text-xl font-black hover:bg-white hover:text-orange-600 transition-colors cursor-pointer whitespace-nowrap"
           >
             📧 Email: educateindiabooks@gmail.com
           </button>
@@ -574,7 +560,55 @@
             <div
               class="w-24 h-24 bg-gray-200 rounded-xl mx-auto mb-4 flex items-center justify-center"
             >
-              <i class="ri-qr-code-line text-3xl text-gray-600"></i>
+              <div class="qr-code">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                  <!-- QR Code Pattern -->
+                  <rect x="2" y="2" width="6" height="6" rx="1" fill="#4B5563"/>
+                  <rect x="16" y="2" width="6" height="6" rx="1" fill="#4B5563"/>
+                  <rect x="2" y="16" width="6" height="6" rx="1" fill="#4B5563"/>
+                  <rect x="4" y="4" width="2" height="2" fill="white"/>
+                  <rect x="18" y="4" width="2" height="2" fill="white"/>
+                  <rect x="4" y="18" width="2" height="2" fill="white"/>
+                  <!-- Data modules -->
+                  <rect x="10" y="2" width="1" height="1" fill="#4B5563"/>
+                  <rect x="12" y="2" width="1" height="1" fill="#4B5563"/>
+                  <rect x="14" y="2" width="1" height="1" fill="#4B5563"/>
+                  <rect x="10" y="4" width="2" height="1" fill="#4B5563"/>
+                  <rect x="13" y="4" width="1" height="1" fill="#4B5563"/>
+                  <rect x="14" y="5" width="1" height="1" fill="#4B5563"/>
+                  <rect x="10" y="6" width="1" height="1" fill="#4B5563"/>
+                  <rect x="12" y="6" width="2" height="1" fill="#4B5563"/>
+                  <rect x="2" y="10" width="1" height="1" fill="#4B5563"/>
+                  <rect x="4" y="10" width="2" height="1" fill="#4B5563"/>
+                  <rect x="7" y="10" width="1" height="1" fill="#4B5563"/>
+                  <rect x="9" y="9" width="6" height="6" rx="1" fill="#4B5563"/>
+                  <rect x="11" y="11" width="2" height="2" fill="white"/>
+                  <rect x="16" y="10" width="2" height="1" fill="#4B5563"/>
+                  <rect x="19" y="10" width="3" height="1" fill="#4B5563"/>
+                  <rect x="2" y="12" width="1" height="2" fill="#4B5563"/>
+                  <rect x="4" y="12" width="1" height="1" fill="#4B5563"/>
+                  <rect x="6" y="12" width="2" height="1" fill="#4B5563"/>
+                  <rect x="16" y="12" width="1" height="2" fill="#4B5563"/>
+                  <rect x="18" y="12" width="2" height="1" fill="#4B5563"/>
+                  <rect x="21" y="12" width="1" height="2" fill="#4B5563"/>
+                  <rect x="10" y="16" width="2" height="1" fill="#4B5563"/>
+                  <rect x="13" y="16" width="1" height="1" fill="#4B5563"/>
+                  <rect x="16" y="16" width="2" height="1" fill="#4B5563"/>
+                  <rect x="19" y="16" width="3" height="1" fill="#4B5563"/>
+                  <rect x="10" y="18" width="1" height="1" fill="#4B5563"/>
+                  <rect x="12" y="18" width="2" height="1" fill="#4B5563"/>
+                  <rect x="16" y="18" width="1" height="1" fill="#4B5563"/>
+                  <rect x="18" y="18" width="1" height="1" fill="#4B5563"/>
+                  <rect x="20" y="18" width="2" height="1" fill="#4B5563"/>
+                  <rect x="10" y="20" width="1" height="2" fill="#4B5563"/>
+                  <rect x="12" y="20" width="1" height="1" fill="#4B5563"/>
+                  <rect x="14" y="20" width="4" height="1" fill="#4B5563"/>
+                  <rect x="19" y="20" width="3" height="1" fill="#4B5563"/>
+                  <rect x="12" y="21" width="2" height="1" fill="#4B5563"/>
+                  <rect x="16" y="21" width="2" height="1" fill="#4B5563"/>
+                  <rect x="20" y="21" width="2" height="1" fill="#4B5563"/>
+                </svg>
+              </div>
             </div>
             <p class="text-sm text-gray-600">
               (Scan Above QR Code For Location)
@@ -615,8 +649,7 @@
                 class="w-16 h-16 object-contain"
               />
               <h3
-                class="text-3xl font-black"
-                style="font-family: 'Pacifico', serif"
+                class="text-3xl font-black font-pacifico"
               >
                 Educate India
               </h3>
