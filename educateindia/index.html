@@ -8,9 +8,26 @@
       name="description"
       content="Educational book publishing for children from nursery to class 8. Interactive learning materials, colorful textbooks, and comprehensive educational solutions for young learners."
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png" />
+
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body class="min-h-screen">
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="spinner"></div>
+    </div>
+
     <!-- Navbar -->
     <nav
       class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-lg"
@@ -23,9 +40,7 @@
               alt="Educate India Logo"
               class="w-16 h-16 object-contain"
             />
-            <h1
-              class="text-3xl font-black text-orange-600 font-pacifico"
-            >
+            <h1 class="text-3xl font-black text-orange-600 font-pacifico">
               Educate India
             </h1>
           </div>
@@ -141,7 +156,7 @@
       >
         <div class="max-w-4xl">
           <h1
-            class="text-6xl md:text-7xl font-black text-gray-800 leading-tight mb-6 drop-shadow-sm"
+            class="text-6xl md:text-7xl font-black text-gray-800 leading-tight mb-6 drop-shadow-sm fade-in hero-heading"
           >
             Launch Your Own Publishing Brand
           </h1>
@@ -159,16 +174,8 @@
             Learning Solutions.
           </p>
           <div class="flex flex-wrap gap-6">
-            <button
-              class="bg-orange-500 hover:bg-orange-600 text-white px-10 py-5 rounded-2xl text-xl font-bold transition duration-300 shadow-lg hover:shadow-xl whitespace-nowrap cursor-pointer"
-            >
-              Explore Our Books
-            </button>
-            <button
-              class="bg-white hover:bg-gray-50 text-orange-500 px-10 py-5 rounded-2xl text-xl font-bold border-2 border-orange-500 transition duration-300 shadow-lg hover:shadow-xl whitespace-nowrap cursor-pointer"
-            >
-              Digital Learning Solutions
-            </button>
+            <button class="cta-primary cta-bounce">Explore Our Books</button>
+            <button class="cta-secondary">See Sample Website</button>
           </div>
         </div>
         <div class="absolute bottom-10 right-10 hidden lg:block">
@@ -186,8 +193,7 @@
         <div class="mb-16">
           <h2 class="text-center text-4xl font-black text-gray-900 mb-6">
             A Few Words About
-            <span
-              class="text-3xl font-black text-orange-600 font-pacifico"
+            <span class="text-3xl font-black text-orange-600 font-pacifico"
               >Educate India</span
             >
           </h2>
@@ -195,8 +201,7 @@
             <span
               class="text-xl text-black/95 mb-8 max-w-4xl mx-auto font-bold"
             >
-              <span
-                class="text-3xl font-black text-orange-600 font-pacifico"
+              <span class="text-3xl font-black text-orange-600 font-pacifico"
                 >Educate India</span
               >
               was founded by the promoters of UGS Group, leveraging more than 20
@@ -272,12 +277,22 @@
           <button
             class="bg-white text-orange-600 px-10 py-5 rounded-2xl text-xl font-black hover:bg-gray-100 transition-colors cursor-pointer whitespace-nowrap shadow-xl"
           >
-            📞 Call Now: 847534555
+            <a
+              href="tel:+91847534555"
+              class="bg-white text-orange-600 px-10 py-5 rounded-2xl text-xl font-black hover:bg-gray-100 transition-colors cursor-pointer whitespace-nowrap shadow-xl"
+            >
+              📞 Call Now: 847534555
+            </a>
           </button>
           <button
             class="bg-transparent border-2 border-white text-white px-10 py-5 rounded-2xl text-xl font-black hover:bg-white hover:text-orange-600 transition-colors cursor-pointer whitespace-nowrap"
           >
-            📧 Email: educateindiabooks@gmail.com
+            <a
+              href="mailto:educateindiabooks@gmail.com"
+              class="bg-transparent border-2 border-white text-white px-10 py-5 rounded-2xl text-xl font-black hover:bg-white hover:text-orange-600 transition-colors cursor-pointer whitespace-nowrap"
+            >
+              📧 Email: educateindiabooks@gmail.com
+            </a>
           </button>
         </div>
         <div class="mt-8 p-4 bg-yellow-300 rounded-2xl">
@@ -557,62 +572,19 @@
             </p>
           </div>
           <div class="bg-white rounded-2xl p-8 shadow-xl text-center">
-            <div
-              class="w-24 h-24 bg-gray-200 rounded-xl mx-auto mb-4 flex items-center justify-center"
-            >
-              <div class="qr-code">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
-                  <!-- QR Code Pattern -->
-                  <rect x="2" y="2" width="6" height="6" rx="1" fill="#4B5563"/>
-                  <rect x="16" y="2" width="6" height="6" rx="1" fill="#4B5563"/>
-                  <rect x="2" y="16" width="6" height="6" rx="1" fill="#4B5563"/>
-                  <rect x="4" y="4" width="2" height="2" fill="white"/>
-                  <rect x="18" y="4" width="2" height="2" fill="white"/>
-                  <rect x="4" y="18" width="2" height="2" fill="white"/>
-                  <!-- Data modules -->
-                  <rect x="10" y="2" width="1" height="1" fill="#4B5563"/>
-                  <rect x="12" y="2" width="1" height="1" fill="#4B5563"/>
-                  <rect x="14" y="2" width="1" height="1" fill="#4B5563"/>
-                  <rect x="10" y="4" width="2" height="1" fill="#4B5563"/>
-                  <rect x="13" y="4" width="1" height="1" fill="#4B5563"/>
-                  <rect x="14" y="5" width="1" height="1" fill="#4B5563"/>
-                  <rect x="10" y="6" width="1" height="1" fill="#4B5563"/>
-                  <rect x="12" y="6" width="2" height="1" fill="#4B5563"/>
-                  <rect x="2" y="10" width="1" height="1" fill="#4B5563"/>
-                  <rect x="4" y="10" width="2" height="1" fill="#4B5563"/>
-                  <rect x="7" y="10" width="1" height="1" fill="#4B5563"/>
-                  <rect x="9" y="9" width="6" height="6" rx="1" fill="#4B5563"/>
-                  <rect x="11" y="11" width="2" height="2" fill="white"/>
-                  <rect x="16" y="10" width="2" height="1" fill="#4B5563"/>
-                  <rect x="19" y="10" width="3" height="1" fill="#4B5563"/>
-                  <rect x="2" y="12" width="1" height="2" fill="#4B5563"/>
-                  <rect x="4" y="12" width="1" height="1" fill="#4B5563"/>
-                  <rect x="6" y="12" width="2" height="1" fill="#4B5563"/>
-                  <rect x="16" y="12" width="1" height="2" fill="#4B5563"/>
-                  <rect x="18" y="12" width="2" height="1" fill="#4B5563"/>
-                  <rect x="21" y="12" width="1" height="2" fill="#4B5563"/>
-                  <rect x="10" y="16" width="2" height="1" fill="#4B5563"/>
-                  <rect x="13" y="16" width="1" height="1" fill="#4B5563"/>
-                  <rect x="16" y="16" width="2" height="1" fill="#4B5563"/>
-                  <rect x="19" y="16" width="3" height="1" fill="#4B5563"/>
-                  <rect x="10" y="18" width="1" height="1" fill="#4B5563"/>
-                  <rect x="12" y="18" width="2" height="1" fill="#4B5563"/>
-                  <rect x="16" y="18" width="1" height="1" fill="#4B5563"/>
-                  <rect x="18" y="18" width="1" height="1" fill="#4B5563"/>
-                  <rect x="20" y="18" width="2" height="1" fill="#4B5563"/>
-                  <rect x="10" y="20" width="1" height="2" fill="#4B5563"/>
-                  <rect x="12" y="20" width="1" height="1" fill="#4B5563"/>
-                  <rect x="14" y="20" width="4" height="1" fill="#4B5563"/>
-                  <rect x="19" y="20" width="3" height="1" fill="#4B5563"/>
-                  <rect x="12" y="21" width="2" height="1" fill="#4B5563"/>
-                  <rect x="16" y="21" width="2" height="1" fill="#4B5563"/>
-                  <rect x="20" y="21" width="2" height="1" fill="#4B5563"/>
-                </svg>
-              </div>
+            <!-- Google Map Embed under QR -->
+            <div class="mt-4 rounded-xl overflow-hidden shadow-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3492.244066686309!2d77.65074207530027!3d28.920803475508652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c615f67746501%3A0x407f42641b18859!2sUGS%20Publications!5e0!3m2!1sen!2sin!4v1758404116750!5m2!1sen!2sin"
+                width="100%"
+                height="200"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
             </div>
-            <p class="text-sm text-gray-600">
-              (Scan Above QR Code For Location)
-            </p>
           </div>
         </div>
         <div class="bg-yellow-400 rounded-3xl p-6 text-center mt-8">
@@ -648,11 +620,7 @@
                 alt="Educate India Logo"
                 class="w-16 h-16 object-contain"
               />
-              <h3
-                class="text-3xl font-black font-pacifico"
-              >
-                Educate India
-              </h3>
+              <h3 class="text-3xl font-black font-pacifico">Educate India</h3>
             </div>
             <p class="text-lg text-gray-300 mb-4 font-semibold">
               An Initiative of UGS Group
@@ -726,25 +694,35 @@
           <div>
             <h4 class="text-xl font-bold mb-6 text-yellow-300">Contact Info</h4>
             <div class="space-y-4">
-              <div class="flex items-start space-x-3">
-                <i class="ri-map-pin-line text-orange-400 text-xl mt-1"></i>
-                <div>
-                  <p class="text-gray-300">A-5, Udyogpuram,</p>
-                  <p class="text-gray-300">Near Partapur, Metro Station</p>
-                  <p class="text-gray-300">Meerut - 250103</p>
-                </div>
-              </div>
-              <div class="flex items-center space-x-3">
+              <div class="flex items-center">
                 <i class="ri-phone-line text-green-400 text-xl"></i>
-                <p class="text-gray-300">847534555</p>
+                <a
+                  href="tel:+91847534555"
+                  class="text-gray-300 hover:text-white ml-2"
+                >
+                  847534555
+                </a>
               </div>
-              <div class="flex items-center space-x-3">
+
+              <div class="flex items-center">
                 <i class="ri-whatsapp-line text-green-400 text-xl"></i>
-                <p class="text-gray-300">847584555</p>
+                <a
+                  href="https://wa.me/91847584555"
+                  target="_blank"
+                  class="text-gray-300 hover:text-white ml-2"
+                >
+                  847584555
+                </a>
               </div>
-              <div class="flex items-center space-x-3">
+
+              <div class="flex items-center">
                 <i class="ri-mail-line text-blue-400 text-xl"></i>
-                <p class="text-gray-300">educateindiabooks@gmail.com</p>
+                <a
+                  href="mailto:educateindiabooks@gmail.com"
+                  class="text-gray-300 hover:text-white ml-2"
+                >
+                  educateindiabooks@gmail.com
+                </a>
               </div>
             </div>
           </div>
@@ -811,5 +789,40 @@
         });
       }
     </script>
+    <script>
+      window.addEventListener("load", function () {
+        const preloader = document.getElementById("preloader");
+        preloader.style.opacity = "0";
+        setTimeout(() => {
+          preloader.style.display = "none";
+        }, 500);
+      });
+      // Add this before </body>
+      document.addEventListener("DOMContentLoaded", () => {
+        const faders = document.querySelectorAll(".fade-in");
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("show");
+              observer.unobserve(entry.target);
+            }
+          });
+        });
+        faders.forEach((fader) => observer.observe(fader));
+      });
+    </script>
+    <!-- Floating WhatsApp Button -->
+    <!-- Floating WhatsApp Button -->
+    <a
+      href="https://wa.me/918475844555"
+      class="whatsapp-float"
+      target="_blank"
+      aria-label="Chat on WhatsApp"
+    >
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+        alt="WhatsApp"
+      />
+    </a>
   </body>
 </html>
