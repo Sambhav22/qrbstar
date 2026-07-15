@@ -1,4 +1,4 @@
-export const chapter = "Chapter -19: Buddha's Death";
+export const chapter = "Chapter - 19: The Old Wife and the Ghost";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -33,83 +33,79 @@ if (localStorage.getItem("activityNumber") == 1) {
       shuffleOptions(
         {
           question:
-            "What did they say happened along the pathway as the saintly Master went?",
-          optionA: "Fruit trees blossomed out of season",
-          optionB: "It rained heavily",
-          optionC: "The path became treacherous",
-          correctAnswer: "Fruit trees blossomed out of season",
+            "What is the initial impression of the journey for the traveller?",
+          optionA: "Short",
+          optionB: "Magical",
+          optionC: "Tedious",
+          correctAnswer: "Magical",
+        }),
+      shuffleOptions({
+          question: "What did the child invite the traveller to do?",
+          optionA: "Learn",
+          optionB: "Work",
+          optionC: "Play",
+          correctAnswer: "Play",
         }),
       shuffleOptions({
           question:
-            "According to the saintly Master, how is the soul's true worship rendered?",
-          optionA: "By flowers and sandal-powder",
-          optionB: "By music's heavenly strain",
-          optionC: "By a devout man and a holy woman",
-          correctAnswer: "By a devout man and a holy woman",
+            "What fascinated the traveller and the child during fine weather?",
+          optionA: "Raindrops",
+          optionB: "Falling leaves",
+          optionC: "Nature's beauty",
+          correctAnswer: "Nature's beauty",
+        }),
+      shuffleOptions({
+          question: "What did the young man invite the traveller to do?",
+          optionA: "Work",
+          optionB: "Play",
+          optionC: "Love",
+          correctAnswer: "Love",
         }),
       shuffleOptions({
           question:
-            "What did Buddha tell his friend Ananda about the external offerings like flowers and sandal-powder?",
-          optionA: "They are essential for worship",
-          optionB: "They are useless and vain",
-          optionC: "They are optional but appreciated",
-          correctAnswer: "They are useless and vain",
+            "What were the activities of the handsome boy and the traveller?",
+          optionA: "Playing games",
+          optionB: "Learning",
+          optionC: "Both A and B",
+          correctAnswer: "Both A and B",
         }),
       shuffleOptions({
           question:
-            "What did the Brahman, seeking wisdom, find when he came to see the saintly Buddha?",
-          optionA: "Buddha was enjoying good health",
-          optionB: "Buddha was sleeping peacefully",
-          optionC: "Buddha was suffering, sick, and wan",
-          correctAnswer: "Buddha was suffering, sick, and wan",
+            "What did the middle-aged gentleman invite the traveller to do?",
+          optionA: "Be busy",
+          optionB: "Rest",
+          optionC: "Learn",
+          correctAnswer: "Be busy",
         }),
       shuffleOptions({
           question:
-            "Who did Buddha say would not come to him in vain when seeking wisdom?",
-          optionA: "A merchant",
-          optionB: "A pious stranger",
-          optionC: "A warrior",
-          correctAnswer: "A pious stranger",
+            "What did the family do as they journeyed through the wood?",
+          optionA: "Rested",
+          optionB: "Worked and cut down trees",
+          optionC: "Played games",
+          correctAnswer: "Worked and cut down trees",
+        }),
+      shuffleOptions({
+          question: "How did the children leave the company in the story?",
+          optionA: "Disappeared suddenly",
+          optionB: "Vanished into thin air",
+          optionC: "Went down different avenues for various purposes",
+          correctAnswer: "Went down different avenues for various purposes",
         }),
       shuffleOptions({
           question:
-            "What did the saintly Master do when a Brahman seeking wisdom came to see him?",
-          optionA: "Ignored him",
-          optionB: "Anxiously stopped him",
-          optionC: "Welcomed him with joy",
-          correctAnswer: "Anxiously stopped him",
+            "What happened when the lady was called and went into the dark avenue?",
+          optionA: "She vanished",
+          optionB: "She cried and said she was summoned",
+          optionC: "She continued the journey with the traveller",
+          correctAnswer: "She cried and said she was summoned",
         }),
       shuffleOptions({
-          question:
-            "According to the text, what did NOT happen along the pathway as the saintly Master went?",
-          optionA: "Fruit trees blossomed out of season",
-          optionB: "Lovely fragrance lent",
-          optionC: "Rocks and thorns appeared",
-          correctAnswer: "Rocks and thorns appeared",
-        }),
-      shuffleOptions({
-          question:
-            "How did the saintly Master teach the law to the pious stranger?",
-          optionA: "With written scriptures",
-          optionB: "With dying accents",
-          optionC: "Through a disciple",
-          correctAnswer: "With dying accents",
-        }),
-      shuffleOptions({
-          question:
-            "According to the text, what should you not let your dreams become?",
-          optionA: "Unachievable",
-          optionB: "Your master",
-          optionC: "Ignored",
-          correctAnswer: "Your master",
-        }),
-      shuffleOptions({
-          question:
-            "Who, according to the text, truly performs the soul's worship?",
-          optionA: "A wealthy person",
-          optionB: "A devout man and a holy woman",
-          optionC: "A scholar",
-          correctAnswer: "A devout man and a holy woman",
+          question: "How does the story conclude for the traveller?",
+          optionA: "Alone and lost",
+          optionB: "Reunited with all the friends",
+          optionC: "Reminiscing with an old man",
+          correctAnswer: "Reminiscing with an old man",
    }),
     ]),
   }
@@ -122,83 +118,83 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions(
         {
           question:
-            "Thus in many lands they wandered, Buddha and his faithful friend, teaching truth to many nations, till his life approached its __________.",
-          optionA: "zenith",
-          optionB: "pinnacle",
-          optionC: "terminus",
-          correctAnswer: "terminus",
+            "The traveller lost the child while on his journey. What did the child invite him to do?",
+          optionA: "Work with him",
+          optionB: "Play with him",
+          optionC: "Learn with him",
+          correctAnswer: "Play with him",
         }),
       shuffleOptions({
           question:
-            "And they say, along the pathway, as the saintly Master went, fruit trees blossomed out of __________.",
-          optionA: "sequence",
-          optionB: "season",
-          optionC: "order",
-          correctAnswer: "season",
+            "The traveller encountered a handsome boy during his journey. What did the boy say he was always doing?",
+          optionA: "Working",
+          optionB: "Learning",
+          optionC: "Being in love",
+          correctAnswer: "Learning",
         }),
       shuffleOptions({
           question:
-            "But the saintly Master whispered to his friend beloved and blest, 'Tis not thus, O friend Ananda! That the Buddha's honored __________.",
-          optionA: "glory",
-          optionB: "esteem",
-          optionC: "best",
-          correctAnswer: "best",
+            "As the traveller learned with the handsome boy, what were some of the activities they enjoyed?",
+          optionA: "Playing cricket and ball",
+          optionB: "Rowing in the river and skating on ice",
+          optionC: "Dancing at real theatres",
+          correctAnswer: "Rowing in the river and skating on ice",
         }),
       shuffleOptions({
           question:
-            "Not by flowers or sandal-powder, not by music's heavenly strain, is the soul's true worship __________.",
-          optionA: "validated",
-          optionB: "rendered",
-          optionC: "concluded",
-          correctAnswer: "rendered",
+            "The traveller lost the handsome boy and continued his journey. What did he find next?",
+          optionA: "A child",
+          optionB: "A young man",
+          optionC: "A middle-aged gentleman",
+          correctAnswer: "A middle-aged gentleman",
         }),
       shuffleOptions({
           question:
-            "But the brother and the sister, man devout and woman holy, pure in life, in duty faithful, they perform the worship __________.",
-          optionA: "absolutely",
-          optionB: "genuinely",
-          optionC: "necessarily",
-          correctAnswer: "genuinely",
+            "The middle-aged gentleman said he was always busy. What were they doing together in the wood?",
+          optionA: "Playing games",
+          optionB: "Cutting down trees and making a path",
+          optionC: "Having parties and dancing",
+          correctAnswer: "Cutting down trees and making a path",
         }),
       shuffleOptions({
           question:
-            "Night came on, and saintly Buddha slept in suffering, sick and __________.",
-          optionA: "weak",
-          optionB: "wan",
-          optionC: "frail",
-          correctAnswer: "wan",
+            "During their journey in the wood, what happened when the children wanted to go on separate paths?",
+          optionA: "They stayed together",
+          optionB: "They had a quarrel",
+          optionC: "They went on solitary ways",
+          correctAnswer: "They went on solitary ways",
         }),
       shuffleOptions({
           question:
-            "When a Brahman, seeking wisdom, came to see the holy man, anxiously Ananda __________ him.",
-          optionA: "questioned",
-          optionB: "stopped",
-          optionC: "welcomed",
-          correctAnswer: "stopped",
+            "When the traveller saw the gentleman glancing up at the sky, what did he notice about the gentleman?",
+          optionA: "His hair turning grey",
+          optionB: "His clothes changing color",
+          optionC: "His shoes getting dirty",
+          correctAnswer: "His hair turning grey",
         }),
       shuffleOptions({
           question:
-            "But spoke Buddha, though in pain, 'He who comes to seek for wisdom shall not come to me in __________!'",
-          optionA: "despair",
-          optionB: "futility",
-          optionC: "vain",
-          correctAnswer: "vain",
+            "The lady, the gentleman's wife, was called and had to leave. What did she say her child was calling her?",
+          optionA: "Father",
+          optionB: "Mother",
+          optionC: "Brother",
+          correctAnswer: "Mother",
         }),
       shuffleOptions({
           question:
-            "And he to the pious stranger told the truth in language __________.",
-          optionA: "intricate",
-          optionB: "plain",
-          optionC: "elaborate",
-          correctAnswer: "plain",
+            "After the lady's departure, who was left with the traveller in the wood?",
+          optionA: "The handsome boy",
+          optionB: "The middle-aged gentleman",
+          optionC: "The old man",
+          correctAnswer: "The middle-aged gentleman",
         }),
       shuffleOptions({
           question:
-            "Taught the law with dying accents, stopped, and never spoke __________.",
-          optionA: "later",
-          optionB: "again",
-          optionC: "moreover",
-          correctAnswer: "again",
+            "As the traveller approached the end of the wood, who did he find sitting on a fallen tree?",
+          optionA: "A young man",
+          optionB: "The handsome boy",
+          optionC: "An old man",
+          correctAnswer: "An old man",
    }),
     ]),
   }
@@ -211,73 +207,73 @@ if (localStorage.getItem("activityNumber") == 3) {
       shuffleOptions(
         {
           question:
-            "Buddha and his faithful friend wandered in many lands teaching truth to many nations.",
+            "The traveller played with the child the whole day, and they were very merry.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "Fruit trees blossomed out of season along the pathway as the saintly Master went.",
+            "The handsome boy said he was always learning, and the traveller started to learn with him.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The saintly Master whispered that the soul's true worship is rendered by flowers and sandal-powder.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "According to the text, the brother and the sister perform the soul's worship truly.",
+            "The traveller and the handsome boy enjoyed rowing upon the river in summer and skating on the ice in winter.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "Saintly Buddha slept peacefully when night came on, and he was healthy and strong.",
+            "The young man the traveller met said he was always in love, and they went away together.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "False",
+          correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "Ananda stopped a Brahman seeking wisdom from seeing the saintly man.",
+            "The traveller lost the young man and continued his journey alone.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "False",
+          correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "Buddha spoke with joy, welcoming the pious stranger who sought wisdom.",
+            "The middle-aged gentleman told the traveller he was always busy, and they cut down trees together in the wood.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "False",
+          correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The saintly Master emphasized that external offerings like flowers are essential for worship.",
+            "The children, at times, parted ways down different avenues during their journey in the wood.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "False",
+          correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The Brahman seeking wisdom left without gaining any insights from the saintly Buddha.",
+            "The lady, the gentleman's wife, was the last one to leave, saying she was called, and the traveller and gentleman were left alone.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "False",
+          correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The text advises that one should confront those who doubt them when seeking wisdom.",
+            "As the traveller passed out of the wood, he found an old man sitting on a fallen tree who said he was always remembering.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "The traveller saw all his friends, including the child, the handsome boy, and the young man, standing around him at the end of his journey.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
    }),
     ]),
   }

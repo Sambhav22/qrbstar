@@ -1,4 +1,4 @@
-export const chapter = "Chapter -17:School Friends";
+export const chapter = "Chapter - 17: The Great Preacher";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -32,79 +32,79 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question: "What is Neel Kamal's appearance at the railway station?",
-          optionA: "Bald with a red shirt",
-          optionB: "Salt and pepper hair with a white kurta-pyjama",
-          optionC: "Blonde with a blue jacket",
-          correctAnswer: "Salt and pepper hair with a white kurta-pyjama",
+          question: "When was the Chittor Fort built?",
+          optionA: "During the Mauryan period",
+          optionB: "In the 14th century",
+          optionC: "Its origin is unclear",
+          correctAnswer: "Its origin is unclear",
         }),
       shuffleOptions({
           question:
-            "What food is Neel Kamal enjoying at the railway station cafeteria?",
-          optionA: "Pizza",
-          optionB: "Chhole-bhature",
-          optionC: "Sushi",
-          correctAnswer: "Chhole-bhature",
-        }),
-      shuffleOptions({
-          question: "Who is the security guard standing near Neel Kamal?",
-          optionA: "Train conductor",
-          optionB: "Policeman",
-          optionC: "Cafeteria manager",
-          correctAnswer: "Policeman",
+            "Which ruler attacked Chittor in the early fourteenth century, leading to the first Jauhar?",
+          optionA: "Akbar",
+          optionB: "Alauddin Khalji",
+          optionC: "Babur",
+          correctAnswer: "Alauddin Khalji",
         }),
       shuffleOptions({
           question:
-            "What does Neel Kamal see on his mobile phone screen that surprises him?",
-          optionA: "A scenic view",
-          optionB: "A thin, famished young man",
-          optionC: "A funny meme",
-          correctAnswer: "A thin, famished young man",
-        }),
-      shuffleOptions({
-          question: "Who is Harsh Vardhan to Neel Kamal?",
-          optionA: "Cousin",
-          optionB: "School friend",
-          optionC: "Colleague",
-          correctAnswer: "School friend",
+            "How did Queen Padmini deceive Alauddin Khalji during the siege of Chittor?",
+          optionA: "She surrendered to him willingly",
+          optionB: "She sent her mirror image to him",
+          optionC: "She fled the fort with her army",
+          correctAnswer: "She sent her mirror image to him",
         }),
       shuffleOptions({
           question:
-            "What nickname does Harsh Vardhan give Neel Kamal from their school days?",
-          optionA: "Rockstar",
-          optionB: "Stone",
-          optionC: "Jester",
-          correctAnswer: "Stone",
+            "Which ruler attacked Chittor around 200 years after the first Jauhar?",
+          optionA: "Bahadur Shah",
+          optionB: "Humayun",
+          optionC: "Rana Sanga",
+          correctAnswer: "Bahadur Shah",
         }),
       shuffleOptions({
-          question: "What is Harsh Vardhan's profession?",
-          optionA: "Journalist",
-          optionB: "Mayor",
-          optionC: "Doctor",
-          correctAnswer: "Journalist",
+          question: "Why did Queen Karnavati send a Rakhi to Humayun?",
+          optionA: "To seek revenge",
+          optionB: "To request help against an invasion",
+          optionC: "As a gesture of goodwill",
+          correctAnswer: "To request help against an invasion",
         }),
       shuffleOptions({
-          question:
-            "How does Neel Kamal respond to Harsh Vardhan's revelation about becoming a mayor?",
-          optionA: "Shocked and angry",
-          optionB: "Delighted and informal",
-          optionC: "Indifferent",
-          correctAnswer: "Delighted and informal",
-        }),
-      shuffleOptions({
-          question: "What is Harsh Vardhan's son's name?",
-          optionA: "Rohit",
-          optionB: "Vivek",
-          optionC: "Aryan",
-          correctAnswer: "Vivek",
+          question: "Who was the grandmother of Maharana Pratap?",
+          optionA: "Rana Sanga",
+          optionB: "Karnavati",
+          optionC: "Parma Dhai",
+          correctAnswer: "Karnavati",
         }),
       shuffleOptions({
           question:
-            "How does the thin man, Harsh Vardhan, react when Neel Kamal tells him about being the mayor?",
-          optionA: "Angry",
-          optionB: "Disappointed",
-          optionC: "Artificially respectful",
-          correctAnswer: "Artificially respectful",
+            "What is the significance of the Vijay Stambh in Chittor Fort?",
+          optionA: "It commemorates Mewar's victory over Malwa",
+          optionB: "It is a Jain temple",
+          optionC: "It was the site of a Jauhar",
+          correctAnswer: "It commemorates Mewar's victory over Malwa",
+        }),
+      shuffleOptions({
+          question: "How many acres of land does Chittor Fort cover?",
+          optionA: "500 acres",
+          optionB: "700 acres",
+          optionC: "1000 acres",
+          correctAnswer: "700 acres",
+        }),
+      shuffleOptions({
+          question: "Which festival is associated with Queen Karnavati?",
+          optionA: "Diwali",
+          optionB: "Holi",
+          optionC: "Rakhi",
+          correctAnswer: "Rakhi",
+        }),
+      shuffleOptions({
+          question:
+            "What is held annually at the Jauhar site in Chittor Fort to commemorate the brave warriors and women?",
+          optionA: "A musical festival",
+          optionB: "Jauhar Mela",
+          optionC: "A religious procession",
+          correctAnswer: "Jauhar Mela",
    }),
     ]),
   }
@@ -117,83 +117,83 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions(
         {
           question:
-            "Neel Kamal ordered a full plate of ___________ at the railway station cafeteria.",
-          optionA: "Pizza",
-          optionB: "Chhole-bhature",
-          optionC: "Sushi",
-          correctAnswer: "Chhole-bhature",
+            "Chittor Fort is located in the ________ region in Rajasthan.",
+          optionA: "Marwar",
+          optionB: "Mewar",
+          optionC: "Shekhawati",
+          correctAnswer: "Mewar",
         }),
       shuffleOptions({
           question:
-            "Neel Kamal takes out his mobile phone to take a ___________.",
-          optionA: "Video",
-          optionB: "Selfie",
-          optionC: "Group photo",
-          correctAnswer: "Selfie",
+            "The historical stories at Chittor Fort carve their perennial place in ________ history.",
+          optionA: "Regional",
+          optionB: "National",
+          optionC: "International",
+          correctAnswer: "National",
         }),
       shuffleOptions({
           question:
-            "Harsh Vardhan's son, Vivek, is a schoolboy in the __________ class.",
-          optionA: "First",
-          optionB: "Second",
-          optionC: "Third",
-          correctAnswer: "Third",
+            "Chittor Fort is recognized as a UNESCO World Heritage Site, and it covers about ________ acres of land area.",
+          optionA: "500",
+          optionB: "700",
+          optionC: "1000",
+          correctAnswer: "700",
         }),
       shuffleOptions({
           question:
-            "Neel Kamal and Harsh Vardhan were known as ___________ during their school days.",
-          optionA: "The genius duo",
-          optionB: "Angelic boys",
-          optionC: "Devil's boys",
-          correctAnswer: "Devil's boys",
+            "The first Jauhar at Chittor Fort occurred during the early ________ century when Alauddin Khalji attacked the capital of Mewar.",
+          optionA: "12th",
+          optionB: "14th",
+          optionC: "16th",
+          correctAnswer: "14th",
         }),
       shuffleOptions({
           question:
-            "Harsh Vardhan was called ATM, which stands for Automated __________ Machine.",
-          optionA: "Tale",
-          optionB: "Telling",
-          optionC: "Talking",
-          correctAnswer: "Tale",
+            "Queen Padmini, to deceive Alauddin Khalji, showed her mirror image in the water in the ________.",
+          optionA: "Jal Mahal",
+          optionB: "Kirti Stambh",
+          optionC: "Vijay Stambh",
+          correctAnswer: "Jal Mahal",
         }),
       shuffleOptions({
           question:
-            "Harsh Vardhan joined as a journalist but later became a __________ primary teacher.",
-          optionA: "Municipality",
-          optionB: "High school",
-          optionC: "College",
-          correctAnswer: "Municipality",
+            "The second Jauhar at Chittor Fort took place approximately ________ years later during the reign of Rana Sanga.",
+          optionA: "100",
+          optionB: "200",
+          optionC: "300",
+          correctAnswer: "200",
         }),
       shuffleOptions({
           question:
-            "Neel Kamal has risen to become the __________ of the town.",
-          optionA: "Councilor",
-          optionB: "Mayor",
-          optionC: "Nagar Nigam",
-          correctAnswer: "Mayor",
+            "Queen Karnavati, during the second Jauhar, sent a Rakhi to ________ for help against the invasion by Bahadur Shah.",
+          optionA: "Alauddin Khalji",
+          optionB: "Humayun",
+          optionC: "Babur",
+          correctAnswer: "Humayun",
         }),
       shuffleOptions({
           question:
-            "Harsh Vardhan was surprised to learn that Neel Kamal had become the __________.",
-          optionA: "Councilor",
-          optionB: "Prime Minister",
-          optionC: "Mayor",
-          correctAnswer: "Mayor",
+            "The ruler of Gujarat who attacked Mewar during the second Jauhar was ________ Shah.",
+          optionA: "Bahadur",
+          optionB: "Akbar",
+          optionC: "Babur",
+          correctAnswer: "Bahadur",
         }),
       shuffleOptions({
           question:
-            "Harsh Vardhan's wife, Leela, describes Neel Kamal as looking __________ and soft.",
-          optionA: "Plump",
-          optionB: "Slim",
-          optionC: "Muscular",
-          correctAnswer: "Plump",
+            "The third Jauhar at Chittor Fort occurred when Akbar, the Mughal ruler, attacked the fort during the reign of King ________ Singh.",
+          optionA: "Rana Sanga",
+          optionB: "Ratan Singh",
+          optionC: "Udai Singh",
+          correctAnswer: "Udai Singh",
         }),
       shuffleOptions({
           question:
-            "The thin man reacts to Neel Kamal's revelation with artificial __________ and respectfulness.",
-          optionA: "Humility",
-          optionB: "Sarcasm",
-          optionC: "Sweetness",
-          correctAnswer: "Sweetness",
+            "The annual event held at the Jauhar site in Chittor Fort to commemorate the brave warriors and women is called ________ Mela.",
+          optionA: "Victory",
+          optionB: "Heritage",
+          optionC: "Jauhar",
+          correctAnswer: "Jauhar Mela",
    }),
     ]),
   }
@@ -206,69 +206,69 @@ if (localStorage.getItem("activityNumber") == 3) {
       shuffleOptions(
         {
           question:
-            "Neel Kamal ordered a full plate of Chhole-bhature at the railway station cafeteria.",
+            "Chittor Fort is located in the Marwar region in Rajasthan.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Chittor Fort is recognized as a UNESCO World Heritage Site.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
-          question:
-            "Harsh Vardhan's son, Vivek, is a schoolboy in the Third class.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "Neel Kamal and Harsh Vardhan were known as Angelic boys during their school days.",
+          question: "Chittor Fort covers about 500 acres of land area.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Harsh Vardhan was called ATM, which stands for Automated Talking Machine.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question: "Neel Kamal has risen to become the Mayor of the town.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "Harsh Vardhan was not satisfied with his job as a journalist.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "The thin man, Harsh Vardhan, reacted to Neel Kamal's revelation with genuine sweetness.",
+            "The first Jauhar at Chittor Fort occurred in the 16th century.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Neel Kamal's mobile phone camera captured a glimpse of a well-fed man, not a thin, famished one.",
+            "Queen Padmini showed her mirror image in the Jal Mahal to deceive Alauddin Khalji.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Harsh Vardhan's wife, Leela, thinks Neel Kamal looks slim and muscular.",
+            "The second Jauhar at Chittor Fort took place approximately 300 years later.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Neel Kamal and Harsh Vardhan were childhood friends and known for their studious behavior.",
+            "Queen Karnavati sent a Rakhi to Babur for help against the invasion by Bahadur Shah.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The ruler of Gujarat who attacked Mewar during the second Jauhar was Akbar.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The third Jauhar at Chittor Fort occurred when Rana Sanga was the king.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The annual event held at the Jauhar site in Chittor Fort is called Heritage Mela.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",

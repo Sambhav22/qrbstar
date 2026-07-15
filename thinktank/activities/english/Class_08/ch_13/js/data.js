@@ -1,4 +1,4 @@
-export const chapter = "Chapter -13: The Tail, Boat and Ant";
+export const chapter = "Chapter - 13: Impoliteness";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -32,81 +32,78 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question:
-            "What time did the boys of the First A have leisure on Wednesday?",
-          optionA: "Between two and two forty-five",
-          optionB: "Between three and three forty-five",
-          optionC: "Between four and four forty-five",
-          correctAnswer: "Between three and three forty-five",
+          question: "What is described as a joy in the given text?",
+          optionA: "Life",
+          optionB: "Birth",
+          optionC: "Pleasure",
+          correctAnswer: "Birth",
         }),
       shuffleOptions({
           question:
-            "What did Swaminathan find meaningless for the children of the Infant Standards to do at school?",
-          optionA: "Play games under the tamarind tree",
-          optionB: "Dabble in wet clay and shape models",
-          optionC: "Engage in repeating the Tamil alphabet",
-          correctAnswer: "Dabble in wet clay and shape models",
+            "What is encouraged to be treated like a treasure in the text?",
+          optionA: "Sun's warmth",
+          optionB: "Life",
+          optionC: "Nature's marvels",
+          correctAnswer: "Life",
+        }),
+      shuffleOptions({
+          question: "What is suggested to be feasted upon in the text?",
+          optionA: "Earth's aroma",
+          optionB: "Nature's marvels",
+          optionC: "Sun's warmth",
+          correctAnswer: "Nature's marvels",
         }),
       shuffleOptions({
           question:
-            "Where did Swaminathan want to go but changed his mind because the headmaster might be there?",
-          optionA: "Corridor of the Infant Standards",
-          optionB: "Senior classes-the second and third forms",
-          optionC: "Foot of the staircase",
-          correctAnswer: "Senior classes-the second and third forms",
+            "What is described as colorful and intricate, resembling poetry?",
+          optionA: "Flight of birds",
+          optionB: "Stars",
+          optionC: "Nature's marvels",
+          correctAnswer: "Nature's marvels",
         }),
       shuffleOptions({
           question:
-            "Who was reading the story of the old man who planted trees during the English period?",
-          optionA: "Rajam",
-          optionB: "Mani",
-          optionC: "Vedanayagam",
-          correctAnswer: "Vedanayagam",
+            "What dispels the gloom of the darkness of the night in the text?",
+          optionA: "Flight of birds",
+          optionB: "Twinkling stars",
+          optionC: "Radiant moon",
+          correctAnswer: "Radiant moon",
+        }),
+      shuffleOptions({
+          question: "What is emphasized as not to be squandered in the text?",
+          optionA: "Sun's warmth",
+          optionB: "Time",
+          optionC: "Earth's aroma",
+          correctAnswer: "Time",
+        }),
+      shuffleOptions({
+          question: "What is discouraged in the text regarding people's worth?",
+          optionA: "Judging",
+          optionB: "Relating",
+          optionC: "Squandering",
+          correctAnswer: "Judging",
         }),
       shuffleOptions({
           question:
-            "What was Swaminathan's first shock in life, according to the text?",
-          optionA: "Losing a game under the tamarind tree",
-          optionB: "Being scolded by Vedanayagam",
-          optionC: "Earning a new name - 'The Tail'",
-          correctAnswer: "Earning a new name - 'The Tail'",
+            "What is suggested to be related to as friends, not foes, in the text?",
+          optionA: "Beasts",
+          optionB: "Birds",
+          optionC: "Men",
+          correctAnswer: "Men, beasts, and birds",
         }),
       shuffleOptions({
-          question: "What did Somu call Swaminathan after the incident?",
-          optionA: "The Genius",
-          optionB: "The Tail-Rajam's Tail",
-          optionC: "The Lone Wanderer",
-          correctAnswer: "The Tail-Rajam's Tail",
+          question: "According to the text, what are all considered as?",
+          optionA: "Treasures",
+          optionB: "Friends",
+          optionC: "Creatures",
+          correctAnswer: "Creatures",
         }),
       shuffleOptions({
-          question: "What did Swaminathan do after the English period?",
-          optionA: "Played games under the tamarind tree",
-          optionB: "Walked home alone, troubled",
-          optionC: "Went to Rajam's house",
-          correctAnswer: "Walked home alone, troubled",
-        }),
-      shuffleOptions({
-          question:
-            "What did Swaminathan do with a piece of tin in the gutter?",
-          optionA: "Plunged his hand in and picked it up",
-          optionB: "Ignored it and walked away",
-          optionC: "Made a boat and sailed it",
-          correctAnswer: "Plunged his hand in and picked it up",
-        }),
-      shuffleOptions({
-          question: "What happened to the boat when it passed under a tree?",
-          optionA: "A brick obstructed its progress",
-          optionB: "A leaf fell down and upset it",
-          optionC: "It turned turtle",
-          correctAnswer: "A leaf fell down and upset it",
-        }),
-      shuffleOptions({
-          question:
-            "What did Swaminathan do after the boat and its cargo were wrecked beyond recovery?",
-          optionA: "Uttered a prayer for the soul of the ant",
-          optionB: "Left the spot without doing anything",
-          optionC: "Tried to retrieve the boat from the gutter",
-          correctAnswer: "Uttered a prayer for the soul of the ant",
+          question: "What is described as lustrous in the given text?",
+          optionA: "Flight of birds",
+          optionB: "Twinkling stars",
+          optionC: "Sun's warmth",
+          correctAnswer: "Twinkling stars",
    }),
     ]),
   }
@@ -118,84 +115,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question:
-            "The most important thing we've learned, So far as children are concerned, Is never, NEVER, NEVER let Them near your mobile set. Or better still, just don't buy The idiotic thing at all.",
-          optionA: "Engaged",
-          optionB: "Hypnotized",
-          optionC: "Bored",
-          correctAnswer: "Hypnotized",
-        }),
-      shuffleOptions({
-          question:
-            "Oh yes, we know it keeps them still, They don't climb out the window sill, They never fight or kick or punch, They leave you free to cook the lunch And wash the dishes in the sink-",
-          optionA: "Cat",
-          optionB: "Spot",
-          optionC: "Tot",
-          correctAnswer: "Tot",
-        }),
-      shuffleOptions({
-          question:
-            "IT ROTS THE SENSE IN THE HEAD! IT KILLS IMAGINATION DEAD! IT CLOGS AND CLUTTERS UP THE MIND!",
-          optionA: "Hard",
-          optionB: "Soft",
-          optionC: "Sharp",
-          correctAnswer: "Soft",
-        }),
-      shuffleOptions({
-          question:
-            "HE CANNOT THINK - HE ONLY SEES! 'All right!' you'll cry. 'All right!' you'll say, 'But if we take the set away, What shall we do to entertain Our darling children? Please explain!'",
-          optionA: "Born",
-          optionB: "Created",
-          optionC: "Invented",
-          correctAnswer: "Invented",
-        }),
-      shuffleOptions({
-          question:
-            "THEY ... USED ... TO ... READ! They'd READ and READ, AND READ and READ, and then proceed To READ some more. Great Scott! Gadzooks! One-half their lives was reading books!",
-          optionA: "Aplenty",
-          optionB: "Abundant",
-          optionC: "Galore",
-          correctAnswer: "Galore",
-        }),
-      shuffleOptions({
-          question:
-            "Such wondrous, fine, fantastic tales Of dragons, gypsies, queens, and whales And treasure isles, and distant shores Where smugglers rowed with ___________.",
-          optionA: "Hats",
-          optionB: "Coats",
-          optionC: "Pants",
-          correctAnswer: "Pants",
-        }),
-      shuffleOptions({
-          question:
-            "And in the bedroom, by the bed, More books were waiting to-be-read!­ The younger ones had Beatrix Potter With Mr. Tod, the dirty rotter, And Squirrel Nutkin, Pigling Bland, And Mrs. Tiggy-Winkle and ___________.",
-          optionA: "Hump",
-          optionB: "Jump",
-          optionC: "Lump",
-          correctAnswer: "Hump",
-        }),
-      shuffleOptions({
-          question:
-            "So please, oh please, we beg, we pray; Go throw your mobile set away, And in its place you can install A lovely ___________ on the wall.",
-          optionA: "Television",
-          optionB: "Bookshelf",
-          optionC: "Computer",
-          correctAnswer: "Bookshelf",
-        }),
-      shuffleOptions({
-          question:
-            "Of having nothing else to do, They'll now begin to feel the ___________ Of having something to read.",
-          optionA: "Boredom",
+          question: "Birth is a _______.",
+          optionA: "Challenge",
           optionB: "Joy",
-          optionC: "Anguish",
+          optionC: "Mystery",
           correctAnswer: "Joy",
         }),
       shuffleOptions({
-          question:
-            "That, in about a week or two Of having nothing else to do, They'll now begin to feel the ___________ Of having something to read.",
-          optionA: "Did",
-          optionB: "Said",
-          optionC: "Hid",
-          correctAnswer: "Did",
+          question: "Life is described as a _______.",
+          optionA: "Duty",
+          optionB: "Pleasure",
+          optionC: "Burden",
+          correctAnswer: "Pleasure",
+        }),
+      shuffleOptions({
+          question: '"Live it to the full, Treat it like a _______."',
+          optionA: "Task",
+          optionB: "Treasure",
+          optionC: "Trial",
+          correctAnswer: "Treasure",
+        }),
+      shuffleOptions({
+          question: "Inhale the aroma of _______.",
+          optionA: "Sky",
+          optionB: "Earth",
+          optionC: "Water",
+          correctAnswer: "Earth",
+        }),
+      shuffleOptions({
+          question: "Feast your eyes on Nature's _______.",
+          optionA: "Mysteries",
+          optionB: "Marvels",
+          optionC: "Miracles",
+          correctAnswer: "Marvels",
+        }),
+      shuffleOptions({
+          question: "The flight of the _______ in the sky.",
+          optionA: "Fish",
+          optionB: "Birds",
+          optionC: "Butterflies",
+          correctAnswer: "Birds",
+        }),
+      shuffleOptions({
+          question: "The twinkling stars so _______.",
+          optionA: "Mysterious",
+          optionB: "Lustrous",
+          optionC: "Dull",
+          correctAnswer: "Lustrous",
+        }),
+      shuffleOptions({
+          question: "The radiant moon dispelling the _______.",
+          optionA: "Light",
+          optionB: "Gloom",
+          optionC: "Stars",
+          correctAnswer: "Gloom",
+        }),
+      shuffleOptions({
+          question: "Squander not time, it is _______.",
+          optionA: "Inexhaustible",
+          optionB: "Precious",
+          optionC: "Irrelevant",
+          correctAnswer: "Precious",
+        }),
+      shuffleOptions({
+          question: "Relate with everyone around, Men, _______ and Birds.",
+          optionA: "Machines",
+          optionB: "Beasts",
+          optionC: "Monsters",
+          correctAnswer: "Beasts",
    }),
     ]),
   }
@@ -207,74 +194,69 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question:
-            "The boys of the First A had leisure between three and three forty-five on Wednesday.",
+          question: "The flight of birds in the sky is described as dull.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "True",
+          correctAnswer: "False",
         }),
       shuffleOptions({
-          question:
-            "Swaminathan found the children of the Infant Standards to be impressively tall.",
+          question: "In the text, life is portrayed as a burden.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question: "Squandering time is encouraged in the given text.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Swaminathan paused at the foot of the staircase leading to the senior classes.",
+            "The twinkling stars are described as lustrous in the text.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question: "The aroma of the Earth is not mentioned in the text.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The headmaster was sitting with his back to Swaminathan in the senior classes.",
+            "The text suggests that all creatures, including men, beasts, and birds, should be treated as foes.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Swaminathan joined his friends under the tamarind tree with a low, ecstatic cry.",
+            "The radiant moon contributes to the darkness of the night in the text.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The Pea mentioned that a tail is a long thing that attaches itself to an ass or a dog.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "Somu, the genial Somu, referred to Swaminathan as 'The Tail-Rajam's Tail.'",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "Vedanayagam presided over the English period and read the story of the old man who planted trees.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "Swaminathan made a boat and sailed it in the stream, where it faced various challenges.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "Swaminathan felt joy when the boat and its cargo were wrecked beyond recovery.",
+            "Feasting your eyes on Nature's marvels is not recommended in the text.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Judging other people's worth is advised in the given text.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question: "Treating life as a treasure is suggested in the text.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
    }),
     ]),
   }

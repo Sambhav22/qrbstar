@@ -1,4 +1,4 @@
-export const chapter = "Chapter -10: Food in Garbage";
+export const chapter = "Chapter - 10: The Lost Wit";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -32,83 +32,84 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question: "What did most students do during recess in the story?",
-          optionA: "Headed to the burger shop",
-          optionB: "Sat in the grass for lunch",
-          optionC: "Played near the water taps",
-          correctAnswer: "Sat in the grass for lunch",
+          question:
+            "What was Louisa May Alcott's naughty habit in her childhood?",
+          optionA: "Eating sweets without permission",
+          optionB: "Running away",
+          optionC: "Talking back to her parents",
+          correctAnswer: "Running away",
         }),
       shuffleOptions({
           question:
-            "Why were Saran and Madhur disappointed with their lunches?",
-          optionA: "They had too much food",
-          optionB: "They forgot their lunch boxes",
-          optionC: "They had the same lunch items repeatedly",
-          correctAnswer: "They had the same lunch items repeatedly",
+            "What did Louisa do when she grew tired of playing on the ash heap?",
+          optionA: "Went home immediately",
+          optionB: "Explored the market area",
+          optionC: "Joined another group of children",
+          correctAnswer: "Explored the market area",
         }),
       shuffleOptions({
           question:
-            "What subject were Saran and Madhur studying for after recess?",
-          optionA: "Mathematics",
-          optionB: "English",
-          optionC: "Science",
-          correctAnswer: "English",
+            "How did Louisa's parents try to locate her when she went missing?",
+          optionA: "They hired a detective",
+          optionB: "They asked neighbors for help",
+          optionC: "They hired the town crier to search the city",
+          correctAnswer: "They hired the town crier to search the city",
         }),
       shuffleOptions({
           question:
-            "What did Saran suggest they do after school instead of having lunch?",
-          optionA: "Go to the park",
-          optionB: "Visit a friend's house",
-          optionC: "Get something at the burger shop",
-          correctAnswer: "Get something at the burger shop",
+            "How did Louisa's parents prevent her from running away after the incident?",
+          optionA: "They locked her in her room",
+          optionB: "They tied her to a big sofa",
+          optionC: "They restricted her outdoor activities",
+          correctAnswer: "They tied her to a big sofa",
         }),
       shuffleOptions({
           question:
-            "What did Mr. Tyagi share with the students after the English test?",
-          optionA: "A math problem",
-          optionB: "A story",
-          optionC: "A science experiment",
-          correctAnswer: "A story",
+            "What did Louisa do to keep herself from running away again?",
+          optionA: "Tied herself to the sofa",
+          optionB: "Locked herself in her room",
+          optionC: "Engaged in storytelling and writing",
+          correctAnswer: "Engaged in storytelling and writing",
         }),
       shuffleOptions({
           question:
-            "In the African folktale, how did people get their food before?",
-          optionA: "From a supermarket",
-          optionB: "By hunting and planting crops",
-          optionC: "By trading with other tribes",
-          correctAnswer: "By hunting and planting crops",
-        }),
-      shuffleOptions({
-          question: "Why did the sky become angry in the folktale?",
-          optionA: "People stopped eating the sky",
-          optionB: "People wasted the food from the sky",
-          optionC: "People didn't appreciate the sky's gifts",
-          correctAnswer: "People wasted the food from the sky",
+            "What did Louisa decide to do whenever she felt the desire to slip out of the house without permission?",
+          optionA: "Tied herself to the sofa",
+          optionB: "Went to her little room and shut the door",
+          optionC: "Confessed to her mother immediately",
+          correctAnswer: "Went to her little room and shut the door",
         }),
       shuffleOptions({
           question:
-            "What did Aadmi do with the extra pieces of the sky he couldn't eat?",
-          optionA: "Shared them with his friends",
-          optionB: "Hid them in the garbage pile",
-          optionC: "Gave them to his children",
-          correctAnswer: "Hid them in the garbage pile",
+            "Why did Louisa's mother initially wonder why Louisa spent so much time in her room?",
+          optionA: "Louisa was playing hide and seek",
+          optionB: "Louisa was writing stories",
+          optionC: "Louisa was studying hard",
+          correctAnswer: "Louisa was writing stories",
         }),
       shuffleOptions({
           question:
-            "What was the consequence of Aadmi's actions in the folktale?",
-          optionA: "The sky disappeared",
-          optionB: "Aadmi became the king",
-          optionC: "People learned how to fly",
-          correctAnswer: "The sky disappeared",
+            "What happened to Louisa when she worked as a nurse during the Civil War?",
+          optionA: "She became very ill",
+          optionB: "She became a war hero",
+          optionC: "She received a promotion",
+          correctAnswer: "She became very ill",
         }),
       shuffleOptions({
           question:
-            "What lesson did Mr. Tyagi want the students to learn from the folktale?",
-          optionA: "Food should always be shared",
-          optionB: "Nature's gifts should be appreciated and not wasted",
-          optionC: "Burgers are better than homemade lunches",
-          correctAnswer:
-            "Nature's gifts should be appreciated and not wasted",
+            "When did Louisa's books start selling well, providing her with a substantial income?",
+          optionA: "After her first book",
+          optionB: "After her return from the hospital",
+          optionC: "After the Civil War",
+          correctAnswer: "After her return from the hospital",
+        }),
+      shuffleOptions({
+          question:
+            "What did Louisa May Alcott enjoy most during her travels at the age of fifty?",
+          optionA: "Meeting new people",
+          optionB: "Exploring new places",
+          optionC: "Eating different cuisines",
+          correctAnswer: "Exploring new places",
    }),
     ]),
   }
@@ -121,75 +122,83 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions(
         {
           question:
-            "The bell rang for recess, and the students spread out in the large lawn. Some headed towards the water taps while most sat in the grass to have their lunch in the winter sun. Saran and Madhur also had their books in their hands as they had to appear in the test soon after _______-time.",
-          optionA: "breakfast",
-          optionB: "lunch",
-          optionC: "half",
-          correctAnswer: "half",
+            "Louisa May Alcott slipped out of the house and up the street as fast as her feet could carry her. Louisa thought the children she met were fine playmates, and they shared some cold potatoes and bread crusts with her. She would not have thought much of this lunch in her mother's dining-room, but for an outdoor picnic, it did very well. When she was tired of the ash heap, she bade the children goodbye and hop-skipped to the ________ area.",
+          optionA: "Playground",
+          optionB: "Market",
+          optionC: "Park",
+          correctAnswer: "Market",
         }),
       shuffleOptions({
           question:
-            "Saran looked at the food in his lunch box and made a face. 'The same parantha with pickle; it's always the same lunch,' he said to his friend Madhur. 'You think that's bad,' Madhur said, 'I've got bread and jam again. It's the third time this week!' They pushed the food aside. 'It appears as if our mothers have forgotten all their culinary skills. We can get something at the burger shop after _______.'",
-          optionA: "school",
-          optionB: "dinner",
-          optionC: "lunch",
-          correctAnswer: "school",
+            'Louisa threw herself down on some doorsteps to rest and to watch the lamplighter, as this was long before there was any gas or electricity in Boston. At this moment, a big dog came along, kissed her face and hands, and sat down beside her with a sober look in his eyes, as if he were thinking: "I guess, Little Girl, you need someone to take care of you!" The dog kept very still, not wanting to wake her. The town crier went by, ringing a bell and reading the description of a ________ child.',
+          optionA: "Found",
+          optionB: "Missing",
+          optionC: "Happy",
+          correctAnswer: "Missing",
         }),
       shuffleOptions({
           question:
-            "English was the next period, and Mr. Tyagi had a reputation for giving tough tests. When the bell rang, they dropped their uneaten lunches into the garbage bin. Mr. Tyagi was standing nearby. 'Not hungry, guys?' he asked. They shook their heads and hurried off to _______.",
-          optionA: "recess",
-          optionB: "class",
-          optionC: "lunch",
-          correctAnswer: "class",
+            "Louisa's parents had missed her early in the forenoon and had looked for her in every place they could think of. Each hour they grew more worried, and at dusk, they decided to hire a man to search the ________.",
+          optionA: "Woods",
+          optionB: "City",
+          optionC: "Countryside",
+          correctAnswer: "City",
         }),
       shuffleOptions({
           question:
-            "Mr. Tyagi stood up and looked at his wristwatch. 'Students, we've some more time yet, and it's been long to have told you a story. Before I leave today,' he said, leaning against the desk, 'I'd like to share an old African folktale with you. I suppose you'll find this one _______.'",
-          optionA: "fascinating",
-          optionB: "boring",
-          optionC: "confusing",
-          correctAnswer: "fascinating",
+            'The runaway woke up and heard the town crier shouting: "Lost Lost - A little girl, six years old, in a pink frock, white hat, and new, green shoes." Louisa called out in the darkness: "Why, that\'s ________!"',
+          optionA: "Funny",
+          optionB: "Strange",
+          optionC: "ME",
+          correctAnswer: "ME",
         }),
       shuffleOptions({
           question:
-            "Long ago, the sky was close to the earth. Men and women did not have to grow their food. Instead, when they were hungry, they just reached up and broke off a piece of the sky to eat. Sometimes the sky tasted like ripe bananas. Other times it tasted like roasted potatoes or tamarind seeds. Every time a person tasted the sky, it was delicious and _______.",
-          optionA: "familiar",
-          optionB: "different",
-          optionC: "bland",
-          correctAnswer: "different",
+            "Louisa's parents had many frights about her, including an incident when she was two years old. While travelling on a steamboat, she darted away and crawled into the ________ to watch the machinery.",
+          optionA: "Dining area",
+          optionB: "Engine-room",
+          optionC: "Captain's cabin",
+          correctAnswer: "Engine-room",
         }),
       shuffleOptions({
           question:
-            "People spent their time making beautiful cloth, painting beautiful pictures, and singing songs at night. The grand king, Oba, had a wonderful palace. His servants made beautiful shapes out of the pieces of sky. However, all people were not as wise as others. Some of them did not use the gift of the sky wisely. They often took more than they could eat and discarded the extra food in the garbage. Whenever anyone took more than he could eat, the sky became _______.",
-          optionA: "happy",
-          optionB: "angry",
-          optionC: "sad",
-          correctAnswer: "angry",
+            "After her return home from working as a nurse during the Civil War, Louisa's books began to sell well. She found herself with a great deal of money, enough to buy luxuries and ________.",
+          optionA: "Travel",
+          optionB: "Jewelry",
+          optionC: "Art",
+          correctAnswer: "Travel",
         }),
       shuffleOptions({
           question:
-            "One day, the angry sky turned dark. Black clouds hung over the land, and the great voice of the sky reverberated over the land, 'You are wasting my gift of food. I warn you not to take more than you can eat. I don't want to see pieces of me in the garbage any more. You all must be wise, or I will take my gift away. That's the _______.'",
-          optionA: "conclusion",
-          optionB: "ultimatum",
-          optionC: "warning",
-          correctAnswer: "ultimatum",
+            "Louisa decided to cure herself of the running-away habit and began shutting herself in her room. To keep her mind from bad plans, she would shut her eyes and make up ________.",
+          optionA: "Games",
+          optionB: "Stories",
+          optionC: "Songs",
+          correctAnswer: "Stories",
         }),
       shuffleOptions({
           question:
-            "The king and the people trembled with fear. King Oba said, 'Let's be careful about how much food we take.' For a time, all the people were careful, but this did not continue for long. One man named Aadmi wasn't careful. At festival time, he broke so many delicious pieces of the sky that he couldn't eat them all. He knew he must not throw them away. He tried to give the pieces to his wife. 'Here, wife,' Aadmi said. 'You eat the _______.'",
-          optionA: "leftovers",
-          optionB: "snacks",
-          optionC: "dinner",
-          correctAnswer: "leftovers",
+            "Louisa's mother wondered why Louisa grew so fond of staying in her little chamber at the head of the stairs. She was pleased that the runaway child had changed into such a quiet, like-to-stay-at-home girl, engaging in the enjoyable activity of ________.",
+          optionA: "Painting",
+          optionB: "Writing",
+          optionC: "Cooking",
+          correctAnswer: "Writing",
         }),
       shuffleOptions({
           question:
-            "Aadmi asked all his children to help him eat the delicious pieces of sky, but the children had already eaten to their appetite and couldn't eat even one more bite. So Aadmi decided to be clever; he hid the pieces at the bottom of the garbage pile, but he could not hide his folly. The sky had already seen him. It suddenly turned angry; the dark clouds surrounded the earth. 'You have wasted my gift of food again,' thundered the sky while lightning flashed. 'You have ignored my warning, so you get food no more. I have decided to go away so you cannot waste me anymore.' All people cried and begged for mercy, 'What will we eat? We might _______.'",
-          optionA: "feast",
-          optionB: "starve",
-          optionC: "celebrate",
-          correctAnswer: "starve",
+            "Louisa's mother advised her to keep on writing when Louisa finally told her about the stories and rhymes hidden in her desk. By and by, Louisa found she liked making stories better than anything she had ever done in her life and became one of the best American ________.",
+          optionA: "Artists",
+          optionB: "Athletes",
+          optionC: "Storytellers",
+          correctAnswer: "Storytellers",
+        }),
+      shuffleOptions({
+          question:
+            "Louisa taught school, did sewing, took care of children, or worked at anything to provide comforts for those she loved. When the Civil War broke out, she went into one of the Union hospitals as a nurse. Louisa worked so hard that she grew very ill, and her father had to go after her and bring her home. One of her books tells about her life in the ________.",
+          optionA: "Countryside",
+          optionB: "Hospital",
+          optionC: "School",
+          correctAnswer: "Hospital",
    }),
     ]),
   }
@@ -201,68 +210,71 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question: "The students headed towards the water taps during recess.",
+          question:
+            "Louisa May Alcott slipped out of the house and up the street as fast as her feet could carry her.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
-          question: "Saran and Madhur were excited about their lunch options.",
+          question:
+            "Louisa shared a substantial lunch with the children she met on the ash heap.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Mr. Tyagi shared an African folktale with the students after the English test.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "In the African folktale, people could grow their food without any effort.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question: "The grand king in the folktale was named King Oba.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "The angry sky turned dark, and black clouds hung over the land in the folktale.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "Aadmi hid the extra pieces of the sky in the garbage pile.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "The sky warned the people not to waste its gift of food in the folktale.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "King Oba suggested being careless about the amount of food people take.",
+            "Louisa's parents hired a detective to search for her when she went missing.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The students promised Mr. Tyagi not to put their lunches in the garbage anymore.",
+            "The town crier announced Louisa's disappearance before she woke up on the doorsteps.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Louisa crawled into the engine-room of a steamboat when she was two years old.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "Louisa became a war hero during her work as a nurse in the Civil War.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Louisa decided to avoid running away by tying herself to a big sofa.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Louisa's mother initially wondered why Louisa spent time in her room because she was playing hide and seek.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Louisa's books began to sell well after her return from the hospital.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "Louisa enjoyed venturing into new places just as much at the age of fifty as she did when she sallied forth in her new green shoes.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",

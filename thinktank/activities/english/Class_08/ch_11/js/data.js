@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 11: An Angel in Disguise ";
+export const chapter = "Chapter - 11: To the Cuckoo";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -31,80 +31,81 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "What is the initial condition of the mother in the story?",
-        optionA: "She was wealthy",
-        optionB: "She was sick",
-        optionC: "She was dead",
-        correctAnswer: "She was dead",
+        question: "What is the name of the main character in the story?",
+        optionA: "Addie",
+        optionB: "Marian",
+        optionC: "The Nurse",
+        correctAnswer: "Marian",
+     }),
+      shuffleOptions({
+        question: "What organization does Marian belong to?",
+        optionA: "Girl Scouts",
+        optionB: "Old Ladies' Home",
+        optionC: "Campfire Girls",
+        correctAnswer: "Campfire Girls",
      }),
       shuffleOptions({
         question:
-          "How many children did the mother leave behind when she died?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        correctAnswer: "Three",
+          "What kind of potted plant does Marian bring to the Old Ladies' Home?",
+        optionA: "Rose",
+        optionB: "Multiflora cineraria",
+        optionC: "Daffodil",
+        correctAnswer: "Multiflora cineraria",
      }),
       shuffleOptions({
         question:
-          "Who among the children was considered strong enough to work on a farm?",
-        optionA: "John",
-        optionB: "Kate",
-        optionC: "Maggie",
-        correctAnswer: "John",
+          "How does Marian feel about the room she enters in the Old Ladies' Home?",
+        optionA: "Comfortable and welcoming",
+        optionB: "Claustrophobic and intimidating",
+        optionC: "Bright and spacious",
+        correctAnswer: "Claustrophobic and intimidating",
      }),
       shuffleOptions({
         question:
-          "What happened to Maggie two years before the events of the story?",
-        optionA: "She fell from a window",
-        optionB: "She got sick from a fever",
-        optionC: "She had a successful surgery",
-        correctAnswer: "She fell from a window",
-     }),
-      shuffleOptions({
-        question: "Who decided to take John and provide him with a home?",
-        optionA: "Farmer Jones",
-        optionB: "Mrs. Ellis",
-        optionC: "Joe Thompson",
-        correctAnswer: "Farmer Jones",
-     }),
-      shuffleOptions({
-        question: "What was the fate of Kate after her mother's death?",
-        optionA: "She went to the poorhouse",
-        optionB: "She found a loving family",
-        optionC: "She stayed with Maggie",
-        correctAnswer: "She found a loving family",
-     }),
-      shuffleOptions({
-        question: "What was the general consensus on what to do with Maggie?",
-        optionA: "Leave her to starve",
-        optionB: "Send her to a distant relative",
-        optionC: "Take her to the hospital",
-        correctAnswer: "Leave her to starve",
+          "What is the significance of bringing flowers to the Old Ladies' Home according to Marian's organization?",
+        optionA: "It counts as one point in her score",
+        optionB: "It doesn't count toward any score",
+        optionC: "It counts as double points in her score",
+        correctAnswer: "It counts as double points in her score",
      }),
       shuffleOptions({
         question:
-          "Who eventually decided to take Maggie in and provide her with care?",
-        optionA: "Joe Thompson",
-        optionB: "Mrs. Ellis",
-        optionC: "Farmer Jones",
-        correctAnswer: "Joe Thompson",
+          "What is Addie's reaction to the potted plant that Marian brings?",
+        optionA: "She thinks they are beautiful",
+        optionB: "She finds them ugly",
+        optionC: "She has no reaction",
+        correctAnswer: "She finds them ugly",
      }),
       shuffleOptions({
         question:
-          "How did Joe Thompson's wife initially react to Maggie's arrival?",
-        optionA: "She was overjoyed",
-        optionB: "She was angry and surprised",
-        optionC: "She was indifferent",
-        correctAnswer: "She was angry and surprised",
+          "Why does Addie become upset during the conversation with Marian?",
+        optionA: "Because she's unwell",
+        optionB: "Because it's her birthday",
+        optionC: "Because Marian is a stranger",
+        correctAnswer: "Because it's her birthday",
+     }),
+      shuffleOptions({
+        question: "What does Addie threaten to do when she becomes upset?",
+        optionA: "Ring a bell for the nurse",
+        optionB: "Cry loudly",
+        optionC: "Leave the room",
+        correctAnswer: "Ring a bell for the nurse",
      }),
       shuffleOptions({
         question:
-          "What transformation did Maggie bring to Joe Thompson's home?",
-        optionA: "She made it darker and more miserable",
-        optionB: "She filled it with love and happiness",
-        optionC: "She caused conflicts between Joe and his wife",
-        correctAnswer: "She filled it with love and happiness",
+          "How does the first old woman describe Marian when she mentions her school?",
+        optionA: "As a talkative stranger",
+        optionB: "As a polite and quiet girl",
+        optionC: "As a terrible old woman",
+        correctAnswer: "As a talkative stranger",
+     }),
+      shuffleOptions({
+        question:
+          "What is the final emotional response of the old ladies towards Marian as she leaves the room?",
+        optionA: "Affection and strange kinship",
+        optionB: "Annoyance and frustration",
+        optionC: "Disinterest and indifference",
+        correctAnswer: "Affection and strange kinship",
       }),
     ]),
   }
@@ -116,53 +117,53 @@ if (localStorage.getItem("activityNumber") == 2) {
     questions: shuffleQues([
       shuffleOptions({
         question:
-          "The dead mother lay cold and still amid her wretched children. She had fallen upon the ________ of her own door.",
-        correctAnswer: "threshold",
+          "When Marian arrived at the Old Ladies' Home, she was holding a potted plant before her, and she was wearing a red coat with her straight yellow hair hanging down loose from a pointed ________.",
+        correctAnswer: "Cap",
      }),
       shuffleOptions({
         question:
-          "John, the oldest, a boy of twelve, was a stout lad, able to earn his living with any ________.",
-        correctAnswer: "farmer",
+          "The nurse at the desk asked Marian if she was acquainted with any of the residents, to which Marian replied that she was not, but that 'any of them will ________.'",
+        correctAnswer: "Do",
      }),
       shuffleOptions({
         question:
-          "Kate, between ten and eleven, was a bright, active girl who could help in ________.",
-        correctAnswer: "housework",
+          "Marian noticed that the building where she was visiting the old ladies was made of ________ brick.",
+        correctAnswer: "Whitewashed",
      }),
       shuffleOptions({
         question:
-          "Maggie, the youngest, was hopelessly diseased. Two years before, a fall from a window had injured her ________.",
-        correctAnswer: "spine",
+          "The old lady in bed described the potted plant Marian brought as 'dirty ________.'",
+        correctAnswer: "Weeds",
      }),
       shuffleOptions({
         question:
-          "Farmer Jones placed John in his wagon and drove away, satisfied that he had done his part. Mrs. Ellis chose to make a choice of ________.",
-        correctAnswer: "Kate",
+          "The first old woman mentioned that last month, someone came to the Old Ladies' Home to read to them out of the ________.",
+        correctAnswer: "Bible",
      }),
       shuffleOptions({
         question:
-          "Maggie was left alone! Just beyond the threshold, Joe Thompson, the wheelwright, paused and said, 'It's a cruel thing to leave her so.'",
-        correctAnswer: "door",
+          "The first old woman placed the potted plant on top of the wardrobe, where it could hardly be seen from below, saying, 'You mustn't pay any attention to old Addie. She's ________ today.'",
+        correctAnswer: "Ailing",
      }),
       shuffleOptions({
         question:
-          "After the burial, Farmer Jones placed John in his wagon and drove away, satisfied that he had done his part. What did Mrs. Ellis do with Kate?",
-        correctAnswer: "She took her to the poorhouse.",
+          "The second old woman accused the first old woman of being a ________ and said, 'You never went to school. You never came and you never went. You never were anywhere - only here.'",
+        correctAnswer: "Stranger",
      }),
       shuffleOptions({
         question:
-          "Joe Thompson had well-grounded doubts about the manner of greeting he would receive from his wife when he arrived home. What did he carry with him?",
-        correctAnswer: "A sick child",
+          "The first old woman described her own actions when she was a little girl by saying, 'When I was a little girl like you, I went to school and all,' but the second old woman interjected, 'Hush! You never went to school. You never came and you never went. You never were anywhere - only here.'",
+        correctAnswer: "Cry",
      }),
       shuffleOptions({
         question:
-          "Joe didn't see the Guardians of the Poor on Maggie's account, for in less than a week, Mrs. Joe Thompson would leave the thought of sending her away. What brought light and blessing to their home?",
-        correctAnswer: "The sick child, Maggie",
+          "The old woman in bed warned Marian that if the worst came to the worst, she would ring a bell, and the nurse would come, pointing to a little bell on the table among the ________.",
+        correctAnswer: "Bottles",
      }),
       shuffleOptions({
         question:
-          "What filled the dreary chambers of Joe Thompson's home with the sunshine of love?",
-        correctAnswer: "The sick and helpless child",
+          "As Marian left the room, the two old ladies peered at her with affection and strange ________.",
+        correctAnswer: "Kinship",
       }),
     ]),
   }
@@ -173,54 +174,62 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Did the mother fall upon the threshold of her own door?",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "John was the youngest child among the three.",
+        question:
+          "Marian arrived at the Old Ladies' Home with a bouquet of flowers.",
         optionA: "True",
         optionB: "False",correctAnswer: "False",
      }),
       shuffleOptions({
         question:
-          "Kate was a bright and active girl who could help with housework.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Maggie's spine was injured from a fall two years before.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Farmer Jones chose to take Maggie with him.",
+          "Marian was familiar with some of the residents at the Old Ladies' Home.",
         optionA: "True",
         optionB: "False",correctAnswer: "False",
      }),
       shuffleOptions({
-        question: "Joe Thompson was a baker.",
+        question:
+          "The Old Ladies' Home was a large, modern building made of steel and glass.",
         optionA: "True",
         optionB: "False",correctAnswer: "False",
      }),
       shuffleOptions({
-        question: "Maggie was left alone in the hovel.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question: "Joe Thompson took Maggie to the poorhouse.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question: "Maggie brought light and blessing to Joe Thompson's home.",
+        question:
+          "The first old woman placed the potted plant on a high shelf where it could hardly be seen.",
         optionA: "True",
         optionB: "False",correctAnswer: "True",
      }),
       shuffleOptions({
         question:
-          "Joe's wife, Mrs. Thompson, initially wanted to send Maggie away.",
+          "The second old woman was welcoming and friendly towards Marian.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
+      shuffleOptions({
+        question:
+          "The first old woman accused Marian of being a talkative stranger.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "True",
+     }),
+      shuffleOptions({
+        question:
+          "Marian felt comfortable and relaxed in the room with the two old ladies.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
+      shuffleOptions({
+        question:
+          "The old woman in bed threatened to ring a bell when she became upset.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "True",
+     }),
+      shuffleOptions({
+        question:
+          "The old ladies' emotional response towards Marian was one of annoyance and frustration as she left.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
+      shuffleOptions({
+        question:
+          "The nurse at the desk was reading a magazine when Marian left the Old Ladies' Home.",
         optionA: "True",
         optionB: "False",correctAnswer: "True",
       }),

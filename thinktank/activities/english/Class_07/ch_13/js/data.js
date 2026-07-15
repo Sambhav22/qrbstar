@@ -1,4 +1,4 @@
-export const chapter = "Chapter -13: The Mobile Phone";
+export const chapter = "Chapter - 13: Bravo!";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -32,84 +32,78 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question:
-            "What is the author's main concern about mobile screens in the text?",
-          optionA: "They are too expensive",
-          optionB: "They can be addictive for children",
-          optionC: "They are not useful for adults",
-          correctAnswer: "They can be addictive for children",
+          question: "What is described as a joy in the given text?",
+          optionA: "Life",
+          optionB: "Birth",
+          optionC: "Pleasure",
+          correctAnswer: "Birth",
         }),
       shuffleOptions({
           question:
-            "According to the author, what negative impact can mobile screens have on children?",
-          optionA: "They improve imagination",
-          optionB: "They make children dull and blind",
-          optionC: "They encourage outdoor activities",
-          correctAnswer: "They make children dull and blind",
+            "What is encouraged to be treated like a treasure in the text?",
+          optionA: "Sun's warmth",
+          optionB: "Life",
+          optionC: "Nature's marvels",
+          correctAnswer: "Life",
+        }),
+      shuffleOptions({
+          question: "What is suggested to be feasted upon in the text?",
+          optionA: "Earth's aroma",
+          optionB: "Nature's marvels",
+          optionC: "Sun's warmth",
+          correctAnswer: "Nature's marvels",
         }),
       shuffleOptions({
           question:
-            "How does the author suggest replacing mobile screens in the text?",
-          optionA: "With outdoor games",
-          optionB: "With a bookshelf and books",
-          optionC: "With educational apps",
-          correctAnswer: "With a bookshelf and books",
+            "What is described as colorful and intricate, resembling poetry?",
+          optionA: "Flight of birds",
+          optionB: "Stars",
+          optionC: "Nature's marvels",
+          correctAnswer: "Nature's marvels",
         }),
       shuffleOptions({
           question:
-            "What did children use to do for entertainment before the invention of mobile screens, according to the text?",
-          optionA: "Play video games",
-          optionB: "Watch television",
-          optionC: "Read books",
-          correctAnswer: "Read books",
+            "What dispels the gloom of the darkness of the night in the text?",
+          optionA: "Flight of birds",
+          optionB: "Twinkling stars",
+          optionC: "Radiant moon",
+          correctAnswer: "Radiant moon",
+        }),
+      shuffleOptions({
+          question: "What is emphasized as not to be squandered in the text?",
+          optionA: "Sun's warmth",
+          optionB: "Time",
+          optionC: "Earth's aroma",
+          correctAnswer: "Time",
+        }),
+      shuffleOptions({
+          question: "What is discouraged in the text regarding people's worth?",
+          optionA: "Judging",
+          optionB: "Relating",
+          optionC: "Squandering",
+          correctAnswer: "Judging",
         }),
       shuffleOptions({
           question:
-            "What is the author's tone towards mobile screens in the text?",
-          optionA: "Neutral",
-          optionB: "Positive",
-          optionC: "Negative",
-          correctAnswer: "Negative",
+            "What is suggested to be related to as friends, not foes, in the text?",
+          optionA: "Beasts",
+          optionB: "Birds",
+          optionC: "Men",
+          correctAnswer: "Men, beasts, and birds",
         }),
       shuffleOptions({
-          question:
-            "According to the text, what did the younger ones have by Beatrix Potter?",
-          optionA: "Purple pants",
-          optionB: "Fairyland",
-          optionC: "Dirty rotter",
-          correctAnswer: "Fairyland",
+          question: "According to the text, what are all considered as?",
+          optionA: "Treasures",
+          optionB: "Friends",
+          optionC: "Creatures",
+          correctAnswer: "Creatures",
         }),
       shuffleOptions({
-          question:
-            "What does the author suggest about the impact of books on children in the text?",
-          optionA: "Books have no impact on children",
-          optionB: "Books enhance creativity and joy",
-          optionC: "Books make children dull",
-          correctAnswer: "Books enhance creativity and joy",
-        }),
-      shuffleOptions({
-          question:
-            "What activity does the author recommend to replace mobile screen usage?",
-          optionA: "Outdoor sports",
-          optionB: "Reading books",
-          optionC: "Playing with toys",
-          correctAnswer: "Reading books",
-        }),
-      shuffleOptions({
-          question:
-            "What does the author promise will happen if mobile screens are replaced with books?",
-          optionA: "Children will become more addicted",
-          optionB: "Children will lose interest in reading",
-          optionC: "Children will grow keen and love the change",
-          correctAnswer: "Children will grow keen and love the change",
-        }),
-      shuffleOptions({
-          question:
-            "How does the author describe the mobile screen in the text?",
-          optionA: "Lovely and clean",
-          optionB: "Repulsive and foul",
-          optionC: "Educational and useful",
-          correctAnswer: "Repulsive and foul",
+          question: "What is described as lustrous in the given text?",
+          optionA: "Flight of birds",
+          optionB: "Twinkling stars",
+          optionC: "Sun's warmth",
+          correctAnswer: "Twinkling stars",
    }),
     ]),
   }
@@ -121,84 +115,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question:
-            "The most important thing we've learned, So far as children are concerned, Is never, NEVER, NEVER let Them near your mobile set. Or better still, just don't buy The idiotic thing at all.",
-          optionA: "Engaged",
-          optionB: "Hypnotized",
-          optionC: "Bored",
-          correctAnswer: "Hypnotized",
-        }),
-      shuffleOptions({
-          question:
-            "Oh yes, we know it keeps them still, They don't climb out the window sill, They never fight or kick or punch, They leave you free to cook the lunch And wash the dishes in the sink-",
-          optionA: "Cat",
-          optionB: "Spot",
-          optionC: "Tot",
-          correctAnswer: "Tot",
-        }),
-      shuffleOptions({
-          question:
-            "IT ROTS THE SENSE IN THE HEAD! IT KILLS IMAGINATION DEAD! IT CLOGS AND CLUTTERS UP THE MIND!",
-          optionA: "Hard",
-          optionB: "Soft",
-          optionC: "Sharp",
-          correctAnswer: "Soft",
-        }),
-      shuffleOptions({
-          question:
-            "HE CANNOT THINK - HE ONLY SEES! 'All right!' you'll cry. 'All right!' you'll say, 'But if we take the set away, What shall we do to entertain Our darling children? Please explain!'",
-          optionA: "Born",
-          optionB: "Created",
-          optionC: "Invented",
-          correctAnswer: "Invented",
-        }),
-      shuffleOptions({
-          question:
-            "THEY ... USED ... TO ... READ! They'd READ and READ, AND READ and READ, and then proceed To READ some more. Great Scott! Gadzooks! One-half their lives was reading books!",
-          optionA: "Aplenty",
-          optionB: "Abundant",
-          optionC: "Galore",
-          correctAnswer: "Galore",
-        }),
-      shuffleOptions({
-          question:
-            "Such wondrous, fine, fantastic tales Of dragons, gypsies, queens, and whales And treasure isles, and distant shores Where smugglers rowed with ___________.",
-          optionA: "Hats",
-          optionB: "Coats",
-          optionC: "Pants",
-          correctAnswer: "Pants",
-        }),
-      shuffleOptions({
-          question:
-            "And in the bedroom, by the bed, More books were waiting to-be-read!­ The younger ones had Beatrix Potter With Mr. Tod, the dirty rotter, And Squirrel Nutkin, Pigling Bland, And Mrs. Tiggy-Winkle and ___________.",
-          optionA: "Hump",
-          optionB: "Jump",
-          optionC: "Lump",
-          correctAnswer: "Hump",
-        }),
-      shuffleOptions({
-          question:
-            "So please, oh please, we beg, we pray; Go throw your mobile set away, And in its place you can install A lovely ___________ on the wall.",
-          optionA: "Television",
-          optionB: "Bookshelf",
-          optionC: "Computer",
-          correctAnswer: "Bookshelf",
-        }),
-      shuffleOptions({
-          question:
-            "Of having nothing else to do, They'll now begin to feel the ___________ Of having something to read.",
-          optionA: "Boredom",
+          question: "Birth is a _______.",
+          optionA: "Challenge",
           optionB: "Joy",
-          optionC: "Anguish",
+          optionC: "Mystery",
           correctAnswer: "Joy",
         }),
       shuffleOptions({
-          question:
-            "That, in about a week or two Of having nothing else to do, They'll now begin to feel the ___________ Of having something to read.",
-          optionA: "Did",
-          optionB: "Said",
-          optionC: "Hid",
-          correctAnswer: "Did",
+          question: "Life is described as a _______.",
+          optionA: "Duty",
+          optionB: "Pleasure",
+          optionC: "Burden",
+          correctAnswer: "Pleasure",
+        }),
+      shuffleOptions({
+          question: '"Live it to the full, Treat it like a _______."',
+          optionA: "Task",
+          optionB: "Treasure",
+          optionC: "Trial",
+          correctAnswer: "Treasure",
+        }),
+      shuffleOptions({
+          question: "Inhale the aroma of _______.",
+          optionA: "Sky",
+          optionB: "Earth",
+          optionC: "Water",
+          correctAnswer: "Earth",
+        }),
+      shuffleOptions({
+          question: "Feast your eyes on Nature's _______.",
+          optionA: "Mysteries",
+          optionB: "Marvels",
+          optionC: "Miracles",
+          correctAnswer: "Marvels",
+        }),
+      shuffleOptions({
+          question: "The flight of the _______ in the sky.",
+          optionA: "Fish",
+          optionB: "Birds",
+          optionC: "Butterflies",
+          correctAnswer: "Birds",
+        }),
+      shuffleOptions({
+          question: "The twinkling stars so _______.",
+          optionA: "Mysterious",
+          optionB: "Lustrous",
+          optionC: "Dull",
+          correctAnswer: "Lustrous",
+        }),
+      shuffleOptions({
+          question: "The radiant moon dispelling the _______.",
+          optionA: "Light",
+          optionB: "Gloom",
+          optionC: "Stars",
+          correctAnswer: "Gloom",
+        }),
+      shuffleOptions({
+          question: "Squander not time, it is _______.",
+          optionA: "Inexhaustible",
+          optionB: "Precious",
+          optionC: "Irrelevant",
+          correctAnswer: "Precious",
+        }),
+      shuffleOptions({
+          question: "Relate with everyone around, Men, _______ and Birds.",
+          optionA: "Machines",
+          optionB: "Beasts",
+          optionC: "Monsters",
+          correctAnswer: "Beasts",
    }),
     ]),
   }
@@ -210,74 +194,69 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question:
-            "Cattle are often referred to as a farmer's second most precious possession after gold.",
+          question: "The flight of birds in the sky is described as dull.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question: "In the text, life is portrayed as a burden.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question: "Squandering time is encouraged in the given text.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "In Hinduism, Lord Krishna is known as Govind, which means the consumer of cows.",
+            "The twinkling stars are described as lustrous in the text.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
-          question:
-            "The five products of a cow, including milk, urine, dung, curd, and ghee, are collectively known as Pentalogy.",
+          question: "The aroma of the Earth is not mentioned in the text.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Buffalo milk in India is considered healthier than cow milk due to its higher content of protein.",
+            "The text suggests that all creatures, including men, beasts, and birds, should be treated as foes.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The cattle found in India are unique to the Indian subcontinent and are not found in African countries.",
+            "The radiant moon contributes to the darkness of the night in the text.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The domesticated cattle differ from wild ones in their smaller size, horns, and the development of milk characteristics.",
+            "Feasting your eyes on Nature's marvels is not recommended in the text.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Judging other people's worth is advised in the given text.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question: "Treating life as a treasure is suggested in the text.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "The cattle's stomach is divided into three sections, which play different roles in digestion.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Some courtiers grow jealous of the ragged minister in the story due to his magical powers at the court.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "The minister's daily routine is falsely rumored to include practicing conspiracy before meeting the king.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "To preserve milk and eliminate bacteria, it is recommended to carry out proper feeding.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
    }),
     ]),
   }

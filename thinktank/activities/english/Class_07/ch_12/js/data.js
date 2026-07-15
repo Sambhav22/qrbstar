@@ -1,4 +1,4 @@
-export const chapter = "Chapter -12: The Great Weep";
+export const chapter = "Chapter - 12: The Throat Specialist";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -32,84 +32,83 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question:
-            "Who was the monarch ruling England in the second decade of the twentieth century in the given text?",
-          optionA: "Hermann the Wise",
-          optionB: "Hermann the Irascible",
-          optionC: "The Prime Minister",
-          correctAnswer: "Hermann the Irascible",
+          question: "What was Jimmy Scarecrow's greatest grief in the winter?",
+          optionA: "Lack of friends",
+          optionB: "Lack of presents",
+          optionC: "Lack of occupation",
+          correctAnswer: "Lack of occupation",
         }),
       shuffleOptions({
           question:
-            "What legislative suggestion did Hermann the Irascible make regarding women's voting rights?",
-          optionA: "Women must have the option to vote",
-          optionB: "Women must not be allowed to vote",
-          optionC: "Women must be obliged to vote",
-          correctAnswer: "Women must be obliged to vote",
+            "What did Jimmy Scarecrow ask Santa Claus for on Christmas Eve?",
+          optionA: "A new coat",
+          optionB: "A crazy quilt",
+          optionC: "A little present",
+          correctAnswer: "A little present",
         }),
       shuffleOptions({
           question:
-            "What penalty did the female elector face for failing to vote at any election according to Hermann's proposal?",
-          optionA: "5 pounds",
-          optionB: "10 pounds",
-          optionC: "No penalty",
-          correctAnswer: "10 pounds",
+            "What did Betsey give Jimmy Scarecrow as a Christmas present?",
+          optionA: "A pair of mittens",
+          optionB: "A doll-baby",
+          optionC: "A crazy quilt",
+          correctAnswer: "A doll-baby",
         }),
       shuffleOptions({
           question:
-            "How did the female disenfranchisement agitation express its dissent?",
-          optionA: "Peaceful protests",
-          optionB: "Violent methods",
-          optionC: "Petitions to the government",
-          correctAnswer: "Violent methods",
+            "Why did Betsey bring Aunt Hannah's crazy quilt to Jimmy Scarecrow?",
+          optionA: "To keep him warm",
+          optionB: "To use as a sled",
+          optionC: "As a Christmas prank",
+          correctAnswer: "To keep him warm",
         }),
       shuffleOptions({
           question:
-            "What was the impact of the Compulsory Female Franchise on women's daily lives?",
-          optionA: "Increased leisure time",
-          optionB: "More opportunities for women",
-          optionC: "Disruption of daily routines",
-          correctAnswer: "Disruption of daily routines",
+            "What did Santa Claus suggest Jimmy Scarecrow do at the North Pole?",
+          optionA: "Scare away crows",
+          optionB: "Scare away Arctic Explorers",
+          optionC: "Help make toys",
+          correctAnswer: "Scare away Arctic Explorers",
         }),
       shuffleOptions({
           question:
-            "What expedient did women adopt as a last resort to protest against the government's stance on voting?",
-          optionA: "Peaceful demonstrations",
-          optionB: "The Great Weep",
-          optionC: "Political lobbying",
-          correctAnswer: "The Great Weep",
-        }),
-      shuffleOptions({
-          question: "How did the government respond to the Great Weep?",
-          optionA: "Agreed to women's demands",
-          optionB: "Ignored the protest",
-          optionC: "Passed a measure to deprive women of the right to vote",
-          correctAnswer:
-            "Passed a measure to deprive women of the right to vote",
+            "How did Santa Claus ensure the safety of the cornfield next summer?",
+          optionA: "Installed a scarecrow",
+          optionB: "Wrote a notice to crows",
+          optionC: "Used a magic spell",
+          correctAnswer: "Wrote a notice to crows",
         }),
       shuffleOptions({
           question:
-            "What was the impact of the Great Weep on public places and events?",
-          optionA: "Increased attendance",
-          optionB: "Decreased attendance",
-          optionC: "Became centers of weeping",
-          correctAnswer: "Became centers of weeping",
+            "What happened to the crazy quilt and the doll-baby when it started raining?",
+          optionA: "They disappeared",
+          optionB: "They turned into ice",
+          optionC: "They got soaked through",
+          correctAnswer: "They got soaked through",
         }),
       shuffleOptions({
           question:
-            "Why did the Prime Minister decide to yield to women's demands?",
-          optionA: "The government sympathized with the protesters",
-          optionB: "Women had gained widespread support",
-          optionC: "The Great Weep disrupted daily life significantly",
-          correctAnswer: "The Great Weep disrupted daily life significantly",
+            "Why did Aunt Hannah and Betsey think the quilt and doll were spoiled?",
+          optionA: "They were too small",
+          optionB: "They were not crazy enough",
+          optionC: "They got wet in the rain",
+          correctAnswer: "They got wet in the rain",
         }),
       shuffleOptions({
           question:
-            "What nickname is given to Hermann in the text, indicating both his temperament and wisdom?",
-          optionA: "The Wise",
-          optionB: "The Irascible",
-          optionC: "The Progressive",
-          correctAnswer: "The Irascible",
+            "What did Aunt Hannah receive as a Christmas present the following year?",
+          optionA: "A new crazy quilt",
+          optionB: "A pair of spectacles",
+          optionC: "Her old crazy quilt, remodelled",
+          correctAnswer: "Her old crazy quilt, remodelled",
+        }),
+      shuffleOptions({
+          question:
+            "How did Jimmy Scarecrow ensure the safety of the cornfield in the absence of a scarecrow?",
+          optionA: "Wrote a letter to crows",
+          optionB: "Planted more corn",
+          optionC: "Cast a protective spell",
+          correctAnswer: "Wrote a letter to crows",
    }),
     ]),
   }
@@ -122,83 +121,83 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions(
         {
           question:
-            "Hermann the Irascible, also known as ________, sat on the British throne in the second decade of the twentieth century.",
-          optionA: "The Progressive",
-          optionB: "The Wise",
-          optionC: "The Irresistible",
-          correctAnswer: "The Wise",
+            "Jimmy Scarecrow's greatest grief in the winter was his lack of ____________.",
+          optionA: "Friends",
+          optionB: "Presents",
+          optionC: "Occupation",
+          correctAnswer: "Occupation",
         }),
       shuffleOptions({
           question:
-            "Hermann suggested a Bill that mandated women to vote at all future elections, with a penalty of ________ for failure to vote.",
-          optionA: "5 pounds",
-          optionB: "10 pounds",
-          optionC: "15 pounds",
-          correctAnswer: "10 pounds",
+            "On Christmas Eve, Santa Claus came in his sledge heaped high with presents, urging his team of reindeer across the field. Santa was on his way to the farmhouse where Betsey lived with her Aunt __________.",
+          optionA: "Mary",
+          optionB: "Susan",
+          optionC: "Hannah",
+          correctAnswer: "Hannah",
         }),
       shuffleOptions({
           question:
-            "The Compulsory Female Franchise made elections an ________ task in country districts and an incubus in towns and cities.",
-          optionA: "Enjoyable",
-          optionB: "Irksome",
-          optionC: "Effortless",
-          correctAnswer: "Irksome",
+            "Betsey's Christmas doll-baby was tucked up against the fur collar of Santa Claus's ____________.",
+          optionA: "Jacket",
+          optionB: "Coat",
+          optionC: "Vest",
+          correctAnswer: "Coat",
         }),
       shuffleOptions({
           question:
-            "The No-Votes-for-Women League's battle hymn was \"We Don't Want to Vote,\" and it became a popular ________.",
-          optionA: "Slogan",
-          optionB: "Refrain",
-          optionC: "Anthem",
-          correctAnswer: "Refrain",
+            "The next morning, Betsey looked out at Jimmy Scarecrow standing alone in the field amidst the ____________.",
+          optionA: "Flowers",
+          optionB: "Snowdrifts",
+          optionC: "Corn-stubble",
+          correctAnswer: "Corn-stubble",
         }),
       shuffleOptions({
           question:
-            "Women organized the Great Weep as a ________ to protest, with relays of ten thousand women weeping continuously in public places.",
-          optionA: "Celebration",
-          optionB: "Festival",
-          optionC: "Expedient",
-          correctAnswer: "Expedient",
+            "Betsey brought Jimmy Scarecrow a Christmas present, a ____________.",
+          optionA: "Pair of mittens",
+          optionB: "Doll-baby",
+          optionC: "Crazy quilt",
+          correctAnswer: "Doll-baby",
         }),
       shuffleOptions({
           question:
-            "The King suggested passing a measure through the two Houses depriving women of the right to vote as a ________ to the Great Weep.",
-          optionA: "Solution",
-          optionB: "Countermeasure",
-          optionC: "Response",
-          correctAnswer: "Countermeasure",
+            "Jimmy Scarecrow felt happy with the doll-baby under his coat until the snow began to turn to ____________.",
+          optionA: "Ice",
+          optionB: "Rain",
+          optionC: "Hail",
+          correctAnswer: "Rain",
         }),
       shuffleOptions({
           question:
-            "The Minister withdrew as Hermann the Irascible gave a profound ________.",
-          optionA: "Smile",
-          optionB: "Laughter",
-          optionC: "Chuckle",
-          correctAnswer: "Chuckle",
+            "To keep the doll-baby from getting wet, Betsey suggested that Jimmy Scarecrow should keep her under his ____________.",
+          optionA: "Hat",
+          optionB: "Overcoat",
+          optionC: "Scarf",
+          correctAnswer: "Overcoat",
         }),
       shuffleOptions({
           question:
-            'Hermann the Irascible quoted, "There are more ways of killing a cat than by choking it with cream," indicating his ________.',
-          optionA: "Humor",
-          optionB: "Wisdom",
-          optionC: "Mischief",
-          correctAnswer: "Wisdom",
+            "Aunt Hannah spread her crazy quilt over the sofa with an air of ____________ after working on it until the middle of the afternoon.",
+          optionA: "Pride",
+          optionB: "Regret",
+          optionC: "Frustration",
+          correctAnswer: "Pride",
         }),
       shuffleOptions({
           question:
-            'The Prime Minister asked, "What are we to do?" as his cook had wept into all the ________ dishes.',
-          optionA: "Lunch",
-          optionB: "Dinner",
-          optionC: "Breakfast",
-          correctAnswer: "Breakfast",
+            "Aunt Hannah set out through the snow to carry a slice of plum-pudding to her sister ____________, who lived down the road.",
+          optionA: "Mary",
+          optionB: "Susan",
+          optionC: "Betsey",
+          correctAnswer: "Susan",
         }),
       shuffleOptions({
           question:
-            "Hermann suggested passing a measure to deprive women of the right to vote as a ________ to the continuous protests.",
-          optionA: "Concession",
-          optionB: "Compromise",
-          optionC: "Resolution",
-          correctAnswer: "Concession",
+            "When Christmas came round again, Aunt Hannah and Betsey found their presents in the sitting-room: Aunt Hannah's old crazy quilt, remodelled, and Betsey's doll-baby, a year ____________.",
+          optionA: "Older",
+          optionB: "Younger",
+          optionC: "Smaller",
+          correctAnswer: "Older",
    }),
     ]),
   }
@@ -211,73 +210,73 @@ if (localStorage.getItem("activityNumber") == 3) {
       shuffleOptions(
         {
           question:
-            "The monarch in England during the twentieth century in the provided text was Hermann the Wise.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Hermann the Irascible proposed a Bill making voting optional for both male and female electors.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "The Compulsory Female Franchise resulted in elation among circles that had demanded the vote.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "The penalty for failing to vote under the new Act was 5 pounds.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Laundresses and seamstresses in country districts had to vote for candidates they hadn't heard of before.",
+            "Jimmy Scarecrow's greatest grief in the winter was his lack of occupation.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The Great Weep involved women weeping continuously in public places as a form of protest.",
+            "On Christmas Eve, Santa Claus came in his sledge heaped high with toys for the children in the farmhouse.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Betsey gave Jimmy Scarecrow a pair of mittens as a Christmas present.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "To keep the doll-baby dry, Betsey suggested that Jimmy Scarecrow should keep her under his hat.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Aunt Hannah spread her crazy quilt over the sofa with an air of regret.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Aunt Hannah went out through the snow to carry a slice of plum-pudding to her sister Mary.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Betsey's doll-baby grew an inch and could walk and talk after a year.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The government yielded to the No-Votes-for-Women League's demands after the Great Weep.",
+            "Santa Claus suggested that Jimmy Scarecrow should scare away crows at the North Pole.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The King suggested passing a measure to grant women even more voting rights.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "The female disenfranchisement agitation led to a decline in weekend parties and summer holidays.",
+            "Santa Claus wrote a notice to crows to keep the cornfield safe next summer.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            'Hermann the Irascible quoted, "There are more ways of killing a cat than by choking it with cream," as a serious suggestion.',
+            "Aunt Hannah and Betsey thought their presents were spoiled because they got wet in the rain.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "False",
+          correctAnswer: "True",
    }),
     ]),
   }

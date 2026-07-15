@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 3: tFhe Generou Doll ";
+export const chapter = "Chapter - 3: From a Railway Carriage";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -31,84 +31,81 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question:
-          "What did Marcella love to play with when she was free from school and school work?",
-        optionA: "Puzzles",
-        optionB: "Dolls",
-        optionC: "Board games",
-        correctAnswer: "Dolls",
+        question: "What did the farmer instruct his three sons to do?",
+        optionA: "Find a job",
+        optionB: "Go in search of brides",
+        optionC: "Explore the forest",
+        correctAnswer: "Go in search of brides",
      }),
       shuffleOptions({
-        question: "Where did Marcella's dolls come from?",
-        optionA: "Only from England and France",
-        optionB:
-          "From various countries, including England, France, Russia, and more",
-        optionC: "Only from America and Brazil",
+        question:
+          "Which direction did the eldest son's tree branch point when he chopped it down?",
+        optionA: "North",
+        optionB: "South",
+        optionC: "East",
+        correctAnswer: "North",
+     }),
+      shuffleOptions({
+        question: "Where did the second son's tree branch point?",
+        optionA: "North",
+        optionB: "South",
+        optionC: "East",
+        correctAnswer: "South",
+     }),
+      shuffleOptions({
+        question: "Where did the youngest son, Veikko's, tree branch point?",
+        optionA: "North",
+        optionB: "South",
+        optionC: "The forest",
+        correctAnswer: "The forest",
+     }),
+      shuffleOptions({
+        question:
+          "What did Veikko find in the forest when he ventured in that direction?",
+        optionA: "A hut with a princess inside",
+        optionB: "An empty hut with only a mouse",
+        optionC: "A hidden treasure",
+        correctAnswer: "An empty hut with only a mouse",
+     }),
+      shuffleOptions({
+        question:
+          "How did the little mouse convince Veikko to choose her as his sweetheart?",
+        optionA: "She offered him a gift",
+        optionB: "She sang a song",
+        optionC: "She promised to make him rich",
+        correctAnswer: "She sang a song",
+     }),
+      shuffleOptions({
+        question:
+          "What skill did the farmer test the three brothers' sweethearts on after the bread-baking test?",
+        optionA: "Singing",
+        optionB: "Dancing",
+        optionC: "Weaving",
+        correctAnswer: "Weaving",
+     }),
+      shuffleOptions({
+        question:
+          "What did the little mouse use to create a sample of her weaving?",
+        optionA: "Cotton and linen",
+        optionB: "Flax",
+        optionC: "Straw",
+        correctAnswer: "Flax",
+     }),
+      shuffleOptions({
+        question:
+          "How did the little mouse transform for the meeting with Veikko's father?",
+        optionA: "She turned into a beautiful princess",
+        optionB: "She became a giant mouse",
+        optionC: "She remained the same",
+        correctAnswer: "She turned into a beautiful princess",
+     }),
+      shuffleOptions({
+        question: "Why did the little mouse turn into a princess?",
+        optionA: "The farmer's spell was broken when his sons laughed at her",
+        optionB: "She was always a princess in disguise",
+        optionC: "Veikko wished for it",
         correctAnswer:
-          "From various countries, including England, France, Russia, and more",
-     }),
-      shuffleOptions({
-        question:
-          "What was the name of the doll that lay on the floor with twisted arms and legs?",
-        optionA: "Annabel-Lee",
-        optionB: "Thomas",
-        optionC: "Raggedy Ann",
-        correctAnswer: "Raggedy Ann",
-     }),
-      shuffleOptions({
-        question:
-          "What was the reason Raggedy Ann lay still when the new dolls made fun of her?",
-        optionA: "She was embarrassed about her appearance",
-        optionB: "She didn't hear them",
-        optionC: "She was asleep",
-        correctAnswer: "She was embarrassed about her appearance",
-     }),
-      shuffleOptions({
-        question:
-          "What were the names of the two new dolls Marcella received in the morning mail?",
-        optionA: "Susan and John",
-        optionB: "Annabel-Lee and Thomas",
-        optionC: "Jane and Michael",
-        correctAnswer: "Annabel-Lee and Thomas",
-     }),
-      shuffleOptions({
-        question:
-          "What did Annabel-Lee and Thomas find on Uncle Clem, the Scottish doll?",
-        optionA: "Holes in his knees",
-        optionB: "Missing arms",
-        optionC: "Yarn hair",
-        correctAnswer: "Holes in his knees",
-     }),
-      shuffleOptions({
-        question:
-          "Where did Marcella place Annabel-Lee and Thomas for the night when she received them?",
-        optionA: "On the doll sofa",
-        optionB: "In the red doll chairs",
-        optionC: "On the hard floor",
-        correctAnswer: "In the red doll chairs",
-     }),
-      shuffleOptions({
-        question:
-          "What gesture did Raggedy Ann make to welcome Annabel-Lee and Thomas to the doll family?",
-        optionA: "She hugged them and tucked them in her bed",
-        optionB: "She ignored them",
-        optionC: "She criticized their appearance",
-        correctAnswer: "She hugged them and tucked them in her bed",
-     }),
-      shuffleOptions({
-        question:
-          "How did Annabel and Thomas feel about Raggedy Ann after realizing her kindness?",
-        optionA: "Ashamed and regretful",
-        optionB: "Proud and superior",
-        optionC: "Indifferent",
-        correctAnswer: "Ashamed and regretful",
-     }),
-      shuffleOptions({
-        question: "What was written on Raggedy Ann's candy heart?",
-        optionA: "I Love You",
-        optionB: "Be My Friend",
-        optionC: "Sweet Dreams",
-        correctAnswer: "I Love You",
+          "The farmer's spell was broken when his sons laughed at her",
       }),
     ]),
   }
@@ -119,93 +116,87 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question:
-          "Marcella loved to play with her dolls when she was free from school and school work. She had many dolls from various countries, including England, France, Russia, and more, with each one being unique in itself. She had named them all too. One of these lovely dolls was ________.",
+        question: "What did the farmer instruct his three sons to do?",
         options: {
-          a: "Raggedy Ann",
-          b: "Thomas",
-          c: "Susan",
-        correctAnswer: "a",
+          a: "Find a job",
+          b: "Go in search of brides",
+          c: "Explore the forest",
+        correctAnswer: "b",
      }),
       shuffleOptions({
-        question:
-          "Raggedy Ann lay on the floor with her rag arms and legs twisted in ungraceful attitudes. Her yarn hair was twisted and lay partly over her face, hiding one of her ________.",
+        question: "The eldest son's tree branch fell pointing __________.",
         options: {
-          a: "Glass eyes",
-          b: "Shoe-button eyes",
-          c: "Plastic eyes",
+          a: "East",
+          b: "North",
+          c: "South",
+        correctAnswer: "b",
+     }),
+      shuffleOptions({
+        question: "The second son's tree branch fell pointing __________.",
+        options: {
+          a: "East",
+          b: "North",
+          c: "South",
+        correctAnswer: "c",
+     }),
+      shuffleOptions({
+        question: "The youngest son's name was __________.",
+        options: {
+          a: "Vinnie",
+          b: "Veikko",
+          c: "Viktor",
         correctAnswer: "b",
      }),
       shuffleOptions({
         question:
-          "Annabel-Lee and Thomas were beautiful dolls with real hair and lovely clothing. Annabel-Lee's hair was of a lovely shade of auburn, and Thomas' hair was ________.",
+          "Veikko started off with a brave front but after he had gone some distance in the forest, his courage began to __________.",
         options: {
-          a: "Golden yellow",
-          b: "Bright red",
-          c: "Jet black",
-        correctAnswer: "a",
+          a: "Grow",
+          b: "Ebb",
+          c: "Soar",
+        correctAnswer: "b",
      }),
       shuffleOptions({
-        question:
-          "Annabel-Lee and Thomas were placed in two little red doll chairs when Marcella received them. What did Uncle Clem, the Scottish doll, do when he saw the new dolls? He walked in front of them and ________.",
+        question: "Suddenly he noticed a little __________ in the forest.",
         options: {
-          a: "Laughed at them",
-          b: "Pulled at his yarn mustache",
-          c: "Hugged them",
+          a: "Bear",
+          b: "Hut",
+          c: "River",
         correctAnswer: "b",
      }),
       shuffleOptions({
         question:
-          "When Annabel-Lee and Thomas made fun of Raggedy Ann's appearance, the French dolly scolded them for their behavior. She told them that they should not look down upon the other dolls and reminded them that they share in each other's ________ and happiness.",
+          "To be sure, there was a little __________ sitting on the table.",
         options: {
-          a: "Games",
-          b: "Adventures",
-          c: "Secrets",
+          a: "Squirrel",
+          b: "Mouse",
+          c: "Bird",
         correctAnswer: "b",
      }),
       shuffleOptions({
         question:
-          "Marcella did not undress Annabel-Lee and Thomas on the first night she received them because she had no ________ for them.",
+          "Veikko's elder brothers went off gaily and presented themselves to the two farmers whose __________ they admired.",
         options: {
-          a: "Hats",
-          b: "Nighties",
-          c: "Shoes",
+          a: "Horses",
+          b: "Daughters",
+          c: "Cows",
+        correctAnswer: "b",
+     }),
+      shuffleOptions({
+        question: "The eldest brother's sweetheart had a loaf of __________.",
+        options: {
+          a: "Wheat bread",
+          b: "Rye bread",
+          c: "Barley bread",
         correctAnswer: "b",
      }),
       shuffleOptions({
         question:
-          "Raggedy Ann, Uncle Clem, and the tin soldier carried Annabel-Lee and Thomas to Raggedy Ann's bed and tucked them in snugly. Raggedy Ann lay on the hard floor, and the tin soldier and Uncle Clem tried to coax her into accepting their bed, but she refused. Why did Raggedy Ann prefer the hard floor?",
+          "When Veikko presented his loaf of beautiful wheat bread, his father exclaimed, 'What! __________ bread!'",
         options: {
-          a: "She liked the cold floor",
-          b: "She was stuffed with soft cotton",
-          c: "She didn't like beds",
-        correctAnswer: "b",
-     }),
-      shuffleOptions({
-        question:
-          "Annabel-Lee and Thomas realized Raggedy Ann's kindness and felt ashamed of making fun of her. What did they do to express their regret?",
-        options: {
-          a: "They hugged Raggedy Ann",
-          b: "They left the room",
-          c: "They laughed at her",
-        correctAnswer: "a",
-     }),
-      shuffleOptions({
-        question:
-          "When Annabel-Lee and Thomas kissed Raggedy Ann and tucked her in her own bed, what did they say about her appearance?",
-        options: {
-          a: "They called her a scarecrow",
-          b: "They praised her for her beauty",
-          c: "They were silent",
-        correctAnswer: "b",
-     }),
-      shuffleOptions({
-        question:
-          "Why did Raggedy Ann have a candy heart that said 'I LOVE YOU'?",
-        options: {
-          a: "She always had a sweet tooth",
-          b: "She wanted to remind everyone to love each other",
-          c: "It was part of her charm and kindness",
+          a: "Barley",
+          b: "Rye",
+          c: "White",
         correctAnswer: "c",
       }),
     ]),
@@ -217,76 +208,76 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question:
-          "Marcella had dolls from various countries, each unique in itself.",
+        question: "The farmer instructed his three sons to find brides.",
         options: {
           a: "True",
           b: "False",
         correctAnswer: "a",
      }),
       shuffleOptions({
-        question:
-          "Raggedy Ann's yarn hair covered one of her shoe-button eyes.",
-        options: {
-          a: "True",
-          b: "False",
-        correctAnswer: "a",
-     }),
-      shuffleOptions({
-        question: "Annabel-Lee and Thomas were beautifully dressed dolls.",
-        options: {
-          a: "True",
-          b: "False",
-        correctAnswer: "a",
-     }),
-      shuffleOptions({
-        question:
-          "Uncle Clem pulled at his yarn mustache when he saw the new dolls.",
-        options: {
-          a: "True",
-          b: "False",
-        correctAnswer: "a",
-     }),
-      shuffleOptions({
-        question:
-          "The French dolly scolded Annabel-Lee and Thomas for making fun of Raggedy Ann.",
-        options: {
-          a: "True",
-          b: "False",
-        correctAnswer: "a",
-     }),
-      shuffleOptions({
-        question:
-          "Marcella did not undress Annabel-Lee and Thomas on the first night she received them.",
-        options: {
-          a: "True",
-          b: "False",
-        correctAnswer: "a",
-     }),
-      shuffleOptions({
-        question: "Raggedy Ann preferred the hard floor to a soft bed.",
-        options: {
-          a: "True",
-          b: "False",
-        correctAnswer: "a",
-     }),
-      shuffleOptions({
-        question:
-          "Annabel-Lee and Thomas expressed their regret by laughing at Raggedy Ann.",
+        question: "The eldest son's tree branch pointed to the south.",
         options: {
           a: "True",
           b: "False",
         correctAnswer: "b",
      }),
       shuffleOptions({
-        question: "Annabel-Lee and Thomas praised Raggedy Ann for her beauty.",
+        question: "The second son's tree branch pointed to the north.",
         options: {
           a: "True",
           b: "False",
         correctAnswer: "a",
      }),
       shuffleOptions({
-        question: "Raggedy Ann had a candy heart with the words 'I LOVE YOU.'",
+        question:
+          "Veikko's tree branch pointed toward a farm with a pretty girl.",
+        options: {
+          a: "True",
+          b: "False",
+        correctAnswer: "a",
+     }),
+      shuffleOptions({
+        question:
+          "Veikko's brothers laughed at him for having a mouse as a sweetheart.",
+        options: {
+          a: "True",
+          b: "False",
+        correctAnswer: "a",
+     }),
+      shuffleOptions({
+        question:
+          "The little mouse was not willing to become Veikko's sweetheart.",
+        options: {
+          a: "True",
+          b: "False",
+        correctAnswer: "b",
+     }),
+      shuffleOptions({
+        question:
+          "The little mouse could bake a loaf of wheat bread for Veikko.",
+        options: {
+          a: "True",
+          b: "False",
+        correctAnswer: "a",
+     }),
+      shuffleOptions({
+        question:
+          "The farmer wanted the sweethearts to bake a cake, not bread.",
+        options: {
+          a: "True",
+          b: "False",
+        correctAnswer: "b",
+     }),
+      shuffleOptions({
+        question:
+          "Veikko's sweetheart turned into a princess when she met his father.",
+        options: {
+          a: "True",
+          b: "False",
+        correctAnswer: "a",
+     }),
+      shuffleOptions({
+        question: "Veikko's brothers were envious of his choice of sweetheart.",
         options: {
           a: "True",
           b: "False",

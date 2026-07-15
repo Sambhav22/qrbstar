@@ -1,4 +1,4 @@
-export const chapter = "Chapter -16:The Laughing Hippopotamus";
+export const chapter = "Chapter - 16: Innocent Tricks";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -32,78 +32,79 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question: "What is the name given to the hippopotamus in the story?",
-          optionA: "Glinkomok",
-          optionB: "Ippi",
-          optionC: "Nep",
-          correctAnswer: "Ippi",
+          question:
+            "Who was the ruler of Berar during the ancient period in the story?",
+          optionA: "Nala",
+          optionB: "Bhima",
+          optionC: "Damyanti",
+          correctAnswer: "Bhima",
         }),
       shuffleOptions({
-          question: "Why did Gouie dig a pit in the ground?",
-          optionA: "To trap the black people",
-          optionB: "To catch Keo's mother",
-          optionC: "To capture Keo",
-          correctAnswer: "To capture Keo",
-        }),
-      shuffleOptions({
-          question: "How did Gouie plan to use Keo after capturing him?",
-          optionA: "Eat him",
-          optionB: "Trade him for goods",
-          optionC: "Keep him as a pet",
-          correctAnswer: "Trade him for goods",
+          question: "What made Damyanti stand out among her handmaids?",
+          optionA: "Intelligence",
+          optionB: "Beauty",
+          optionC: "Leadership skills",
+          correctAnswer: "Beauty",
         }),
       shuffleOptions({
           question:
-            "What did Glinkomok do to help Keo when he faced the black man's threat?",
-          optionA: "Gave Keo magical powers",
-          optionB: "Offered protection against the black man",
-          optionC: "Provided a disguise for Keo",
-          correctAnswer: "Gave Keo magical powers",
+            "What was Nala planning before he got a chance to send a message to Damyanti?",
+          optionA: "War",
+          optionB: "Expedition to Berar",
+          optionC: "Building a palace",
+          correctAnswer: "Expedition to Berar",
+        }),
+      shuffleOptions({
+          question: "How did Nala come across the swan in the royal gardens?",
+          optionA: "During a royal feast",
+          optionB: "While strolling in the gardens",
+          optionC: "In the temple",
+          correctAnswer: "While strolling in the gardens",
+        }),
+      shuffleOptions({
+          question: "What request did the swan make to Nala to set it free?",
+          optionA: "To join the royal court",
+          optionB: "To deliver a message",
+          optionC: "To become Nala's companion",
+          correctAnswer: "To deliver a message",
+        }),
+      shuffleOptions({
+          question: "What was the swan's message to Damyanti from Nala?",
+          optionA: "Nala wanted to challenge her to a duel",
+          optionB: "Nala loved her ardently and wanted to marry her",
+          optionC: "Nala invited her to a royal feast",
+          correctAnswer: "Nala loved her ardently and wanted to marry her",
+        }),
+      shuffleOptions({
+          question: "What was the Swayamvara and how did it work?",
+          optionA: "A royal feast",
+          optionB: "A marriage ceremony",
+          optionC: "A battle competition",
+          correctAnswer: "A marriage ceremony",
         }),
       shuffleOptions({
           question:
-            "What was the condition for Keo's release according to Gouie?",
-          optionA: "Keo had to promise to serve him forever",
-          optionB: "Keo had to swear by the tusks of his grandfather",
-          optionC: "Keo had to give away all his possessions",
-          correctAnswer: "Keo had to swear by the tusks of his grandfather",
-        }),
-      shuffleOptions({
-          question: "How did Keo escape from the black men riding on his back?",
-          optionA: "Ran away through the jungle",
-          optionB: "Dived into the river and left them stranded",
-          optionC: "Used his magical powers to disappear",
-          correctAnswer: "Dived into the river and left them stranded",
+            "Why did the gods assume Nala's form during the Swayamvara?",
+          optionA: "To challenge Nala",
+          optionB: "To deceive Damyanti",
+          optionC: "To attend the ceremony",
+          correctAnswer: "To deceive Damyanti",
         }),
       shuffleOptions({
           question:
-            "What did Gouie promise when he was in danger and sought Keo's help again?",
-          optionA: "To become Keo's servant",
-          optionB: "To release Keo from slavery",
-          optionC: "To bring more treasures to trade",
-          correctAnswer: "To become Keo's servant",
+            "How did Damyanti identify the real Nala among the five Nalas in the assembly?",
+          optionA: "By their attire",
+          optionB: "By their hairstyles",
+          optionC: "By observing their behavior",
+          correctAnswer: "By observing their behavior",
         }),
       shuffleOptions({
           question:
-            "Why did Gouie not return to Keo in a year and a day as promised?",
-          optionA: "He forgot about the promise",
-          optionB: "He made a successful life elsewhere",
-          optionC: "He was afraid of Keo",
-          correctAnswer: "He made a successful life elsewhere",
-        }),
-      shuffleOptions({
-          question: "What did Gouie swear by when making the promise to Keo?",
-          optionA: "His own tusks",
-          optionB: "The bones of his grandfather",
-          optionC: "The river bank",
-          correctAnswer: "The bones of his grandfather",
-        }),
-      shuffleOptions({
-          question: "How did Keo react when Gouie didn't return as promised?",
-          optionA: "Cried in disappointment",
-          optionB: "Laughed at the situation",
-          optionC: "Became angry and vengeful",
-          correctAnswer: "Laughed at the situation",
+            "Why did Damyanti choose Nala over the gods at the Swayamvara?",
+          optionA: "She preferred mortal love over heavenly beings",
+          optionB: "She found the gods unattractive",
+          optionC: "Nala promised her great wealth",
+          correctAnswer: "She preferred mortal love over heavenly beings",
    }),
     ]),
   }
@@ -116,82 +117,83 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions(
         {
           question:
-            "On one of the upper branches of the Congo river lived an ancient and aristocratic family of ______________, which boasted a pedigree dating back beyond the existence of mankind.",
-          optionA: "Elephants",
-          optionB: "Lions",
-          optionC: "Hippopotamuses",
-          correctAnswer: "Hippopotamuses",
+            "Damyanti's father, the powerful king named __________, ruled in Berar during the ancient period.",
+          optionA: "Nala",
+          optionB: "Bhima",
+          optionC: "Damyanti",
+          correctAnswer: "Bhima",
         }),
       shuffleOptions({
           question:
-            "Keo, the jolly hippopotamus, had a pedigree dating back to the time when the world was _____________.",
-          optionA: "Young",
-          optionB: "New",
-          optionC: "Old",
-          correctAnswer: "New",
-        }),
-      shuffleOptions({
-          question: "Keo's mother named him 'Ippi,' meaning _____________.",
-          optionA: "Strong One",
-          optionB: "Jolly One",
-          optionC: "Brave One",
-          correctAnswer: "Jolly One",
+            "Damyanti was known for her exceptional __________, and people lined along the road to catch a glimpse of her beauty.",
+          optionA: "Intelligence",
+          optionB: "Elegance",
+          optionC: "Leadership skills",
+          correctAnswer: "Elegance",
         }),
       shuffleOptions({
           question:
-            "The black people in the region called Keo 'Ippi' because of his _____________.",
-          optionA: "Fierce nature",
-          optionB: "Fierce mother",
-          optionC: "Jolly demeanor",
-          correctAnswer: "Jolly demeanor",
+            "Nala, the king of __________, was described as a brave and handsome king in the story.",
+          optionA: "Berar",
+          optionB: "Nishada",
+          optionC: "Damyanti",
+          correctAnswer: "Nishada",
         }),
       shuffleOptions({
           question:
-            "Gouie dug a great pit in the ground to capture ___________.",
-          optionA: "Elephants",
-          optionB: "Keo's mother",
-          optionC: "Keo",
-          correctAnswer: "Keo",
+            "Damyanti sent a message to Nala through a __________ that descended near the pool in the royal gardens.",
+          optionA: "Dove",
+          optionB: "Swan",
+          optionC: "Peacock",
+          correctAnswer: "Swan",
         }),
       shuffleOptions({
           question:
-            "Keo made a bargain with Gouie to be released, and he had to return in a ____________.",
-          optionA: "Month and a day",
-          optionB: "Year and a half",
-          optionC: "Year and a day",
-          correctAnswer: "Year and a day",
+            "Nala planned an expedition to __________ before getting a chance to send a message to Damyanti.",
+          optionA: "Berar",
+          optionB: "Nishada",
+          optionC: "Heaven",
+          correctAnswer: "Berar",
         }),
       shuffleOptions({
           question:
-            "Glinkomok, a fearful creature, was part beast, part man, part fowl, and part _____________.",
-          optionA: "Fish",
-          optionB: "Elephant",
-          optionC: "Lion",
-          correctAnswer: "Fish",
+            "The __________ was an assembly where suitors were invited to win the hand of the princess by putting a garland around their neck.",
+          optionA: "Royal Feast",
+          optionB: "Swayamvara",
+          optionC: "Battle Competition",
+          correctAnswer: "Swayamvara",
         }),
       shuffleOptions({
           question:
-            "Glinkomok granted Keo magical powers, making his skin tough, his strength greater than ____________, and his foot swift.",
-          optionA: "Five elephants",
-          optionB: "Ten elephants",
-          optionC: "Fifteen elephants",
-          correctAnswer: "Ten elephants",
+            "Damyanti identified the real Nala among the impersonating gods by observing their __________.",
+          optionA: "Attire",
+          optionB: "Hairstyles",
+          optionC: "Behavior",
+          correctAnswer: "Behavior",
         }),
       shuffleOptions({
           question:
-            "Keo used his magical powers to escape the black men by diving into the river, leaving them ____________.",
-          optionA: "Stranded",
-          optionB: "Confused",
-          optionC: "Terrified",
-          correctAnswer: "Stranded",
+            "The gods assumed Nala's form during the Swayamvara to __________ Damyanti.",
+          optionA: "Challenge",
+          optionB: "Deceive",
+          optionC: "Impress",
+          correctAnswer: "Deceive",
         }),
       shuffleOptions({
           question:
-            "Gouie, when seeking Keo's help again, promised to become Keo's servant and return in a ____________.",
-          optionA: "Week and a day",
-          optionB: "Month and a year",
-          optionC: "Year and a day",
-          correctAnswer: "Year and a day",
+            "The Swayamvara was an ancient custom where the princess walked in front of the suitors with a __________ in her hands.",
+          optionA: "Sword",
+          optionB: "Shield",
+          optionC: "Garland",
+          correctAnswer: "Garland",
+        }),
+      shuffleOptions({
+          question:
+            "Damyanti chose Nala over the gods at the Swayamvara because she preferred __________ love over heavenly beings.",
+          optionA: "Mortal",
+          optionB: "Eternal",
+          optionC: "Divine",
+          correctAnswer: "Mortal",
    }),
     ]),
   }
@@ -203,73 +205,72 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question: "India gained her freedom on 15 August, 1947.",
+          question:
+            "Damyanti's father, Bhima, ruled in Berar during the ancient period.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question: "Damyanti's beauty outshone all her handmaids.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The revolutionaries rose in revolt due to the tolerable British atrocities.",
+            "Nala planned an expedition to Nishada before sending a message to Damyanti.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Kingsford, the Chief Presidency Magistrate, was transferred to Samastipur as the District Judge.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Khudi Ram Bose and Prafull Kumar Chaki planned to blast a bomb at Kingsford's residence.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "The bomb exploded with a massive boom, causing severe injuries to Khudi Ram Bose.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Bose and Chaki managed to escape by running 10 miles overnight.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Khudi Ram Bose was arrested on May 1, 1908, from the village where they had stayed.",
+            "The swan that delivered Nala's message had shining wings in the splash of gold.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "Prafull Kumar Chaki committed suicide when surrounded by the police.",
+            "Damyanti identified the real Nala among the impersonating gods by their hairstyles.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The Swayamvara was a battle competition where suitors fought for Damyanti's hand.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Damyanti chose Nala over the gods because she found the gods unattractive.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The gods assumed Nala's form during the Swayamvara to impress Damyanti.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question: "Damyanti preferred eternal love over mortal love.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The gods blessed Nala and Damyanti, stating they had come only to examine Damyanti's true love for Nala.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "Khudi Ram Bose was sentenced to death by hanging at the age of twenty.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "In his last wish, Khudi Ram Bose wanted to be cremated outside the jail by Bhagat Singh.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
    }),
     ]),
   }

@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 3: The Oversight ";
+export const chapter = "Chapter - 3: Character of a Happy Life";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -31,87 +31,81 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question:
-          "What does Lady Prowche compare the challenge of organizing her house party to?",
-        optionA: "A chess game",
-        optionB: "A Chinese puzzle",
-        optionC: "A jigsaw puzzle",
-        correctAnswer: "A Chinese puzzle",
+        question: "What did the farmer instruct his three sons to do?",
+        optionA: "Find a job",
+        optionB: "Go in search of brides",
+        optionC: "Explore the forest",
+        correctAnswer: "Go in search of brides",
      }),
       shuffleOptions({
         question:
-          "What is one of Sir Richard's main expectations for Lady Prowche's house party?",
-        optionA: "It should be a literary gathering.",
-        optionB: "It should be a political discussion forum.",
-        optionC: "It should be a peaceable party with no unpleasantness.",
+          "Which direction did the eldest son's tree branch point when he chopped it down?",
+        optionA: "North",
+        optionB: "South",
+        optionC: "East",
+        correctAnswer: "North",
+     }),
+      shuffleOptions({
+        question: "Where did the second son's tree branch point?",
+        optionA: "North",
+        optionB: "South",
+        optionC: "East",
+        correctAnswer: "South",
+     }),
+      shuffleOptions({
+        question: "Where did the youngest son, Veikko's, tree branch point?",
+        optionA: "North",
+        optionB: "South",
+        optionC: "The forest",
+        correctAnswer: "The forest",
+     }),
+      shuffleOptions({
+        question:
+          "What did Veikko find in the forest when he ventured in that direction?",
+        optionA: "A hut with a princess inside",
+        optionB: "An empty hut with only a mouse",
+        optionC: "A hidden treasure",
+        correctAnswer: "An empty hut with only a mouse",
+     }),
+      shuffleOptions({
+        question:
+          "How did the little mouse convince Veikko to choose her as his sweetheart?",
+        optionA: "She offered him a gift",
+        optionB: "She sang a song",
+        optionC: "She promised to make him rich",
+        correctAnswer: "She sang a song",
+     }),
+      shuffleOptions({
+        question:
+          "What skill did the farmer test the three brothers' sweethearts on after the bread-baking test?",
+        optionA: "Singing",
+        optionB: "Dancing",
+        optionC: "Weaving",
+        correctAnswer: "Weaving",
+     }),
+      shuffleOptions({
+        question:
+          "What did the little mouse use to create a sample of her weaving?",
+        optionA: "Cotton and linen",
+        optionB: "Flax",
+        optionC: "Straw",
+        correctAnswer: "Flax",
+     }),
+      shuffleOptions({
+        question:
+          "How did the little mouse transform for the meeting with Veikko's father?",
+        optionA: "She turned into a beautiful princess",
+        optionB: "She became a giant mouse",
+        optionC: "She remained the same",
+        correctAnswer: "She turned into a beautiful princess",
+     }),
+      shuffleOptions({
+        question: "Why did the little mouse turn into a princess?",
+        optionA: "The farmer's spell was broken when his sons laughed at her",
+        optionB: "She was always a princess in disguise",
+        optionC: "Veikko wished for it",
         correctAnswer:
-          "It should be a peaceable party with no unpleasantness.",
-     }),
-      shuffleOptions({
-        question:
-          "What caused the most significant argument at Lady Prowche's previous house party?",
-        optionA: "Political differences",
-        optionB: "Religious disagreements",
-        optionC: "A dispute over the election date",
-        correctAnswer: "A dispute over the election date",
-     }),
-      shuffleOptions({
-        question:
-          "According to Lady Prowche, what is the cause of most disputes at her house parties?",
-        optionA: "Differences in political opinion",
-        optionB: "Minor differences and side-issues",
-        optionC: "Religious disagreements",
-        correctAnswer: "Minor differences and side-issues",
-     }),
-      shuffleOptions({
-        question:
-          "What is the one thorny subject that Lady Prowche is concerned about regarding her upcoming guests?",
-        optionA: "Their views on nationalism",
-        optionB: "Their views on vivisection",
-        optionC: "Their views on kite-flying",
-        correctAnswer: "Their views on vivisection",
-     }),
-      shuffleOptions({
-        question:
-          "How does Lady Prowche suggest Lena find out the guests' opinions on vivisection?",
-        optionA: "Engage in a direct argument with them at Milly's at-home",
-        optionB: "Send a stamped typewritten reply postcard with a question",
-        optionC:
-          "Ask for their subscriptions to a charity supporting vivisection",
-        correctAnswer:
-          "Send a stamped typewritten reply postcard with a question",
-     }),
-      shuffleOptions({
-        question:
-          "What is the result of the postcard poll regarding vivisection?",
-        optionA: "Unanimous support for vivisection",
-        optionB: "Unanimous opposition to vivisection",
-        optionC: "Indifference to the subject",
-        correctAnswer: "Unanimous opposition to vivisection",
-     }),
-      shuffleOptions({
-        question:
-          "How did the two guests who had been selected to avoid conflict behave at the party?",
-        optionA: "They engaged in civil discussions.",
-        optionB: "They had heated arguments but no physical conflict.",
-        optionC: "They quarreled and came to blows.",
-        correctAnswer: "They quarreled and came to blows.",
-     }),
-      shuffleOptions({
-        question:
-          "What was the specific topic on which the two guests, Atkinson and Popham, disagreed?",
-        optionA: "Politics",
-        optionB: "Vivisection",
-        optionC: "North Korea vs. South Korea",
-        correctAnswer: "North Korea vs. South Korea",
-     }),
-      shuffleOptions({
-        question:
-          "How did Lady Prowche feel about the outcome of the house party?",
-        optionA: "Delighted with its success",
-        optionB: "Humiliated and disappointed",
-        optionC: "Surprised by the guests' maturity",
-        correctAnswer: "Humiliated and disappointed",
+          "The farmer's spell was broken when his sons laughed at her",
       }),
     ]),
   }
@@ -122,93 +116,87 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question:
-          "Lady Prowche compared organizing her house party to solving a _______________.",
+        question: "What did the farmer instruct his three sons to do?",
         options: {
-          a: "Maze",
-          b: "Riddle",
-          c: "Chinese puzzle",
+          a: "Find a job",
+          b: "Go in search of brides",
+          c: "Explore the forest",
+        correctAnswer: "b",
+     }),
+      shuffleOptions({
+        question: "The eldest son's tree branch fell pointing __________.",
+        options: {
+          a: "East",
+          b: "North",
+          c: "South",
+        correctAnswer: "b",
+     }),
+      shuffleOptions({
+        question: "The second son's tree branch fell pointing __________.",
+        options: {
+          a: "East",
+          b: "North",
+          c: "South",
         correctAnswer: "c",
      }),
       shuffleOptions({
-        question:
-          "Sir Richard gives Lady Prowche a free hand in choosing the guests for the house party, with the condition that it should be a _______________ party.",
+        question: "The youngest son's name was __________.",
         options: {
-          a: "Literary",
-          b: "Extravagant",
-          c: "Peaceable",
-        correctAnswer: "c",
-     }),
-      shuffleOptions({
-        question:
-          "According to Lady Prowche, the major lines of political or religious differences between guests don't lead to _______________.",
-        options: {
-          a: "Harmony",
-          b: "Friction",
-          c: "Laughter",
+          a: "Vinnie",
+          b: "Veikko",
+          c: "Viktor",
         correctAnswer: "b",
      }),
       shuffleOptions({
         question:
-          "The most significant argument at Lady Prowche's previous house party was about the _______________.",
+          "Veikko started off with a brave front but after he had gone some distance in the forest, his courage began to __________.",
         options: {
-          a: "Upcoming election date",
-          b: "Vaccination debate",
-          c: "Football match",
-        correctAnswer: "a",
+          a: "Grow",
+          b: "Ebb",
+          c: "Soar",
+        correctAnswer: "b",
      }),
       shuffleOptions({
-        question:
-          "Lady Prowche believes that it's the minor differences and _______________ that lead to trouble during her house parties.",
+        question: "Suddenly he noticed a little __________ in the forest.",
         options: {
-          a: "Side-issues",
-          b: "Major conflicts",
-          c: "Political debates",
-        correctAnswer: "a",
-     }),
-      shuffleOptions({
-        question:
-          "The two guests Lady Prowche is worried about, Atkinson and Popham, might potentially disagree on the topic of _______________.",
-        options: {
-          a: "Nationalism",
-          b: "Vivisection",
-          c: "Football",
+          a: "Bear",
+          b: "Hut",
+          c: "River",
         correctAnswer: "b",
      }),
       shuffleOptions({
         question:
-          "Lady Prowche suggests that Lena finds out the guests' opinions on vivisection by sending them a stamped _______________ postcard.",
+          "To be sure, there was a little __________ sitting on the table.",
         options: {
-          a: "Handwritten",
-          b: "Typewritten reply",
-          c: "Blank",
+          a: "Squirrel",
+          b: "Mouse",
+          c: "Bird",
         correctAnswer: "b",
      }),
       shuffleOptions({
         question:
-          "The result of the postcard poll showed unanimous _______________ to experiments on living animals for scientific research.",
+          "Veikko's elder brothers went off gaily and presented themselves to the two farmers whose __________ they admired.",
         options: {
-          a: "Support",
-          b: "Opposition",
-          c: "Indifference",
+          a: "Horses",
+          b: "Daughters",
+          c: "Cows",
+        correctAnswer: "b",
+     }),
+      shuffleOptions({
+        question: "The eldest brother's sweetheart had a loaf of __________.",
+        options: {
+          a: "Wheat bread",
+          b: "Rye bread",
+          c: "Barley bread",
         correctAnswer: "b",
      }),
       shuffleOptions({
         question:
-          "At the house party, Atkinson and Popham, who were supposed to avoid conflict, ended up _______________.",
+          "When Veikko presented his loaf of beautiful wheat bread, his father exclaimed, 'What! __________ bread!'",
         options: {
-          a: "Engaging in civil discussions",
-          b: "Having heated arguments",
-          c: "Bonding over their love for football",
-        correctAnswer: "b",
-     }),
-      shuffleOptions({
-        question:
-          "The major disagreement between Atkinson and Popham at the house party was about _______________.",
-        options: {
-          a: "Politics",
-          b: "Religion",
-          c: "North Korea vs. South Korea",
+          a: "Barley",
+          b: "Rye",
+          c: "White",
         correctAnswer: "c",
       }),
     ]),
@@ -220,76 +208,76 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question:
-          "Marcella had dolls from various countries, each unique in itself.",
+        question: "The farmer instructed his three sons to find brides.",
         options: {
           a: "True",
           b: "False",
         correctAnswer: "a",
      }),
       shuffleOptions({
-        question:
-          "Raggedy Ann's yarn hair covered one of her shoe-button eyes.",
-        options: {
-          a: "True",
-          b: "False",
-        correctAnswer: "a",
-     }),
-      shuffleOptions({
-        question: "Annabel-Lee and Thomas were beautifully dressed dolls.",
-        options: {
-          a: "True",
-          b: "False",
-        correctAnswer: "a",
-     }),
-      shuffleOptions({
-        question:
-          "Uncle Clem pulled at his yarn mustache when he saw the new dolls.",
-        options: {
-          a: "True",
-          b: "False",
-        correctAnswer: "a",
-     }),
-      shuffleOptions({
-        question:
-          "The French dolly scolded Annabel-Lee and Thomas for making fun of Raggedy Ann.",
-        options: {
-          a: "True",
-          b: "False",
-        correctAnswer: "a",
-     }),
-      shuffleOptions({
-        question:
-          "Marcella did not undress Annabel-Lee and Thomas on the first night she received them.",
-        options: {
-          a: "True",
-          b: "False",
-        correctAnswer: "a",
-     }),
-      shuffleOptions({
-        question: "Raggedy Ann preferred the hard floor to a soft bed.",
-        options: {
-          a: "True",
-          b: "False",
-        correctAnswer: "a",
-     }),
-      shuffleOptions({
-        question:
-          "Annabel-Lee and Thomas expressed their regret by laughing at Raggedy Ann.",
+        question: "The eldest son's tree branch pointed to the south.",
         options: {
           a: "True",
           b: "False",
         correctAnswer: "b",
      }),
       shuffleOptions({
-        question: "Annabel-Lee and Thomas praised Raggedy Ann for her beauty.",
+        question: "The second son's tree branch pointed to the north.",
         options: {
           a: "True",
           b: "False",
         correctAnswer: "a",
      }),
       shuffleOptions({
-        question: "Raggedy Ann had a candy heart with the words 'I LOVE YOU.'",
+        question:
+          "Veikko's tree branch pointed toward a farm with a pretty girl.",
+        options: {
+          a: "True",
+          b: "False",
+        correctAnswer: "a",
+     }),
+      shuffleOptions({
+        question:
+          "Veikko's brothers laughed at him for having a mouse as a sweetheart.",
+        options: {
+          a: "True",
+          b: "False",
+        correctAnswer: "a",
+     }),
+      shuffleOptions({
+        question:
+          "The little mouse was not willing to become Veikko's sweetheart.",
+        options: {
+          a: "True",
+          b: "False",
+        correctAnswer: "b",
+     }),
+      shuffleOptions({
+        question:
+          "The little mouse could bake a loaf of wheat bread for Veikko.",
+        options: {
+          a: "True",
+          b: "False",
+        correctAnswer: "a",
+     }),
+      shuffleOptions({
+        question:
+          "The farmer wanted the sweethearts to bake a cake, not bread.",
+        options: {
+          a: "True",
+          b: "False",
+        correctAnswer: "b",
+     }),
+      shuffleOptions({
+        question:
+          "Veikko's sweetheart turned into a princess when she met his father.",
+        options: {
+          a: "True",
+          b: "False",
+        correctAnswer: "a",
+     }),
+      shuffleOptions({
+        question: "Veikko's brothers were envious of his choice of sweetheart.",
         options: {
           a: "True",
           b: "False",

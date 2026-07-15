@@ -1,4 +1,4 @@
-export const chapter = "Chapter -18: The Doll's House";
+export const chapter = "Chapter - 18: The Open Window";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -32,81 +32,80 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question: "What color was the Doll's house described as?",
-          optionA: "Blue",
-          optionB: "Green",
-          optionC: "Red",
-          correctAnswer: "Green",
-        }),
-      shuffleOptions({
-          question: "How were the chimneys on the Doll's house painted?",
-          optionA: "Blue and Green",
-          optionB: "Red and White",
-          optionC: "Yellow and Black",
-          correctAnswer: "Red and White",
+          question: "What is the sun described as in the given text?",
+          optionA: "Warm and glittering",
+          optionB: "Elusive and shy",
+          optionC: "Cold and distant",
+          correctAnswer: "Warm and glittering",
         }),
       shuffleOptions({
           question:
-            "What was the most exciting feature for Kezia in the Doll's house?",
-          optionA: "The bed with real bedclothes",
-          optionB: "The lamp with a white globe",
-          optionC: "The cradle in the bedroom",
-          correctAnswer: "The lamp with a white globe",
+            "In the text, where does the sun manage to slip its rays through?",
+          optionA: "Closed windows",
+          optionB: "Shady parlour",
+          optionC: "Blinds with chinks",
+          correctAnswer: "Blinds with chinks",
+        }),
+      shuffleOptions({
+          question: "How does the sun make the dusty attic spider-clad glad?",
+          optionA: "By creating warmth",
+          optionB: "Through the keyhole",
+          optionC: "By smiling through broken tiles",
+          correctAnswer: "Through the keyhole",
+        }),
+      shuffleOptions({
+          question: "What does the sun do to the garden ground in the text?",
+          optionA: "Darkens it",
+          optionB: "Illuminates it with a warm and glittering look",
+          optionC: "Covers it with rain",
+          correctAnswer: "Illuminates it with a warm and glittering look",
         }),
       shuffleOptions({
           question:
-            "Who were the first two girls chosen by Isabel to see the Doll's house?",
-          optionA: "Emmie Cole and Lena Logan",
-          optionB: "Jessie May and Isabel",
-          optionC: "Kezia and Lottie",
-          correctAnswer: "Emmie Cole and Lena Logan",
+            "Where does the sun shed its warm and glittering look according to the text?",
+          optionA: "In the attic",
+          optionB: "Among the ivy's inmost nook",
+          optionC: "Through the broken tiles",
+          correctAnswer: "Among the ivy's inmost nook",
         }),
       shuffleOptions({
           question:
-            "Why were the Kelveys considered different and shunned by other children?",
-          optionA: "Because they were rich",
-          optionB: "Because their parents were famous",
-          optionC:
-            "Because of their social status and the rumors about their father",
-          correctAnswer:
-            "Because of their social status and the rumors about their father",
-        }),
-      shuffleOptions({
-          question: "What did Lena Logan tell Lil Kelvey about her future?",
-          optionA: "She will become a doctor",
-          optionB: "She will become a servant",
-          optionC: "She will become a teacher",
-          correctAnswer: "She will become a servant",
-        }),
-      shuffleOptions({
-          question: "What did Lil Kelvey's father do, according to the rumors?",
-          optionA: "He was a doctor",
-          optionB: "He was in prison",
-          optionC: "He was a rich businessman",
-          correctAnswer: "He was in prison",
+            "How does the sun move along the blue, according to the text?",
+          optionA: "With a hesitant pace",
+          optionB: "With footing true",
+          optionC: "In a zigzag pattern",
+          correctAnswer: "With footing true",
         }),
       shuffleOptions({
           question:
-            "Who interrupted the Kelveys and stopped them from seeing the Doll's house?",
-          optionA: "Aunt Beryl",
-          optionB: "Isabel",
-          optionC: "Kezia",
-          correctAnswer: "Aunt Beryl",
-        }),
-      shuffleOptions({
-          question: "Why did Aunt Beryl apologize to Lil and Elise later?",
-          optionA: "She felt sorry for them",
-          optionB: "She was disturbed",
-          optionC: "She wanted to be kind",
-          correctAnswer: "She was disturbed",
+            "What is the sun's role in relation to the child in the text?",
+          optionA: "To scold the child",
+          optionB: "To please the child",
+          optionC: "To hide from the child",
+          correctAnswer: "To please the child",
         }),
       shuffleOptions({
           question:
-            "What change came over Aunt Beryl after shooing the Kelveys away?",
-          optionA: "She became angrier",
-          optionB: "She apologized and invited them for tea",
-          optionC: "She ignored them",
-          correctAnswer: "She apologized and invited them for tea",
+            "Why do the blinds in the parlour need to be pulled, according to the text?",
+          optionA: "To keep the sun out",
+          optionB: "To create a dark atmosphere",
+          optionC: "To keep the room cool",
+          correctAnswer: "To keep the room cool",
+        }),
+      shuffleOptions({
+          question: "Where does the sun go to paint the rose, as per the text?",
+          optionA: "In the attic",
+          optionB: "Among the ivy's inmost nook",
+          optionC: "Round the bright air",
+          correctAnswer: "Round the bright air",
+        }),
+      shuffleOptions({
+          question:
+            "How does the sun interact with the laddered hayloft in the text?",
+          optionA: "Through closed doors",
+          optionB: "Through the broken edge of tiles",
+          optionC: "By creating a cool atmosphere",
+          correctAnswer: "Through the broken edge of tiles",
    }),
     ]),
   }
@@ -119,81 +118,81 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions(
         {
           question:
-            "The doll's house was painted in a dark, oily, spinach green, picked out with bright ___________.",
-          optionA: "Blue",
-          optionB: "Yellow",
-          optionC: "Red",
-          correctAnswer: "Yellow",
+            "Great is the sun, and wide he goes\nThrough empty heaven with ______;\nAnd in the blue and glowing days\nMore thick than rain he showers his ______.",
+          optionA: "splendor, brilliance",
+          optionB: "repose, rays",
+          optionC: "warmth, radiance",
+          correctAnswer: "repose, rays",
         }),
       shuffleOptions({
           question:
-            "The two solid little chimneys on the doll's house were painted in the colors __________ and __________.",
-          optionA: "Green and Blue",
-          optionB: "Red and White",
-          optionC: "Yellow and Black",
-          correctAnswer: "Red and White",
+            "Though closer still the blinds we pull\nTo keep the shady parlour cool,\nYet he will find a chink or two\nTo slip his golden ______ through.",
+          optionA: "fingers",
+          optionB: "sunlight",
+          optionC: "warmth",
+          correctAnswer: "fingers",
         }),
       shuffleOptions({
           question:
-            "Kezia's favorite feature in the doll's house was the exquisite little amber lamp with a __________ globe.",
-          optionA: "Blue",
-          optionB: "Yellow",
-          optionC: "White",
-          correctAnswer: "White",
+            "The dusty attic spider-clad\nHe, through the keyhole, maketh ______;\nAnd through the broken edge of tiles\nInto the laddered hayloft ______.",
+          optionA: "happiness, smiles",
+          optionB: "sadness, frowns",
+          optionC: "glad, peeks",
+          correctAnswer: "glad, peeks",
         }),
       shuffleOptions({
           question:
-            "Isabel chose __________ and __________ as the first two girls to see the doll's house.",
-          optionA: "Emmie Cole and Jessie May",
-          optionB: "Lena Logan and Kezia",
-          optionC: "Emmie Cole and Lena Logan",
-          correctAnswer: "Emmie Cole and Lena Logan",
+            "Meantime his golden face around\nHe bares to all the ______ ground,\nAnd sheds a warm and glittering look\nAmong the ivy's ______ nook.",
+          optionA: "garden, inmost",
+          optionB: "dark, hidden",
+          optionC: "bright, open",
+          correctAnswer: "garden, inmost",
         }),
       shuffleOptions({
           question:
-            "The Kelveys were shunned by other children because of their social status and the __________ about their father.",
-          optionA: "Rumors",
-          optionB: "Wealth",
-          optionC: "Fame",
-          correctAnswer: "Rumors",
+            "Above the hills, along the blue,\nRound the ______ air with footing true,\nTo please the child, to paint the ______,\nThe gardener of the World, he goes.",
+          optionA: "bright, sky",
+          optionB: "dark, moon",
+          optionC: "open, rose",
+          correctAnswer: "bright, sky",
+        }),
+      shuffleOptions({
+          question: "What is described as 'thicker than rain' in the text?",
+          optionA: "Blinds",
+          optionB: "Sun",
+          optionC: "Days",
+          correctAnswer: "Days",
         }),
       shuffleOptions({
           question:
-            "Lena Logan told Lil Kelvey that she would become a __________ when she grows up.",
-          optionA: "Doctor",
-          optionB: "Teacher",
-          optionC: "Servant",
-          correctAnswer: "Servant",
-        }),
-      shuffleOptions({
-          question: "According to rumors, Lil Kelvey's father was __________.",
-          optionA: "A doctor",
-          optionB: "In prison",
-          optionC: "A rich businessman",
-          correctAnswer: "In prison",
+            "The sun finds a chink or two despite pulling the blinds to keep the shady parlour cool. What does the word 'chink' refer to in this context?",
+          optionA: "Hole or crack",
+          optionB: "Bright light",
+          optionC: "Warmth",
+          correctAnswer: "Hole or crack",
         }),
       shuffleOptions({
           question:
-            "Who interrupted the Kelveys and stopped them from seeing the Doll's house?",
-          optionA: "Aunt Beryl",
-          optionB: "Isabel",
-          optionC: "Kezia",
-          correctAnswer: "Aunt Beryl",
+            "Through which opening does the sun make the dusty attic spider-clad glad?",
+          optionA: "Closed window",
+          optionB: "Keyhole",
+          optionC: "Broken edge of tiles",
+          correctAnswer: "Keyhole",
         }),
       shuffleOptions({
-          question: "Why did Aunt Beryl apologize to Lil and Elise later?",
-          optionA: "She felt sorry for them",
-          optionB: "She was disturbed",
-          optionC: "She wanted to be kind",
-          correctAnswer: "She was disturbed",
+          question: "What does the sun shed among the ivy's inmost nook?",
+          optionA: "Rain",
+          optionB: "Glittering look",
+          optionC: "Darkness",
+          correctAnswer: "Glittering look",
         }),
       shuffleOptions({
           question:
-            "What change came over Aunt Beryl after shooing the Kelveys away?",
-          optionA: "She became angrier",
-          optionB: "She apologized and invited them for tea",
-          optionC: "She ignored them",
-          correctAnswer: "She apologized and invited them for tea",
+            "What does the gardener of the World go to please the child and paint the rose?",
+          optionA: "Dark air",
+          optionB: "Bright air",
+          optionC: "Shady parlour",
+          correctAnswer: "Bright air",
    }),
     ]),
   }
@@ -205,70 +204,69 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question:
-            "The doll's house was painted in a dark, oily, spinach green, picked out with bright yellow.",
+          question: "The sun's rays shower more thickly than rain.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The doll's house had four windows divided into panes by a broad streak of red.",
+            "Closing the blinds completely prevents the sun from slipping its rays through.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The lamp in the doll's house was made of blue glass with a white globe.",
+            "The dusty attic spider-clad becomes sad when the sun shines through the keyhole.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Isabel chose Jessie May and Kezia as the first two girls to see the doll's house.",
+            "The sun sheds a warm and glittering look among the ivy's inmost nook.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "The gardener of the World goes to create darkness in the bright air.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question: "The sun moves along the blue with hesitant footing.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The Kelveys were shunned by other children because of their wealth and fame.",
+            "The blinds in the shady parlour are pulled to keep the room warm.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Lena Logan told Lil Kelvey that she would become a teacher when she grows up.",
+            "Queen Padmini deceived Alauddin Khalji by showing her mirror image in the water.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "False",
+          correctAnswer: "True",
         }),
       shuffleOptions({
-          question: "According to rumors, Lil Kelvey's father was a doctor.",
+          question:
+            "The first Jauhar at Chittor Fort occurred during the 16th century.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Aunt Beryl interrupted the Kelveys and invited them for tea.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Aunt Beryl apologized to Lil and Elise because she felt sorry for them.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "The doll's house had a tiny porch painted blue with big lumps of congealed paint.",
+            "The gardener of the World goes to paint the moon in the bright air.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",

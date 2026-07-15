@@ -1,4 +1,4 @@
-export const chapter = "Chapter -12: The Crooked Path";
+export const chapter = "Chapter - 12: The Blue Master";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -32,88 +32,83 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question:
-            "What was the Minister's initial reaction to the man digging a pit by the roadside?",
-          optionA: "He scolded the man for his foolishness.",
-          optionB: "He ignored the man and continued his journey.",
-          optionC: "He was impressed by the man's wisdom.",
-          correctAnswer: "He scolded the man for his foolishness.",
+          question: "What was Jimmy Scarecrow's greatest grief in the winter?",
+          optionA: "Lack of friends",
+          optionB: "Lack of presents",
+          optionC: "Lack of occupation",
+          correctAnswer: "Lack of occupation",
         }),
       shuffleOptions({
           question:
-            "How did the Minister reward the man for his wise response about the pit?",
-          optionA: "He gave the man money.",
-          optionB: "He ordered his servants to take the man to his house.",
-          optionC: "He offered the man a job in the royal stables.",
-          correctAnswer:
-            "He ordered his servants to take the man to his house.",
+            "What did Jimmy Scarecrow ask Santa Claus for on Christmas Eve?",
+          optionA: "A new coat",
+          optionB: "A crazy quilt",
+          optionC: "A little present",
+          correctAnswer: "A little present",
         }),
       shuffleOptions({
           question:
-            "How did the labourer eventually become the Prime Minister's counselor?",
-          optionA: "He showed exceptional skills in farming.",
-          optionB:
-            "He demonstrated wisdom in a conversation with the Minister.",
-          optionC: "He won a competition held by the king.",
-          correctAnswer:
-            "He demonstrated wisdom in a conversation with the Minister.",
+            "What did Betsey give Jimmy Scarecrow as a Christmas present?",
+          optionA: "A pair of mittens",
+          optionB: "A doll-baby",
+          optionC: "A crazy quilt",
+          correctAnswer: "A doll-baby",
         }),
       shuffleOptions({
           question:
-            "What was the Minister known for before he became the Prime Minister?",
-          optionA: "Great wisdom.",
-          optionB: "Wile and cunning.",
-          optionC: "Brightness and honesty.",
-          correctAnswer: "Wile and cunning.",
+            "Why did Betsey bring Aunt Hannah's crazy quilt to Jimmy Scarecrow?",
+          optionA: "To keep him warm",
+          optionB: "To use as a sled",
+          optionC: "As a Christmas prank",
+          correctAnswer: "To keep him warm",
         }),
       shuffleOptions({
           question:
-            "What made the courtiers suspicious about the Minister's sudden enlightenment?",
-          optionA: "His quick promotion.",
-          optionB: "His humble demeanor.",
-          optionC: "His generosity towards the poor.",
-          correctAnswer: "His quick promotion.",
+            "What did Santa Claus suggest Jimmy Scarecrow do at the North Pole?",
+          optionA: "Scare away crows",
+          optionB: "Scare away Arctic Explorers",
+          optionC: "Help make toys",
+          correctAnswer: "Scare away Arctic Explorers",
         }),
       shuffleOptions({
           question:
-            "How did the courtiers discover the source of the Prime Minister's wisdom?",
-          optionA: "They overheard a conversation.",
-          optionB: "They bribed a worker at the Prime Minister's mansion.",
-          optionC: "They found a secret document.",
-          correctAnswer:
-            "They bribed a worker at the Prime Minister's mansion.",
+            "How did Santa Claus ensure the safety of the cornfield next summer?",
+          optionA: "Installed a scarecrow",
+          optionB: "Wrote a notice to crows",
+          optionC: "Used a magic spell",
+          correctAnswer: "Wrote a notice to crows",
         }),
       shuffleOptions({
           question:
-            "Why did the Prime Minister decide to get rid of the wise man who had been his counselor?",
-          optionA: "The wise man became a liability.",
-          optionB: "The wise man betrayed him.",
-          optionC: "The wise man demanded a higher position.",
-          correctAnswer: "The wise man betrayed him.",
+            "What happened to the crazy quilt and the doll-baby when it started raining?",
+          optionA: "They disappeared",
+          optionB: "They turned into ice",
+          optionC: "They got soaked through",
+          correctAnswer: "They got soaked through",
         }),
       shuffleOptions({
           question:
-            "How did the Prime Minister attempt to eliminate the wise man?",
-          optionA: "He framed him for a crime.",
-          optionB: "He sent him on a dangerous mission.",
-          optionC: "He challenged him to a duel.",
-          correctAnswer: "He sent him on a dangerous mission.",
+            "Why did Aunt Hannah and Betsey think the quilt and doll were spoiled?",
+          optionA: "They were too small",
+          optionB: "They were not crazy enough",
+          optionC: "They got wet in the rain",
+          correctAnswer: "They got wet in the rain",
         }),
       shuffleOptions({
           question:
-            "What did the wise man unknowingly deliver to the State Executioner's son?",
-          optionA: "A love letter.",
-          optionB: "A death warrant.",
-          optionC: "A royal decree.",
-          correctAnswer: "A death warrant.",
+            "What did Aunt Hannah receive as a Christmas present the following year?",
+          optionA: "A new crazy quilt",
+          optionB: "A pair of spectacles",
+          optionC: "Her old crazy quilt, remodelled",
+          correctAnswer: "Her old crazy quilt, remodelled",
         }),
       shuffleOptions({
           question:
-            "How did the Prime Minister's son outsmart his father in the end?",
-          optionA: "He revealed the truth to the wise man.",
-          optionB: "He switched the letters to save the wise man.",
-          optionC: "He confronted his father about the plan.",
-          correctAnswer: "He switched the letters to save the wise man.",
+            "How did Jimmy Scarecrow ensure the safety of the cornfield in the absence of a scarecrow?",
+          optionA: "Wrote a letter to crows",
+          optionB: "Planted more corn",
+          optionC: "Cast a protective spell",
+          correctAnswer: "Wrote a letter to crows",
    }),
     ]),
   }
@@ -126,83 +121,83 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions(
         {
           question:
-            "The Minister was riding his horse through the country to ________ how people lived.",
-          optionA: "observe",
-          optionB: "analyze",
-          optionC: "criticize",
-          correctAnswer: "observe",
+            "Jimmy Scarecrow's greatest grief in the winter was his lack of ____________.",
+          optionA: "Friends",
+          optionB: "Presents",
+          optionC: "Occupation",
+          correctAnswer: "Occupation",
         }),
       shuffleOptions({
           question:
-            "The man digging a pit explained that the pit was on the roadside, and those on the ________ path wouldn't fall into it.",
-          optionA: "straight",
-          optionB: "narrow",
-          optionC: "winding",
-          correctAnswer: "straight",
+            "On Christmas Eve, Santa Claus came in his sledge heaped high with presents, urging his team of reindeer across the field. Santa was on his way to the farmhouse where Betsey lived with her Aunt __________.",
+          optionA: "Mary",
+          optionB: "Susan",
+          optionC: "Hannah",
+          correctAnswer: "Hannah",
         }),
       shuffleOptions({
           question:
-            "The Minister was impressed by the man's response and ordered his servants to take the man to his house to ________ him.",
-          optionA: "entertain",
-          optionB: "clothe",
-          optionC: "scold",
-          correctAnswer: "clothe",
+            "Betsey's Christmas doll-baby was tucked up against the fur collar of Santa Claus's ____________.",
+          optionA: "Jacket",
+          optionB: "Coat",
+          optionC: "Vest",
+          correctAnswer: "Coat",
         }),
       shuffleOptions({
           question:
-            "The wise man became the Minister's counselor, and his counsels were ________ in state affairs.",
-          optionA: "effective",
-          optionB: "negligible",
-          optionC: "disruptive",
-          correctAnswer: "effective",
+            "The next morning, Betsey looked out at Jimmy Scarecrow standing alone in the field amidst the ____________.",
+          optionA: "Flowers",
+          optionB: "Snowdrifts",
+          optionC: "Corn-stubble",
+          correctAnswer: "Corn-stubble",
         }),
       shuffleOptions({
           question:
-            "The courtiers were suspicious of the Minister's sudden enlightenment, especially due to his quick ________.",
-          optionA: "demotion",
-          optionB: "promotion",
-          optionC: "resignation",
-          correctAnswer: "promotion",
+            "Betsey brought Jimmy Scarecrow a Christmas present, a ____________.",
+          optionA: "Pair of mittens",
+          optionB: "Doll-baby",
+          optionC: "Crazy quilt",
+          correctAnswer: "Doll-baby",
         }),
       shuffleOptions({
           question:
-            "The courtiers discovered the source of the Prime Minister's wisdom by bribing a worker at the Prime Minister's ________.",
-          optionA: "office",
-          optionB: "mansion",
-          optionC: "garden",
-          correctAnswer: "mansion",
+            "Jimmy Scarecrow felt happy with the doll-baby under his coat until the snow began to turn to ____________.",
+          optionA: "Ice",
+          optionB: "Rain",
+          optionC: "Hail",
+          correctAnswer: "Rain",
         }),
       shuffleOptions({
           question:
-            "The Prime Minister decided to get rid of the wise man as he feared he could become a source of ________ and shame.",
-          optionA: "humility",
-          optionB: "disgrace",
-          optionC: "honor",
-          correctAnswer: "disgrace",
+            "To keep the doll-baby from getting wet, Betsey suggested that Jimmy Scarecrow should keep her under his ____________.",
+          optionA: "Hat",
+          optionB: "Overcoat",
+          optionC: "Scarf",
+          correctAnswer: "Overcoat",
         }),
       shuffleOptions({
           question:
-            "The Prime Minister attempted to eliminate the wise man by sending him on a dangerous ________.",
-          optionA: "journey",
-          optionB: "mission",
-          optionC: "adventure",
-          correctAnswer: "mission",
+            "Aunt Hannah spread her crazy quilt over the sofa with an air of ____________ after working on it until the middle of the afternoon.",
+          optionA: "Pride",
+          optionB: "Regret",
+          optionC: "Frustration",
+          correctAnswer: "Pride",
         }),
       shuffleOptions({
           question:
-            "The wise man unknowingly delivered a ________ to the State Executioner's son instead of the intended letter.",
-          optionA: "love letter",
-          optionB: "death warrant",
-          optionC: "royal decree",
-          correctAnswer: "death warrant",
+            "Aunt Hannah set out through the snow to carry a slice of plum-pudding to her sister ____________, who lived down the road.",
+          optionA: "Mary",
+          optionB: "Susan",
+          optionC: "Betsey",
+          correctAnswer: "Susan",
         }),
       shuffleOptions({
           question:
-            "The Prime Minister's son outsmarted his father by switching the letters, saving the wise man from his own ________.",
-          optionA: "plan",
-          optionB: "trap",
-          optionC: "mistake",
-          correctAnswer: "plan",
+            "When Christmas came round again, Aunt Hannah and Betsey found their presents in the sitting-room: Aunt Hannah's old crazy quilt, remodelled, and Betsey's doll-baby, a year ____________.",
+          optionA: "Older",
+          optionB: "Younger",
+          optionC: "Smaller",
+          correctAnswer: "Older",
    }),
     ]),
   }
@@ -214,71 +209,74 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question: "The Minister rewarded the man by giving him money.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
           question:
-            "The wise man became the Prime Minister's counselor because of his exceptional farming skills.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "The courtiers were suspicious of the Minister's sudden promotion.",
+            "Jimmy Scarecrow's greatest grief in the winter was his lack of occupation.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The Prime Minister attempted to eliminate the wise man by sending him on a peaceful mission.",
+            "On Christmas Eve, Santa Claus came in his sledge heaped high with toys for the children in the farmhouse.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The wise man unknowingly delivered a love letter to the State Executioner's son.",
+            "Betsey gave Jimmy Scarecrow a pair of mittens as a Christmas present.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The Prime Minister's son revealed the truth to the wise man about the switched letters.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question: "The wise man fell into the pit he dug off the road.",
+            "To keep the doll-baby dry, Betsey suggested that Jimmy Scarecrow should keep her under his hat.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The Prime Minister decided to get rid of the wise man because he demanded a higher position.",
+            "Aunt Hannah spread her crazy quilt over the sofa with an air of regret.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The courtiers discovered the source of the Prime Minister's wisdom through a secret document.",
+            "Aunt Hannah went out through the snow to carry a slice of plum-pudding to her sister Mary.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
-          question: "The wise man's counsel was ineffective in state affairs.",
+          question:
+            "Betsey's doll-baby grew an inch and could walk and talk after a year.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "Santa Claus suggested that Jimmy Scarecrow should scare away crows at the North Pole.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Santa Claus wrote a notice to crows to keep the cornfield safe next summer.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "Aunt Hannah and Betsey thought their presents were spoiled because they got wet in the rain.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
    }),
     ]),
   }

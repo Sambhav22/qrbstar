@@ -1,4 +1,4 @@
-export const chapter = "Chapter -20: The Cartoon";
+export const chapter = "Chapter - 20: The Ghost Test";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -32,82 +32,80 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question:
-            "What was the author's purpose for being at the railway station in the text?",
-          optionA: "To watch the monkeys perform tricks",
-          optionB: "To catch a train for his pilgrimage",
-          optionC: "To purchase fruits from a vendor",
-          correctAnswer: "To catch a train for his pilgrimage",
+          question: "What was the Leopard's appearance in the High Veldt?",
+          optionA: "Exclusively sandy-yellowish-brownish",
+          optionB: "Grayish-yellowish catty-shaped",
+          optionC: "Exclusively sandy-coloured",
+          correctAnswer: "Grayish-yellowish catty-shaped",
         }),
       shuffleOptions({
           question:
-            "What caught the author's attention at the railway station when he arrived half an hour before the train's departure?",
-          optionA: "The intense heat in the compartment",
-          optionB: "The hordes of monkeys frolicking on the platform",
-          optionC: "The struggle of lower-middle-class passengers for seats",
-          correctAnswer: "The hordes of monkeys frolicking on the platform",
-        }),
-      shuffleOptions({
-          question: "What did the monkeys do as the train was announced?",
-          optionA: "Started fighting with each other",
-          optionB: "Frolicked on the trees and platform",
-          optionC: "Ran away in fear",
-          correctAnswer: "Frolicked on the trees and platform",
+            "Which animals lived exclusively in the High Veldt with the Leopard?",
+          optionA: "Giraffe, Zebra, Eland, Koodoo, Hartebeest",
+          optionB: "Giraffe, Elephant, Zebra, Lion, Buffalo",
+          optionC: "Cheetah, Antelope, Rhino, Hyena, Wildebeest",
+          correctAnswer: "Giraffe, Zebra, Eland, Koodoo, Hartebeest",
         }),
       shuffleOptions({
           question:
-            "How did the businessman react when the monkey snatched his embroidered cap?",
-          optionA: "He laughed out loud",
-          optionB: "He shouted in utter confusion",
-          optionC: "He thanked the monkey for the entertainment",
-          correctAnswer: "He shouted in utter confusion",
+            "Why did the Giraffe, Zebra, and other animals leave the High Veldt?",
+          optionA: "They were tired of the Leopard and Ethiopian.",
+          optionB: "The Leopard surprised them during hunting.",
+          optionC: "They wanted a change and found a forest.",
+          correctAnswer: "They wanted a change and found a forest.",
+        }),
+      shuffleOptions({
+          question: "How did the Giraffe and Zebra hide in the forest?",
+          optionA: "By changing their colors",
+          optionB: "By growing blotchy and stripy patterns",
+          optionC: "By climbing tall trees",
+          correctAnswer: "By growing blotchy and stripy patterns",
+        }),
+      shuffleOptions({
+          question: "What advice did Baviaan give to the Leopard?",
+          optionA: "Change your spots like the Ethiopian.",
+          optionB: "Go into other spots as soon as possible.",
+          optionC: "Keep hunting in the High Veldt.",
+          correctAnswer: "Go into other spots as soon as possible.",
+        }),
+      shuffleOptions({
+          question: "What did the Ethiopian change about himself in the end?",
+          optionA: "His hair color",
+          optionB: "His skin color",
+          optionC: "His clothing",
+          correctAnswer: "His skin color",
         }),
       shuffleOptions({
           question:
-            "What did the fruit vendor offer to do to help the businessman retrieve his cap from the monkey?",
-          optionA: "Offered money to the monkey",
-          optionB: "Offered two bananas to the monkey",
-          optionC: "Climbed the neem tree to get the cap",
-          correctAnswer: "Offered two bananas to the monkey",
+            "How did the Leopard react to the Ethiopian's suggestion of changing spots?",
+          optionA: "He preferred stripes like Zebra.",
+          optionB: "He insisted on spots but not too vulgar-big.",
+          optionC: "He rejected the idea of changing spots.",
+          correctAnswer: "He insisted on spots but not too vulgar-big.",
         }),
       shuffleOptions({
           question:
-            "How did the businessman react to the fruit vendor's request for payment after retrieving the cap?",
-          optionA: "He paid without any objections",
-          optionB: "He refused to pay and shouted angrily",
-          optionC: "He negotiated a lower payment",
-          correctAnswer: "He refused to pay and shouted angrily",
+            "What did the Ethiopian use to create spots on the Leopard?",
+          optionA: "A brush",
+          optionB: "His five fingers",
+          optionC: "A spray can",
+          correctAnswer: "His five fingers",
         }),
       shuffleOptions({
           question:
-            "What did the author do in response to the businessman's behavior towards the fruit vendor?",
-          optionA: "Drew a caricature of the businessman",
-          optionB: "Laughed out loud",
-          optionC: "Ignored the situation",
-          correctAnswer: "Drew a caricature of the businessman",
+            "What did the Leopard become after the Ethiopian created spots on him?",
+          optionA: "A beauty with purple stripes",
+          optionB: "A perfect sifter of sunshine",
+          optionC: "A heap of pebbles",
+          correctAnswer: "A heap of pebbles",
         }),
       shuffleOptions({
-          question:
-            "Why did the fruit vendor hurl abuse at the businessman as the train left the station?",
-          optionA: "The businessman refused to pay for the bananas",
-          optionB: "The businessman made a caricature of him",
-          optionC: "The businessman did not help him retrieve the cap",
-          correctAnswer: "The businessman refused to pay for the bananas",
-        }),
-      shuffleOptions({
-          question:
-            "How did the other passengers react to the caricature of the businessman?",
-          optionA: "They felt sympathy for him",
-          optionB: "They laughed and smiled",
-          optionC: "They confronted the businessman",
-          correctAnswer: "They laughed and smiled",
-        }),
-      shuffleOptions({
-          question: "What did the author's revenge on the businessman involve?",
-          optionA: "Drawing a caricature",
-          optionB: "Confronting him verbally",
-          optionC: "Offering help to the fruit vendor",
-          correctAnswer: "Drawing a caricature",
+          question: "How did the story end for the Leopard and the Ethiopian?",
+          optionA: "They continued hunting in the High Veldt.",
+          optionB: "They changed their spots and lived happily ever afterward.",
+          optionC: "They regretted changing their appearances.",
+          correctAnswer:
+            "They changed their spots and lived happily ever afterward.",
    }),
     ]),
   }
@@ -120,83 +118,83 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions(
         {
           question:
-            "The author was on his way from the ancient city of Ayodhya to ___________ during the course of his pilgrimage to holy cities.",
-          optionA: "Delhi",
-          optionB: "Varanasi",
-          optionC: "Jaipur",
-          correctAnswer: "Varanasi",
+            "In the High Veldt, the Leopard's appearance was exclusively ________.",
+          optionA: "sandy-yellowish",
+          optionB: "grayish-yellowish catty-shaped",
+          optionC: "exclusively sandy-coloured",
+          correctAnswer: "grayish-yellowish catty-shaped",
         }),
       shuffleOptions({
           question:
-            "At the railway station, the presence of ____________ is conspicuous, and one can see thousands of them performing tricks.",
-          optionA: "dogs",
-          optionB: "cows",
-          optionC: "monkeys",
-          correctAnswer: "monkeys",
+            "The Giraffe and the Zebra, along with other animals, lived exclusively in the High Veldt, and they were all ________.",
+          optionA: "exclusively sandy-yellowish",
+          optionB: "exclusively sandy-yellow-brownish",
+          optionC: "exclusively grayish-yellowish",
+          correctAnswer: "exclusively sandy-yellow-brownish",
         }),
       shuffleOptions({
           question:
-            "The older monkeys sat enjoying a good old scratch, which is so soothing in the __________ weather.",
-          optionA: "rainy",
-          optionB: "cold",
-          optionC: "hot",
-          correctAnswer: "hot",
+            "The Giraffe and the Zebra scuttled away from the High Veldt and hid in a forest full of trees, bushes, and ________ shadows.",
+          optionA: "stripy, speckly, patchy-blatchy",
+          optionB: "exclusively sandy-coloured",
+          optionC: "sandy-yellowish",
+          correctAnswer: "stripy, speckly, patchy-blatchy",
         }),
       shuffleOptions({
           question:
-            'The businessman shouted at the coolie, "Here, hurry, the train might go!" when the coolie was still far away, and he referred to the coolie as a "__________ one."',
-          optionA: "lazy",
-          optionB: "blind",
-          optionC: "careless",
-          correctAnswer: "blind",
+            "The Giraffe grew blotchy, the Zebra grew stripy, and the Eland and Koodoo grew darker with little wavy gray lines on their backs like ________.",
+          optionA: "sand dunes",
+          optionB: "tree bark",
+          optionC: "grass blades",
+          correctAnswer: "tree bark",
         }),
       shuffleOptions({
           question:
-            "The businessman recognized his name on the reservation card and beckoned to the coolie, who was following with his luggage, including a big steel trunk, a hold-all, and several small baskets and a __________ jug.",
-          optionA: "glass",
-          optionB: "plastic",
-          optionC: "brass",
-          correctAnswer: "brass",
+            "Baviaan, the dog-headed, barking Baboon, advised the Leopard to go into ________.",
+          optionA: "other spots as soon as possible",
+          optionB: "hiding in the forest",
+          optionC: "exclusively yellowish-grayish-brownish areas",
+          correctAnswer: "other spots as soon as possible",
         }),
       shuffleOptions({
           question:
-            "The monkey leapt down from the top of their compartment and snatched away the fine __________ cap of the businessman.",
-          optionA: "silk",
-          optionB: "embroidered",
-          optionC: "woolen",
-          correctAnswer: "embroidered",
+            "The aboriginal Fauna joined the aboriginal Flora, and the Ethiopian decided to change by altering his ________.",
+          optionA: "hair color",
+          optionB: "skin color",
+          optionC: "clothing style",
+          correctAnswer: "skin color",
         }),
       shuffleOptions({
           question:
-            "The fruit vendor offered a couple of __________ to the monkey in exchange for the businessman's cap.",
-          optionA: "apples",
-          optionB: "bananas",
-          optionC: "oranges",
-          correctAnswer: "bananas",
+            "The Ethiopian advised the Leopard to go into spots, meaning spots on ________.",
+          optionA: "the High Veldt",
+          optionB: "South Africa",
+          optionC: "their skin",
+          correctAnswer: "their skin",
         }),
       shuffleOptions({
           question:
-            "The businessman felt embarrassed at being made the victim of the perverted sense of humour of the monkey and was eager to get into the compartment to escape the __________ situation.",
-          optionA: "humiliating",
-          optionB: "entertaining",
-          optionC: "joyful",
-          correctAnswer: "humiliating",
+            "The Ethiopian created spots on the Leopard using ________.",
+          optionA: "a brush",
+          optionB: "his five fingers",
+          optionC: "a spray can",
+          correctAnswer: "his five fingers",
         }),
       shuffleOptions({
           question:
-            'The businessman reluctantly gave an anna to the fruit vendor but refused to pay more, calling him a "__________ fellow."',
-          optionA: "generous",
-          optionB: "dirty",
-          optionC: "helpful",
-          correctAnswer: "dirty",
+            "The Leopard, after the change, looked like a heap of ________.",
+          optionA: "stones",
+          optionB: "pebbles",
+          optionC: "rocks",
+          correctAnswer: "pebbles",
         }),
       shuffleOptions({
           question:
-            "As the train left the station, the fruit vendor dropped off after hurling the spiciest abuse on the __________.",
-          optionA: "passengers",
-          optionB: "businessman",
-          optionC: "monkeys",
-          correctAnswer: "businessman",
+            "The story concludes with the Leopard and the Ethiopian living ________.",
+          optionA: "regretting the change",
+          optionB: "happily ever afterward",
+          optionC: "in the High Veldt",
+          correctAnswer: "happily ever afterward",
    }),
     ]),
   }
@@ -208,65 +206,68 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question: "The author was on a pilgrimage from Ayodhya to Varanasi.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Monkeys at the railway station were not performing any tricks.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "The older monkeys were scratching themselves on the platform.",
+          question: "The Leopard lived in a place called the High Veldt.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
-          question: "The businessman recognized the coolie from a distance.",
+          question:
+            "The Giraffe and the Zebra scuttled away from the High Veldt and hid in a forest.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "The Leopard and the Ethiopian used bows and arrows to hunt together.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
-          question: "The businessman's luggage included a plastic jug.",
+          question: "The aboriginal Fauna joined the aboriginal Flora.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "False",
+          correctAnswer: "True",
         }),
       shuffleOptions({
-          question: "The monkey snatched a silk cap from the businessman.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question: "The fruit vendor offered oranges to the monkey.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question: "The businessman felt entertained by the monkey's prank.",
+          question: "The Leopard changed its spots by using a brush.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The businessman willingly paid the fruit vendor for the bananas.",
+            "The spots on the Leopard were created with the tips of the Ethiopian's fingers.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "The Giraffe's appearance was exclusively sandy-yellowish in the High Veldt.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The other passengers confronted the businessman about the situation.",
+            "Baviaan, the Baboon, advised the Leopard to go into hiding in the forest.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The Leopard and the Ethiopian lived happily ever afterward.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "The Ethiopian changed his skin color to exclusively sandy-yellowish.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",

@@ -1,4 +1,4 @@
-export const chapter = "Chapter -6: Coming of the King";
+export const chapter = "Chapter - 1: Mussoorie– Queen of Hills";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -33,83 +33,84 @@ if (localStorage.getItem("activityNumber") == 1) {
       shuffleOptions(
         {
           question:
-            "What prompted the children to clean and beautify their playground?",
-          optionA: "A passing herald",
-          optionB: "The announcement of the King's arrival",
-          optionC: "A kind, tired-faced man",
-          correctAnswer: "The announcement of the King's arrival",
+            "Why does the narrator like the TV soap mentioned in the text?",
+          optionA: "The interesting storyline",
+          optionB: "The popular actors",
+          optionC: "It airs during dinner time",
+          correctAnswer: "It airs during dinner time",
+        }),
+      shuffleOptions({
+          question: "What happens when the cable connection is snapped?",
+          optionA: "The family switches to a different channel",
+          optionB: "The family enjoys a lively dinner and conversation",
+          optionC: "The family immediately calls the cable-man",
+          correctAnswer: "The family enjoys a lively dinner and conversation",
         }),
       shuffleOptions({
           question:
-            "How did the children make their playground pretty for the King?",
-          optionA: "Sweeping and mopping",
-          optionB: "Strewing sweet rushes and creating garlands",
-          optionC: "Painting the walls with vibrant colors",
-          correctAnswer: "Strewing sweet rushes and creating garlands",
+            "What is Mr. Raghav's attitude towards the cable connection being down?",
+          optionA: "He is indifferent",
+          optionB: "He is upset",
+          optionC: "He is delighted",
+          correctAnswer: "He is delighted",
         }),
       shuffleOptions({
           question:
-            "Why did the children decide to keep the playground pretty even after the King did not come?",
-          optionA: "They wanted to impress other visitors.",
+            "How long does the cable-man say it will take to restore the cable connection?",
+          optionA: "One day",
+          optionB: "Two days",
+          optionC: "Three days",
+          correctAnswer: "Two days",
+        }),
+      shuffleOptions({
+          question:
+            "What surprising skill does the daughter, Radhika, display during the cable outage?",
+          optionA: "Singing",
+          optionB: "Cooking",
+          optionC: "Dancing",
+          correctAnswer: "Cooking",
+        }),
+      shuffleOptions({
+          question:
+            "What does the family realize during the two days without TV?",
+          optionA: "They miss their favorite shows",
+          optionB: "Quality time and family interactions are important",
+          optionC: "They need to find a new cable provider",
+          correctAnswer: "Quality time and family interactions are important",
+        }),
+      shuffleOptions({
+          question:
+            "What childhood activities does the narrator describe to her daughter?",
+          optionA: "Playing video games",
           optionB:
-            "They realized pretty and clean is nicer than ugly and dirty.",
-          optionC: "They hoped the King might still come later.",
+            "Playing under tamarind trees, stoning trees, and making clay playthings",
+          optionC: "Watching TV",
           correctAnswer:
-            "They realized pretty and clean is nicer than ugly and dirty.",
+            "Playing under tamarind trees, stoning trees, and making clay playthings",
         }),
       shuffleOptions({
           question:
-            "Who eventually visited the playground after the children had beautified it?",
-          optionA: "The King",
-          optionB: "A herald",
-          optionC: "A tired man with a kind face",
-          correctAnswer: "A tired man with a kind face",
+            "What was more important than scoring high marks during the narrator's childhood?",
+          optionA: "Being healthy and well-behaved",
+          optionB: "Studying for long hours",
+          optionC: "Winning sports competitions",
+          correctAnswer: "Being healthy and well-behaved",
         }),
       shuffleOptions({
           question:
-            "How did the children welcome the man who visited their playground?",
-          optionA: "They ignored him.",
-          optionB: "They asked him to leave.",
-          optionC: "They brought him in gladly and offered him a seat.",
-          correctAnswer: "They brought him in gladly and offered him a seat.",
+            "What virtue does the family learn during the two days without TV?",
+          optionA: "Patience",
+          optionB: "Virtue",
+          optionC: "Curiosity",
+          correctAnswer: "Virtue",
         }),
       shuffleOptions({
           question:
-            "What did the children use to create a makeshift throne for the man who visited them?",
-          optionA: "An old cask covered with a red cloak",
-          optionB: "A wooden chair",
-          optionC: "A pile of hay",
-          correctAnswer: "An old cask covered with a red cloak",
-        }),
-      shuffleOptions({
-          question: "Why did the man appreciate the children's playground?",
-          optionA: "Because it was meant for the King",
-          optionB: "Because it was clean and pretty",
-          optionC: "Because it had many play structures",
-          correctAnswer: "Because it was clean and pretty",
-        }),
-      shuffleOptions({
-          question: "What did the man do before leaving the playground?",
-          optionA: "Gave the children a lecture on cleanliness",
-          optionB: "Laid his hand on their heads",
-          optionC: "Bought something from them",
-          correctAnswer: "Laid his hand on their heads",
-        }),
-      shuffleOptions({
-          question:
-            "What did the littlest child think the man's hair looked like?",
-          optionA: "A crown of gold",
-          optionB: "A messy tangle",
-          optionC: "A bird's nest",
-          correctAnswer: "A crown of gold",
-        }),
-      shuffleOptions({
-          question: "How did the children feel about the man who visited them?",
-          optionA: "They were frightened.",
-          optionB: "They thought he was unfriendly.",
-          optionC: "They found him kind, and his touch warmed their hearts.",
-          correctAnswer:
-            "They found him kind, and his touch warmed their hearts.",
+            "How does the family decide to manage their TV time after the cable connection is restored?",
+          optionA: "No more TV",
+          optionB: "One hour of TV every day",
+          optionC: "Only weekends for TV",
+          correctAnswer: "One hour of TV every day",
    }),
     ]),
   }
@@ -122,83 +123,83 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions(
         {
           question:
-            "Some children were at play in their playground one day when a __________ rode through the town, blowing a trumpet and crying aloud, 'The King! The King passes by this road today. Make ready for the King!'",
-          optionA: "Jester",
-          optionB: "Herald",
-          optionC: "Knight",
-          correctAnswer: "Herald",
+            "The family sat clung to the __________ screen tuned to their favorite soap opera.",
+          optionA: "Radio",
+          optionB: "Computer",
+          optionC: "TV",
+          correctAnswer: "TV",
         }),
       shuffleOptions({
           question:
-            "The children stopped their play and looked at one another, realizing that the __________ is coming.",
-          optionA: "Queen",
-          optionB: "King",
-          optionC: "Prince",
-          correctAnswer: "King",
+            "The narrator's daughter and husband have been watching the soap opera for the last __________ years.",
+          optionA: "Two",
+          optionB: "Three",
+          optionC: "Four",
+          correctAnswer: "Three",
         }),
       shuffleOptions({
           question:
-            "The playground was sadly dirty, and in the corners were scraps of paper and broken toys, for these were __________ children.",
-          optionA: "Careful",
-          optionB: "Negligent",
-          optionC: "Playful",
-          correctAnswer: "Negligent",
+            "The cable connection could not be restored for __________ days due to a major fault.",
+          optionA: "One",
+          optionB: "Two",
+          optionC: "Three",
+          correctAnswer: "Two",
         }),
       shuffleOptions({
           question:
-            "The children labored hard, bringing a hoe, a rake, and a wheelbarrow to make the playground __________.",
-          optionA: "Untidy",
-          optionB: "Dirty",
-          optionC: "Clean and tidy",
-          correctAnswer: "Clean and tidy",
+            "The daughter, Radhika, surprises everyone by displaying her __________ skills during the cable outage.",
+          optionA: "Cooking",
+          optionB: "Singing",
+          optionC: "Dancing",
+          correctAnswer: "Cooking",
         }),
       shuffleOptions({
           question:
-            "To make the playground pretty, the children brought sweet rushes and strewed them on the ground, and others made garlands of oak leaves and pine tassels and hung them on the __________.",
-          optionA: "Ceilings",
-          optionB: "Walls",
-          optionC: "Ground",
-          correctAnswer: "Walls",
+            "The family decides to limit their TV time to only __________ hour(s) every day after the cable connection is restored.",
+          optionA: "Half",
+          optionB: "One",
+          optionC: "Two",
+          correctAnswer: "One",
         }),
       shuffleOptions({
           question:
-            "The littlest one pulled marigold buds and threw them all about the playground 'to look like __________,' he said.",
-          optionA: "Diamonds",
-          optionB: "Gold",
-          optionC: "Silver",
-          correctAnswer: "Gold",
+            "According to the narrator, during the two days without TV, they had more time for __________ and __________.",
+          optionA: "Sleeping, studying",
+          optionB: "Eating, sleeping",
+          optionC: "Talking, laughing",
+          correctAnswer: "Talking, laughing",
         }),
       shuffleOptions({
           question:
-            "The man with travel-worn clothes and a kind, tired face passed along the road towards __________.",
-          optionA: "Sunrise",
-          optionB: "Sunset",
-          optionC: "Noon",
-          correctAnswer: "Sunset",
+            "The cable-man informs the neighborhood that the cable connection cannot be restored for at least __________ days.",
+          optionA: "One",
+          optionB: "Two",
+          optionC: "Three",
+          correctAnswer: "Two",
         }),
       shuffleOptions({
           question:
-            "The children covered the seat made out of an old cask with an old red cloak to make it look like a __________.",
-          optionA: "Throne",
-          optionB: "Bed",
-          optionC: "Chair",
-          correctAnswer: "Throne",
+            "The narrator reminisces about her childhood and describes playing under __________ trees and stoning trees.",
+          optionA: "Mango",
+          optionB: "Tamarind",
+          optionC: "Oak",
+          correctAnswer: "Tamarind",
         }),
       shuffleOptions({
           question:
-            "The man appreciated the children's efforts, stating, 'Because we think pretty and clean is nicer than ugly and dirty!' said another. 'That is __________!' said the man.",
-          optionA: "Great",
-          optionB: "Better",
-          optionC: "Best",
-          correctAnswer: "Better",
+            "The narrator's husband teaches their daughter casio during the cable outage, which adds a new streak of __________.",
+          optionA: "Learning",
+          optionB: "Entertainment",
+          optionC: "Cooking",
+          correctAnswer: "Learning",
         }),
       shuffleOptions({
           question:
-            "The littlest one remarked, 'See! How the sun shines on his hair! It looks like a __________.'",
-          optionA: "Crown of thorns",
-          optionB: "Crown of jewels",
-          optionC: "Crown of gold",
-          correctAnswer: "Crown of gold",
+            "Radhika suggests that they can continue limiting their TV time to __________ hour(s) even after the cable connection is restored.",
+          optionA: "Half",
+          optionB: "One",
+          optionC: "Two",
+          correctAnswer: "One",
    }),
     ]),
   }
@@ -211,72 +212,73 @@ if (localStorage.getItem("activityNumber") == 3) {
       shuffleOptions(
         {
           question:
-            "The herald rode through the town, announcing the arrival of the King.",
+            "The family watched their favorite soap opera every evening.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The children decided to clean and beautify their playground because they heard about the King's visit.",
+            "The cable connection was snapped due to a major fault and couldn't be restored for one day.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Radhika surprised everyone by displaying her singing skills during the cable outage.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The cable-man informed that the cable connection would take at least three days to be restored.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The family decided to watch TV for two hours every day after the cable connection was restored.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "During the two days without TV, the family had more time for sleeping and studying.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The narrator reminisced about playing under mango trees during her childhood.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Radhika suggested continuing to limit TV time to one hour even after the cable connection was restored.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The playground was clean but not pretty after the children's efforts.",
+            "The narrator's husband taught their daughter cooking skills during the cable outage.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The man who visited the playground was wearing new clothes.",
+            "The family realized that the absence of TV brought them closer, and they continued limiting TV time to two hours.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "The children offered the man a seat covered with an old red cloak to make it look like a throne.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "The man appreciated the children's efforts to make the playground pretty and clean.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "The man asked the children for money before leaving the playground.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question: "The sun was rising when the man passed by the playground.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "The littlest child thought the man's hair looked like a crown of thorns.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "The children decided to keep the playground beautiful even after the King didn't come.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
    }),
     ]),
   }

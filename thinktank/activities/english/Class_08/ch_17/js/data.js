@@ -1,4 +1,4 @@
-export const chapter = "Chapter -17:My Story";
+export const chapter = "Chapter - 17: Fear is a Fantasy";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -32,80 +32,79 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question: "What was John Clemens known for?",
-          optionA: "Farmer, merchant, and postmaster",
-          optionB: "Doctor and scholar",
-          optionC: "Inventor and scientist",
-          correctAnswer: "Farmer, merchant, and postmaster",
-        }),
-      shuffleOptions({
-          question: "What was the personality of John Clemens like?",
-          optionA: "Merry and jolly",
-          optionB: "Serious and not merry",
-          optionC: "Adventurous and carefree",
-          correctAnswer: "Serious and not merry",
-        }),
-      shuffleOptions({
-          question: "What did the Clemens children do during the day?",
-          optionA: "Played video games",
-          optionB: "Roamed through the country, picking nuts and berries",
-          optionC: "Attended school and studied",
-          correctAnswer:
-            "Roamed through the country, picking nuts and berries",
+          question: "When was the Chittor Fort built?",
+          optionA: "During the Mauryan period",
+          optionB: "In the 14th century",
+          optionC: "Its origin is unclear",
+          correctAnswer: "Its origin is unclear",
         }),
       shuffleOptions({
           question:
-            "Who was the famous storyteller among the Clemens' children?",
-          optionA: "John Clemens",
-          optionB: "Jane Clemens",
-          optionC: "Uncle Ned",
-          correctAnswer: "Uncle Ned",
+            "Which ruler attacked Chittor in the early fourteenth century, leading to the first Jauhar?",
+          optionA: "Akbar",
+          optionB: "Alauddin Khalji",
+          optionC: "Babur",
+          correctAnswer: "Alauddin Khalji",
         }),
       shuffleOptions({
           question:
-            "What was the nickname given to Samuel Clemens when he was a child?",
-          optionA: "Little Joe",
-          optionB: "Little Sam",
-          optionC: "Little Mark",
-          correctAnswer: "Little Sam",
+            "How did Queen Padmini deceive Alauddin Khalji during the siege of Chittor?",
+          optionA: "She surrendered to him willingly",
+          optionB: "She sent her mirror image to him",
+          optionC: "She fled the fort with her army",
+          correctAnswer: "She sent her mirror image to him",
         }),
       shuffleOptions({
           question:
-            "Where did Samuel Clemens spend his summers with his mother and siblings?",
-          optionA: "Florida",
-          optionB: "Hannibal",
-          optionC: "Quarles farm",
-          correctAnswer: "Quarles farm",
+            "Which ruler attacked Chittor around 200 years after the first Jauhar?",
+          optionA: "Bahadur Shah",
+          optionB: "Humayun",
+          optionC: "Rana Sanga",
+          correctAnswer: "Bahadur Shah",
         }),
       shuffleOptions({
-          question: "What did Samuel Clemens admire Uncle Ned for?",
-          optionA: "Cooking skills",
-          optionB: "Storytelling",
-          optionC: "Singing",
-          correctAnswer: "Storytelling",
+          question: "Why did Queen Karnavati send a Rakhi to Humayun?",
+          optionA: "To seek revenge",
+          optionB: "To request help against an invasion",
+          optionC: "As a gesture of goodwill",
+          correctAnswer: "To request help against an invasion",
         }),
       shuffleOptions({
-          question: "At what age did Samuel Clemens start going to school?",
-          optionA: "3",
-          optionB: "5",
-          optionC: "9",
-          correctAnswer: "5",
-        }),
-      shuffleOptions({
-          question:
-            "What profession did Samuel Clemens learn after his father's death?",
-          optionA: "Farmer",
-          optionB: "Pilot",
-          optionC: "Doctor",
-          correctAnswer: "Pilot",
+          question: "Who was the grandmother of Maharana Pratap?",
+          optionA: "Rana Sanga",
+          optionB: "Karnavati",
+          optionC: "Parma Dhai",
+          correctAnswer: "Karnavati",
         }),
       shuffleOptions({
           question:
-            "What name did Samuel Clemens use when signing his writings?",
-          optionA: "Samuel Clemens Jr.",
-          optionB: "Mark Twain",
-          optionC: "John Briggs",
-          correctAnswer: "Mark Twain",
+            "What is the significance of the Vijay Stambh in Chittor Fort?",
+          optionA: "It commemorates Mewar's victory over Malwa",
+          optionB: "It is a Jain temple",
+          optionC: "It was the site of a Jauhar",
+          correctAnswer: "It commemorates Mewar's victory over Malwa",
+        }),
+      shuffleOptions({
+          question: "How many acres of land does Chittor Fort cover?",
+          optionA: "500 acres",
+          optionB: "700 acres",
+          optionC: "1000 acres",
+          correctAnswer: "700 acres",
+        }),
+      shuffleOptions({
+          question: "Which festival is associated with Queen Karnavati?",
+          optionA: "Diwali",
+          optionB: "Holi",
+          optionC: "Rakhi",
+          correctAnswer: "Rakhi",
+        }),
+      shuffleOptions({
+          question:
+            "What is held annually at the Jauhar site in Chittor Fort to commemorate the brave warriors and women?",
+          optionA: "A musical festival",
+          optionB: "Jauhar Mela",
+          optionC: "A religious procession",
+          correctAnswer: "Jauhar Mela",
    }),
     ]),
   }
@@ -118,83 +117,83 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions(
         {
           question:
-            "John Clemens, Samuel's ____________, was a farmer, merchant, and postmaster in a Missouri town, called Florida.",
-          optionA: "Uncle",
-          optionB: "Father",
-          optionC: "Brother",
-          correctAnswer: "Father",
+            "Chittor Fort is located in the ________ region in Rajasthan.",
+          optionA: "Marwar",
+          optionB: "Mewar",
+          optionC: "Shekhawati",
+          correctAnswer: "Mewar",
         }),
       shuffleOptions({
           question:
-            "Mrs. Clemens did not like to have any one around when she was bustling through the ____________, so the six children spent the days roaming through the country, picking nuts and berries.",
-          optionA: "Library",
-          optionB: "Housework",
-          optionC: "Garden",
-          correctAnswer: "Housework",
+            "The historical stories at Chittor Fort carve their perennial place in ________ history.",
+          optionA: "Regional",
+          optionB: "National",
+          optionC: "International",
+          correctAnswer: "National",
         }),
       shuffleOptions({
           question:
-            "Uncle Ned was a famous ____________. When he described witches and goblins, the children would look over their shoulders as if they half expected to see the queer creatures in the room.",
-          optionA: "Musician",
-          optionB: "Storyteller",
-          optionC: "Magician",
-          correctAnswer: "Storyteller",
+            "Chittor Fort is recognized as a UNESCO World Heritage Site, and it covers about ________ acres of land area.",
+          optionA: "500",
+          optionB: "700",
+          optionC: "1000",
+          correctAnswer: "700",
         }),
       shuffleOptions({
           question:
-            "Sam was a delicate child. The neighbors used to shake their heads and declare he would never live to be a man, and every one always spoke of him as 'little ____________.'",
-          optionA: "Joe",
-          optionB: "Tom",
-          optionC: "Sam",
-          correctAnswer: "Sam",
+            "The first Jauhar at Chittor Fort occurred during the early ________ century when Alauddin Khalji attacked the capital of Mewar.",
+          optionA: "12th",
+          optionB: "14th",
+          optionC: "16th",
+          correctAnswer: "14th",
         }),
       shuffleOptions({
           question:
-            "When Mr. Clemens moved to another town some distance away, the mother said instantly: 'Well, Hannibal may be all right for your business, but Florida agrees so well with little Sam, that I shall spend every summer here with the children, on the ____________ farm.'",
-          optionA: "Smith",
-          optionB: "Quarles",
-          optionC: "Thompson",
-          correctAnswer: "Quarles",
+            "Queen Padmini, to deceive Alauddin Khalji, showed her mirror image in the water in the ________.",
+          optionA: "Jal Mahal",
+          optionB: "Kirti Stambh",
+          optionC: "Vijay Stambh",
+          correctAnswer: "Jal Mahal",
         }),
       shuffleOptions({
           question:
-            "Sam grew plump. A funny thing happened the first summer they went to nice Mr. Quarles's. Mrs. Clemens, with the older children, the new baby, and Jennie, went on ahead in a large ____________.",
-          optionA: "Wagon",
-          optionB: "Car",
-          optionC: "Boat",
-          correctAnswer: "Wagon",
+            "The second Jauhar at Chittor Fort took place approximately ________ years later during the reign of Rana Sanga.",
+          optionA: "100",
+          optionB: "200",
+          optionC: "300",
+          correctAnswer: "200",
         }),
       shuffleOptions({
           question:
-            "At nine he had a head rather too large for his body, and it looked even bigger because he had such a lot of waving, ____________ hair.",
-          optionA: "Brown",
-          optionB: "Black",
-          optionC: "Sandy",
-          correctAnswer: "Sandy",
+            "Queen Karnavati, during the second Jauhar, sent a Rakhi to ________ for help against the invasion by Bahadur Shah.",
+          optionA: "Alauddin Khalji",
+          optionB: "Humayun",
+          optionC: "Babur",
+          correctAnswer: "Humayun",
         }),
       shuffleOptions({
           question:
-            "Sam learned the ____________ trade. He was very quick in setting type and accurate, so that he soon helped his older brother start a newspaper.",
-          optionA: "Blacksmith",
-          optionB: "Printer's",
-          optionC: "Carpenter's",
-          correctAnswer: "Printer's",
+            "The ruler of Gujarat who attacked Mewar during the second Jauhar was ________ Shah.",
+          optionA: "Bahadur",
+          optionB: "Akbar",
+          optionC: "Babur",
+          correctAnswer: "Bahadur",
         }),
       shuffleOptions({
           question:
-            "He meant to travel, and as he earned enough by newspaper work, he visited New York, Philadelphia, and was on his way to ____________ when he got a chance to be a pilot on the Mississippi River.",
-          optionA: "Europe",
-          optionB: "Asia",
-          optionC: "South America",
-          correctAnswer: "South America",
+            "The third Jauhar at Chittor Fort occurred when Akbar, the Mughal ruler, attacked the fort during the reign of King ________ Singh.",
+          optionA: "Rana Sanga",
+          optionB: "Ratan Singh",
+          optionC: "Udai Singh",
+          correctAnswer: "Udai Singh",
         }),
       shuffleOptions({
           question:
-            "After his death, Sam learned the ____________ trade. He was very quick in setting type and accurate, so that he soon helped his older brother start a newspaper.",
-          optionA: "Carpenter's",
-          optionB: "Farmer's",
-          optionC: "Printer's",
-          correctAnswer: "Printer's",
+            "The annual event held at the Jauhar site in Chittor Fort to commemorate the brave warriors and women is called ________ Mela.",
+          optionA: "Victory",
+          optionB: "Heritage",
+          optionC: "Jauhar",
+          correctAnswer: "Jauhar Mela",
    }),
     ]),
   }
@@ -207,67 +206,69 @@ if (localStorage.getItem("activityNumber") == 3) {
       shuffleOptions(
         {
           question:
-            "John Clemens, Samuel's father, was a farmer, merchant, and postmaster in a Missouri town called Florida.",
+            "Chittor Fort is located in the Marwar region in Rajasthan.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Chittor Fort is recognized as a UNESCO World Heritage Site.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
-          question:
-            "Mrs. Clemens liked to have people around when she was bustling through the housework.",
+          question: "Chittor Fort covers about 500 acres of land area.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Uncle Ned, a coloured farm-hand, was not a good storyteller according to the children.",
+            "The first Jauhar at Chittor Fort occurred in the 16th century.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Sam Clemens was often called 'Little Joe' by his neighbors.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question: "The Clemens family spent their summers on the Smith farm.",
+            "Queen Padmini showed her mirror image in the Jal Mahal to deceive Alauddin Khalji.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Sam's mother, Mrs. Clemens, went ahead to Quarles farm in a car with the older children, the new baby, and Jennie.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question: "Sam had brown hair and fine gray eyes when he was nine.",
+            "The second Jauhar at Chittor Fort took place approximately 300 years later.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Sam learned the carpenter's trade after his father's death.",
+            "Queen Karnavati sent a Rakhi to Babur for help against the invasion by Bahadur Shah.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Sam visited Europe, Asia, and South America during his travels.",
+            "The ruler of Gujarat who attacked Mewar during the second Jauhar was Akbar.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
-          question: "Sam signed his writings with the name 'Little Sam.'",
+          question:
+            "The third Jauhar at Chittor Fort occurred when Rana Sanga was the king.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The annual event held at the Jauhar site in Chittor Fort is called Heritage Mela.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",

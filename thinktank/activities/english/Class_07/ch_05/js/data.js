@@ -1,4 +1,4 @@
-export const chapter = "Chapter -5: Tenzing Norgay";
+export const chapter = "Chapter - 5: World Wildlife Week";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -24,178 +24,172 @@ const shuffleOptions = (object) => {
   object.optionC = optionsArray[2]
 
   return object
-};
+}
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: shuffleQues([
-      shuffleOptions(
-        {
-          question:
-            "When did Tenzing Norgay step on Mount Everest, creating history?",
-          optionA: "29 May, 1953",
-          optionB: "28 May, 1952",
-          optionC: "26 May, 1952",
-          correctAnswer: "29 May, 1953",
-        }),
       shuffleOptions({
-          question: "What does the name 'Tenzing Norgay' signify?",
-          optionA: "Brave conqueror of mountains",
-          optionB: "Wealthy-fortunate-follower-of-religion",
-          optionC: "Mountain guide and explorer",
-          correctAnswer: "Wealthy-fortunate-follower-of-religion",
-        }),
+        question: "Who is playing ludo on the lawn?",
+        optionA: "Ravi and Astha",
+        optionB: "Mohan and Astha",
+        optionC: "Gautami and Ravi",
+        correctAnswer: "Ravi and Astha",
+     }),
       shuffleOptions({
-          question: "Which Sherpa clan did Tenzing Norgay belong to?",
-          optionA: "Khumbu",
-          optionB: "Everestian",
-          optionC: "Sherpa",
-          correctAnswer: "Sherpa",
-        }),
+        question: "Why is Gautami happy in the text?",
+        optionA: "Because she is on vacation",
+        optionB: "Because her children are with her",
+        optionC: "Because she found a cobra",
+        correctAnswer: "Because her children are with her",
+     }),
       shuffleOptions({
-          question:
-            "How many times did Tenzing Norgay attempt Everest missions before succeeding?",
-          optionA: "Five",
-          optionB: "Six",
-          optionC: "Seven",
-          correctAnswer: "Seven",
-        }),
+        question: "What did the cyclist inform Astha about?",
+        optionA: "A lost wallet",
+        optionB: "A snake in the lawn",
+        optionC: "A new neighbor",
+        correctAnswer: "A snake in the lawn",
+     }),
       shuffleOptions({
-          question:
-            "In which year did Tenzing Norgay make his first attempt to scale Everest?",
-          optionA: "1935",
-          optionB: "1947",
-          optionC: "1952",
-          correctAnswer: "1947",
-        }),
+        question: "How does Astha react upon hearing about the snake?",
+        optionA: "Calm and composed",
+        optionB: "Alarmed and horrified",
+        optionC: "Excited and happy",
+        correctAnswer: "Alarmed and horrified",
+     }),
       shuffleOptions({
-          question:
-            "Who accompanied Tenzing Norgay during the successful ascent of Mount Everest in 1953?",
-          optionA: "Raymond Lambert",
-          optionB: "Edmund Hillary",
-          optionC: "George Lowe",
-          correctAnswer: "Edmund Hillary",
-        }),
+        question: "What is Mohan's job in the house?",
+        optionA: "Playing with the kids",
+        optionB: "Taking care of the lawn",
+        optionC: "Cooking dinner",
+        correctAnswer: "Taking care of the lawn",
+     }),
       shuffleOptions({
-          question:
-            "What was the altitude of Mount Everest when Tenzing Norgay and Edmund Hillary reached its summit?",
-          optionA: "7,890 m (25,900 ft)",
-          optionB: "8,500 m (27,900 ft)",
-          optionC: "8,848 m (29,028 ft)",
-          correctAnswer: "8,848 m (29,028 ft)",
-        }),
+        question:
+          "What do Ravi and Gautami think about the number of snakebite deaths mentioned in the newspaper?",
+        optionA: "They believe it's a huge number",
+        optionB: "They think it's a small number",
+        optionC: "They don't have an opinion",
+        correctAnswer: "They believe it's a huge number",
+     }),
       shuffleOptions({
-          question:
-            "Which institute was founded in Darjeeling in 1954, with Tenzing Norgay appointed as its first Director of Field Training?",
-          optionA: "Himalayan Adventure Institute",
-          optionB: "Everest Expedition Training Center",
-          optionC: "Himalayan Mountaineering Institute",
-          correctAnswer: "Himalayan Mountaineering Institute",
-        }),
+        question:
+          "Why does Astha think the snake might have been sent by the Lord?",
+        optionA: "As a reminder for her to visit Ujjain",
+        optionB: "As a punishment for not working",
+        optionC: "As a reward for their prayers",
+        correctAnswer: "As a reminder for her to visit Ujjain",
+     }),
       shuffleOptions({
-          question:
-            "In 2008, which airport in Nepal was renamed in honor of Tenzing Norgay?",
-          optionA: "Lukla Airport",
-          optionB: "Everest Airport",
-          optionC: "Himalaya Airport",
-          correctAnswer: "Lukla Airport",
-        }),
+        question: "What did the beggar woman offer to do to catch the snake?",
+        optionA: "Pray to the Lord",
+        optionB: "Call the police",
+        optionC: "Send a snake-charmer",
+        correctAnswer: "Send a snake-charmer",
+     }),
       shuffleOptions({
-          question:
-            "When did Tenzing Norgay pass away, and where were his remains cremated?",
-          optionA: "9 May, 1986, Himalayan Mountaineering Institute",
-          optionB: "29 May, 1953, Lukla Airport",
-          optionC: "28 May, 1952, Everest Base Camp",
-          correctAnswer: "9 May, 1986, Himalayan Mountaineering Institute",
-   }),
+        question: "How does the snake-charmer suggest catching the snake?",
+        optionA: "With a net",
+        optionB: "By playing a tune",
+        optionC: "By using a stick",
+        correctAnswer: "By playing a tune",
+     }),
+      shuffleOptions({
+        question: "What happens at the end of the story regarding the snake?",
+        optionA: "Mohan captures the snake",
+        optionB: "The snake disappears through the gate",
+        optionC: "The snake is found in a pitcher",
+        correctAnswer: "The snake disappears through the gate",
+      }),
     ]),
   }
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blanks:",
+    activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
-      shuffleOptions(
-        {
-          question:
-            "Tenzing Norgay stepped on Mount Everest on ___________, 1953, creating history.",
-          optionA: "28 May",
-          optionB: "29 May",
-          optionC: "30 May",
-          correctAnswer: "29 May",
-        }),
       shuffleOptions({
-          question: "Tenzing Norgay's birthplace was ___________ in Nepal.",
-          optionA: "Tengboche",
-          optionB: "Khumbu",
-          optionC: "Darjeeling",
-          correctAnswer: "Tengboche",
-        }),
+        question:
+          "Who is playing ludo on the lawn? Ravi and Astha are playing ludo on the lawn, while their mother Gautami is sitting on a chair nearby. At the far end of the lawn, Mohan is lying under the shade of a tree.",
+        optionA: "Ravi and Astha",
+        optionB: "Mohan and Astha",
+        optionC: "Gautami and Ravi",
+        correctAnswer: "Ravi and Astha",
+     }),
       shuffleOptions({
-          question:
-            "The word 'Tenzing Norgay' signifies '____________-fortunate-follower-of-religion.'",
-          optionA: "Wealthy",
-          optionB: "Lucky",
-          optionC: "Healthy",
-          correctAnswer: "Lucky",
-        }),
+        question:
+          "Astha, go look what he wants. (walks to the gate) Yes, Uncle, what do you want? A big cobra has just got into your lawn. It crossed my wheel.",
+        optionA: "Ravi",
+        optionB: "Gautami",
+        optionC: "Astha",
+        correctAnswer: "Astha",
+     }),
       shuffleOptions({
-          question: "Tenzing Norgay belonged to the ___________ clan.",
-          optionA: "Everestian",
-          optionB: "Sherpa",
-          optionC: "Khumbu",
-          correctAnswer: "Sherpa",
-        }),
+        question:
+          "Astha (gasping in horror) That uncle said that he saw a cobra crawl into our lawn ... under the gate. (Everybody starts to look around in the grass and behind the hedges for the snake.)",
+        optionA: "Ravi",
+        optionB: "Mohan",
+        optionC: "Astha",
+        correctAnswer: "Astha",
+     }),
       shuffleOptions({
-          question:
-            "Tenzing took part in Everest missions ___________ times before achieving success.",
-          optionA: "Five",
-          optionB: "Six",
-          optionC: "Seven",
-          correctAnswer: "Seven",
-        }),
+        question:
+          "Ravi Don't worry, we'll find it out. (runs to where Mohan is sleeping) Uncle, Uncle ... get up, quick! There is a cobra. Mohan (squeezing his eyes in sunlight) How can a cobra come under the gate? It doesn't live on the road.",
+        optionA: "Ravi",
+        optionB: "Mohan",
+        optionC: "Astha",
+        correctAnswer: "Ravi",
+     }),
       shuffleOptions({
-          question:
-            "Tenzing Norgay got his first opportunity for Everest expedition in the year ___________.",
-          optionA: "1935",
-          optionB: "1947",
-          optionC: "1952",
-          correctAnswer: "1935",
-        }),
+        question:
+          "Astha That thing is somewhere here. If it is not found out before evening, you are sure to be fired. Ravi He is the laziest servant I've ever seen.",
+        optionA: "Astha",
+        optionB: "Ravi",
+        optionC: "Mohan",
+        correctAnswer: "Ravi",
+     }),
       shuffleOptions({
-          question:
-            "In 1947, Tenzing attempted to scale Everest with ___________ and Ange Dawa Sherpa, but it ended in failure.",
-          optionA: "Raymond Lambert",
-          optionB: "Earl Denman",
-          optionC: "John Hunt",
-          correctAnswer: "Earl Denman",
-        }),
+        question:
+          "Astha Uncle, you're always making new excuses but you don't want to work. Look how tall the grass has grown. (Mohan finds a stick and starts beating about the bushes.)",
+        optionA: "Ravi",
+        optionB: "Astha",
+        optionC: "Mohan",
+        correctAnswer: "Astha",
+     }),
       shuffleOptions({
-          question:
-            "The altitude of Mount Everest when Tenzing and Hillary reached its summit was ___________.",
-          optionA: "7,890 m (25,900 ft)",
-          optionB: "8,500 m (27,900 ft)",
-          optionC: "8,848 m (29,028 ft)",
-          correctAnswer: "8,848 m (29,028 ft)",
-        }),
+        question:
+          "Ravi (carefully looking around) Having a cobra in the house is dangerous. I read in a newspaper recently nearly 30,000 people die of snakebite every year.",
+        optionA: "Astha",
+        optionB: "Gautami",
+        optionC: "Ravi",
+        correctAnswer: "Ravi",
+     }),
       shuffleOptions({
-          question:
-            "In 1954, Tenzing Norgay was appointed the first Director of Field Training at the ___________ in Darjeeling.",
-          optionA: "Everest Expedition Training Center",
-          optionB: "Himalayan Adventure Institute",
-          optionC: "Himalayan Mountaineering Institute",
-          correctAnswer: "Himalayan Mountaineering Institute",
-        }),
+        question:
+          "Astha This cannot be true. 30,000 is a very large number. Newspapers don't publish anything what they want. They have data for each news story.",
+        optionA: "Ravi",
+        optionB: "Gautami",
+        optionC: "Astha",
+        correctAnswer: "Astha",
+     }),
       shuffleOptions({
-          question:
-            "Tenzing Norgay's remains were cremated at the ___________ in Darjeeling.",
-          optionA: "Lukla Airport",
-          optionB: "Tenzing-Hillary Airport",
-          optionC: "Himalayan Mountaineering Institute",
-          correctAnswer: "Himalayan Mountaineering Institute",
-   }),
+        question:
+          "Gautami (spreading her hands heavenward) Forgive me, 0 Lord! I remember I promised to visit Mahakal at Ujjain, but couldn't go. This corona will not let me visit Ujjain. Lord must have sent that cobra as a reminder!",
+        optionA: "Astha",
+        optionB: "Ravi",
+        optionC: "Gautami",
+        correctAnswer: "Gautami",
+     }),
+      shuffleOptions({
+        question:
+          "Ravi We can't go until this lockdown is over and trains resume.",
+        optionA: "Astha",
+        optionB: "Ravi",
+        optionC: "Mohan",
+        correctAnswer: "Ravi",
+      }),
     ]),
   }
 }
@@ -204,73 +198,62 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
-      shuffleOptions(
-        {
-          question: "Mount Everest is the highest peak in the world.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
       shuffleOptions({
-          question: "Tenzing Norgay was born in Darjeeling, India.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
+        question: "The children are playing ludo on the lawn.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "True",
+     }),
       shuffleOptions({
-          question:
-            "Tenzing Norgay and Edmund Hillary successfully climbed Everest on their first attempt together.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
+        question: "The cyclist informs Astha about a cobra entering the lawn.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "True",
+     }),
       shuffleOptions({
-          question:
-            "Sherpas are known for their involvement in mountaineering expeditions.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
+        question: "Mohan was the one who found the cobra under the gate.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "True",
+     }),
       shuffleOptions({
-          question:
-            "Tenzing Norgay became the first Director of Field Training at the Himalayan Adventure Institute.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
+        question:
+          "Astha believes that newspapers always publish accurate data.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
       shuffleOptions({
-          question: "Tenzing Norgay's birth name was Namgyal Wangdi.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
+        question:
+          "Ravi thinks that having a cobra in the house is not dangerous.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
       shuffleOptions({
-          question:
-            "The first ascent of Kedarnath peak was made by Tenzing Norgay in 1947.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
+        question:
+          "Gautami regrets not being able to visit Mahakal at Ujjain due to the lockdown.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "True",
+     }),
       shuffleOptions({
-          question: "Tenzing Norgay passed away in Kathmandu, Nepal.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
+        question:
+          "The beggar woman suggests that the snake should be left alone in the lawn.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
       shuffleOptions({
-          question:
-            "The Tenzing-Hillary Airport is located in Kathmandu, Nepal.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
+        question:
+          "The snake-charmer is confident about quickly finding and catching the snake.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "True",
+     }),
       shuffleOptions({
-          question:
-            "Tenzing Norgay and Edmund Hillary reached the summit of Mount Everest on 29 May, 1953.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-   }),
+        question:
+          "The snake-charmer recommends using a net to catch the snake.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
+      shuffleOptions({
+        question: "The snake is eventually found and captured by Mohan.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      }),
     ]),
   }
 }

@@ -1,4 +1,4 @@
-export const chapter = "Chapter -06: A Chameleon";
+export const chapter = "Chapter - 6: The Shark Attack";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -32,81 +32,84 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question:
-            "What is the police superintendent Yelov wearing while walking across the market square?",
-          optionA: "Blue shirt",
-          optionB: "New overcoat",
-          optionC: "Black suit",
-          correctAnswer: "New overcoat",
+          question: "What does the author consider uncertainty to be in life?",
+          optionA: "A constant source of predictability",
+          optionB: "A factor that can make or break a person",
+          optionC: "An avoidable aspect of life",
+          correctAnswer: "A factor that can make or break a person",
         }),
       shuffleOptions({
           question:
-            "Who is walking behind Yelov with a sieve full of confiscated gooseberries?",
-          optionA: "Red-haired beggar",
-          optionB: "Unidentified person",
-          optionC: "Red-haired policeman",
-          correctAnswer: "Red-haired policeman",
+            "According to the author, what is the role of uncertainty in developing an individual's skills?",
+          optionA: "It has no impact on skill development",
+          optionB: "It provides an opportunity to hone skills",
+          optionC: "It impedes critical thinking",
+          correctAnswer: "It provides an opportunity to hone skills",
         }),
       shuffleOptions({
           question:
-            "What does Yelov suggest doing to the dog that bit Hukin's finger?",
-          optionA: "Send it to a shelter",
-          optionB: "Strangle it without delay",
-          optionC: "Fine the owner",
-          correctAnswer: "Strangle it without delay",
-        }),
-      shuffleOptions({
-          question: "How does Hukin claim he got injured by the dog?",
-          optionA: "Scratched by a nail",
-          optionB: "Bit on the foot",
-          optionC: "Burned by a cigarette",
-          correctAnswer: "Scratched by a nail",
+            "In the story of the 'thirsty' crow, what combination is highlighted as the generator of new ideas to solve a problem?",
+          optionA: "Physical and mental labor",
+          optionB: "Hope and patience",
+          optionC: "Luck and perseverance",
+          correctAnswer: "Physical and mental labor",
         }),
       shuffleOptions({
           question:
-            "What does Yelov instruct the policeman Yeldrin to do regarding the dog?",
-          optionA: "Adopt it",
-          optionB: "Draw up a report",
-          optionC: "Ignore it",
-          correctAnswer: "Draw up a report",
-        }),
-      shuffleOptions({
-          question: "Who does the crowd speculate the dog belongs to?",
-          optionA: "General Zhigalov",
-          optionB: "Yelov",
-          optionC: "Hukin",
-          correctAnswer: "General Zhigalov",
-        }),
-      shuffleOptions({
-          question: "How does Yelov find out the true owner of the dog?",
-          optionA: "Asking the crowd",
-          optionB: "Checking the dog's tag",
-          optionC: "Sending Yeldrin to inquire at the General's bungalow",
+            "According to the passage, what factors play a part in the event of uncertainty?",
+          optionA: "Wisdom, patience, and luck",
+          optionB: "Courage, determination, self-faith, and fear of failure",
+          optionC: "Fear of failure, inactivity, and doubt",
           correctAnswer:
-            "Sending Yeldrin to inquire at the General's bungalow",
-        }),
-      shuffleOptions({
-          question: "Who is revealed to be the actual owner of the dog?",
-          optionA: "Yelov",
-          optionB: "Hukin",
-          optionC: "General Zhigalov's brother",
-          correctAnswer: "General Zhigalov's brother",
+            "Courage, determination, self-faith, and fear of failure",
         }),
       shuffleOptions({
           question:
-            "What does Yelov decide to do with the dog once its ownership is confirmed?",
-          optionA: "Keep it as a pet",
-          optionB: "Release it in the street",
-          optionC: "Destroy it",
-          correctAnswer: "Destroy it",
+            "What does Martin Luther King Jr. emphasize regarding faith in uncertain times?",
+          optionA: "Faith hinders facing uncertainties",
+          optionB: "Faith is unnecessary in difficult situations",
+          optionC: "Faith gives courage to face uncertainties",
+          correctAnswer: "Faith gives courage to face uncertainties",
         }),
       shuffleOptions({
           question:
-            "How does the crowd react when Prohor denies the dog belonging to the General?",
-          optionA: "Applauds",
-          optionB: "Laughs at Hukin",
-          optionC: "Condemns Prohor",
-          correctAnswer: "Laughs at Hukin",
+            "What does the fear of failure often lead to during a period of uncertainty?",
+          optionA: "Inactivity",
+          optionB: "Bold decision-making",
+          optionC: "Positive action",
+          correctAnswer: "Inactivity",
+        }),
+      shuffleOptions({
+          question:
+            "How does the author characterize uncertainties in life according to the Murphy's law?",
+          optionA: "Predictable",
+          optionB: "Unavoidable",
+          optionC: "Controllable",
+          correctAnswer: "Unavoidable",
+        }),
+      shuffleOptions({
+          question:
+            "What advice does Lord Krishna give in the Geeta regarding action and results?",
+          optionA: "Focus on the result, not the action",
+          optionB: "Results lie within one's control",
+          optionC: "Act boldly, and results are beyond one's control",
+          correctAnswer: "Act boldly, and results are beyond one's control",
+        }),
+      shuffleOptions({
+          question:
+            "According to the passage, what has shaped the creativity and imagination of each generation?",
+          optionA: "Predictability",
+          optionB: "Certainty",
+          optionC: "Uncertainties",
+          correctAnswer: "Uncertainties",
+        }),
+      shuffleOptions({
+          question:
+            "What does the author attribute to the progress and evolution of the world?",
+          optionA: "Avoidance of uncertainties",
+          optionB: "Overcoming uncertainties",
+          optionC: "Lack of challenges",
+          correctAnswer: "Overcoming uncertainties",
    }),
     ]),
   }
@@ -119,83 +122,82 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions(
         {
           question:
-            "The police superintendent Yelov is walking across the market square wearing a new overcoat and carrying a parcel under his ___________.",
-          optionA: "Arm",
-          optionB: "Hat",
-          optionC: "Leg",
-          correctAnswer: "Arm",
+            "Uncertainty is part and parcel of life, which can either make or ______ a person.",
+          optionA: "Develop",
+          optionB: "Break",
+          optionC: "Enhance",
+          correctAnswer: "Break",
         }),
       shuffleOptions({
           question:
-            "A red-haired policeman strides after Yelov with a sieve full of confiscated ___________ in his hands.",
-          optionA: "Apples",
-          optionB: "Gooseberries",
-          optionC: "Oranges",
-          correctAnswer: "Gooseberries",
+            "A person cannot predict the sea of future uncertainties in his life, be it ______ or professional.",
+          optionA: "Personal",
+          optionB: "Public",
+          optionC: "Pleasurable",
+          correctAnswer: "Personal",
         }),
       shuffleOptions({
           question:
-            "Yelov looks in the direction of the sound and sees a dog, hopping on three legs and looking about her, run out of a ___________.",
-          optionA: "Grocery store",
-          optionB: "Timber yard",
-          optionC: "Clothing store",
-          correctAnswer: "Timber yard",
+            "It is the mark of a critical mind to show prudence in the event of an uncertain scenario and ______ wisely.",
+          optionA: "React",
+          optionB: "Respond",
+          optionC: "Retire",
+          correctAnswer: "React",
         }),
       shuffleOptions({
           question:
-            "A man in a starched cotton shirt, with his waistcoat unbuttoned, is chasing the dog and cries: 'So you bite, you damned brute? Lads, don't let her go! Biting is prohibited nowadays! Hold him! ___________!'",
-          optionA: "Hurry up",
-          optionB: "Ah",
-          optionC: "Stop",
-          correctAnswer: "Ah",
+            "Uncertainty is like a teacher that tests your ability to get through a tough ______.",
+          optionA: "Problem",
+          optionB: "Situation",
+          optionC: "Journey",
+          correctAnswer: "Situation",
         }),
       shuffleOptions({
           question:
-            "Yelov recognizes the goldsmith Hukin, who claims the dog bit his ___________.",
-          optionA: "Hand",
-          optionB: "Foot",
-          optionC: "Nose",
-          correctAnswer: "Hand",
+            "The crow flew all over the fields looking for water, failed, still did not lose hope, put in more effort, found a pitcher of water but with a little amount of water in it, gave thought to finding a solution to this ______, and succeeded.",
+          optionA: "Issue",
+          optionB: "Problem",
+          optionC: "Dilemma",
+          correctAnswer: "Problem",
         }),
       shuffleOptions({
           question:
-            "Yelov instructs the policeman Yeldrin to find out whose ___________ this is and draw up a report.",
-          optionA: "Cat",
-          optionB: "Dog",
-          optionC: "Bird",
-          correctAnswer: "Dog",
+            "Courage, determination, self-faith, and ______ of failure play their part in the event of uncertainty.",
+          optionA: "Hope",
+          optionB: "Fear",
+          optionC: "Acceptance",
+          correctAnswer: "Fear",
+        }),
+      shuffleOptions({
+          question: "Man is inclined to think ______.",
+          optionA: "Positively",
+          optionB: "Negative",
+          optionC: "Rationally",
+          correctAnswer: "Negative",
         }),
       shuffleOptions({
           question:
-            "Yelov decides that the dog must be ___________ without delay because it's sure to be mad.",
-          optionA: "Adopted",
-          optionB: "Released",
-          optionC: "Strangled",
-          correctAnswer: "Strangled",
+            'Lord Krishna says in the Geeta, "You have control over action and not the ______, which lies with the Divine."',
+          optionA: "Journey",
+          optionB: "Path",
+          optionC: "Result",
+          correctAnswer: "Result",
         }),
       shuffleOptions({
           question:
-            "A person in the crowd suggests that the dog might belong to ___________.",
-          optionA: "General Zhigalov",
-          optionB: "Yelov",
-          optionC: "Hukin",
-          correctAnswer: "General Zhigalov",
+            "Life has been filled with uncertainties, and it is through these uncertainties that the world has progressed to the ______ level.",
+          optionA: "Present",
+          optionB: "Primitive",
+          optionC: "Pinnacle",
+          correctAnswer: "Present",
         }),
       shuffleOptions({
           question:
-            "Yelov wraps himself in his great coat and goes on his way across the ___________.",
-          optionA: "Desert",
-          optionB: "Square",
-          optionC: "Forest",
-          correctAnswer: "Square",
-        }),
-      shuffleOptions({
-          question:
-            "Prohor, the General's cook, denies that the dog belongs to the General but mentions it belongs to the General's ___________.",
-          optionA: "Cousin",
-          optionB: "Brother",
-          optionC: "Neighbor",
-          correctAnswer: "Brother",
+            "The Murphy's law states that if anything can possibly go wrong, it will go ______.",
+          optionA: "Right",
+          optionB: "Wrong",
+          optionC: "Smooth",
+          correctAnswer: "Wrong",
    }),
     ]),
   }
@@ -208,72 +210,73 @@ if (localStorage.getItem("activityNumber") == 3) {
       shuffleOptions(
         {
           question:
-            "Uncertainty is part and parcel of life, which can either make or break a person.",
+            "Uncertainty can only break a person and does not contribute to personal growth.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "A person cannot predict the sea of future uncertainties in his life, be it personal or professional.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "It is the mark of a critical mind to show prudence in the event of an uncertain scenario and react wisely.",
+            "Courage, determination, and self-faith have no role to play in dealing with uncertainties.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Uncertainty is like a teacher that tests your ability to get through a tough situation.",
+            "The story of the 'thirsty' crow emphasizes the importance of physical labor only.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "True",
+          correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The crow flew all over the fields looking for water, failed, still did not lose hope, put in more effort, found a pitcher of water but with a little amount of water in it, gave thought to finding a solution to this problem, and succeeded.",
+            "Fear of failure is not a factor that influences a person's actions during uncertainty.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "True",
+          correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Courage, determination, self-faith, and fear of failure play their part in the event of uncertainty.",
+            "According to Lord Krishna in the Geeta, individuals have control over both action and result.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question: "Man is inclined to think negatively.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
+          correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            'Lord Krishna says in the Geeta, "You have control over action and not the result, which lies with the Divine."',
+            "Negativity is not a common inclination among humans during uncertain times.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "True",
+          correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Life has been filled with uncertainties, and it is through these uncertainties that the world has progressed to the present level.",
+            "Life's progress is not influenced by uncertainties, according to the passage.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "True",
+          correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The Murphy's law states that if anything can possibly go wrong, it will go wrong.",
+            "Ratan Tata believes in making decisions right from the start without any analysis.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "True",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The Murphy's law suggests that everything will go right if there's a possibility of it going wrong.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Facing uncertainties with a weak mind is encouraged for personal growth.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
    }),
     ]),
   }

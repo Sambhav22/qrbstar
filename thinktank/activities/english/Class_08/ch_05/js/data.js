@@ -1,4 +1,4 @@
-export const chapter = "Chapter -5: Why Was India Lost?";
+export const chapter = "Chapter - 5: True Liberation of Women";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -24,182 +24,172 @@ const shuffleOptions = (object) => {
   object.optionC = optionsArray[2]
 
   return object
-};
+}
 
 if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: shuffleQues([
-      shuffleOptions(
-        {
-          question:
-            'Why does the reader ask, "Why has England been able to take India, and why is she able to retain it?"',
-          optionA: "Due to personal curiosity",
-          optionB: "To challenge Gandhiji's views",
-          optionC: "Seeking historical information",
-          correctAnswer: "To challenge Gandhiji's views",
-        }),
       shuffleOptions({
-          question:
-            "According to Gandhiji, why did the English originally come to India?",
-          optionA: "To establish a kingdom",
-          optionB: "For the purpose of trade",
-          optionC: "To assist the Indian people",
-          correctAnswer: "For the purpose of trade",
-        }),
+        question: "Who is playing ludo on the lawn?",
+        optionA: "Ravi and Astha",
+        optionB: "Mohan and Astha",
+        optionC: "Gautami and Ravi",
+        correctAnswer: "Ravi and Astha",
+     }),
       shuffleOptions({
-          question:
-            "Who does Gandhiji hold responsible for the English presence in India?",
-          optionA: "Indian princes",
-          optionB: "English merchants",
-          optionC: "The Company Bahadur",
-          correctAnswer: "Indian princes",
-        }),
+        question: "Why is Gautami happy in the text?",
+        optionA: "Because she is on vacation",
+        optionB: "Because her children are with her",
+        optionC: "Because she found a cobra",
+        correctAnswer: "Because her children are with her",
+     }),
       shuffleOptions({
-          question:
-            "According to Gandhiji, why is blaming the English for their presence in India useless?",
-          optionA: "They had superior weaponry",
-          optionB: "India welcomed and assisted them",
-          optionC: "They forcefully occupied India",
-          correctAnswer: "India welcomed and assisted them",
-        }),
+        question: "What did the cyclist inform Astha about?",
+        optionA: "A lost wallet",
+        optionB: "A snake in the lawn",
+        optionC: "A new neighbor",
+        correctAnswer: "A snake in the lawn",
+     }),
       shuffleOptions({
-          question:
-            'What does Gandhiji mean by "Napoleon is said to have described the English as a nation of shopkeepers"?',
-          optionA: "England is a nation of warriors",
-          optionB: "England is a nation focused on commerce",
-          optionC: "England is a nation of intellectuals",
-          correctAnswer: "England is a nation focused on commerce",
-        }),
+        question: "How does Astha react upon hearing about the snake?",
+        optionA: "Calm and composed",
+        optionB: "Alarmed and horrified",
+        optionC: "Excited and happy",
+        correctAnswer: "Alarmed and horrified",
+     }),
       shuffleOptions({
-          question:
-            "Why does Gandhiji claim that the sword is entirely useless for holding India?",
-          optionA: "India had a powerful army",
-          optionB: "Indians did not resist",
-          optionC: "India is voluntarily kept by its people",
-          correctAnswer: "India is voluntarily kept by its people",
-        }),
+        question: "What is Mohan's job in the house?",
+        optionA: "Playing with the kids",
+        optionB: "Taking care of the lawn",
+        optionC: "Cooking dinner",
+        correctAnswer: "Taking care of the lawn",
+     }),
       shuffleOptions({
-          question:
-            "What is the primary reason for England retaining India, according to Gandhiji?",
-          optionA: "Military strength",
-          optionB: "Political dominance",
-          optionC: "Commerce and trade",
-          correctAnswer: "Commerce and trade",
-        }),
+        question:
+          "What do Ravi and Gautami think about the number of snakebite deaths mentioned in the newspaper?",
+        optionA: "They believe it's a huge number",
+        optionB: "They think it's a small number",
+        optionC: "They don't have an opinion",
+        correctAnswer: "They believe it's a huge number",
+     }),
       shuffleOptions({
-          question:
-            "How does Gandhiji describe the English relationship with the Transvaal?",
-          optionA: "Based on military conquest",
-          optionB: "Driven by political ideology",
-          optionC: "Dependent on economic interests",
-          correctAnswer: "Dependent on economic interests",
-        }),
+        question:
+          "Why does Astha think the snake might have been sent by the Lord?",
+        optionA: "As a reminder for her to visit Ujjain",
+        optionB: "As a punishment for not working",
+        optionC: "As a reward for their prayers",
+        correctAnswer: "As a reminder for her to visit Ujjain",
+     }),
       shuffleOptions({
-          question:
-            "What, according to Gandhiji, is the driving force behind the English presence in Japan?",
-          optionA: "Military alliances",
-          optionB: "Cultural exchange",
-          optionC: "Expanding commerce",
-          correctAnswer: "Expanding commerce",
-        }),
+        question: "What did the beggar woman offer to do to catch the snake?",
+        optionA: "Pray to the Lord",
+        optionB: "Call the police",
+        optionC: "Send a snake-charmer",
+        correctAnswer: "Send a snake-charmer",
+     }),
       shuffleOptions({
-          question:
-            "Why does Gandhiji argue against blaming the English for their presence in India?",
-          optionA: "To justify their actions",
-          optionB: "To perpetuate their power",
-          optionC: "To avoid conflict",
-          correctAnswer: "To perpetuate their power",
-   }),
+        question: "How does the snake-charmer suggest catching the snake?",
+        optionA: "With a net",
+        optionB: "By playing a tune",
+        optionC: "By using a stick",
+        correctAnswer: "By playing a tune",
+     }),
+      shuffleOptions({
+        question: "What happens at the end of the story regarding the snake?",
+        optionA: "Mohan captures the snake",
+        optionB: "The snake disappears through the gate",
+        optionC: "The snake is found in a pitcher",
+        correctAnswer: "The snake disappears through the gate",
+      }),
     ]),
   }
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blanks:",
+    activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
-      shuffleOptions(
-        {
-          question:
-            'The affectionate term "Bapu" is used to refer to Mahatma Gandhi as a sign of ____________ admiration.',
-          optionA: "Casual",
-          optionB: "Genuine",
-          optionC: "Superficial",
-          correctAnswer: "Genuine",
-        }),
       shuffleOptions({
-          question:
-            "According to Gandhiji, the English merchants originally came to India for the purpose of ____________.",
-          optionA: "Conquest",
-          optionB: "Trade",
-          optionC: "Diplomacy",
-          correctAnswer: "Trade",
-        }),
+        question:
+          "Who is playing ludo on the lawn? Ravi and Astha are playing ludo on the lawn, while their mother Gautami is sitting on a chair nearby. At the far end of the lawn, Mohan is lying under the shade of a tree.",
+        optionA: "Ravi and Astha",
+        optionB: "Mohan and Astha",
+        optionC: "Gautami and Ravi",
+        correctAnswer: "Ravi and Astha",
+     }),
       shuffleOptions({
-          question:
-            "The Company Bahadur was initially involved in both ____________ and war, which played a role in its interaction with India.",
-          optionA: "Commerce",
-          optionB: "Religion",
-          optionC: "Politics",
-          correctAnswer: "Commerce",
-        }),
+        question:
+          "Astha, go look what he wants. (walks to the gate) Yes, Uncle, what do you want? A big cobra has just got into your lawn. It crossed my wheel.",
+        optionA: "Ravi",
+        optionB: "Gautami",
+        optionC: "Astha",
+        correctAnswer: "Astha",
+     }),
       shuffleOptions({
-          question:
-            "Gandhiji compares the acceptance of the Company's officers in India to an individual buying and consuming ____________.",
-          optionA: "Water",
-          optionB: "Bhang",
-          optionC: "Food",
-          correctAnswer: "Bhang",
-        }),
+        question:
+          "Astha (gasping in horror) That uncle said that he saw a cobra crawl into our lawn ... under the gate. (Everybody starts to look around in the grass and behind the hedges for the snake.)",
+        optionA: "Ravi",
+        optionB: "Mohan",
+        optionC: "Astha",
+        correctAnswer: "Astha",
+     }),
       shuffleOptions({
-          question:
-            "According to Gandhiji, blaming the English for their presence in India is futile, as India willingly ____________ them.",
-          optionA: "Embraces",
-          optionB: "Rejects",
-          optionC: "Fights",
-          correctAnswer: "Embraces",
-        }),
+        question:
+          "Ravi Don't worry, we'll find it out. (runs to where Mohan is sleeping) Uncle, Uncle ... get up, quick! There is a cobra. Mohan (squeezing his eyes in sunlight) How can a cobra come under the gate? It doesn't live on the road.",
+        optionA: "Ravi",
+        optionB: "Mohan",
+        optionC: "Astha",
+        correctAnswer: "Ravi",
+     }),
       shuffleOptions({
-          question:
-            "Gandhiji argues that the sword is entirely useless for holding India because India is voluntarily kept by its own ____________.",
-          optionA: "Leaders",
-          optionB: "People",
-          optionC: "Warriors",
-          correctAnswer: "People",
-        }),
+        question:
+          "Astha That thing is somewhere here. If it is not found out before evening, you are sure to be fired. Ravi He is the laziest servant I've ever seen.",
+        optionA: "Astha",
+        optionB: "Ravi",
+        optionC: "Mohan",
+        correctAnswer: "Ravi",
+     }),
       shuffleOptions({
-          question:
-            "The English, according to Gandhiji, retain India primarily for the sake of ____________.",
-          optionA: "Politics",
-          optionB: "Commerce",
-          optionC: "Religion",
-          correctAnswer: "Commerce",
-        }),
+        question:
+          "Astha Uncle, you're always making new excuses but you don't want to work. Look how tall the grass has grown. (Mohan finds a stick and starts beating about the bushes.)",
+        optionA: "Ravi",
+        optionB: "Astha",
+        optionC: "Mohan",
+        correctAnswer: "Astha",
+     }),
       shuffleOptions({
-          question:
-            "Mr. Gladstone's decision on the Transvaal was influenced by whether it offered ____________ attractions.",
-          optionA: "Political",
-          optionB: "Cultural",
-          optionC: "Economic",
-          correctAnswer: "Economic",
-        }),
+        question:
+          "Ravi (carefully looking around) Having a cobra in the house is dangerous. I read in a newspaper recently nearly 30,000 people die of snakebite every year.",
+        optionA: "Astha",
+        optionB: "Gautami",
+        optionC: "Ravi",
+        correctAnswer: "Ravi",
+     }),
       shuffleOptions({
-          question:
-            "Gandhiji states that many problems can be solved by remembering that money is the English's ____________.",
-          optionA: "Asset",
-          optionB: "God",
-          optionC: "Curse",
-          correctAnswer: "God",
-        }),
+        question:
+          "Astha This cannot be true. 30,000 is a very large number. Newspapers don't publish anything what they want. They have data for each news story.",
+        optionA: "Ravi",
+        optionB: "Gautami",
+        optionC: "Astha",
+        correctAnswer: "Astha",
+     }),
       shuffleOptions({
-          question:
-            "The English wish to convert the whole world into a vast market for their goods, making ____________ a driving force for their actions.",
-          optionA: "Diplomacy",
-          optionB: "Expansion",
-          optionC: "Isolation",
-          correctAnswer: "Expansion",
-   }),
+        question:
+          "Gautami (spreading her hands heavenward) Forgive me, 0 Lord! I remember I promised to visit Mahakal at Ujjain, but couldn't go. This corona will not let me visit Ujjain. Lord must have sent that cobra as a reminder!",
+        optionA: "Astha",
+        optionB: "Ravi",
+        optionC: "Gautami",
+        correctAnswer: "Gautami",
+     }),
+      shuffleOptions({
+        question:
+          "Ravi We can't go until this lockdown is over and trains resume.",
+        optionA: "Astha",
+        optionB: "Ravi",
+        optionC: "Mohan",
+        correctAnswer: "Ravi",
+      }),
     ]),
   }
 }
@@ -208,76 +198,62 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
-      shuffleOptions(
-        {
-          question:
-            "Gandhiji argues that the English merchants initially came to India for political reasons.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
       shuffleOptions({
-          question:
-            "According to Gandhiji, blaming the English for their presence in India is a meaningful approach.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
+        question: "The children are playing ludo on the lawn.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "True",
+     }),
       shuffleOptions({
-          question:
-            "The Company Bahadur was primarily involved in commerce and war, according to Gandhiji.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
+        question: "The cyclist informs Astha about a cobra entering the lawn.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "True",
+     }),
       shuffleOptions({
-          question:
-            "Mr. Gladstone's decision on the Transvaal was solely influenced by political considerations.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
+        question: "Mohan was the one who found the cobra under the gate.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "True",
+     }),
       shuffleOptions({
-          question:
-            "Gandhiji argues that the sword is an effective tool for holding India against its will.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
+        question:
+          "Astha believes that newspapers always publish accurate data.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
       shuffleOptions({
-          question:
-            "The English retain India primarily for the sake of cultural dominance, as per Gandhiji's views.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
+        question:
+          "Ravi thinks that having a cobra in the house is not dangerous.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
       shuffleOptions({
-          question: "Tenzing Norgay's birthplace was in Darjeeling, India.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
+        question:
+          "Gautami regrets not being able to visit Mahakal at Ujjain due to the lockdown.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "True",
+     }),
       shuffleOptions({
-          question:
-            "Gandhiji claims that money is not a significant factor in the English presence in India.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
+        question:
+          "The beggar woman suggests that the snake should be left alone in the lawn.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
       shuffleOptions({
-          question:
-            "The English wish to convert the whole world into a vast market for their goods, according to Gandhiji.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
+        question:
+          "The snake-charmer is confident about quickly finding and catching the snake.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "True",
+     }),
       shuffleOptions({
-          question:
-            "Gandhiji suggests that blaming the English for their presence in India perpetuates their power.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-   }),
+        question:
+          "The snake-charmer recommends using a net to catch the snake.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
+      shuffleOptions({
+        question: "The snake is eventually found and captured by Mohan.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      }),
     ]),
   }
 }

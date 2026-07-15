@@ -1,4 +1,4 @@
-export const chapter = "Chapter -08: Stopping by Woods on a snowy Evening";
+export const chapter = "Chapter - 8: The Rarest Sacrifice";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -32,76 +32,89 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question: "Whose woods are being described in the poem?",
-          optionA: "The narrator's",
-          optionB: "A stranger's",
-          optionC: "The horse's",
-          correctAnswer: "The narrator's",
-        }),
-      shuffleOptions({
-          question: "Where is the owner's house located?",
-          optionA: "By the woods",
-          optionB: "In the village",
-          optionC: "Near the frozen lake",
-          correctAnswer: "In the village",
-        }),
-      shuffleOptions({
-          question: "Why does the narrator stop in the woods?",
-          optionA: "To enjoy the snowfall",
-          optionB: "To watch the woods fill up with snow",
-          optionC: "To meet the owner",
-          correctAnswer: "To watch the woods fill up with snow",
-        }),
-      shuffleOptions({
-          question: "What does the horse think about stopping in the woods?",
-          optionA: "It's normal",
-          optionB: "It's queer",
-          optionC: "It's exciting",
-          correctAnswer: "It's queer",
-        }),
-      shuffleOptions({
-          question: "What is the setting on the darkest evening of the year?",
-          optionA: "By the frozen lake",
-          optionB: "Between the woods and the lake",
-          optionC: "In the village",
-          correctAnswer: "Between the woods and frozen lake",
+          question:
+            "According to the legend, how did God initially create humans?",
+          optionA: "With the need for work and cooperation",
+          optionB: "Without the need for work and self-sufficiency",
+          optionC: "With the ability to live forever",
+          correctAnswer: "Without the need for work and self-sufficiency",
         }),
       shuffleOptions({
           question:
-            "What does the horse do in response to the stop in the woods?",
-          optionA: "Whinnies loudly",
-          optionB: "Gives its harness bells a shake",
-          optionC: "Refuses to move",
-          correctAnswer: "Gives its harness bells a shake",
+            "What did God observe when he looked at how people were living for the first time?",
+          optionA: "They were happy and content",
+          optionB: "They were quarrelling and cursing life",
+          optionC: "They were working together harmoniously",
+          correctAnswer: "They were quarrelling and cursing life",
         }),
       shuffleOptions({
-          question: "What is the only other sound mentioned in the poem?",
-          optionA: "Laughter",
-          optionB: "The sweep of easy wind and downy flake",
-          optionC: "Footsteps",
-          correctAnswer: "The sweep of easy wind and downy flake",
+          question:
+            "Why did God decide to introduce the necessity of work for humans?",
+          optionA: "To make them suffer from cold and hunger",
+          optionB: "To bring them together and promote unity",
+          optionC: "To test their ability to work independently",
+          correctAnswer: "To bring them together and promote unity",
         }),
       shuffleOptions({
-          question: "How are the woods described in the poem?",
-          optionA: "Bright and lively",
-          optionB: "Lovely, dark, and deep",
-          optionC: "Haunted and scary",
-          correctAnswer: "Lovely, dark, and deep",
-        }),
-      shuffleOptions({
-          question: "What does the narrator say about the promises?",
-          optionA: "They are forgotten",
-          optionB: "They are irrelevant",
-          optionC: "They have promises to keep, and miles to go before I sleep",
+          question:
+            "How did God expect humans to react to the uncertainty of their time of death?",
+          optionA: "By living recklessly and pursuing short-term gains",
+          optionB: "By cherishing the moments of life and helping each other",
+          optionC: "By avoiding work and idling away their time",
           correctAnswer:
-            "They have promises to keep, and miles to go before I sleep",
+            "By cherishing the moments of life and helping each other",
         }),
       shuffleOptions({
-          question: "How is the repetition used in the last line?",
-          optionA: "To emphasize the fatigue of the narrator",
-          optionB: "To convey a sense of urgency",
-          optionC: "To express the beauty of the woods",
-          correctAnswer: "To emphasize the fatigue of the narrator",
+          question:
+            "What was the result of the introduction of sickness as a means to unite people?",
+          optionA: "People became more compassionate and caring",
+          optionB: "Sickness divided people even more",
+          optionC: "The wealthy took better care of the sick",
+          correctAnswer: "Sickness divided people even more",
+        }),
+      shuffleOptions({
+          question:
+            "Why did God send sickness among humans in the first place?",
+          optionA: "To punish them for their sins",
+          optionB: "To test their resilience and strength",
+          optionC: "To encourage compassion and mutual help",
+          correctAnswer: "To encourage compassion and mutual help",
+        }),
+      shuffleOptions({
+          question:
+            "How did the strongest individuals and their descendants behave after the introduction of sickness?",
+          optionA: "They became more compassionate and caring",
+          optionB: "They forced others to work for them, even when sick",
+          optionC: "They focused on their own well-being",
+          correctAnswer:
+            "They forced others to work for them, even when sick",
+        }),
+      shuffleOptions({
+          question:
+            "Why did some people consider illnesses infectious, according to the legend?",
+          optionA: "To justify their fear of the sick",
+          optionB: "To promote quarantine practices",
+          optionC: "To encourage sympathy and care for the sick",
+          correctAnswer: "To justify their fear of the sick",
+        }),
+      shuffleOptions({
+          question:
+            "What was the outcome of leaving men to themselves, according to the legend?",
+          optionA: "They continued to suffer without understanding happiness",
+          optionB: "They learned to live in unity and love",
+          optionC: "They found happiness through individual pursuits",
+          correctAnswer:
+            "They continued to suffer without understanding happiness",
+        }),
+      shuffleOptions({
+          question:
+            "In the latest times, what have a few people begun to understand about work?",
+          optionA: "Work should be a source of individual happiness",
+          optionB:
+            "Work should be a common and happy occupation uniting all men",
+          optionC: "Work is a burden that should be avoided",
+          correctAnswer:
+            "Work should be a common and happy occupation uniting all men",
    }),
     ]),
   }
@@ -113,76 +126,83 @@ if (localStorage.getItem("activityNumber") == 2) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question: "Whose woods ____ are I think I know.",
-          optionA: "these",
-          optionB: "those",
-          optionC: "their",
-          correctAnswer: "these",
-        }),
-      shuffleOptions({
-          question: "My little horse must think it ____.",
-          optionA: "normal",
-          optionB: "queer",
-          optionC: "exciting",
-          correctAnswer: "queer",
-        }),
-      shuffleOptions({
-          question: "To watch his woods fill up ____ snow.",
-          optionA: "by",
-          optionB: "with",
-          optionC: "from",
-          correctAnswer: "with",
-        }),
-      shuffleOptions({
-          question: "Between the woods and frozen ____.",
-          optionA: "river",
-          optionB: "ocean",
-          optionC: "lake",
-          correctAnswer: "lake",
-        }),
-      shuffleOptions({
-          question: "He gives his harness bells a ____.",
-          optionA: "jingle",
-          optionB: "shake",
-          optionC: "ring",
-          correctAnswer: "shake",
+          question:
+            "God initially made men so that they had no need to ___________.",
+          optionA: "Quarrel",
+          optionB: "Work",
+          optionC: "Travel",
+          correctAnswer: "Work",
         }),
       shuffleOptions({
           question:
-            "The only other sound's the sweep of ____ wind and downy flake.",
-          optionA: "gentle",
-          optionB: "harsh",
-          optionC: "easy",
-          correctAnswer: "easy",
-        }),
-      shuffleOptions({
-          question: "The woods are lovely, dark, ____ deep.",
-          optionA: "and",
-          optionB: "but",
-          optionC: "yet",
-          correctAnswer: "but",
-        }),
-      shuffleOptions({
-          question: "I have promises to ____, and miles to go before I sleep.",
-          optionA: "break",
-          optionB: "make",
-          optionC: "keep",
-          correctAnswer: "keep",
+            "Instead of being happy, people quarreled with one another, and, each caring for himself, had brought matters to such a pass that far from enjoying life, they ___________ it.",
+          optionA: "Celebrated",
+          optionB: "Cursed",
+          optionC: "Ignored",
+          correctAnswer: "Cursed",
         }),
       shuffleOptions({
           question:
-            "The horse thinks it's ____ to stop without a farmhouse near.",
-          optionA: "normal",
-          optionB: "strange",
-          optionC: "common",
-          correctAnswer: "strange",
+            "To avoid suffering from cold and hunger, people were now obliged to build dwellings, dig the ground, and grow and gather ___________ and grain.",
+          optionA: "Vegetables",
+          optionB: "Fruits",
+          optionC: "Flowers",
+          correctAnswer: "Fruits",
         }),
       shuffleOptions({
-          question: "The darkest evening of ____ year.",
-          optionA: "the",
-          optionB: "this",
-          optionC: "that",
-          correctAnswer: "the",
+          question:
+            "God thought that knowing each of them may die at any moment, they would not, by grasping at gains that may last so short a time, spoil the hours of life allotted to them but turned out ___________.",
+          optionA: "Successfully",
+          optionB: "Otherwise",
+          optionC: "Advantageously",
+          correctAnswer: "Otherwise",
+        }),
+      shuffleOptions({
+          question:
+            "Time passed on, and again God came to see how men were living, and whether they were now ___________.",
+          optionA: "United",
+          optionB: "Happy",
+          optionC: "Fearful",
+          correctAnswer: "Happy",
+        }),
+      shuffleOptions({
+          question:
+            "God decided to make use of one last means; he sent all kinds of ___________ among men.",
+          optionA: "Abundance",
+          optionB: "Sickness",
+          optionC: "Wealth",
+          correctAnswer: "Sickness",
+        }),
+      shuffleOptions({
+          question:
+            "Those who were strongest, availing themselves of the fact that men might die at any time, subdued those who were ___________.",
+          optionA: "Wealthier",
+          optionB: "Weaker",
+          optionC: "Wiser",
+          correctAnswer: "Weaker",
+        }),
+      shuffleOptions({
+          question:
+            "And it came about that the strongest and their descendants did no work and suffered from the ___________ of idleness.",
+          optionA: "Pleasures",
+          optionB: "Benefits",
+          optionC: "Weariness",
+          correctAnswer: "Weariness",
+        }),
+      shuffleOptions({
+          question: "Each set of men feared and hated the ___________.",
+          optionA: "Unknown",
+          optionB: "Other",
+          optionC: "Future",
+          correctAnswer: "Other",
+        }),
+      shuffleOptions({
+          question:
+            "Only in the very latest times have a few of them begun to understand that work ought not to be a ___________ to some and like galley-slavery for others.",
+          optionA: "Burden",
+          optionB: "Joy",
+          optionC: "Responsibility",
+          correctAnswer: "Burden",
    }),
     ]),
   }
@@ -195,70 +215,69 @@ if (localStorage.getItem("activityNumber") == 3) {
       shuffleOptions(
         {
           question:
-            "Jimmy Scarecrow's greatest grief in the winter was his lack of occupation.",
+            "Uncertainty is part and parcel of life, which can either make or break a person.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "A person cannot predict the sea of future uncertainties in his life, be it personal or professional.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "On Christmas Eve, Santa Claus came in his sledge heaped high with toys for the children in the farmhouse.",
+            "It is the mark of a critical mind to show prudence in the event of an uncertain scenario and react wisely.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Betsey gave Jimmy Scarecrow a pair of mittens as a Christmas present.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "To keep the doll-baby dry, Betsey suggested that Jimmy Scarecrow should keep her under his hat.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Aunt Hannah spread her crazy quilt over the sofa with an air of regret.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Aunt Hannah went out through the snow to carry a slice of plum-pudding to her sister Mary.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Betsey's doll-baby grew an inch and could walk and talk after a year.",
+            "Uncertainty is like a teacher that tests your ability to get through a tough situation.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "Santa Claus suggested that Jimmy Scarecrow should scare away crows at the North Pole.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Santa Claus wrote a notice to crows to keep the cornfield safe next summer.",
+            "The crow flew all over the fields looking for water, failed, still did not lose hope, put in more effort, found a pitcher of water but with a little amount of water in it, gave thought to finding a solution to this problem, and succeeded.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "Aunt Hannah and Betsey thought their presents were spoiled because they got wet in the rain.",
+            "Courage, determination, self-faith, and fear of failure play their part in the event of uncertainty.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question: "Man is inclined to think negatively.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            'Lord Krishna says in the Geeta, "You have control over action and not the result, which lies with the Divine."',
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "Life has been filled with uncertainties, and it is through these uncertainties that the world has progressed to the present level.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "The Murphy's law states that if anything can possibly go wrong, it will go wrong.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",

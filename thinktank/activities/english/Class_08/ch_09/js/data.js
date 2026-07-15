@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 9: The Struggle ";
+export const chapter = "Chapter - 9: Essence of Etiquette";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -31,83 +31,82 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question:
-          "What ambition did Booker T. Washington have from a young age?",
-        optionA: "To become a coal miner",
-        optionB: "To work as a janitor",
-        optionC: "To go to Hampton Institute",
-        correctAnswer: "To go to Hampton Institute",
+        question: "What was Ah-ling's initial plan regarding her wealth?",
+        optionA: "She wanted to keep it for herself.",
+        optionB: "She distributed it among her four sons.",
+        optionC: "She donated it to a charity.",
+        correctAnswer: "She distributed it among her four sons.",
      }),
       shuffleOptions({
         question:
-          "How did Booker T. Washington fund his journey to Hampton Institute?",
-        optionA: "He had enough money saved up.",
-        optionB: "He borrowed money from a friend.",
-        optionC: "He relied on assistance from family and neighbors.",
-        correctAnswer: "He relied on assistance from family and neighbors.",
+          "Why did Ah-ling feel distressed after some time of living with her sons?",
+        optionA: "She missed her old home.",
+        optionB: "Her sons were not taking care of her.",
+        optionC: "She had lost her wealth.",
+        correctAnswer: "Her sons were not taking care of her.",
      }),
       shuffleOptions({
         question:
-          "What job did Booker T. Washington take at Mrs. Ruffner's house?",
-        optionA: "Teacher",
-        optionB: "Janitor",
-        optionC: "Chef",
-        correctAnswer: "Janitor",
+          "Who offered Ah-ling a piece of advice to improve her situation?",
+        optionA: "Her eldest son",
+        optionB: "Her friend Jing-mei",
+        optionC: "Her youngest son",
+        correctAnswer: "Her friend Jing-mei",
      }),
       shuffleOptions({
         question:
-          "How did Booker T. Washington prove his worthiness to the head teacher at Hampton Institute?",
-        optionA: "By excelling in a written exam",
-        optionB: "By sweeping and cleaning a recitation room",
-        optionC: "By paying a large sum of money",
-        correctAnswer: "By sweeping and cleaning a recitation room",
-     }),
-      shuffleOptions({
-        question: "What was the cost of boarding at Hampton Institute?",
-        optionA: "$5 per month",
-        optionB: "$10 per month",
-        optionC: "$70 per year",
-        correctAnswer: "$10 per month",
+          "What was the content of the ornamental chest Ah-ling brought home?",
+        optionA: "Valuable gems",
+        optionB: "Ordinary pebbles",
+        optionC: "Money",
+        correctAnswer: "Ordinary pebbles",
      }),
       shuffleOptions({
         question:
-          "How did Booker T. Washington manage to get books while at Hampton Institute?",
-        optionA: "He borrowed books from his classmates.",
-        optionB: "He received books as gifts from his teachers.",
-        optionC: "He collected and created his own library.",
-        correctAnswer: "He collected and created his own library.",
+          "What change did Ah-ling notice in her sons and daughters-in-law after she obtained the casket?",
+        optionA: "They started ignoring her.",
+        optionB: "They became more caring and attentive.",
+        optionC: "They became greedy for wealth.",
+        correctAnswer: "They became more caring and attentive.",
      }),
       shuffleOptions({
         question:
-          "What valuable lesson did Booker T. Washington learn at Hampton Institute regarding personal hygiene?",
-        optionA: "The importance of using cologne",
-        optionB: "The significance of wearing fine clothing",
-        optionC: "The value of bathing for health and self-respect",
-        correctAnswer: "The value of bathing for health and self-respect",
+          "How long did Ah-ling stay with each of her sons as per her initial arrangement?",
+        optionA: "Six months",
+        optionB: "Three months",
+        optionC: "One year",
+        correctAnswer: "Three months",
+     }),
+      shuffleOptions({
+        question: "Why did Ah-ling never extend her stay with any of her sons?",
+        optionA: "She didn't want to show favoritism.",
+        optionB: "She preferred living alone.",
+        optionC: "She had a personal reason.",
+        correctAnswer: "She didn't want to show favoritism.",
      }),
       shuffleOptions({
         question:
-          "How did Booker T. Washington manage to pay for his boarding and tuition at Hampton Institute?",
-        optionA: "He received financial aid from the government.",
-        optionB: "He worked as a janitor in exchange for room and board.",
-        optionC: "His family sent him enough money to cover the expenses.",
-        correctAnswer: "He worked as a janitor in exchange for room and board.",
+          "What did Ah-ling's friend Jing-mei give to her sons after Ah-ling's passing?",
+        optionA: "A note with instructions",
+        optionB: "The key to the casket",
+        optionC: "A portion of Ah-ling's wealth",
+        correctAnswer: "The key to the casket",
      }),
       shuffleOptions({
         question:
-          "What challenge did Booker T. Washington face regarding clothing at Hampton Institute?",
-        optionA: "He had too many clothes to choose from.",
-        optionB: "He struggled to find clothes that fit him.",
-        optionC: "He had to wear the same suit of clothes continuously.",
-        correctAnswer: "He had to wear the same suit of clothes continuously.",
+          "What did the casket actually contain when the sons opened it with the key?",
+        optionA: "Valuable gems",
+        optionB: "A heartfelt letter from their mother",
+        optionC: "Ordinary pebbles",
+        correctAnswer: "Ordinary pebbles",
      }),
       shuffleOptions({
         question:
-          "What was the significance of the barrels from the North to Hampton students like Booker T. Washington?",
-        optionA: "They contained food supplies.",
-        optionB: "They held second-hand clothing for students in need.",
-        optionC: "They were used as educational tools.",
-        correctAnswer: "They held second-hand clothing for students in need.",
+          "What was the message in the note left by Ah-ling in the casket?",
+        optionA: "Money is everything in life.",
+        optionB: "True character is revealed by one's actions.",
+        optionC: "Seek wealth above all else.",
+        correctAnswer: "True character is revealed by one's actions.",
       }),
     ]),
   }
@@ -119,83 +118,82 @@ if (localStorage.getItem("activityNumber") == 2) {
     questions: shuffleQues([
       shuffleOptions({
         question:
-          "Booker T. Washington faced numerous difficulties in obtaining an education, including working in a coalmine and as a janitor. He resolved to go to the Hampton Institute, despite not knowing its location, because he was constantly on fire with the ambition to go to Hampton. This thought was with him day and night. He continued to work for a few months longer in the coalmine and then worked as a domestic help in the household of General Lewis Ruffner.",
-        optionA: "ambition",
-        optionB: "determination",
-        optionC: "motivation",
-        correctAnswer: "ambition",
+          "Ah-ling distributed her entire wealth among her ________ sons.",
+        optionA: "four",
+        optionB: "two",
+        optionC: "five",
+        correctAnswer: "four",
      }),
       shuffleOptions({
         question:
-          "While working in the coalmine, Booker T. Washington learned about the Hampton Normal and Agricultural Institute in Virginia, meant for black people. He decided to join it one day. He continued to work for a few months longer in the coalmine and then worked as a domestic help in the household of General Lewis Ruffner.",
-        optionA: "the opportunity",
-        optionB: "the option",
-        optionC: "the decision",
-        correctAnswer: "the decision",
+          "Ah-ling felt that her sons were becoming less and less ________ in welcoming her.",
+        optionA: "generous",
+        optionB: "cordial",
+        optionC: "understanding",
+        correctAnswer: "cordial",
      }),
       shuffleOptions({
         question:
-          "Booker T. Washington worked at the household of Mrs. Viola Ruffner, who was known for being very strict with her servants. He learned that she wanted everything kept clean, things done promptly and systematically, and absolute honesty and frankness. He also had an opportunity to go to school for an hour in the day during winter months.",
-        optionA: "cleanliness",
-        optionB: "strictness",
-        optionC: "discipline",
-        correctAnswer: "cleanliness",
+          "Ah-ling's friend, Jing-mei, offered her a piece of advice to improve her ________.",
+        optionA: "wealth",
+        optionB: "situation",
+        optionC: "health",
+        correctAnswer: "situation",
      }),
       shuffleOptions({
         question:
-          "Booker T. Washington prepared to go to the Hampton Institute, even though he had no definite idea of its location or the cost of getting there. He resolved to make an effort with the assistance of his family members and neighbors.",
-        optionA: "plan",
-        optionB: "journey",
-        optionC: "goal",
-        correctAnswer: "plan",
+          "When Ah-ling returned with the ornamental chest, her clothes were covered in ________.",
+        optionA: "dust",
+        optionB: "mud",
+        optionC: "flowers",
+        correctAnswer: "mud",
      }),
       shuffleOptions({
         question:
-          "Booker T. Washington reached Hampton after a long journey with various challenges. He considered the large, three-story, brick school building to be the largest and most beautiful building he had ever seen, and it felt like he had reached the Promised Land.",
-        optionA: "accomplishment",
-        optionB: "destination",
-        optionC: "dream",
-        correctAnswer: "destination",
+          "Ah-ling's sons tried to open the casket in her ________, but it was securely locked.",
+        optionA: "presence",
+        optionB: "absence",
+        optionC: "sleep",
+        correctAnswer: "absence",
      }),
       shuffleOptions({
         question:
-          "After reaching Hampton, Booker T. Washington presented himself before the head teacher for assignment to a class. He didn't make a very favorable impression because he had been without proper food, a bath, and change of clothing for a long time.",
-        optionA: "appearance",
-        optionB: "attitude",
-        optionC: "presentation",
-        correctAnswer: "appearance",
+          "Ah-ling lived for ________ more years after the incident with the casket.",
+        optionA: "three",
+        optionB: "five",
+        optionC: "nine",
+        correctAnswer: "nine",
      }),
       shuffleOptions({
         question:
-          "The head teacher asked Booker T. Washington to sweep the adjoining recitation room. He saw this as an opportunity and swept the room thoroughly, impressing the teacher with his dedication to cleanliness.",
-        optionA: "challenge",
-        optionB: "favor",
-        optionC: "chance",
-        correctAnswer: "chance",
+          "Jing-mei handed over the key to the casket to Ah-ling's ________ son.",
+        optionA: "eldest",
+        optionB: "youngest",
+        optionC: "middle",
+        correctAnswer: "eldest",
      }),
       shuffleOptions({
         question:
-          "The sweeping of the recitation room was Booker T. Washington's college examination, and it paved the way for him to get through Hampton. Miss Mary F. Mackie, the head teacher, offered him a position as the janitor.",
-        optionA: "success",
-        optionB: "entrance",
-        optionC: "scholarship",
-        correctAnswer: "entrance",
+          "When the casket was opened, the contents were revealed to be ________.",
+        optionA: "valuable gems",
+        optionB: "ordinary pebbles",
+        optionC: "gold coins",
+        correctAnswer: "ordinary pebbles",
      }),
       shuffleOptions({
         question:
-          "While at Hampton, Booker T. Washington realized the value of a bath, not only in keeping the body healthy but also in inspiring self-respect and promoting virtue.",
-        optionA: "cleanliness",
-        optionB: "hygiene",
-        optionC: "sanitation",
-        correctAnswer: "hygiene",
+          "Ah-ling's message in the note emphasized the importance of one's ________.",
+        optionA: "material wealth",
+        optionB: "true character",
+        optionC: "family ties",
+        correctAnswer: "true character",
      }),
       shuffleOptions({
-        question:
-          "Booker T. Washington, while at Hampton, had to wear one suit of clothes continually and keep it clean. He managed to get some second-hand clothing sent in barrels from the North, which proved a blessing to many deserving students.",
-        optionA: "garments",
-        optionB: "apparel",
-        optionC: "attire",
-        correctAnswer: "apparel",
+        question: "The text concludes with the arrival of ________.",
+        optionA: "Amy's friend",
+        optionB: "Amy's brother",
+        optionC: "Amy's father",
+        correctAnswer: "Amy's father",
       }),
     ]),
   }
@@ -206,60 +204,57 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Hampton Institute is located in Virginia.",
+        question: "Ah-ling distributed her entire wealth among her four sons.",
         optionA: "True",
         optionB: "False",correctAnswer: "True",
      }),
       shuffleOptions({
-        question: "Booker T. Washington worked as a janitor at the coalmine.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "Mrs. Viola Ruffner was known for being lenient with her servants.",
+        question: "Ah-ling's sons were increasingly welcoming as time passed.",
         optionA: "True",
         optionB: "False",correctAnswer: "False",
      }),
       shuffleOptions({
-        question:
-          "Booker T. Washington had proper clothing when he first reached Hampton.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "The head teacher at Hampton immediately admitted Booker T. Washington as a student.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-     }),
-      shuffleOptions({
-        question:
-          "Booker T. Washington's future at Hampton was dependent on the cleanliness of a room.",
+        question: "Ah-ling's friend, Jing-mei, offered her valuable advice.",
         optionA: "True",
         optionB: "False",correctAnswer: "True",
      }),
       shuffleOptions({
         question:
-          "Miss Mary F. Mackie was not a supportive figure in Booker T. Washington's life at Hampton.",
+          "The ornamental chest Ah-ling brought home was filled with valuable gems.",
         optionA: "True",
         optionB: "False",correctAnswer: "False",
      }),
       shuffleOptions({
         question:
-          "Booker T. Washington believes that education from books and costly apparatus is superior to learning from great men and women.",
+          "Ah-ling's sons successfully opened the casket in her absence.",
         optionA: "True",
         optionB: "False",correctAnswer: "False",
      }),
       shuffleOptions({
         question:
-          "Booker T. Washington's tuition cost at Hampton was seventy dollars a year.",
+          "Ah-ling lived for five more years after the incident with the casket.",
         optionA: "True",
         optionB: "False",correctAnswer: "True",
      }),
       shuffleOptions({
         question:
-          "Second-hand clothing sent in barrels from the North proved to be a burden for Booker T. Washington.",
+          "Jing-mei handed over the key to the casket to Ah-ling's youngest son.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
+      shuffleOptions({
+        question: "When the casket was opened, it contained valuable gems.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
+      shuffleOptions({
+        question:
+          "Ah-ling's message in the note emphasized the importance of one's material wealth.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
+      shuffleOptions({
+        question: "The text concludes with the arrival of Amy's friend.",
         optionA: "True",
         optionB: "False",correctAnswer: "False",
       }),

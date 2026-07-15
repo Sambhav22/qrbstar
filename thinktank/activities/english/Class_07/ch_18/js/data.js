@@ -1,4 +1,4 @@
-export const chapter = "Chapter -18: A Horse and Two Goats";
+export const chapter = "Chapter - 18: Struggle for an Education";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -32,80 +32,80 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question: "What material was the statue of the horse made of?",
-          optionA: "Wood",
-          optionB: "Clay",
-          optionC: "Marble",
-          correctAnswer: "Clay",
-        }),
-      shuffleOptions({
-          question: "Where did Muni sit while watching his goats graze?",
-          optionA: "At a marketplace",
-          optionB: "Under a tree",
-          optionC: "At the foot of the statue",
-          correctAnswer: "At the foot of the statue",
+          question: "What is the sun described as in the given text?",
+          optionA: "Warm and glittering",
+          optionB: "Elusive and shy",
+          optionC: "Cold and distant",
+          correctAnswer: "Warm and glittering",
         }),
       shuffleOptions({
           question:
-            "What did the red-faced foreigner find marvelous near the statue?",
-          optionA: "A painting",
-          optionB: "A gas station",
-          optionC: "The clay horse",
-          correctAnswer: "The clay horse",
+            "In the text, where does the sun manage to slip its rays through?",
+          optionA: "Closed windows",
+          optionB: "Shady parlour",
+          optionC: "Blinds with chinks",
+          correctAnswer: "Blinds with chinks",
+        }),
+      shuffleOptions({
+          question: "How does the sun make the dusty attic spider-clad glad?",
+          optionA: "By creating warmth",
+          optionB: "Through the keyhole",
+          optionC: "By smiling through broken tiles",
+          correctAnswer: "Through the keyhole",
+        }),
+      shuffleOptions({
+          question: "What does the sun do to the garden ground in the text?",
+          optionA: "Darkens it",
+          optionB: "Illuminates it with a warm and glittering look",
+          optionC: "Covers it with rain",
+          correctAnswer: "Illuminates it with a warm and glittering look",
         }),
       shuffleOptions({
           question:
-            "How did Muni feel about the foreigner showing interest in the statue?",
-          optionA: "Excited",
-          optionB: "Nervous",
-          optionC: "Indifferent",
-          correctAnswer: "Nervous",
-        }),
-      shuffleOptions({
-          question: "What did the foreigner offer to buy from Muni?",
-          optionA: "His goats",
-          optionB: "The clay horse",
-          optionC: "His house",
-          correctAnswer: "The clay horse",
+            "Where does the sun shed its warm and glittering look according to the text?",
+          optionA: "In the attic",
+          optionB: "Among the ivy's inmost nook",
+          optionC: "Through the broken tiles",
+          correctAnswer: "Among the ivy's inmost nook",
         }),
       shuffleOptions({
           question:
-            "What reason did Muni give for the horse being significant?",
-          optionA: "It brings good luck",
-          optionB: "It signifies the end of the world",
-          optionC: "It's a symbol of prosperity",
-          correctAnswer: "It signifies the end of the world",
+            "How does the sun move along the blue, according to the text?",
+          optionA: "With a hesitant pace",
+          optionB: "With footing true",
+          optionC: "In a zigzag pattern",
+          correctAnswer: "With footing true",
         }),
       shuffleOptions({
           question:
-            "How did Muni react to the foreigner's offer to buy the horse?",
-          optionA: "Accepted the offer",
-          optionB: "Rejected the offer",
-          optionC: "Tried to explain its significance",
-          correctAnswer: "Tried to explain its significance",
-        }),
-      shuffleOptions({
-          question: "What was the foreigner's trade or business?",
-          optionA: "Coffee trader",
-          optionB: "Antique collector",
-          optionC: "Real estate agent",
-          correctAnswer: "Coffee trader",
+            "What is the sun's role in relation to the child in the text?",
+          optionA: "To scold the child",
+          optionB: "To please the child",
+          optionC: "To hide from the child",
+          correctAnswer: "To please the child",
         }),
       shuffleOptions({
           question:
-            "How did Muni plan to use the money he earned from selling the goats?",
-          optionA: "Open a shop",
-          optionB: "Buy more goats",
-          optionC: "Travel to a different town",
-          correctAnswer: "Open a shop",
+            "Why do the blinds in the parlour need to be pulled, according to the text?",
+          optionA: "To keep the sun out",
+          optionB: "To create a dark atmosphere",
+          optionC: "To keep the room cool",
+          correctAnswer: "To keep the room cool",
+        }),
+      shuffleOptions({
+          question: "Where does the sun go to paint the rose, as per the text?",
+          optionA: "In the attic",
+          optionB: "Among the ivy's inmost nook",
+          optionC: "Round the bright air",
+          correctAnswer: "Round the bright air",
         }),
       shuffleOptions({
           question:
-            "Why did Muni's wife accuse him of stealing when he showed her the money?",
-          optionA: "The goats had returned",
-          optionB: "She misunderstood him",
-          optionC: "Fear of police involvement",
-          correctAnswer: "The goats had returned",
+            "How does the sun interact with the laddered hayloft in the text?",
+          optionA: "Through closed doors",
+          optionB: "Through the broken edge of tiles",
+          optionC: "By creating a cool atmosphere",
+          correctAnswer: "Through the broken edge of tiles",
    }),
     ]),
   }
@@ -118,83 +118,81 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions(
         {
           question:
-            "Muni could ________ under the belly of the horse for shade.",
-          optionA: "Sit",
-          optionB: "Crouch",
-          optionC: "Sleep",
-          correctAnswer: "Crouch",
+            "Great is the sun, and wide he goes\nThrough empty heaven with ______;\nAnd in the blue and glowing days\nMore thick than rain he showers his ______.",
+          optionA: "splendor, brilliance",
+          optionB: "repose, rays",
+          optionC: "warmth, radiance",
+          correctAnswer: "repose, rays",
         }),
       shuffleOptions({
           question:
-            "The horse was made of clay, baked, burnt, and brightly colored, and it reared its head proudly, prancing its forelegs in the air and flourishing its tail in a ________.",
-          optionA: "Spiral",
-          optionB: "Loop",
-          optionC: "Knot",
-          correctAnswer: "Loop",
+            "Though closer still the blinds we pull\nTo keep the shady parlour cool,\nYet he will find a chink or two\nTo slip his golden ______ through.",
+          optionA: "fingers",
+          optionB: "sunlight",
+          optionC: "warmth",
+          correctAnswer: "fingers",
         }),
       shuffleOptions({
           question:
-            "Muni watched the mountain road for a time signal, and when the green bus appeared, he could ________.",
-          optionA: "Stay",
-          optionB: "Leave",
-          optionC: "Sleep",
-          correctAnswer: "Leave",
+            "The dusty attic spider-clad\nHe, through the keyhole, maketh ______;\nAnd through the broken edge of tiles\nInto the laddered hayloft ______.",
+          optionA: "happiness, smiles",
+          optionB: "sadness, frowns",
+          optionC: "glad, peeks",
+          correctAnswer: "glad, peeks",
         }),
       shuffleOptions({
           question:
-            "The foreigner, a red-faced man, approached Muni and asked if there was a gas station nearby or if he had to wait until ________.",
-          optionA: "Another car comes",
-          optionB: "The sun sets",
-          optionC: "Tomorrow morning",
-          correctAnswer: "Another car comes",
+            "Meantime his golden face around\nHe bares to all the ______ ground,\nAnd sheds a warm and glittering look\nAmong the ivy's ______ nook.",
+          optionA: "garden, inmost",
+          optionB: "dark, hidden",
+          optionC: "bright, open",
+          correctAnswer: "garden, inmost",
         }),
       shuffleOptions({
           question:
-            "Muni felt he should get up and run away, but he cursed his age because he couldn't readily put his limbs into ________.",
-          optionA: "Rest",
-          optionB: "Action",
-          optionC: "Sleep",
-          correctAnswer: "Action",
+            "Above the hills, along the blue,\nRound the ______ air with footing true,\nTo please the child, to paint the ______,\nThe gardener of the World, he goes.",
+          optionA: "bright, sky",
+          optionB: "dark, moon",
+          optionC: "open, rose",
+          correctAnswer: "bright, sky",
+        }),
+      shuffleOptions({
+          question: "What is described as 'thicker than rain' in the text?",
+          optionA: "Blinds",
+          optionB: "Sun",
+          optionC: "Days",
+          correctAnswer: "Days",
         }),
       shuffleOptions({
           question:
-            "The foreigner wore khaki clothes, appearing to be a ________ or a ________.",
-          optionA: "Chef, gardener",
-          optionB: "Policeman, soldier",
-          optionC: "Pilot, engineer",
-          correctAnswer: "Policeman, soldier",
+            "The sun finds a chink or two despite pulling the blinds to keep the shady parlour cool. What does the word 'chink' refer to in this context?",
+          optionA: "Hole or crack",
+          optionB: "Bright light",
+          optionC: "Warmth",
+          correctAnswer: "Hole or crack",
         }),
       shuffleOptions({
           question:
-            "The red-faced man presented his card, revealing that he came from ________.",
-          optionA: "Paris",
-          optionB: "New York",
-          optionC: "London",
-          correctAnswer: "New York",
+            "Through which opening does the sun make the dusty attic spider-clad glad?",
+          optionA: "Closed window",
+          optionB: "Keyhole",
+          optionC: "Broken edge of tiles",
+          correctAnswer: "Keyhole",
+        }),
+      shuffleOptions({
+          question: "What does the sun shed among the ivy's inmost nook?",
+          optionA: "Rain",
+          optionB: "Glittering look",
+          optionC: "Darkness",
+          correctAnswer: "Glittering look",
         }),
       shuffleOptions({
           question:
-            "Muni spoke the only English expressions he had learnt, 'Yes, no.' Having exhausted his English vocabulary, he continued in ________.",
-          optionA: "French",
-          optionB: "Tamil",
-          optionC: "Spanish",
-          correctAnswer: "Tamil",
-        }),
-      shuffleOptions({
-          question:
-            "The foreigner implored, 'Please, please, I will speak slowly, please try to understand me. Can't you understand even a simple word of ________?'",
-          optionA: "French",
-          optionB: "English",
-          optionC: "Spanish",
-          correctAnswer: "English",
-        }),
-      shuffleOptions({
-          question:
-            "Muni, understanding that the other man was not an inquisitor, remained wary but explained that their village had always had a clean record and any crime must definitely be happening in the ________ village.",
-          optionA: "Nearby",
-          optionB: "Other",
-          optionC: "Distant",
-          correctAnswer: "Other",
+            "What does the gardener of the World go to please the child and paint the rose?",
+          optionA: "Dark air",
+          optionB: "Bright air",
+          optionC: "Shady parlour",
+          correctAnswer: "Bright air",
    }),
     ]),
   }
@@ -206,67 +204,69 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question:
-            "Muni could move around the pedestal of the statue as the sun traveled up and westward.",
+          question: "The sun's rays shower more thickly than rain.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
-          question: "The horse in the story was made of metal.",
+          question:
+            "Closing the blinds completely prevents the sun from slipping its rays through.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The foreigner who approached Muni was wearing blue clothes.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question: "Muni spoke fluent English to the foreigner.",
+            "The dusty attic spider-clad becomes sad when the sun shines through the keyhole.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The red-faced man presented a card revealing he came from Paris.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "The foreigner understood Tamil and carried on a conversation with Muni in that language.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question: "The red-faced man wanted to buy Muni's two goats.",
+            "The sun sheds a warm and glittering look among the ivy's inmost nook.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
-          question: "Muni successfully sold his goats to the red-faced man.",
+          question:
+            "The gardener of the World goes to create darkness in the bright air.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question: "The sun moves along the blue with hesitant footing.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The foreigner used a brush to create spots on the Leopard.",
+            "The blinds in the shady parlour are pulled to keep the room warm.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The story concludes with the Leopard and the Ethiopian regretting the change in their appearances.",
+            "Queen Padmini deceived Alauddin Khalji by showing her mirror image in the water.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "The first Jauhar at Chittor Fort occurred during the 16th century.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The gardener of the World goes to paint the moon in the bright air.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",

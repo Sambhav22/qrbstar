@@ -1,4 +1,4 @@
-export const chapter = "Chapter -1: The Invisible Man";
+export const chapter = "Chapter - 1: Contentment";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -33,80 +33,84 @@ if (localStorage.getItem("activityNumber") == 1) {
       shuffleOptions(
         {
           question:
-            "What disadvantage does the Invisible Man mention about his condition?",
-          optionA: "Lack of food",
-          optionB: "Invisibility in snow",
-          optionC: "No shelter",
-          correctAnswer: "No shelter",
+            "Why does the narrator like the TV soap mentioned in the text?",
+          optionA: "The interesting storyline",
+          optionB: "The popular actors",
+          optionC: "It airs during dinner time",
+          correctAnswer: "It airs during dinner time",
         }),
       shuffleOptions({
-          question: "Why does the Invisible Man avoid going out in the snow?",
-          optionA: "It's too cold",
-          optionB: "Snow settles on him and exposes him",
-          optionC: "He doesn't like snow",
-          correctAnswer: "Snow settles on him and exposes him",
-        }),
-      shuffleOptions({
-          question: "What danger does the Invisible Man associate with rain?",
-          optionA: "It makes him cold",
-          optionB: "It reveals his glistening surface",
-          optionC: "He might catch a cold",
-          correctAnswer: "It reveals his glistening surface",
-        }),
-      shuffleOptions({
-          question: "Where does the Invisible Man go to find clothing?",
-          optionA: "Great Portland Street",
-          optionB: "Slums",
-          optionC: "Theatrical costumiers",
-          correctAnswer: "Theatrical costumiers",
+          question: "What happens when the cable connection is snapped?",
+          optionA: "The family switches to a different channel",
+          optionB: "The family enjoys a lively dinner and conversation",
+          optionC: "The family immediately calls the cable-man",
+          correctAnswer: "The family enjoys a lively dinner and conversation",
         }),
       shuffleOptions({
           question:
-            "Why does the Invisible Man enter a little shop with newspapers, sweets, toys, etc.?",
-          optionA: "To find a hiding place",
-          optionB: "To buy food",
-          optionC: "To get a mask and disguise himself",
-          correctAnswer: "To get a mask and disguise himself",
+            "What is Mr. Raghav's attitude towards the cable connection being down?",
+          optionA: "He is indifferent",
+          optionB: "He is upset",
+          optionC: "He is delighted",
+          correctAnswer: "He is delighted",
         }),
       shuffleOptions({
           question:
-            "What prompts the Invisible Man to knock the man in the shop on the head?",
-          optionA: "The man recognized him",
-          optionB: "The man locked him in",
-          optionC: "The man was a threat to his plan",
-          correctAnswer: "The man was a threat to his plan",
+            "How long does the cable-man say it will take to restore the cable connection?",
+          optionA: "One day",
+          optionB: "Two days",
+          optionC: "Three days",
+          correctAnswer: "Two days",
         }),
       shuffleOptions({
           question:
-            "What does the Invisible Man use to knock the man on the head?",
-          optionA: "Stool",
-          optionB: "Revolver",
-          optionC: "Mask",
-          correctAnswer: "Stool",
+            "What surprising skill does the daughter, Radhika, display during the cable outage?",
+          optionA: "Singing",
+          optionB: "Cooking",
+          optionC: "Dancing",
+          correctAnswer: "Cooking",
         }),
       shuffleOptions({
           question:
-            "What does the Invisible Man use to gag and tie up the man?",
-          optionA: "Sheet",
-          optionB: "Mask",
-          optionC: "Rope",
-          correctAnswer: "Sheet",
+            "What does the family realize during the two days without TV?",
+          optionA: "They miss their favorite shows",
+          optionB: "Quality time and family interactions are important",
+          optionC: "They need to find a new cable provider",
+          correctAnswer: "Quality time and family interactions are important",
         }),
       shuffleOptions({
           question:
-            "Why does the Invisible Man choose specific items for disguise, like a mask, dark glasses, and a wig?",
-          optionA: "To become a thief",
-          optionB: "To make himself visible",
-          optionC: "To scare people",
-          correctAnswer: "To make himself visible",
+            "What childhood activities does the narrator describe to her daughter?",
+          optionA: "Playing video games",
+          optionB:
+            "Playing under tamarind trees, stoning trees, and making clay playthings",
+          optionC: "Watching TV",
+          correctAnswer:
+            "Playing under tamarind trees, stoning trees, and making clay playthings",
         }),
       shuffleOptions({
           question:
-            "What does the Invisible Man find in the locked cupboard in the inner room?",
-          optionA: "Clothes",
-          optionB: "Money",
-          optionC: "Food",
-          correctAnswer: "Money",
+            "What was more important than scoring high marks during the narrator's childhood?",
+          optionA: "Being healthy and well-behaved",
+          optionB: "Studying for long hours",
+          optionC: "Winning sports competitions",
+          correctAnswer: "Being healthy and well-behaved",
+        }),
+      shuffleOptions({
+          question:
+            "What virtue does the family learn during the two days without TV?",
+          optionA: "Patience",
+          optionB: "Virtue",
+          optionC: "Curiosity",
+          correctAnswer: "Virtue",
+        }),
+      shuffleOptions({
+          question:
+            "How does the family decide to manage their TV time after the cable connection is restored?",
+          optionA: "No more TV",
+          optionB: "One hour of TV every day",
+          optionC: "Only weekends for TV",
+          correctAnswer: "One hour of TV every day",
    }),
     ]),
   }
@@ -118,83 +122,84 @@ if (localStorage.getItem("activityNumber") == 2) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question: "The Invisible Man had no ____________ to provide shelter.",
-          optionA: "Clothing",
-          optionB: "Food",
-          optionC: "Shelter",
-          correctAnswer: "Shelter",
+          question:
+            "The family sat clung to the __________ screen tuned to their favorite soap opera.",
+          optionA: "Radio",
+          optionB: "Computer",
+          optionC: "TV",
+          correctAnswer: "TV",
         }),
       shuffleOptions({
           question:
-            "The Invisible Man couldn't go out in the snow because it would settle on him and ____________ him.",
-          optionA: "Warm",
-          optionB: "Conceal",
-          optionC: "Expose",
-          correctAnswer: "Expose",
+            "The narrator's daughter and husband have been watching the soap opera for the last __________ years.",
+          optionA: "Two",
+          optionB: "Three",
+          optionC: "Four",
+          correctAnswer: "Three",
         }),
       shuffleOptions({
           question:
-            "Rain would make the Invisible Man a watery outline, a glistening surface of a man, a ____________.",
-          optionA: "Mirage",
-          optionB: "Bubble",
-          optionC: "Reflection",
-          correctAnswer: "Bubble",
+            "The cable connection could not be restored for __________ days due to a major fault.",
+          optionA: "One",
+          optionB: "Two",
+          optionC: "Three",
+          correctAnswer: "Two",
         }),
       shuffleOptions({
           question:
-            "In the slums towards Great Portland Street, the Invisible Man planned to get ____________.",
-          optionA: "Food",
-          optionB: "Clothing",
-          optionC: "Money",
-          correctAnswer: "Clothing",
+            "The daughter, Radhika, surprises everyone by displaying her __________ skills during the cable outage.",
+          optionA: "Cooking",
+          optionB: "Singing",
+          optionC: "Dancing",
+          correctAnswer: "Cooking",
         }),
       shuffleOptions({
           question:
-            "The Invisible Man realized his most immediate problem was to get ____________.",
-          optionA: "Food",
-          optionB: "Money",
-          optionC: "Clothing",
-          correctAnswer: "Clothing",
+            "The family decides to limit their TV time to only __________ hour(s) every day after the cable connection is restored.",
+          optionA: "Half",
+          optionB: "One",
+          optionC: "Two",
+          correctAnswer: "One",
         }),
       shuffleOptions({
           question:
-            "The Invisible Man knocked the man in the shop on the head with a ____________.",
-          optionA: "Mask",
-          optionB: "Revolver",
-          optionC: "Stool",
-          correctAnswer: "Stool",
+            "According to the narrator, during the two days without TV, they had more time for __________ and __________.",
+          optionA: "Sleeping, studying",
+          optionB: "Eating, sleeping",
+          optionC: "Talking, laughing",
+          correctAnswer: "Talking, laughing",
         }),
       shuffleOptions({
           question:
-            "The Invisible Man used a ____________ to gag and tie up the man in the shop.",
-          optionA: "Sheet",
-          optionB: "Rope",
-          optionC: "Mask",
-          correctAnswer: "Sheet",
+            "The cable-man informs the neighborhood that the cable connection cannot be restored for at least __________ days.",
+          optionA: "One",
+          optionB: "Two",
+          optionC: "Three",
+          correctAnswer: "Two",
         }),
       shuffleOptions({
           question:
-            "The Invisible Man chose a mask, dark glasses, and a wig to make himself ____________.",
-          optionA: "Invisible",
-          optionB: "Visible",
-          optionC: "Recognizable",
-          correctAnswer: "Visible",
+            "The narrator reminisces about her childhood and describes playing under __________ trees and stoning trees.",
+          optionA: "Mango",
+          optionB: "Tamarind",
+          optionC: "Oak",
+          correctAnswer: "Tamarind",
         }),
       shuffleOptions({
           question:
-            "The Invisible Man found three sovereigns and about thirty shillings' worth of ____________ in a desk.",
-          optionA: "Gold",
-          optionB: "Silver",
-          optionC: "Copper",
-          correctAnswer: "Silver",
+            "The narrator's husband teaches their daughter casio during the cable outage, which adds a new streak of __________.",
+          optionA: "Learning",
+          optionB: "Entertainment",
+          optionC: "Cooking",
+          correctAnswer: "Learning",
         }),
       shuffleOptions({
           question:
-            "The Invisible Man decided to explore the house and spent some time doing so ____________.",
-          optionA: "Quietly",
-          optionB: "Noisily",
-          optionC: "Angrily",
-          correctAnswer: "Quietly",
+            "Radhika suggests that they can continue limiting their TV time to __________ hour(s) even after the cable connection is restored.",
+          optionA: "Half",
+          optionB: "One",
+          optionC: "Two",
+          correctAnswer: "One",
    }),
     ]),
   }
@@ -206,71 +211,74 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question: "The Invisible Man had a shelter to provide cover.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
           question:
-            "The Invisible Man could go out in the snow without being exposed.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question: "Rain would make the Invisible Man a visible bubble.",
+            "The family watched their favorite soap opera every evening.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The Invisible Man went to Great Portland Street to find food.",
+            "The cable connection was snapped due to a major fault and couldn't be restored for one day.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The Invisible Man entered a little shop to get a mask and disguise himself.",
+            "Radhika surprised everyone by displaying her singing skills during the cable outage.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The cable-man informed that the cable connection would take at least three days to be restored.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The family decided to watch TV for two hours every day after the cable connection was restored.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "During the two days without TV, the family had more time for sleeping and studying.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The narrator reminisced about playing under mango trees during her childhood.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Radhika suggested continuing to limit TV time to one hour even after the cable connection was restored.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The Invisible Man knocked the man in the shop on the head with a revolver.",
+            "The narrator's husband taught their daughter cooking skills during the cable outage.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The Invisible Man used a rope to gag and tie up the man in the shop.",
+            "The family realized that the absence of TV brought them closer, and they continued limiting TV time to two hours.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "The Invisible Man chose a mask, dark glasses, and a wig to make himself invisible.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "The Invisible Man found only gold in a locked cupboard in the inner room.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question: "The Invisible Man decided to explore the house quietly.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
    }),
     ]),
   }

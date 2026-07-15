@@ -1,4 +1,4 @@
-export const chapter = "Chapter -15: The Model Millionaire";
+export const chapter = "Chapter - 15: The Quality of Mercy";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -32,80 +32,83 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question: "What is Hughie's financial situation?",
-          optionA: "He is wealthy",
-          optionB: "He lives on a small allowance from his aunt",
-          optionC: "He earns a substantial income",
-          correctAnswer: "He lives on a small allowance from his aunt",
+          question:
+            "What is the primary source of animal protein in the diet of many people in the country mentioned in the text?",
+          optionA: "Chicken",
+          optionB: "Fish",
+          optionC: "Milk",
+          correctAnswer: "Milk",
+        }),
+      shuffleOptions({
+          question: "What are the five products of a cow known as?",
+          optionA: "Panchagavya",
+          optionB: "Pentagavya",
+          optionC: "Hexagavya",
+          correctAnswer: "Panchagavya",
+        }),
+      shuffleOptions({
+          question: "In Hinduism, why is the cow considered significant?",
+          optionA: "It yields more milk than other animals",
+          optionB: "Lord Krishna is associated with cows",
+          optionC: "Cows are excellent for draught work",
+          correctAnswer: "Lord Krishna is associated with cows",
         }),
       shuffleOptions({
           question:
-            "Which profession did Hughie try first, but it did not work out?",
-          optionA: "Tea merchant",
-          optionB: "Stock Exchange",
-          optionC: "Selling dry sherry",
-          correctAnswer: "Stock Exchange",
+            "In terms of milk production, how does buffalo milk compare to cow milk in India?",
+          optionA: "Buffalo milk is considered less healthy",
+          optionB: "Buffalo milk is richer with 50% more fat",
+          optionC:
+            "Buffalo milk is lighter and preferred in religious ceremonies",
+          correctAnswer: "Buffalo milk is richer with 50% more fat",
         }),
       shuffleOptions({
           question:
-            "What is the amount Hughie receives annually from his old aunt?",
-          optionA: "£100",
-          optionB: "£200",
-          optionC: "£500",
-          correctAnswer: "£200",
+            "What is the second most precious possession for a farmer in the mentioned country, after land?",
+          optionA: "Gold",
+          optionB: "Cattle",
+          optionC: "Machinery",
+          correctAnswer: "Cattle",
         }),
       shuffleOptions({
-          question: "Who is Alan Trevor?",
-          optionA: "A stockbroker",
-          optionB: "A painter",
-          optionC: "A tea merchant",
-          correctAnswer: "A painter",
-        }),
-      shuffleOptions({
-          question:
-            "How much does Alan receive for the portrait he is working on?",
-          optionA: "£1,000",
-          optionB: "£2,000",
-          optionC: "1,000 guineas",
-          correctAnswer: "1,000 guineas",
+          question: "How many stomachs do cattle have, according to the text?",
+          optionA: "One",
+          optionB: "Three",
+          optionC: "Four",
+          correctAnswer: "Four",
         }),
       shuffleOptions({
           question:
-            "How much does Hughie give to the beggar model in the studio?",
-          optionA: "A shilling",
-          optionB: "A sovereign",
-          optionC: "Five pounds",
-          correctAnswer: "A sovereign",
-        }),
-      shuffleOptions({
-          question: "Who is the mysterious beggar model actually?",
-          optionA: "Alan Trevor",
-          optionB: "Baron Hausberg",
-          optionC: "Hughie's uncle",
-          correctAnswer: "Baron Hausberg",
+            "Which breeds are mentioned as exotic breeds introduced in India to improve milk production?",
+          optionA: "Amritmahal and Gir",
+          optionB: "Jersey and Holstein-Friesian",
+          optionC: "Bachuar and Dangi",
+          correctAnswer: "Jersey and Holstein-Friesian",
         }),
       shuffleOptions({
           question:
-            "How does Hughie feel when he realizes the beggar was Baron Hausberg?",
-          optionA: "Angry",
-          optionB: "Happy",
-          optionC: "Surprised and unhappy",
-          correctAnswer: "Surprised and unhappy",
+            "What health issues can arise from consuming unclean milk, as mentioned in the text?",
+          optionA: "Allergies",
+          optionB: "Diabetes",
+          optionC: "Typhoid fever, dysentery, and more",
+          correctAnswer: "Typhoid fever, dysentery, and more",
+        }),
+      shuffleOptions({
+          question: "How many sections is a cattle's stomach divided into?",
+          optionA: "Two",
+          optionB: "Three",
+          optionC: "Four",
+          correctAnswer: "Four",
         }),
       shuffleOptions({
           question:
-            "What is the amount of the cheque Baron Hausberg gives as a wedding present?",
-          optionA: "£5,000",
-          optionB: "£10,000",
-          optionC: "£20,000",
-          correctAnswer: "£10,000",
-        }),
-      shuffleOptions({
-          question: "How does the story conclude for Hughie and Laura?",
-          optionA: "They break up",
-          optionB: "They get married with Baron Hausberg's blessing",
-          optionC: "They elope",
-          correctAnswer: "They get married with Baron Hausberg's blessing",
+            "Why is pasteurization mentioned in relation to milk preservation?",
+          optionA: "To improve taste",
+          optionB: "To increase nutritional value",
+          optionC:
+            "To preserve milk over a longer period and eliminate bacteria",
+          correctAnswer:
+            "To preserve milk over a longer period and eliminate bacteria",
    }),
     ]),
   }
@@ -118,83 +121,83 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions(
         {
           question:
-            "Hughie lives on an annual allowance of __________ pounds provided by his old aunt.",
-          optionA: "100",
-          optionB: "200",
-          optionC: "500",
-          correctAnswer: "200",
+            "The cattle are often referred to as a farmer's second most precious possession after ______________.",
+          optionA: "Gold",
+          optionB: "Land",
+          optionC: "Machinery",
+          correctAnswer: "Land",
         }),
       shuffleOptions({
           question:
-            "Hughie tried various professions, including working at the Stock Exchange for six months, where he experienced more __________ than profit.",
-          optionA: "Success",
-          optionB: "Loss",
-          optionC: "Challenges",
-          correctAnswer: "Loss",
+            "In Hinduism, Lord Krishna is known as Govind, which means the ______________ of cows.",
+          optionA: "Protector",
+          optionB: "Consumer",
+          optionC: "Ignorer",
+          correctAnswer: "Protector",
         }),
       shuffleOptions({
           question:
-            "Alan Trevor is a skilled __________, and his paintings are highly sought after.",
-          optionA: "Musician",
-          optionB: "Painter",
-          optionC: "Chef",
-          correctAnswer: "Painter",
+            "The five products of a cow, including milk, urine, dung, curd, and ghee, are collectively known as ______________.",
+          optionA: "Pentalogy",
+          optionB: "Panchagavya",
+          optionC: "Hexalogy",
+          correctAnswer: "Panchagavya",
         }),
       shuffleOptions({
           question:
-            "The model in Alan's studio is a wizened old man with a coarse brown cloak, holding out a battered hat for __________.",
-          optionA: "Food",
-          optionB: "Alms",
-          optionC: "Water",
-          correctAnswer: "Alms",
+            "Buffalo milk in India is considered healthier than cow milk due to its higher content of ______________.",
+          optionA: "Protein",
+          optionB: "Fat",
+          optionC: "Calcium",
+          correctAnswer: "Fat",
         }),
       shuffleOptions({
           question:
-            "Alan charges __________ guineas for the portrait he is working on.",
-          optionA: "500",
-          optionB: "1000",
-          optionC: "2000",
-          correctAnswer: "2000",
+            "The cattle found in India are unique to the Indian subcontinent and are not found in ______________ countries.",
+          optionA: "African",
+          optionB: "European",
+          optionC: "American",
+          correctAnswer: "European",
         }),
       shuffleOptions({
           question:
-            "The amount Hughie gives to the beggar model in the studio is a __________.",
-          optionA: "Shilling",
-          optionB: "Pound",
-          optionC: "Sovereign",
-          correctAnswer: "Sovereign",
+            "The domesticated cattle differ from wild ones in their smaller size, horns, and the development of ______________ characteristics.",
+          optionA: "Fur",
+          optionB: "Milk",
+          optionC: "Feather",
+          correctAnswer: "Milk",
         }),
       shuffleOptions({
           question:
-            "The mysterious beggar model in the studio turns out to be __________.",
-          optionA: "Alan Trevor",
-          optionB: "Hughie's uncle",
-          optionC: "Baron Hausberg",
-          correctAnswer: "Baron Hausberg",
+            "The cattle's stomach is divided into ______________ sections, which play different roles in digestion.",
+          optionA: "Two",
+          optionB: "Three",
+          optionC: "Four",
+          correctAnswer: "Four",
         }),
       shuffleOptions({
           question:
-            "Baron Hausberg gives Hughie a cheque as a wedding present, and the amount is __________ pounds.",
-          optionA: "5000",
-          optionB: "10000",
-          optionC: "20000",
-          correctAnswer: "10000",
+            "Some courtiers grow jealous of the ragged minister in the story due to his ______________ at the court.",
+          optionA: "Wealth",
+          optionB: "Magical powers",
+          optionC: "Position",
+          correctAnswer: "Position",
         }),
       shuffleOptions({
           question:
-            "Hughie is surprised when he learns that the old beggar model is __________, a wealthy man.",
-          optionA: "Alan Trevor",
-          optionB: "Baron Hausberg",
-          optionC: "Hughie's uncle",
-          correctAnswer: "Baron Hausberg",
+            "The minister's daily routine is falsely rumored to include practicing ______________ before meeting the king.",
+          optionA: "Magic",
+          optionB: "Conspiracy",
+          optionC: "Rebellion",
+          correctAnswer: "Magic",
         }),
       shuffleOptions({
           question:
-            "The story concludes with Hughie and Laura getting married with the blessing of __________.",
-          optionA: "Alan Trevor",
-          optionB: "Hughie's aunt",
-          optionC: "Baron Hausberg",
-          correctAnswer: "Baron Hausberg",
+            "To preserve milk and eliminate bacteria, it is recommended to carry out proper ______________.",
+          optionA: "Milking",
+          optionB: "Feeding",
+          optionC: "Housing",
+          correctAnswer: "Milking",
    }),
     ]),
   }
@@ -207,68 +210,69 @@ if (localStorage.getItem("activityNumber") == 3) {
       shuffleOptions(
         {
           question:
-            "Hughie inherited a substantial amount of money from his family.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question: "Alan Trevor is a renowned musician.",
+            "The cattle are considered a farmer's most precious possession after land.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Hughie's aunt provides him with an annual allowance of £200.",
+            "Buffalo milk in India is considered less healthy than cow milk.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Domesticated cattle have smaller size, horns, and lack milk characteristics compared to wild ones.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question: "The cattle's stomach is divided into three sections.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Jealous courtiers spread rumors about the ragged minister's involvement in dark arts.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The mysterious beggar model in the studio turns out to be Baron Hausberg.",
+            "The minister's daily routine of practicing magic is proven true when the king visits his house.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The cattle's diet should comprise dry grass, green fodder, and grain mixture.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "Alan charges 1000 guineas for the portrait he is working on.",
+            "The ragged scholar approached the king for aid because his wife needed better shelter.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The old beggar model in the studio is genuinely poor and in need of alms.",
+            "The king decided to grant the ragged scholar a large sum of money to improve his living conditions.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Baron Hausberg gives Hughie a cheque as a wedding present, and the amount is £10,000.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "Hughie initially thought that the model in the studio was Alan Trevor.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question: "Hughie and Laura break up in the end.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Alan Trevor is in fits of laughter when Hughie leaves his studio.",
+            "Pasteurization is recommended to preserve milk over a longer period and eliminate bacteria.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",

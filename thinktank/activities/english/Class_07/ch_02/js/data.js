@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 2: Still I Rise ";
+export const chapter = "Chapter - 2: The Voyage of Marco Polo";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -32,80 +32,71 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: shuffleQues([
       shuffleOptions({
         question: "What is the central theme of the text?",
-        optionA: "Resilience and empowerment",
-        optionB: "Sorrow and despair",
-        optionC: "Hopelessness and oppression",
-        correctAnswer: "Resilience and empowerment",
+        optionA: "Victory in conflict",
+        optionB: "The joy of life",
+        optionC: "Being remembered",
+        correctAnswer: "Being remembered",
      }),
       shuffleOptions({
-        question: "What does the speaker compare their walk to in the text?",
-        optionA: "Oil wells pumping in a living room",
-        optionB: "Moons and suns",
-        optionC: "Tides and hopes springing high",
-        correctAnswer: "Oil wells pumping in a living room",
-     }),
-      shuffleOptions({
-        question:
-          "How does the speaker respond to attempts to bring them down with hateful words?",
-        optionA: "They wither and fall",
-        optionB: "They laugh it off",
-        optionC: "They respond with anger",
-        correctAnswer: "They laugh it off",
+        question: "According to the text, when is it sweet to be remembered?",
+        optionA: "Only in times of peace",
+        optionB: "While toiling and struggling in life",
+        optionC: "Only when fortune smiles",
+        correctAnswer: "While toiling and struggling in life",
      }),
       shuffleOptions({
         question:
-          "What is the significance of the phrase, 'I am the dream and the hope of the slave'?",
-        optionA: "It represents a longing for freedom",
-        optionB: "It signifies the speaker's connection to their heritage",
-        optionC: "It expresses a desire for revenge",
-        correctAnswer:
-          "It signifies the speaker's connection to their heritage",
+          "What does the text suggest about those who whispered in our ear as we toiled and struggled?",
+        optionA: "They were absent when we needed them",
+        optionB: "They share our happy moments when fortune smiles",
+        optionC: "They are always present and supportive",
+        correctAnswer: "They share our happy moments when fortune smiles",
      }),
       shuffleOptions({
         question:
-          "In the text, what does the speaker say will happen if they are cut with hateful words?",
-        optionA: "They will wither and die",
-        optionB: "They will rise like air",
-        optionC: "They will become silent",
-        correctAnswer: "They will rise like air",
-     }),
-      shuffleOptions({
-        question: "What is the speaker's attitude in the text?",
-        optionA: "Defeated and submissive",
-        optionB: "Confused and uncertain",
-        optionC: "Resilient and determined",
-        correctAnswer: "Resilient and determined",
+          "What happens when all toils are ended and the conflict is done, according to the text?",
+        optionA: "Tumult and strife continue",
+        optionB: "Victory is proclaimed, and peace prevails",
+        optionC: "Patience and meekness are lost",
+        correctAnswer: "Victory is proclaimed, and peace prevails",
      }),
       shuffleOptions({
         question:
-          "According to the text, what does the speaker do with their laughter?",
-        optionA: "They hide it from others",
-        optionB: "They laugh like they've got gold mines",
-        optionC: "They suppress it to avoid offending others",
-        correctAnswer: "They laugh like they've got gold mines",
+          "In what situations is it sweet to be remembered, as mentioned in the text?",
+        optionA: "Only when sailing over the sea",
+        optionB: "Wherever we may be",
+        optionC: "Only in times of calm and peace",
+        correctAnswer: "Wherever we may be",
+     }),
+      shuffleOptions({
+        question: "What is the text's attitude toward being remembered?",
+        optionA: "It is a bitter experience",
+        optionB: "It is a source of happiness and comfort",
+        optionC: "It is irrelevant to the author",
+        correctAnswer: "It is a source of happiness and comfort",
      }),
       shuffleOptions({
         question:
-          "What is the significance of the line 'You may trod me in the very dirt, but still, like dust, I'll rise'?",
-        optionA: "It symbolizes the speaker's ability to overcome oppression",
-        optionB: "It signifies the speaker's weakness and defeat",
-        optionC: "It reflects the speaker's fear of getting dirty",
-        correctAnswer:
-          "It symbolizes the speaker's ability to overcome oppression",
+          "What is the author's perspective on those who are remembered?",
+        optionA: "They should be forgotten",
+        optionB: "They are always present in spirit",
+        optionC: "They are rarely thought of",
+        correctAnswer: "They are always present in spirit",
      }),
       shuffleOptions({
-        question: "How does the speaker describe their ability to rise?",
-        optionA: "Like a phoenix from the ashes",
-        optionB: "Like air and dust",
-        optionC: "Like a powerful wave",
-        correctAnswer: "Like air and dust",
+        question:
+          "What must happen before one can await the joy of life, according to the text?",
+        optionA: "Struggling and toiling",
+        optionB: "The absence of fortune",
+        optionC: "The end of patience",
+        correctAnswer: "Struggling and toiling",
      }),
       shuffleOptions({
-        question: "What is the speaker's message in the text?",
-        optionA: "They will always remain weak and oppressed",
-        optionB: "They are a symbol of hope and resilience",
-        optionC: "They seek revenge against their oppressors",
-        correctAnswer: "They are a symbol of hope and resilience",
+        question: "What is the ultimate outcome of the conflict in the text?",
+        optionA: "Tumult and strife continue indefinitely",
+        optionB: "Victory is achieved, and peace is established",
+        optionC: "Patience and meekness are lost forever",
+        correctAnswer: "Victory is achieved, and peace is established",
       }),
     ]),
   }
@@ -116,78 +107,84 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "You may write me down in history ______________.",
-        optionA: "as a legend",
-        optionB: "with your bitter, twisted lies",
-        optionC: "as a hero",
-        correctAnswer: "with your bitter, twisted lies",
+        question:
+          "It's sweet to be remembered in the ______________ of this life.",
+        optionA: "Chaos",
+        optionB: "Turmoil",
+        optionC: "Tranquility",
+        correctAnswer: "Turmoil",
      }),
       shuffleOptions({
         question:
-          "You may trod me in the very dirt, but still, like ______________, I'll rise.",
-        optionA: "gold",
-        optionB: "a phoenix",
-        optionC: "dust",
-        correctAnswer: "dust",
-     }),
-      shuffleOptions({
-        question: "I walk like I've got oil wells ______________.",
-        optionA: "in my car",
-        optionB: "in my living room",
-        optionC: "under my feet",
-        correctAnswer: "in my living room",
+          "While toiling up its pathway, and mingling in its ______________.",
+        optionA: "Peace",
+        optionB: "Happiness",
+        optionC: "Strife",
+        correctAnswer: "Strife",
      }),
       shuffleOptions({
         question:
-          "Just like moons and like suns, with the certainty of ______________.",
-        optionA: "darkness",
-        optionB: "tides",
-        optionC: "stars",
-        correctAnswer: "tides",
-     }),
-      shuffleOptions({
-        question: "Did you want to see me ______________?",
-        optionA: "crying",
-        optionB: "broken",
-        optionC: "laughing",
-        correctAnswer: "broken",
+          "While wandering o'er earth's ______________, or sailing o'er its sea.",
+        optionA: "Deserts",
+        optionB: "Borders",
+        optionC: "Valleys",
+        correctAnswer: "Borders",
      }),
       shuffleOptions({
         question:
-          "Don't you take it awful hard 'Cause I laugh like I've got ______________.",
-        optionA: "a treasure",
-        optionB: "gold mines",
-        optionC: "a secret",
-        correctAnswer: "gold mines",
-     }),
-      shuffleOptions({
-        question: "You may shoot me with your ______________.",
-        optionA: "love",
-        optionB: "kindness",
-        optionC: "words",
-        correctAnswer: "words",
+          "When all our toils are ended, and the conflict all is ______________.",
+        optionA: "Ongoing",
+        optionB: "Done",
+        optionC: "Beginning",
+        correctAnswer: "Done",
      }),
       shuffleOptions({
         question:
-          "You may cut me with your eyes, You may kill me with your ______________.",
-        optionA: "anger",
-        optionB: "hatefulness",
-        optionC: "kindness",
-        correctAnswer: "hatefulness",
+          "And peace, in sweetest accents, proclaims the victory ______________.",
+        optionA: "Lost",
+        optionB: "Achieved",
+        optionC: "Unattainable",
+        correctAnswer: "Achieved",
      }),
       shuffleOptions({
-        question: "Out of the huts of history's ______________ I rise.",
-        optionA: "shadow",
-        optionB: "shame",
-        optionC: "glory",
-        correctAnswer: "shame",
+        question:
+          "When hushed is all the ______________, when calmed is all the strife.",
+        optionA: "Laughter",
+        optionB: "Tumult",
+        optionC: "Celebration",
+        correctAnswer: "Tumult",
      }),
       shuffleOptions({
-        question: "I am the dream and the hope of the ______________.",
-        optionA: "future",
-        optionB: "lost",
-        optionC: "slave",
-        correctAnswer: "slave",
+        question:
+          "They who, when not present, in spirit yet were ______________.",
+        optionA: "Absent",
+        optionB: "Far away",
+        optionC: "Near",
+        correctAnswer: "Near",
+     }),
+      shuffleOptions({
+        question:
+          "And, as we toiled and struggled, did whisper in our ______________.",
+        optionA: "Heart",
+        optionB: "Mind",
+        optionC: "Ear",
+        correctAnswer: "Ear",
+     }),
+      shuffleOptions({
+        question:
+          '"It\'s sweet to be remembered, and thou art not ______________."',
+        optionA: "Alone",
+        optionB: "Loved",
+        optionC: "Forgot",
+        correctAnswer: "Forgot",
+     }),
+      shuffleOptions({
+        question:
+          "If fortune smiles upon us, shall share our ______________ lot.",
+        optionA: "Unfortunate",
+        optionB: "Sad",
+        optionC: "Happy",
+        correctAnswer: "Happy",
       }),
     ]),
   }
@@ -198,62 +195,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
+        question: "The central theme of the text is victory in conflict.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
+      shuffleOptions({
         question:
-          "The speaker in the text walks with the confidence of having oil wells pumping in their living room.",
+          "Being remembered is a source of happiness and comfort in the text.",
         optionA: "True",
         optionB: "False",correctAnswer: "True",
      }),
       shuffleOptions({
         question:
-          "The speaker is willing to allow hateful words to bring them down.",
+          "The pigeon assured the crow that it would return in a day when flying to the nearest village.",
         optionA: "True",
         optionB: "False",correctAnswer: "False",
      }),
       shuffleOptions({
         question:
-          "The text expresses a sense of resilience and determination in the face of adversity.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The speaker's attitude is submissive and defeated throughout the text.",
+          "The rabbit entered the hollow in the tree because the pigeon hadn't returned for two days.",
         optionA: "True",
         optionB: "False",correctAnswer: "False",
      }),
       shuffleOptions({
         question:
-          "The speaker suggests that they are a symbol of hope and empowerment.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The text primarily focuses on the theme of sorrow and despair.",
+          "When the pigeon returned to the hollow, the rabbit insisted that the hollow was empty.",
         optionA: "True",
         optionB: "False",correctAnswer: "False",
      }),
       shuffleOptions({
         question:
-          "The speaker's laughter is described as a sign of having gold mines.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The speaker's haughtiness offends others, as mentioned in the text.",
+          "The cat claimed it couldn't listen properly to their problem because it was uninterested.",
         optionA: "True",
         optionB: "False",correctAnswer: "False",
      }),
       shuffleOptions({
         question:
-          "The text conveys the idea that the speaker seeks revenge against their oppressors.",
+          "The pigeon and the rabbit approached the cat to tell their problem, and the cat listened carefully.",
         optionA: "True",
         optionB: "False",correctAnswer: "False",
      }),
       shuffleOptions({
         question:
-          "The speaker is described as a symbol of hope and resilience.",
+          "In the text, being remembered is sweet only when fortune smiles upon us.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
+      shuffleOptions({
+        question:
+          "When all toils are ended and the conflict is done, peace proclaims the victory lost.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
+      shuffleOptions({
+        question:
+          "The rabbit suggested that he and the pigeon should go to the cat to get justice and resolve their dispute.",
         optionA: "True",
         optionB: "False",correctAnswer: "True",
       }),

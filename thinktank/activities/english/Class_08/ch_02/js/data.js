@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 2: Somebody's Mother ";
+export const chapter = "Chapter - 2: Kabuliwallah";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -31,74 +31,72 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "What is the central theme of the poem?",
-        optionA: "Winter's day",
-        optionB: "Helping others",
-        optionC: "Laughter and shout",
-        correctAnswer: "Helping others",
+        question: "What is the central theme of the text?",
+        optionA: "Victory in conflict",
+        optionB: "The joy of life",
+        optionC: "Being remembered",
+        correctAnswer: "Being remembered",
      }),
       shuffleOptions({
-        question: "How does the poem describe the woman's physical condition?",
-        optionA: "Young and energetic",
-        optionB: "Old, ragged, and bent",
-        optionC: "Joyful and carefree",
-        correctAnswer: "Old, ragged, and bent",
+        question: "According to the text, when is it sweet to be remembered?",
+        optionA: "Only in times of peace",
+        optionB: "While toiling and struggling in life",
+        optionC: "Only when fortune smiles",
+        correctAnswer: "While toiling and struggling in life",
      }),
       shuffleOptions({
-        question: "What is the woman waiting for at the street crossing?",
-        optionA: "A bus",
-        optionB: "Someone to greet her",
-        optionC: "Assistance to cross the street",
-        correctAnswer: "Assistance to cross the street",
+        question:
+          "What does the text suggest about those who whispered in our ear as we toiled and struggled?",
+        optionA: "They were absent when we needed them",
+        optionB: "They share our happy moments when fortune smiles",
+        optionC: "They are always present and supportive",
+        correctAnswer: "They share our happy moments when fortune smiles",
      }),
       shuffleOptions({
-        question: "Why did the children pass by the woman without helping her?",
-        optionA: "They were in a hurry to go home",
-        optionB: "They were unkind and selfish",
-        optionC: "They didn't notice her",
-        correctAnswer: "They were in a hurry to go home",
+        question:
+          "What happens when all toils are ended and the conflict is done, according to the text?",
+        optionA: "Tumult and strife continue",
+        optionB: "Victory is proclaimed, and peace prevails",
+        optionC: "Patience and meekness are lost",
+        correctAnswer: "Victory is proclaimed, and peace prevails",
      }),
       shuffleOptions({
-        question: "Who eventually offers to help the woman cross the street?",
-        optionA: "A passerby",
-        optionB: "A group of children",
-        optionC: "A young boy from the group",
-        correctAnswer: "A young boy from the group",
+        question:
+          "In what situations is it sweet to be remembered, as mentioned in the text?",
+        optionA: "Only when sailing over the sea",
+        optionB: "Wherever we may be",
+        optionC: "Only in times of calm and peace",
+        correctAnswer: "Wherever we may be",
      }),
       shuffleOptions({
-        question: "What does the boy say to the woman before helping her?",
-        optionA: "I'll get you some food.",
-        optionB: "I'll help you across, if you wish to go.",
-        optionC: "You're in my way.",
-        correctAnswer: "I'll help you across, if you wish to go.",
+        question: "What is the text's attitude toward being remembered?",
+        optionA: "It is a bitter experience",
+        optionB: "It is a source of happiness and comfort",
+        optionC: "It is irrelevant to the author",
+        correctAnswer: "It is a source of happiness and comfort",
      }),
       shuffleOptions({
-        question: "How does the woman feel when the boy offers to help her?",
-        optionA: "Proud and grateful",
-        optionB: "Angry and annoyed",
-        optionC: "Indifferent and uninterested",
-        correctAnswer: "Proud and grateful",
+        question:
+          "What is the author's perspective on those who are remembered?",
+        optionA: "They should be forgotten",
+        optionB: "They are always present in spirit",
+        optionC: "They are rarely thought of",
+        correctAnswer: "They are always present in spirit",
      }),
       shuffleOptions({
-        question: "What does the boy reflect upon after helping the woman?",
-        optionA: "How he can get a reward",
-        optionB: "His own strength and kindness",
-        optionC: "How to find his friends",
-        correctAnswer: "His own strength and kindness",
+        question:
+          "What must happen before one can await the joy of life, according to the text?",
+        optionA: "Struggling and toiling",
+        optionB: "The absence of fortune",
+        optionC: "The end of patience",
+        correctAnswer: "Struggling and toiling",
      }),
       shuffleOptions({
-        question: "What lesson can be drawn from this poem?",
-        optionA: "Elderly people should never go out in winter.",
-        optionB: "Kindness and compassion toward others are important.",
-        optionC: "It's best to ignore people in need.",
-        correctAnswer: "Kindness and compassion toward others are important.",
-     }),
-      shuffleOptions({
-        question: "Who is the focus of the poem's final stanza?",
-        optionA: "The woman",
-        optionB: "The boy",
-        optionC: "Somebody's mother",
-        correctAnswer: "The boy",
+        question: "What is the ultimate outcome of the conflict in the text?",
+        optionA: "Tumult and strife continue indefinitely",
+        optionB: "Victory is achieved, and peace is established",
+        optionC: "Patience and meekness are lost forever",
+        correctAnswer: "Victory is achieved, and peace is established",
       }),
     ]),
   }
@@ -109,80 +107,84 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The woman in the poem was old and _______________.",
-        optionA: "fragile",
-        optionB: "ragged",
-        optionC: "youthful",
-        correctAnswer: "ragged",
+        question:
+          "It's sweet to be remembered in the ______________ of this life.",
+        optionA: "Chaos",
+        optionB: "Turmoil",
+        optionC: "Tranquility",
+        correctAnswer: "Turmoil",
      }),
       shuffleOptions({
         question:
-          "The woman was bent with the chill of the __________________.",
-        optionA: "summer's day",
-        optionB: "winter's day",
-        optionC: "rainy day",
-        correctAnswer: "winter's day",
-     }),
-      shuffleOptions({
-        question: "The street was wet with a recent _______________.",
-        optionA: "rain",
-        optionB: "snow",
-        optionC: "fog",
-        correctAnswer: "snow",
-     }),
-      shuffleOptions({
-        question: "The woman's feet were aged and _______________.",
-        optionA: "slow",
-        optionB: "nimble",
-        optionC: "warm",
-        correctAnswer: "slow",
-     }),
-      shuffleOptions({
-        question: "The woman stood at the crossing, waiting _______________.",
-        optionA: "anxiously",
-        optionB: "patiently",
-        optionC: "hurriedly",
-        correctAnswer: "patiently",
+          "While toiling up its pathway, and mingling in its ______________.",
+        optionA: "Peace",
+        optionB: "Happiness",
+        optionC: "Strife",
+        correctAnswer: "Strife",
      }),
       shuffleOptions({
         question:
-          "Down the street with laughter and shout, came the boys like a flock of _______________.",
-        optionA: "birds",
-        optionB: "sheep",
-        optionC: "horses",
-        correctAnswer: "sheep",
+          "While wandering o'er earth's ______________, or sailing o'er its sea.",
+        optionA: "Deserts",
+        optionB: "Borders",
+        optionC: "Valleys",
+        correctAnswer: "Borders",
      }),
       shuffleOptions({
         question:
-          "The woman was hesitant to stir, fearing the _______________ in the slippery street.",
-        optionA: "sunshine",
-        optionB: "carriage wheels",
-        optionC: "flowers",
-        correctAnswer: "carriage wheels",
+          "When all our toils are ended, and the conflict all is ______________.",
+        optionA: "Ongoing",
+        optionB: "Done",
+        optionC: "Beginning",
+        correctAnswer: "Done",
      }),
       shuffleOptions({
         question:
-          "The boy paused beside her and whispered low, 'I'll help you across if you wish to _______________.",
-        optionA: "leave",
-        optionB: "stay",
-        optionC: "go",
-        correctAnswer: "go",
+          "And peace, in sweetest accents, proclaims the victory ______________.",
+        optionA: "Lost",
+        optionB: "Achieved",
+        optionC: "Unattainable",
+        correctAnswer: "Achieved",
      }),
       shuffleOptions({
         question:
-          "The boy guided the trembling feet along, proud that his own were _______________.",
-        optionA: "uncertain",
-        optionB: "weak",
-        optionC: "firm and strong",
-        correctAnswer: "firm and strong",
+          "When hushed is all the ______________, when calmed is all the strife.",
+        optionA: "Laughter",
+        optionB: "Tumult",
+        optionC: "Celebration",
+        correctAnswer: "Tumult",
      }),
       shuffleOptions({
         question:
-          "The woman bowed her head in her home that night, and the prayer she said was: 'God be kind to the noble _______________.",
-        optionA: "girl",
-        optionB: "son",
-        optionC: "neighbor",
-        correctAnswer: "son",
+          "They who, when not present, in spirit yet were ______________.",
+        optionA: "Absent",
+        optionB: "Far away",
+        optionC: "Near",
+        correctAnswer: "Near",
+     }),
+      shuffleOptions({
+        question:
+          "And, as we toiled and struggled, did whisper in our ______________.",
+        optionA: "Heart",
+        optionB: "Mind",
+        optionC: "Ear",
+        correctAnswer: "Ear",
+     }),
+      shuffleOptions({
+        question:
+          '"It\'s sweet to be remembered, and thou art not ______________."',
+        optionA: "Alone",
+        optionB: "Loved",
+        optionC: "Forgot",
+        correctAnswer: "Forgot",
+     }),
+      shuffleOptions({
+        question:
+          "If fortune smiles upon us, shall share our ______________ lot.",
+        optionA: "Unfortunate",
+        optionB: "Sad",
+        optionC: "Happy",
+        correctAnswer: "Happy",
       }),
     ]),
   }
@@ -193,62 +195,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
+        question: "The central theme of the text is victory in conflict.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
+      shuffleOptions({
         question:
-          "The speaker in the text walks with the confidence of having oil wells pumping in their living room.",
+          "Being remembered is a source of happiness and comfort in the text.",
         optionA: "True",
         optionB: "False",correctAnswer: "True",
      }),
       shuffleOptions({
         question:
-          "The speaker is willing to allow hateful words to bring them down.",
+          "The pigeon assured the crow that it would return in a day when flying to the nearest village.",
         optionA: "True",
         optionB: "False",correctAnswer: "False",
      }),
       shuffleOptions({
         question:
-          "The text expresses a sense of resilience and determination in the face of adversity.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The speaker's attitude is submissive and defeated throughout the text.",
+          "The rabbit entered the hollow in the tree because the pigeon hadn't returned for two days.",
         optionA: "True",
         optionB: "False",correctAnswer: "False",
      }),
       shuffleOptions({
         question:
-          "The speaker suggests that they are a symbol of hope and empowerment.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The text primarily focuses on the theme of sorrow and despair.",
+          "When the pigeon returned to the hollow, the rabbit insisted that the hollow was empty.",
         optionA: "True",
         optionB: "False",correctAnswer: "False",
      }),
       shuffleOptions({
         question:
-          "The speaker's laughter is described as a sign of having gold mines.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-     }),
-      shuffleOptions({
-        question:
-          "The speaker's haughtiness offends others, as mentioned in the text.",
+          "The cat claimed it couldn't listen properly to their problem because it was uninterested.",
         optionA: "True",
         optionB: "False",correctAnswer: "False",
      }),
       shuffleOptions({
         question:
-          "The text conveys the idea that the speaker seeks revenge against their oppressors.",
+          "The pigeon and the rabbit approached the cat to tell their problem, and the cat listened carefully.",
         optionA: "True",
         optionB: "False",correctAnswer: "False",
      }),
       shuffleOptions({
         question:
-          "The speaker is described as a symbol of hope and resilience.",
+          "In the text, being remembered is sweet only when fortune smiles upon us.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
+      shuffleOptions({
+        question:
+          "When all toils are ended and the conflict is done, peace proclaims the victory lost.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+     }),
+      shuffleOptions({
+        question:
+          "The rabbit suggested that he and the pigeon should go to the cat to get justice and resolve their dispute.",
         optionA: "True",
         optionB: "False",correctAnswer: "True",
       }),

@@ -1,4 +1,4 @@
-export const chapter = "Chapter -04: The Fate";
+export const chapter = "Chapter - 4: Happy-Unhappy";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -32,82 +32,82 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question:
-            "Why did Ivan Dmitrich Aksionov leave his family to go to the fair?",
-          optionA: "To meet a friend",
-          optionB: "To sell and buy merchandise",
-          optionC: "To visit relatives",
-          correctAnswer: "To sell and buy merchandise",
+          question: "Who created the fictional character Byomkesh Bakshi?",
+          optionA: "Arthur Conan Doyle",
+          optionB: "Sharadindu Bandyopadhyay",
+          optionC: "Satyajit Ray",
+          correctAnswer: "Sharadindu Bandyopadhyay",
         }),
       shuffleOptions({
           question:
-            "What was found in Aksionov's bag during the search by the police officer?",
-          optionA: "Money",
-          optionB: "A blood-stained knife",
-          optionC: "Stolen goods",
-          correctAnswer: "A blood-stained knife",
+            "What was the first Byomkesh Bakshi story written by Sharadindu Bandyopadhyay?",
+          optionA: "Chiriyakhana",
+          optionB: "Satyanveshi",
+          optionC: "Lahar Biscuit",
+          correctAnswer: "Satyanveshi",
         }),
       shuffleOptions({
           question:
-            "What reason did the police officer give for suspecting Aksionov of murder?",
-          optionA: "Witness accounts",
-          optionB: "Footprints at the crime scene",
-          optionC: "The presence of a blood-stained knife in his bag",
-          correctAnswer: "The presence of a blood-stained knife in his bag",
-        }),
-      shuffleOptions({
-          question: "How long was Aksionov imprisoned in Siberia?",
-          optionA: "10 years",
-          optionB: "20 years",
-          optionC: "26 years",
-          correctAnswer: "26 years",
+            "In which year did Sharadindu Bandyopadhyay start characterizing Byomkesh Bakshi?",
+          optionA: "1932",
+          optionB: "1951",
+          optionC: "1967",
+          correctAnswer: "1932",
         }),
       shuffleOptions({
           question:
-            "What did Aksionov's fellow prisoners call him during his time in Siberia?",
-          optionA: "Father",
-          optionB: "Grandfather",
-          optionC: "Old man",
-          correctAnswer: "Grandfather",
+            "Who played the role of Byomkesh Bakshi in the 1967 film directed by Satyajit Ray?",
+          optionA: "Uttam Kumar",
+          optionB: "Rajit Kapoor",
+          optionC: "Satindra Bhattacharya",
+          correctAnswer: "Uttam Kumar",
         }),
       shuffleOptions({
           question:
-            "What news did Makar Semyonich bring when he entered the prison?",
-          optionA: "News about Aksionov's family",
-          optionB: "News about Aksionov's hometown",
-          optionC: "News about the outside world",
-          correctAnswer: "News about Aksionov's hometown",
+            "How many completed stories of Byomkesh Bakshi did Sharadindu Bandyopadhyay write?",
+          optionA: "22",
+          optionB: "32",
+          optionC: "42",
+          correctAnswer: "32",
+        }),
+      shuffleOptions({
+          question: "What is the name of Byomkesh Bakshi's wife?",
+          optionA: "Satyaboti",
+          optionB: "Sukanya Kulkarni",
+          optionC: "Rajit Kapoor",
+          correctAnswer: "Satyaboti",
         }),
       shuffleOptions({
           question:
-            "Why did Aksionov refuse to reveal the identity of the tunnel digger when questioned by the jailor?",
-          optionA: "Fear of retaliation",
-          optionB: "Loyalty to the other prisoners",
-          optionC: "A belief in God's will",
-          correctAnswer: "A belief in God's will",
+            "In which year did the Doordarshan telecast the Byomkesh Bakshi serial starring Rajit Kapoor?",
+          optionA: "1974",
+          optionB: "1993",
+          optionC: "2004",
+          correctAnswer: "1993",
         }),
       shuffleOptions({
           question:
-            "What crime did Makar Semyonich confess to Aksionov in the prison cell?",
-          optionA: "Theft",
-          optionB: "Assault",
-          optionC: "Murder",
-          correctAnswer: "Murder",
-        }),
-      shuffleOptions({
-          question: "How did Aksionov react to Semyonich's confession?",
-          optionA: "He forgave Semyonich",
-          optionB: "He reported Semyonich to the jailor",
-          optionC: "He remained silent",
-          correctAnswer: "He forgave Semyonich",
+            "Who directed the 2015 film 'Detective Byomkesh Bakshi' starring Sushant Singh Rajput?",
+          optionA: "Satyajit Ray",
+          optionB: "Dibankar Banerjee",
+          optionC: "Manju Dey",
+          correctAnswer: "Dibankar Banerjee",
         }),
       shuffleOptions({
           question:
-            "What emotion did Aksionov feel when he heard Semyonich sobbing in the prison cell?",
-          optionA: "Anger",
-          optionB: "Pity",
-          optionC: "Indifference",
-          correctAnswer: "Pity",
+            "How does Byomkesh Bakshi prefer to be called instead of 'detective'?",
+          optionA: "Satyanveshi",
+          optionB: "Sherlock",
+          optionC: "Poirot",
+          correctAnswer: "Satyanveshi",
+        }),
+      shuffleOptions({
+          question:
+            "Which TV series referred to Byomkesh Bakshi in 2014, calling him the 'Indian Sherlock Holmes'?",
+          optionA: "The Big Bang Theory",
+          optionB: "Mahabharata",
+          optionC: "Sunday Suspense",
+          correctAnswer: "The Big Bang Theory",
    }),
     ]),
   }
@@ -120,83 +120,83 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions(
         {
           question:
-            "In Vladimir, Russia, there lived a young merchant named ____________ Aksionov.",
-          optionA: "Ivan Dmitriev",
-          optionB: "Alexei",
-          optionC: "Mikhail",
-          correctAnswer: "Ivan Dmitriev",
+            "Byomkesh Bakshi has been a popular character in Bengali literature since ____ when he was characterized by the writer in 1932.",
+          optionA: "1920",
+          optionB: "1932",
+          optionC: "1945",
+          correctAnswer: "1932",
         }),
       shuffleOptions({
           question:
-            "Aksionov was going to a fair to sell and buy _____________.",
-          optionA: "Clothes",
-          optionB: "Merchandise",
-          optionC: "Livestock",
-          correctAnswer: "Merchandise",
+            "The last complete story, Lahar Biscuit, was published in _____.",
+          optionA: "1969",
+          optionB: "1970",
+          optionC: "1975",
+          correctAnswer: "1969",
         }),
       shuffleOptions({
           question:
-            "Aksionov met a merchant on his way to the fair, and they put up at the same ____________ for the night.",
-          optionA: "Hotel",
-          optionB: "Inn",
-          optionC: "Hostel",
-          correctAnswer: "Inn",
+            "The first film based on Byomkesh Bakshi came in ____ and was based on Sharadindu's story Chiriyakhana.",
+          optionA: "1967",
+          optionB: "1974",
+          optionC: "1980",
+          correctAnswer: "1967",
         }),
       shuffleOptions({
           question:
-            "The police officer questioned Aksionov about the merchant found with his ____________ cut.",
-          optionA: "Throat",
-          optionB: "Arm",
-          optionC: "Leg",
-          correctAnswer: "Throat",
+            "Rajit Kapoor portrayed Byomkesh Bakshi in the serial telecast in _____.",
+          optionA: "1985",
+          optionB: "1993",
+          optionC: "2000",
+          correctAnswer: "1993",
         }),
       shuffleOptions({
           question:
-            "Aksionov was accused of murdering a merchant from ____________ and robbing him of twenty thousand rubles.",
-          optionA: "Moscow",
-          optionB: "Ryazan",
-          optionC: "St. Petersburg",
-          correctAnswer: "Ryazan",
+            "The Doordarshan made another series in ____ on this great detective, titled Byomkesh Bakshi.",
+          optionA: "2000",
+          optionB: "2004",
+          optionC: "2010",
+          correctAnswer: "2004",
         }),
       shuffleOptions({
           question:
-            "Aksionov lived as a convict in Siberia for ____________ years.",
-          optionA: "15",
-          optionB: "20",
-          optionC: "26",
-          correctAnswer: "26",
+            "In 2014, a television series titled Byomkesh was aired on ETV Bangla, in which the role of Byomkesh Bakshi was played by ____.",
+          optionA: "Rajit Kapoor",
+          optionB: "Saptarshi Roy",
+          optionC: "Gaurav Chakrabarty",
+          correctAnswer: "Gaurav Chakrabarty",
         }),
       shuffleOptions({
           question:
-            "Aksionov's fellow prisoners respected him and called him ____________.",
-          optionA: "Father",
-          optionB: "Grandfather",
-          optionC: "Elder",
-          correctAnswer: "Grandfather",
+            "The 2015 film 'Detective Byomkesh Bakshi' starred Sushant Singh Rajput and was directed by ____.",
+          optionA: "Satyajit Ray",
+          optionB: "Dibankar Banerjee",
+          optionC: "Manju Dey",
+          correctAnswer: "Dibankar Banerjee",
         }),
       shuffleOptions({
           question:
-            "Makar Semyonich entered the prison, and Aksionov asked if he knew anything about the merchants Aksionov from ____________.",
-          optionA: "Moscow",
-          optionB: "Vladimir",
-          optionC: "St. Petersburg",
-          correctAnswer: "Vladimir",
+            "The audio adaptation for the Sunday Suspense series included novels such as Satyanveshi, Makorshar Rosh, Agnibaan, Roktomukhi Neela, Khinji Khunji Nari, Adwitiyo, and ____.",
+          optionA: "Benishonghar",
+          optionB: "Lahar Biscuit",
+          optionC: "Shailo Rahasya",
+          correctAnswer: "Lahar Biscuit",
         }),
       shuffleOptions({
           question:
-            "Semyonich confessed to Aksionov that he killed the merchant and hid the ____________ among his things.",
-          optionA: "Money",
-          optionB: "Stolen goods",
-          optionC: "Knife",
-          correctAnswer: "Knife",
+            "Byomkesh Bakshi abhors the word 'detective' and prefers to be called '____,' one who is the seeker of truth.",
+          optionA: "Detective",
+          optionB: "Satyanveshi",
+          optionC: "Investigator",
+          correctAnswer: "Satyanveshi",
         }),
       shuffleOptions({
           question:
-            "Aksionov forgave Semyonich, and when asked why he came to the prison cell, Semyonich said, 'Ivan Dmitrich, forgive me!' Aksionov replied, 'What for? It was I who was ____________.'",
-          optionA: "Unjust",
-          optionB: "Wronged",
-          optionC: "Mistaken",
-          correctAnswer: "Wronged",
+            "Which TV series referred to Byomkesh Bakshi in 2014, calling him the 'Indian Sherlock Holmes'?",
+          optionA: "The Big Bang Theory",
+          optionB: "Mahabharata",
+          optionC: "Sunday Suspense",
+          correctAnswer: "The Big Bang Theory",
    }),
     ]),
   }
@@ -209,69 +209,69 @@ if (localStorage.getItem("activityNumber") == 3) {
       shuffleOptions(
         {
           question:
-            "Ivan Dmitrich Aksionov was a young merchant living in St. Petersburg.",
+            "Byomkesh Bakshi was characterized by Sharadindu Bandyopadhyay in 1922.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Aksionov went to the fair to meet a fellow merchant and have tea together.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "The police officer questioned Aksionov because he was suspected of stealing money.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question: "Aksionov spent 20 years as a convict in Siberia.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Aksionov's fellow prisoners in Siberia called him 'Father.'",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Makar Semyonich brought news about Aksionov's family when he entered the prison.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Semyonich confessed to Aksionov that he stole money from the merchant.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Aksionov forgave Semyonich when he learned the truth about the merchant's murder.",
+            "The last complete story written by Sharadindu Bandyopadhyay was Lahar Biscuit.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The text mentions that Aksionov's wife and children visited him in prison.",
+            "The first film based on Byomkesh Bakshi was released in 1967 and directed by Satyajit Ray.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "Rajit Kapoor portrayed Byomkesh Bakshi in the 1993 TV serial telecast on Doordarshan.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "Byomkesh Bakshi prefers to be called 'Sherlock' instead of 'Satyanveshi.'",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "Aksionov chose to remain in prison even after learning the truth about Semyonich.",
+            "The 2015 film 'Detective Byomkesh Bakshi' starred Aamir Khan in the lead role.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question: "Byomkesh Bakshi's wife's name is Sukanya Kulkarni.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The audio adaptation for the Sunday Suspense series included a novel titled 'Benishonghar.'",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "Byomkesh Bakshi uses deductive reasoning to arrive at the final opinion or inference.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "The TV series 'Byomkesh' aired in 2014 on ETV Bangla, and Gaurav Chakrabarty played the role of Byomkesh Bakshi.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",

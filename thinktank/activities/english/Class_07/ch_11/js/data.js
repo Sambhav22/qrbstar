@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 11: Patching Up";
+export const chapter = "Chapter - 11: A Soldier";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -31,78 +31,81 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who is the central character of the story?",
-        optionA: "Rajesh",
-        optionB: "Ankur",
-        optionC: "Jasvir",
-        correctAnswer: "Ankur",
+        question: "What is the name of the main character in the story?",
+        optionA: "Addie",
+        optionB: "Marian",
+        optionC: "The Nurse",
+        correctAnswer: "Marian",
+     }),
+      shuffleOptions({
+        question: "What organization does Marian belong to?",
+        optionA: "Girl Scouts",
+        optionB: "Old Ladies' Home",
+        optionC: "Campfire Girls",
+        correctAnswer: "Campfire Girls",
      }),
       shuffleOptions({
         question:
-          "What is Ankur's usual reaction to the doorbell and telephone?",
-        optionA: "He always answers them promptly.",
-        optionB: "He rarely answers them without being coaxed.",
-        optionC: "He doesn't mention his reaction in the text.",
-        correctAnswer: "He rarely answers them without being coaxed.",
-     }),
-      shuffleOptions({
-        question: "Why is Ankur waiting for someone to call or visit?",
-        optionA: "He wants to discuss his favorite games.",
-        optionB: "He wants to apologize to his friend, Jasvir.",
-        optionC: "He is waiting for a delivery.",
-        correctAnswer: "He wants to apologize to his friend, Jasvir.",
-     }),
-      shuffleOptions({
-        question: "What caused the quarrel between Ankur and Jasvir?",
-        optionA: "Disagreement over favorite games.",
-        optionB: "Disagreement over a school assignment.",
-        optionC: "Disagreement over a movie.",
-        correctAnswer: "Disagreement over favorite games.",
-     }),
-      shuffleOptions({
-        question: "Why does Ankur want Jasvir to apologize first?",
-        optionA: "He believes it's the right thing to do.",
-        optionB: "He's playing a game.",
-        optionC: "He's too proud to apologize.",
-        correctAnswer: "He's too proud to apologize.",
-     }),
-      shuffleOptions({
-        question: "How does Ankur decide to resolve the issue with Jasvir?",
-        optionA: "He decides to wait for Jasvir to apologize.",
-        optionB: "He decides to apologize to Jasvir.",
-        optionC: "He decides to ignore the issue.",
-        correctAnswer: "He decides to apologize to Jasvir.",
+          "What kind of potted plant does Marian bring to the Old Ladies' Home?",
+        optionA: "Rose",
+        optionB: "Multiflora cineraria",
+        optionC: "Daffodil",
+        correctAnswer: "Multiflora cineraria",
      }),
       shuffleOptions({
         question:
-          "What happened to Rajesh's friend who used to play the waiting game?",
-        optionA: "He successfully resolved the issue with his friend.",
-        optionB: "He lost his best friend forever.",
-        optionC: "He gave up the waiting game.",
-        correctAnswer: "He lost his best friend forever.",
+          "How does Marian feel about the room she enters in the Old Ladies' Home?",
+        optionA: "Comfortable and welcoming",
+        optionB: "Claustrophobic and intimidating",
+        optionC: "Bright and spacious",
+        correctAnswer: "Claustrophobic and intimidating",
      }),
       shuffleOptions({
         question:
-          "What is Ankur's main fear regarding Jasvir making new friends?",
-        optionA: "That Jasvir will no longer like him.",
-        optionB: "That he will be left friendless.",
-        optionC: "That Jasvir will like his new friends more.",
-        correctAnswer: "That he will be left friendless.",
-     }),
-      shuffleOptions({
-        question: "Where does Ankur go at the end of the story?",
-        optionA: "He goes to the park.",
-        optionB: "He goes to a movie.",
-        optionC: "He goes to Jasvir's house to patch up.",
-        correctAnswer: "He goes to Jasvir's house to patch up.",
+          "What is the significance of bringing flowers to the Old Ladies' Home according to Marian's organization?",
+        optionA: "It counts as one point in her score",
+        optionB: "It doesn't count toward any score",
+        optionC: "It counts as double points in her score",
+        correctAnswer: "It counts as double points in her score",
      }),
       shuffleOptions({
         question:
-          "What does Ankur's action at the end of the story demonstrate?",
-        optionA: "The importance of winning an argument.",
-        optionB: "The value of friendship and reconciliation.",
-        optionC: "The significance of pride in relationships.",
-        correctAnswer: "The value of friendship and reconciliation.",
+          "What is Addie's reaction to the potted plant that Marian brings?",
+        optionA: "She thinks they are beautiful",
+        optionB: "She finds them ugly",
+        optionC: "She has no reaction",
+        correctAnswer: "She finds them ugly",
+     }),
+      shuffleOptions({
+        question:
+          "Why does Addie become upset during the conversation with Marian?",
+        optionA: "Because she's unwell",
+        optionB: "Because it's her birthday",
+        optionC: "Because Marian is a stranger",
+        correctAnswer: "Because it's her birthday",
+     }),
+      shuffleOptions({
+        question: "What does Addie threaten to do when she becomes upset?",
+        optionA: "Ring a bell for the nurse",
+        optionB: "Cry loudly",
+        optionC: "Leave the room",
+        correctAnswer: "Ring a bell for the nurse",
+     }),
+      shuffleOptions({
+        question:
+          "How does the first old woman describe Marian when she mentions her school?",
+        optionA: "As a talkative stranger",
+        optionB: "As a polite and quiet girl",
+        optionC: "As a terrible old woman",
+        correctAnswer: "As a talkative stranger",
+     }),
+      shuffleOptions({
+        question:
+          "What is the final emotional response of the old ladies towards Marian as she leaves the room?",
+        optionA: "Affection and strange kinship",
+        optionB: "Annoyance and frustration",
+        optionC: "Disinterest and indifference",
+        correctAnswer: "Affection and strange kinship",
       }),
     ]),
   }
@@ -114,53 +117,53 @@ if (localStorage.getItem("activityNumber") == 2) {
     questions: shuffleQues([
       shuffleOptions({
         question:
-          "What did Rajesh do in the courtyard after leaving the bed on the weekend? He did some _____.",
-        correctAnswer: "Yoga",
+          "When Marian arrived at the Old Ladies' Home, she was holding a potted plant before her, and she was wearing a red coat with her straight yellow hair hanging down loose from a pointed ________.",
+        correctAnswer: "Cap",
      }),
       shuffleOptions({
         question:
-          "Ankur rushed to the main door after the doorbell rang. He was waiting for a call from his friend _____.",
-        correctAnswer: "Jasvir",
+          "The nurse at the desk asked Marian if she was acquainted with any of the residents, to which Marian replied that she was not, but that 'any of them will ________.'",
+        correctAnswer: "Do",
      }),
       shuffleOptions({
         question:
-          "Ankur quarreled with Jasvir over their favorite _____ at school.",
-        correctAnswer: "Games",
+          "Marian noticed that the building where she was visiting the old ladies was made of ________ brick.",
+        correctAnswer: "Whitewashed",
      }),
       shuffleOptions({
         question:
-          "Ankur decided to patch up with Jasvir because he was worried about becoming _____.",
-        correctAnswer: "Lonely",
+          "The old lady in bed described the potted plant Marian brought as 'dirty ________.'",
+        correctAnswer: "Weeds",
      }),
       shuffleOptions({
         question:
-          "Rajesh's friend, who used to play the waiting game, lost his best friend because of a _____ transfer.",
-        correctAnswer: "Job",
+          "The first old woman mentioned that last month, someone came to the Old Ladies' Home to read to them out of the ________.",
+        correctAnswer: "Bible",
      }),
       shuffleOptions({
         question:
-          "Ankur put on his _____ before heading to Jasvir's house to patch up.",
-        correctAnswer: "Shoes",
+          "The first old woman placed the potted plant on top of the wardrobe, where it could hardly be seen from below, saying, 'You mustn't pay any attention to old Addie. She's ________ today.'",
+        correctAnswer: "Ailing",
      }),
       shuffleOptions({
         question:
-          "Rajesh's story highlights the importance of resolving conflicts and not letting _____ come in the way of friendship.",
-        correctAnswer: "Pride",
+          "The second old woman accused the first old woman of being a ________ and said, 'You never went to school. You never came and you never went. You never were anywhere - only here.'",
+        correctAnswer: "Stranger",
      }),
       shuffleOptions({
         question:
-          "Ankur was determined to _____ with Jasvir and do what best friends are expected to do.",
-        correctAnswer: "Patch up",
+          "The first old woman described her own actions when she was a little girl by saying, 'When I was a little girl like you, I went to school and all,' but the second old woman interjected, 'Hush! You never went to school. You never came and you never went. You never were anywhere - only here.'",
+        correctAnswer: "Cry",
      }),
       shuffleOptions({
         question:
-          "In the end, Ankur's action demonstrates the value of _____ and reconciliation in friendships.",
-        correctAnswer: "Friendship",
+          "The old woman in bed warned Marian that if the worst came to the worst, she would ring a bell, and the nurse would come, pointing to a little bell on the table among the ________.",
+        correctAnswer: "Bottles",
      }),
       shuffleOptions({
         question:
-          "Ankur was initially playing the 'waiting game,' but he realized that it was better to take the _____ step.",
-        correctAnswer: "First",
+          "As Marian left the room, the two old ladies peered at her with affection and strange ________.",
+        correctAnswer: "Kinship",
       }),
     ]),
   }

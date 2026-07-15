@@ -1,4 +1,4 @@
-export const chapter = "Chapter -20: Shakuntala";
+export const chapter = "Chapter - 20: The Old School";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -32,82 +32,80 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question:
-            "What is the name of the young king who ruled in the land in the earliest times?",
-          optionA: "Bharat",
-          optionB: "Dushyanta",
-          optionC: "Kanva",
-          correctAnswer: "Dushyanta",
+          question: "What was the Leopard's appearance in the High Veldt?",
+          optionA: "Exclusively sandy-yellowish-brownish",
+          optionB: "Grayish-yellowish catty-shaped",
+          optionC: "Exclusively sandy-coloured",
+          correctAnswer: "Grayish-yellowish catty-shaped",
         }),
       shuffleOptions({
           question:
-            "In which place did Dushyanta find a soothing hermitage in the forest?",
-          optionA: "A dense jungle",
-          optionB: "A rocky mountain",
-          optionC: "A pleasant grove",
-          correctAnswer: "A pleasant grove",
+            "Which animals lived exclusively in the High Veldt with the Leopard?",
+          optionA: "Giraffe, Zebra, Eland, Koodoo, Hartebeest",
+          optionB: "Giraffe, Elephant, Zebra, Lion, Buffalo",
+          optionC: "Cheetah, Antelope, Rhino, Hyena, Wildebeest",
+          correctAnswer: "Giraffe, Zebra, Eland, Koodoo, Hartebeest",
         }),
       shuffleOptions({
           question:
-            "Who was the great hermit living in the hermitage that Dushyanta stumbled upon?",
-          optionA: "Sage Durvasa",
-          optionB: "Sage Kanva",
-          optionC: "Sage Bharat",
-          correctAnswer: "Sage Kanva",
+            "Why did the Giraffe, Zebra, and other animals leave the High Veldt?",
+          optionA: "They were tired of the Leopard and Ethiopian.",
+          optionB: "The Leopard surprised them during hunting.",
+          optionC: "They wanted a change and found a forest.",
+          correctAnswer: "They wanted a change and found a forest.",
         }),
       shuffleOptions({
-          question: "What is the name of the adopted daughter of Sage Kanva?",
-          optionA: "Sita",
-          optionB: "Draupadi",
-          optionC: "Shakuntala",
-          correctAnswer: "Shakuntala",
+          question: "How did the Giraffe and Zebra hide in the forest?",
+          optionA: "By changing their colors",
+          optionB: "By growing blotchy and stripy patterns",
+          optionC: "By climbing tall trees",
+          correctAnswer: "By growing blotchy and stripy patterns",
+        }),
+      shuffleOptions({
+          question: "What advice did Baviaan give to the Leopard?",
+          optionA: "Change your spots like the Ethiopian.",
+          optionB: "Go into other spots as soon as possible.",
+          optionC: "Keep hunting in the High Veldt.",
+          correctAnswer: "Go into other spots as soon as possible.",
+        }),
+      shuffleOptions({
+          question: "What did the Ethiopian change about himself in the end?",
+          optionA: "His hair color",
+          optionB: "His skin color",
+          optionC: "His clothing",
+          correctAnswer: "His skin color",
         }),
       shuffleOptions({
           question:
-            "What did Dushyanta give to Shakuntala as a proof of their marriage?",
-          optionA: "Diamond necklace",
-          optionB: "Gold ring",
-          optionC: "Silver bracelet",
-          correctAnswer: "Gold ring",
+            "How did the Leopard react to the Ethiopian's suggestion of changing spots?",
+          optionA: "He preferred stripes like Zebra.",
+          optionB: "He insisted on spots but not too vulgar-big.",
+          optionC: "He rejected the idea of changing spots.",
+          correctAnswer: "He insisted on spots but not too vulgar-big.",
         }),
       shuffleOptions({
-          question: "What curse did Sage Durvasa pronounce on Shakuntala?",
-          optionA: "She will forget her name",
-          optionB: "She will lose her way in the forest",
-          optionC: "The one she loves will forget her until he sees the ring",
+          question:
+            "What did the Ethiopian use to create spots on the Leopard?",
+          optionA: "A brush",
+          optionB: "His five fingers",
+          optionC: "A spray can",
+          correctAnswer: "His five fingers",
+        }),
+      shuffleOptions({
+          question:
+            "What did the Leopard become after the Ethiopian created spots on him?",
+          optionA: "A beauty with purple stripes",
+          optionB: "A perfect sifter of sunshine",
+          optionC: "A heap of pebbles",
+          correctAnswer: "A heap of pebbles",
+        }),
+      shuffleOptions({
+          question: "How did the story end for the Leopard and the Ethiopian?",
+          optionA: "They continued hunting in the High Veldt.",
+          optionB: "They changed their spots and lived happily ever afterward.",
+          optionC: "They regretted changing their appearances.",
           correctAnswer:
-            "The one she loves will forget her until he sees the ring",
-        }),
-      shuffleOptions({
-          question:
-            "How did Dushyanta finally recognize Shakuntala as his wife?",
-          optionA: "Through a dream",
-          optionB: "A fisherman found the lost ring",
-          optionC: "Sage Kanva informed him",
-          correctAnswer: "A fisherman found the lost ring",
-        }),
-      shuffleOptions({
-          question:
-            "What did Dushyanta feel when he realized his mistake regarding Shakuntala?",
-          optionA: "Happiness",
-          optionB: "Regret and sorrow",
-          optionC: "Indifference",
-          correctAnswer: "Regret and sorrow",
-        }),
-      shuffleOptions({
-          question: "Who rose to be the king after Dushyanta in the story?",
-          optionA: "Sage Durvasa",
-          optionB: "Shakuntala",
-          optionC: "Bharat",
-          correctAnswer: "Bharat",
-        }),
-      shuffleOptions({
-          question:
-            "Which famous king descended from the dynasty started by Bharat in the story?",
-          optionA: "Rama",
-          optionB: "Yudhishthira",
-          optionC: "Krishna",
-          correctAnswer: "Yudhishthira",
+            "They changed their spots and lived happily ever afterward.",
    }),
     ]),
   }
@@ -120,81 +118,83 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions(
         {
           question:
-            "In the earliest times, a young king named __________ ruled in this land.",
-          optionA: "Kanva",
-          optionB: "Dushyanta",
-          optionC: "Bharat",
-          correctAnswer: "Dushyanta",
+            "In the High Veldt, the Leopard's appearance was exclusively ________.",
+          optionA: "sandy-yellowish",
+          optionB: "grayish-yellowish catty-shaped",
+          optionC: "exclusively sandy-coloured",
+          correctAnswer: "grayish-yellowish catty-shaped",
         }),
       shuffleOptions({
           question:
-            "Dushyanta stumbled upon a pleasant grove amid which he found a soothing __________.",
-          optionA: "Castle",
-          optionB: "Hermitage",
-          optionC: "Temple",
-          correctAnswer: "Hermitage",
-        }),
-      shuffleOptions({
-          question: "The great hermit living in the hermitage was __________.",
-          optionA: "Sage Durvasa",
-          optionB: "Sage Kanva",
-          optionC: "Sage Bharat",
-          correctAnswer: "Sage Kanva",
-        }),
-      shuffleOptions({
-          question: "The adopted daughter of Sage Kanva was named __________.",
-          optionA: "Sita",
-          optionB: "Draupadi",
-          optionC: "Shakuntala",
-          correctAnswer: "Shakuntala",
+            "The Giraffe and the Zebra, along with other animals, lived exclusively in the High Veldt, and they were all ________.",
+          optionA: "exclusively sandy-yellowish",
+          optionB: "exclusively sandy-yellow-brownish",
+          optionC: "exclusively grayish-yellowish",
+          correctAnswer: "exclusively sandy-yellow-brownish",
         }),
       shuffleOptions({
           question:
-            "Dushyanta gave Shakuntala a gold ring as a proof of their __________.",
-          optionA: "Friendship",
-          optionB: "Marriage",
-          optionC: "Alliance",
-          correctAnswer: "Marriage",
+            "The Giraffe and the Zebra scuttled away from the High Veldt and hid in a forest full of trees, bushes, and ________ shadows.",
+          optionA: "stripy, speckly, patchy-blatchy",
+          optionB: "exclusively sandy-coloured",
+          optionC: "sandy-yellowish",
+          correctAnswer: "stripy, speckly, patchy-blatchy",
         }),
       shuffleOptions({
           question:
-            "Sage Durvasa pronounced a curse that the one Shakuntala loves will forget her until he sees __________.",
-          optionA: "A flower",
-          optionB: "A bird",
-          optionC: "The ring",
-          correctAnswer: "The ring",
+            "The Giraffe grew blotchy, the Zebra grew stripy, and the Eland and Koodoo grew darker with little wavy gray lines on their backs like ________.",
+          optionA: "sand dunes",
+          optionB: "tree bark",
+          optionC: "grass blades",
+          correctAnswer: "tree bark",
         }),
       shuffleOptions({
           question:
-            "A fisherman found the lost ring when he cut open a __________.",
-          optionA: "Pumpkin",
-          optionB: "Fish",
-          optionC: "The river",
-          correctAnswer: "Fish",
+            "Baviaan, the dog-headed, barking Baboon, advised the Leopard to go into ________.",
+          optionA: "other spots as soon as possible",
+          optionB: "hiding in the forest",
+          optionC: "exclusively yellowish-grayish-brownish areas",
+          correctAnswer: "other spots as soon as possible",
         }),
       shuffleOptions({
           question:
-            "Shakuntala failed to convince Dushyanta of their marriage when she was brought in __________ with him.",
-          optionA: "Battle",
-          optionB: "Dialogue",
-          optionC: "Audience",
-          correctAnswer: "Audience",
+            "The aboriginal Fauna joined the aboriginal Flora, and the Ethiopian decided to change by altering his ________.",
+          optionA: "hair color",
+          optionB: "skin color",
+          optionC: "clothing style",
+          correctAnswer: "skin color",
         }),
       shuffleOptions({
           question:
-            "The dynasty started by Bharat went on to produce several worthy kings, including __________.",
-          optionA: "Rama",
-          optionB: "Yudhishthira",
-          optionC: "Krishna",
-          correctAnswer: "Yudhishthira",
+            "The Ethiopian advised the Leopard to go into spots, meaning spots on ________.",
+          optionA: "the High Veldt",
+          optionB: "South Africa",
+          optionC: "their skin",
+          correctAnswer: "their skin",
         }),
       shuffleOptions({
           question:
-            "Which famous king descended from the dynasty started by Bharat in the story?",
-          optionA: "Sage Durvasa",
-          optionB: "Shakuntala",
-          optionC: "Bharat",
-          correctAnswer: "Bharat",
+            "The Ethiopian created spots on the Leopard using ________.",
+          optionA: "a brush",
+          optionB: "his five fingers",
+          optionC: "a spray can",
+          correctAnswer: "his five fingers",
+        }),
+      shuffleOptions({
+          question:
+            "The Leopard, after the change, looked like a heap of ________.",
+          optionA: "stones",
+          optionB: "pebbles",
+          optionC: "rocks",
+          correctAnswer: "pebbles",
+        }),
+      shuffleOptions({
+          question:
+            "The story concludes with the Leopard and the Ethiopian living ________.",
+          optionA: "regretting the change",
+          optionB: "happily ever afterward",
+          optionC: "in the High Veldt",
+          correctAnswer: "happily ever afterward",
    }),
     ]),
   }
@@ -206,70 +206,68 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question:
-            "Dushyanta found a pleasant grove amid which he found a soothing hermitage.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question: "Shakuntala was the biological daughter of Sage Kanva.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Dushyanta gave Shakuntala a silver bracelet as a proof of their marriage.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Sage Durvasa cursed Shakuntala that she would forget her name.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "A fisherman found the lost ring when he cut open a pumpkin.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Dushyanta recognized Shakuntala as his wife when she was brought in audience with him.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Bharat, the son of Dushyanta and Shakuntala, rose to be a great sage.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Sage Durvasa's curse on Shakuntala brought agony to her life.",
+          question: "The Leopard lived in a place called the High Veldt.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "Dushyanta felt regret and sorrow when he realized his mistake regarding Shakuntala.",
+            "The Giraffe and the Zebra scuttled away from the High Veldt and hid in a forest.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The dynasty started by Bharat went on to produce several worthy kings, including Krishna.",
+            "The Leopard and the Ethiopian used bows and arrows to hunt together.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question: "The aboriginal Fauna joined the aboriginal Flora.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question: "The Leopard changed its spots by using a brush.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The spots on the Leopard were created with the tips of the Ethiopian's fingers.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "The Giraffe's appearance was exclusively sandy-yellowish in the High Veldt.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Baviaan, the Baboon, advised the Leopard to go into hiding in the forest.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The Leopard and the Ethiopian lived happily ever afterward.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "The Ethiopian changed his skin color to exclusively sandy-yellowish.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",

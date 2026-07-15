@@ -1,4 +1,4 @@
-export const chapter = "Chapter -17: Chittor Fort : A Cradle of History";
+export const chapter = "Chapter - 17: The Great Preacher";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {

@@ -1,4 +1,4 @@
-export const chapter = "Chapter -06:Christmas Every day";
+export const chapter = "Chapter - 6: Better Hands";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -32,82 +32,84 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question:
-            "What did the little girl usually ask for on Saturday mornings before breakfast?",
-          optionA: "Candy",
-          optionB: "Little pig stories",
-          optionC: "Christmas stories",
-          correctAnswer: "Christmas stories",
+          question: "What does the author consider uncertainty to be in life?",
+          optionA: "A constant source of predictability",
+          optionB: "A factor that can make or break a person",
+          optionC: "An avoidable aspect of life",
+          correctAnswer: "A factor that can make or break a person",
         }),
       shuffleOptions({
           question:
-            "Why did the little girl stop her papa when he began telling a story about a little pig?",
-          optionA: "She preferred stories about Christmas.",
-          optionB: "She didn't like little pig stories.",
-          optionC: "She wanted a different type of story.",
-          correctAnswer: "She didn't like little pig stories.",
+            "According to the author, what is the role of uncertainty in developing an individual's skills?",
+          optionA: "It has no impact on skill development",
+          optionB: "It provides an opportunity to hone skills",
+          optionC: "It impedes critical thinking",
+          correctAnswer: "It provides an opportunity to hone skills",
         }),
       shuffleOptions({
           question:
-            "What was the little girl's request for a story about on that Saturday morning?",
-          optionA: "Little pigs",
-          optionB: "Christmas",
-          optionC: "Thanksgiving",
-          correctAnswer: "Christmas",
+            "In the story of the 'thirsty' crow, what combination is highlighted as the generator of new ideas to solve a problem?",
+          optionA: "Physical and mental labor",
+          optionB: "Hope and patience",
+          optionC: "Luck and perseverance",
+          correctAnswer: "Physical and mental labor",
         }),
       shuffleOptions({
           question:
-            "How did the little girl react when the Christmas Fairy granted her wish for Christmas every day?",
-          optionA: "She cried",
-          optionB: "She was excited",
-          optionC: "She was disappointed",
-          correctAnswer: "She was excited",
-        }),
-      shuffleOptions({
-          question: "What happened to the stockings on Christmas morning?",
-          optionA: "They were empty",
-          optionB: "They were filled with coal",
-          optionC: "They were lumpy with presents",
-          correctAnswer: "They were lumpy with presents",
+            "According to the passage, what factors play a part in the event of uncertainty?",
+          optionA: "Wisdom, patience, and luck",
+          optionB: "Courage, determination, self-faith, and fear of failure",
+          optionC: "Fear of failure, inactivity, and doubt",
+          correctAnswer:
+            "Courage, determination, self-faith, and fear of failure",
         }),
       shuffleOptions({
           question:
-            "What happened to the Christmas celebrations as the days went by?",
-          optionA: "They became more joyful",
-          optionB: "They became exhausting",
-          optionC: "They were canceled",
-          correctAnswer: "They became exhausting",
+            "What does Martin Luther King Jr. emphasize regarding faith in uncertain times?",
+          optionA: "Faith hinders facing uncertainties",
+          optionB: "Faith is unnecessary in difficult situations",
+          optionC: "Faith gives courage to face uncertainties",
+          correctAnswer: "Faith gives courage to face uncertainties",
         }),
       shuffleOptions({
           question:
-            "What did the little girl start doing to dolls as Christmas continued every day?",
-          optionA: "Decorating them",
-          optionB: "Sitting on them",
-          optionC: "Giving them away",
-          correctAnswer: "Sitting on them",
-        }),
-      shuffleOptions({
-          question: "Why did people start going to the poor-house initially?",
-          optionA: "They were poor",
-          optionB: "They lost their voices",
-          optionC: "They were rich and proud",
-          correctAnswer: "They were poor",
+            "What does the fear of failure often lead to during a period of uncertainty?",
+          optionA: "Inactivity",
+          optionB: "Bold decision-making",
+          optionC: "Positive action",
+          correctAnswer: "Inactivity",
         }),
       shuffleOptions({
           question:
-            "How did people express their frustration with Christmas presents towards the end?",
-          optionA: "They wrote polite notes",
-          optionB: "They threw presents over fences",
-          optionC: "They returned the presents",
-          correctAnswer: "They threw presents over fences",
+            "How does the author characterize uncertainties in life according to the Murphy's law?",
+          optionA: "Predictable",
+          optionB: "Unavoidable",
+          optionC: "Controllable",
+          correctAnswer: "Unavoidable",
         }),
       shuffleOptions({
           question:
-            "What did the little girl's family want to do on Thanksgiving, and why did they resist?",
-          optionA: "Go to the poor-house; they were poor",
-          optionB: "Celebrate Christmas; they were exhausted",
-          optionC: "Show gratitude; cakes were eaten for Christmas",
-          correctAnswer: "Show gratitude; cakes were eaten for Christmas",
+            "What advice does Lord Krishna give in the Geeta regarding action and results?",
+          optionA: "Focus on the result, not the action",
+          optionB: "Results lie within one's control",
+          optionC: "Act boldly, and results are beyond one's control",
+          correctAnswer: "Act boldly, and results are beyond one's control",
+        }),
+      shuffleOptions({
+          question:
+            "According to the passage, what has shaped the creativity and imagination of each generation?",
+          optionA: "Predictability",
+          optionB: "Certainty",
+          optionC: "Uncertainties",
+          correctAnswer: "Uncertainties",
+        }),
+      shuffleOptions({
+          question:
+            "What does the author attribute to the progress and evolution of the world?",
+          optionA: "Avoidance of uncertainties",
+          optionB: "Overcoming uncertainties",
+          optionC: "Lack of challenges",
+          correctAnswer: "Overcoming uncertainties",
    }),
     ]),
   }
@@ -120,83 +122,82 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions(
         {
           question:
-            "The little girl asked her papa for a story, and he began telling one about a little ___________.",
-          optionA: "Dog",
-          optionB: "Pig",
-          optionC: "Cat",
-          correctAnswer: "Pig",
+            "Uncertainty is part and parcel of life, which can either make or ______ a person.",
+          optionA: "Develop",
+          optionB: "Break",
+          optionC: "Enhance",
+          correctAnswer: "Break",
         }),
       shuffleOptions({
           question:
-            "The little girl wanted Christmas every day, and the Christmas Fairy granted her wish for a year. She received lumpy stockings filled with presents, including candy, oranges, and ___________.",
-          optionA: "Potatoes",
-          optionB: "Coal",
-          optionC: "Books",
-          correctAnswer: "Coal",
+            "A person cannot predict the sea of future uncertainties in his life, be it ______ or professional.",
+          optionA: "Personal",
+          optionB: "Public",
+          optionC: "Pleasurable",
+          correctAnswer: "Personal",
         }),
       shuffleOptions({
           question:
-            "As Christmas continued every day, the little girl became ___________ with the constant celebrations.",
-          optionA: "Excited",
-          optionB: "Exhausted",
-          optionC: "Grateful",
-          correctAnswer: "Exhausted",
+            "It is the mark of a critical mind to show prudence in the event of an uncertain scenario and ______ wisely.",
+          optionA: "React",
+          optionB: "Respond",
+          optionC: "Retire",
+          correctAnswer: "React",
         }),
       shuffleOptions({
           question:
-            "People started going to the poor-house because of the excessive celebration of Christmas. The poor-houses got so full that they had to send people back to their own ___________.",
-          optionA: "Apartments",
-          optionB: "Houses",
-          optionC: "Mansions",
-          correctAnswer: "Houses",
+            "Uncertainty is like a teacher that tests your ability to get through a tough ______.",
+          optionA: "Problem",
+          optionB: "Situation",
+          optionC: "Journey",
+          correctAnswer: "Situation",
         }),
       shuffleOptions({
           question:
-            "By Thanksgiving, the little girl wanted her family to go to church, have squash-pie, and show their ___________. However, people resisted because cakes were eaten up for Christmas, and they felt ___________.",
-          optionA: "Gratitude; exhausted",
-          optionB: "Joy; excited",
-          optionC: "Resentment; wealthy",
-          correctAnswer: "Gratitude; exhausted",
+            "The crow flew all over the fields looking for water, failed, still did not lose hope, put in more effort, found a pitcher of water but with a little amount of water in it, gave thought to finding a solution to this ______, and succeeded.",
+          optionA: "Issue",
+          optionB: "Problem",
+          optionC: "Dilemma",
+          correctAnswer: "Problem",
         }),
       shuffleOptions({
           question:
-            "The little girl, suffering from the constant Christmas celebrations, took to sitting down on ___________ wherever she found them because she hated the sight of them.",
-          optionA: "Chairs",
-          optionB: "Dolls",
-          optionC: "Tables",
-          correctAnswer: "Dolls",
+            "Courage, determination, self-faith, and ______ of failure play their part in the event of uncertainty.",
+          optionA: "Hope",
+          optionB: "Fear",
+          optionC: "Acceptance",
+          correctAnswer: "Fear",
+        }),
+      shuffleOptions({
+          question: "Man is inclined to think ______.",
+          optionA: "Positively",
+          optionB: "Negative",
+          optionC: "Rationally",
+          correctAnswer: "Negative",
         }),
       shuffleOptions({
           question:
-            "The little girl's family received presents, including books, portfolios, and ___________, on the once-a-year Christmas. The big Christmas-tree was lit and standing in a ___________.",
-          optionA: "Candy; waste-basket",
-          optionB: "Skates; playground",
-          optionC: "Waterproofs; forest",
-          correctAnswer: "Candy; waste-basket",
+            'Lord Krishna says in the Geeta, "You have control over action and not the ______, which lies with the Divine."',
+          optionA: "Journey",
+          optionB: "Path",
+          optionC: "Result",
+          correctAnswer: "Result",
         }),
       shuffleOptions({
           question:
-            "The little girl's family, initially excited about the daily Christmas, eventually expressed their frustration by throwing presents over ___________.",
-          optionA: "Fences",
-          optionB: "Roofs",
-          optionC: "Windows",
-          correctAnswer: "Fences",
+            "Life has been filled with uncertainties, and it is through these uncertainties that the world has progressed to the ______ level.",
+          optionA: "Present",
+          optionB: "Primitive",
+          optionC: "Pinnacle",
+          correctAnswer: "Present",
         }),
       shuffleOptions({
           question:
-            "The little girl tried to stop the constant Christmas celebrations by sending letters and telegrams to the Christmas Fairy, but it didn't do any ___________.",
-          optionA: "Good",
-          optionB: "Harm",
-          optionC: "Change",
-          correctAnswer: "Good",
-        }),
-      shuffleOptions({
-          question:
-            "The little girl's family wanted to go to the poor-house initially, but they had to return home because the poor-houses got so full. People had lost their ___________ from saying 'Merry Christmas' so much.",
-          optionA: "Voices",
-          optionB: "Patience",
-          optionC: "Money",
-          correctAnswer: "Voices",
+            "The Murphy's law states that if anything can possibly go wrong, it will go ______.",
+          optionA: "Right",
+          optionB: "Wrong",
+          optionC: "Smooth",
+          correctAnswer: "Wrong",
    }),
     ]),
   }
@@ -209,70 +210,70 @@ if (localStorage.getItem("activityNumber") == 3) {
       shuffleOptions(
         {
           question:
-            "The little girl wanted Christmas every day, and the Christmas Fairy granted her wish for a year.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "The little girl's family initially went to the poor-house due to their extravagant Christmas celebrations.",
+            "Uncertainty can only break a person and does not contribute to personal growth.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "As Christmas continued every day, the little girl became excited and joyful with the constant celebrations.",
+            "Courage, determination, and self-faith have no role to play in dealing with uncertainties.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "People started going to the poor-house because they had lost their voices from saying 'Merry Christmas' so much.",
+            "The story of the 'thirsty' crow emphasizes the importance of physical labor only.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The little girl's family, by Thanksgiving, resisted going to church and showing gratitude because cakes were eaten up for Christmas.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "The little girl expressed her frustration with the constant Christmas celebrations by throwing presents over fences.",
+            "Fear of failure is not a factor that influences a person's actions during uncertainty.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The little girl tried to stop the constant Christmas celebrations by sending letters and telegrams to the Easter Bunny.",
+            "According to Lord Krishna in the Geeta, individuals have control over both action and result.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The little girl's family wanted to go to the poor-house initially but had to return home because the poor-houses got so full.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "True",
-        }),
-      shuffleOptions({
-          question:
-            "The little girl, suffering from constant Christmas celebrations, took to sitting down on chairs wherever she found them.",
+            "Negativity is not a common inclination among humans during uncertain times.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",
         }),
       shuffleOptions({
           question:
-            "The little girl's family, initially excited about daily Christmas, eventually expressed their frustration by throwing presents over roofs.",
+            "Life's progress is not influenced by uncertainties, according to the passage.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Ratan Tata believes in making decisions right from the start without any analysis.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "The Murphy's law suggests that everything will go right if there's a possibility of it going wrong.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "False",
+        }),
+      shuffleOptions({
+          question:
+            "Facing uncertainties with a weak mind is encouraged for personal growth.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "False",

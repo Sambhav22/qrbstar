@@ -1,4 +1,4 @@
-export const chapter = "Chapter -19: If";
+export const chapter = "Chapter - 19: Vocation";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
@@ -33,83 +33,79 @@ if (localStorage.getItem("activityNumber") == 1) {
       shuffleOptions(
         {
           question:
-            "If you can trust yourself when all men doubt you, what should you also do?",
-          optionA: "Ignore everyone's doubts",
-          optionB: "Make allowance for their doubting too",
-          optionC: "Confront those who doubt you",
-          correctAnswer: "Make allowance for their doubting too",
+            "What is the initial impression of the journey for the traveller?",
+          optionA: "Short",
+          optionB: "Magical",
+          optionC: "Tedious",
+          correctAnswer: "Magical",
+        }),
+      shuffleOptions({
+          question: "What did the child invite the traveller to do?",
+          optionA: "Learn",
+          optionB: "Work",
+          optionC: "Play",
+          correctAnswer: "Play",
         }),
       shuffleOptions({
           question:
-            "According to the text, what should you not do when being lied about?",
-          optionA: "Confront the liar",
-          optionB: "Deal in lies",
-          optionC: "Stay silent",
-          correctAnswer: "Deal in lies",
+            "What fascinated the traveller and the child during fine weather?",
+          optionA: "Raindrops",
+          optionB: "Falling leaves",
+          optionC: "Nature's beauty",
+          correctAnswer: "Nature's beauty",
+        }),
+      shuffleOptions({
+          question: "What did the young man invite the traveller to do?",
+          optionA: "Work",
+          optionB: "Play",
+          optionC: "Love",
+          correctAnswer: "Love",
         }),
       shuffleOptions({
           question:
-            "What is emphasized in the line 'And yet don't look too good, nor talk too wise'?",
-          optionA: "Humility",
-          optionB: "Arrogance",
-          optionC: "Indifference",
-          correctAnswer: "Humility",
+            "What were the activities of the handsome boy and the traveller?",
+          optionA: "Playing games",
+          optionB: "Learning",
+          optionC: "Both A and B",
+          correctAnswer: "Both A and B",
         }),
       shuffleOptions({
           question:
-            "According to the text, what should you not let your dreams become?",
-          optionA: "Unachievable",
-          optionB: "Your master",
-          optionC: "Ignored",
-          correctAnswer: "Your master",
+            "What did the middle-aged gentleman invite the traveller to do?",
+          optionA: "Be busy",
+          optionB: "Rest",
+          optionC: "Learn",
+          correctAnswer: "Be busy",
         }),
       shuffleOptions({
           question:
-            "How should you treat Triumph and Disaster, according to the text?",
-          optionA: "Ignore both",
-          optionB: "Treat them as impostors",
-          optionC: "Celebrate Triumph, lament Disaster",
-          correctAnswer: "Treat them as impostors",
+            "What did the family do as they journeyed through the wood?",
+          optionA: "Rested",
+          optionB: "Worked and cut down trees",
+          optionC: "Played games",
+          correctAnswer: "Worked and cut down trees",
+        }),
+      shuffleOptions({
+          question: "How did the children leave the company in the story?",
+          optionA: "Disappeared suddenly",
+          optionB: "Vanished into thin air",
+          optionC: "Went down different avenues for various purposes",
+          correctAnswer: "Went down different avenues for various purposes",
         }),
       shuffleOptions({
           question:
-            "What does the text advise you to do when others twist the truth you've spoken?",
-          optionA: "Confront them",
-          optionB: "Retaliate with lies",
-          optionC: "Bear to hear the twisted truth",
-          correctAnswer: "Bear to hear the twisted truth",
+            "What happened when the lady was called and went into the dark avenue?",
+          optionA: "She vanished",
+          optionB: "She cried and said she was summoned",
+          optionC: "She continued the journey with the traveller",
+          correctAnswer: "She cried and said she was summoned",
         }),
       shuffleOptions({
-          question:
-            "What does the speaker suggest you do when facing setbacks, such as broken dreams?",
-          optionA: "Surrender",
-          optionB: "Stoop and build them up again",
-          optionC: "Blame others",
-          correctAnswer: "Stoop and build them up with worn-out tools",
-        }),
-      shuffleOptions({
-          question:
-            "What should you do if you lose everything and have to start again at your beginnings?",
-          optionA: "Despair and give up",
-          optionB: "Risk everything again",
-          optionC: "Never breathe a word about your loss",
-          correctAnswer: "Never breathe a word about your loss",
-        }),
-      shuffleOptions({
-          question:
-            "According to the text, what should you hold onto even when there is nothing in you?",
-          optionA: "Desperation",
-          optionB: "Courage",
-          optionC: "Will",
-          correctAnswer: "Will",
-        }),
-      shuffleOptions({
-          question:
-            "What does the text advise you to do when talking with crowds or walking with Kings?",
-          optionA: "Flaunt your achievements",
-          optionB: "Keep your virtue",
-          optionC: "Lose the common touch",
-          correctAnswer: "Keep your virtue",
+          question: "How does the story conclude for the traveller?",
+          optionA: "Alone and lost",
+          optionB: "Reunited with all the friends",
+          optionC: "Reminiscing with an old man",
+          correctAnswer: "Reminiscing with an old man",
    }),
     ]),
   }
@@ -122,80 +118,83 @@ if (localStorage.getItem("activityNumber") == 2) {
       shuffleOptions(
         {
           question:
-            "If you can trust yourself when all men doubt you, what should you also do?\n- If you can wait and not be tired by _______,",
-          optionA: "doubting",
-          optionB: "waiting",
-          optionC: "hoping",
-          correctAnswer: "waiting",
+            "The traveller lost the child while on his journey. What did the child invite him to do?",
+          optionA: "Work with him",
+          optionB: "Play with him",
+          optionC: "Learn with him",
+          correctAnswer: "Play with him",
         }),
       shuffleOptions({
           question:
-            "If you can ________ and not make dreams your master,\nIf you can think-and not make thoughts your aim,",
-          optionA: "dream",
-          optionB: "sleep",
-          optionC: "imagine",
-          correctAnswer: "dream",
+            "The traveller encountered a handsome boy during his journey. What did the boy say he was always doing?",
+          optionA: "Working",
+          optionB: "Learning",
+          optionC: "Being in love",
+          correctAnswer: "Learning",
         }),
       shuffleOptions({
           question:
-            "If you can meet with Triumph and Disaster\nAnd treat those two impostors just the ________,",
-          optionA: "same",
-          optionB: "differently",
-          optionC: "wisely",
-          correctAnswer: "same",
+            "As the traveller learned with the handsome boy, what were some of the activities they enjoyed?",
+          optionA: "Playing cricket and ball",
+          optionB: "Rowing in the river and skating on ice",
+          optionC: "Dancing at real theatres",
+          correctAnswer: "Rowing in the river and skating on ice",
         }),
       shuffleOptions({
           question:
-            "If you can bear to hear the truth you've spoken\nTwisted by knaves to make a trap for _______,",
-          optionA: "fools",
-          optionB: "geniuses",
-          optionC: "poets",
-          correctAnswer: "fools",
+            "The traveller lost the handsome boy and continued his journey. What did he find next?",
+          optionA: "A child",
+          optionB: "A young man",
+          optionC: "A middle-aged gentleman",
+          correctAnswer: "A middle-aged gentleman",
         }),
       shuffleOptions({
           question:
-            "Or watch the things you gave your life to, broken,\nAnd stoop and build 'em up with ________ tools;",
-          optionA: "new",
-          optionB: "worn-out",
-          optionC: "modern",
-          correctAnswer: "worn-out",
+            "The middle-aged gentleman said he was always busy. What were they doing together in the wood?",
+          optionA: "Playing games",
+          optionB: "Cutting down trees and making a path",
+          optionC: "Having parties and dancing",
+          correctAnswer: "Cutting down trees and making a path",
         }),
       shuffleOptions({
           question:
-            "If you can make one heap of all your winnings\nAnd risk it on one turn of pitch-and-_______,",
-          optionA: "spin",
-          optionB: "toss",
-          optionC: "flip",
-          correctAnswer: "toss",
-        }),
-      shuffleOptions({
-          question: "And lose, and start again at your _______,",
-          optionA: "achievements",
-          optionB: "beginnings",
-          optionC: "endings",
-          correctAnswer: "beginnings",
+            "During their journey in the wood, what happened when the children wanted to go on separate paths?",
+          optionA: "They stayed together",
+          optionB: "They had a quarrel",
+          optionC: "They went on solitary ways",
+          correctAnswer: "They went on solitary ways",
         }),
       shuffleOptions({
           question:
-            "If you can force your heart and nerve and sinew\nTo serve your turn long after they ________,",
-          optionA: "vanish",
-          optionB: "fade",
-          optionC: "are gone",
-          correctAnswer: "are gone",
+            "When the traveller saw the gentleman glancing up at the sky, what did he notice about the gentleman?",
+          optionA: "His hair turning grey",
+          optionB: "His clothes changing color",
+          optionC: "His shoes getting dirty",
+          correctAnswer: "His hair turning grey",
         }),
       shuffleOptions({
-          question: "If you can talk with crowds and keep your ________,",
-          optionA: "secrets",
-          optionB: "virtue",
-          optionC: "ego",
-          correctAnswer: "virtue",
+          question:
+            "The lady, the gentleman's wife, was called and had to leave. What did she say her child was calling her?",
+          optionA: "Father",
+          optionB: "Mother",
+          optionC: "Brother",
+          correctAnswer: "Mother",
         }),
       shuffleOptions({
-          question: "If all men count with you, but none too ________,",
-          optionA: "little",
-          optionB: "much",
-          optionC: "often",
-          correctAnswer: "much",
+          question:
+            "After the lady's departure, who was left with the traveller in the wood?",
+          optionA: "The handsome boy",
+          optionB: "The middle-aged gentleman",
+          optionC: "The old man",
+          correctAnswer: "The middle-aged gentleman",
+        }),
+      shuffleOptions({
+          question:
+            "As the traveller approached the end of the wood, who did he find sitting on a fallen tree?",
+          optionA: "A young man",
+          optionB: "The handsome boy",
+          optionC: "An old man",
+          correctAnswer: "An old man",
    }),
     ]),
   }
@@ -207,70 +206,71 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: shuffleQues([
       shuffleOptions(
         {
-          question: "Muni could sit under the belly of the horse for shade.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
           question:
-            "The horse was made of wood, baked, burnt, and brightly colored.",
-          optionA: "True",
-          optionB: "False",
-          correctAnswer: "False",
-        }),
-      shuffleOptions({
-          question:
-            "Muni watched the mountain road for a time signal, and when the green bus appeared, he could leave.",
+            "The traveller played with the child the whole day, and they were very merry.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The foreigner, a red-faced man, asked if there was a gas station nearby or if he had to wait until another car comes.",
+            "The handsome boy said he was always learning, and the traveller started to learn with him.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "Muni felt he should get up and run away, but he cursed his age because he couldn't readily put his limbs into action.",
+            "The traveller and the handsome boy enjoyed rowing upon the river in summer and skating on the ice in winter.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The foreigner wore khaki clothes, appearing to be a chef or a gardener.",
+            "The young man the traveller met said he was always in love, and they went away together.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "False",
+          correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The red-faced man presented his card, revealing that he came from Paris.",
+            "The traveller lost the young man and continued his journey alone.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "False",
+          correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "Muni spoke the only English expressions he had learnt, 'Yes, no.' Having exhausted his English vocabulary, he continued in French.",
+            "The middle-aged gentleman told the traveller he was always busy, and they cut down trees together in the wood.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "False",
+          correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "The foreigner implored, 'Please, please, I will speak slowly, please try to understand me. Can't you understand even a simple word of Spanish?'",
+            "The children, at times, parted ways down different avenues during their journey in the wood.",
           optionA: "True",
           optionB: "False",
-          correctAnswer: "False",
+          correctAnswer: "True",
         }),
       shuffleOptions({
           question:
-            "Muni, understanding that the other man was not an inquisitor, remained wary but explained that their village had always had a clean record and any crime must definitely be happening in the other village.",
+            "The lady, the gentleman's wife, was the last one to leave, saying she was called, and the traveller and gentleman were left alone.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "As the traveller passed out of the wood, he found an old man sitting on a fallen tree who said he was always remembering.",
+          optionA: "True",
+          optionB: "False",
+          correctAnswer: "True",
+        }),
+      shuffleOptions({
+          question:
+            "The traveller saw all his friends, including the child, the handsome boy, and the young man, standing around him at the end of his journey.",
           optionA: "True",
           optionB: "False",
           correctAnswer: "True",

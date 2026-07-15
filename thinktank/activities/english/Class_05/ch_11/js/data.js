@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 11: Free Gannu";
+export const chapter = "Chapter - 11: The Paper Boy";
 export const noOfActivities = 3
 
 const shuffleQues = (ques) => {
