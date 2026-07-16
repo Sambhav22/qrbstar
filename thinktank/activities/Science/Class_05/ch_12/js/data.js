@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 12: The Moon and artificial satellites";
+export const chapter = "Chapter - 12: Disposal of Waste";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 6: Respiration in Organisms ";
+export const chapter = "Chapter - 6: Respiration in Organisms";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 3: Coal and Petroleum ";
+export const chapter = "Chapter - 3: Coal and Petroleum";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

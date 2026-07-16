@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 3: Grouping Materials";
+export const chapter = "Chapter - 3: Experimenting with Magnets";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 4: Acids, Bases and Salts ";
+export const chapter = "Chapter - 4: Acids, Bases and Salts";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

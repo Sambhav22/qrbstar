@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 7: circulatory and Excretory systems  ";
+export const chapter = "Chapter - 7: Diseases";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

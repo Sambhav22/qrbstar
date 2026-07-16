@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 11: Chemical Effects of electric Current ";
+export const chapter = "Chapter - 11: Chemical Effects of Electric Current";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

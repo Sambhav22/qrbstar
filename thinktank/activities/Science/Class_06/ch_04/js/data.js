@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 4: Characteristics of Living Things ";
+export const chapter = "Chapter - 4: Measurement and Motion";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

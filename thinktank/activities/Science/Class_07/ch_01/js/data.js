@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 1: Nutrition in Plants ";
+export const chapter = "Chapter - 1: Nutrition in Plants";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

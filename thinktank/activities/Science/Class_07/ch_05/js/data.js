@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 5: Physical and Chemical Changes ";
+export const chapter = "Chapter - 5: Physical and Chemical Changes";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

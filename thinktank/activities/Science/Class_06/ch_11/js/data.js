@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 11: Light, Shadow and Reflections ";
+export const chapter = "Chapter - 11: Our Galaxy and Universe";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

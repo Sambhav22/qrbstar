@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 2: Separating Substances ";
+export const chapter = "Chapter - 2: Healthy Body: Nutrients and Balanced Diet";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

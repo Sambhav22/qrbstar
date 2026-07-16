@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 4: Understanding Birds  ";
+export const chapter = "Chapter - 4: Animals : Feeding Habits";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

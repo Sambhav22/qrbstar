@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 5: Health and Hygiene";
+export const chapter = "Chapter - 5: Infectious Diseases";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

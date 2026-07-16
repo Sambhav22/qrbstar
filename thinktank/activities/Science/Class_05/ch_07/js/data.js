@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 7: The Prairies : The Grasslands ";
+export const chapter = "Chapter - 7: Air and Water";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

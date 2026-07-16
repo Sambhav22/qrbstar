@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 2: Adaptations in Plants";
+export const chapter = "Chapter - 2: Teeth and Their Care";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

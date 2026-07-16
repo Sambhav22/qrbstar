@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 4: Combustion and Flame ";
+export const chapter = "Chapter - 4: Combustion and Flame";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

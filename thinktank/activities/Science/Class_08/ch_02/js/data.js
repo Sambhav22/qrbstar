@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 2: Microorganisms Friend and Foe";
+export const chapter = "Chapter - 2: Microorganisms: Friends and Foes";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

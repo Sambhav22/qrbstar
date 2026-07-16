@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 7: Body Movement ";
+export const chapter = "Chapter - 7: Water: Forms and Pathway";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
