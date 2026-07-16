@@ -6,87 +6,76 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        question:
-          "What were the two main systems of education in India when the East India Company began its involvement?",
-        optionA: "British System and Indian System",
-        optionB: "Hindu System and Muslim System",
-        optionC: "Modern System and Traditional System",
-        correctAnswer: "B",
+        question: "What is HTML primarily used for?",
+        optionA: "Sending emails",
+        optionB: "Designing web pages",
+        optionC: "Creating databases",
+        correctAnswer: "Designing web pages",
+      },
+      {
+        question: "Which tag defines the document's body?",
+        optionA: "<HTML>",
+        optionB: "<HEAD>",
+        optionC: "<BODY>",
+        correctAnswer: "<BODY>",
+      },
+      {
+        question: "What does the <TITLE> tag specify?",
+        optionA: "Document description",
+        optionB: "Document title",
+        optionC: "Document body content",
+        correctAnswer: "Document title",
       },
       {
         question:
-          "In the ancient Hindu system of education, who were the teachers in ashrams?",
-        optionA: "Government-appointed instructors",
-        optionB: "Wealthy landowners",
-        optionC: "Sages and scholars",
-        correctAnswer: "C",
+          "Which tag is used to change the appearance of a short segment of text?",
+        optionA: "<FONT>",
+        optionB: "<HR>",
+        optionC: "<BR>",
+        correctAnswer: "<FONT>",
+      },
+      {
+        question: "How is a new paragraph started in HTML?",
+        optionA: "<BR>",
+        optionB: "<P>",
+        optionC: "<HR>",
+        correctAnswer: "<P>",
       },
       {
         question:
-          "Which famous ancient universities were part of the Hindu system of education?",
-        optionA: "Oxford and Cambridge",
-        optionB: "Nalanda and Takshashila",
-        optionC: "Harvard and Yale",
-        correctAnswer: "B",
+          "Which tag produces a horizontal line across the width of the browser window?",
+        optionA: "<BR>",
+        optionB: "<CENTER>",
+        optionC: "<HR>",
+        correctAnswer: "<HR>",
       },
       {
-        question:
-          "What was the impact of Muslim invasions on the Hindu education system in medieval India?",
-        optionA: "It led to the growth of ashrams.",
-        optionB: "It had no effect on the education system.",
-        optionC: "It caused significant destruction.",
-        correctAnswer: "C",
+        question: "What attribute of the <BODY> tag sets the background image?",
+        optionA: "TEXT",
+        optionB: "LINK",
+        optionC: "BACKGROUND",
+        correctAnswer: "BACKGROUND",
       },
       {
-        question:
-          "What was the primary objective of the British educational system in India during the early 19th century?",
-        optionA: "To promote vocational education",
-        optionB: "To produce engineers and doctors",
-        optionC: "To train clerks for British offices",
-        correctAnswer: "C",
+        question: "What does the SIZE attribute of the <HR> tag control?",
+        optionA: "Horizontal rule length",
+        optionB: "Horizontal rule color",
+        optionC: "Horizontal rule size",
+        correctAnswer: "Horizontal rule size",
       },
       {
-        question:
-          "What did Macaulay recommend in his Minute on Indian Education in 1835?",
-        optionA: "The use of Sanskrit as the medium of instruction",
-        optionB: "The introduction of English as the medium of instruction",
-        optionC: "The preservation of traditional Indian education",
-        correctAnswer: "B",
+        question: "Which tag is used for logical text styles in HTML?",
+        optionA: "<B>",
+        optionB: "<I>",
+        optionC: "<EM>",
+        correctAnswer: "<EM>",
       },
       {
-        question:
-          "What were the main objectives of the Christian missionaries in promoting English education in India?",
-        optionA: "Spreading Indian culture and heritage",
-        optionB: "Converting Indians to Christianity",
-        optionC: "Promoting traditional Indian knowledge",
-        correctAnswer: "B",
-      },
-      {
-        question:
-          "What were the limitations of the British education system introduced in India?",
-        optionA: "It focused on mass education and rural areas.",
-        optionB: "It emphasized scientific and technical education.",
-        optionC: "It neglected mass education, especially in rural areas.",
-        correctAnswer: "C",
-      },
-      {
-        question:
-          "What did the introduction of English education lead to in India, according to the text?",
-        optionA: "A decline in traditional Indian values",
-        optionB: "A stronger emotional bond between different communities",
-        optionC: "Increased support for the British colonial rule",
-        correctAnswer: "A",
-      },
-      {
-        question:
-          "When did the First War of Independence in India break out, and what was the state of English education at that time?",
-        optionA:
-          "The war broke out after the widespread adoption of English education.",
-        optionB:
-          "The war broke out before the introduction of English education.",
-        optionC:
-          "The war had no connection to the state of English education in India.",
-        correctAnswer: "B",
+        question: "What is the purpose of comments in HTML?",
+        optionA: "To emphasize text",
+        optionB: "To define text styles",
+        optionC: "To provide notes in the code",
+        correctAnswer: "To provide notes in the code",
       },
     ],
   };
@@ -94,87 +83,70 @@ if (localStorage.getItem("activityNumber") == 1) {
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blanks:",
+    activity: "Fill in the blank with correct option:",
     questions: [
       {
         question:
-          "In the ancient time, the educational system was based on ________. These were built and organized by sages or other scholars.",
-        optionA: "Temples",
-        optionB: "Ashrams",
-        optionC: "Forts",
-        correctAnswer: "B",
+          "HTML stands for Hypertext Markup Language, which is used to create web pages on the internet with the help of the ________.",
+        options: ["Operating system", "Web browser", "Email client"],
+        correctAnswer: "Web browser",
       },
       {
         question:
-          "The Hindu system of education included oral teaching, and students studied different subjects, with religious texts forming an important part of the syllabus. The sage was the only ______ (teacher) in these ashrams.",
-        optionA: "Mentor",
-        optionB: "Guru",
-        optionC: "Instructor",
-        correctAnswer: "B",
+          "The <BODY> tag in HTML defines the document's _________ and contains all the contents of an HTML document.",
+        options: ["Header", "Footer", "Body"],
+        correctAnswer: "Body",
       },
       {
         question:
-          "The Hindu education system had renowned universities like ______ and Takshashila.",
-        optionA: "Oxford",
-        optionB: "Nalanda",
-        optionC: "Harvard",
-        correctAnswer: "B",
+          "The <TITLE> tag specifies the __________ of the HTML document and appears on the browser's title bar.",
+        options: ["Document title", "Document description", "Document content"],
+        correctAnswer: "Document title",
       },
       {
         question:
-          "The Muslim System of Education included maktabs for basic education and ______ for higher education.",
-        optionA: "Temples",
-        optionB: "Madrasas",
-        optionC: "Churches",
-        correctAnswer: "B",
+          "The <FONT> tag in HTML is used to change the appearance of a short segment of _________.",
+        options: ["Text", "Images", "Videos"],
+        correctAnswer: "Text",
+      },
+      {
+        question: "A new paragraph in HTML is started using the ________ tag.",
+        options: ["<BR>", "<P>", "<HR>"],
+        correctAnswer: "<P>",
       },
       {
         question:
-          "Under the Muslim system, the emphasis was on Arabic, Persian, and Islamic knowledge, and students often practiced ______ learning.",
-        optionA: "Rote",
-        optionB: "Experimental",
-        optionC: "Creative",
-        correctAnswer: "A",
+          "The <HR> tag in HTML produces a horizontal line spread across the ________ of the browser window.",
+        options: ["Height", "Width", "Length"],
+        correctAnswer: "Width",
       },
       {
         question:
-          "In both the Hindu and Muslim systems, modern knowledge was mostly ______.",
-        optionA: "Emphasized",
-        optionB: "Excluded",
-        optionC: "Celebrated",
-        correctAnswer: "B",
+          "The BACKGROUND attribute of the <BODY> tag is used to set a ____________ for the web page.",
+        options: ["Font color", "Background image", "Header image"],
+        correctAnswer: "Background image",
       },
       {
         question:
-          "The British officials like William Jones and Colebrook thought that the ancient Indian knowledge was rich and should comprise the syllabus in the new educational system, with the introduction of ______ on a limited scale.",
-        optionA: "Mathematics",
-        optionB: "Science",
-        optionC: "Logic",
-        correctAnswer: "C",
+          "The SIZE attribute of the <HR> tag controls the size of the __________.",
+        options: [
+          "Horizontal rule color",
+          "Horizontal rule length",
+          "Horizontal rule size",
+        ],
+        correctAnswer: "Horizontal rule size",
       },
       {
         question:
-          "Lord Wellesley set up the Fort William College in 1800 to train company civil servants in Indian languages and customs. These efforts were his ______ initiative.",
-        optionA: "Personal",
-        optionB: "Government",
-        optionC: "Missionary",
-        correctAnswer: "A",
+          "Logical text styles in HTML are applied using tags like <EM> for emphasizing and <STRONG> for _____________.",
+        options: ["Underlining", "Strong emphasis", "Italics"],
+        correctAnswer: "Strong emphasis",
       },
       {
         question:
-          "The Charter Act of 1813 provided an annual grant of one lakh rupees for introducing English education in India, and it led to the Oriental-Occidental Controversy about the choice of ______ as the medium of instruction.",
-        optionA: "Vernacular languages",
-        optionB: "Arabic",
-        optionC: "English",
-        correctAnswer: "C",
-      },
-      {
-        question:
-          "Sir Charles Wood's Despatch of 1854, also known as Wood's Despatch, emphasized the diffusion of the improved arts, services, philosophy, and literature of Europe, promoting ______ knowledge.",
-        optionA: "European",
-        optionB: "Indian",
-        optionC: "African",
-        correctAnswer: "A",
+          "Comments in HTML, given between <!... and ...>, serve the purpose of providing ____________ within the code.",
+        options: ["Styling", "Notes", "Emphasis"],
+        correctAnswer: "Notes",
       },
     ],
   };
@@ -186,63 +158,69 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
       {
         question:
-          "Plants that grow in forests or jungles are called jungle plants.",
+          "The Upanishads are based on the Vedas and are known as theist philosophies.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      },
+      {
+        question: "Jainism and Buddhism are considered theist philosophies.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
       },
       {
         question:
-          "The British introduced English education to promote the study of traditional Indian knowledge.",
+          "The ultimate goal of life in Upanishadic thought is material wealth.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",
+        correctAnswer: "False",
       },
       {
         question:
-          "The ancient Hindu education system was based on ashrams organized by scholars.",
+          "Mahavira, the founder of Jainism, was born in the 6th century BC.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",
+        correctAnswer: "True",
       },
       {
         question:
-          "The Hindu system of education included oral teaching and the study of different subjects.",
+          "Right Conduct is one of the three gems (Triratnas) of Jainism.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      },
+      {
+        question: "Gautam Buddha founded Hinduism.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+      {
+        question: "Buddhism spread in the kingdoms of Magadha and Koshala.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
       },
       {
         question:
-          "The Muslim System of Education emphasized modern knowledge and excluded Arabic and Islamic subjects.",
+          "The Noble Eight-fold Path consists of eight principles, including Right View and Right Effort.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",
+        correctAnswer: "True",
       },
       {
         question:
-          "Sir Charles Wood's Despatch of 1854 emphasized the diffusion of European knowledge in India.",
+          "Both Buddhist and Jain monks formed associations called sanghas and allowed people from all castes and classes to join them.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",
+        correctAnswer: "True",
       },
       {
-        question:
-          "The British introduced English education in India to produce engineers and doctors.",
+        question: "The prairies are located near the Pacific Coast.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
-      },
-      {
-        question:
-          "Lord Wellesley set up the Fort William College in 1800 to train company civil servants in Indian languages and customs.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
-      },
-      {
-        question:
-          "The Charter Act of 1813 provided a substantial annual grant to promote English education in India.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
-      },
-      {
-        question:
-          "The introduction of English education in India led to the decline of traditional Indian values.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",
+        correctAnswer: "False",
       },
     ],
   };

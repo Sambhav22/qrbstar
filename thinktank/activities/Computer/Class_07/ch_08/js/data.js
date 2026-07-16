@@ -5,187 +5,170 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-        {
-          question: "What is HTML primarily used for?",
-          optionA: "Creating spreadsheets",
-          optionB: "Designing documents on the World Wide Web",
-          optionC: "Developing mobile applications",
-          correctAnswer: "B",
-        },
-        {
-          question: "Which tag is used for creating an ordered list in HTML?",
-          optionA: "<UL>",
-          optionB: "<OL>",
-          optionC: "<DL>",
-          correctAnswer: "B",
-        },
-        {
-          question:
-            "What attribute in HTML overrides the default numbering of lists when they are divided into multiple parts?",
-          optionA: "Border",
-          optionB: "Height",
-          optionC: "Start",
-          correctAnswer: "C",
-        },
-        {
-          question:
-            "Which attribute changes the appearance of bullets in an unordered list?",
-          optionA: "Type",
-          optionB: "Align",
-          optionC: "Bgcolor",
-          correctAnswer: "A",
-        },
-        {
-          question: "What does the <DL> tag represent in HTML?",
-          optionA: "Ordered list",
-          optionB: "Definition list",
-          optionC: "Unordered list",
-          correctAnswer: "B",
-        },
-        {
-          question:
-            "Which tag is used to define the column heading in an HTML table?",
-          optionA: "<TR>",
-          optionB: "<TH>",
-          optionC: "<TD>",
-          correctAnswer: "B",
-        },
-        {
-          question:
-            "What attribute sets the distance between cell contents and cell boundary in an HTML table?",
-          optionA: "Cellpadding",
-          optionB: "Cellspacing",
-          optionC: "Border",
-          correctAnswer: "A",
-        },
-        {
-          question: "Which tag is used to display an image in HTML?",
-          optionA: "<IMG>",
-          optionB: "<MARQUEE>",
-          optionC: "<CENTER>",
-          correctAnswer: "A",
-        },
-        {
-          question: "What does the <CENTER> tag do in HTML?",
-          optionA: "Aligns text to the left",
-          optionB: "Aligns text to the right",
-          optionC: "Aligns text in the center",
-          correctAnswer: "C",
-        },
-        {
-          question: "What does the <MARQUEE> tag do in HTML?",
-          optionA: "Displays an animated image",
-          optionB: "Displays a moving text",
-          optionC: "Aligns text with a border",
-          correctAnswer: "B",
-        },
-      ],
+      {
+        question: "What purpose(s) can Python be used for?",
+        optionA: "Developing games only",
+        optionB: "Developing games, websites, GUI, and web applications",
+        optionC: "Developing websites and GUI only",
+        correctAnswer: "Developing games, websites, GUI, and web applications",
+      },
+      {
+        question: "What makes Python an easy-to-learn language?",
+        optionA: "Its complexity similar to other programming languages",
+        optionB: "Its code similarity to English language",
+        optionC: "Its requirement for specifying variable types",
+        correctAnswer: "Its code similarity to English language",
+      },
+      {
+        question: "What is one feature of Python regarding variable typing?",
+        optionA: "Variables must be specified as int., str., or float.",
+        optionB: "Variable typing is optional.",
+        optionC: "Python doesn’t support variables.",
+        correctAnswer: "Variable typing is optional.",
+      },
+      {
+        question:
+          "Which mode provides immediate output for each command in Python?",
+        optionA: "Script Mode",
+        optionB: "Both Interactive Mode and Script Mode",
+        optionC: "Interactive Mode",
+        correctAnswer: "Interactive Mode",
+      },
+      {
+        question: "What is a key characteristic of Python's comments?",
+        optionA: "They are executed by the interpreter.",
+        optionB:
+          "They start with a hash symbol (#) and are ignored by the interpreter.",
+        optionC: "They can't be multiline.",
+        correctAnswer:
+          "They start with a hash symbol (#) and are ignored by the interpreter.",
+      },
+      {
+        question: "How are blocks of code marked in Python?",
+        optionA: "Using parentheses ()",
+        optionB: "Utilizing indentation",
+        optionC: "Using brackets []",
+        correctAnswer: "Utilizing indentation",
+      },
+      {
+        question:
+          "Which of the following is a correct rule for creating variables in Python?",
+        optionA: "Variables can start with a number.",
+        optionB: "Variable names are case-insensitive.",
+        optionC: "Variable names cannot start with a number.",
+        correctAnswer: "Variable names cannot start with a number.",
+      },
+      {
+        question: "What are the four types of data mentioned in Python?",
+        optionA: "Literal, integer, float, and complex",
+        optionB: "Strings, integers, floats, and arrays",
+        optionC: "Booleans, characters, doubles, and longs",
+        correctAnswer: "Literal, integer, float, and complex",
+      },
+      {
+        question: "What is the purpose of operators in Python?",
+        optionA: "They define data types.",
+        optionB: "They perform operations on variables and values.",
+        optionC: "They control loops and iterations.",
+        correctAnswer: "They perform operations on variables and values.",
+      },
+      {
+        question:
+          "What function helps identify the data type of a variable in Python?",
+        optionA: "print()",
+        optionB: "len()",
+        optionC: "type()",
+        correctAnswer: "type()",
+      },
+    ],
   };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blanks:",
+    activity: "Fill in the blank with correct option:",
     questions: [
-        {
-          question:
-            "__________ is a programming language used to create documents on the World Wide Web.",
-          options: {
-            A: "CSS",
-            B: "HTML",
-            C: "JavaScript",
-          },
-          correctAnswer: "B",
-        },
-        {
-          question:
-            "The tag used for creating an ordered list in HTML is <______>.",
-          options: {
-            A: "OL",
-            B: "UL",
-            C: "DL",
-          },
-          correctAnswer: "A",
-        },
-        {
-          question:
-            "The attribute used to override default numbering in ordered lists when divided into multiple parts is __________.",
-          options: {
-            A: "Start",
-            B: "Type",
-            C: "Border",
-          },
-          correctAnswer: "A",
-        },
-        {
-          question:
-            "Unordered lists in HTML are represented using the tag <______>.",
-          options: {
-            A: "OL",
-            B: "UL",
-            C: "DL",
-          },
-          correctAnswer: "B",
-        },
-        {
-          question:
-            "The attribute that changes the appearance of bullets in an unordered list is _________.",
-          options: {
-            A: "Bordercolor",
-            B: "Type",
-            C: "Align",
-          },
-          correctAnswer: "B",
-        },
-        {
-          question: "The tag used for a definition list in HTML is <______>.",
-          options: {
-            A: "OL",
-            B: "UL",
-            C: "DL",
-          },
-          correctAnswer: "C",
-        },
-        {
-          question:
-            "The tag used to define the column heading in an HTML table is <______>.",
-          options: {
-            A: "TH",
-            B: "TR",
-            C: "TD",
-          },
-          correctAnswer: "A",
-        },
-        {
-          question:
-            "The attribute that sets the distance between cell contents and cell boundary in an HTML table is ________.",
-          options: {
-            A: "Cellspacing",
-            B: "Cellpadding",
-            C: "Border",
-          },
-          correctAnswer: "B",
-        },
-        {
-          question: "The tag used to display an image in HTML is <______>.",
-          options: {
-            A: "IMG",
-            B: "CENTER",
-            C: "MARQUEE",
-          },
-          correctAnswer: "A",
-        },
-        {
-          question:
-            "The tag that aligns text in the center in HTML is <______>.",
-          options: {
-            A: "CENTER",
-            B: "IMG",
-            C: "MARQUEE",
-          },
-          correctAnswer: "A",
-        },
-      ],
+      {
+        question:
+          "Python can be used for developing games, websites, Graphic User Interface (GUI), and ____________ applications.",
+        optionA: "Mobile",
+        optionB: "Web",
+        optionC: "Database",
+        correctAnswer: "Web",
+      },
+      {
+        question:
+          "Python is a free and open-source language that can be downloaded from any operating system ____________ cost.",
+        optionA: "At",
+        optionB: "For",
+        optionC: "Without",
+        correctAnswer: "At",
+      },
+      {
+        question:
+          "Python is an ____________ language, allowing easy interpretation in other software's compilers like C+ and C++.",
+        optionA: "Interpreted",
+        optionB: "Executable",
+        optionC: "Assembled",
+        correctAnswer: "Interpreted",
+      },
+      {
+        question:
+          "The type of a variable in Python is not required to be ____________ upon declaration.",
+        optionA: "Defined",
+        optionB: "Specified",
+        optionC: "Declared",
+        correctAnswer: "Specified",
+      },
+      {
+        question:
+          "The Python Setup window appears after clicking the ____________ button during the installation process.",
+        optionA: "Download",
+        optionB: "Install now",
+        optionC: "Run",
+        correctAnswer: "Run",
+      },
+      {
+        question:
+          "In interactive mode, the Python command line shell provides immediate output for each ____________ entered.",
+        optionA: "Program",
+        optionB: "Command",
+        optionC: "Function",
+        correctAnswer: "Command",
+      },
+      {
+        question:
+          "____________ is used to separate codes into useful blocks and make them more readable and reusable.",
+        optionA: "Indentation",
+        optionB: "Comments",
+        optionC: "Functions",
+        correctAnswer: "Functions",
+      },
+      {
+        question:
+          "Blocks of code in Python are marked by utilizing ____________.",
+        optionA: "Parentheses",
+        optionB: "Brackets",
+        optionC: "Indentation",
+        correctAnswer: "Indentation",
+      },
+      {
+        question:
+          "Variables in Python are like containers where ____________ can be stored and changed later.",
+        optionA: "Expressions",
+        optionB: "Functions",
+        optionC: "Values",
+        correctAnswer: "Values",
+      },
+      {
+        question:
+          "Python allows the identification of the data type of a variable using the ____________ function.",
+        optionA: "print()",
+        optionB: "len()",
+        optionC: "type()",
+        correctAnswer: "type()",
+      },
+    ],
   };
 }
 
@@ -193,92 +176,62 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-        {
-          question:
-            "HTML is primarily used for creating documents on the World Wide Web.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "A",
-        },
-        {
-          question:
-            "The <OL> tag in HTML is used for creating unordered lists.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "B",
-        },
-        {
-          question: "The <DL> tag represents a definition list in HTML.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "A",
-        },
-        {
-          question:
-            "The <TH> tag is used to define the column heading in an HTML table.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "A",
-        },
-        {
-          question:
-            "The cellpadding attribute in HTML sets the distance between two adjacent cells in a table.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "B",
-        },
-        {
-          question: "The <CENTER> tag in HTML aligns text to the right.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "B",
-        },
-        {
-          question: "The <IMG> tag is used to display images in HTML.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "A",
-        },
-        {
-          question: "The <UL> tag represents an ordered list in HTML.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "B",
-        },
-        {
-          question: "The <MARQUEE> tag in HTML displays a moving text.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "A",
-        },
-        {
-          question:
-            "The cellspacing attribute in HTML sets the distance between cell contents and cell boundaries in a table.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "A",
-        },
-      ],
+      {
+        question:
+          "Python is primarily used for developing games and not suitable for web applications.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question: "Python is a paid programming language.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question:
+          "In Python, variable types need to be explicitly defined during declaration.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question:
+          "Python Setup window appears immediately after downloading Python.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question: "Python's comments are executed by the interpreter.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question: "Blocks of code in Python are marked by parentheses.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question: "Variable names in Python are case-insensitive.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question: "Python supports only one data type for variables.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question:
+          "Python's 'type()' function helps in identifying the data type of a variable.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "True",
+      },
+      {
+        question:
+          "Indentation is not crucial for defining blocks of code in Python.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+    ],
   };
 }
 

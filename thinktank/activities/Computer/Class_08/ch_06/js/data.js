@@ -7,81 +7,82 @@ if (localStorage.getItem("activityNumber") == 1) {
     questions: [
       {
         question:
-          "What event marked the opportunity for a massive uprising against the East India Company in 1857?",
-        optionA: "The Battle of Plassey",
-        optionB: "The introduction of the Enfield rifle",
-        optionC: "The annexation of Awadh",
-        correctAnswer: "B. The introduction of the Enfield rifle",
+          "Which language was developed to cater to the needs of the business world, handling tasks like accounts and payroll?",
+        optionA: "COBOL",
+        optionB: "FORTRAN",
+        optionC: "PASCAL",
+        correctAnswer: "COBOL",
       },
       {
         question:
-          "Which religious groups joined the revolts against the British, feeling dissatisfied with certain laws?",
-        optionA: "Sikhs and Hindus",
-        optionB: "Sanyasis, Wahabis, and Faqirs",
-        optionC: "Buddhists and Jains",
-        correctAnswer: "B. Sanyasis, Wahabis, and Faqirs",
-      },
-      {
-        question: "What was the immediate cause of the uprising in 1857?",
-        optionA: "The introduction of English education",
-        optionB: "The use of the Enfield rifle cartridges",
-        optionC: "Economic policies of the British",
-        correctAnswer: "B. The use of the Enfield rifle cartridges",
-      },
-      {
-        question: "What role did Nana Sahib play in the uprising of 1857?",
-        optionA: "He led the revolt in Kanpur",
-        optionB: "He was a British sympathizer",
-        optionC: "He was a British general",
-        correctAnswer: "A. He led the revolt in Kanpur",
+          "Which programming language is designed for teaching logical analysis to children through turtle graphics?",
+        optionA: "FORTRAN",
+        optionB: "LOGO",
+        optionC: "PASCAL",
+        correctAnswer: "LOGO",
       },
       {
         question:
-          "Who was appointed as the Emperor of India by the Indian sepoys during the uprising?",
-        optionA: "Bahadur Shah Zafar",
-        optionB: "Tantya Tope",
-        optionC: "Rani Lakshmi Bai",
-        correctAnswer: "A. Bahadur Shah Zafar",
+          "What is the primary advantage of high-level languages over low-level languages?",
+        optionA: "Direct machine understanding",
+        optionB: "Machine independence",
+        optionC: "Faster execution",
+        correctAnswer: "Machine independence",
       },
       {
         question:
-          "What was the primary reason for the failure of the uprising in 1857?",
-        optionA: "Lack of leadership",
-        optionB: "Lack of popular support",
-        optionC: "Lack of modern weapons",
-        correctAnswer: "A. Lack of leadership",
+          "Which language is a fully object-oriented language and the first component-oriented language?",
+        optionA: "Visual Basic",
+        optionB: "C#",
+        optionC: "Visual C++",
+        correctAnswer: "C#",
       },
       {
         question:
-          "How did the British government react to the uprising in 1857?",
-        optionA: "They granted amnesty to all rebels",
-        optionB: "They intensified the policy of 'divide and rule'",
-        optionC: "They immediately withdrew from India",
-        correctAnswer: "B. They intensified the policy of 'divide and rule'",
+          "What type of language does the computer directly understand and execute?",
+        optionA: "High-level language",
+        optionB: "Machine language",
+        optionC: "Assembly language",
+        correctAnswer: "Machine language",
       },
       {
         question:
-          "Who became the first Viceroy of India after the British government took over direct administration?",
-        optionA: "Lord Canning",
-        optionB: "Lord Mountbatten",
-        optionC: "Lord Curzon",
-        correctAnswer: "A. Lord Canning",
+          "Which language uses mnemonic codes and symbolic addresses and is machine dependent?",
+        optionA: "High-level language",
+        optionB: "Machine language",
+        optionC: "Assembly language",
+        correctAnswer: "Assembly language",
       },
       {
         question:
-          "What important consequence did the uprising of 1857 have on India's future?",
-        optionA: "It led to the immediate attainment of independence.",
-        optionB: "It initiated the national movement for freedom.",
-        optionC: "It resulted in the re-establishment of the Mughal Empire.",
-        correctAnswer: "B. It initiated the national movement for freedom.",
+          "What does a compiler do in the context of programming languages?",
+        optionA: "Converts high-level language to machine language",
+        optionB: "Converts assembly language to machine language",
+        optionC: "Converts machine language to assembly language",
+        correctAnswer: "Converts high-level language to machine language",
       },
       {
         question:
-          "What role did the vernacular and English press play during the uprising of 1857?",
-        optionA: "They favored strong action against the rebels.",
-        optionB: "They reported events impartially.",
-        optionC: "They didn't play any role in covering the events.",
-        correctAnswer: "B. They reported events impartially.",
+          "Which language was designed primarily for developing system software?",
+        optionA: "JAVA",
+        optionB: "Visual Basic",
+        optionC: "C",
+        correctAnswer: "C",
+      },
+      {
+        question:
+          "Which language is named after the French mathematician who made an adding machine?",
+        optionA: "COBOL",
+        optionB: "PASCAL",
+        optionC: "LOGO",
+        correctAnswer: "PASCAL",
+      },
+      {
+        question: "What is the main disadvantage of machine language?",
+        optionA: "Limited access",
+        optionB: "Difficulty in finding errors",
+        optionC: "Requires a translator",
+        correctAnswer: "Difficulty in finding errors",
       },
     ],
   };
@@ -89,43 +90,75 @@ if (localStorage.getItem("activityNumber") == 1) {
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blanks:",
+    activity: "Fill in the blank with correct option:",
     questions: [
       {
-        question: "______ games are played inside the homes.",
-        optionA: "Indoor",
-        optionB: "Outdoor",
-        optionC: "Recreational",
-        correctAnswer: "A. Indoor",
-      },
-      {
-        question: "______ games are played outside the homes.",
-        optionA: "Board",
-        optionB: "Indoor",
-        optionC: "Outdoor",
-        correctAnswer: "C. Outdoor",
+        question:
+          "High-level languages use simple English language words that are converted into machine language by a ________ or an interpreter.",
+        options: ["translator", "compiler", "debugger"],
+        correctAnswer: "compiler",
       },
       {
         question:
-          "______ equipment are kept in schools to promote sports among students.",
-        optionA: "Playground",
-        optionB: "Sports",
-        optionC: "Classroom",
-        correctAnswer: "B. Sports",
+          "BASIC stands for Beginners' All-Purpose Symbolic Instruction Code, developed by John Kemeny and Thomas Kurtz in the early ________.",
+        options: ["1950s", "1960s", "1970s"],
+        correctAnswer: "1960s",
       },
       {
-        question: "Kabaddi is popular in _____",
-        optionA: "Mexico",
-        optionB: "India",
-        optionC: "Australia",
-        correctAnswer: "B. India",
+        question:
+          "COBOL stands for Common Business Oriented Language, mainly used for tasks related to developing and processing accounts, payrolls, and ________.",
+        options: [
+          "inventory management",
+          "marketing strategies",
+          "customer relations",
+        ],
+        correctAnswer: "inventory management",
       },
       {
-        question: "Sports bring the best out of the _____",
-        optionA: "competitors",
-        optionB: "spectators",
-        optionC: "referees",
-        correctAnswer: "A. competitors",
+        question:
+          "Pascal is a structured programming language named after the French mathematician Blaise Pascal, originally developed by ________.",
+        options: ["John Backus", "Niklaus Wirth", "James Gosling"],
+        correctAnswer: "Niklaus Wirth",
+      },
+      {
+        question:
+          "C++ is an object-oriented language developed by Bjarne Stroustrup in 1983 at AT&T Bell Labs to enhance the workability of the ________ language.",
+        options: ["Python", "Java", "C"],
+        correctAnswer: "C",
+      },
+      {
+        question:
+          "Visual Basic, designed and developed by Microsoft, provides various tools for creating the visual environment for ________.",
+        options: ["Mac OS", "Linux", "Windows"],
+        correctAnswer: "Windows",
+      },
+      {
+        question:
+          "Java, introduced in 1995 by Sun Microsystems, was developed by ________.",
+        options: ["John Kemeny", "Thomas Kurtz", "James Gosling"],
+        correctAnswer: "James Gosling",
+      },
+      {
+        question:
+          "Machine language uses combinations of ________ where 0 represents OFF and 1 represents ON.",
+        options: ["0s and 2s", "1s and 3s", "0s and 1s"],
+        correctAnswer: "0s and 1s",
+      },
+      {
+        question:
+          "Assembly language programs were written in modules and put together for the final run, using different software provided by computer manufacturers to convert it into ________.",
+        options: [
+          "machine language",
+          "high-level language",
+          "low-level language",
+        ],
+        correctAnswer: "machine language",
+      },
+      {
+        question:
+          "Compiler and ________ are required to convert high-level and assembly language instructions into machine language.",
+        options: ["Interpreter", "Debugger", "Assembler"],
+        correctAnswer: "Assembler",
       },
     ],
   };
@@ -136,30 +169,74 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
       {
-        question: "Games played in schools are technical and hard to play.",
+        question:
+          "Computer programs written in high-level languages are directly understood and executed by the computer.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",
+        correctAnswer: "False",
       },
       {
         question:
-          "The materials which are required to play are sports equipment.",
+          "Assembly language is machine dependent and uses mnemonic codes and symbolic addresses.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",
+        correctAnswer: "True",
       },
       {
-        question: "Games do not develop discipline in children.",
+        question:
+          "Visual Basic was designed primarily for creating computer applications for the Linux operating system.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",
+        correctAnswer: "False",
       },
       {
-        question: "Students get training of sports in school.",
+        question:
+          "Java is an object-oriented programming language that was introduced in the late 1990s.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",
+        correctAnswer: "False",
       },
       {
-        question: "Rules are essential to play a game.",
+        question:
+          "Machine language uses simple English language words that are easily convertible into machine code.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+      {
+        question:
+          "Python is primarily used for scientific computing and mathematical operations.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+      {
+        question:
+          "Compiler and Assembler are required to convert high-level and assembly language instructions into machine language.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      },
+      {
+        question:
+          "FORTRAN was primarily developed to cater to the requirements of the business world.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+      {
+        question:
+          "COBOL stands for Common Business Oriented Language, used mainly for developing and processing accounts and payrolls.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      },
+      {
+        question:
+          "C++ is an object-oriented language that emerged before the creation of the C programming language.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
       },
     ],
   };

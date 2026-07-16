@@ -6,184 +6,165 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        "questions": [
-          {
-            "question": "What does the Task View feature in Windows 11 allow you to do?",
-            "options": {
-              "A": "Group apps into different desktops",
-              "B": "Open a new window for multitasking",
-              "C": "Adjust system settings"
-            },
-            "answer": "A"
-          },
-          {
-            "question": "How can you add a new desktop in Windows 11?",
-            "options": {
-              "A": "Click the Task View button and select \"New Desktop\"",
-              "B": "Click the Start button and select \"New Desktop\"",
-              "C": "Press and hold the Alt key, then press the Tab key"
-            },
-            "answer": "A"
-          },
-          {
-            "question": "What action allows you to move windows between different desktops in Windows 11?",
-            "options": {
-              "A": "Dragging the window to another desktop's thumbnail in Task View",
-              "B": "Pressing the Windows key and Tab simultaneously",
-              "C": "Clicking the minimize button multiple times"
-            },
-            "answer": "A"
-          },
-          {
-            "question": "How can you remove a desktop in Windows 11?",
-            "options": {
-              "A": "Click on the taskbar",
-              "B": "Hover over the desktop thumbnail and press Delete",
-              "C": "Use the Alt + F4 keyboard shortcut"
-            },
-            "answer": "B"
-          },
-          {
-            "question": "Which keyboard shortcut allows you to flip between open windows in Windows 11?",
-            "options": {
-              "A": "Ctrl + Tab",
-              "B": "Alt + Tab",
-              "C": "Shift + Tab"
-            },
-            "answer": "B"
-          },
-          {
-            "question": "How can you minimize all open windows in Windows 11?",
-            "options": {
-              "A": "Click the bottom right corner of the taskbar",
-              "B": "Use the Windows key + M",
-              "C": "Shake the active window"
-            },
-            "answer": "A"
-          },
-          {
-            "question": "What feature of Windows 11 allows you to arrange open windows in different layouts?",
-            "options": {
-              "A": "Snap Assist",
-              "B": "Task View",
-              "C": "Quick Access"
-            },
-            "answer": "A"
-          },
-          {
-            "question": "How do you open the Widget panel in Windows 11?",
-            "options": {
-              "A": "Click the Widgets icon on the Taskbar",
-              "B": "Press Windows key + W",
-              "C": "Right-click on the desktop and select Widgets"
-            },
-            "answer": "A"
-          },
-          {
-            "question": "Where can you find the Settings app in Windows 11?",
-            "options": {
-              "A": "Control Panel",
-              "B": "Start menu",
-              "C": "Taskbar"
-            },
-            "answer": "B"
-          },
-          {
-            "question": "What does the Quick Access feature in File Explorer do in Windows 11?",
-            "options": {
-              "A": "Allows access to the internet",
-              "B": "Displays frequently used folders",
-              "C": "Provides quick settings for the system"
-            },
-            "answer": "B"
-          }
-        ]
-      }
-      
+        question:
+          "What are the three essential components required for computer processes?",
+        optionA: "Software, CPU, RAM",
+        optionB: "Input Devices, Output Devices, CPU",
+        optionC: "Monitor, Keyboard, Mouse",
+        correctAnswer: "Input Devices, Output Devices, CPU",
+      },
+      {
+        question:
+          "Which device is used to identify specific items with machine-readable formats?",
+        optionA: "OCR",
+        optionB: "Barcode Reader",
+        optionC: "Magnetic Ink Character Reader",
+        correctAnswer: "Barcode Reader",
+      },
+      {
+        question: "What does OMR stand for, and what is its primary function?",
+        optionA: "Optical Mark Reader - Reads digital images",
+        optionB: "Optical Mark Recognition - Recognizes specific shapes",
+        optionC: "Optical Mark Reader - Detects marks on paper",
+        correctAnswer: "Optical Mark Reader - Detects marks on paper",
+      },
+      {
+        question:
+          "Which device is commonly used to read characters on cheques printed in magnetic ink?",
+        optionA: "Card Reader",
+        optionB: "MICH",
+        optionC: "Trackball",
+        correctAnswer: "MICH",
+      },
+      {
+        question:
+          "Which input device is mainly used in air-traffic control rooms and computer video games?",
+        optionA: "Graphic Tablet",
+        optionB: "Touch Screen",
+        optionC: "Trackball",
+        correctAnswer: "Trackball",
+      },
+      {
+        question: "What does an output device do?",
+        optionA: "Converts computer information for user understanding",
+        optionB: "Processes data for the CPU",
+        optionC: "Reads and captures data quickly",
+        correctAnswer: "Converts computer information for user understanding",
+      },
+      {
+        question: "What determines the quality of a printer?",
+        optionA: "Technology and speed",
+        optionB: "Cost and quality of printing",
+        optionC: "Resolution",
+        correctAnswer: "Resolution",
+      },
+      {
+        question: "Which is an example of a non-impact printer?",
+        optionA: "Dot Matrix Printer",
+        optionB: "Laser Printer",
+        optionC: "Daisy Wheel Printer",
+        correctAnswer: "Laser Printer",
+      },
+      {
+        question: "What is the main function of a plotter?",
+        optionA: "Produce high-quality graphics",
+        optionB: "Print textual information",
+        optionC: "Store data for future use",
+        correctAnswer: "Produce high-quality graphics",
+      },
+      {
+        question: "What is the main function of system software?",
+        optionA: "Perform dedicated tasks",
+        optionB: "Control computer operations",
+        optionC: "Enhance hardware efficiency",
+        correctAnswer: "Enhance hardware efficiency",
+      },
+    ],
+  };
+}
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blanks:",
+    activity: "Fill in the blank with correct option:",
     questions: [
       {
         question:
-          "The study of history helps us understand different aspects of life and how they __________ over time.",
-        optionA: "remained constant",
-        optionB: "changed",
-        optionC: "disappeared",
-        correctAnswer: "B",
+          "__________, Central Processing Unit (CPU), and Output Devices are the three essential components required for computer processes.",
+        optionA: "Software",
+        optionB: "Input Devices",
+        optionC: "Storage Devices",
+        correctAnswer: "Input Devices",
       },
       {
         question:
-          "The modern period in India, also known as the colonial period, began in the __________ century when the British gained power.",
-        optionA: "15th",
-        optionB: "18th",
-        optionC: "19th",
-        correctAnswer: "B",
+          "An __________ is used to detect pen/pencil marks of pre-specified shape on a sheet of paper.",
+        optionA: "Optical Mark Reader (OMR)",
+        optionB: "Magnetic Ink Character Reader (MICH)",
+        optionC: "Barcode Reader",
+        correctAnswer: "Optical Mark Reader (OMR)",
       },
       {
         question:
-          "The British conducted surveys to determine revenue areas where they could impose __________ on land.",
-        optionA: "taxes",
-        optionB: "regulations",
-        optionC: "restrictions",
-        correctAnswer: "A",
+          "A ________ is used to read special characters printed on documents like cheques using special magnetic ink.",
+        optionA: "Card Reader",
+        optionB: "Magnetic Ink Character Reader (MICH)",
+        optionC: "Trackball",
+        correctAnswer: "Magnetic Ink Character Reader (MICH)",
       },
       {
         question:
-          "Private records, such as diaries, travelogues, and letters, have often helped discover historical occurrences quite __________.",
-        optionA: "inaccurately",
-        optionB: "vividly",
-        optionC: "correctly",
-        correctAnswer: "C",
+          "A ________ is an electronic visual display that the user can control through simple or multi-touch gestures.",
+        optionA: "Touchpad",
+        optionB: "Touch Screen",
+        optionC: "Graphic Tablet",
+        correctAnswer: "Touch Screen",
       },
       {
         question:
-          "Buildings and monuments, like the Rashtrapati Bhavan and India Gate, are important sources of history that have been constructed during the __________ period.",
-        optionA: "ancient",
-        optionB: "medieval",
-        optionC: "modern",
-        correctAnswer: "C",
+          "An output device is an electro-mechanical device that converts computer information into a form that a user can ___________.",
+        optionA: "Process",
+        optionB: "Understand",
+        optionC: "Store",
+        correctAnswer: "Understand",
+      },
+      {
+        question: "The quality of a printer is determined by its ___________.",
+        optionA: "Cost",
+        optionB: "Resolution",
+        optionC: "Speed",
+        correctAnswer: "Resolution",
       },
       {
         question:
-          "Folk traditions, including folk tales and songs, have preserved many historical occurrences and events over __________.",
-        optionA: "generations",
-        optionB: "centuries",
-        optionC: "decades",
-        correctAnswer: "A",
+          "A ________ is an output device used to produce high-quality graphics, charts, and diagrams.",
+        optionA: "Printer",
+        optionB: "Plotter",
+        optionC: "LCD Projector",
+        correctAnswer: "Plotter",
       },
       {
         question:
-          "The modern period in India began in the 18th century, which is often considered from the year of __________ death, Aurangzeb.",
-        optionA: "Akbar's",
-        optionB: "Shah Jahan's",
-        optionC: "Aurangzeb's",
-        correctAnswer: "C",
+          "________ are also known as secondary, auxiliary, permanent, and mass storage devices.",
+        optionA: "SSD (Solid State Drive)",
+        optionB: "Hard Disk",
+        optionC: "Storage Devices",
+        correctAnswer: "Storage Devices",
       },
       {
         question:
-          "The British exploited the river valley farmers by compelling them to produce crops like __________ for their trade.",
-        optionA: "wheat",
-        optionB: "indigo",
-        optionC: "rice",
-        correctAnswer: "B",
+          "The main function of the Central Processing Unit (CPU) is to execute instructions stored in a computer program and process ________ according to given instructions.",
+        optionA: "Software",
+        optionB: "Data",
+        optionC: "Output",
+        correctAnswer: "Data",
       },
       {
         question:
-          "Primary sources, such as government surveys, buildings, and archaeological remains, directly indicate different historical __________.",
-        optionA: "events",
-        optionB: "interpretations",
-        optionC: "ideologies",
-        correctAnswer: "A",
-      },
-      {
-        question:
-          "The British published gazettes that included not only surveys but also records of events, providing insight into various aspects of contemporary __________.",
-        optionA: "politics",
-        optionB: "life",
-        optionC: "culture",
-        correctAnswer: "B",
+          "________ refers to a set of programs written for the proper functioning of the computer system, managing various tasks and controlling different operations.",
+        optionA: "Application Software",
+        optionB: "System Software",
+        optionC: "Operating System",
+        correctAnswer: "System Software",
       },
     ],
   };
@@ -194,63 +175,64 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
       {
-        question: "Metal is a recyclable waste.",
+        question:
+          "The CPU is responsible for inputting data and generating output in a computer system.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",correctAnswer: "false",
       },
       {
         question:
-          "The modern period in India is also known as the colonial period.",
+          "An Optical Mark Reader (OMR) detects pen/pencil marks on paper and is commonly used for objective-type tests.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",correctAnswer: "true",
       },
       {
         question:
-          "Private records, such as diaries and letters, have little historical value.",
+          "A Touch Screen requires a physical keyboard for user interaction.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",correctAnswer: "false",
       },
       {
         question:
-          "Folk traditions, including folk tales and songs, have preserved historical occurrences over generations.",
+          "Resolution does not play a role in determining the quality of a printer.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",correctAnswer: "false",
       },
       {
         question:
-          "The British exploited river valley farmers by compelling them to produce crops like rice.",
+          "System Software manages various tasks and controls different operations of a computer system.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",correctAnswer: "true",
       },
       {
         question:
-          "Buildings and monuments like the Rashtrapati Bhavan have no significance in studying history.",
+          "Output devices convert computer information into forms that users can't understand.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",correctAnswer: "false",
       },
       {
         question:
-          "The modern period in India officially began in the 15th century.",
+          "Data processing is not a primary function of the Central Processing Unit (CPU).",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",correctAnswer: "false",
       },
       {
         question:
-          "Government surveys and records are considered secondary sources of history.",
+          "Application Software enhances the efficiency of hardware components in a computer system.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",correctAnswer: "false",
       },
       {
         question:
-          "Newspapers, magazines, and journals are not important sources of historical information.",
+          "Storage Devices are primarily used for processing data in a computer system.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",correctAnswer: "false",
       },
       {
         question:
-          "The study of history is primarily focused on analyzing the exploits of rulers.",
+          "Input Devices play a crucial role in providing data and instructions to the Central Processing Unit (CPU) for processing.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",correctAnswer: "true",
       },
     ],
   };

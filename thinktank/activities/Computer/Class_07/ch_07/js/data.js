@@ -5,158 +5,150 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-        {
-          question: "What is an algorithm?",
-          optionA:
-            "A sequence of instructions in a specific order to solve a problem.",
-          optionB: "A graphical representation of a program's logic.",
-          optionC: "A set of symbols used in computer programming.",
-          correctAnswer: "A",
-        },
-        {
-          question: "What is the advantage of using a flowchart?",
-          optionA: "It is a better way of communicating with output devices.",
-          optionB: "It acts as a blueprint during program development.",
-          optionC: "It replaces the need for programming languages.",
-          correctAnswer: "B",
-        },
-        {
-          question:
-            "What shape is used to represent a decision box in a flowchart?",
-          optionA: "Rectangle",
-          optionB: "Oval",
-          optionC: "Rhombus or diamond",
-          correctAnswer: "C",
-        },
-        {
-          question:
-            "Which box in a flowchart is used to indicate the beginning and end of a process?",
-          optionA: "Input/Output Box",
-          optionB: "Process Box",
-          optionC: "Terminal Box",
-          correctAnswer: "C",
-        },
-        {
-          question: "What does a process box in a flowchart represent?",
-          optionA: "Input/Output operations",
-          optionB: "Decision-making points",
-          optionC: "Arithmetic and data processing",
-          correctAnswer: "C",
-        },
-        {
-          question: "What should be the last statement in an algorithm?",
-          optionA: "Start",
-          optionB: "Stop",
-          optionC: "End",
-          correctAnswer: "B",
-        },
-        {
-          question: "What is the purpose of a connector box in a flowchart?",
-          optionA: "To indicate the flow of instructions",
-          optionB: "To connect symbols on different pages",
-          optionC: "To represent input/output operations",
-          correctAnswer: "B",
-        },
-        {
-          question:
-            "Which shape is used for an input/output box in a flowchart?",
-          optionA: "Rectangle",
-          optionB: "Parallelogram",
-          optionC: "Oval",
-          correctAnswer: "B",
-        },
-        {
-          question:
-            "What type of language are the statements in an algorithm typically written in?",
-          optionA: "Programming language",
-          optionB: "Complex language",
-          optionC: "Simple English language",
-          correctAnswer: "C",
-        },
-        {
-          question: "What does a flow line symbolize in a flowchart?",
-          optionA: "The decision-making process",
-          optionB: "The flow of instructions between symbols",
-          optionC: "The starting point of a program",
-          correctAnswer: "B",
-        },
-      ],
+      {
+        question: "What is HTML primarily used for?",
+        optionA: "Sending emails",
+        optionB: "Designing web pages",
+        optionC: "Creating databases",
+        correctAnswer: "Designing web pages",
+      },
+      {
+        question: "Which tag defines the document's body?",
+        optionA: "<HTML>",
+        optionB: "<HEAD>",
+        optionC: "<BODY>",
+        correctAnswer: "<BODY>",
+      },
+      {
+        question: "What does the <TITLE> tag specify?",
+        optionA: "Document description",
+        optionB: "Document title",
+        optionC: "Document body content",
+        correctAnswer: "Document title",
+      },
+      {
+        question:
+          "Which tag is used to change the appearance of a short segment of text?",
+        optionA: "<FONT>",
+        optionB: "<HR>",
+        optionC: "<BR>",
+        correctAnswer: "<FONT>",
+      },
+      {
+        question: "How is a new paragraph started in HTML?",
+        optionA: "<BR>",
+        optionB: "<P>",
+        optionC: "<HR>",
+        correctAnswer: "<P>",
+      },
+      {
+        question:
+          "Which tag produces a horizontal line across the width of the browser window?",
+        optionA: "<BR>",
+        optionB: "<CENTER>",
+        optionC: "<HR>",
+        correctAnswer: "<HR>",
+      },
+      {
+        question: "What attribute of the <BODY> tag sets the background image?",
+        optionA: "TEXT",
+        optionB: "LINK",
+        optionC: "BACKGROUND",
+        correctAnswer: "BACKGROUND",
+      },
+      {
+        question: "What does the SIZE attribute of the <HR> tag control?",
+        optionA: "Horizontal rule length",
+        optionB: "Horizontal rule color",
+        optionC: "Horizontal rule size",
+        correctAnswer: "Horizontal rule size",
+      },
+      {
+        question: "Which tag is used for logical text styles in HTML?",
+        optionA: "<B>",
+        optionB: "<I>",
+        optionC: "<EM>",
+        correctAnswer: "<EM>",
+      },
+      {
+        question: "What is the purpose of comments in HTML?",
+        optionA: "To emphasize text",
+        optionB: "To define text styles",
+        optionC: "To provide notes in the code",
+        correctAnswer: "To provide notes in the code",
+      },
+    ],
   };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blanks:",
+    activity: "Fill in the blank with correct option:",
     questions: [
-        {
-          question:
-            "The primary purpose of a __________ in the Mughal royal court was to meet nobles and officers.",
-          options: ["Diwan-i-Khas", "Diwan-i-Aam", "Diwan-i-Rasalat"],
-          correctAnswer: "Diwan-i-Khas",
-        },
-        {
-          question:
-            "The department in the Mughal administration responsible for revenue, income, and expenditure was the ___________.",
-          options: ["Wazir", "Mir Bakshi", "Sadr-i-Sadur"],
-          correctAnswer: "Sadr-i-Sadur",
-        },
-        {
-          question:
-            "The primary source of income for a ruler during the Mughal period was from ___________.",
-          options: ["Trade", "Land revenue", "Taxes on pilgrimage"],
-          correctAnswer: "Land revenue",
-        },
-        {
-          question:
-            "The system developed by Todar Mal for fixing land revenue was known as ___________.",
-          options: ["Todar Bandobast", "Akbari Bandobast", "Zabt System"],
-          correctAnswer: "Todar Bandobast",
-        },
-        {
-          question:
-            "The key feature of the Mughal military administration called mansabdari was the implementation of a ___________.",
-          options: ["Hereditary positions", "Fixed land grants", "Rank system"],
-          correctAnswer: "Rank system",
-        },
-        {
-          question:
-            "The Mughal ruler controlled an army without being dependent on any mansabdar by exercising ___________.",
-          options: ["Diplomacy", "Maintaining a navy", "Direct control"],
-          correctAnswer: "Direct control",
-        },
-        {
-          question:
-            "The efficiency of the mansabdari system during Aurangzeb's time was compromised due to the ___________.",
-          options: [
-            "Military campaigns",
-            "Suppression of non-Muslims",
-            "Land revenue system",
-          ],
-          correctAnswer: "Suppression of non-Muslims",
-        },
-        {
-          question:
-            "After conquering the Rajputs, Akbar treated them ___________, honoring them with high posts.",
-          options: [
-            "With humiliation",
-            "With exile",
-            "Honourably and with high posts",
-          ],
-          correctAnswer: "Honourably and with high posts",
-        },
-        {
-          question:
-            "The department responsible for revenue, income, and expenditure in the Mughal administration was the ___________.",
-          options: ["Wazir", "Sadr-i-Sadur", "Mir Bakshi"],
-          correctAnswer: "Sadr-i-Sadur",
-        },
-        {
-          question:
-            "The Mughal ruler controlled an army without being dependent on any mansabdar by exercising ___________.",
-          options: ["Diplomacy", "Maintaining a navy", "Direct control"],
-          correctAnswer: "Direct control",
-        },
-      ],
+      {
+        question:
+          "HTML stands for Hypertext Markup Language, which is used to create web pages on the internet with the help of the ________.",
+        options: ["Operating system", "Web browser", "Email client"],
+        correctAnswer: "Web browser",
+      },
+      {
+        question:
+          "The <BODY> tag in HTML defines the document's _________ and contains all the contents of an HTML document.",
+        options: ["Header", "Footer", "Body"],
+        correctAnswer: "Body",
+      },
+      {
+        question:
+          "The <TITLE> tag specifies the __________ of the HTML document and appears on the browser's title bar.",
+        options: ["Document title", "Document description", "Document content"],
+        correctAnswer: "Document title",
+      },
+      {
+        question:
+          "The <FONT> tag in HTML is used to change the appearance of a short segment of _________.",
+        options: ["Text", "Images", "Videos"],
+        correctAnswer: "Text",
+      },
+      {
+        question: "A new paragraph in HTML is started using the ________ tag.",
+        options: ["<BR>", "<P>", "<HR>"],
+        correctAnswer: "<P>",
+      },
+      {
+        question:
+          "The <HR> tag in HTML produces a horizontal line spread across the ________ of the browser window.",
+        options: ["Height", "Width", "Length"],
+        correctAnswer: "Width",
+      },
+      {
+        question:
+          "The BACKGROUND attribute of the <BODY> tag is used to set a ____________ for the web page.",
+        options: ["Font color", "Background image", "Header image"],
+        correctAnswer: "Background image",
+      },
+      {
+        question:
+          "The SIZE attribute of the <HR> tag controls the size of the __________.",
+        options: [
+          "Horizontal rule color",
+          "Horizontal rule length",
+          "Horizontal rule size",
+        ],
+        correctAnswer: "Horizontal rule size",
+      },
+      {
+        question:
+          "Logical text styles in HTML are applied using tags like <EM> for emphasizing and <STRONG> for _____________.",
+        options: ["Underlining", "Strong emphasis", "Italics"],
+        correctAnswer: "Strong emphasis",
+      },
+      {
+        question:
+          "Comments in HTML, given between <!... and ...>, serve the purpose of providing ____________ within the code.",
+        options: ["Styling", "Notes", "Emphasis"],
+        correctAnswer: "Notes",
+      },
+    ],
   };
 }
 
@@ -164,77 +156,73 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-        {
-          question:
-            "The flowchart uses boxes of different shapes to denote different types of instructions.",
-          optionA: "True",
+      {
+        question:
+          "The Upanishads are based on the Vedas and are known as theist philosophies.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "True",
-        },
-        {
-          question:
-            "A process box in a flowchart represents arithmetic and data processing.",
-          optionA: "True",
+        correctAnswer: "True",
+      },
+      {
+        question: "Jainism and Buddhism are considered theist philosophies.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "True",
-        },
-        {
-          question:
-            "The decision box in a flowchart indicates the starting point of the program.",
-          optionA: "True",
+        correctAnswer: "False",
+      },
+      {
+        question:
+          "The ultimate goal of life in Upanishadic thought is material wealth.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question:
-            "An algorithm is a graphical representation of a program's logic.",
-          optionA: "True",
+        correctAnswer: "False",
+      },
+      {
+        question:
+          "Mahavira, the founder of Jainism, was born in the 6th century BC.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question:
-            "A connector box in a flowchart is used to indicate the flow of instructions.",
-          optionA: "True",
+        correctAnswer: "True",
+      },
+      {
+        question:
+          "Right Conduct is one of the three gems (Triratnas) of Jainism.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "True",
-        },
-        {
-          question:
-            "Each statement in an algorithm must be given in a single line.",
-          optionA: "True",
+        correctAnswer: "True",
+      },
+      {
+        question: "Gautam Buddha founded Hinduism.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question:
-            "The purpose of a terminal box in a flowchart is to meet common people.",
-          optionA: "True",
+        correctAnswer: "False",
+      },
+      {
+        question: "Buddhism spread in the kingdoms of Magadha and Koshala.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question:
-            "The shape of an input/output box in a flowchart is a rectangle.",
-          optionA: "True",
+        correctAnswer: "True",
+      },
+      {
+        question:
+          "The Noble Eight-fold Path consists of eight principles, including Right View and Right Effort.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question:
-            "Flow lines in a flowchart are used to connect symbols with each other.",
-          optionA: "True",
+        correctAnswer: "True",
+      },
+      {
+        question:
+          "Both Buddhist and Jain monks formed associations called sanghas and allowed people from all castes and classes to join them.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "True",
-        },
-        {
-          question:
-            "A good algorithm is written in complex language for precision.",
-          optionA: "True",
+        correctAnswer: "True",
+      },
+      {
+        question: "The prairies are located near the Pacific Coast.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "False",
-        },
-      ],
+        correctAnswer: "False",
+      },
+    ],
   };
 }
 

@@ -5,228 +5,242 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-
-        {
-          "question": "What factors contribute to social change?",
-          "optionA": "Migration, technological advancement, natural disasters",
-          "optionB": "Economic growth, political stability, cultural traditions",
-          "optionC": "Religious practices, population growth, social hierarchy",
-          "correctAnswer": "A. Migration, technological advancement, natural disasters"
-        },
-        {
-          "question": "In the medieval period, how did tribes transform into heterogeneous communities?",
-          "optionA": "Through religious conversions",
-          "optionB": "By embracing settled lifestyles",
-          "optionC": "Due to advancements in technology",
-          "correctAnswer": "B. By embracing settled lifestyles"
-        },
-        {
-          "question": "What is the Varna system in Hindu society?",
-          "optionA": "A system based on geographical regions",
-          "optionB": "A classification based on occupations",
-          "optionC": "A hierarchy based on religious beliefs",
-          "correctAnswer": "B. A classification based on occupations"
-        },
-        {
-          "question": "What is the major distinction between mobile and settled communities?",
-          "optionA": "Settlement patterns",
-          "optionB": "Economic activities",
-          "optionC": "Permanency of residence",
-          "correctAnswer": "C. Permanency of residence"
-        },
-        {
-          "question": "When did the Gonds start to concentrate in central India, leading to the initiation of state formation?",
-          "optionA": "10th century",
-          "optionB": "14th century",
-          "optionC": "18th century",
-          "correctAnswer": "B. 14th century"
-        },
-        {
-          "question": "Which kingdom, associated with the Gonds, became powerful during the decline of the Delhi Sultanate?",
-          "optionA": "Garh Katanga",
-          "optionB": "Gaddis",
-          "optionC": "Nagas",
-          "correctAnswer": "A. Garh Katanga"
-        },
-        {
-          "question": "How did Rani Durgavati contribute to the history of Garh Katanga?",
-          "optionA": "By converting to Islam",
-          "optionB": "By embracing British rule",
-          "optionC": "By resisting Mughal suzerainty",
-          "correctAnswer": "C. By resisting Mughal suzerainty"
-        },
-        {
-          "question": "What marked the decline of the Gonds' influence in the 18th century?",
-          "optionA": "Maratha invasion",
-          "optionB": "British occupation",
-          "optionC": "Mughal resurgence",
-          "correctAnswer": "A. Maratha invasion"
-        },
-        {
-          "question": "How did the Ahoms influence the local population in Assam?",
-          "optionA": "By adopting tribal customs",
-          "optionB": "By resisting cultural assimilation",
-          "optionC": "By settling in a concentrated territory",
-          "correctAnswer": "C. By settling in a concentrated territory"
-        },
-        {
-          "question": "What records did the Ahoms maintain from ancient times?",
-          "optionA": "Buranjis",
-          "optionB": "Vedas",
-          "optionC": "Manusmriti",
-          "correctAnswer": "A. Buranjis"
-        }
-      ]
+      {
+        question: "What is one of the main aims of artificial intelligence?",
+        optionA: "To replicate human emotions",
+        optionB: "To simulate human cognitive abilities",
+        optionC: "To mimic human physical actions",
+        correctAnswer: "To simulate human cognitive abilities",
+      },
+      {
+        question:
+          "Which type of intelligence involves perception of sound and musical patterns?",
+        optionA: "Logical-Mathematical Intelligence",
+        optionB: "Interpersonal Intelligence",
+        optionC: "Musical Intelligence",
+        correctAnswer: "Musical Intelligence",
+      },
+      {
+        question:
+          "What does the rule-based approach in artificial intelligence entail?",
+        optionA: "Machine learning by itself without human input",
+        optionB: "Defining patterns in data by the developer",
+        optionC: "Identifying fraud without predefined rules",
+        correctAnswer: "Defining patterns in data by the developer",
+      },
+      {
+        question: "What is a characteristic of Linguistic-Verbal Intelligence?",
+        optionA: "Solving complex computations",
+        optionB: "Being good at using words and memorizing information",
+        optionC: "Being adept at recognizing patterns",
+        correctAnswer: "Being good at using words and memorizing information",
+      },
+      {
+        question:
+          "Which intelligence involves navigating and controlling one's body well?",
+        optionA: "Musical Intelligence",
+        optionB: "Bodily-Kinesthetic Intelligence",
+        optionC: "Naturalistic Intelligence",
+        correctAnswer: "Bodily-Kinesthetic Intelligence",
+      },
+      {
+        question:
+          "What type of intelligence involves the ability to instruct and convey information to others?",
+        optionA: "Pedagogical Intelligence",
+        optionB: "Visual-Spatial Intelligence",
+        optionC: "Intrapersonal Intelligence",
+        correctAnswer: "Pedagogical Intelligence",
+      },
+      {
+        question:
+          "Which approach in artificial intelligence involves the machine learning by itself?",
+        optionA: "Learning Based Approach",
+        optionB: "Rule Based Approach",
+        optionC: "Cognitive Based Approach",
+        correctAnswer: "Learning Based Approach",
+      },
+      {
+        question: "What is a characteristic of Interpersonal Intelligence?",
+        optionA: "Excellent communication and sensitivity to others' needs",
+        optionB: "Understanding musical tones and structures",
+        optionC: "Solving complex mathematical problems",
+        correctAnswer:
+          "Excellent communication and sensitivity to others' needs",
+      },
+      {
+        question:
+          "What type of intelligence involves the ability to identify and classify elements in the environment, especially animals and plants?",
+        optionA: "Logical-Mathematical Intelligence",
+        optionB: "Naturalistic Intelligence",
+        optionC: "Linguistic-Verbal Intelligence",
+        correctAnswer: "Naturalistic Intelligence",
+      },
+      {
+        question:
+          "Which intelligence involves self-awareness and reflection on one's own mental and emotional state?",
+        optionA: "Visual-Spatial Intelligence",
+        optionB: "Intrapersonal Intelligence",
+        optionC: "Musical Intelligence",
+        correctAnswer: "Intrapersonal Intelligence",
+      },
+    ],
   };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blanks:",
+    activity: "Fill in the blank with correct option:",
     questions: [
-
-        {
-          "question": "In ancient Hindu society, there were four broad classes called Varnas: Brahmins (priests), Kshatriyas (warriors), Vaishyas (traders), and Shudras (workers). This classification was based on __________.",
-          "optionA": "Wealth",
-          "optionB": "Family lineage",
-          "optionC": "Occupations",
-          "correctAnswer": "Occupations"
-        },
-        {
-          "question": "Over time, the caste system became rigid and birth-based. In the medieval period, most people adopted the occupation of their fathers; thus, the son of a Brahmin became a priest while that of a carpenter became __________ else but a carpenter.",
-          "optionA": "A scholar",
-          "optionB": "A trader",
-          "optionC": "None",
-          "correctAnswer": "None"
-        },
-        {
-          "question": "The caste system resulted in many social evils, as follows: The caste system was a birth-based system in which a person was forced to adopt his parental occupation, and not any other of his choice. Thus, a washerman was not allowed to start a shop in provisions, or a low-caste scholar was not allowed to __________ and teach.",
-          "optionA": "Travel",
-          "optionB": "Study",
-          "optionC": "Farm",
-          "correctAnswer": "Study"
-        },
-        {
-          "question": "Besides, some occupations came to be looked as superior and others as inferior. Those engaged in 'dirty' or 'lowly' occupations were termed 'low-caste'; for example, the workers who made shoes from the skin of dead animals came to be categorized as such. So was the case of several other occupations engaged in cleaning the drains, rowing the boats, washing dirty clothes, etc. In comparison, the people belonging to the first three classes: Brahmins, Kshatriyas, and Vaishyas came to be called __________ castes.",
-          "optionA": "High",
-          "optionB": "Middle",
-          "optionC": "Low",
-          "correctAnswer": "High"
-        },
-        {
-          "question": "Most of the worker-class people were included in the category of the Shudras. They were treated as inferior and unclean, and were also imposed several restrictions. In many cases, they were treated as __________.",
-          "optionA": "Scholars",
-          "optionB": "Outcastes",
-          "optionC": "Priests",
-          "correctAnswer": "Outcastes"
-        },
-        {
-          "question": "This caste system resulted into many social evils, as follows: In some cases, low-caste people were not allowed to live near the houses of high-caste people. Many high-caste people did not sell them commodities. The above restrictions resulted in __________.",
-          "optionA": "Economic prosperity",
-          "optionB": "National unity",
-          "optionC": "Untouchability",
-          "correctAnswer": "Untouchability"
-        },
-        {
-          "question": "The caste system created several problems, many of these problems continue to plague the society even today. The important of which are as follows: The society was fragmented into high and low castes. All people were not treated as equal members of the society. A divided society naturally lacked __________.",
-          "optionA": "Religious diversity",
-          "optionB": "National unity",
-          "optionC": "Economic prosperity",
-          "correctAnswer": "National unity"
-        },
-        {
-          "question": "Continuous wars depleted the population of the warrior class, but the low-caste people were not allowed to fight in the army. This weakened the __________.",
-          "optionA": "Economy",
-          "optionB": "Rulers",
-          "optionC": "Religious institutions",
-          "correctAnswer": "Rulers"
-        },
-        {
-          "question": "Many talented people were wasted because merit was thought to be caste-based. The need for caste reform became obvious because of the above causes. It was felt that the society could not progress if all people were not allowed to __________.",
-          "optionA": "Choose their caste",
-          "optionB": "Prosper",
-          "optionC": "Travel freely",
-          "correctAnswer": "Prosper"
-        },
-        {
-          "question": "An important implication of the social reform movement was the rise of __________. As people from different regions were able to mingle owing to newer means of transport, they started to identify themselves as Indians. This led to an intense freedom movement.",
-          "optionA": "Economic prosperity",
-          "optionB": "Nationalism",
-          "optionC": "Untouchability",
-          "correctAnswer": "Nationalism"
-        }
-      ],
+      {
+        question:
+          "______ intelligence involves how good a person is at navigating their environment.",
+        optionA: "Visual-Spatial",
+        optionB: "Linguistic-Verbal",
+        optionC: "Logical-Mathematical",
+        correctAnswer: "Visual-Spatial",
+      },
+      {
+        question:
+          "People with high ______ intelligence tend to be writers, readers, and good at memorizing.",
+        optionA: "Visual-Spatial",
+        optionB: "Linguistic-Verbal",
+        optionC: "Logical-Mathematical",
+        correctAnswer: "Linguistic-Verbal",
+      },
+      {
+        question:
+          "______ intelligence is concerned with number perception and logical problem-solving.",
+        optionA: "Visual-Spatial",
+        optionB: "Linguistic-Verbal",
+        optionC: "Logical-Mathematical",
+        correctAnswer: "Logical-Mathematical",
+      },
+      {
+        question:
+          "People with high ______ intelligence have good body awareness and control.",
+        optionA: "Bodily-Kinesthetic",
+        optionB: "Musical",
+        optionC: "Interpersonal",
+        correctAnswer: "Bodily-Kinesthetic",
+      },
+      {
+        question:
+          "______ intelligence involves the ability to perceive and transform sound and musical patterns.",
+        optionA: "Bodily-Kinesthetic",
+        optionB: "Musical",
+        optionC: "Interpersonal",
+        correctAnswer: "Musical",
+      },
+      {
+        question:
+          "People with high ______ intelligence excel at group work and maintaining peace in organizations.",
+        optionA: "Bodily-Kinesthetic",
+        optionB: "Musical",
+        optionC: "Interpersonal",
+        correctAnswer: "Interpersonal",
+      },
+      {
+        question:
+          "______ intelligence deals with self-awareness and understanding one's own mental-emotional state.",
+        optionA: "Intrapersonal",
+        optionB: "Naturalistic",
+        optionC: "Pedagogical",
+        correctAnswer: "Intrapersonal",
+      },
+      {
+        question:
+          "______ intelligence involves identifying, classifying, and manipulating elements of the environment.",
+        optionA: "Intrapersonal",
+        optionB: "Naturalistic",
+        optionC: "Pedagogical",
+        correctAnswer: "Naturalistic",
+      },
+      {
+        question:
+          "People with high ______ intelligence tend to understand a topic and help others understand it.",
+        optionA: "Intrapersonal",
+        optionB: "Naturalistic",
+        optionC: "Pedagogical",
+        correctAnswer: "Pedagogical",
+      },
+      {
+        question:
+          "Artificial intelligence aims to stimulate human attributes of these nine intelligences but has been most successful in achieving ______ intelligence.",
+        optionA: "Intrapersonal",
+        optionB: "Naturalistic",
+        optionC: "Logical-Mathematical",
+        correctAnswer: "Logical-Mathematical",
+      },
+    ],
   };
 }
 
-if (localStorage.getItem("activityNumber") == 3) 
-  activityData = 
-  activity: "Write 'True' for True and 'False' for False statements:",
-  questions:
-  [
-    {
-      "question": "The caste system in ancient Hindu society was primarily based on occupation.",
-      "optionA": "True",
-      "optionB": "False",
-      "correctAnswer": "True"
-    },
-    {
-      "question": "In the medieval period, the caste system became more flexible and allowed individuals to choose their occupations freely.",
-      "optionA": "True",
-      "optionB": "False",
-      "correctAnswer": "False"
-    },
-    {
-      "question": "Untouchability refers to the practice of not allowing low-caste people to come into contact with high-caste people.",
-      "optionA": "True",
-      "optionB": "False",
-      "correctAnswer": "True"
-    },
-    {
-      "question": "The Varna system in ancient Hindu society had four classes: Brahmins, Kshatriyas, Vaishyas, and Shudras.",
-      "optionA": "True",
-      "optionB": "False",
-      "correctAnswer": "True"
-    },
-    {
-      "question": "The caste system led to a fragmented society and hindered national unity.",
-      "optionA": "True",
-      "optionB": "False",
-      "correctAnswer": "True"
-    },
-    {
-      "question": "The caste system allowed individuals to freely choose their occupations without any restrictions.",
-      "optionA": "True",
-      "optionB": "False",
-      "correctAnswer": "False"
-    },
-    {
-      "question": "The social reform movement in India during the medieval period had no impact on the caste system.",
-      "optionA": "True",
-      "optionB": "False",
-      "correctAnswer": "False"
-    },
-    {
-      "question": "Continuous wars weakened the rulers but had no impact on the economy during the medieval period.",
-      "optionA": "True",
-      "optionB": "False",
-      "correctAnswer": "False"
-    },
-    {
-      "question": "The Ahoms, a tribe in India, retained their original language and customs despite settling in a new region.",
-      "optionA": "True",
-      "optionB": "False",
-      "correctAnswer": "False"
-    },
-    {
-      "question": "The caste system in ancient Hindu society allowed individuals to freely change their Varnas based on their skills and preferences.",
-      "optionA": "True",
-      "optionB": "False",
-      "correctAnswer": "False"
-    }
-  ]
-  
-
-
+if (localStorage.getItem("activityNumber") == 3) {
+  activityData = {
+    activity: "Write 'True' for True and 'False' for False statements:",
+    questions: [
+      {
+        question:
+          "The Visual-Spatial intelligence deals with perception and decoding of sound and musical patterns.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question:
+          "Linguistic-Verbal intelligence primarily involves number perception and logical problem-solving.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question:
+          "Bodily-Kinesthetic intelligence relates to good body awareness and control.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "True",
+      },
+      {
+        question:
+          "Musical intelligence encompasses the ability to perceive, distinguish, and transform sound and musical patterns.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "True",
+      },
+      {
+        question:
+          "Interpersonal intelligence focuses on self-awareness and understanding one's own mental-emotional state.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question:
+          "Intrapersonal intelligence involves identifying, classifying, and manipulating elements of the environment.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question:
+          "Naturalistic intelligence deals with the ability to instruct, facilitate, and convey information to others.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question:
+          "Pedagogical intelligence aims to stimulate human attributes of nine intelligences successfully.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question:
+          "Artificial intelligence has successfully achieved all nine human intelligences.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question:
+          "Logical-Mathematical intelligence is concerned with number perception and logical problem-solving.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "True",
+      },
+    ],
+  };
+}
 
 export var activityData;

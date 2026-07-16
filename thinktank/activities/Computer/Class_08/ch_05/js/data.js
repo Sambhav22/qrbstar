@@ -6,85 +6,81 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        question:
-          "What is the term used to refer to a member of a tribal society in the text?",
-        optionA: "Indigenous",
-        optionB: "Adivasi",
-        optionC: "Nomad",
-        correctAnswer: "B) Adivasi",
+        question: "Who formally defined the term 'Computer Virus' in 1983?",
+        optionA: "Alan Turing",
+        optionB: "Fred Cohen",
+        optionC: "Linus Torvalds",
+        correctAnswer: "Fred Cohen",
       },
       {
         question:
-          "In a tribal society, where do most of their needs for food and livelihood come from?",
-        optionA: "Urban areas",
-        optionB: "Dense forests or hills",
-        optionC: "Nearby towns or villages",
-        correctAnswer: "B) Dense forests or hills",
+          "What does the term VIRUS stand for in the context of computer viruses?",
+        optionA: "Virtual Information Resources Under Seize",
+        optionB: "Very Important Resource Under Security",
+        optionC: "Vital Information Resources Under Seize",
+        correctAnswer: "Vital Information Resources Under Seize",
       },
       {
         question:
-          "Which type of cultivation is commonly followed by many tribal societies?",
-        optionA: "Terrace cultivation",
-        optionB: "Jhum cultivation",
-        optionC: "Organic cultivation",
-        correctAnswer: "B) Jhum cultivation",
+          "Which type of virus infects executable files with extensions like .com, .exe, .ovl, .drv, and .sys?",
+        optionA: "Boot Virus",
+        optionB: "Program Virus",
+        optionC: "Stealth Virus",
+        correctAnswer: "Program Virus",
       },
       {
         question:
-          "What is the role of women in a tribal society, according to the text?",
-        optionA: "Limited to domestic work",
-        optionB: "Equal participation in both domestic and outside work",
-        optionC: "Exclusively responsible for agricultural tasks",
-        correctAnswer:
-          "B) Equal participation in both domestic and outside work",
+          "What type of virus hides itself by changing file size, creation dates, and times?",
+        optionA: "Web Scripting Virus",
+        optionB: "Macro Virus",
+        optionC: "Stealth Virus",
+        correctAnswer: "Stealth Virus",
       },
       {
         question:
-          "How do tribal societies typically communicate with the outside world when they need to meet their basic needs?",
-        optionA: "By sending emissaries",
-        optionB: "By learning the local language",
-        optionC: "By using sign language",
-        correctAnswer: "B) By learning the local language",
+          "Which type of virus rewrites itself during execution and requires a metamorphic engine?",
+        optionA: "Macro Virus",
+        optionB: "Self Modifying Virus",
+        optionC: "Multipartite Virus",
+        correctAnswer: "Self Modifying Virus",
       },
       {
         question:
-          "What is the primary source of livelihood for the Bakarwals of Kashmir?",
-        optionA: "Fishing",
-        optionB: "Goat rearing",
-        optionC: "Crop cultivation",
-        correctAnswer: "B) Goat rearing",
+          "What type of virus infects files containing macros in certain applications or programs?",
+        optionA: "Worm",
+        optionB: "Trojan Horse",
+        optionC: "Macro Virus",
+        correctAnswer: "Macro Virus",
       },
       {
         question:
-          "What is the purpose of a village committee in a tribal society?",
-        optionA: "To organize religious ceremonies",
-        optionB: "To enforce rules and settle disputes",
-        optionC: "To elect a village chief",
-        correctAnswer: "B) To enforce rules and settle disputes",
+          "Which virus sends emails to spread itself and may cause harmful effects upon activation?",
+        optionA: "Email Virus",
+        optionB: "Trojan Horse",
+        optionC: "Overwrite Virus",
+        correctAnswer: "Email Virus",
+      },
+      {
+        question: "What behavior might indicate a virus attack on a system?",
+        optionA: "Unusual messages on the screen",
+        optionB: "Faster processor speed",
+        optionC: "Constantly illuminated disk drive light",
+        correctAnswer: "Unusual messages on the screen",
       },
       {
         question:
-          "According to the text, what did the British introduce to bring the forests under their direct control?",
-        optionA: "Forest laws",
-        optionB: "Forest preservation methods",
-        optionC: "Forest conservation initiatives",
-        correctAnswer: "A) Forest laws",
+          "Which precautionary measure is recommended to protect a system against viruses?",
+        optionA: "Using pirated CD/DVD for software installation",
+        optionB: "Browsing unwanted websites regularly",
+        optionC: "Installing and updating antivirus software",
+        correctAnswer: "Installing and updating antivirus software",
       },
       {
-        question:
-          "What impact did the British rule have on tribal chiefs' authority and power?",
-        optionA: "They retained their power and authority.",
-        optionB: "They lost their power and authority.",
-        optionC: "They became advisors to the British.",
-        correctAnswer: "B) They lost their power and authority.",
-      },
-      {
-        question:
-          "Which region experienced a major tribal revolt in the 19th century, as mentioned in the text?",
-        optionA: "Northeastern states",
-        optionB: "Central India",
-        optionC: "Chotanagpur region",
-        correctAnswer: "C) Chotanagpur region",
+        question: "What is the primary function of antivirus software?",
+        optionA: "Creating viruses",
+        optionB: "Protecting against viruses",
+        optionC: "Spreading malware",
+        correctAnswer: "Protecting against viruses",
       },
     ],
   };
@@ -92,86 +88,87 @@ if (localStorage.getItem("activityNumber") == 1) {
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blanks:",
+    activity: "Fill in the blank with correct option:",
     questions: [
       {
-        question: "A tribal society is also known as an ________________.",
-        optionA: "Indigenous",
-        optionB: "Nomadic",
-        optionC: "Adivasi",
-        correctAnswer: "C) Adivasi",
+        question:
+          "A computer virus is a malicious program that may cause harm to the computer by downloading and installing itself from various resources, without the knowledge of the user. Once loaded in a computer system, it starts damaging the system ___________.",
+        options: ["manually", "automatically", "continuously"],
+        correctAnswer: "automatically",
       },
       {
         question:
-          "Most tribal societies follow __________ cultivation, which involves clearing a patch of land, growing a crop for a couple of years, and then leaving it fallow.",
-        optionA: "Traditional",
-        optionB: "Terrace",
-        optionC: "Jhum",
-        correctAnswer: "C) Jhum",
+          "Program viruses infect executable files with extensions like .com, .exe, .ovl, .drv, .sys, etc. These programs get loaded into memory during execution, and the virus becomes active in memory by ___________.",
+        options: [
+          "encrypting files",
+          "replicating itself",
+          "deleting system files",
+        ],
+        correctAnswer: "replicating itself",
       },
       {
         question:
-          "Some tribal societies are traditional __________ who move with their herds of cattle, goats, sheep, etc., in search of grass.",
-        optionA: "Farmers",
-        optionB: "Fishermen",
-        optionC: "Herders",
-        correctAnswer: "C) Herders",
+          "Boot viruses infect the boot records or master boot records and replace the boot records responsible for loading the operating system in memory by ___________.",
+        options: [
+          "moving them elsewhere",
+          "copying them repeatedly",
+          "copying it elsewhere",
+        ],
+        correctAnswer: "copying it elsewhere",
       },
       {
         question:
-          "The members of a tribal society are arranged in a __________ group, where all members are equal, and there are no distinctions like that of caste.",
-        optionA: "Heterogeneous",
-        optionB: "Homogeneous",
-        optionC: "Hierarchical",
-        correctAnswer: "B) Homogeneous",
+          "Stealth viruses infect the system by hiding the file, changing the size of the file, or changing the ___________.",
+        options: [
+          "name of the file",
+          "creation date and time",
+          "file extension",
+        ],
+        correctAnswer: "creation date and time",
       },
       {
         question:
-          "According to the text, many tribal societies visit nearby villages and towns for __________ where they engage in carrying loads, building sites, cultivating fields, etc.",
-        optionA: "Shopping",
-        optionB: "Daily wages",
-        optionC: "Festivals",
-        correctAnswer: "B) Daily wages",
+          "Multipartite viruses are distributed through infected media and usually hide in the memory. Gradually, the virus moves to the boot sector of the hard drive and infects executable files, spreading across the computer system ___________.",
+        options: ["simultaneously", "progressively", "intermittently"],
+        correctAnswer: "progressively",
       },
       {
         question:
-          "The British introduced __________ laws to bring the forests under their direct control, restricting the tribals' free movement in the forest.",
-        optionA: "Conservation",
-        optionB: "Land settlement",
-        optionC: "Forest",
-        correctAnswer: "C) Forest",
+          "Polymorphic viruses encrypt or encode themselves in different ways every time they infect a system, making it impossible for antivirus software to find them using ___________.",
+        options: [
+          "pattern recognition",
+          "string or signature searches",
+          "memory analysis",
+        ],
+        correctAnswer: "string or signature searches",
       },
       {
         question:
-          "Tribal revolts occurred when the British sought to intrude into the way of life of the tribal people, leading to discontentment and __________.",
-        optionA: "Collaboration",
-        optionB: "Conversion",
-        optionC: "Cooperation",
-        correctAnswer: "B) Conversion",
+          "Trojan horse is a simple program that pretends to be a useful application while always doing something destructive, spreading only when ___________.",
+        options: [
+          "activated by the user",
+          "downloaded from the internet",
+          "connected to the network",
+        ],
+        correctAnswer: "activated by the user",
       },
       {
         question:
-          "The Chotanagpur region experienced major tribal revolts when the British wanted to exploit the tribal land for the cultivation of cash crops and laying __________.",
-        optionA: "Roads",
-        optionB: "Railways",
-        optionC: "Canals",
-        correctAnswer: "B) Railways",
+          "Email viruses send emails to spread themselves and, upon activation, cause unexpected and usually harmful effects, such as destroying certain files or hard disks and causing the attachment to be remailed to everyone available in the ___________.",
+        options: ["sent items folder", "inbox address book", "drafts folder"],
+        correctAnswer: "inbox address book",
       },
       {
         question:
-          "The British interference in the tribal economy led to the disruption of traditional practices like jhum cultivation and the imposition of __________ on collecting forest produce.",
-        optionA: "Taxes",
-        optionB: "Restrictions",
-        optionC: "Regulations",
-        correctAnswer: "B) Restrictions",
+          "Overwrite viruses overwrite the content of a file, losing the original content. To delete this virus, you also need to get rid of ___________.",
+        options: ["your system", "the infected file", "the antivirus program"],
+        correctAnswer: "the infected file",
       },
       {
         question:
-          "Tribal people protested and raised their voice against exploitation when their discontentment reached __________ limits.",
-        optionA: "Tolerable",
-        optionB: "Unbearable",
-        optionC: "Manageable",
-        correctAnswer: "B) Unbearable",
+          "An antivirus software is a computer program used to scan files, detect, prevent, identify, and eliminate computer viruses and other malicious software (malware). It also takes action to disarm or remove malicious software from a computer, found in memory, on storage media, or in incoming files ___________.",
+        options: ["manually", "automatically", "semi-automatically"],
+        correctAnswer: "automatically",
       },
     ],
   };
@@ -183,63 +180,73 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
       {
         question:
-          "A tribal society is a group of people with unique characteristics in language, social organization, and customs.",
+          "The Program virus infects executable files with extensions like .com, .exe, .ovl, .drv, .sys, etc.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",
+        correctAnswer: "True",
       },
       {
         question:
-          "Tribal societies prefer to live in densely populated urban areas.",
+          "Boot viruses infect only the data files stored in the computer.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",
+        correctAnswer: "False",
       },
       {
         question:
-          "Jhum cultivation is a common practice among many tribal societies.",
+          "Stealth viruses conceal themselves by changing the creation date and time of files.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",
+        correctAnswer: "True",
       },
       {
         question:
-          "Women in tribal societies usually have a limited role in both domestic and outside work.",
+          "Web Scripting Virus resides in certain elements of a website, such as links, ads, images, and videos.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",
+        correctAnswer: "True",
       },
       {
         question:
-          "Members of a tribal society are typically organized into a hierarchical social structure with distinct castes.",
+          "Multipartite viruses usually hide in the memory and never move to the hard drive.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",
+        correctAnswer: "False",
       },
       {
         question:
-          "Tribal societies rely on a strong sense of community and have a collective meeting place called Akhara.",
+          "Polymorphic viruses use the same encryption method every time they infect a system.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",
+        correctAnswer: "False",
       },
       {
         question:
-          "The British introduced forest preservation methods to protect tribal lands and resources.",
+          "Trojan horse spreads automatically without any user intervention.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",
+        correctAnswer: "False",
       },
       {
         question:
-          "Conversion to Christianity was widely accepted by tribal people during British rule.",
+          "Email viruses activate themselves when a user opens a suspicious email attachment.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",
+        correctAnswer: "True",
       },
       {
         question:
-          "The British rule led to an improvement in the tribal economy and the preservation of traditional practices.",
+          "Overwrite viruses maintain the original content of the infected file.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",
+        correctAnswer: "False",
       },
       {
         question:
-          "Tribal revolts occurred when the tribal people were content with British rule.",
+          "Antivirus software takes manual action to detect and eliminate computer viruses.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",
+        correctAnswer: "False",
       },
     ],
   };

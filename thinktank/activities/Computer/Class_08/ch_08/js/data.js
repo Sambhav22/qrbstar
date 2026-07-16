@@ -6,84 +6,79 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        question:
-          "What is a social evil mentioned in the text that has been abolished by law?",
-        optionA: "Dowry Custom",
-        optionB: "Sati Custom",
-        optionC: "Child Marriage",
-        correctAnswer: "B",
+        question: "What purpose(s) can Python be used for?",
+        optionA: "Developing games only",
+        optionB: "Developing games, websites, GUI, and web applications",
+        optionC: "Developing websites and GUI only",
+        correctAnswer: "Developing games, websites, GUI, and web applications",
+      },
+      {
+        question: "What makes Python an easy-to-learn language?",
+        optionA: "Its complexity similar to other programming languages",
+        optionB: "Its code similarity to English language",
+        optionC: "Its requirement for specifying variable types",
+        correctAnswer: "Its code similarity to English language",
+      },
+      {
+        question: "What is one feature of Python regarding variable typing?",
+        optionA: "Variables must be specified as int., str., or float.",
+        optionB: "Variable typing is optional.",
+        optionC: "Python doesn’t support variables.",
+        correctAnswer: "Variable typing is optional.",
       },
       {
         question:
-          "Which social reformer focused on women's education in the text?",
-        optionA: "Raja Ram Mohan Roy",
-        optionB: "Swami Dayananda",
-        optionC: "Mahatma Gandhi",
-        correctAnswer: "A",
+          "Which mode provides immediate output for each command in Python?",
+        optionA: "Script Mode",
+        optionB: "Both Interactive Mode and Script Mode",
+        optionC: "Interactive Mode",
+        correctAnswer: "Interactive Mode",
+      },
+      {
+        question: "What is a key characteristic of Python's comments?",
+        optionA: "They are executed by the interpreter.",
+        optionB:
+          "They start with a hash symbol (#) and are ignored by the interpreter.",
+        optionC: "They can't be multiline.",
+        correctAnswer:
+          "They start with a hash symbol (#) and are ignored by the interpreter.",
+      },
+      {
+        question: "How are blocks of code marked in Python?",
+        optionA: "Using parentheses ()",
+        optionB: "Utilizing indentation",
+        optionC: "Using brackets []",
+        correctAnswer: "Utilizing indentation",
       },
       {
         question:
-          "What is the minimum age for a girl to get married according to the law mentioned in the text?",
-        optionA: "14 years",
-        optionB: "18 years",
-        optionC: "21 years",
-        correctAnswer: "B",
+          "Which of the following is a correct rule for creating variables in Python?",
+        optionA: "Variables can start with a number.",
+        optionB: "Variable names are case-insensitive.",
+        optionC: "Variable names cannot start with a number.",
+        correctAnswer: "Variable names cannot start with a number.",
+      },
+      {
+        question: "What are the four types of data mentioned in Python?",
+        optionA: "Literal, integer, float, and complex",
+        optionB: "Strings, integers, floats, and arrays",
+        optionC: "Booleans, characters, doubles, and longs",
+        correctAnswer: "Literal, integer, float, and complex",
+      },
+      {
+        question: "What is the purpose of operators in Python?",
+        optionA: "They define data types.",
+        optionB: "They perform operations on variables and values.",
+        optionC: "They control loops and iterations.",
+        correctAnswer: "They perform operations on variables and values.",
       },
       {
         question:
-          "What did Swami Dayananda oppose as part of his efforts to reform society?",
-        optionA: "Child Marriage",
-        optionB: "Dowry System",
-        optionC: "Caste Discrimination",
-        correctAnswer: "C",
-      },
-      {
-        question:
-          "What did Mahatma Gandhi advocate for in terms of women's rights?",
-        optionA: "Equal status and equal rights for both sons and daughters",
-        optionB: "Child marriage",
-        optionC: "The dowry system",
-        correctAnswer: "A",
-      },
-      {
-        question:
-          "Who founded the Muhammadan Anglo Oriental College, now known as Aligarh Muslim University?",
-        optionA: "Raja Ram Mohan Roy",
-        optionB: "Sir Syed Ahmad Khan",
-        optionC: "Mahatma Gandhi",
-        correctAnswer: "B",
-      },
-      {
-        question:
-          "Which region of India is mentioned as an example of the impact of the social reform movement on women?",
-        optionA: "Bengal",
-        optionB: "Punjab",
-        optionC: "Rajasthan",
-        correctAnswer: "A",
-      },
-      {
-        question:
-          "What was a key outcome of the social reform movement discussed in the text?",
-        optionA: "Women taking part in social activities at par with men",
-        optionB: "A complete change in people's attitude",
-        optionC: "The prevalence of social evils",
-        correctAnswer: "A",
-      },
-      {
-        question:
-          "Which woman is mentioned as an example of someone who actively participated in social life and the national movement for freedom?",
-        optionA: "Sarojini Naidu",
-        optionB: "Raja Ram Mohan Roy",
-        optionC: "Sati",
-        correctAnswer: "A",
-      },
-      {
-        question:
-          "What were the tools of discussing political, economic, social, and religious affairs that helped spread ideas in the text?",
-        optionA: "Handwritten manuscripts",
-        optionB: "Modern machines",
-        optionC: "Printing press, newspapers, and books",
-        correctAnswer: "C",
+          "What function helps identify the data type of a variable in Python?",
+        optionA: "print()",
+        optionB: "len()",
+        optionC: "type()",
+        correctAnswer: "type()",
       },
     ],
   };
@@ -91,107 +86,87 @@ if (localStorage.getItem("activityNumber") == 1) {
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blanks:",
+    activity: "Fill in the blank with correct option:",
     questions: [
       {
         question:
-          "The time when so-called low-caste people were shunned and not allowed to come near is an example of __________ social evil.",
-        options: {
-          A: "prevalent",
-          B: "abolished",
-          C: "humiliating",
-        },
-        correctAnswer: "C",
+          "Python can be used for developing games, websites, Graphic User Interface (GUI), and ____________ applications.",
+        optionA: "Mobile",
+        optionB: "Web",
+        optionC: "Database",
+        correctAnswer: "Web",
       },
       {
         question:
-          "Swami Dayananda established the Arya Samaj in Bombay in _______.",
-        options: {
-          A: "1850",
-          B: "1875",
-          C: "1900",
-        },
-        correctAnswer: "B",
+          "Python is a free and open-source language that can be downloaded from any operating system ____________ cost.",
+        optionA: "At",
+        optionB: "For",
+        optionC: "Without",
+        correctAnswer: "At",
       },
       {
         question:
-          "Mahatma Gandhi advocated for equal status and equal rights for _______ and daughters.",
-        options: {
-          A: "sons",
-          B: "cousins",
-          C: "relatives",
-        },
-        correctAnswer: "A",
+          "Python is an ____________ language, allowing easy interpretation in other software's compilers like C+ and C++.",
+        optionA: "Interpreted",
+        optionB: "Executable",
+        optionC: "Assembled",
+        correctAnswer: "Interpreted",
       },
       {
         question:
-          "The minimum age for a girl to get married according to the law is _______ years.",
-        options: {
-          A: "14",
-          B: "18",
-          C: "21",
-        },
-        correctAnswer: "B",
+          "The type of a variable in Python is not required to be ____________ upon declaration.",
+        optionA: "Defined",
+        optionB: "Specified",
+        optionC: "Declared",
+        correctAnswer: "Specified",
       },
       {
         question:
-          "Swami Dayananda opposed _______ among Muslim men and purdah system among Muslim women.",
-        options: {
-          A: "caste discrimination",
-          B: "polygamy",
-          C: "dowry system",
-        },
-        correctAnswer: "B",
+          "The Python Setup window appears after clicking the ____________ button during the installation process.",
+        optionA: "Download",
+        optionB: "Install now",
+        optionC: "Run",
+        correctAnswer: "Run",
       },
       {
         question:
-          "The social reform movement in Bengal, Maharashtra, and other provinces brought about a change in the thinking of common people, including both Hindus and _______.",
-        options: {
-          A: "Muslims",
-          B: "Christians",
-          C: "Buddhists",
-        },
-        correctAnswer: "A",
+          "In interactive mode, the Python command line shell provides immediate output for each ____________ entered.",
+        optionA: "Program",
+        optionB: "Command",
+        optionC: "Function",
+        correctAnswer: "Command",
       },
       {
         question:
-          "Social reformers presented the main idea that an educated woman can raise the level of the whole _______.",
-        options: {
-          A: "village",
-          B: "family",
-          C: "country",
-        },
-        correctAnswer: "B",
+          "____________ is used to separate codes into useful blocks and make them more readable and reusable.",
+        optionA: "Indentation",
+        optionB: "Comments",
+        optionC: "Functions",
+        correctAnswer: "Functions",
       },
       {
         question:
-          "The Arya Samaj established a large number of educational institutions, including gurukuls, kanya-gurukuls, and DAV schools and colleges, in _______ India.",
-        options: {
-          A: "South",
-          B: "North",
-          C: "West",
-        },
-        correctAnswer: "B",
+          "Blocks of code in Python are marked by utilizing ____________.",
+        optionA: "Parentheses",
+        optionB: "Brackets",
+        optionC: "Indentation",
+        correctAnswer: "Indentation",
       },
       {
         question:
-          "Women started to take part in social life, and many women, both Hindu and Muslim, wrote books depicting the plight of _______.",
-        options: {
-          A: "children",
-          B: "men",
-          C: "women",
-        },
-        correctAnswer: "C",
+          "Variables in Python are like containers where ____________ can be stored and changed later.",
+        optionA: "Expressions",
+        optionB: "Functions",
+        optionC: "Values",
+        correctAnswer: "Values",
       },
       {
         question:
-          "Mahatma Gandhi was against the _______ system because it restricted women's movement.",
-        options: {
-          A: "caste discrimination",
-          B: "dowry",
-          C: "purdah",
-        },
-        correctAnswer: "C",
+          "Python allows the identification of the data type of a variable using the ____________ function.",
+        optionA: "print()",
+        optionB: "len()",
+        optionC: "type()",
+        correctAnswer: "type()",
       },
     ],
   };
@@ -202,91 +177,59 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
       {
-        question: "Swami Dayananda founded the Arya Samaj in 1850.",
-        options: {
-          A: "True",
-          B: "False",
-        },
-        correctAnswer: "B",
+        question:
+          "Python is primarily used for developing games and not suitable for web applications.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question: "Python is a paid programming language.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
-          "Mahatma Gandhi advocated for equal rights for both sons and daughters.",
-        options: {
-          A: "True",
-          B: "False",
-        },
-        correctAnswer: "A",
+          "In Python, variable types need to be explicitly defined during declaration.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
-          "The minimum age for a girl to get married according to the law is 21 years.",
-        options: {
-          A: "True",
-          B: "False",
-        },
-        correctAnswer: "B",
+          "Python Setup window appears immediately after downloading Python.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question: "Python's comments are executed by the interpreter.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question: "Blocks of code in Python are marked by parentheses.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question: "Variable names in Python are case-insensitive.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question: "Python supports only one data type for variables.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
       },
       {
         question:
-          "Swami Dayananda opposed caste discrimination among Muslim men.",
-        options: {
-          A: "True",
-          B: "False",
-        },
-        correctAnswer: "B",
+          "Python's 'type()' function helps in identifying the data type of a variable.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "True",
       },
       {
         question:
-          "The social reform movement in Bengal brought about a change in thinking of Hindus only.",
-        options: {
-          A: "True",
-          B: "False",
-        },
-        correctAnswer: "B",
-      },
-      {
-        question:
-          "Social reformers presented the idea that an illiterate woman can raise her children well.",
-        options: {
-          A: "True",
-          B: "False",
-        },
-        correctAnswer: "B",
-      },
-      {
-        question:
-          "The Arya Samaj established gurukuls that impart education in Sanskrit, Vedas, and Ayurveda.",
-        options: {
-          A: "True",
-          B: "False",
-        },
-        correctAnswer: "A",
-      },
-      {
-        question:
-          "Women in the pre-independence days did not actively participate in social life.",
-        options: {
-          A: "True",
-          B: "False",
-        },
-        correctAnswer: "B",
-      },
-      {
-        question: "Mahatma Gandhi was against the caste discrimination system.",
-        options: {
-          A: "True",
-          B: "False",
-        },
-        correctAnswer: "A",
-      },
-      {
-        question: "Sir Syed Ahmad Khan founded Aligarh Muslim University.",
-        options: {
-          A: "True",
-          B: "False",
-        },
-        correctAnswer: "A",
+          "Indentation is not crucial for defining blocks of code in Python.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
       },
     ],
   };

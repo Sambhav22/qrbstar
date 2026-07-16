@@ -5,189 +5,168 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-        {
-          question: "What was the primary function of the abacus?",
-          optionA: "Division and multiplication",
-          optionB: "Arithmetic calculations",
-          optionC: "Square and cube roots",
-          correctAnswer: "B",
-        },
-        {
-          question: "Who is credited with inventing the Analytical Engine?",
-          optionA: "John Napier",
-          optionB: "Blaise Pascal",
-          optionC: "Charles Babbage",
-          correctAnswer: "C",
-        },
-        {
-          question: "What was the main purpose of Jacquard Loom?",
-          optionA: "Textile manufacturing",
-          optionB: "Arithmetic calculations",
-          optionC: "Mechanical engineering",
-          correctAnswer: "A",
-        },
-        {
-          question:
-            "Which machine was known as the first commercially successful calculating machine?",
-          optionA: "Analytical Engine",
-          optionB: "Arithmometer",
-          optionC: "Difference Engine",
-          correctAnswer: "B",
-        },
-        {
-          question: "Who invented the Difference Engine?",
-          optionA: "John Napier",
-          optionB: "Charles Babbage",
-          optionC: "John Mauchly",
-          correctAnswer: "B",
-        },
-        {
-          question:
-            "Which device introduced the concept of punch cards for information storage?",
-          optionA: "Arithmometer",
-          optionB: "Analytical Engine",
-          optionC: "Tabulating Machine",
-          correctAnswer: "C",
-        },
-        {
-          question:
-            "Which computer was the first to use punch tape for programming and output generation?",
-          optionA: "Z1",
-          optionB: "ENIAC",
-          optionC: "Harvard Mark 1",
-          correctAnswer: "A",
-        },
-        {
-          question:
-            "Who invented the first electronic digital computing device?",
-          optionA: "Konrad Zuse",
-          optionB: "John Atanasoff",
-          optionC: "Howard Aiken",
-          correctAnswer: "B",
-        },
-        {
-          question: "What was the predecessor to EDVAC?",
-          optionA: "UNIVAC",
-          optionB: "ENIAC",
-          optionC: "EDSAC",
-          correctAnswer: "B",
-        },
-        {
-          question: "What did UNIVAC stand for?",
-          optionA: "Universal Automatic Computer",
-          optionB: "Electronic Discrete Variable Automatic Computer",
-          optionC: "Electronic Numerical Integrator And Computer",
-          correctAnswer: "C",
-        },
-      ],
+      {
+        question:
+          "What are the three essential components required for computer processes?",
+        optionA: "Software, CPU, RAM",
+        optionB: "Input Devices, Output Devices, CPU",
+        optionC: "Monitor, Keyboard, Mouse",
+        correctAnswer: "Input Devices, Output Devices, CPU",
+      },
+      {
+        question:
+          "Which device is used to identify specific items with machine-readable formats?",
+        optionA: "OCR",
+        optionB: "Barcode Reader",
+        optionC: "Magnetic Ink Character Reader",
+        correctAnswer: "Barcode Reader",
+      },
+      {
+        question: "What does OMR stand for, and what is its primary function?",
+        optionA: "Optical Mark Reader - Reads digital images",
+        optionB: "Optical Mark Recognition - Recognizes specific shapes",
+        optionC: "Optical Mark Reader - Detects marks on paper",
+        correctAnswer: "Optical Mark Reader - Detects marks on paper",
+      },
+      {
+        question:
+          "Which device is commonly used to read characters on cheques printed in magnetic ink?",
+        optionA: "Card Reader",
+        optionB: "MICH",
+        optionC: "Trackball",
+        correctAnswer: "MICH",
+      },
+      {
+        question:
+          "Which input device is mainly used in air-traffic control rooms and computer video games?",
+        optionA: "Graphic Tablet",
+        optionB: "Touch Screen",
+        optionC: "Trackball",
+        correctAnswer: "Trackball",
+      },
+      {
+        question: "What does an output device do?",
+        optionA: "Converts computer information for user understanding",
+        optionB: "Processes data for the CPU",
+        optionC: "Reads and captures data quickly",
+        correctAnswer: "Converts computer information for user understanding",
+      },
+      {
+        question: "What determines the quality of a printer?",
+        optionA: "Technology and speed",
+        optionB: "Cost and quality of printing",
+        optionC: "Resolution",
+        correctAnswer: "Resolution",
+      },
+      {
+        question: "Which is an example of a non-impact printer?",
+        optionA: "Dot Matrix Printer",
+        optionB: "Laser Printer",
+        optionC: "Daisy Wheel Printer",
+        correctAnswer: "Laser Printer",
+      },
+      {
+        question: "What is the main function of a plotter?",
+        optionA: "Produce high-quality graphics",
+        optionB: "Print textual information",
+        optionC: "Store data for future use",
+        correctAnswer: "Produce high-quality graphics",
+      },
+      {
+        question: "What is the main function of system software?",
+        optionA: "Perform dedicated tasks",
+        optionB: "Control computer operations",
+        optionC: "Enhance hardware efficiency",
+        correctAnswer: "Enhance hardware efficiency",
+      },
+    ],
   };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blanks:",
+    activity: "Fill in the blank with correct option:",
     questions: [
-        {
-          question:
-            "The word 'computer' was initially used in the 16th century for a person who used to ____________.",
-          options: {
-            a: "design machinery",
-            b: "perform calculations",
-            c: "manage data",
-          },
-          correctAnswer: "b",
-        },
-        {
-          question:
-            "The abacus, believed to be the first computer, was invented around ____________ years ago.",
-          options: {
-            a: "2,000",
-            b: "5,000",
-            c: "8,000",
-          },
-          correctAnswer: "b",
-        },
-        {
-          question:
-            "John Napier's invention, Napier's Bones, enabled calculations of ____________ and ____________.",
-          options: {
-            a: "square roots",
-            b: "cube roots",
-            c: "both square and cube roots",
-          },
-          correctAnswer: "c",
-        },
-        {
-          question:
-            "Pascaline, invented by Blaise Pascal, could perform ____________ and ____________.",
-          options: {
-            a: "addition; subtraction",
-            b: "multiplication; division",
-            c: "multiplication; addition",
-          },
-          correctAnswer: "a",
-        },
-        {
-          question:
-            "Jacquard Loom, controlled by punched cards, marked the beginning of ____________.",
-          options: {
-            a: "mechanical engineering",
-            b: "information storage",
-            c: "textile manufacturing",
-          },
-          correctAnswer: "c",
-        },
-        {
-          question:
-            "The Difference Engine, designed by Charles Babbage in 1822, was meant to solve tables of ____________.",
-          options: {
-            a: "logarithms",
-            b: "trigonometric functions",
-            c: "square roots",
-          },
-          correctAnswer: "a",
-        },
-        {
-          question:
-            "Z1, the first programmable computer created by Konrad Zuse, utilized ____________ for programming and output generation.",
-          options: {
-            a: "punch tape",
-            b: "punched cards",
-            c: "vacuum tubes",
-          },
-          correctAnswer: "a",
-        },
-        {
-          question:
-            "The Atanasoff-Berry Computer (ABC) was the first ____________ digital computing device.",
-          options: {
-            a: "mechanical",
-            b: "electronic",
-            c: "programmable",
-          },
-          correctAnswer: "b",
-        },
-        {
-          question:
-            "The Harvard Mark 1, also known as IBM Automatic Sequence Controlled Calculator (ASCC), was the first ____________ computer.",
-          options: {
-            a: "mechanical",
-            b: "electronic",
-            c: "hybrid",
-          },
-          correctAnswer: "a",
-        },
-        {
-          question:
-            "UNIVAC, invented by John Mauchly and John Presper Eckert, was the first successful ____________ computer.",
-          options: {
-            a: "analog",
-            b: "digital",
-            c: "hybrid",
-          },
-          correctAnswer: "b",
-        },
-      ],
+      {
+        question:
+          "__________, Central Processing Unit (CPU), and Output Devices are the three essential components required for computer processes.",
+        optionA: "Software",
+        optionB: "Input Devices",
+        optionC: "Storage Devices",
+        correctAnswer: "Input Devices",
+      },
+      {
+        question:
+          "An __________ is used to detect pen/pencil marks of pre-specified shape on a sheet of paper.",
+        optionA: "Optical Mark Reader (OMR)",
+        optionB: "Magnetic Ink Character Reader (MICH)",
+        optionC: "Barcode Reader",
+        correctAnswer: "Optical Mark Reader (OMR)",
+      },
+      {
+        question:
+          "A ________ is used to read special characters printed on documents like cheques using special magnetic ink.",
+        optionA: "Card Reader",
+        optionB: "Magnetic Ink Character Reader (MICH)",
+        optionC: "Trackball",
+        correctAnswer: "Magnetic Ink Character Reader (MICH)",
+      },
+      {
+        question:
+          "A ________ is an electronic visual display that the user can control through simple or multi-touch gestures.",
+        optionA: "Touchpad",
+        optionB: "Touch Screen",
+        optionC: "Graphic Tablet",
+        correctAnswer: "Touch Screen",
+      },
+      {
+        question:
+          "An output device is an electro-mechanical device that converts computer information into a form that a user can ___________.",
+        optionA: "Process",
+        optionB: "Understand",
+        optionC: "Store",
+        correctAnswer: "Understand",
+      },
+      {
+        question: "The quality of a printer is determined by its ___________.",
+        optionA: "Cost",
+        optionB: "Resolution",
+        optionC: "Speed",
+        correctAnswer: "Resolution",
+      },
+      {
+        question:
+          "A ________ is an output device used to produce high-quality graphics, charts, and diagrams.",
+        optionA: "Printer",
+        optionB: "Plotter",
+        optionC: "LCD Projector",
+        correctAnswer: "Plotter",
+      },
+      {
+        question:
+          "________ are also known as secondary, auxiliary, permanent, and mass storage devices.",
+        optionA: "SSD (Solid State Drive)",
+        optionB: "Hard Disk",
+        optionC: "Storage Devices",
+        correctAnswer: "Storage Devices",
+      },
+      {
+        question:
+          "The main function of the Central Processing Unit (CPU) is to execute instructions stored in a computer program and process ________ according to given instructions.",
+        optionA: "Software",
+        optionB: "Data",
+        optionC: "Output",
+        correctAnswer: "Data",
+      },
+      {
+        question:
+          "________ refers to a set of programs written for the proper functioning of the computer system, managing various tasks and controlling different operations.",
+        optionA: "Application Software",
+        optionB: "System Software",
+        optionC: "Operating System",
+        correctAnswer: "System Software",
+      },
+    ],
   };
 }
 
@@ -195,96 +174,67 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-        {
-          question:
-            "The abacus, invented around 5,000 years ago, is considered the first computer.",
-          options: {
-            a: "True",
-            b: "False",
-          },
-          correctAnswer: "a",
-        },
-        {
-          question:
-            "Pascaline, invented by Blaise Pascal, could perform multiplication, division, and addition.",
-          options: {
-            a: "True",
-            b: "False",
-          },
-          correctAnswer: "b",
-        },
-        {
-          question:
-            "Jacquard Loom introduced the concept of punched cards for information storage.",
-          options: {
-            a: "True",
-            b: "False",
-          },
-          correctAnswer: "a",
-        },
-        {
-          question:
-            "Z1, the first programmable computer, used punched cards for programming and output generation.",
-          options: {
-            a: "True",
-            b: "False",
-          },
-          correctAnswer: "b",
-        },
-        {
-          question:
-            "The Atanasoff-Berry Computer (ABC) was a mechanical computing device.",
-          options: {
-            a: "True",
-            b: "False",
-          },
-          correctAnswer: "b",
-        },
-        {
-          question:
-            "The Harvard Mark 1, also known as IBM ASCC, was an electronic computer.",
-          options: {
-            a: "True",
-            b: "False",
-          },
-          correctAnswer: "a",
-        },
-        {
-          question: "UNIVAC was the first analog computer developed.",
-          options: {
-            a: "True",
-            b: "False",
-          },
-          correctAnswer: "b",
-        },
-        {
-          question:
-            "The Difference Engine, designed by Charles Babbage, was intended to solve trigonometric functions.",
-          options: {
-            a: "True",
-            b: "False",
-          },
-          correctAnswer: "b",
-        },
-        {
-          question:
-            "The Analytical Engine, developed by Charles Babbage, was programmable using punch tape.",
-          options: {
-            a: "True",
-            b: "False",
-          },
-          correctAnswer: "b",
-        },
-        {
-          question:
-            "The Tabulating Machine, invented in 1890, used punch cards for statistical data.",
-          options: {
-            a: "True",
-            b: "False",
-          },
-          correctAnswer: "a",
-        },
-      ],
+      {
+        question:
+          "The CPU is responsible for inputting data and generating output in a computer system.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "false",
+      },
+      {
+        question:
+          "An Optical Mark Reader (OMR) detects pen/pencil marks on paper and is commonly used for objective-type tests.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "true",
+      },
+      {
+        question:
+          "A Touch Screen requires a physical keyboard for user interaction.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "false",
+      },
+      {
+        question:
+          "Resolution does not play a role in determining the quality of a printer.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "false",
+      },
+      {
+        question:
+          "System Software manages various tasks and controls different operations of a computer system.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "true",
+      },
+      {
+        question:
+          "Output devices convert computer information into forms that users can't understand.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "false",
+      },
+      {
+        question:
+          "Data processing is not a primary function of the Central Processing Unit (CPU).",
+        optionA: "True",
+        optionB: "False",correctAnswer: "false",
+      },
+      {
+        question:
+          "Application Software enhances the efficiency of hardware components in a computer system.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "false",
+      },
+      {
+        question:
+          "Storage Devices are primarily used for processing data in a computer system.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "false",
+      },
+      {
+        question:
+          "Input Devices play a crucial role in providing data and instructions to the Central Processing Unit (CPU) for processing.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "true",
+      },
+    ],
   };
 }
 

@@ -5,159 +5,157 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-        {
-          question: "What must all formulae in Excel begin with?",
-          optionA: "An asterisk",
-          optionB: "An equals sign",
-          optionC: "A forward slash",
-          correctAnswer: "b) An equals sign",
-        },
-        {
-          question:
-            "Which mathematical operator is used for division in Excel?",
-          optionA: "Plus sign (+)",
-          optionB: "Minus sign (-)",
-          optionC: "Forward slash (/)",
-          correctAnswer: "c) Forward slash (/)",
-        },
-        {
-          question:
-            "What is the advantage of using cell references in formulae?",
-          optionA: "It slows down the calculation process",
-          optionB: "It makes formulae inaccurate",
-          optionC: "It allows for updating data without rewriting formulae",
-          correctAnswer:
-            "c) It allows for updating data without rewriting formulae",
-        },
-        {
-          question:
-            "Which function would you use to determine the average of a range of cells?",
-          optionA: "SUM",
-          optionB: "AVERAGE",
-          optionC: "COUNT",
-          correctAnswer: "b) AVERAGE",
-        },
-        {
-          question: "What is the purpose of the equals sign in Excel formulae?",
-          optionA: "To indicate text entry",
-          optionB: "To start a formula",
-          optionC: "To end a formula",
-          correctAnswer: "b) To start a formula",
-        },
-        {
-          question:
-            "Which method can save time and effort when creating formulae by avoiding manual input of cell addresses?",
-          optionA: "Point and click method",
-          optionB: "Typing all cell addresses manually",
-          optionC: "Using a calculator",
-          correctAnswer: "a) Point and click method",
-        },
-        {
-          question: "What is the role of the fill handle in Excel?",
-          optionA: "It formats cells in bold",
-          optionB: "It copies formulae to adjacent cells",
-          optionC: "It calculates complex functions automatically",
-          correctAnswer: "b) It copies formulae to adjacent cells",
-        },
-        {
-          question:
-            "Which function would you use to find the highest cell value in a range?",
-          optionA: "AVERAGE",
-          optionB: "MAX",
-          optionC: "COUNT",
-          correctAnswer: "b) MAX",
-        },
-        {
-          question: "How do functions differ from formulae in Excel?",
-          optionA:
-            "Functions are for text manipulation, formulae for calculations",
-          optionB:
-            "Functions are predefined formulas, formulae are manual inputs",
-          optionC: "Functions use letters, formulae use numbers",
-          correctAnswer:
-            "b) Functions are predefined formulas, formulae are manual inputs",
-        },
-        {
-          question:
-            "Where can you find different types of functions categorized in Excel?",
-          optionA: "In the File tab",
-          optionB: "In the Insert tab",
-          optionC: "In the Formulas tab's Function Library",
-          correctAnswer: "c) In the Formulas tab's Function Library",
-        },
-      ],
+      {
+        question: "What is the primary function of a slide in PowerPoint?",
+        options: [
+          "To edit multimedia elements",
+          "To display information individually",
+          "To organize presentation themes",
+        ],
+        answer: "To display information individually",
+      },
+      {
+        question:
+          "Which view allows you to sort and organize the sequence of slides?",
+        options: ["Normal View", "Slide Sorter View", "Notes Page View"],
+        answer: "Slide Sorter View",
+      },
+      {
+        question:
+          "Where can you find commands like New, Save, and Print in PowerPoint?",
+        options: ["Slide Pane", "File Tab", "Quick Access Toolbar"],
+        answer: "File Tab",
+      },
+      {
+        question: "What is the purpose of the Ribbon in PowerPoint?",
+        options: [
+          "Displays current slide view",
+          "Contains commands based on the selected tab",
+          "Shows miniature versions of slides",
+        ],
+        answer: "Contains commands based on the selected tab",
+      },
+      {
+        question: "Which step is NOT part of starting PowerPoint?",
+        options: [
+          "Clicking on Start button",
+          "Clicking on the File tab",
+          "Opening a Blank Presentation",
+        ],
+        answer: "Clicking on the File tab",
+      },
+      {
+        question: "How can you apply a slide layout in PowerPoint?",
+        options: [
+          "Select Layout in the Slides group and press Enter",
+          "Click on the Slide Pane and choose the layout",
+          "Use the Ribbon to select the desired layout",
+        ],
+        answer: "Select Layout in the Slides group and press Enter",
+      },
+      {
+        question:
+          "Which type of view is ideal for proofreading your presentation?",
+        options: ["Slide Sorter View", "Reading View", "Master View"],
+        answer: "Reading View",
+      },
+      {
+        question: "What is the aim of using SmartArt in PowerPoint?",
+        options: [
+          "To edit text in different forms",
+          "To organize slide layouts",
+          "To graphically represent textual data",
+        ],
+        answer: "To graphically represent textual data",
+      },
+      {
+        question:
+          "How can you exit PowerPoint after completing and saving your task?",
+        options: [
+          "Click on the Close option in the File tab",
+          "Press Ctrl + 0 from the keyboard",
+          "Click on the ■ button on the title bar",
+        ],
+        answer: "Click on the Close option in the File tab",
+      },
+      {
+        question: "What is the purpose of the Notes Pane in PowerPoint?",
+        options: [
+          "To display miniature versions of slides",
+          "To write information related to the slides",
+          "To sort and organize the sequence of slides",
+        ],
+        answer: "To write information related to the slides",
+      },
+    ],
   };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blanks:",
+    activity: "Fill in the blank with correct option:",
     questions: [
-        {
-          question:
-            "The formulae in Excel must always begin with an __________.",
-          options: ["Asterisk", "Equals sign", "Ampersand"],
-          correctAnswer: "Equals sign",
-        },
-        {
-          question:
-            "Mathematical operators used for calculations in Excel include addition (+), subtraction (-), multiplication (*), division (/), and __________ for exponents.",
-          options: ['Caret ("^")', "Hash (#)", "Percentage (%)"],
-          correctAnswer: 'Caret ("^")',
-        },
-        {
-          question:
-            "Cell references in Excel allow for creating formulae using __________ to ensure accuracy and flexibility in updating values.",
-          options: ["Constant values", "Text strings", "Cell addresses"],
-          correctAnswer: "Cell addresses",
-        },
-        {
-          question:
-            "The syntax for functions in Excel typically includes the equals sign, function name, and __________.",
-          options: ["Curly brackets", "Arguments", "Quotation marks"],
-          correctAnswer: "Arguments",
-        },
-        {
-          question:
-            "Functions such as SUM, AVERAGE, COUNT, MAX, and MIN can be accessed from the __________ tab in Excel.",
-          options: ["Home", "Insert", "Formulas"],
-          correctAnswer: "Formulas",
-        },
-        {
-          question:
-            "The fill handle in Excel is used to __________ formulae to adjacent cells, saving time and effort.",
-          options: ["Format", "Copy", "Delete"],
-          correctAnswer: "Copy",
-        },
-        {
-          question:
-            "The AutoSum command in Excel helps in automatically inserting common functions like SUM, AVERAGE, COUNT, MIN, and MAX into a formula to perform calculations, accessible from the __________ tab.",
-          options: ["Home", "Insert", "Formulas"],
-          correctAnswer: "Home",
-        },
-        {
-          question:
-            "Arguments in Excel functions can refer to __________ and must be enclosed within parentheses.",
-          options: [
-            "Cell ranges only",
-            "Text entries only",
-            "Cell ranges or individual cells",
-          ],
-          correctAnswer: "Cell ranges or individual cells",
-        },
-        {
-          question:
-            "Excel's Function Library, categorized by Financial, Logical, Text, and Date & Time, is accessible from the __________ tab.",
-          options: ["File", "Insert", "Formulas"],
-          correctAnswer: "Formulas",
-        },
-        {
-          question:
-            "The true advantage of using cell references in Excel formulae is the ability to update data without __________ the formulae.",
-          options: ["Deleting", "Rewriting", "Copying"],
-          correctAnswer: "Rewriting",
-        },
-      ],
+      {
+        question:
+          "PowerPoint is a presentation software developed by ____________ Corporation.",
+        options: ["Google", "Microsoft", "Apple"],
+        answer: "Microsoft",
+      },
+      {
+        question:
+          "A presentation in PowerPoint consists of individual pages called ____________.",
+        options: ["Slides", "Pages", "Cards"],
+        answer: "Slides",
+      },
+      {
+        question:
+          "The main aim of a presentation is to make subject matter easy to understand by inserting pictures, text, graphs, charts, and ____________.",
+        options: ["Animations", "Hyperlinks", "Audio"],
+        answer: "Animations",
+      },
+      {
+        question:
+          "PowerPoint allows creating professional-looking presentations using various themes, visual designs, and formatting tools in the ____________ and Quick Access Toolbar.",
+        options: ["Ribbon", "Slides Pane", "Notes Pane"],
+        answer: "Ribbon",
+      },
+      {
+        question:
+          "__________ view in PowerPoint provides information about the file, allowing basic tasks like New, Open, Save, and Print.",
+        options: ["Slide Sorter", "Normal", "Backstage"],
+        answer: "Backstage",
+      },
+      {
+        question:
+          "To start PowerPoint, one needs to click on the ____________ button and select Blank Presentation.",
+        options: ["Exit", "Start", "Close"],
+        answer: "Start",
+      },
+      {
+        question:
+          "The ____________ contains commands like New, Save, Print, and Share in PowerPoint.",
+        options: ["Ribbon", "Quick Access Toolbar", "Slide Pane"],
+        answer: "Quick Access Toolbar",
+      },
+      {
+        question:
+          "SmartArt is a tool used to graphically represent textual data such as organization charts, flow charts, and ____________.",
+        options: ["Maps", "Music", "Pyramids"],
+        answer: "Pyramids",
+      },
+      {
+        question:
+          "Slide Sorter View in PowerPoint provides a view of slides in ____________ form.",
+        options: ["Thumbnail", "Outline", "Full-screen"],
+        answer: "Thumbnail",
+      },
+      {
+        question:
+          "In PowerPoint, the ____________ view allows editing, writing, and designing presentations.",
+        options: ["Reading", "Slide Show", "Normal"],
+        answer: "Normal",
+      },
+    ],
   };
 }
 
@@ -165,75 +163,77 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-        {
-          question: "Excel always initiates formulae with an equals sign.",
-          optionA: "True",
+      {
+        question:
+          "PowerPoint primarily uses slides to convey information rich in multimedia.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "True",
-        },
-        {
-          question:
-            "The fill handle in Excel is primarily used for cell formatting.",
-          optionA: "True",
+        answer: "True",
+      },
+      {
+        question:
+          "The Ribbon in PowerPoint contains commands specific to the selected tab.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question: "Functions and formulae serve the same purpose in Excel.",
-          optionA: "True",
+        answer: "True",
+      },
+      {
+        question:
+          "The Backstage view in PowerPoint allows performing basic tasks like New, Open, and Print.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question:
-            "Cell references allow for the automatic recalculation of formulae when values in referenced cells change.",
-          optionA: "True",
+        answer: "True",
+      },
+      {
+        question:
+          "The Quick Access Toolbar in PowerPoint mainly includes commands for clipboard operations.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "True",
-        },
-        {
-          question:
-            "The AutoSum command in Excel offers only one predefined function, the SUM function.",
-          optionA: "True",
+        answer: "False",
+      },
+      {
+        question:
+          "SmartArt in PowerPoint is used to represent only textual data such as charts and graphs.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "True",
-        },
-        {
-          question:
-            "Excel's Function Library categorizes functions based on Financial, Logical, Text, and Date & Time categories.",
-          optionA: "True",
+        answer: "False",
+      },
+      {
+        question:
+          "Slide Sorter View in PowerPoint allows editing the material present on the slides.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "True",
-        },
-        {
-          question:
-            "The syntax for functions in Excel includes the equals sign, function name, and one argument enclosed in parentheses.",
-          optionA: "True",
+        answer: "False",
+      },
+      {
+        question:
+          "The Notes Pane in PowerPoint is used to write information related to the slides.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "True",
-        },
-        {
-          question:
-            "The fill handle allows for the automatic copying of formulae to adjacent cells in Excel.",
-          optionA: "True",
+        answer: "True",
+      },
+      {
+        question:
+          "The Slide Show View in PowerPoint is primarily used for proofreading presentations.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "True",
-        },
-        {
-          question:
-            "Excel allows the creation of formulae without the use of cell references.",
-          optionA: "True",
+        answer: "False",
+      },
+      {
+        question:
+          "Master View in PowerPoint stores information about the presentation's background and effects.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question:
-            "Functions in Excel cannot perform calculations using specific values in a particular order.",
-          optionA: "True",
+        answer: "True",
+      },
+      {
+        question:
+          "Exiting PowerPoint can be done by clicking the Close option in the File tab.",
+        optionA: "True",
         optionB: "False",
-          correctAnswer: "False",
-        },
-      ],
+        answer: "True",
+      },
+    ],
   };
 }
 

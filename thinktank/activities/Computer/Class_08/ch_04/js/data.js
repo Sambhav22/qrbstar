@@ -6,86 +6,86 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: [
       {
-        question:
-          "What was the primary objective of the East India Company when it came to India?",
-        optionA: "Ensuring the welfare of the Indian people",
-        optionB: "Promoting social and cultural development",
-        optionC: "Making a profit and earning money",
-        correctAnswer: "c) Making a profit and earning money",
-      },
-      {
-        question: "How did the Company affect rural life in India?",
-        optionA: "It had no significant impact on rural life.",
-        optionB:
-          "It made a great impact on rural life in terms of agriculture and economy.",
-        optionC: "It focused on improving rural infrastructure and services.",
-        correctAnswer:
-          "b) It made a great impact on rural life in terms of agriculture and economy.",
+        question: "What is the primary function of a slide in PowerPoint?",
+        options: [
+          "To edit multimedia elements",
+          "To display information individually",
+          "To organize presentation themes",
+        ],
+        answer: "To display information individually",
       },
       {
         question:
-          "What system did the Company implement in Bengal and Bihar to collect land revenue?",
-        optionA: "Permanent Settlement",
-        optionB: "Mahalwari System",
-        optionC: "Ijardari System",
-        correctAnswer: "c) Ijardari System",
+          "Which view allows you to sort and organize the sequence of slides?",
+        options: ["Normal View", "Slide Sorter View", "Notes Page View"],
+        answer: "Slide Sorter View",
       },
       {
         question:
-          "Which system fixed land revenue on a permanent basis and turned small rulers into landlords?",
-        optionA: "Permanent Settlement",
-        optionB: "Mahalwari System",
-        optionC: "Ryotwari System",
-        correctAnswer: "a) Permanent Settlement",
+          "Where can you find commands like New, Save, and Print in PowerPoint?",
+        options: ["Slide Pane", "File Tab", "Quick Access Toolbar"],
+        answer: "File Tab",
+      },
+      {
+        question: "What is the purpose of the Ribbon in PowerPoint?",
+        options: [
+          "Displays current slide view",
+          "Contains commands based on the selected tab",
+          "Shows miniature versions of slides",
+        ],
+        answer: "Contains commands based on the selected tab",
+      },
+      {
+        question: "Which step is NOT part of starting PowerPoint?",
+        options: [
+          "Clicking on Start button",
+          "Clicking on the File tab",
+          "Opening a Blank Presentation",
+        ],
+        answer: "Clicking on the File tab",
+      },
+      {
+        question: "How can you apply a slide layout in PowerPoint?",
+        options: [
+          "Select Layout in the Slides group and press Enter",
+          "Click on the Slide Pane and choose the layout",
+          "Use the Ribbon to select the desired layout",
+        ],
+        answer: "Select Layout in the Slides group and press Enter",
       },
       {
         question:
-          "What social class emerged as a result of the Permanent Settlement system?",
-        optionA: "Wealthy peasants",
-        optionB: "Landless farmers",
-        optionC: "Landlords",
-        correctAnswer: "c) Landlords",
+          "Which type of view is ideal for proofreading your presentation?",
+        options: ["Slide Sorter View", "Reading View", "Master View"],
+        answer: "Reading View",
+      },
+      {
+        question: "What is the aim of using SmartArt in PowerPoint?",
+        options: [
+          "To edit text in different forms",
+          "To organize slide layouts",
+          "To graphically represent textual data",
+        ],
+        answer: "To graphically represent textual data",
       },
       {
         question:
-          "In which system did the peasants pay land revenue individually, and the rate was as high as fifty percent of the total produce?",
-        optionA: "Ijardari System",
-        optionB: "Permanent Settlement",
-        optionC: "Ryotwari System",
-        correctAnswer: "c) Ryotwari System",
+          "How can you exit PowerPoint after completing and saving your task?",
+        options: [
+          "Click on the Close option in the File tab",
+          "Press Ctrl + 0 from the keyboard",
+          "Click on the ■ button on the title bar",
+        ],
+        answer: "Click on the Close option in the File tab",
       },
       {
-        question:
-          "How did the colonial agrarian policy affect the peasants' income?",
-        optionA: "It increased their income significantly.",
-        optionB: "It left them with a meager income due to high land revenue.",
-        optionC: "It had no impact on their income.",
-        correctAnswer:
-          "b) It left them with a meager income due to high land revenue.",
-      },
-      {
-        question:
-          "What crops did the British East India Company encourage farmers to produce to serve their dual purpose of revenue and raw materials?",
-        optionA: "Food grains",
-        optionB: "Cash crops",
-        optionC: "Livestock",
-        correctAnswer: "b) Cash crops",
-      },
-      {
-        question:
-          "What impact did the cultivation of cash crops have on the land?",
-        optionA: "It made the land more fertile.",
-        optionB: "It rendered the land infertile over time.",
-        optionC: "It had no impact on the land's fertility.",
-        correctAnswer: "b) It rendered the land infertile over time.",
-      },
-      {
-        question:
-          "What was the primary cause of the first major peasant revolt in Bengal?",
-        optionA: "High rates of land revenue",
-        optionB: "Shortage of food grains",
-        optionC: "Foreign invasions",
-        correctAnswer: "a) High rates of land revenue",
+        question: "What is the purpose of the Notes Pane in PowerPoint?",
+        options: [
+          "To display miniature versions of slides",
+          "To write information related to the slides",
+          "To sort and organize the sequence of slides",
+        ],
+        answer: "To write information related to the slides",
       },
     ],
   };
@@ -93,87 +93,67 @@ if (localStorage.getItem("activityNumber") == 1) {
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blanks:",
+    activity: "Fill in the blank with correct option:",
     questions: [
       {
         question:
-          "The East India Company came to India primarily for _____________ and making money, with little concern for people's welfare.",
-        optionA: "trade",
-        optionB: "cultural exchange",
-        optionC: "industrial development",
-        correctAnswer: "trade",
+          "PowerPoint is a presentation software developed by ____________ Corporation.",
+        options: ["Google", "Microsoft", "Apple"],
+        answer: "Microsoft",
       },
       {
         question:
-          "The Company's officers were often more interested in their own ___________ than the welfare of the people.",
-        optionA: "prosperity",
-        optionB: "political influence",
-        optionC: "cultural values",
-        correctAnswer: "prosperity",
+          "A presentation in PowerPoint consists of individual pages called ____________.",
+        options: ["Slides", "Pages", "Cards"],
+        answer: "Slides",
       },
       {
         question:
-          "The Company's colonial agrarian policies had a significant impact on rural life, affecting professional, social, cultural, and ___________ aspects.",
-        optionA: "technological",
-        optionB: "economic",
-        optionC: "educational",
-        correctAnswer: "economic",
+          "The main aim of a presentation is to make subject matter easy to understand by inserting pictures, text, graphs, charts, and ____________.",
+        options: ["Animations", "Hyperlinks", "Audio"],
+        answer: "Animations",
       },
       {
         question:
-          "The Company acquired diwani rights in Bengal in _______ after its victories in the battles of Plassey and Buxar.",
-        optionA: "1757",
-        optionB: "1765",
-        optionC: "1771",
-        correctAnswer: "1765",
+          "PowerPoint allows creating professional-looking presentations using various themes, visual designs, and formatting tools in the ____________ and Quick Access Toolbar.",
+        options: ["Ribbon", "Slides Pane", "Notes Pane"],
+        answer: "Ribbon",
       },
       {
         question:
-          "The revenue systems during this period included the Ijardari System, Permanent Settlement, Mahalwari System, and ___________ System.",
-        optionA: "Zemindari",
-        optionB: "Ryotwari",
-        optionC: "Taxation",
-        correctAnswer: "Ryotwari",
+          "__________ view in PowerPoint provides information about the file, allowing basic tasks like New, Open, Save, and Print.",
+        options: ["Slide Sorter", "Normal", "Backstage"],
+        answer: "Backstage",
       },
       {
         question:
-          "The Ijardari System was initially continued by the Company in Bengal, where revenue officials collected land revenue, deducted 10 percent as commission, and deposited the rest in the ___________.",
-        optionA: "Company's treasury",
-        optionB: "local temple",
-        optionC: "farmers' cooperative",
-        correctAnswer: "Company's treasury",
+          "To start PowerPoint, one needs to click on the ____________ button and select Blank Presentation.",
+        options: ["Exit", "Start", "Close"],
+        answer: "Start",
       },
       {
         question:
-          "The Permanent Settlement system was introduced in Bengal and Bihar in _______.",
-        optionA: "1793",
-        optionB: "1801",
-        optionC: "1810",
-        correctAnswer: "1793",
+          "The ____________ contains commands like New, Save, Print, and Share in PowerPoint.",
+        options: ["Ribbon", "Quick Access Toolbar", "Slide Pane"],
+        answer: "Quick Access Toolbar",
       },
       {
         question:
-          "Under the Permanent Settlement, small rulers were made ___________ and the revenue they had to pay to the Company was fixed on a permanent basis.",
-        optionA: "farmers",
-        optionB: "landlords",
-        optionC: "government officials",
-        correctAnswer: "landlords",
+          "SmartArt is a tool used to graphically represent textual data such as organization charts, flow charts, and ____________.",
+        options: ["Maps", "Music", "Pyramids"],
+        answer: "Pyramids",
       },
       {
         question:
-          "The Mahalwari System, introduced in western Uttar Pradesh, parts of Madhya Pradesh, and Punjab, vested land ownership in a 'revenue estate' called ___________.",
-        optionA: "Taluka",
-        optionB: "Mahal",
-        optionC: "Zamindar",
-        correctAnswer: "Mahal",
+          "Slide Sorter View in PowerPoint provides a view of slides in ____________ form.",
+        options: ["Thumbnail", "Outline", "Full-screen"],
+        answer: "Thumbnail",
       },
       {
         question:
-          "In the Ryotwari System, individual peasants were recognized as the owner of the land and were required to pay land revenue ___________.",
-        optionA: "collectively",
-        optionB: "individually",
-        optionC: "to the Zamindars",
-        correctAnswer: "individually",
+          "In PowerPoint, the ____________ view allows editing, writing, and designing presentations.",
+        options: ["Reading", "Slide Show", "Normal"],
+        answer: "Normal",
       },
     ],
   };
@@ -185,62 +165,73 @@ if (localStorage.getItem("activityNumber") == 3) {
     questions: [
       {
         question:
-          "The East India Company's primary interest in India was profit, with little concern for people's welfare.",
+          "PowerPoint primarily uses slides to convey information rich in multimedia.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",
+        answer: "True",
       },
       {
         question:
-          "The colonial agrarian policies of the East India Company had no significant impact on rural life.",
+          "The Ribbon in PowerPoint contains commands specific to the selected tab.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
-      },
-      {
-        question: "The Company acquired diwani rights in Bengal in 1757.",
-        optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",
+        answer: "True",
       },
       {
         question:
-          "The Permanent Settlement system was introduced in Bengal and Bihar in 1793.",
+          "The Backstage view in PowerPoint allows performing basic tasks like New, Open, and Print.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",
+        answer: "True",
       },
       {
         question:
-          "The Ryotwari System required individual peasants to pay land revenue collectively.",
+          "The Quick Access Toolbar in PowerPoint mainly includes commands for clipboard operations.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",
+        answer: "False",
       },
       {
         question:
-          "The Mahalwari System was introduced in Punjab, parts of Madhya Pradesh, and western Uttar Pradesh.",
+          "SmartArt in PowerPoint is used to represent only textual data such as charts and graphs.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",
+        answer: "False",
       },
       {
         question:
-          "The Company's colonial agrarian policies led to an increase in agricultural production and prosperity among farmers.",
+          "Slide Sorter View in PowerPoint allows editing the material present on the slides.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",
+        answer: "False",
       },
       {
         question:
-          "The Permanent Settlement system resulted in a new social class of landlords.",
+          "The Notes Pane in PowerPoint is used to write information related to the slides.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",
+        answer: "True",
       },
       {
         question:
-          "The Company introduced machine-made goods that had lower quality and higher prices compared to locally crafted goods.",
+          "The Slide Show View in PowerPoint is primarily used for proofreading presentations.",
         optionA: "True",
-        optionB: "False",correctAnswer: "False",
+        optionB: "False",
+        answer: "False",
       },
       {
         question:
-          "Many significant peasant revolts took place in different parts of India as a result of the East India Company's revenue policies.",
+          "Master View in PowerPoint stores information about the presentation's background and effects.",
         optionA: "True",
-        optionB: "False",correctAnswer: "True",
+        optionB: "False",
+        answer: "True",
+      },
+      {
+        question:
+          "Exiting PowerPoint can be done by clicking the Close option in the File tab.",
+        optionA: "True",
+        optionB: "False",
+        answer: "True",
       },
     ],
   };

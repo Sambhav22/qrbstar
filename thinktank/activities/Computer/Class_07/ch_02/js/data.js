@@ -5,164 +5,169 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-        {
-          question:
-            "What was the primary component used for circuitry in first-generation computers?",
-          optionA: "Vacuum tubes",
-          optionB: "Transistors",
-          optionC: "Integrated Circuits",
-          correctAnswer: "A) Vacuum tubes",
-        },
-        {
-          question:
-            "Which generation of computers introduced the use of transistors?",
-          optionA: "First Generation",
-          optionB: "Second Generation",
-          optionC: "Third Generation",
-          correctAnswer: "B) Second Generation",
-        },
-        {
-          question:
-            "Integrated Circuits (ICs) were a hallmark of which computer generation?",
-          optionA: "First Generation",
-          optionB: "Second Generation",
-          optionC: "Third Generation",
-          correctAnswer: "C) Third Generation",
-        },
-        {
-          question:
-            "Which generation of computers saw the use of microprocessor-based systems?",
-          optionA: "Second Generation",
-          optionB: "Third Generation",
-          optionC: "Fourth Generation",
-          correctAnswer: "C) Fourth Generation",
-        },
-        {
-          question: "What is a characteristic of fourth-generation computers?",
-          optionA: "Use of vacuum tubes",
-          optionB: "Large size and high cost",
-          optionC: "Microprocessor-based systems",
-          correctAnswer: "C) Microprocessor-based systems",
-        },
-        {
-          question:
-            "Which generation of computers is associated with artificial intelligence?",
-          optionA: "Fourth Generation",
-          optionB: "Fifth Generation",
-          optionC: "Third Generation",
-          correctAnswer: "B) Fifth Generation",
-        },
-        {
-          question: "What is the primary focus of fifth-generation computers?",
-          optionA: "Quantum computing",
-          optionB: "Artificial intelligence",
-          optionC: "Nanotechnology",
-          correctAnswer: "B) Artificial intelligence",
-        },
-        {
-          question:
-            "What distinguishes third-generation computers from their predecessors?",
-          optionA: "Use of vacuum tubes",
-          optionB: "Integration of transistors",
-          optionC: "Machine-level programming",
-          correctAnswer: "B) Integration of transistors",
-        },
-        {
-          question:
-            "Which generation of computers had the goal of devices capable of natural language inputs and self-organization?",
-          optionA: "Fourth Generation",
-          optionB: "Fifth Generation",
-          optionC: "Third Generation",
-          correctAnswer: "B) Fifth Generation",
-        },
-        {
-          question:
-            "What technology marked the transition from second to third-generation computers?",
-          optionA: "Vacuum tubes",
-          optionB: "Transistors",
-          optionC: "Integrated Circuits",
-          correctAnswer: "C) Integrated Circuits",
-        },
-      ],
+      {
+        question: "What is the primary function of Microsoft Word?",
+        optionA: "Creating spreadsheets",
+        optionB: "Developing presentations",
+        optionC: "Word processing",
+        correctAnswer: "C",
+      },
+      {
+        question: "What is the purpose of using tables in Microsoft Word?",
+        optionA: "Encrypting data",
+        optionB: "Organizing information in a tabular form",
+        optionC: "Creating graphical representations",
+        correctAnswer: "B",
+      },
+      {
+        question: "How is a table inserted in a Word document?",
+        optionA: "By clicking on the Format tab",
+        optionB: "By selecting Table and then Insert Table from the Insert tab",
+        optionC:
+          "By choosing Table and then Table Properties from the Home tab",
+        correctAnswer: "B",
+      },
+      {
+        question: "How can the style of a table be modified in Word?",
+        optionA: "Through the Layout tab",
+        optionB: "By right-clicking on the table",
+        optionC: "By selecting the Table Design tab and choosing a style",
+        correctAnswer: "C",
+      },
+      {
+        question: "Which action allows users to insert text into a table cell?",
+        optionA: "Right-clicking and selecting 'Insert Text'",
+        optionB: "Triple-clicking the cell",
+        optionC: "Clicking on the Table Design tab",
+        correctAnswer: "B",
+      },
+      {
+        question: "How can a range of cells be selected in a table?",
+        optionA: "Triple-clicking the cells",
+        optionB: "Clicking and dragging the mouse over the cells",
+        optionC: "Right-clicking and choosing 'Select Range'",
+        correctAnswer: "B",
+      },
+      {
+        question: "What action selects an entire row in a table?",
+        optionA: "Double-clicking on the row",
+        optionB: "Triple-clicking near the border of the row",
+        optionC: "Clicking near the border of the row",
+        correctAnswer: "C",
+      },
+      {
+        question: "How are additional rows added to an existing table?",
+        optionA: "Through the Insert tab",
+        optionB: "By right-clicking and selecting 'Add Row'",
+        optionC:
+          "Using the Layout tab and choosing Insert Above or Insert Below",
+        correctAnswer: "C",
+      },
+      {
+        question: "How can a column be deleted from a table?",
+        optionA: "By selecting Delete Column from the Home tab",
+        optionB:
+          "Through the Layout tab, by choosing Delete and then Delete Columns",
+        optionC: "Right-clicking and choosing 'Remove Column'",
+        correctAnswer: "B",
+      },
+      {
+        question:
+          "Where can users change the alignment of text within table cells in Word?",
+        optionA: "Home tab",
+        optionB: "Layout tab",
+        optionC: "Design tab",
+        correctAnswer: "A",
+      },
+    ],
   };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blanks:",
+    activity: "Fill in the blank with correct option:",
     questions: [
-        {
-          question:
-            "The period of the first generation of computers spanned from _____ to _____.",
-          options: ["1942", "1956", "1956", "1964", "1964", "1971"],
-          correctAnswer: ["1942", "1956"],
-        },
-        {
-          question:
-            "The first generation computers used _____ for circuitry and magnetic drums for memory.",
-          options: ["Transistors", "Vacuum tubes", "Integrated Circuits"],
-          correctAnswer: "Vacuum tubes",
-        },
-        {
-          question:
-            "Transistors replaced _____ in the second generation of computers.",
-          options: ["Vacuum tubes", "Integrated Circuits", "Microprocessors"],
-          correctAnswer: "Vacuum tubes",
-        },
-        {
-          question:
-            "The third generation of computers utilized _____, which were known as chips.",
-          options: ["Microprocessors", "Vacuum tubes", "Integrated Circuits"],
-          correctAnswer: "Integrated Circuits",
-        },
-        {
-          question:
-            "The fourth generation computers are primarily _____ systems.",
-          options: [
-            "Microprocessor-based",
-            "Vacuum tube",
-            "Integrated Circuit",
-          ],
-          correctAnswer: "Microprocessor-based",
-        },
-        {
-          question: "Fifth-generation computers are focused on _____.",
-          options: [
-            "Vacuum tubes",
-            "Artificial intelligence",
-            "Integrated Circuits",
-          ],
-          correctAnswer: "Artificial intelligence",
-        },
-        {
-          question:
-            "An integrated circuit with more than 1000 components is termed as _____.",
-          options: ["LSI", "VLSI", "LSIC"],
-          correctAnswer: "VLSI",
-        },
-        {
-          question:
-            "The aim of fifth-generation computers is to develop devices capable of _____.",
-          options: [
-            "Learning from humans",
-            "Quantum computing",
-            "Responding to natural language inputs",
-          ],
-          correctAnswer: "Responding to natural language inputs",
-        },
-        {
-          question:
-            "The use of _____ marked the transition from second to third-generation computers.",
-          options: ["Vacuum tubes", "Transistors", "Integrated Circuits"],
-          correctAnswer: "Integrated Circuits",
-        },
-        {
-          question:
-            "_____ are among the applications associated with fifth-generation computers.",
-          options: ["Robots", "Nanotechnology", "Vacuum tubes"],
-          correctAnswer: "Robots",
-        },
-      ],
+      {
+        question:
+          "To insert a table in Word, you need to place the cursor within the document and select ___________ from the Insert tab.",
+        optionA: "Table Design",
+        optionB: "Table Properties",
+        optionC: "Insert Table",
+        correctAnswer: "Insert Table",
+      },
+      {
+        question:
+          "Text can be inserted into a table cell by ___________ the cell and typing the text.",
+        optionA: "double-clicking",
+        optionB: "right-clicking",
+        optionC: "triple-clicking",
+        correctAnswer: "triple-clicking",
+      },
+      {
+        question:
+          "Users can select an entire row in a table by clicking ___________ the border of the row.",
+        optionA: "near",
+        optionB: "on",
+        optionC: "away from",
+        correctAnswer: "near",
+      },
+      {
+        question:
+          "The action to add a new column to an existing table is performed by clicking in the column and then using the ___________ tab.",
+        optionA: "Design",
+        optionB: "Layout",
+        optionC: "Insert",
+        correctAnswer: "Layout",
+      },
+      {
+        question:
+          "Deleting a row in a table involves selecting the row and using the options available in the ___________ tab.",
+        optionA: "Insert",
+        optionB: "Format",
+        optionC: "Layout",
+        correctAnswer: "Layout",
+      },
+      {
+        question:
+          "Users can resize a table in Word by dragging the ___________ that appears on the table's borders.",
+        optionA: "handle",
+        optionB: "cursor",
+        optionC: "toolbar",
+        correctAnswer: "handle",
+      },
+      {
+        question:
+          "To change the alignment of text within table cells, users should navigate to the ___________ tab.",
+        optionA: "Home",
+        optionB: "Layout",
+        optionC: "Format",
+        correctAnswer: "Home",
+      },
+      {
+        question:
+          "Additional information can be added to an existing table by inserting ___________ or ___________.",
+        optionA: "columns, rows",
+        optionB: "cells, paragraphs",
+        optionC: "shapes, images",
+        correctAnswer: "columns, rows",
+      },
+      {
+        question:
+          "Users can move a table within a document by dragging it using the ___________ that appears on the table's upper left corner.",
+        optionA: "handle",
+        optionB: "toolbar",
+        optionC: "ribbon",
+        correctAnswer: "handle",
+      },
+      {
+        question:
+          "The style of a table in Word can be modified by selecting a different style from the ___________ tab.",
+        optionA: "Design",
+        optionB: "Format",
+        optionC: "Table Tools",
+        correctAnswer: "Design",
+      },
+    ],
   };
 }
 
@@ -170,77 +175,64 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-        {
-          question:
-            "The first generation computers primarily used vacuum tubes for circuitry.",
-          optionA: "True",
-        optionB: "False",
-          correctAnswer: "True",
-        },
-        {
-          question:
-            "Transistors were utilized in the first generation of computers.",
-          optionA: "True",
-        optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question:
-            "Integrated Circuits (ICs) were introduced in the third generation of computers.",
-          optionA: "True",
-        optionB: "False",
-          correctAnswer: "True",
-        },
-        {
-          question:
-            "Microprocessor-based systems characterize the second generation of computers.",
-          optionA: "True",
-        optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question:
-            "Fifth-generation computers are primarily focused on vacuum tube technology.",
-          optionA: "True",
-        optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question:
-            "An integrated circuit with more than 1000 components is termed as LSI.",
-          optionA: "True",
-        optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question:
-            "The aim of fifth-generation computers is to develop devices capable of quantum computing.",
-          optionA: "True",
-        optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question:
-            "The second generation of computers used high-level programming languages.",
-          optionA: "True",
-        optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question:
-            "The third generation of computers consumed minimal electricity and produced little heat.",
-          optionA: "True",
-        optionB: "False",
-          correctAnswer: "False",
-        },
-        {
-          question:
-            "Fourth-generation computers were known for their small size and affordability.",
-          optionA: "True",
-        optionB: "False",
-          correctAnswer: "True",
-        },
-      ],
+      {
+        question:
+          "Microsoft Word is primarily used for spreadsheet calculations.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question: "Tables in Word can only contain text and not graphics.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question: "One can add or delete rows and columns in a Word table.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "True",
+      },
+      {
+        question:
+          "The layout and style of a table cannot be modified in Microsoft Word.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question:
+          "Tables inserted in a Word document cannot be moved to another location.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question:
+          "Text cannot be inserted into a table cell in Microsoft Word.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question:
+          "In a Word table, users cannot select entire rows or columns.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question:
+          "Tables in Word cannot be resized to adjust their dimensions.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question: "A table's alignment cannot be changed in Microsoft Word.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+      {
+        question:
+          "Users cannot format the text within the cells of a table in Word.",
+        optionA: "True",
+        optionB: "False",correctAnswer: "False",
+      },
+    ],
   };
 }
 

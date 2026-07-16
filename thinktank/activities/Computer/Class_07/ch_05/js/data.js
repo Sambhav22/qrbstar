@@ -5,198 +5,172 @@ if (localStorage.getItem("activityNumber") == 1) {
   activityData = {
     activity: "Tick the correct option:",
     questions: [
-        {
-          question:
-            "What are the two types of animation effects in PowerPoint?",
-          optionA: "Slide Navigation and Custom Transition",
-          optionB: "Slide Transition and Animation Path",
-          optionC: "Slide Transition and Custom Animation",
-          correctAnswer: "C) Slide Transition and Custom Animation",
-        },
-        {
-          question:
-            "Which category of transitions in PowerPoint moves only the placeholders between similar slide layouts?",
-          optionA: "Exciting",
-          optionB: "Dynamic Content",
-          optionC: "Subtle",
-          correctAnswer: "B) Dynamic Content",
-        },
-        {
-          question:
-            "What is the recommended approach for using transitions in a presentation?",
-          optionA: "Use as many exciting transitions as possible.",
-          optionB: "Use dynamic transitions for all slides.",
-          optionC:
-            "Use transitions in moderation, mostly subtle or none at all.",
-          correctAnswer:
-            "C) Use transitions in moderation, mostly subtle or none at all.",
-        },
-        {
-          question:
-            "Which tab in PowerPoint is used to apply slide transitions?",
-          optionA: "Design",
-          optionB: "Transitions",
-          optionC: "Animations",
-          correctAnswer: "B) Transitions",
-        },
-        {
-          question:
-            "Which group within the Transitions tab allows for modification of transition properties?",
-          optionA: "Timing",
-          optionB: "Effect Options",
-          optionC: "Advance Slide",
-          correctAnswer: "A) Timing",
-        },
-        {
-          question:
-            "Which view in PowerPoint displays a preview of the entire presentation in the PowerPoint window?",
-          optionA: "Reading View",
-          optionB: "Slide Sorter View",
-          optionC: "Slide Show View",
-          correctAnswer: "A) Reading View",
-        },
-        {
-          question:
-            "How can you preview animations for the current slide without entering the slide show mode?",
-          optionA: "Click the Preview command on the Animations tab.",
-          optionB:
-            "Click the Play Animations command in the Slide Navigation pane.",
-          optionC: "Click the Preview command on the Transitions tab.",
-          correctAnswer: "A) Click the Preview command on the Animations tab.",
-        },
-        {
-          question:
-            "What command can you use to begin a presentation from the current slide?",
-          optionA: "Slide Show View",
-          optionB: "Start From Beginning",
-          optionC: "Slide Show Options",
-          correctAnswer: "A) Slide Show View",
-        },
-        {
-          question:
-            "Which key can you press to exit presentation mode in PowerPoint?",
-          optionA: "Ctrl",
-          optionB: "Esc",
-          optionC: "Alt",
-          correctAnswer: "B) Esc",
-        },
-        {
-          question:
-            "Which PowerPoint tab allows you to access tools for rehearsing timings and recording presentations?",
-          optionA: "Home",
-          optionB: "Insert",
-          optionC: "Slide Show",
-          correctAnswer: "C) Slide Show",
-        },
-      ],
+      {
+        question: "Who formally defined the term 'Computer Virus' in 1983?",
+        optionA: "Alan Turing",
+        optionB: "Fred Cohen",
+        optionC: "Linus Torvalds",
+        correctAnswer: "Fred Cohen",
+      },
+      {
+        question:
+          "What does the term VIRUS stand for in the context of computer viruses?",
+        optionA: "Virtual Information Resources Under Seize",
+        optionB: "Very Important Resource Under Security",
+        optionC: "Vital Information Resources Under Seize",
+        correctAnswer: "Vital Information Resources Under Seize",
+      },
+      {
+        question:
+          "Which type of virus infects executable files with extensions like .com, .exe, .ovl, .drv, and .sys?",
+        optionA: "Boot Virus",
+        optionB: "Program Virus",
+        optionC: "Stealth Virus",
+        correctAnswer: "Program Virus",
+      },
+      {
+        question:
+          "What type of virus hides itself by changing file size, creation dates, and times?",
+        optionA: "Web Scripting Virus",
+        optionB: "Macro Virus",
+        optionC: "Stealth Virus",
+        correctAnswer: "Stealth Virus",
+      },
+      {
+        question:
+          "Which type of virus rewrites itself during execution and requires a metamorphic engine?",
+        optionA: "Macro Virus",
+        optionB: "Self Modifying Virus",
+        optionC: "Multipartite Virus",
+        correctAnswer: "Self Modifying Virus",
+      },
+      {
+        question:
+          "What type of virus infects files containing macros in certain applications or programs?",
+        optionA: "Worm",
+        optionB: "Trojan Horse",
+        optionC: "Macro Virus",
+        correctAnswer: "Macro Virus",
+      },
+      {
+        question:
+          "Which virus sends emails to spread itself and may cause harmful effects upon activation?",
+        optionA: "Email Virus",
+        optionB: "Trojan Horse",
+        optionC: "Overwrite Virus",
+        correctAnswer: "Email Virus",
+      },
+      {
+        question: "What behavior might indicate a virus attack on a system?",
+        optionA: "Unusual messages on the screen",
+        optionB: "Faster processor speed",
+        optionC: "Constantly illuminated disk drive light",
+        correctAnswer: "Unusual messages on the screen",
+      },
+      {
+        question:
+          "Which precautionary measure is recommended to protect a system against viruses?",
+        optionA: "Using pirated CD/DVD for software installation",
+        optionB: "Browsing unwanted websites regularly",
+        optionC: "Installing and updating antivirus software",
+        correctAnswer: "Installing and updating antivirus software",
+      },
+      {
+        question: "What is the primary function of antivirus software?",
+        optionA: "Creating viruses",
+        optionB: "Protecting against viruses",
+        optionC: "Spreading malware",
+        correctAnswer: "Protecting against viruses",
+      },
+    ],
   };
 }
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
-    activity: "Fill in the blanks:",
+    activity: "Fill in the blank with correct option:",
     questions: [
-        {
-          question:
-            "The _____________ tool of PowerPoint application is powerful for attracting the audience's attention.",
-          options: {
-            A: "Animation",
-            B: "Slide Transition",
-            C: "Customization",
-          },
-          correctAnswer: "A) Animation",
-        },
-        {
-          question:
-            "PowerPoint offers ___________ types of animation effects categorized into Entrance, Emphasis, Exit, and Motion Paths.",
-          options: {
-            A: "Two",
-            B: "Four",
-            C: "Three",
-          },
-          correctAnswer: "B) Four",
-        },
-        {
-          question:
-            "The ___________ tab is used to apply slide transitions in PowerPoint.",
-          options: {
-            A: "Design",
-            B: "Transitions",
-            C: "Animations",
-          },
-          correctAnswer: "B) Transitions",
-        },
-        {
-          question:
-            "___________ transitions move only the placeholders between similar slide layouts in a presentation.",
-          options: {
-            A: "Subtle",
-            B: "Dynamic Content",
-            C: "Exciting",
-          },
-          correctAnswer: "B) Dynamic Content",
-        },
-        {
-          question:
-            "Slide transitions should be used in ___________, as adding too many can distract the audience.",
-          options: {
-            A: "Abundance",
-            B: "Moderation",
-            C: "Limitation",
-          },
-          correctAnswer: "B) Moderation",
-        },
-        {
-          question:
-            "The ___________ group within the Transitions tab allows modification of transition properties.",
-          options: {
-            A: "Timing",
-            B: "Effect Options",
-            C: "Advance Slide",
-          },
-          correctAnswer: "A) Timing",
-        },
-        {
-          question:
-            "___________ view in PowerPoint presents a full-screen preview of the presentation.",
-          options: {
-            A: "Slide Sorter",
-            B: "Normal",
-            C: "Reading",
-          },
-          correctAnswer: "C) Reading",
-        },
-        {
-          question:
-            "You can preview animations for the current slide by using the ___________ command on the Animations tab.",
-          options: {
-            A: "Preview",
-            B: "Play Animations",
-            C: "Slide Show",
-          },
-          correctAnswer: "A) Preview",
-        },
-        {
-          question:
-            "To start a presentation from the current slide, use the ___________ command in PowerPoint.",
-          options: {
-            A: "Start From Beginning",
-            B: "Slide Show View",
-            C: "Slide Show Options",
-          },
-          correctAnswer: "B) Slide Show View",
-        },
-        {
-          question:
-            "Pressing the ___________ key allows you to exit presentation mode in PowerPoint.",
-          options: {
-            A: "Ctrl",
-            B: "Esc",
-            C: "Alt",
-          },
-          correctAnswer: "B) Esc",
-        },
-      ],
+      {
+        question:
+          "A computer virus is a malicious program that may cause harm to the computer by downloading and installing itself from various resources, without the knowledge of the user. Once loaded in a computer system, it starts damaging the system ___________.",
+        options: ["manually", "automatically", "continuously"],
+        correctAnswer: "automatically",
+      },
+      {
+        question:
+          "Program viruses infect executable files with extensions like .com, .exe, .ovl, .drv, .sys, etc. These programs get loaded into memory during execution, and the virus becomes active in memory by ___________.",
+        options: [
+          "encrypting files",
+          "replicating itself",
+          "deleting system files",
+        ],
+        correctAnswer: "replicating itself",
+      },
+      {
+        question:
+          "Boot viruses infect the boot records or master boot records and replace the boot records responsible for loading the operating system in memory by ___________.",
+        options: [
+          "moving them elsewhere",
+          "copying them repeatedly",
+          "copying it elsewhere",
+        ],
+        correctAnswer: "copying it elsewhere",
+      },
+      {
+        question:
+          "Stealth viruses infect the system by hiding the file, changing the size of the file, or changing the ___________.",
+        options: [
+          "name of the file",
+          "creation date and time",
+          "file extension",
+        ],
+        correctAnswer: "creation date and time",
+      },
+      {
+        question:
+          "Multipartite viruses are distributed through infected media and usually hide in the memory. Gradually, the virus moves to the boot sector of the hard drive and infects executable files, spreading across the computer system ___________.",
+        options: ["simultaneously", "progressively", "intermittently"],
+        correctAnswer: "progressively",
+      },
+      {
+        question:
+          "Polymorphic viruses encrypt or encode themselves in different ways every time they infect a system, making it impossible for antivirus software to find them using ___________.",
+        options: [
+          "pattern recognition",
+          "string or signature searches",
+          "memory analysis",
+        ],
+        correctAnswer: "string or signature searches",
+      },
+      {
+        question:
+          "Trojan horse is a simple program that pretends to be a useful application while always doing something destructive, spreading only when ___________.",
+        options: [
+          "activated by the user",
+          "downloaded from the internet",
+          "connected to the network",
+        ],
+        correctAnswer: "activated by the user",
+      },
+      {
+        question:
+          "Email viruses send emails to spread themselves and, upon activation, cause unexpected and usually harmful effects, such as destroying certain files or hard disks and causing the attachment to be remailed to everyone available in the ___________.",
+        options: ["sent items folder", "inbox address book", "drafts folder"],
+        correctAnswer: "inbox address book",
+      },
+      {
+        question:
+          "Overwrite viruses overwrite the content of a file, losing the original content. To delete this virus, you also need to get rid of ___________.",
+        options: ["your system", "the infected file", "the antivirus program"],
+        correctAnswer: "the infected file",
+      },
+      {
+        question:
+          "An antivirus software is a computer program used to scan files, detect, prevent, identify, and eliminate computer viruses and other malicious software (malware). It also takes action to disarm or remove malicious software from a computer, found in memory, on storage media, or in incoming files ___________.",
+        options: ["manually", "automatically", "semi-automatically"],
+        correctAnswer: "automatically",
+      },
+    ],
   };
 }
 
@@ -204,97 +178,77 @@ if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: [
-        {
-          question:
-            "PowerPoint offers multiple categories of animation effects categorized into Entrance, Emphasis, Exit, and Motion Paths.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "A) True",
-        },
-        {
-          question:
-            "Slide transitions should be used in abundance to keep the audience engaged.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "B) False",
-        },
-        {
-          question:
-            "The Transitions tab in PowerPoint is used for applying animation effects.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "B) False",
-        },
-        {
-          question:
-            "Animations in PowerPoint are only categorized into Subtle and Exciting types.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "B) False",
-        },
-        {
-          question:
-            "PowerPoint allows users to preview animations for the current slide using the Slide Show command.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "B) False",
-        },
-        {
-          question:
-            "The Timing group within the Transitions tab allows modification of transition properties in PowerPoint.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "A) True",
-        },
-        {
-          question:
-            "Slide Sorter view in PowerPoint presents a full-screen preview of the presentation.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "B) False",
-        },
-        {
-          question:
-            "Animations in PowerPoint can only be applied to text and not to objects like shapes or pictures.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "B) False",
-        },
-        {
-          question:
-            "The Start From Beginning command in PowerPoint initiates a presentation from the current slide.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "B) False",
-        },
-        {
-          question:
-            "Exiting presentation mode in PowerPoint can be achieved by pressing the F5 key.",
-          options: {
-            A: "True",
-            B: "False",
-          },
-          correctAnswer: "B) False",
-        },
-      ],
+      {
+        question:
+          "The Program virus infects executable files with extensions like .com, .exe, .ovl, .drv, .sys, etc.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      },
+      {
+        question:
+          "Boot viruses infect only the data files stored in the computer.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+      {
+        question:
+          "Stealth viruses conceal themselves by changing the creation date and time of files.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      },
+      {
+        question:
+          "Web Scripting Virus resides in certain elements of a website, such as links, ads, images, and videos.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      },
+      {
+        question:
+          "Multipartite viruses usually hide in the memory and never move to the hard drive.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+      {
+        question:
+          "Polymorphic viruses use the same encryption method every time they infect a system.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+      {
+        question:
+          "Trojan horse spreads automatically without any user intervention.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+      {
+        question:
+          "Email viruses activate themselves when a user opens a suspicious email attachment.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      },
+      {
+        question:
+          "Overwrite viruses maintain the original content of the infected file.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+      {
+        question:
+          "Antivirus software takes manual action to detect and eliminate computer viruses.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      },
+    ],
   };
 }
 
