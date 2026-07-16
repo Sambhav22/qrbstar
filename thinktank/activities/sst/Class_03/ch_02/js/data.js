@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 2: The Earth: Our Home Planet";
+export const chapter = "Chapter - 2: The Earth : Models and Features";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

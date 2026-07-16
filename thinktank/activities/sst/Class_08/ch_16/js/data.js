@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 16: Natural Resources : Land and Soil ";
+export const chapter = "Chapter - 16: Natural Resources : Land and Soil";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

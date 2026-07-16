@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 2: North India in Early Medieval Period ";
+export const chapter = "Chapter - 2: North India in Early Medieval Period";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

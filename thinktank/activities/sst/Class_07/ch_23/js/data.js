@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 23: Understanding Democracy  ";
+export const chapter = "Chapter - 23: Understanding Democracy";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

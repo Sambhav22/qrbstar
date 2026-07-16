@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 6: Our National Symbols ";
+export const chapter = "Chapter - 6: India : Food";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

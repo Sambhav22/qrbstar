@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 19: Agriculture : Types and Major Crops ";
+export const chapter = "Chapter - 19: Agriculture : Types and Major Crops";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 18: The United Nations  ";
+export const chapter = "Chapter - 18: Family, Community and Government";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

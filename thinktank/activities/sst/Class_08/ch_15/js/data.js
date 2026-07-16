@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 15: Resources and Their Types ";
+export const chapter = "Chapter - 15: Resources and Their Types";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

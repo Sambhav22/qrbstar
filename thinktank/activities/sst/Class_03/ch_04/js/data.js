@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 4: Physical Features of India  ";
+export const chapter = "Chapter - 4: India : Government";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

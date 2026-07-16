@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 23: Our Rights and Duties";
+export const chapter = "Chapter - 23: India : Leaders";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

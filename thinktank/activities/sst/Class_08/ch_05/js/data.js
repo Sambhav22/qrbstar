@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 5: Tribal Societies in Colonial Rule ";
+export const chapter = "Chapter - 5: Tribal Societies in Colonial Rule";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

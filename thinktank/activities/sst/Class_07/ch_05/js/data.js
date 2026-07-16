@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 5: The Sultanate Period : Regional Kingdoms ";
+export const chapter = "Chapter - 5: The Sultanate Period : Regional Kingdoms";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

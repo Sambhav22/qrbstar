@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 4: Congo: The Land of Forests  ";
+export const chapter = "Chapter - 4: Congo : The Land of Forests";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

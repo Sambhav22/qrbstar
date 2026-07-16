@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 24: Voting and Elections ";
+export const chapter = "Chapter - 24: Voting and Elections";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

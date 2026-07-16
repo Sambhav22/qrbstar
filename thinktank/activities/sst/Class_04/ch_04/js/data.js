@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 4: The Great Indian Desert  ";
+export const chapter = "Chapter - 4: Western Desert";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

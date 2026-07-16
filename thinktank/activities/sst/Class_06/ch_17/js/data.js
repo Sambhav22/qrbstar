@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 17:Towards the Path of Freedom  ";
+export const chapter = "Chapter - 17: Unity in Diversity";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

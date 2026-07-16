@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 4: The First Cities ";
+export const chapter = "Chapter - 4: The World : Realms, Continents and Oceans";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

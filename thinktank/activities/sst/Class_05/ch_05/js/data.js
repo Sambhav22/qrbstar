@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 5: Greenland: The Land of Snow";
+export const chapter = "Chapter - 5: Greenland : The Land of Ice";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

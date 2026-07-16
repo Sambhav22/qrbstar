@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 28: Law-making in the Country ";
+export const chapter = "Chapter - 28: Law-making in the Country";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

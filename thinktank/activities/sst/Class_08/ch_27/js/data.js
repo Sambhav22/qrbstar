@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 27: Parliamentary Form of Government ";
+export const chapter = "Chapter - 27: Parliamentary Form of Government";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

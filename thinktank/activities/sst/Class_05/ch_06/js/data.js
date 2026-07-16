@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 6: Saudi Arabia :The Land of Hot Sand  ";
+export const chapter = "Chapter - 6: Saudi Arabia : The Land of Dessert";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

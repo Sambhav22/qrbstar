@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 11: Food and Clothes ";
+export const chapter = "Chapter - 11: India : Means of Transport";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

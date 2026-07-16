@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 32: The Government's Economic Role ";
+export const chapter = "Chapter - 32: The Government’s Economic Role";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

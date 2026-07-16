@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 3: First Farmers and Herders";
+export const chapter = "Chapter - 3: The Globe and What It Teaches";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

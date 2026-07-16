@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 9: Means of Communication  ";
+export const chapter = "Chapter - 9: The Indian Culture in the Northwest and the Deccan";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

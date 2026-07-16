@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 11: Living Longer and Healthier Lives ";
+export const chapter = "Chapter - 11: Advancement in Medical Science";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

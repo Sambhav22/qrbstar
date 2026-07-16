@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 18: Life in the Coastal Plains and Islands  ";
+export const chapter = "Chapter - 19: Life in Coastal Plains and Islands";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

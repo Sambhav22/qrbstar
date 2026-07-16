@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 6: The First War of Independence, 18S7 ";
+export const chapter = "Chapter - 6: The First War of Independence, 1857";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

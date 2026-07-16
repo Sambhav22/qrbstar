@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 17: Natural Resources : Water ";
+export const chapter = "Chapter - 17: Natural Resources : Water";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

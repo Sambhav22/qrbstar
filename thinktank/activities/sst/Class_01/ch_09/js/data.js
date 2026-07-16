@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 9: Learning at School ";
+export const chapter = "Chapter - 9: Helpers at School";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

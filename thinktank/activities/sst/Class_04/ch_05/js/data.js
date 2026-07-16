@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 5: The Peninsular Plateau";
+export const chapter = "Chapter - 5: Southern Plateaus";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

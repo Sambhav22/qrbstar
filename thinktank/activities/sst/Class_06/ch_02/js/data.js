@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 2: The Earliest Societies";
+export const chapter = "Chapter - 2: Finding Places on Earth";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

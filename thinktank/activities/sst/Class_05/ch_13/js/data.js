@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 13: Our Environment  ";
+export const chapter = "Chapter - 13: Sources of Energy";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

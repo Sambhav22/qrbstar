@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 22: Life in Temperate Grasslands ";
+export const chapter = "Chapter - 22: Life in Temperate Grasslands";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 19: The Organs and Agencies of the UN  ";
+export const chapter = "Chapter - 19: The Rural Local Self-Government";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

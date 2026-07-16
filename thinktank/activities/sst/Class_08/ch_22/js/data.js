@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 22: Industrial Regions and Major Industries ";
+export const chapter = "Chapter - 22: Industrial Regions and Major Industries";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

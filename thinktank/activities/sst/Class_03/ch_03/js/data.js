@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 3: Model of the Earth and Maps";
+export const chapter = "Chapter - 3: India : Land and Climate";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

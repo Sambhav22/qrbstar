@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 15: Life in the Northern Mountains ";
+export const chapter = "Chapter - 15: India : Life in Northern Mountains";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

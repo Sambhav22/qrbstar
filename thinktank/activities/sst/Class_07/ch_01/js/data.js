@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 1: Medieval Period : Where, When and How ";
+export const chapter = "Chapter - 1: Medieval Period : Where, When and How";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 13: The Nationalist Movement-2 ";
+export const chapter = "Chapter - 13: The Nationalist Movement-2";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

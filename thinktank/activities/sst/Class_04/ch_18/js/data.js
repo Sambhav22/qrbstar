@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 18: Life in the Peninsular Plateau  ";
+export const chapter = "Chapter - 18: India : Life in Southern Plateaus";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

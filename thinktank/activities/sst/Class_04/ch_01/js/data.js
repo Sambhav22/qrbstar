@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 1: Our Country India ";
+export const chapter = "Chapter - 1: Our India : An Overview";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

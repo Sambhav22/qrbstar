@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 11: The Colonial Rule and Changes in Arts ";
+export const chapter = "Chapter - 11: The Colonial Rule and Changes in Arts";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

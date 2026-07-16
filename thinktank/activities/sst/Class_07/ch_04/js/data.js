@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 4: The Delhi Sultanate ";
+export const chapter = "Chapter - 4: The Delhi Sultanate";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 31: Marginalisation  ";
+export const chapter = "Chapter - 31: Marginalisation";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

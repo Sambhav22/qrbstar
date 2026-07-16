@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 16: Rise of Nationalism (1885-1919) ";
+export const chapter = "Chapter - 16: New Schools of Thought";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

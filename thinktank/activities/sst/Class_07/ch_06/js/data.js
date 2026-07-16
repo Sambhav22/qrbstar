@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 6: The Mughal Empire  ";
+export const chapter = "Chapter - 6: The Mughal Empire";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

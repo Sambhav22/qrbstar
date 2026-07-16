@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 26: Media and Democracy ";
+export const chapter = "Chapter - 26: Media and Democracy";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

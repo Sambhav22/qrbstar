@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 5: Political Features of India";
+export const chapter = "Chapter - 5: India : Local Self-government";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

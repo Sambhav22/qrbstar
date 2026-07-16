@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 6: Janapadas to Mahajanapadas ";
+export const chapter = "Chapter - 6: How to Understand History";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

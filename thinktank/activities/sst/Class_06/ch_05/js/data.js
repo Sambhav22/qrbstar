@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 5: Different Ways of Life";
+export const chapter = "Chapter - 5: India : Physiographic Divisions";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

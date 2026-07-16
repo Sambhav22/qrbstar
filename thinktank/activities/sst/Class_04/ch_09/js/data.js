@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 9: Forests and Wildlife  ";
+export const chapter = "Chapter - 9: India : Forests and Wildlife";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
