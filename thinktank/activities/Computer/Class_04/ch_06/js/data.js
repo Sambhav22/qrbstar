@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 6: Drawing in MSWLogo ";
+export const chapter = "Chapter - 6: Let's Draw in MSWLogo";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

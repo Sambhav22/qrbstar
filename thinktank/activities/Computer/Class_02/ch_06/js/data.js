@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 6: More on Tux Paint ";
+export const chapter = "Chapter - 6: Enjoy with Tux Paint";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 2: Working with Notepad";
+export const chapter = "Chapter - 2: Operating System: Windows 11";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

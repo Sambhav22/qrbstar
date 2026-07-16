@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 1: Windows 11";
+export const chapter = "Chapter - 1: About Windows 11";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

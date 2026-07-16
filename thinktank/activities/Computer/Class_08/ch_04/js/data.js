@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 4: Rural Life and Society";
+export const chapter = "Chapter - 4: Access: Forms and Reports";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

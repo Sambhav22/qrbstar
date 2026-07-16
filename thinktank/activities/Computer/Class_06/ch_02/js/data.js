@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 2: Working With Table In Word";
+export const chapter = "Chapter - 2: Working with Word: Tables";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

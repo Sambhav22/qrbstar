@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 9: AI And Theory Of Multiple Intellignce";
+export const chapter = "Chapter - 9: Getting Started with Python";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

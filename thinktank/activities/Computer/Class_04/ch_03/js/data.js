@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 3: Editing in Word";
+export const chapter = "Chapter - 3: Let's Edit in Word";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

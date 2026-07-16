@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 9: Binary Number System";
+export const chapter = "Chapter - 10: Stepwise Thinking in Performing a Task";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

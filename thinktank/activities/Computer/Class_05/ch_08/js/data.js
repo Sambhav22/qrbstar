@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 8: More About Scratch";
+export const chapter = "Chapter - 8: About Internet";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

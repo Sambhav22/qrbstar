@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 8: Introduction to Python";
+export const chapter = "Chapter - 8: Computer Languages";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

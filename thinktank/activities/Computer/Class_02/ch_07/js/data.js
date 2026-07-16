@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 7: Reasoning and Analytical Thinking";
+export const chapter = "Chapter - 7: Applications of Computers";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

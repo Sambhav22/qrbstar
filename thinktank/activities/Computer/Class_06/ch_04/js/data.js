@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 4: More About Powerpoint ";
+export const chapter = "Chapter - 4: Basics of PowerPoint";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

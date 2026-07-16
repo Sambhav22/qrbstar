@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 9: Caste System and Reform";
+export const chapter = "Chapter - 9: Artificial Intelligence: Types and Subsets";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

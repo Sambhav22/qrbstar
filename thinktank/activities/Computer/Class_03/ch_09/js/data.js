@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 9: Features of Artificial Intelligence";
+export const chapter = "Chapter - 9: AI Technology";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

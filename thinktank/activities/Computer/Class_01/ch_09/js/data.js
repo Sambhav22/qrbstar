@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 9: Introduction to Artificial Intelligence ";
+export const chapter = "Chapter - 9: Reasoning, Processing and Thinking";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

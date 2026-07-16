@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 4: About Window 11";
+export const chapter = "Chapter - 4: Let's Learn Notepad";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

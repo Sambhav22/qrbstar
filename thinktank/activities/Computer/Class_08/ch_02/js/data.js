@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 2: WORD: Mail Merge";
+export const chapter = "Chapter - 2: Word: Mail Merge";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

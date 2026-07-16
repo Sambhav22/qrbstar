@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 7: Fundamentals Of HTML ";
+export const chapter = "Chapter - 7: Artificial and Human Intelligence";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

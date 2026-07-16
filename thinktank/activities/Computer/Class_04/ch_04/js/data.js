@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 4: Advanced Features of Paint  ";
+export const chapter = "Chapter - 4: Introduction to Excel";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

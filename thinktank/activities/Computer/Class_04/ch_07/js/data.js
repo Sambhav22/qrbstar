@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 7: Binary Number System";
+export const chapter = "Chapter - 7: Blocks and Shapes in Scratch";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

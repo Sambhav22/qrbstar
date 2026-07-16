@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 3: Working With Excel";
+export const chapter = "Chapter - 3: Basics of Excel";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

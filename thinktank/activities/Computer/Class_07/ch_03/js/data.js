@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 3: Windows 11";
+export const chapter = "Chapter - 3: Windows: The Latest Version";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 6: Mouse";
+export const chapter = "Chapter - 6: Using a Keyboard";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

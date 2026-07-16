@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 3: Operating a Computer";
+export const chapter = "Chapter - 3: Uses of the Computer";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {

@@ -1,4 +1,4 @@
-export const chapter = "Chapter - 4: Foemulae And Functions In Excel";
+export const chapter = "Chapter - 4: Excel: Formulae and Functions";
 export const noOfActivities = 3;
 
 if (localStorage.getItem("activityNumber") == 1) {
