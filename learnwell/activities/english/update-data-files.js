@@ -3,10 +3,10 @@ const path = require("path");
 
 // Generated chapter files:
 // Class5_datajs/Chapter-01/data.js
-const sourceRoot = path.join(__dirname, "Class8_datajs");
+const sourceRoot = path.join(__dirname, "Class7_datajs");
 
 // Existing project folder
-const targetRoot = path.join(__dirname, "Class_08");
+const targetRoot = path.join(__dirname, "Class_07");
 
 const totalChapters = 19;
 
