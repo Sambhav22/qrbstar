@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 7: Girls and Boys";
+export const chapter = "Chapter - 7: Fractions";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who are invited to play?",
-        optionA: "Girls and boys",
-        optionB: "Men and women",
-        optionC: "Teachers and parents",
-        correctAnswer: "Girls and boys",
+        question: "What do we call the number written above the line in a fraction?",
+        optionA: "Denominator",
+        optionB: "Numerator",
+        optionC: "Whole part",
+        correctAnswer: "Numerator",
       }),
       shuffleOptions({
-        question: "What is shining bright as day?",
-        optionA: "The moon",
-        optionB: "The sun",
-        optionC: "The stars",
-        correctAnswer: "The moon",
+        question: "Which of the following is a proper fraction? 9",
+        optionA: "7 8",
+        optionB: "8 3",
+        optionC: "5",
+        correctAnswer: "5",
       }),
       shuffleOptions({
-        question: "What are the children asked to leave?",
-        optionA: "Their toys",
-        optionB: "Their supper and sleep",
-        optionC: "Their books",
-        correctAnswer: "Their supper and sleep",
+        question: "Which fraction is the greatest? 4",
+        optionA: "9 7",
+        optionB: "9  2",
+        optionC: "9",
+        correctAnswer: "9  2",
       }),
       shuffleOptions({
-        question: "Where are the children asked to dance?",
-        optionA: "On the open green",
-        optionB: "In the classroom",
-        optionC: "In the kitchen",
-        correctAnswer: "On the open green",
+        question: "Which of these represents a unit fraction? 3",
+        optionA: "7 1",
+        optionB: "6  5",
+        optionC: "6 2",
+        correctAnswer: "6  5",
       }),
       shuffleOptions({
-        question: "Who shall be called queen?",
-        optionA: "The youngest child",
-        optionB: "The one who holds longest",
-        optionC: "The teacher",
-        correctAnswer: "The one who holds longest",
+        question: "in lowest form is: 8 2",
+        optionA: "4 1",
+        optionB: "8 1",
+        optionC: "4",
+        correctAnswer: "4",
       }),
       shuffleOptions({
-        question: "Children should come with a ______.",
-        optionA: "Whoop and call",
-        optionB: "Bag and book",
-        optionC: "Song and story",
-        correctAnswer: "Whoop and call",
+        question: "Fractions with the same denominator are called:",
+        optionA: "Like fractions",
+        optionB: "Unit fractions",
+        optionC: "Mixed fractions",
+        correctAnswer: "Like fractions",
       }),
       shuffleOptions({
-        question: "The poem begins with the words—",
-        optionA: "Come and dance",
-        optionB: "Girls and boys, come out to play",
-        optionC: "Leave your supper",
-        correctAnswer: "Girls and boys, come out to play",
+        question: "Which of the following is an improper fraction? 5",
+        optionA: "9 11",
+        optionB: "7  3",
+        optionC: "4 1 2",
+        correctAnswer: "7  3",
       }),
       shuffleOptions({
-        question: "A playfellow is—",
-        optionA: "A companion at play",
-        optionB: "A person who eats with us",
-        optionC: "A teacher",
-        correctAnswer: "A companion at play",
+        question: "3 and 6are:",
+        optionA: "Unlike fractions",
+        optionB: "Equivalent fractions",
+        optionC: "Mixed fractions",
+        correctAnswer: "Equivalent fractions",
       }),
       shuffleOptions({
-        question: "Supper means—",
-        optionA: "Sleep",
-        optionB: "Food",
-        optionC: "Lunch",
-        correctAnswer: "Food",
+        question: "Mixing a whole number with a proper fraction forms a:",
+        optionA: "Improper fraction",
+        optionB: "Unit fraction",
+        optionC: "Mixed fraction",
+        correctAnswer: "Mixed fraction",
       }),
       shuffleOptions({
-        question: "Whoop means—",
-        optionA: "A shout of joy",
-        optionB: "A song",
-        optionC: "A whisper",
-        correctAnswer: "A shout of joy",
+        question: "Which number line point shows the greatest value? 2",
+        optionA: "8 5",
+        optionB: "8 7",
+        optionC: "8",
+        correctAnswer: "8",
       }),
     ]),
   };
@@ -113,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The ______ is shining bright as day.",
-        optionA: "Sun",
-        optionB: "Moon",
-        optionC: "Star",
-        correctAnswer: "Moon",
+        question: "A fraction represents a part of a ______.",
+        optionA: "group",
+        optionB: "whole",
+        optionC: "number line 5",
+        correctAnswer: "whole",
       }),
       shuffleOptions({
-        question: "Leave your ______ and leave your sleep.",
-        optionA: "Supper",
-        optionB: "Toys",
-        optionC: "Books",
-        correctAnswer: "Supper",
+        question: "In 12, the number 12 is the ______.",
+        optionA: "numerator",
+        optionB: "denominator",
+        optionC: "unit fraction",
+        correctAnswer: "denominator",
       }),
       shuffleOptions({
-        question: "Come with a ______ of joy.",
-        optionA: "Whoop",
-        optionB: "Cry",
-        optionC: "Tear",
-        correctAnswer: "Whoop",
+        question: "Fractions that have different denominators are called ______ fractions.",
+        optionA: "like",
+        optionB: "unlike",
+        optionC: "proper 1",
+        correctAnswer: "unlike",
       }),
       shuffleOptions({
-        question: "Come with a ______.",
-        optionA: "Call",
-        optionB: "Stick",
-        optionC: "Bag",
-        correctAnswer: "Call",
+        question: "4 = 6",
+        optionA: "5 2",
+        optionB: "8",
+        optionC: "10",
+        correctAnswer: "8",
       }),
       shuffleOptions({
-        question: "Come with a good ______.",
-        optionA: "Will",
-        optionB: "Friend",
-        optionC: "Book",
-        correctAnswer: "Will",
+        question: "When adding like fractions, we add the ______.",
+        optionA: "denominators",
+        optionB: "numerators",
+        optionC: "mixed numbers",
+        correctAnswer: "numerators",
       }),
       shuffleOptions({
-        question: "Dance on the open ______.",
-        optionA: "Road",
-        optionB: "Green",
-        optionC: "Street",
-        correctAnswer: "Green",
+        question: "A fraction with numerator 1 is called a ______ fraction.",
+        optionA: "unit",
+        optionB: "mixed",
+        optionC: "improper 6",
+        correctAnswer: "unit",
       }),
       shuffleOptions({
-        question: "Who holds longest shall be our ______.",
-        optionA: "King",
-        optionB: "Queen",
-        optionC: "Captain",
-        correctAnswer: "Queen",
+        question: "9 reduced to lowest terms is ______. 2",
+        optionA: "3  3",
+        optionB: "9 1",
+        optionC: "6",
+        correctAnswer: "3  3",
       }),
       shuffleOptions({
-        question: "Playing is natural to ______.",
-        optionA: "Children",
-        optionB: "Parents",
-        optionC: "Teachers",
-        correctAnswer: "Children",
+        question: "To compare fractions with same numerator, the one with the ______ denominator is smaller.",
+        optionA: "smaller",
+        optionB: "bigger",
+        optionC: "bigger  1",
+        correctAnswer: "bigger  1",
       }),
       shuffleOptions({
-        question: "A ______ is a companion at play.",
-        optionA: "Playfellow",
-        optionB: "Stranger",
-        optionC: "Teacher",
-        correctAnswer: "Playfellow",
+        question: "Converting 3 4 into an improper fraction gives ______. 15",
+        optionA: "4 12",
+        optionB: "4 13",
+        optionC: "4  7 3",
+        correctAnswer: "4  7 3",
       }),
       shuffleOptions({
-        question: "Supper means our ______.",
-        optionA: "Lunch",
-        optionB: "Food",
-        optionC: "Breakfast",
-        correctAnswer: "Food",
+        question: "11 – 11 = ______. 3",
+        optionA: "11 4",
+        optionB: "11  10",
+        optionC: "11",
+        correctAnswer: "11  10",
       }),
     ]),
   };
@@ -191,67 +198,65 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The poem invites only boys to play.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The moon is shining bright as day.",
+        question: "2 and 4 represent the same fraction.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Children are asked to bring their books.",
+        question: "A mixed fraction always contains an improper fraction inside it.",
+        optionA: "True",
+        optionB: "False  5 5",
+        correctAnswer: "False  5 5",
+      }),
+      shuffleOptions({
+        question: "9 is smaller than 11.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The children are asked to leave supper and sleep.",
+        question: "When subtracting like fractions, we subtract the denominators.",
+        optionA: "True",
+        optionB: "False  9",
+        correctAnswer: "False  9",
+      }),
+      shuffleOptions({
+        question: "is equal to 1. 9",
+        optionA: "True",
+        optionB: "False 3",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "is a unit fraction. 7",
+        optionA: "True",
+        optionB: "False  4 1",
+        correctAnswer: "False  4 1",
+      }),
+      shuffleOptions({
+        question: "12in simplest form is 3.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "They are invited to play on the open green.",
+        question: "All proper fractions are less than 1.",
         optionA: "True",
-        optionB: "False",
+        optionB: "False 1 1",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The one who runs fastest shall be queen.",
+        question: "9 is greater than 5 .",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "A playfellow means a companion at play.",
+        question: "Fractions with the same denominator can be compared by looking at their numerators.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Whoop means a whisper.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Playing is natural to children.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The poem talks about classroom study.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
       }),
     ]),
   };
 }
-
-export var activityData;

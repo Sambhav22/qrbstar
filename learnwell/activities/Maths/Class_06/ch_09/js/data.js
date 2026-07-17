@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 9: Fish or Fishes";
+export const chapter = "Chapter - 9: Basic Geometrical Ideas";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,219 +42,217 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Which fish is also called Mully?",
-        optionA: "Catfish",
-        optionB: "Hilsa",
-        optionC: "Rohu",
-        correctAnswer: "Catfish",
+        question: "Which of the following is made up of an endless number of points on a straight path?",
+        optionA: "Line segment",
+        optionB: "Line",
+        optionC: "Ray",
+        correctAnswer: "Line",
       }),
       shuffleOptions({
-        question: "Which fish is known for its flight above water?",
-        optionA: "Ribbon fish",
-        optionB: "Flying fish",
-        optionC: "Chital",
-        correctAnswer: "Flying fish",
+        question: "Two lines that meet at a point are called:",
+        optionA: "Parallel lines",
+        optionB: "Intersecting lines",
+        optionC: "Concurrent lines",
+        correctAnswer: "Intersecting lines",
       }),
       shuffleOptions({
-        question: "Which is the largest fish group living today?",
-        optionA: "Whales",
-        optionB: "Sharks",
-        optionC: "Salmon",
-        correctAnswer: "Sharks",
+        question: "A curve whose starting and ending points are different is called a:",
+        optionA: "Closed curve",
+        optionB: "Open curve",
+        optionC: "Polygon",
+        correctAnswer: "Open curve",
       }),
       shuffleOptions({
-        question: "Which fish is popularly eaten as bhekti?",
-        optionA: "Hilsa",
-        optionB: "Bhekti",
-        optionC: "Rohu",
-        correctAnswer: "Bhekti",
+        question: "Which of the following is a simple closed curve made of straight line segments?",
+        optionA: "Polygon",
+        optionB: "Arc",
+        optionC: "Sector",
+        correctAnswer: "Polygon",
       }),
       shuffleOptions({
-        question: "Which organ helps fishes detect sound under water?",
-        optionA: "Ears",
-        optionB: "Internal ear",
-        optionC: "Fins",
-        correctAnswer: "Internal ear",
+        question: "A figure formed by two rays having the same initial point is called:",
+        optionA: "Line",
+        optionB: "Angle",
+        optionC: "Chord",
+        correctAnswer: "Angle",
       }),
       shuffleOptions({
-        question: "Which fish is known as Indian carp?",
-        optionA: "Hilsa",
-        optionB: "Rohu",
-        optionC: "Salmon",
-        correctAnswer: "Rohu",
+        question: "A triangle is a closed figure made up of:",
+        optionA: "Two sides",
+        optionB: "Three sides",
+        optionC: "Four sides",
+        correctAnswer: "Three sides",
       }),
       shuffleOptions({
-        question: "Which fish is also called ribbon fish?",
-        optionA: "Chital",
-        optionB: "Catfish",
-        optionC: "Ribbon fish",
-        correctAnswer: "Ribbon fish",
+        question: "The perpendicular drawn from a vertex of a triangle to its opposite side is called:",
+        optionA: "Median",
+        optionB: "Altitude",
+        optionC: "Diagonal",
+        correctAnswer: "Altitude",
       }),
       shuffleOptions({
-        question: "Fishes can taste through their ______.",
-        optionA: "tongue",
-        optionB: "oral membrane",
-        optionC: "fins",
-        correctAnswer: "oral membrane",
+        question: "A quadrilateral has:",
+        optionA: "Three vertices",
+        optionB: "Five vertices",
+        optionC: "Four vertices",
+        correctAnswer: "Four vertices",
       }),
       shuffleOptions({
-        question: "Which fish is known for uncanny smell sense?",
-        optionA: "Salmon",
-        optionB: "Hilsa",
-        optionC: "Shark",
-        correctAnswer: "Salmon",
+        question: "A line segment joining two non-adjacent vertices of a polygon is called a:",
+        optionA: "Chord",
+        optionB: "Diagonal",
+        optionC: "Ray",
+        correctAnswer: "Diagonal",
       }),
       shuffleOptions({
-        question: "Which sea creatures emit light apart from fishes?",
-        optionA: "Frogs",
-        optionB: "Glow worms",
-        optionC: "Fireflies",
-        correctAnswer: "Fireflies",
+        question: "A circle is a set of all points that are at a fixed distance from a:",
+        optionA: "Chord",
+        optionB: "Centre",
+        optionC: "Diameter",
+        correctAnswer: "Centre",
       }),
     ]),
   };
 }
-
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Whales look like fish but are actually ______.",
-        optionA: "Mammals",
-        optionB: "Fishes",
-        optionC: "Amphibians",
-        correctAnswer: "Mammals",
+        question: "A ray has only ______ end point.",
+        optionA: "two",
+        optionB: "one",
+        optionC: "no",
+        correctAnswer: "one",
       }),
       shuffleOptions({
-        question: "The backbone in fishes proves they are ______.",
-        optionA: "Invertebrates",
-        optionB: "Amphibians",
-        optionC: "Vertebrates",
-        correctAnswer: "Vertebrates",
+        question: "A line segment has a ______ length.",
+        optionA: "definite",
+        optionB: "very long",
+        optionC: "zero",
+        correctAnswer: "definite",
       }),
       shuffleOptions({
-        question: "Fishes inhabit rivers, lakes, seas and ______.",
-        optionA: "Estuaries",
-        optionB: "Mountains",
-        optionC: "Forests",
-        correctAnswer: "Estuaries",
+        question: "The two sides of a polygon that meet at a point are called ______ sides.",
+        optionA: "straight",
+        optionB: "similar",
+        optionC: "adjacent",
+        correctAnswer: "adjacent",
       }),
       shuffleOptions({
-        question: "Experiments proved fishes register sound better through ______ than air.",
-        optionA: "Earth",
-        optionB: "Water",
-        optionC: "Fire",
-        correctAnswer: "Water",
+        question: "A curve that crosses itself is called a ______ closed curve.",
+        optionA: "complex",
+        optionB: "simple",
+        optionC: "open",
+        correctAnswer: "complex",
       }),
       shuffleOptions({
-        question: "Some fishes have venom which is used only when ______.",
-        optionA: "Sleeping",
-        optionB: "Provoked",
-        optionC: "Swimming",
-        correctAnswer: "Provoked",
+        question: "The region inside a closed curve is called its ______.",
+        optionA: "exterior",
+        optionB: "boundary",
+        optionC: "interior",
+        correctAnswer: "interior",
       }),
       shuffleOptions({
-        question: "The mucus or ______ was earlier believed to produce young fishes.",
-        optionA: "Oil",
-        optionB: "Slime",
-        optionC: "Shells",
-        correctAnswer: "Slime",
+        question: "The point where the two rays forming an angle meet is called the ______.",
+        optionA: "edge",
+        optionB: "vertex",
+        optionC: "segment",
+        correctAnswer: "vertex",
       }),
       shuffleOptions({
-        question: "Fishes move by the ______ movement of their body.",
-        optionA: "Sinuous",
-        optionB: "Straight",
-        optionC: "Circular",
-        correctAnswer: "Sinuous",
+        question: "A polygon with six sides is called a ______.",
+        optionA: "hexagon",
+        optionB: "pentagon",
+        optionC: "octagon",
+        correctAnswer: "hexagon",
       }),
       shuffleOptions({
-        question: "The phenomenon of light in deep-sea fishes is called ______.",
-        optionA: "Bioluminescence",
-        optionB: "Photosynthesis",
-        optionC: "Reflection",
-        correctAnswer: "Bioluminescence",
+        question: "A line segment that joins the centre of a circle to its boundary is called a ______.",
+        optionA: "chord",
+        optionB: "radius",
+        optionC: "diameter",
+        correctAnswer: "radius",
       }),
       shuffleOptions({
-        question: "Some fishes use light to ______ their enemies.",
-        optionA: "Attack",
-        optionB: "Confuse",
-        optionC: "Kill",
-        correctAnswer: "Confuse",
+        question: "A circle divided into two equal parts by a diameter forms each part as a ______.",
+        optionA: "major arc",
+        optionB: "semi-circle",
+        optionC: "sector",
+        correctAnswer: "semi-circle",
       }),
       shuffleOptions({
-        question: "Cod, salmon or plaice can lay up to ______ eggs.",
-        optionA: "5,000",
-        optionB: "50,000",
-        optionC: "500,000",
-        correctAnswer: "500,000",
+        question: "A quadrilateral has ______ diagonals.",
+        optionA: "three",
+        optionB: "one",
+        optionC: "two",
+        correctAnswer: "two",
       }),
     ]),
   };
 }
-
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Jellyfish and crayfish are true fishes.",
+        question: "A line can be extended endlessly on both sides.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "A line segment has no end points.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Sharks are found in abundance in Indian seas.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Fishes do not have tongues but taste through oral membranes.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Whales are the largest fishes in the ocean.",
+        question: "Parallel lines can meet if extended long enough.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Some fishes use light as recognition marks.",
+        question: "A simple closed curve does not cross itself.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Fish venom is always fatal to humans.",
+        question: "A triangle has four angles.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Deep-sea sharks can produce greenish light.",
+        question: "The median of a triangle joins a vertex to the midpoint of the opposite side.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Fishes cannot hear sounds at all.",
+        question: "A quadrilateral has three sides.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Fishes emerged about 430 million years ago.",
+        question: "A diameter of a circle is always longer than its radius.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Fishes have both males and females for reproduction.",
+        question: "Points lying outside a circle are in its exterior.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Concentric circles share the same centre.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -256,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-export var activityData;
-

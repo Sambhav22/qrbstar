@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 9: How Pratap Became the King";
+export const chapter = "Chapter - 9: Measurement of Weight";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who removed Jagmal from the throne?",
-        optionA: "Pratap",
-        optionB: "Krishnadas",
-        optionC: "Mansingh",
-        correctAnswer: "Krishnadas",
+        question: "Which unit is used to measure the weight of very tiny things like a pill?",
+        optionA: "Kilogram",
+        optionB: "Milligram",
+        optionC: "Gram",
+        correctAnswer: "Milligram",
       }),
       shuffleOptions({
-        question: "Who was Pratap's maternal uncle?",
-        optionA: "Udai Singh",
-        optionB: "Akbar",
-        optionC: "Mansingh",
-        correctAnswer: "Mansingh",
+        question: "Which device is commonly used to measure the weight of objects?",
+        optionA: "Balance",
+        optionB: "Thermometer",
+        optionC: "Ruler",
+        correctAnswer: "Balance",
       }),
       shuffleOptions({
-        question: "Who sat on the throne before Pratap?",
-        optionA: "Jagmal",
-        optionB: "Krishnadas",
-        optionC: "Dheerajbai",
-        correctAnswer: "Jagmal",
+        question: "What is the standard unit of measuring weight?",
+        optionA: "Gram",
+        optionB: "Kilogram",
+        optionC: "Milligram",
+        correctAnswer: "Kilogram",
       }),
       shuffleOptions({
-        question: "Who was known as an incapable prince?",
-        optionA: "Mansingh",
-        optionB: "Jagmal",
-        optionC: "Pratap",
-        correctAnswer: "Jagmal",
+        question: "Which of the following is the heaviest measurement?",
+        optionA: "500 g",
+        optionB: "1 kg 50 g",
+        optionC: "2 kg",
+        correctAnswer: "2 kg",
       }),
       shuffleOptions({
-        question: "Who helped his father in administration?",
-        optionA: "Jagmal",
-        optionB: "Pratap",
-        optionC: "Akbar",
-        correctAnswer: "Pratap",
+        question: "Which weight would be suitable for measuring a sack of wheat?",
+        optionA: "mg",
+        optionB: "g",
+        optionC: "kg",
+        correctAnswer: "kg",
       }),
       shuffleOptions({
-        question: "Who made Jagmal the ruler of Jahajpur?",
-        optionA: "Krishnadas",
-        optionB: "Akbar",
-        optionC: "Mansingh",
-        correctAnswer: "Akbar",
+        question: "Which is the correct conversion of 3 kg into grams?",
+        optionA: "300 g",
+        optionB: "3000 g",
+        optionC: "30 g",
+        correctAnswer: "3000 g",
       }),
       shuffleOptions({
-        question: "Who stood at the threshold of the court?",
-        optionA: "Jagmal",
-        optionB: "Krishnadas",
-        optionC: "Pratap",
-        correctAnswer: "Pratap",
+        question: "Which is heavier between 250 g and 500 g?",
+        optionA: "250 g",
+        optionB: "Both are equal",
+        optionC: "500 g",
+        correctAnswer: "500 g",
       }),
       shuffleOptions({
-        question: "Who was served day and night by Dheerajbai?",
-        optionA: "Krishnadas",
-        optionB: "Jagmal",
-        optionC: "Udai Singh",
-        correctAnswer: "Udai Singh",
+        question: "What should we do to convert kilograms into grams?",
+        optionA: "Divide by 1000",
+        optionB: "Multiply by 1000",
+        optionC: "Add 100",
+        correctAnswer: "Multiply by 1000",
       }),
       shuffleOptions({
-        question: "What ceremony made Pratap the king?",
-        optionA: "Marriage",
-        optionB: "Funeral",
-        optionC: "Coronation",
-        correctAnswer: "Coronation",
+        question: "Which object is most likely to weigh in grams?",
+        optionA: "A pencil box",
+        optionB: "A car",
+        optionC: "A feather",
+        correctAnswer: "A pencil box",
       }),
       shuffleOptions({
-        question: "Whom did Akbar make fight his own father-in-law?",
-        optionA: "Jagmal",
-        optionB: "Pratap",
-        optionC: "Mansingh",
-        correctAnswer: "Jagmal",
+        question: "Which is the correct comparison?",
+        optionA: "1 kg = 100 g",
+        optionB: "1 kg = 1000 g",
+        optionC: "1 kg = 10 g",
+        correctAnswer: "1 kg = 1000 g",
       }),
     ]),
   };
@@ -113,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Pratap was the _______ of Udai Singh.",
-        optionA: "youngest son",
-        optionB: "crown-prince",
-        optionC: "minister",
-        correctAnswer: "crown-prince",
+        question: "A feather is usually measured in ______.",
+        optionA: "g",
+        optionB: "mg",
+        optionC: "kg",
+        correctAnswer: "mg",
       }),
       shuffleOptions({
-        question: "Jagmal wanted to become the ______.",
-        optionA: "Maharana",
-        optionB: "teacher",
-        optionC: "soldier",
-        correctAnswer: "Maharana",
-      }),
-      shuffleOptions({
-        question: "Dheerajbai got the ______ affixed.",
-        optionA: "signature",
-        optionB: "royal stamp",
-        optionC: "sword",
-        correctAnswer: "royal stamp",
-      }),
-      shuffleOptions({
-        question: "Krishnadas was the _______ minister.",
-        optionA: "chief",
-        optionB: "finance",
-        optionC: "foreign",
-        correctAnswer: "chief",
-      }),
-      shuffleOptions({
-        question: "Jagmal was given the kingdom of ______.",
-        optionA: "Mewar",
-        optionB: "Gwalior",
-        optionC: "Jahajpur",
-        correctAnswer: "Jahajpur",
-      }),
-      shuffleOptions({
-        question: "Pratap fought against ______.",
-        optionA: "Ashoka",
-        optionB: "Akbar",
-        optionC: "Chandragupta",
-        correctAnswer: "Akbar",
-      }),
-      shuffleOptions({
-        question: "Jagmal walked out with a ______ heart.",
-        optionA: "happy",
-        optionB: "heavy",
-        optionC: "brave",
-        correctAnswer: "heavy",
-      }),
-      shuffleOptions({
-        question: "The people began to have _______ about Jagmal.",
-        optionA: "respect",
-        optionB: "doubts",
-        optionC: "hope",
-        correctAnswer: "doubts",
-      }),
-      shuffleOptions({
-        question: "Jagmal was killed in a _______.",
-        optionA: "race",
-        optionB: "battle",
-        optionC: "fire",
-        correctAnswer: "battle",
-      }),
-      shuffleOptions({
-        question: "Akbar followed a policy of ______ and rule.",
-        optionA: "divide",
-        optionB: "respect",
-        optionC: "control",
+        question: "To convert 2000 g into kilograms, we ______ by 1000.",
+        optionA: "multiply",
+        optionB: "divide",
+        optionC: "subtract",
         correctAnswer: "divide",
+      }),
+      shuffleOptions({
+        question: "A balance has ______ pans.",
+        optionA: "one",
+        optionB: "two",
+        optionC: "three",
+        correctAnswer: "two",
+      }),
+      shuffleOptions({
+        question: "1500 g is equal to 1 kg ______ g.",
+        optionA: "150 g",
+        optionB: "500 g",
+        optionC: "50 g",
+        correctAnswer: "500 g",
+      }),
+      shuffleOptions({
+        question: "Very small weights are measured in ______.",
+        optionA: "mg",
+        optionB: "kg",
+        optionC: "g",
+        correctAnswer: "mg",
+      }),
+      shuffleOptions({
+        question: "6000 g is equal to ______ kg.",
+        optionA: "6 kg",
+        optionB: "60 kg",
+        optionC: "600 kg",
+        correctAnswer: "6 kg",
+      }),
+      shuffleOptions({
+        question: "To convert kilograms into grams, we ______ by 1000.",
+        optionA: "divide",
+        optionB: "multiply",
+        optionC: "add",
+        correctAnswer: "multiply",
+      }),
+      shuffleOptions({
+        question: "A gold ring is weighed in ______.",
+        optionA: "kg",
+        optionB: "g",
+        optionC: "mg",
+        correctAnswer: "mg",
+      }),
+      shuffleOptions({
+        question: "850 g is ______ than 1 kg.",
+        optionA: "heavier",
+        optionB: "lighter",
+        optionC: "equal",
+        correctAnswer: "lighter",
+      }),
+      shuffleOptions({
+        question: "1 g = ______ milligrams.",
+        optionA: "1000 mg",
+        optionB: "100 mg",
+        optionC: "10 mg",
+        correctAnswer: "1000 mg",
       }),
     ]),
   };
@@ -191,67 +198,65 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Jagmal was present at the funeral of Udai Singh.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Krishnadas forcefully removed Jagmal from the throne.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Dheerajbai was the chief queen of Mewar.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Mansingh was the king of Gwalior.",
+        question: "The weight of a man is generally measured in kilograms.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Jagmal became the ruler of Sirohi.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Akbar helped Rajput rulers unite.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Pratap was hesitant to enter the court.",
+        question: "500 g + 500 g makes 1 kg.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Krishnadas called Pratap to his rightful place.",
+        question: "A balance is used to measure length.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "1 kilogram is equal to 100 grams.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "4000 g is equal to 4 kg.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Jagmal protested loudly in the court.",
+        question: "Milligrams are used to measure the weight of very heavy objects.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The chapter ends with Jagmal becoming Maharana.",
+        question: "750 g is less than 1 kg.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "To convert grams into kilograms, we divide by 1000.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "A sack of wheat is measured in grams.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "2 kg 500 g is equal to 2500 g.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
       }),
     ]),
   };
 }
-
-export var activityData;

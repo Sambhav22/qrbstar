@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 5: Cinderella";
+export const chapter = "Chapter - 5: Simplification";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who lived in a big house at the beginning of the story?",
-        optionA: "A prince",
-        optionB: "A rich gentleman",
-        optionC: "A magician",
-        correctAnswer: "A rich gentleman",
+        question: "Which rule is followed when simplifying expressions with brackets?",
+        optionA: "DMAS",
+        optionB: "BODMAS",
+        optionC: "AMDS",
+        correctAnswer: "BODMAS",
       }),
       shuffleOptions({
-        question: "What kind of woman was the gentleman’s second wife?",
-        optionA: "Kind-hearted",
-        optionB: "Ill-natured",
-        optionC: "Gentle",
-        correctAnswer: "Ill-natured",
+        question: "Which of the following is solved first while using BODMAS?",
+        optionA: "Multiplication",
+        optionB: "Brackets",
+        optionC: "Addition",
+        correctAnswer: "Brackets",
       }),
       shuffleOptions({
-        question: "What did Cinderella’s stepmother make her do?",
-        optionA: "Household chores",
-        optionB: "Only study",
-        optionC: "Go to the market",
-        correctAnswer: "Household chores",
+        question: "The bar or vinculum is placed",
+        optionA: "Above the numbers",
+        optionB: "Below the numbers",
+        optionC: "Beside the numbers",
+        correctAnswer: "Above the numbers",
       }),
       shuffleOptions({
-        question: "What kind of clothes did Cinderella wear?",
-        optionA: "Expensive gowns",
-        optionB: "Tattered clothes",
-        optionC: "Silver shoes",
-        correctAnswer: "Tattered clothes",
+        question: "Which bracket is solved just before square brackets?",
+        optionA: "Curly brackets { }",
+        optionB: "Round brackets ( )",
+        optionC: "Bar",
+        correctAnswer: "Curly brackets { }",
       }),
       shuffleOptions({
-        question: "What did Cinderella desire sometimes?",
-        optionA: "To have a pretty dress",
-        optionB: "To eat sweets",
-        optionC: "To go to school",
-        correctAnswer: "To have a pretty dress",
+        question: "“Of” in simplification means:",
+        optionA: "Division",
+        optionB: "Subtraction",
+        optionC: "Multiplication",
+        correctAnswer: "Multiplication",
       }),
       shuffleOptions({
-        question: "Who invited the people to the ball?",
-        optionA: "The Fairy",
-        optionB: "The Prince",
-        optionC: "The King",
-        correctAnswer: "The Prince",
+        question: "In the expression 18 – 6 ÷ 3 × 4 + 5, the first operation is:",
+        optionA: "6 ÷ 3",
+        optionB: "3 × 4",
+        optionC: "18 – …",
+        correctAnswer: "6 ÷ 3",
       }),
       shuffleOptions({
-        question: "Who appeared with a magic wand?",
-        optionA: "A queen",
-        optionB: "A fairy godmother",
-        optionC: "A soldier",
-        correctAnswer: "A fairy godmother",
+        question: "Brackets are used to:",
+        optionA: "Decorate expressions",
+        optionB: "Separate parts of an expression",
+        optionC: "Increase numbers",
+        correctAnswer: "Separate parts of an expression",
       }),
       shuffleOptions({
-        question: "What did the fairy turn the pumpkin into?",
-        optionA: "A chair",
-        optionB: "A coach",
-        optionC: "A palace",
-        correctAnswer: "A coach",
+        question: "The correct order of operations (without brackets) is:",
+        optionA: "A → S → M → D",
+        optionB: "D → M → A → S",
+        optionC: "S → A → D → M",
+        correctAnswer: "D → M → A → S",
       }),
       shuffleOptions({
-        question: "What warning did the fairy give Cinderella?",
-        optionA: "Do not dance",
-        optionB: "Return before midnight",
-        optionC: "Do not meet the prince",
-        correctAnswer: "Return before midnight",
+        question: "Square brackets are written as:",
+        optionA: "( )",
+        optionB: "{ }",
+        optionC: "[ ]",
+        correctAnswer: "[ ]",
       }),
       shuffleOptions({
-        question: "Who fell in love with Cinderella at first sight?",
-        optionA: "The soldiers",
-        optionB: "The Prince",
-        optionC: "The coachman",
-        correctAnswer: "The Prince",
+        question: "Which operation is done last in DMAS?",
+        optionA: "Division",
+        optionB: "Addition",
+        optionC: "Subtraction",
+        correctAnswer: "Subtraction",
       }),
     ]),
   };
@@ -114,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Cinderella’s __________ fell ill and died.",
-        optionA: "Father",
-        optionB: "Mother",
-        optionC: "Stepmother",
-        correctAnswer: "Mother",
+        question: "DMAS stands for Division, Multiplication, Addition and ______.",
+        optionA: "Separation",
+        optionB: "Subtraction",
+        optionC: "Simplification",
+        correctAnswer: "Subtraction",
       }),
       shuffleOptions({
-        question: "Cinderella lay on __________ in the fireplace.",
-        optionA: "Stones",
-        optionB: "Cinders",
-        optionC: "Ashes",
-        correctAnswer: "Cinders",
+        question: "The B in BODMAS stands for ______.",
+        optionA: "Brackets",
+        optionB: "Base",
+        optionC: "Bar",
+        correctAnswer: "Brackets",
       }),
       shuffleOptions({
-        question: "The fairy turned six __________ into horses.",
-        optionA: "Cats",
-        optionB: "Pigeons",
-        optionC: "Dogs",
-        correctAnswer: "Pigeons",
+        question: "The “of” operation means ______.",
+        optionA: "addition",
+        optionB: "multiplication",
+        optionC: "subtraction",
+        correctAnswer: "multiplication",
       }),
       shuffleOptions({
-        question: "The fairy turned an old parrot into a __________.",
-        optionA: "Guard",
-        optionB: "Coachman",
-        optionC: "Prince",
-        correctAnswer: "Coachman",
+        question: "The first type of bracket solved is the ______.",
+        optionA: "curly bracket",
+        optionB: "bar/vinculum",
+        optionC: "square bracket",
+        correctAnswer: "bar/vinculum",
       }),
       shuffleOptions({
-        question: "The fairy changed Cinderella’s clothes into a __________ gown.",
-        optionA: "Red",
-        optionB: "Golden and silver embroidered",
-        optionC: "Green",
-        correctAnswer: "Golden and silver embroidered",
+        question: "Curly brackets are written as ______.",
+        optionA: "( )",
+        optionB: "[ ]",
+        optionC: "{ }",
+        correctAnswer: "{ }",
       }),
       shuffleOptions({
-        question: "The fairy gave Cinderella shoes of __________.",
-        optionA: "Gold",
-        optionB: "Silver and crystal",
-        optionC: "Wood",
-        correctAnswer: "Silver and crystal",
+        question: "To simplify expressions, we follow a fixed ______.",
+        optionA: "order of operations",
+        optionB: "number pattern",
+        optionC: "formula",
+        correctAnswer: "order of operations",
       }),
       shuffleOptions({
-        question: "Cinderella danced at the ball until __________ struck.",
-        optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eleven",
-        correctAnswer: "Twelve",
+        question: "Brackets help to ______ different parts of an expression.",
+        optionA: "remove",
+        optionB: "separate",
+        optionC: "hide",
+        correctAnswer: "separate",
       }),
       shuffleOptions({
-        question: "While running away, Cinderella lost a __________.",
-        optionA: "Necklace",
-        optionB: "Shoe",
-        optionC: "Ring",
-        correctAnswer: "Shoe",
+        question: "12 ÷ 3 is equal to ______.",
+        optionA: "4",
+        optionB: "3",
+        optionC: "6",
+        correctAnswer: "4",
       }),
       shuffleOptions({
-        question: "The prince ordered soldiers to search for the girl whose __________ fitted.",
-        optionA: "Ring",
-        optionB: "Shoe",
-        optionC: "Dress",
-        correctAnswer: "Shoe",
+        question: "Round brackets are also called ______ brackets.",
+        optionA: "small",
+        optionB: "curly",
+        optionC: "square",
+        correctAnswer: "small",
       }),
       shuffleOptions({
-        question: "Cinderella forgave her stepmother and __________ in the end.",
-        optionA: "Friends",
-        optionB: "Stepsisters",
-        optionC: "Servants",
-        correctAnswer: "Stepsisters",
+        question: "In the absence of a sign before a bracket, it is understood as ______.",
+        optionA: "addition",
+        optionB: "multiplication",
+        optionC: "division",
+        correctAnswer: "multiplication",
       }),
     ]),
   };
@@ -192,67 +198,65 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Cinderella’s real mother was very kind-hearted.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Cinderella’s stepmother treated her with love and care.",
+        question: "“Of” is always solved before division.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Cinderella had to wash clothes, cook food, and clean the house.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Cinderella slept on soft silk beds in her room.",
+        question: "Curly brackets are solved before bar/vinculum.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The Fairy Godmother turned a pumpkin into a coach.",
+        question: "Square brackets are the outermost brackets.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The Fairy turned six pigeons into Arabian horses.",
+        question: "The order Bar → Round → Curly → Square is used while simplifying brackets.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "At the ball, everyone was surprised to see Cinderella’s beauty.",
+        question: "The DMAS rule is used only when brackets are not present.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "In simplification, subtraction comes before multiplication.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "Brackets help in showing which part must be solved first.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The prince danced only with Cinderella.",
+        question: "10 ÷ 2 × 3 is solved left to right because division and multiplication have same priority.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Cinderella lost her shoe while running down the palace stairs.",
+        question: "A vinculum is considered a type of bracket.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "In the end, the prince married Cinderella and they lived happily ever after.",
+        question: "Addition must always be solved before multiplication.",
         optionA: "True",
         optionB: "False",
-        correctAnswer: "True",
+        correctAnswer: "False",
       }),
     ]),
   };
 }
-
-export var activityData;

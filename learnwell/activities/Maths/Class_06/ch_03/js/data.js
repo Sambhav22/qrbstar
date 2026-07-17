@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 3: Water - My Life";
+export const chapter = "Chapter - 3: Playing with Numbers";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,219 +42,217 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who wrote the book Jal Mangata Jeevan?",
-        optionA: "Masaru Emoto",
-        optionB: "Pankaj Chaturvedi",
-        optionC: "A.L. Tennyson",
-        correctAnswer: "Pankaj Chaturvedi",
+        question: "Which bracket is solved first according to the BODMAS rule?",
+        optionA: "( )",
+        optionB: "─ (vinculum)",
+        optionC: "{ }",
+        correctAnswer: "─ (vinculum)",
       }),
       shuffleOptions({
-        question: "In Hinduism, rivers are often called—",
-        optionA: "Mata",
-        optionB: "Devi",
-        optionC: "Nadi",
-        correctAnswer: "Mata",
+        question: "Which of the following is a composite number?",
+        optionA: "7",
+        optionB: "9",
+        optionC: "11",
+        correctAnswer: "9",
       }),
       shuffleOptions({
-        question: "How much of the earth’s water is in oceans and seas?",
-        optionA: "97.3%",
-        optionB: "2.7%",
-        optionC: "50%",
-        correctAnswer: "97.3%",
+        question: "Which number is an even number?",
+        optionA: "13",
+        optionB: "25",
+        optionC: "14",
+        correctAnswer: "14",
       }),
       shuffleOptions({
-        question: "Who conducted experiments on water?",
-        optionA: "A scientist",
-        optionB: "Masaru Emoto",
-        optionC: "Pankaj Chaturvedi",
-        correctAnswer: "Masaru Emoto",
+        question: "Which pair of numbers are co-primes?",
+        optionA: "6 and 9",
+        optionB: "8 and 15",
+        optionC: "12 and 18",
+        correctAnswer: "8 and 15",
       }),
       shuffleOptions({
-        question: "How much water is in the human body?",
-        optionA: "50%",
-        optionB: "70%",
-        optionC: "90%",
-        correctAnswer: "70%",
+        question: "Which of the following numbers is divisible by 9?",
+        optionA: "2457",
+        optionB: "4698",
+        optionC: "1225",
+        correctAnswer: "4698",
       }),
       shuffleOptions({
-        question: "How much salt is present in 1 litre of seawater?",
-        optionA: "15 g",
-        optionB: "25 g",
-        optionC: "35 g",
-        correctAnswer: "35 g",
+        question: "Which of the following is a prime number?",
+        optionA: "16",
+        optionB: "21",
+        optionC: "23",
+        correctAnswer: "23",
       }),
       shuffleOptions({
-        question: "Which process returns water to the ocean?",
-        optionA: "Evaporation",
-        optionB: "Rivers and streams",
-        optionC: "Condensation",
-        correctAnswer: "Rivers and streams",
+        question: "Which is the only even prime number?",
+        optionA: "2",
+        optionB: "4",
+        optionC: "6",
+        correctAnswer: "2",
       }),
       shuffleOptions({
-        question: "Which vegetable contains 90% water?",
-        optionA: "Potato",
-        optionB: "Tomato",
-        optionC: "Onion",
-        correctAnswer: "Tomato",
+        question: "Which number is divisible by 5?",
+        optionA: "2341",
+        optionB: "8675",
+        optionC: "2228",
+        correctAnswer: "8675",
       }),
       shuffleOptions({
-        question: "Which planet is called the blue planet?",
-        optionA: "Earth",
-        optionB: "Mars",
-        optionC: "Jupiter",
-        correctAnswer: "Earth",
+        question: "Which is a perfect number?",
+        optionA: "6",
+        optionB: "12",
+        optionC: "9",
+        correctAnswer: "6",
       }),
       shuffleOptions({
-        question: "Which water bodies are disappearing and causing concern?",
-        optionA: "Hills",
-        optionB: "Ponds and lakes",
-        optionC: "Mountains",
-        correctAnswer: "Ponds and lakes",
+        question: "Which rule checks divisibility by 3?",
+        optionA: "Check last digit",
+        optionB: "Check last two digits",
+        optionC: "Check sum of digits",
+        correctAnswer: "Check sum of digits",
       }),
     ]),
   };
 }
-
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Clouds are formed when water ______.",
-        optionA: "Freezes",
-        optionB: "Evaporates",
-        optionC: "Dissolves",
-        correctAnswer: "Evaporates",
+        question: "A number exactly divisible by 2 is called an ______ number.",
+        optionA: "odd",
+        optionB: "even",
+        optionC: "prime",
+        correctAnswer: "even",
       }),
       shuffleOptions({
-        question: "Rivers carry ______ particles dissolved in water.",
-        optionA: "Sugar",
-        optionB: "Salt",
-        optionC: "Sand",
-        correctAnswer: "Salt",
+        question: "Two numbers having no common factor except 1 are called ______.",
+        optionA: "twin primes",
+        optionB: "co-primes",
+        optionC: "perfect numbers",
+        correctAnswer: "co-primes",
       }),
       shuffleOptions({
-        question: "Masaru Emoto pasted ______ messages on glasses.",
-        optionA: "Positive and negative",
-        optionB: "Scientific",
-        optionC: "Historical",
-        correctAnswer: "Positive and negative",
+        question: "A number ending in 0 or 5 is always divisible by ______.",
+        optionA: "3",
+        optionB: "9",
+        optionC: "5",
+        correctAnswer: "5",
       }),
       shuffleOptions({
-        question: "Seawater is ______ because of dissolved salt.",
-        optionA: "Sweet",
-        optionB: "Saline",
-        optionC: "Pure",
-        correctAnswer: "Saline",
+        question: "The smallest prime number is ______.",
+        optionA: "1",
+        optionB: "2",
+        optionC: "3",
+        correctAnswer: "2",
       }),
       shuffleOptions({
-        question: "Water in rivers tastes sweet because the salt is ______.",
-        optionA: "In small amount",
-        optionB: "Absent",
-        optionC: "Frozen",
-        correctAnswer: "In small amount",
+        question: "A multiple of a number is obtained by ______ the number by a natural number.",
+        optionA: "adding",
+        optionB: "multiplying",
+        optionC: "subtracting",
+        correctAnswer: "multiplying",
       }),
       shuffleOptions({
-        question: "The disappearing of ______ puts our existence at risk.",
-        optionA: "Lakes and ponds",
-        optionB: "Oceans",
-        optionC: "Hills",
-        correctAnswer: "Lakes and ponds",
+        question: "A composite number has ______ factors.",
+        optionA: "only two",
+        optionB: "more than two",
+        optionC: "infinite",
+        correctAnswer: "more than two",
       }),
       shuffleOptions({
-        question: "Rainwater appears sweet but contains ______.",
-        optionA: "Dissolved salts",
-        optionB: "Sugar",
-        optionC: "Air",
-        correctAnswer: "Dissolved salts",
+        question: "A number is divisible by 4 if the number formed by its last ______ digits is divisible by 4.",
+        optionA: "three",
+        optionB: "two",
+        optionC: "four",
+        correctAnswer: "two",
       }),
       shuffleOptions({
-        question: "The oceans are the ______ store of water.",
-        optionA: "Smallest",
-        optionB: "Largest",
-        optionC: "Limited",
-        correctAnswer: "Largest",
+        question: "28 is a perfect number because the sum of its factors is ______ the number.",
+        optionA: "equal to twice",
+        optionB: "equal to the number",
+        optionC: "less than",
+        correctAnswer: "equal to twice",
       }),
       shuffleOptions({
-        question: "In Hinduism, rivers are called ______.",
-        optionA: "Dev",
-        optionB: "Mata",
-        optionC: "Pita",
-        correctAnswer: "Mata",
+        question: "The smallest multiple of any number is the number ______.",
+        optionA: "zero",
+        optionB: "itself",
+        optionC: "one",
+        correctAnswer: "itself",
       }),
       shuffleOptions({
-        question: "Human life cannot ______ without water.",
-        optionA: "Travel",
-        optionB: "Thrive",
-        optionC: "Eat",
-        correctAnswer: "Thrive",
+        question: "The prime factorisation of a number expresses it as a product of only ______ numbers.",
+        optionA: "whole",
+        optionB: "even",
+        optionC: "prime",
+        correctAnswer: "prime",
       }),
     ]),
   };
 }
-
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Water has no role in vegetables.",
+        question: "Every even number is divisible by 2.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "1 is neither a prime nor a composite number.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "All prime numbers are odd.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Salt evaporates with seawater.",
+        question: "Multiples of a number are infinite.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Every factor of a number is greater than the number itself.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Respecting water helps keep it pure.",
+        question: "Two prime numbers are always co-primes.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Clouds bring rain, hail, or snow.",
+        question: "If a number is divisible by 10, it must end in 0.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Seawater is becoming less salty every day.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The earth’s surface is mostly covered with water.",
+        question: "The number 9 is a composite number.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Water and life are complementary.",
+        question: "If a number is divisible by both 2 and 3, then it is divisible by 6.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Masaru Emoto was an Indian author.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Industrial pollution is a threat to water.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Humans cannot survive even a day without water.",
+        question: "6 is a perfect number.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -256,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-export var activityData;
-

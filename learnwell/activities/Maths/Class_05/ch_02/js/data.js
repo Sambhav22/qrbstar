@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 2: The Ant and the Cricket";
+export const chapter = "Chapter - 2: Roman Numerals";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "What season was it when the cricket complained?",
-        optionA: "Summer",
-        optionB: "Winter",
-        optionC: "Spring",
-        correctAnswer: "Winter",
+        question: "What is the value of the Roman symbol D?",
+        optionA: "100",
+        optionB: "500",
+        optionC: "1000",
+        correctAnswer: "500",
       }),
       shuffleOptions({
-        question: "The cricket asked the ant for:",
-        optionA: "Clothes",
-        optionB: "Money",
-        optionC: "Shelter and food",
-        correctAnswer: "Shelter and food",
+        question: "Which Roman numeral correctly represents the number 9?",
+        optionA: "XI",
+        optionB: "IX",
+        optionC: "VI",
+        correctAnswer: "IX",
       }),
       shuffleOptions({
-        question: "The cricket’s heart was so light that he:",
-        optionA: "Collected food",
-        optionB: "Sang day and night",
-        optionC: "Slept all day",
-        correctAnswer: "Sang day and night",
+        question: "Which symbol is allowed to be subtracted from L according to Roman rules?",
+        optionA: "X",
+        optionB: "C",
+        optionC: "V",
+        correctAnswer: "X",
       }),
       shuffleOptions({
-        question: "The cricket went to visit:",
-        optionA: "A butterfly",
-        optionB: "A miserly ant",
-        optionC: "A farmer",
-        correctAnswer: "A miserly ant",
+        question: "What does the Roman numeral LXXX stand for?",
+        optionA: "60",
+        optionB: "80",
+        optionC: "100",
+        correctAnswer: "80",
       }),
       shuffleOptions({
-        question: "What covered the ground in winter?",
-        optionA: "Grass",
-        optionB: "Snow",
-        optionC: "Leaves",
-        correctAnswer: "Snow",
+        question: "What is the value of CM in Hindu-Arabic numerals?",
+        optionA: "400",
+        optionB: "900",
+        optionC: "1100",
+        correctAnswer: "900",
       }),
       shuffleOptions({
-        question: "The ant never:",
-        optionA: "Sleeps",
-        optionB: "Works",
-        optionC: "Borrows or lends",
-        correctAnswer: "Borrows or lends",
+        question: "Which of the following symbols cannot be repeated?",
+        optionA: "C",
+        optionB: "M",
+        optionC: "L",
+        correctAnswer: "L",
       }),
       shuffleOptions({
-        question: "The cricket promised to repay the ant:",
-        optionA: "Yesterday",
-        optionB: "Tomorrow",
-        optionC: "Soon",
-        correctAnswer: "Tomorrow",
+        question: "What is the Hindu-Arabic number for MD?",
+        optionA: "1400",
+        optionB: "1500",
+        optionC: "1600",
+        correctAnswer: "1500",
       }),
       shuffleOptions({
-        question: "The ant told the cricket to:",
-        optionA: "Dance the winter away",
-        optionB: "Sleep in his house",
-        optionC: "Collect food",
-        correctAnswer: "Dance the winter away",
+        question: "What is the value of the Roman numeral XIX?",
+        optionA: "18",
+        optionB: "19",
+        optionC: "21",
+        correctAnswer: "19",
       }),
       shuffleOptions({
-        question: "The cricket was dripping with:",
-        optionA: "Sweat",
-        optionB: "Rain",
-        optionC: "Snow",
-        correctAnswer: "Rain",
+        question: "According to Roman numeral rules, which rule applies when a smaller symbol is written between two larger symbols?",
+        optionA: "Rule 1",
+        optionB: "Rule 3",
+        optionC: "Rule 4",
+        correctAnswer: "Rule 4",
       }),
       shuffleOptions({
-        question: "The poem “The Ant and the Cricket” is a:",
-        optionA: "Story",
-        optionB: "Fable",
-        optionC: "Novel",
-        correctAnswer: "Fable",
+        question: "What number is represented by the Roman numeral XXIV?",
+        optionA: "24",
+        optionB: "34",
+        optionC: "42",
+        correctAnswer: "24",
       }),
     ]),
   };
@@ -114,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The cricket was a ____ young insect.",
-        optionA: "Clever",
-        optionB: "Silly",
-        optionC: "Wise",
-        correctAnswer: "Silly",
+        question: "III = ___",
+        optionA: "4",
+        optionB: "2",
+        optionC: "3",
+        correctAnswer: "3",
       }),
       shuffleOptions({
-        question: "The ground was covered with ____ in winter.",
-        optionA: "Grass",
-        optionB: "Snow",
-        optionC: "Flowers",
-        correctAnswer: "Snow",
+        question: "A bar over X makes its value equal to ______.",
+        optionA: "10,000",
+        optionB: "5,000",
+        optionC: "1,000",
+        correctAnswer: "10,000",
       }),
       shuffleOptions({
-        question: "The ant said, “We ants never ____.”",
-        optionA: "Work",
-        optionB: "Borrow or lend",
-        optionC: "Sleep",
-        correctAnswer: "Borrow or lend",
+        question: "In LIX, the value of IX is ______.",
+        optionA: "11",
+        optionB: "9",
+        optionC: "10",
+        correctAnswer: "9",
       }),
       shuffleOptions({
-        question: "The cricket was trembling with ____.",
-        optionA: "Cold",
-        optionB: "Anger",
-        optionC: "Fear",
-        correctAnswer: "Cold",
+        question: "C + C = ____",
+        optionA: "CC",
+        optionB: "XC",
+        optionC: "CM",
+        correctAnswer: "CC",
       }),
       shuffleOptions({
-        question: "The cricket wished to borrow a ____ of grain.",
-        optionA: "Bag",
-        optionB: "Mouthful",
-        optionC: "Plate",
-        correctAnswer: "Mouthful",
+        question: "The symbol ______ can be subtracted only from L and C.",
+        optionA: "I",
+        optionB: "X",
+        optionC: "V",
+        correctAnswer: "X",
       }),
       shuffleOptions({
-        question: "The ant lifted the wicket ____.",
-        optionA: "Slowly",
-        optionB: "Hastily",
-        optionC: "Kindly",
-        correctAnswer: "Hastily",
+        question: "D + L = ____",
+        optionA: "DL",
+        optionB: "LD",
+        optionC: "DXL",
+        correctAnswer: "DL",
       }),
       shuffleOptions({
-        question: "The cricket was bold because of ____.",
-        optionA: "Wealth",
-        optionB: "Starvation and famine",
-        optionC: "Happiness",
-        correctAnswer: "Starvation and famine",
+        question: "The expression (10 – 1) is written in Roman numerals as ______.",
+        optionA: "XI",
+        optionB: "IX",
+        optionC: "IXX",
+        correctAnswer: "IX",
       }),
       shuffleOptions({
-        question: "The cricket’s cupboard was ____.",
-        optionA: "Full",
-        optionB: "Empty",
-        optionC: "Locked",
-        correctAnswer: "Empty",
+        question: "LXX + X = ____",
+        optionA: "LXXX",
+        optionB: "LXXI",
+        optionC: "LXXXI",
+        correctAnswer: "LXXX",
       }),
       shuffleOptions({
-        question: "The cricket wanted the ant’s help for ____.",
-        optionA: "Singing",
-        optionB: "Shelter from rain",
-        optionC: "Travelling",
-        correctAnswer: "Shelter from rain",
+        question: "Roman numeral for 40 is ______.",
+        optionA: "XL",
+        optionB: "LX",
+        optionC: "XLL",
+        correctAnswer: "XL",
       }),
       shuffleOptions({
-        question: "The ant said he was the cricket’s ____.",
-        optionA: "Enemy",
-        optionB: "Servant and friend",
-        optionC: "Brother",
-        correctAnswer: "Servant and friend",
+        question: "When combined, C + XC gives ______.",
+        optionA: "CXC",
+        optionB: "CC",
+        optionC: "CXX",
+        correctAnswer: "CXC",
       }),
     ]),
   };
@@ -192,61 +198,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The cricket saved food for the winter.",
+        question: "The symbol V can be repeated three times in Roman numerals.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The ant gave food to the cricket.",
+        question: "The symbol I can be subtracted from X.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Roman numerals include a symbol for zero.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The cricket wanted to borrow food.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The cricket sang during the warm months.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The cricket was happy in summer.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The ant believed in borrowing and lending.",
+        question: "The Roman symbol C represents the value 500.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The cricket was trembling with cold.",
+        question: "XIX means 10 + (10 − 1).",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The story of the ant and the cricket has no moral.",
+        question: "The symbols V, L, and D cannot be written to the left for subtraction.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Writing MMM equals the number 3000.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "The Roman numeral IX is greater than XI.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The cricket went to the ant because he was hungry and cold.",
+        question: "Roman numerals use the place-value system.",
         optionA: "True",
         optionB: "False",
-        correctAnswer: "True",
+        correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The poem teaches the importance of work.",
+        question: "According to rules, V, L, and D are symbols that cannot be repeated.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -254,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

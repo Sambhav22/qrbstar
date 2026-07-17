@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 7: The Shoemaker’s Fortune";
+export const chapter = "Chapter - 7: Fractions";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who gave Rivan the first bag of gold coins?",
-        optionA: "Roshan",
-        optionB: "Chaman",
-        optionC: "Neighbour",
-        correctAnswer: "Chaman",
+        question: "What is the name of a fraction whose numerator is 1?",
+        optionA: "Proper fraction",
+        optionB: "Unit fraction",
+        optionC: "Like fraction",
+        correctAnswer: "Unit fraction",
       }),
       shuffleOptions({
-        question: "Where did Rivan’s grandfather work?",
-        optionA: "In a shoe shop",
-        optionB: "In a farm",
-        optionC: "In a palace",
-        correctAnswer: "In a shoe shop",
+        question: "Which of the following fractions is an improper fraction? 5",
+        optionA: "7 9",
+        optionB: "4  3",
+        optionC: "8 3 1",
+        correctAnswer: "4  3",
       }),
       shuffleOptions({
-        question: "What did Rivan buy with ten gold pieces each time?",
-        optionA: "Jewellery",
-        optionB: "Food",
-        optionC: "Clothes only",
-        correctAnswer: "Food",
+        question: "Which fraction is greater: or ? 5 5 3",
+        optionA: "5  1",
+        optionB: "5",
+        optionC: "Both are equal",
+        correctAnswer: "5  1",
       }),
       shuffleOptions({
-        question: "Who sold the old jar?",
-        optionA: "Rivan",
-        optionB: "Rivan’s wife",
-        optionC: "His daughter",
-        correctAnswer: "Rivan’s wife",
+        question: "What do we call fractions that have the same denominator?",
+        optionA: "Unlike fractions",
+        optionB: "Unit fractions",
+        optionC: "Like fractions  2",
+        correctAnswer: "Like fractions  2",
       }),
       shuffleOptions({
-        question: "What did Rivan’s children quarrel about?",
-        optionA: "Doll",
-        optionB: "Diamond",
-        optionC: "Clothes",
-        correctAnswer: "Diamond",
+        question: "What is the reciprocal of 3? 3",
+        optionA: "2 2",
+        optionB: "3 3",
+        optionC: "1 2",
+        correctAnswer: "2 2",
       }),
       shuffleOptions({
-        question: "Who gave Rivan a copper coin?",
-        optionA: "Roshan",
-        optionB: "Chaman",
-        optionC: "Neighbour",
-        correctAnswer: "Roshan",
+        question: "Which of the following is equivalent to 4? 3",
+        optionA: "4 1",
+        optionB: "2  4",
+        optionC: "2",
+        correctAnswer: "2  4",
       }),
       shuffleOptions({
-        question: "What did Rivan do with the valuable stone?",
-        optionA: "Kept it hidden",
-        optionB: "Sold it to his rich neighbour",
-        optionC: "Threw it away",
-        correctAnswer: "Sold it to his rich neighbour",
+        question: "What do we get when we multiply the numerators and denominators of two fractions?",
+        optionA: "Lowest terms",
+        optionB: "Product of fractions",
+        optionC: "Mixed fraction 1",
+        correctAnswer: "Product of fractions",
       }),
       shuffleOptions({
-        question: "What was the profession of Rivan’s neighbour?",
-        optionA: "Farmer",
-        optionB: "Jeweller",
-        optionC: "Fisherman",
-        correctAnswer: "Jeweller",
+        question: "What is 6 of 18?",
+        optionA: "4",
+        optionB: "6",
+        optionC: "3  2 2",
+        correctAnswer: "3  2 2",
       }),
       shuffleOptions({
-        question: "After selling the stone, what kind of house did Rivan buy?",
-        optionA: "Small hut",
-        optionB: "Palatial house",
-        optionC: "Farmhouse",
-        correctAnswer: "Palatial house",
+        question: "Which fraction is smaller: 3 or 5? 2",
+        optionA: "3 2",
+        optionB: "5",
+        optionC: "Both are equal",
+        correctAnswer: "5",
       }),
       shuffleOptions({
-        question: "At dinner, who asked Rivan, “What made you rich—the four hundred gold pieces or that copper piece?”",
-        optionA: "Chaman",
-        optionB: "Roshan",
-        optionC: "Rivan",
-        correctAnswer: "Chaman",
+        question: "What do we call the number written below the line in a fraction?",
+        optionA: "Numerator",
+        optionB: "Denominator",
+        optionC: "Factor",
+        correctAnswer: "Denominator",
       }),
     ]),
   };
@@ -114,74 +120,73 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Rivan learnt shoemaking from his _______.",
-        optionA: "uncle",
-        optionB: "father",
-        optionC: "friend",
-        correctAnswer: "father",
+        question: "A fraction represents a part of a ________.",
+        optionA: "collection",
+        optionB: "whole",
+        optionC: "number line",
+        correctAnswer: "whole",
       }),
       shuffleOptions({
-        question: "Roshan and Chaman were business _______.",
-        optionA: "bankers",
-        optionB: "partners",
-        optionC: "drivers",
-        correctAnswer: "partners",
+        question: "Fractions with different denominators are called ______ fractions.",
+        optionA: "like",
+        optionB: "unlike",
+        optionC: "proper 6",
+        correctAnswer: "unlike",
       }),
       shuffleOptions({
-        question: "Rivan dropped the second bag into an old _______.",
-        optionA: "box",
-        optionB: "jar",
-        optionC: "chest",
-        correctAnswer: "jar",
+        question: "The simplest form of 18 is ______. 1",
+        optionA: "3",
+        optionB: "2",
+        optionC: "5",
+        correctAnswer: "3",
       }),
       shuffleOptions({
-        question: "Rivan’s wife exchanged the jar for _______ cakes.",
-        optionA: "sugar",
-        optionB: "soap",
-        optionC: "rice",
-        correctAnswer: "soap",
+        question: "To find equivalent fractions, we multiply the numerator and denominator by the ______ number.",
+        optionA: "smaller",
+        optionB: "different",
+        optionC: "same  1",
+        correctAnswer: "same  1",
       }),
       shuffleOptions({
-        question: "The children’s mouths _______ when they saw the packets of food.",
-        optionA: "watered",
-        optionB: "smiled",
-        optionC: "shouted",
-        correctAnswer: "watered",
+        question: "of 21 is ______. 3",
+        optionA: "5",
+        optionB: "7",
+        optionC: "9",
+        correctAnswer: "7",
       }),
       shuffleOptions({
-        question: "The neighbour first offered _______ gold pieces for the shining stone.",
-        optionA: "fifty",
-        optionB: "ten",
-        optionC: "one thousand",
-        correctAnswer: "ten",
+        question: "A mixed fraction has a whole number part and a ______ fraction.",
+        optionA: "improper",
+        optionB: "unit",
+        optionC: "proper",
+        correctAnswer: "proper",
       }),
       shuffleOptions({
-        question: "The deal for the stone was finalised at _______ gold pieces.",
-        optionA: "ten thousand",
-        optionB: "one hundred thousand",
-        optionC: "fifty thousand",
-        correctAnswer: "one hundred thousand",
+        question: "The reciprocal of 4 is ______. 1",
+        optionA: "4",
+        optionB: "6 2 1",
+        correctAnswer: "4",
       }),
       shuffleOptions({
-        question: "After becoming wealthy, Rivan set up a _______ factory.",
-        optionA: "textile",
-        optionB: "shoemaking",
-        optionC: "toy",
-        correctAnswer: "shoemaking",
+        question: "5 + 5 = ______.",
+        optionA: "1 3",
+        optionB: "5",
+        optionC: "2 5 1",
+        correctAnswer: "5",
       }),
       shuffleOptions({
-        question: "Later, Roshan gave Rivan a _______ coin.",
-        optionA: "silver",
-        optionB: "copper",
-        optionC: "gold",
-        correctAnswer: "copper",
+        question: "– = ______. 8 8 4",
+        optionA: "8",
+        optionB: "10",
+        optionC: "5",
+        correctAnswer: "8",
       }),
       shuffleOptions({
-        question: "Rivan found his turban stuck in a _______ among the rocks.",
-        optionA: "wall",
-        optionB: "tree",
-        optionC: "roof",
-        correctAnswer: "tree",
+        question: "A fraction with numerator smaller than the denominator is called a ______ fraction.",
+        optionA: "mixed",
+        optionB: "proper",
+        optionC: "unit",
+        correctAnswer: "proper",
       }),
     ]),
   };
@@ -192,61 +197,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Rivan repaired Roshan’s shoe free of cost.",
+        question: "2 and 4 represent the same value.",
         optionA: "True",
-        optionB: "False",
+        optionB: "False 5",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Rivan became rich with the first bag of gold coins.",
+        question: "3 is a proper fraction.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "His wife exchanged the jar for soap cakes.",
+        question: "Two fractions are equivalent if their cross-products are equal.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Rivan’s daughter wanted a yellow frock.",
+        question: "In comparing fractions with the same denominator, the fraction with the smaller numerator is greater.",
         optionA: "True",
         optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "The reciprocal of 1 is 1.",
+        optionA: "True",
+        optionB: "False 3 4",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The shining stone was found inside a fish.",
+        question: "7 is greater than 7.",
         optionA: "True",
         optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "To add unlike fractions, we convert them to like fractions.",
+        optionA: "True",
+        optionB: "False 1 1",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The neighbour tried to cheat Rivan by calling the stone a piece of glass.",
+        question: "10 is greater than 2.",
         optionA: "True",
         optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "A mixed fraction can be converted into an improper fraction.",
+        optionA: "True",
+        optionB: "False 3 1",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Rivan finally sold the stone for one hundred thousand gold coins.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Roshan and Chaman visited Rivan three times in the story.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Rivan mistook the shining piece for ordinary glass at first.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The story teaches that luck and hard work together make a person rich.",
+        question: "9 in simplest form is 3.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -254,5 +259,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

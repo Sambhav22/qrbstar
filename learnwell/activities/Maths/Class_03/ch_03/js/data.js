@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 3: Lovely Creatures";
+export const chapter = "Chapter - 3: Subtraction";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "What is the nest of a tailorbird like?",
-        optionA: "Basket",
-        optionB: "Cradle",
-        optionC: "Cup",
-        correctAnswer: "Cradle",
+        question: "What do we call the number from which we subtract?",
+        optionA: "Subtrahend",
+        optionB: "Difference",
+        optionC: "Minuend",
+        correctAnswer: "Minuend",
       }),
       shuffleOptions({
-        question: "What does a tailorbird use as thread?",
-        optionA: "Silk",
-        optionB: "Hair",
-        optionC: "Plant down",
-        correctAnswer: "Plant down",
+        question: "The result of subtraction is called the",
+        optionA: "Minuend",
+        optionB: "Difference",
+        optionC: "Borrowing",
+        correctAnswer: "Difference",
       }),
       shuffleOptions({
-        question: "What is the colour of cheetal’s underbody?",
-        optionA: "Brown",
-        optionB: "White",
-        optionC: "Grey",
-        correctAnswer: "White",
+        question: "Subtraction is done starting from the _______ place.",
+        optionA: "Hundreds",
+        optionB: "Ones",
+        optionC: "Thousands",
+        correctAnswer: "Ones",
       }),
       shuffleOptions({
-        question: "Who does not have antlers?",
-        optionA: "Male cheetal",
-        optionB: "Female cheetal",
-        optionC: "Both",
-        correctAnswer: "Female cheetal",
+        question: "Which of these requires borrowing?",
+        optionA: "5234 – 2111",
+        optionB: "6402 – 3895",
+        optionC: "8000 – 4000",
+        correctAnswer: "6402 – 3895",
       }),
       shuffleOptions({
-        question: "Where can tailorbirds be found?",
-        optionA: "Deserts",
-        optionB: "Bushes near home",
-        optionC: "Rivers",
-        correctAnswer: "Bushes near home",
+        question: "7000 – 0 =",
+        optionA: "0",
+        optionB: "7000",
+        optionC: "1",
+        correctAnswer: "7000",
       }),
       shuffleOptions({
-        question: "How many lines are on a male cheetal’s antlers?",
-        optionA: "Two",
-        optionB: "Four",
-        optionC: "Three",
-        correctAnswer: "Three",
+        question: "If the subtrahend and minuend are the same, the difference is",
+        optionA: "1",
+        optionB: "0",
+        optionC: "10",
+        correctAnswer: "0",
       }),
       shuffleOptions({
-        question: "What does a cheetal do if it senses danger?",
-        optionA: "Shouts",
-        optionB: "Sleeps",
-        optionC: "Stands still",
-        correctAnswer: "Stands still",
+        question: "What is 4352 – 2000?",
+        optionA: "3352",
+        optionB: "2223",
+        optionC: "2352",
+        correctAnswer: "2352",
       }),
       shuffleOptions({
-        question: "The cheetal avoids being active during:",
-        optionA: "Dusk",
-        optionB: "Noon",
-        optionC: "Midnight",
-        correctAnswer: "Noon",
+        question: "Borrowing means taking 1 from the ______ place.",
+        optionA: "Lower",
+        optionB: "Same",
+        optionC: "Higher",
+        correctAnswer: "Higher",
       }),
       shuffleOptions({
-        question: "The word ‘cheetal’ comes from which language?",
-        optionA: "English",
-        optionB: "Hindi",
-        optionC: "Sanskrit",
-        correctAnswer: "Sanskrit",
+        question: "Which of these shows subtraction without borrowing?",
+        optionA: "8421 – 3209",
+        optionB: "6543 – 2222",
+        optionC: "7005 – 4998",
+        correctAnswer: "6543 – 2222",
       }),
       shuffleOptions({
-        question: "What helps tailorbirds stitch leaves?",
-        optionA: "Feet",
-        optionB: "Beak",
-        optionC: "Wings",
-        correctAnswer: "Beak",
+        question: "When we check subtraction, we use",
+        optionA: "Addition",
+        optionB: "Multiplication",
+        optionC: "Division",
+        correctAnswer: "Addition",
       }),
     ]),
   };
@@ -113,74 +120,73 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The cheetal’s body is covered with ______.",
-        optionA: "Spots",
-        optionB: "Stripes",
-        optionC: "Patches",
-        correctAnswer: "Spots",
+        question: "6000 – 3000 = ______",
+        optionA: "2000",
+        optionB: "5000",
+        optionC: "3000",
+        correctAnswer: "3000",
       }),
       shuffleOptions({
-        question: "The tailorbird holds its ______ upright.",
-        optionA: "Wing",
-        optionB: "Tail",
-        optionC: "Bill",
-        correctAnswer: "Tail",
+        question: "In subtraction, the number being subtracted is called the _______.",
+        optionA: "Minuend",
+        optionB: "Subtrahend",
+        optionC: "Product",
+        correctAnswer: "Subtrahend",
       }),
       shuffleOptions({
-        question: "The cheetal lives in a ______.",
-        optionA: "Nest",
-        optionB: "Cave",
-        optionC: "Herd",
-        correctAnswer: "Herd",
+        question: "10 tens = ______ ones.",
+        optionA: "1",
+        optionB: "100",
+        optionC: "1000",
+        correctAnswer: "100",
       }),
       shuffleOptions({
-        question: "Tailorbird’s wings are ______.",
-        optionA: "Long and wide",
-        optionB: "Short and rounded",
-        optionC: "Curved and stiff",
-        correctAnswer: "Short and rounded",
+        question: "Borrowing is also called ________.",
+        optionA: "Regrouping",
+        optionB: "Dividing",
+        optionC: "Multiplying",
+        correctAnswer: "Regrouping",
       }),
       shuffleOptions({
-        question: "The antlers of cheetal are branched into ______ lines.",
-        optionA: "Two",
-        optionB: "Three",
-        optionC: "Four",
-        correctAnswer: "Three",
+        question: "4800 – 4000 = ______",
+        optionA: "800",
+        optionB: "400",
+        correctAnswer: "800",
       }),
       shuffleOptions({
-        question: "Cheetals become more active towards ______.",
-        optionA: "Sunrise",
-        optionB: "Dusk",
-        optionC: "Noon",
-        correctAnswer: "Dusk",
+        question: "A difference becomes 0 when we subtract a number from _______.",
+        optionA: "0",
+        optionB: "Itself",
+        optionC: "1",
+        correctAnswer: "Itself",
       }),
       shuffleOptions({
-        question: "The cheetal responds to ______ calls made by animals.",
-        optionA: "Welcome",
-        optionB: "Alarm",
-        optionC: "Soft",
-        correctAnswer: "Alarm",
+        question: "5400 – 0 = ______",
+        optionA: "5400",
+        optionB: "0",
+        optionC: "4000",
+        correctAnswer: "5400",
       }),
       shuffleOptions({
-        question: "Tailorbird stitches leaves to make a ______.",
-        optionA: "Tunnel",
-        optionB: "Pouch",
-        optionC: "Rope",
-        correctAnswer: "Pouch",
+        question: "5 thousands – 2 thousands = ______ thousands",
+        optionA: "4",
+        optionB: "5",
+        optionC: "3",
+        correctAnswer: "3",
       }),
       shuffleOptions({
-        question: "Cheetals can jump over obstacles as high as ______ metres.",
-        optionA: "1.5",
-        optionB: "2",
-        optionC: "2.5",
-        correctAnswer: "1.5",
+        question: "If 4260 – 2150 = ______",
+        optionA: "2110",
+        optionB: "2000",
+        optionC: "2150",
+        correctAnswer: "2110",
       }),
       shuffleOptions({
-        question: "Tailorbirds can be observed in ______.",
-        optionA: "Cities",
-        optionB: "Forests",
-        optionC: "Neighbourhood",
-        correctAnswer: "Neighbourhood",
+        question: "Checking subtraction is done using _______.",
+        optionA: "Addition",
+        optionB: "Division",
+        optionC: "Subtraction",
+        correctAnswer: "Addition",
       }),
     ]),
   };
@@ -191,61 +197,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Tailorbirds use needles and threads from shops.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Cheetals are always active at noon.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Langurs and cheetals never interact.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The tailorbird’s nest is built with bricks.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The cheetal can run fast and jump over obstacles.",
+        question: "Borrowing is needed when the top digit is smaller than the bottom digit.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Female cheetals have antlers too.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Tailorbirds can be found only in zoos.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Cheetals are protected animals.",
+        question: "7500 – 7500 = 0",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The word ‘cheetah’ and ‘cheetal’ have different origins.",
+        question: "Subtraction must always start from the thousands place.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Tailorbirds build their nests with the help of their bills.",
+        question: "Minuend means the number that is subtracted.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "6000 – 5999 = 2",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "Difference + Subtrahend = Minuend",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "5400 – 0 = 0",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "Subtraction without borrowing is always easier.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "8000 – 7000 = 1000",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Borrowing can be done from the next bigger place value.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -253,5 +259,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 6: March to Delhi";
+export const chapter = "Chapter - 6: Decimals";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,219 +42,217 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who guided the sepoys with a lantern?",
-        optionA: "Colonel Ripley",
-        optionB: "A saint",
-        optionC: "Bahadur Shah Zafar",
-        correctAnswer: "A saint",
+        question: "Which decimal has the greatest value?",
+        optionA: "3.56",
+        optionB: "3.506",
+        optionC: "3.6",
+        correctAnswer: "3.6",
       }),
       shuffleOptions({
-        question: "At which village were pattals (leaf plates) made for the sepoys?",
-        optionA: "Baleni",
-        optionB: "Jani Bujurg",
-        optionC: "Bijraul",
-        correctAnswer: "Baleni",
+        question: "The place value of 4 in 12. Forty-five hundredths is: 4",
+        optionA: "10 4",
+        optionB: "100 4",
+        optionC: "1000",
+        correctAnswer: "1000",
       }),
       shuffleOptions({
-        question: "Who sent a youth on horseback to inform the next village to cook food?",
-        optionA: "The saint",
-        optionB: "Village headman",
-        optionC: "Colonel",
-        correctAnswer: "Village headman",
+        question: "The expanded form of 7.302 is:",
+        optionA: "7 + 0.3 + 0.002",
+        optionB: "7 + 0.03 + 0.02",
+        optionC: "7 + 3 + 2",
+        correctAnswer: "7 + 0.3 + 0.002",
       }),
       shuffleOptions({
-        question: "The sepoys marched with the sound—",
-        optionA: "Tap…Tap",
-        optionB: "Thak…Thak",
-        optionC: "Tok…Tok",
-        correctAnswer: "Thak…Thak",
+        question: "0.507 is equal to: 507",
+        optionA: "100 507",
+        optionB: "1000  500",
+        optionC: "7",
+        correctAnswer: "1000  500",
       }),
       shuffleOptions({
-        question: "The chapattis were stored in—",
-        optionA: "Pots",
-        optionB: "Baskets",
-        optionC: "Cauldrons",
-        correctAnswer: "Baskets",
+        question: "Which pair shows like decimals?",
+        optionA: "2.45 & 6.1",
+        optionB: "3.201 & 5.890",
+        optionC: "7.02 & 1.50",
+        correctAnswer: "3.201 & 5.890",
       }),
       shuffleOptions({
-        question: "The bridge on the Hindan River was—",
-        optionA: "Permanent",
-        optionB: "Boat bridge",
-        optionC: "Wooden",
-        correctAnswer: "Boat bridge",
+        question: "Which number lies between 4.3 and 4.4?",
+        optionA: "4.39",
+        optionB: "4.41",
+        optionC: "4.29",
+        correctAnswer: "4.39",
       }),
       shuffleOptions({
-        question: "Who ordered “Fire! Fire!” at the Red Fort?",
-        optionA: "Colonel Ripley",
-        optionB: "Bahadur Shah Zafar",
-        optionC: "A sepoy",
-        correctAnswer: "Colonel Ripley",
+        question: "2 kg 40 g written in kg is:",
+        optionA: "2.004",
+        optionB: "2.4",
+        optionC: "2.04",
+        correctAnswer: "2.04",
       }),
       shuffleOptions({
-        question: "What did villagers shout while serving food?",
-        optionA: "Victory to Britain",
-        optionB: "Soldiers, march on, we are with you",
-        optionC: "Stop and eat",
-        correctAnswer: "Soldiers, march on, we are with you",
+        question: "0.96 compared with 0.906:",
+        optionA: "0.96 < 0.906",
+        optionB: "0.96 = 0.906",
+        optionC: "0.96 > 0.906",
+        correctAnswer: "0.96 > 0.906",
       }),
       shuffleOptions({
-        question: "Who did the sepoys want as the Emperor of Hindustan?",
-        optionA: "Mangal Pande",
-        optionB: "Bahadur Shah Zafar",
-        optionC: "Lal Bahadur Shastri",
-        correctAnswer: "Bahadur Shah Zafar",
+        question: "Which decimal is equivalent to 5.1?",
+        optionA: "5.1000",
+        optionB: "5.010",
+        optionC: "5.0001",
+        correctAnswer: "5.1000",
       }),
       shuffleOptions({
-        question: "At what time did the sepoys reach Loni?",
-        optionA: "10 p.m.",
-        optionB: "3 a.m.",
-        optionC: "7 a.m.",
-        correctAnswer: "3 a.m.",
+        question: "37 cm expressed in metres is:",
+        optionA: "0.37",
+        optionB: "0.037",
+        optionC: "0.0037",
+        correctAnswer: "0.37",
       }),
     ]),
   };
 }
-
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The revolt spread from Meerut to ______.",
-        optionA: "Agra",
-        optionB: "Delhi",
-        optionC: "Lucknow",
-        correctAnswer: "Delhi",
+        question: "The decimal 0.824 has ______ decimal places.",
+        optionA: "two",
+        optionB: "three",
+        optionC: "four",
+        correctAnswer: "three",
       }),
       shuffleOptions({
-        question: "The sepoys were led by a mysterious ______.",
-        optionA: "Saint",
-        optionB: "Farmer",
-        optionC: "Soldier",
-        correctAnswer: "Saint",
+        question: "0.56 = 56 ÷ ______.",
+        optionA: "10",
+        optionB: "1000",
+        optionC: "100",
+        correctAnswer: "100",
       }),
       shuffleOptions({
-        question: "The villagers cooked chapattis on several ______.",
-        optionA: "Stones",
-        optionB: "Hearths",
-        optionC: "Stoves",
-        correctAnswer: "Hearths",
+        question: "In 9.308, the digit 3 is in the ______ place.",
+        optionA: "tenths",
+        optionB: "hundredths",
+        optionC: "thousandths",
+        correctAnswer: "tenths",
       }),
       shuffleOptions({
-        question: "The youth at Baleni climbed a tree to pluck ______.",
-        optionA: "Fruits",
-        optionB: "Leaves",
-        optionC: "Flowers",
-        correctAnswer: "Leaves",
+        question: "12 g is equal to ______ kg.",
+        optionA: "0.0012",
+        optionB: "0.12",
+        optionC: "0.012",
+        correctAnswer: "0.012",
       }),
       shuffleOptions({
-        question: "The bridge at Hindan was repaired with ______.",
-        optionA: "Logs",
-        optionB: "Ropes",
-        optionC: "Chains",
-        correctAnswer: "Ropes",
+        question: "0.250 and 0.25 have the ______ value.",
+        optionA: "greater",
+        optionB: "same",
+        optionC: "smaller",
+        correctAnswer: "same",
       }),
       shuffleOptions({
-        question: "The sepoys crawled across the ______ bridge at Yamuna.",
-        optionA: "Wooden",
-        optionB: "Boat",
-        optionC: "Stone",
-        correctAnswer: "Boat",
+        question: "Thousandths place comes ______ hundredths place.",
+        optionA: "before",
+        optionB: "after",
+        optionC: "equal to",
+        correctAnswer: "after",
       }),
       shuffleOptions({
-        question: "The villagers raised slogans saying, “We are ______ you.”",
-        optionA: "Without",
-        optionB: "With",
-        optionC: "Beyond",
-        correctAnswer: "With",
+        question: "8.03 has ______ tenths.",
+        optionA: "0",
+        optionB: "3",
+        optionC: "1.1",
+        correctAnswer: "0",
       }),
       shuffleOptions({
-        question: "The sepoys reached Loni after marching all ______.",
-        optionA: "Day",
-        optionB: "Night",
-        optionC: "Evening",
-        correctAnswer: "Night",
+        question: "4 L 80 ml = ______ L.",
+        optionA: "4.8",
+        optionB: "4.080",
+        optionC: "4.08",
+        correctAnswer: "4.08",
       }),
       shuffleOptions({
-        question: "Colonel Ripley’s eyes remained open in ______.",
-        optionA: "Sleep",
-        optionB: "Surprise",
-        optionC: "Anger",
-        correctAnswer: "Surprise",
+        question: "The decimal 0.006 has the digit 6 in the ______ place.",
+        optionA: "hundredths",
+        optionB: "thousandths",
+        optionC: "ten-thousandths",
+        correctAnswer: "thousandths",
       }),
       shuffleOptions({
-        question: "The sepoys hailed Bahadur Shah Zafar as their ______.",
-        optionA: "King",
-        optionB: "Emperor",
-        optionC: "Leader",
-        correctAnswer: "Emperor",
+        question: "1.700 is an ______ decimal of 1.7.",
+        optionA: "unlike",
+        optionB: "equivalent",
+        optionC: "greater",
+        correctAnswer: "equivalent",
       }),
     ]),
   };
 }
-
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The sepoys had plenty of food and rest before the march.",
+        question: "7.02 is greater than 7.2.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The saint was confident of the route even in darkness.",
+        question: "Zeros on the right of a decimal do not change its value.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The villagers refused to help the sepoys.",
+        question: "In 0.593, 9 is in the tenths place.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Chapattis with vegetables were served while walking.",
+        question: "3 g = 0.003 kg.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The sepoys crossed only one river.",
+        question: "0.56 and 0.560 are like decimals.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "2.403 has two decimal places.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The Red Fort was visible from across the Yamuna.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Ripley’s regiment saluted the revolting sepoys.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Colonel Ripley survived the firing at Red Fort.",
+        question: "0.89 is less than 0.809.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The sepoys’ enthusiasm removed all signs of fatigue.",
+        question: "5 L 250 ml = 5.025 L.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
+        optionB: "False  1",
+        correctAnswer: "False  1",
       }),
       shuffleOptions({
-        question: "“Dilli Chalo” means “On to Delhi.”",
+        question: "0.1 is equal to . 100",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "Adding decimals requires aligning decimal points.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -256,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-export var activityData;
-

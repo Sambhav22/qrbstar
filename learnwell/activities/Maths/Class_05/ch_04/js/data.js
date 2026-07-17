@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 4: A Special Friend";
+export const chapter = "Chapter - 4: Rounding Numbers";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who was Mr. Kapoor?",
-        optionA: "Doctor",
-        optionB: "A retired airman",
-        optionC: "Teacher",
-        correctAnswer: "A retired airman",
+        question: "Which digit do we check when rounding a number to the nearest ten?",
+        optionA: "Tens",
+        optionB: "Ones",
+        optionC: "Hundreds",
+        correctAnswer: "Ones",
       }),
       shuffleOptions({
-        question: "What did Mr. Kapoor buy for Atul?",
-        optionA: "Chocolate",
-        optionB: "Pen",
-        optionC: "A bat and a ball",
-        correctAnswer: "A bat and a ball",
+        question: "When rounding 453 to the nearest hundred, the rounded value will be:",
+        optionA: "400",
+        optionB: "500",
+        optionC: "600",
+        correctAnswer: "500",
       }),
       shuffleOptions({
-        question: "When did Mr. Kapoor get injured?",
-        optionA: "Kargil War",
-        optionB: "World War I",
-        optionC: "Independence War",
-        correctAnswer: "Kargil War",
+        question: "To round 7812 to the nearest thousand, which digit is checked?",
+        optionA: "Hundreds",
+        optionB: "Tens",
+        optionC: "Thousands",
+        correctAnswer: "Hundreds",
       }),
       shuffleOptions({
-        question: "What did Mr. Kapoor say when everything was fine?",
-        optionA: "Noo for No Problem",
-        optionB: "Phee for Fit",
-        optionC: "Hello Atul",
-        correctAnswer: "Phee for Fit",
+        question: "The number 39.78 rounded to the nearest one becomes:",
+        optionA: "39",
+        optionB: "40",
+        optionC: "41",
+        correctAnswer: "40",
       }),
       shuffleOptions({
-        question: "Who opened the door when Atul came with his result?",
-        optionA: "Atul’s father",
-        optionB: "Mr. Kapoor",
-        optionC: "Mrs. Kapoor",
-        correctAnswer: "Mrs. Kapoor",
+        question: "When rounding to the nearest tenth, the digit to be checked is the:",
+        optionA: "Hundredths digit",
+        optionB: "Tenths digit",
+        optionC: "Ones digit",
+        correctAnswer: "Hundredths digit",
       }),
       shuffleOptions({
-        question: "What did Mr. Kapoor give Atul after he scored well?",
-        optionA: "Bat",
-        optionB: "Ball",
-        optionC: "A chocolate",
-        correctAnswer: "A chocolate",
+        question: "The decimal 6.84 rounded to the nearest tenth is:",
+        optionA: "6.8",
+        optionB: "6.9",
+        optionC: "7.0",
+        correctAnswer: "6.9",
       }),
       shuffleOptions({
-        question: "What was Atul’s habit every morning?",
-        optionA: "Playing cricket",
-        optionB: "Wishing elders Good morning",
-        optionC: "Singing songs",
-        correctAnswer: "Wishing elders Good morning",
+        question: "The number 268 rounded to the nearest ten becomes:",
+        optionA: "260",
+        optionB: "270",
+        optionC: "280",
+        correctAnswer: "270",
       }),
       shuffleOptions({
-        question: "What did Atul notice in the courtyard after Mr. Kapoor’s death?",
-        optionA: "Ball",
-        optionB: "Cane",
-        optionC: "Platform",
-        correctAnswer: "Cane",
+        question: "To round 52,489 to the nearest thousand, the rounded value is:",
+        optionA: "50,000",
+        optionB: "52,500",
+        optionC: "52,000",
+        correctAnswer: "52,000",
       }),
       shuffleOptions({
-        question: "Who was standing at the door when Atul’s exams were over?",
-        optionA: "Mr. Kapoor",
-        optionB: "Mrs. Kapoor",
-        optionC: "Atul’s father",
-        correctAnswer: "Mr. Kapoor",
+        question: "Rounding 913.62 to the nearest one gives:",
+        optionA: "914",
+        optionB: "913",
+        optionC: "915",
+        correctAnswer: "914",
       }),
       shuffleOptions({
-        question: "What did Mrs. Kapoor ask Atul to do sometimes?",
-        optionA: "Visit the zoo",
-        optionB: "Play cricket",
-        optionC: "Walk the cane",
-        correctAnswer: "Walk the cane",
+        question: "When rounding 842.67 to the nearest tenth, the result is:",
+        optionA: "842.6",
+        optionB: "842.7",
+        optionC: "843",
+        correctAnswer: "842.7",
       }),
     ]),
   };
@@ -114,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Atul lived near the ______.",
-        optionA: "Park",
-        optionB: "Bus stop",
-        optionC: "Market",
-        correctAnswer: "Bus stop",
+        question: "The number 748 rounded to the nearest hundred is ______.",
+        optionA: "700",
+        optionB: "800",
+        optionC: "900",
+        correctAnswer: "800",
       }),
       shuffleOptions({
-        question: "Mr. Kapoor got injured in the ______ war.",
-        optionA: "World War II",
-        optionB: "Kargil",
-        optionC: "Independence",
-        correctAnswer: "Kargil",
+        question: "The decimal 45.29 rounded to the nearest tenth becomes ______.",
+        optionA: "45.2",
+        optionB: "45.3",
+        optionC: "45.0",
+        correctAnswer: "45.3",
       }),
       shuffleOptions({
-        question: "The cane had a ______ base.",
-        optionA: "Four-footed",
-        optionB: "Two-footed",
-        optionC: "Three-footed",
-        correctAnswer: "Four-footed",
+        question: "Rounding 9815 to the nearest thousand gives ______.",
+        optionA: "9000",
+        optionB: "10000",
+        optionC: "11000",
+        correctAnswer: "10000",
       }),
       shuffleOptions({
-        question: "Mr. Kapoor said “Noo for No Problem” when there was a ______.",
-        optionA: "Problem",
-        optionB: "Success",
-        optionC: "Holiday",
-        correctAnswer: "Problem",
+        question: "When rounding 87.51 to the nearest one, it becomes ______.",
+        optionA: "87",
+        optionB: "88",
+        optionC: "89",
+        correctAnswer: "88",
       }),
       shuffleOptions({
-        question: "Atul went inside Mr. Kapoor’s ______.",
-        optionA: "Courtyard",
-        optionB: "Balcony",
-        optionC: "Room",
-        correctAnswer: "Courtyard",
+        question: "The number 624 rounded to the nearest ten is ______.",
+        optionA: "620",
+        optionB: "630",
+        optionC: "640",
+        correctAnswer: "630",
       }),
       shuffleOptions({
-        question: "Atul shared his ______ results with Mr. Kapoor.",
-        optionA: "Games",
-        optionB: "Unit test",
-        optionC: "Homework",
-        correctAnswer: "Unit test",
+        question: "The decimal 13.048 rounded to the nearest hundredth is ______.",
+        optionA: "10.05",
+        optionB: "13.04",
+        optionC: "13.05",
+        correctAnswer: "13.05",
       }),
       shuffleOptions({
-        question: "Mr. Kapoor gave Atul tips on how to ______.",
-        optionA: "Study",
-        optionB: "Bat and bowl",
-        optionC: "Swim",
-        correctAnswer: "Bat and bowl",
+        question: "The number 5312 becomes ______ when rounded to the nearest thousand.",
+        optionA: "5000",
+        optionB: "6000",
+        optionC: "3000",
+        correctAnswer: "5000",
       }),
       shuffleOptions({
-        question: "Atul knocked at Mr. Kapoor’s ______.",
-        optionA: "Window",
-        optionB: "Door",
-        optionC: "School",
-        correctAnswer: "Door",
+        question: "Rounding 29.86 to the nearest tenth gives ______.",
+        optionA: "29.9",
+        optionB: "29.8",
+        optionC: "30",
+        correctAnswer: "29.9",
       }),
       shuffleOptions({
-        question: "Atul’s father was riding a ______.",
-        optionA: "Car",
-        optionB: "Scooter",
-        optionC: "Cycle",
-        correctAnswer: "Scooter",
+        question: "When rounding 477 to the nearest hundred, the rounded value is ______.",
+        optionA: "400",
+        optionB: "500",
+        optionC: "5000",
+        correctAnswer: "500",
       }),
       shuffleOptions({
-        question: "Atul kissed the ______ before keeping it back.",
-        optionA: "Bat",
-        optionB: "Cane",
-        optionC: "Photo",
-        correctAnswer: "Cane",
+        question: "The decimal 102.63 rounded to the nearest one is ______.",
+        optionA: "102",
+        optionB: "103",
+        optionC: "104",
+        correctAnswer: "103",
       }),
     ]),
   };
@@ -192,61 +198,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Mr. Kapoor was injured in 1999 during the Kargil War.",
+        question: "Rounding 348 to the nearest hundred results in 300.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Atul never visited Mr. Kapoor’s house.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Atul enjoyed walking with the cane.",
+        question: "The decimal 72.44 rounded to the nearest tenth becomes 72.4.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Atul’s father was happy about his strange behaviour.",
+        question: "The number 5298 rounded to the nearest thousand becomes 6000.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Mr. Kapoor was always waiting for Atul at the door.",
+        question: "Rounding 91.88 to the nearest one gives 92.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Atul lost all his exams.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Mrs. Kapoor gave Atul a bat and a ball directly.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Atul kissed the cane before placing it down.",
+        question: "When rounding to the nearest ten, if the ones digit is 5, the number increases.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Atul promised never to return again.",
+        question: "Rounding 641 to the nearest hundred results in 600.",
         optionA: "True",
         optionB: "False",
-        correctAnswer: "False",
+        correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Atul said “Noo for No Problem” to Mrs. Kapoor before leaving.",
+        question: "The decimal 19.204 rounded to the nearest tenth is 19.2.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Rounding 7899 to the nearest thousand gives 8000.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "The number 45.99 rounded to the nearest one becomes 46.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "When rounding to the nearest hundredth, we check the thousandths digit.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -254,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

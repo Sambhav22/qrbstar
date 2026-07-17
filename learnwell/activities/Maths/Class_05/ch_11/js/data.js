@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 11: Song of the Engine";
+export const chapter = "Chapter - 11: Percentage";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,74 +42,73 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "What does the engine sing while climbing?",
-        optionA: "I thought I could",
-        optionB: "I think I can",
-        optionC: "I must stop",
-        correctAnswer: "I think I can",
+        question: "What does the word “percent” mean?",
+        optionA: "Out of ten",
+        optionB: "Out of hundred",
+        optionC: "Out of thousand",
+        correctAnswer: "Out of hundred",
       }),
       shuffleOptions({
-        question: "The train travels on the:",
-        optionA: "Road",
-        optionB: "Railway",
-        optionC: "River",
-        correctAnswer: "Railway",
+        question: "Which symbol is used to represent percentage?",
+        optionA: "&",
+        optionB: "@",
+        optionC: "%",
+        correctAnswer: "%",
       }),
       shuffleOptions({
-        question: "Who is the poet of the poem?",
-        optionA: "Ruskin Bond",
-        optionB: "Christine Weatherley",
-        optionC: "R. L. Stevenson",
-        correctAnswer: "Christine Weatherley",
+        question: "What is the decimal form of 6.9%?",
+        optionA: "0.069",
+        optionB: "0.69",
+        optionC: "0.0069",
+        correctAnswer: "0.069",
       }),
       shuffleOptions({
-        question: "The train requires no pulling when it goes:",
-        optionA: "Uphill",
-        optionB: "Downhill",
-        optionC: "Through a tunnel",
-        correctAnswer: "Downhill",
+        question: "What is 20% of 150?",
+        optionA: "20",
+        optionB: "30",
+        correctAnswer: "30",
       }),
       shuffleOptions({
-        question: "What does the train require when going uphill?",
-        optionA: "Pulling",
-        optionB: "No pulling",
-        optionC: "Sleeping",
-        correctAnswer: "Pulling",
+        question: "What percent of 1 metre is 1 cm?",
+        optionA: "0.1%",
+        optionB: "1%",
+        optionC: "10%",
+        correctAnswer: "1%",
       }),
       shuffleOptions({
-        question: "What happens to the train’s speed while going down?",
-        optionA: "It stops",
-        optionB: "It slows down",
-        optionC: "It speeds along",
-        correctAnswer: "It speeds along",
+        question: "What is 45% written as a decimal?",
+        optionA: "4.5",
+        optionB: "0.45",
+        optionC: "0.045",
+        correctAnswer: "0.45",
       }),
       shuffleOptions({
-        question: "The word “quietly” means:",
-        optionA: "Noiselessly",
-        optionB: "Quickly",
-        optionC: "Loudly",
-        correctAnswer: "Noiselessly",
+        question: "What fraction represents 28%?",
+        optionA: "10 28",
+        optionB: "100",
+        optionC: "28",
+        correctAnswer: "100",
       }),
       shuffleOptions({
-        question: "What kind of sound does the engine make?",
-        optionA: "Song",
-        optionB: "Shout",
-        optionC: "Whistle",
-        correctAnswer: "Song",
+        question: "What is 50% of 80?",
+        optionA: "30",
+        optionB: "40",
+        optionC: "50",
+        correctAnswer: "40",
       }),
       shuffleOptions({
-        question: "The train pulls you with a:",
-        optionA: "Rope",
-        optionB: "Will",
-        optionC: "Chain",
-        correctAnswer: "Will",
+        question: "1 ml is what percentage of 1 litre?",
+        optionA: "0.1%",
+        optionB: "1%",
+        optionC: "10%",
+        correctAnswer: "0.1%",
       }),
       shuffleOptions({
-        question: "The word “along” rhymes with:",
-        optionA: "Strong",
-        optionB: "Weak",
-        optionC: "Short",
-        correctAnswer: "Strong",
+        question: "What is 0.4 expressed as a percentage?",
+        optionA: "4%",
+        optionB: "40%",
+        optionC: "400%",
+        correctAnswer: "40%",
       }),
     ]),
   };
@@ -114,74 +119,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The line goes up a ______.",
-        optionA: "Bridge",
-        optionB: "Hill",
-        optionC: "House",
-        correctAnswer: "Hill",
+        question: "36% written as a fraction is _____. 9",
+        optionA: "25",
+        optionB: "20",
+        optionC: "6",
+        correctAnswer: "25",
       }),
       shuffleOptions({
-        question: "“I ______ I can, I think I can.”",
-        optionA: "Thought",
-        optionB: "Think",
-        optionC: "Wish",
-        correctAnswer: "Think",
+        question: "0.06 × 100 gives ______.",
+        optionA: "60",
+        optionB: "6%",
+        optionC: "0.6",
+        correctAnswer: "6%",
       }),
       shuffleOptions({
-        question: "The engine sings a ______ song.",
-        optionA: "Big",
-        optionB: "Little",
-        optionC: "Long",
-        correctAnswer: "Little",
+        question: "23.8% written in decimal form is ______.",
+        optionA: "0.238",
+        optionB: "2.38",
+        optionC: "0.0238",
+        correctAnswer: "0.238",
       }),
       shuffleOptions({
-        question: "The train moves very ______ uphill.",
-        optionA: "Slowly",
-        optionB: "Quickly",
-        optionC: "Loudly",
-        correctAnswer: "Slowly",
+        question: "72% of 50 is ______.",
+        optionA: "36",
+        optionB: "72",
+        optionC: "50",
+        correctAnswer: "36",
       }),
       shuffleOptions({
-        question: "“I thought I ______, I thought I could.”",
-        optionA: "Should",
-        optionB: "Could",
-        optionC: "Can",
-        correctAnswer: "Could",
+        question: "84 cm is ______ of 1 metre.",
+        optionA: "84%",
+        optionB: "8.4%",
+        optionC: "0.84%",
+        correctAnswer: "84%",
       }),
       shuffleOptions({
-        question: "If you listen very ______, you will hear the song.",
-        optionA: "Quickly",
-        optionB: "Quietly",
-        optionC: "Sadly",
-        correctAnswer: "Quietly",
+        question: "1 g is _____ of 1 kg.",
+        optionA: "1%",
+        optionB: "0.1%",
+        optionC: "10%",
+        correctAnswer: "0.1%",
       }),
       shuffleOptions({
-        question: "“I thought I could” is sung when the train is going ______.",
-        optionA: "Uphill",
-        optionB: "Downhill",
-        optionC: "Backward",
-        correctAnswer: "Downhill",
+        question: "0.4 as a percentage is ______.",
+        optionA: "0.4%",
+        optionB: "4%",
+        optionC: "40%",
+        correctAnswer: "40%",
       }),
       shuffleOptions({
-        question: "The train travels on the ______.",
-        optionA: "Railway",
-        optionB: "Highway",
-        optionC: "Airway",
-        correctAnswer: "Railway",
+        question: "5% written as a decimal is _______.",
+        optionA: "0.5",
+        optionB: "0.05",
+        optionC: "5.0",
+        correctAnswer: "0.05",
       }),
       shuffleOptions({
-        question: "The engine always keeps ______.",
-        optionA: "Singing",
-        optionB: "Sleeping",
-        optionC: "Stopping",
-        correctAnswer: "Singing",
+        question: "28% of 200 is ______.",
+        optionA: "28",
+        optionB: "56",
+        optionC: "72",
+        correctAnswer: "56",
       }),
       shuffleOptions({
-        question: "The train ______ along.",
-        optionA: "Speeds",
-        optionB: "Jumps",
-        optionC: "Waits",
-        correctAnswer: "Speeds",
+        question: "16 paise is ______ of 1 rupee.",
+        optionA: "1.6%",
+        optionB: "16%",
+        optionC: "0.16%",
+        correctAnswer: "16%",
       }),
     ]),
   };
@@ -192,61 +197,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The poem describes a train journey.",
+        question: "0.009 as a percentage is 0.9%.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The train goes fast uphill.",
+        question: "100 cm is 100% of 1 metre.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "1 ml equals 1% of 1 litre.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The train requires pulling downhill.",
+        question: "40% of 200 is 90.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The engine sings both uphill and downhill.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The poet of the poem is Christine Weatherley.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The word “speed” means to move slowly.",
+        question: "6% written as decimal is 0.6.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The listener must be quiet to hear the engine’s song.",
+        question: "1 gram is 0.1% of 1 kilogram.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The train completely stops at the top of the hill.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The engine keeps singing even when no pulling is needed.",
+        question: "52% written as decimal is 0.52.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The train goes along the railway line.",
+        question: "0.45 equals 45%.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "80% of 500 is 400.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "10% of 90 is 9.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -254,5 +259,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

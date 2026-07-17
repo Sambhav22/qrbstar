@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 3: How a Mistake led to the Nobel Prizes";
+export const chapter = "Chapter - 3: Operations on Large Numbers";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who was the first person of Indian origin to win the Nobel Prize?",
-        optionA: "Rabindranath Tagore",
-        optionB: "C.V. Raman",
-        optionC: "Amartya Sen",
-        correctAnswer: "Rabindranath Tagore",
+        question: "What is the result when 4,52,100 is added to 5,48,000?",
+        optionA: "10,00,100",
+        optionB: "9,90,100",
+        optionC: "10,10,000",
+        correctAnswer: "10,00,100",
       }),
       shuffleOptions({
-        question: "Who shared the Nobel Peace Prize with Kailash Satyarthi?",
-        optionA: "Dalai Lama",
-        optionB: "Malala Yousafzai",
-        optionC: "Amartya Sen",
-        correctAnswer: "Malala Yousafzai",
+        question: "Which property states that numbers can be added in any order?",
+        optionA: "Associative property",
+        optionB: "Commutative property",
+        optionC: "Additive property of 0",
+        correctAnswer: "Commutative property",
       }),
       shuffleOptions({
-        question: "Which of these fields is not recognised by a Nobel Prize?",
-        optionA: "Medicine",
-        optionB: "Chemistry",
-        optionC: "Sports",
-        correctAnswer: "Sports",
+        question: "What is the difference when 7,25,000 is reduced by 25,000?",
+        optionA: "7,00,000",
+        optionB: "6,90,000",
+        optionC: "7,20,000",
+        correctAnswer: "7,00,000",
       }),
       shuffleOptions({
-        question: "Alfred Nobel held how many patents?",
-        optionA: "101",
-        optionB: "355",
-        optionC: "500",
-        correctAnswer: "355",
+        question: "What will be the product of 8,000 multiplied by 0?",
+        optionA: "0",
+        optionB: "8,000",
+        optionC: "800",
+        correctAnswer: "0",
       }),
       shuffleOptions({
-        question: "Which Nobel laureate was awarded for work in Physiology in 1968?",
-        optionA: "Har Gobind Khurana",
-        optionB: "Ronald Ross",
-        optionC: "Subramanyam Chandrashekhar",
-        correctAnswer: "Har Gobind Khurana",
+        question: "What is the quotient when 15,000 is divided by 1?",
+        optionA: "150",
+        optionB: "1",
+        optionC: "15,000",
+        correctAnswer: "15,000",
       }),
       shuffleOptions({
-        question: "What does the Nobel Foundation NOT give to laureates?",
-        optionA: "Gold medal",
-        optionB: "Trophy",
-        optionC: "Diploma",
-        correctAnswer: "Trophy",
+        question: "Which number remains unchanged when 0 is added to it?",
+        optionA: "0",
+        optionB: "The number itself",
+        optionC: "1",
+        correctAnswer: "The number itself",
       }),
       shuffleOptions({
-        question: "Who described Gandhi’s absence from Nobel awards as the “greatest omission”?",
-        optionA: "Rabindranath Tagore",
-        optionB: "Geir Lundestad",
-        optionC: "Kailash Satyarthi",
-        correctAnswer: "Geir Lundestad",
+        question: "What is the product of 9,000 multiplied by 20?",
+        optionA: "1,80,000",
+        optionB: "18,000",
+        optionC: "90,000",
+        correctAnswer: "1,80,000",
       }),
       shuffleOptions({
-        question: "Alfred Nobel was born in which year?",
-        optionA: "1833",
-        optionB: "1845",
-        optionC: "1850",
-        correctAnswer: "1833",
+        question: "What is the quotient when 72,000 is divided by 9?",
+        optionA: "800",
+        optionB: "8,000",
+        optionC: "20,000",
+        correctAnswer: "8,000",
       }),
       shuffleOptions({
-        question: "In which country did a newspaper mistakenly publish Nobel’s obituary?",
-        optionA: "France",
-        optionB: "England",
-        optionC: "Sweden",
-        correctAnswer: "France",
+        question: "What is the result of subtracting 55,000 from 1,00,000?",
+        optionA: "45,000",
+        optionB: "35,000",
+        optionC: "25,000",
+        correctAnswer: "45,000",
       }),
       shuffleOptions({
-        question: "Which Indian Nobel laureate worked in welfare economics?",
-        optionA: "Amartya Sen",
-        optionB: "Mother Teresa",
-        optionC: "Venkatraman Ramakrishnan",
-        correctAnswer: "Amartya Sen",
+        question: "Which mathematical operation is verified by using the rule “Quotient × Divisor + Remainder”?",
+        optionA: "Multiplication",
+        optionB: "Addition",
+        optionC: "Division",
+        correctAnswer: "Division",
       }),
     ]),
   };
@@ -114,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Alfred Nobel was called the “________ of Death.”",
-        optionA: "Merchant",
-        optionB: "Scientist",
-        optionC: "Friend",
-        correctAnswer: "Merchant",
+        question: "12,00,000 – 2,00,000 = ______",
+        optionA: "8,00,000",
+        optionB: "10,00,000",
+        optionC: "9,50,000",
+        correctAnswer: "10,00,000",
       }),
       shuffleOptions({
-        question: "Nobel Prizes are considered the most ________ awards in the world.",
-        optionA: "Ordinary",
-        optionB: "Prestigious",
-        optionC: "Recent",
-        correctAnswer: "Prestigious",
+        question: "4,500 × 100 = ______",
+        optionA: "4,50,000",
+        optionB: "45,000",
+        optionC: "40,50,000",
+        correctAnswer: "4,50,000",
       }),
       shuffleOptions({
-        question: "Nobel made his wealth mainly from ________.",
-        optionA: "Explosives",
-        optionB: "Books",
-        optionC: "Teaching",
-        correctAnswer: "Explosives",
+        question: "6,42,000 + 8,000 = ______",
+        optionA: "6,50,000",
+        optionB: "6,48,000",
+        optionC: "6,60,000",
+        correctAnswer: "6,50,000",
       }),
       shuffleOptions({
-        question: "Nobel’s foundation was created in the year ________.",
-        optionA: "1895",
-        optionB: "1905",
-        optionC: "1915",
-        correctAnswer: "1895",
+        question: "The quotient when 0 is divided by any number is ______.",
+        optionA: "8",
+        optionB: "0",
+        optionC: "not defined",
+        correctAnswer: "0",
       }),
       shuffleOptions({
-        question: "Nobel bought Bofors and turned it into an ________ manufacturer.",
-        optionA: "Toy",
-        optionB: "Arms",
-        optionC: "Textile",
-        correctAnswer: "Arms",
+        question: "25,600 ÷ 100 = ______",
+        optionA: "256",
+        optionB: "25,600",
+        optionC: "2560",
+        correctAnswer: "256",
       }),
       shuffleOptions({
-        question: "The Nobel Prize money today is about ________.",
-        optionA: "$1,110,000",
-        optionB: "$10,000",
-        optionC: "$250 million",
-        correctAnswer: "$1,110,000",
+        question: "The product of any number and 1 is ______.",
+        optionA: "1",
+        optionB: "0",
+        optionC: "the number itself",
+        correctAnswer: "the number itself",
       }),
       shuffleOptions({
-        question: "________ was awarded the Nobel Peace Prize in 1989.",
-        optionA: "Dalai Lama",
-        optionB: "Gandhi",
-        optionC: "Satyarthi",
-        correctAnswer: "Dalai Lama",
+        question: "4,500 + 500 = ______",
+        optionA: "5,000",
+        optionB: "4,900",
+        optionC: "5,100",
+        correctAnswer: "5,000",
       }),
       shuffleOptions({
-        question: "Alfred Nobel studied ________.",
-        optionA: "Chemistry",
-        optionB: "Physics",
-        optionC: "Medicine",
-        correctAnswer: "Chemistry",
+        question: "3,00,000 – 1,00,000 = ______",
+        optionA: "2,00,000",
+        optionB: "1,00,000",
+        optionC: "3,00,000",
+        correctAnswer: "2,00,000",
       }),
       shuffleOptions({
-        question: "Rudyard Kipling won the Nobel Prize in ________.",
-        optionA: "1907",
-        optionB: "1913",
-        optionC: "1921",
-        correctAnswer: "1907",
+        question: "900 × 30 = ______",
+        optionA: "27,000",
+        optionB: "2,700",
+        optionC: "90,000",
+        correctAnswer: "27,000",
       }),
       shuffleOptions({
-        question: "The Nobel Prize gold medal is accompanied by a ________.",
-        optionA: "Diploma",
-        optionB: "Trophy",
-        optionC: "Certificate only",
-        correctAnswer: "Diploma",
+        question: "When a number is divided by itself, the quotient is ______.",
+        optionA: "0",
+        optionB: "1",
+        optionC: "the number",
+        correctAnswer: "1",
       }),
     ]),
   };
@@ -192,61 +198,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Nobel made more wealth designing and selling cannons.",
+        question: "0 + 35,000 equals 35,000.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Nobel Prizes were first awarded after 1900.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The Nobel Prize is also given for art.",
+        question: "4,000 × 1 equals 4,001.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Nobel is remembered as one of the greatest philanthropists.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "A mistaken obituary described Alfred Nobel as a philanthropist.",
+        question: "Division by 0 is possible.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Gandhi was nominated for the Nobel Prize four times.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Alfred Nobel was Swedish by nationality.",
+        question: "65,000 – 5,000 equals 60,000.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Nobel Prizes can be shared by more than three individuals.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Nobel Prizes are awarded in six main categories.",
+        question: "10,000 × 10 has three zeros in the product.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Winning hearts is considered greater than winning prizes.",
+        question: "1,00,000 – 90,000 equals 10,000.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "40,000 ÷ 10 equals 4,000.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Multiplication can be seen as repeated addition.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "9,999 × 0 equals 9,999.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "500 × 200 equals 1,00,000.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -254,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 10: Animals’ Movements";
+export const chapter = "Chapter - 10: Measurement of Capacity";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who wriggles on the ground?",
-        optionA: "Owl",
-        optionB: "Spider",
-        optionC: "Snake",
-        correctAnswer: "Snake",
+        question: "What is the standard unit used to measure capacity?",
+        optionA: "Kilogram",
+        optionB: "Litre",
+        optionC: "Metre",
+        correctAnswer: "Litre",
       }),
       shuffleOptions({
-        question: "Who peeps at night?",
-        optionA: "Owl",
-        optionB: "Tiger",
-        optionC: "Bird",
-        correctAnswer: "Owl",
+        question: "Which unit is used to measure very small quantities of liquid like medicine?",
+        optionA: "ml",
+        optionB: "l",
+        optionC: "kl",
+        correctAnswer: "ml",
       }),
       shuffleOptions({
-        question: "Which animal scuttles lightly?",
-        optionA: "Rabbit",
-        optionB: "Spider",
-        optionC: "Frog",
-        correctAnswer: "Spider",
+        question: "Which vessel would you use to measure a large quantity like tank water?",
+        optionA: "100 ml",
+        optionB: "1 l",
+        optionC: "1 kl",
+        correctAnswer: "1 kl",
       }),
       shuffleOptions({
-        question: "Which bird spreads its wings and flies?",
-        optionA: "Ostrich",
-        optionB: "Crow",
-        optionC: "Hedgehog",
-        correctAnswer: "Crow",
+        question: "Which among the following is measured using litres?",
+        optionA: "Perfume",
+        optionB: "Milk",
+        optionC: "Eye drops",
+        correctAnswer: "Milk",
       }),
       shuffleOptions({
-        question: "Who rolls into a ball?",
-        optionA: "Cat",
-        optionB: "Dog",
-        optionC: "Hedgehog",
-        correctAnswer: "Hedgehog",
+        question: "How many millilitres are there in 1 litre?",
+        optionA: "100",
+        optionB: "1000",
+        optionC: "10",
+        correctAnswer: "1000",
       }),
       shuffleOptions({
-        question: "Which animal nods its head?",
-        optionA: "Snake",
-        optionB: "Ostrich",
-        optionC: "Owl",
-        correctAnswer: "Ostrich",
+        question: "Which of these liquids is commonly sold in millilitre bottles?",
+        optionA: "Shampoo sachet",
+        optionB: "Nail polish",
+        optionC: "Perfume bottle (small)",
+        correctAnswer: "Perfume bottle (small)",
       }),
       shuffleOptions({
-        question: "Who treads softly on the ground?",
-        optionA: "Spider",
-        optionB: "Horse",
-        optionC: "Camel",
-        correctAnswer: "Spider",
+        question: "Which unit is suitable to measure the capacity of a bathtub?",
+        optionA: "ml",
+        optionB: "l",
+        optionC: "kl",
+        correctAnswer: "l",
       }),
       shuffleOptions({
-        question: "Who is tall in the poem?",
-        optionA: "Monkey",
-        optionB: "Ostrich",
-        optionC: "Duck",
-        correctAnswer: "Ostrich",
+        question: "What do we call the amount of liquid a container can hold?",
+        optionA: "Mass",
+        optionB: "Weight",
+        optionC: "Capacity",
+        correctAnswer: "Capacity",
       }),
       shuffleOptions({
-        question: "Who is awake when others are asleep?",
-        optionA: "Owl",
-        optionB: "Rabbit",
-        optionC: "Deer",
-        correctAnswer: "Owl",
+        question: "Which unit is used to measure a very large tank of water?",
+        optionA: "ml",
+        optionB: "kl",
+        optionC: "l",
+        correctAnswer: "kl",
       }),
       shuffleOptions({
-        question: "Who are fast asleep at night in the poem?",
-        optionA: "Birds",
-        optionB: "Children",
-        optionC: "Hedgehog",
-        correctAnswer: "Children",
+        question: "What is the correct way to convert litres into millilitres?",
+        optionA: "Multiply by 10",
+        optionB: "Multiply by 1000",
+        optionC: "Divide by 1000",
+        correctAnswer: "Multiply by 1000",
       }),
     ]),
   };
@@ -113,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The snake ______ on the ground.",
-        optionA: "flies",
-        optionB: "wriggles",
-        optionC: "peeps",
-        correctAnswer: "wriggles",
+        question: "A small cold drink bottle usually contains ______.",
+        optionA: "2 l",
+        optionB: "200 ml",
+        optionC: "20 l",
+        correctAnswer: "200 ml",
       }),
       shuffleOptions({
-        question: "The hedgehog is ______ and small.",
-        optionA: "tall",
-        optionB: "prickly",
-        optionC: "sleepy",
-        correctAnswer: "prickly",
+        question: "To convert 4 litres into millilitres, we ______ by 1000.",
+        optionA: "divide",
+        optionB: "subtract",
+        optionC: "multiply",
+        correctAnswer: "multiply",
       }),
       shuffleOptions({
-        question: "The spider ______ around.",
-        optionA: "swims",
-        optionB: "scuttles",
-        optionC: "nods",
-        correctAnswer: "scuttles",
+        question: "A very tiny liquid amount like in a syringe is measured in ______.",
+        optionA: "kl",
+        optionB: "l",
+        optionC: "ml",
+        correctAnswer: "ml",
       }),
       shuffleOptions({
-        question: "The owl ______ at night.",
-        optionA: "dances",
-        optionB: "peeps",
-        optionC: "barks",
-        correctAnswer: "peeps",
+        question: "A bucket of water generally has capacity in ______.",
+        optionA: "litres",
+        optionB: "millilitres",
+        optionC: "kilolitres",
+        correctAnswer: "litres",
       }),
       shuffleOptions({
-        question: "The ostrich stands tall and ______ his head.",
-        optionA: "nods",
-        optionB: "rolls",
-        optionC: "wriggles",
-        correctAnswer: "nods",
+        question: "A nail polish bottle usually holds ______.",
+        optionA: "5 ml",
+        optionB: "5 l",
+        optionC: "500 ml",
+        correctAnswer: "5 ml",
       }),
       shuffleOptions({
-        question: "The birds spread their wings and ______.",
-        optionA: "walk",
-        optionB: "fly",
-        optionC: "run",
-        correctAnswer: "fly",
+        question: "The capacity of a container tells us how much liquid it can ______.",
+        optionA: "eat",
+        optionB: "hold",
+        optionC: "weigh",
+        correctAnswer: "hold",
       }),
       shuffleOptions({
-        question: "Children are ______ in the poem.",
-        optionA: "jumping",
-        optionB: "dancing",
-        optionC: "asleep",
-        correctAnswer: "asleep",
+        question: "3000 ml is equal to ______.",
+        optionA: "3 l 0 ml",
+        optionB: "30 l",
+        optionC: "300 l",
+        correctAnswer: "3 l 0 ml",
       }),
       shuffleOptions({
-        question: "The owl is a ______ animal.",
-        optionA: "sleepy",
-        optionB: "nocturnal",
-        optionC: "flying",
-        correctAnswer: "nocturnal",
+        question: "To convert millilitres into litres, we ______ by 1000.",
+        optionA: "multiply",
+        optionB: "divide",
+        optionC: "add",
+        correctAnswer: "divide",
       }),
       shuffleOptions({
-        question: "The hedgehog ______ itself into a ball.",
-        optionA: "spreads",
-        optionB: "rolls",
-        optionC: "peeps",
-        correctAnswer: "rolls",
+        question: "A water tank on the roof has its capacity measured in ______.",
+        optionA: "kl",
+        optionB: "ml",
+        optionC: "cm",
+        correctAnswer: "kl",
       }),
       shuffleOptions({
-        question: "The spider treads on the ______.",
-        optionA: "sky",
-        optionB: "branch",
-        optionC: "ground",
-        correctAnswer: "ground",
+        question: "A shampoo sachet usually contains ______.",
+        optionA: "10 ml",
+        optionB: "10 l",
+        optionC: "1000 ml",
+        correctAnswer: "10 ml",
       }),
     ]),
   };
@@ -191,67 +198,65 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The owl peeps during the day.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The snake wriggles on the ground.",
+        question: "500 ml is half a litre.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The ostrich flies in the sky.",
+        question: "1 kilolitre is equal to 100 litres.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The hedgehog is tall and colourful.",
+        question: "A perfume bottle is usually measured in litres.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The spider walks lightly on the ground.",
+        question: "7000 ml is equal to 7 litres.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Children are wide awake in the poem.",
+        question: "A bathtub’s capacity is measured in millilitres.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Birds fly high across the sky.",
+        question: "To convert litres into millilitres, we multiply by 1000.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The owl sleeps during the night.",
+        question: "Milk is commonly measured in litres.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "A 1 l vessel can hold more liquid than a 500 ml vessel.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "100 ml is more than 1 litre.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The spider is described as prickly.",
+        question: "A water tank’s capacity can be expressed in kilolitres.",
         optionA: "True",
         optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The hedgehog scuttles in the sky.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        correctAnswer: "True",
       }),
     ]),
   };
 }
-
-export var activityData;

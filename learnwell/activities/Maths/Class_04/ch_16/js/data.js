@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 16: Little Red Riding Hood";
+export const chapter = "Chapter - 16: Bar Graph";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who made the red hood for the girl?",
-        optionA: "Granny",
-        optionB: "Mother",
-        optionC: "Aunt",
-        correctAnswer: "Mother",
+        question: "A bar graph helps us to __________ data.",
+        optionA: "compare",
+        optionB: "erase",
+        optionC: "hide",
+        correctAnswer: "compare",
       }),
       shuffleOptions({
-        question: "Where did Little Red Riding Hood live?",
-        optionA: "Town",
-        optionB: "Cottage at the edge of the forest",
-        optionC: "Castle",
-        correctAnswer: "Cottage at the edge of the forest",
+        question: "The height of a bar shows the __________ of the data.",
+        optionA: "picture",
+        optionB: "value",
+        optionC: "colour",
+        correctAnswer: "value",
       }),
       shuffleOptions({
-        question: "Who wanted to eat Little Red Riding Hood?",
-        optionA: "Hunter",
-        optionB: "Wolf",
-        optionC: "Granny",
-        correctAnswer: "Wolf",
+        question: "Bars in a bar graph must have __________ width.",
+        optionA: "equal",
+        optionB: "any",
+        optionC: "double",
+        correctAnswer: "equal",
       }),
       shuffleOptions({
-        question: "What did her mother give her to take to Granny?",
-        optionA: "Goodies",
-        optionB: "Flowers",
-        optionC: "Toys",
-        correctAnswer: "Goodies",
+        question: "The spaces between bars must be __________.",
+        optionA: "equal",
+        optionB: "absent",
+        optionC: "uneven",
+        correctAnswer: "equal",
       }),
       shuffleOptions({
-        question: "Who met Little Red Riding Hood on the way?",
-        optionA: "Hunter",
-        optionB: "Wolf",
-        optionC: "Granny",
-        correctAnswer: "Wolf",
+        question: "The X-axis generally shows the __________.",
+        optionA: "values",
+        optionB: "categories",
+        optionC: "scale",
+        correctAnswer: "categories",
       }),
       shuffleOptions({
-        question: "Where did Granny run when she saw the wolf?",
-        optionA: "To another room and bolted the door",
-        optionB: "To the forest",
-        optionC: "To the kitchen",
-        correctAnswer: "To another room and bolted the door",
+        question: "The Y-axis usually shows the __________.",
+        optionA: "colours",
+        optionB: "designs",
+        optionC: "numbers/values",
+        correctAnswer: "numbers/values",
       }),
       shuffleOptions({
-        question: "What did the wolf wear to look like Granny?",
-        optionA: "Night dress",
-        optionB: "Red hood",
-        optionC: "Shawl only",
-        correctAnswer: "Night dress",
+        question: "A bar graph is also called a __________ graph.",
+        optionA: "circle",
+        optionB: "column",
+        optionC: "pointed",
+        correctAnswer: "column",
       }),
       shuffleOptions({
-        question: "Who greeted the girl by saying, “Good morning, my child”?",
-        optionA: "Wolf disguised as Granny",
-        optionB: "Hunter",
-        optionC: "Mother",
-        correctAnswer: "Wolf disguised as Granny",
+        question: "A scale is used to show what each __________ represents.",
+        optionA: "division",
+        optionB: "picture",
+        optionC: "bar",
+        correctAnswer: "division",
       }),
       shuffleOptions({
-        question: "Who heard voices of distress from the cottage?",
-        optionA: "Mother",
-        optionB: "Hunter",
-        optionC: "Animals",
-        correctAnswer: "Hunter",
+        question: "A vertical bar graph has bars standing __________.",
+        optionA: "sideways",
+        optionB: "up vertically",
+        optionC: "in circles",
+        correctAnswer: "up vertically",
       }),
       shuffleOptions({
-        question: "How was the menace of the wolf ended?",
-        optionA: "Granny frightened him",
-        optionB: "Hunter killed him with a knife",
-        optionC: "The girl escaped",
-        correctAnswer: "Hunter killed him with a knife",
+        question: "The title of a graph tells us what the graph __________.",
+        optionA: "hides",
+        optionB: "looks like",
+        optionC: "shows",
+        correctAnswer: "shows",
       }),
     ]),
   };
@@ -113,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The girl always wore a ______ hood.",
-        optionA: "Blue",
-        optionB: "Red",
-        optionC: "Green",
-        correctAnswer: "Red",
+        question: "A bar graph represents data using __________.",
+        optionA: "bars",
+        optionB: "circles",
+        optionC: "points",
+        correctAnswer: "bars",
       }),
       shuffleOptions({
-        question: "Her cottage was just at the ______ of the forest.",
-        optionA: "Middle",
-        optionB: "Edge",
-        optionC: "Start",
-        correctAnswer: "Edge",
+        question: "In a horizontal bar graph, bars extend along the __________ axis.",
+        optionA: "vertical",
+        optionB: "slant",
+        optionC: "horizontal",
+        correctAnswer: "horizontal",
       }),
       shuffleOptions({
-        question: "The wolf thought the girl would make a tasty ______.",
-        optionA: "Toy",
-        optionB: "Morsel",
-        optionC: "Pet",
-        correctAnswer: "Morsel",
+        question: "The __________ of a bar graph helps us understand what the graph is about.",
+        optionA: "picture",
+        optionB: "title",
+        optionC: "border",
+        correctAnswer: "title",
       }),
       shuffleOptions({
-        question: "The wolf pulled the ______ to make the room dark.",
-        optionA: "Curtains",
-        optionB: "Window",
-        optionC: "Door",
-        correctAnswer: "Curtains",
+        question: "The __________ tells what each division on the axis stands for.",
+        optionA: "scale",
+        optionB: "colour",
+        optionC: "pattern",
+        correctAnswer: "scale",
       }),
       shuffleOptions({
-        question: "Granny asked the wolf to lift the ______.",
-        optionA: "Latch",
-        optionB: "Basket",
-        optionC: "Bedcover",
-        correctAnswer: "Latch",
+        question: "Bars should have equal width and equal __________ between them.",
+        optionA: "colours",
+        optionB: "distance",
+        optionC: "designs",
+        correctAnswer: "distance",
       }),
       shuffleOptions({
-        question: "The girl greeted Granny by saying ______.",
-        optionA: "Good morning",
-        optionB: "Good night",
-        optionC: "Hello",
-        correctAnswer: "Good morning",
+        question: "The X-axis shows different __________.",
+        optionA: "categories",
+        optionB: "totals",
+        optionC: "pictures",
+        correctAnswer: "categories",
       }),
       shuffleOptions({
-        question: "The wolf said, “All the better to ______ you with.”",
-        optionA: "Hear",
-        optionB: "Hug",
-        optionC: "Love",
-        correctAnswer: "Hear",
+        question: "The Y-axis generally shows __________.",
+        optionA: "months",
+        optionB: "fruits",
+        optionC: "values/numbers",
+        correctAnswer: "values/numbers",
       }),
       shuffleOptions({
-        question: "Little Red Riding Hood was already ______ when the wolf leapt.",
-        optionA: "Cautious",
-        optionB: "Careless",
-        optionC: "Sleeping",
-        correctAnswer: "Cautious",
+        question: "The process of reading and understanding a graph is called __________.",
+        optionA: "decorating",
+        optionB: "interpretation",
+        optionC: "mixing",
+        correctAnswer: "interpretation",
       }),
       shuffleOptions({
-        question: "The hunter carried a big forest ______.",
-        optionA: "Knife",
-        optionB: "Stick",
-        optionC: "Axe",
-        correctAnswer: "Knife",
+        question: "The __________ of a bar shows its value.",
+        optionA: "height/length",
+        optionB: "border",
+        optionC: "colour",
+        correctAnswer: "height/length",
       }),
       shuffleOptions({
-        question: "After the wolf’s death, Little Red Riding Hood could walk in the forest without any ______.",
-        optionA: "Joy",
-        optionB: "Fear",
-        optionC: "Basket",
-        correctAnswer: "Fear",
+        question: "A bar graph makes it easy to __________ values.",
+        optionA: "compare",
+        optionB: "hide",
+        optionC: "erase",
+        correctAnswer: "compare",
       }),
     ]),
   };
@@ -191,61 +198,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Little Red Riding Hood often strayed into the forest to play.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The animals in the forest hated her.",
+        question: "Bars in a bar graph can touch each other.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The wolf was cunning and wicked.",
+        question: "A bar graph uses rectangular bars to show data.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Granny was petrified when she saw the wolf.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The wolf first ate Granny before waiting for the girl.",
+        question: "Scale is not needed to read a bar graph.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The wolf disguised himself in Granny’s clothes.",
+        question: "If two bars have the same height, their values are equal.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The girl thought Granny had big teeth.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The hunter heard voices of distress from the cottage.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The wolf escaped through the window.",
+        question: "The Y-axis is used to show categories like months or items.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The menace of the wolf was over forever.",
+        question: "A taller bar represents a larger value.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "The title of a bar graph is optional.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "A horizontal bar graph has bars drawn sideways.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Interpretation means colouring the bars.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "Bars must have equal width and equal spacing.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -253,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

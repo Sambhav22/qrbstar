@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 16: The True Devotee";
+export const chapter = "Chapter - 16: Volume";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who drove away the gods from heaven?",
-        optionA: "Prahlada",
-        optionB: "Hiranyakashipu",
-        optionC: "Holika",
-        correctAnswer: "Hiranyakashipu",
+        question: "What do we call the amount of space occupied by a solid?",
+        optionA: "Area",
+        optionB: "Volume",
+        optionC: "Surface",
+        correctAnswer: "Volume",
       }),
       shuffleOptions({
-        question: "Who was a true devotee of God?",
-        optionA: "Prahlada",
-        optionB: "Hiranyakashipu",
-        optionC: "Holika",
-        correctAnswer: "Prahlada",
+        question: "Which unit is used to measure the volume of very small objects?",
+        optionA: "cm²",
+        optionB: "mm³",
+        optionC: "m²",
+        correctAnswer: "mm³",
       }),
       shuffleOptions({
-        question: "What did Hiranyakashipu ask everyone to do?",
-        optionA: "Worship him",
-        optionB: "Serve the poor",
-        optionC: "Worship God",
-        correctAnswer: "Worship him",
+        question: "What happens when a stone is dropped into a filled tumbler of water?",
+        optionA: "Water level decreases",
+        optionB: "Water level increases",
+        optionC: "Nothing changes",
+        correctAnswer: "Water level increases",
       }),
       shuffleOptions({
-        question: "Who saved Prahlada from fire?",
-        optionA: "Holika",
-        optionB: "The shawl",
-        optionC: "The guards",
-        correctAnswer: "The shawl",
+        question: "Which of the following solids has all sides equal?",
+        optionA: "Cuboid",
+        optionB: "Cone",
+        optionC: "Cube",
+        correctAnswer: "Cube",
       }),
       shuffleOptions({
-        question: "What did Hiranyakashipu order to trample Prahlada?",
-        optionA: "Lions",
-        optionB: "Elephants",
-        optionC: "Horses",
-        correctAnswer: "Elephants",
+        question: "Which formula is used to find the volume of a cuboid?",
+        optionA: "l + b + h",
+        optionB: "l × b × h",
+        optionC: "l × h",
+        correctAnswer: "l × b × h",
       }),
       shuffleOptions({
-        question: "What did the guards fail to do?",
-        optionA: "Protect Prahlada",
-        optionB: "Kill Prahlada",
-        optionC: "Worship Prahlada",
-        correctAnswer: "Kill Prahlada",
+        question: "What is the volume of a cube whose side is represented by s?",
+        optionA: "s²",
+        optionB: "s³",
+        optionC: "3s",
+        correctAnswer: "s³",
       }),
       shuffleOptions({
-        question: "Who sat on the woodpile with Prahlada?",
-        optionA: "Holika",
-        optionB: "Hiranyakashipu",
-        optionC: "His mother",
-        correctAnswer: "Holika",
+        question: "Which of the following is a cubic unit?",
+        optionA: "cm",
+        optionB: "cm³",
+        optionC: "cm²",
+        correctAnswer: "cm³",
       }),
       shuffleOptions({
-        question: "From where did Lord Nrasimha appear?",
-        optionA: "The sky",
-        optionB: "The ocean",
-        optionC: "The pillar",
-        correctAnswer: "The pillar",
+        question: "When counting cubes, what does each small cube represent?",
+        optionA: "1 cm",
+        optionB: "1 cm²",
+        optionC: "1 cm³",
+        correctAnswer: "1 cm³",
       }),
       shuffleOptions({
-        question: "What form did Lord Nrasimha take?",
-        optionA: "Half man, half lion",
-        optionB: "Half man, half elephant",
-        optionC: "Half man, half bird",
-        correctAnswer: "Half man, half lion",
+        question: "Which measurement must be the same before using the volume formula?",
+        optionA: "Colour",
+        optionB: "Units",
+        optionC: "Shape",
+        correctAnswer: "Units",
       }),
       shuffleOptions({
-        question: "What happened to the demons after Hiranyakashipu’s death?",
-        optionA: "They fled in terror",
-        optionB: "They prayed to God",
-        optionC: "They celebrated",
-        correctAnswer: "They fled in terror",
+        question: "What does displacement of water tell us about a solid?",
+        optionA: "Its colour",
+        optionB: "Its weight",
+        optionC: "Its volume",
+        correctAnswer: "Its volume",
       }),
     ]),
   };
@@ -114,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Hiranyakashipu proclaimed, “There is no ______.”",
-        optionA: "God",
-        optionB: "King",
-        optionC: "Heaven",
-        correctAnswer: "God",
+        question: "The volume of a cube is calculated as side × side × ______.",
+        optionA: "height",
+        optionB: "length",
+        optionC: "side",
+        correctAnswer: "side",
       }),
       shuffleOptions({
-        question: "Prahlada said, “You are only a ______.”",
-        optionA: "god",
-        optionB: "man",
-        optionC: "king",
-        correctAnswer: "king",
+        question: "A solid with greater space occupied has ______ volume.",
+        optionA: "less",
+        optionB: "equal",
+        optionC: "more",
+        correctAnswer: "more",
       }),
       shuffleOptions({
-        question: "The guards failed to kill Prahlada every ______.",
-        optionA: "year",
-        optionB: "day",
-        optionC: "time",
-        correctAnswer: "time",
+        question: "Cubic centimetre is written as ______.",
+        optionA: "cm²",
+        optionB: "cm³",
+        optionC: "cm",
+        correctAnswer: "cm³",
       }),
       shuffleOptions({
-        question: "Holika had an ______ shawl.",
-        optionA: "red",
-        optionB: "shining",
-        optionC: "incombustible",
-        correctAnswer: "incombustible",
+        question: "The rise of water level in a container shows the ______ of an object dipped.",
+        optionA: "weight",
+        optionB: "area",
+        optionC: "volume",
+        correctAnswer: "volume",
       }),
       shuffleOptions({
-        question: "Flames began to ______ the pile of wood.",
-        optionA: "cook",
-        optionB: "destroy",
-        optionC: "swallow",
-        correctAnswer: "swallow",
+        question: "Volume is measured in ______ units.",
+        optionA: "square",
+        optionB: "cubic",
+        optionC: "linear",
+        correctAnswer: "cubic",
       }),
       shuffleOptions({
-        question: "The wind took away Holika’s ______.",
-        optionA: "crown",
-        optionB: "shawl",
-        optionC: "sword",
-        correctAnswer: "shawl",
+        question: "To find the volume of a cuboid, all dimensions must be in the same ______.",
+        optionA: "colour",
+        optionB: "pattern",
+        optionC: "units",
+        correctAnswer: "units",
       }),
       shuffleOptions({
-        question: "Hiranyakashipu ordered the pillar to be heated ______.",
-        optionA: "red hot",
-        optionB: "blue",
-        optionC: "black",
-        correctAnswer: "red hot",
+        question: "A cube of side 1 cm has a volume of ______.",
+        optionA: "1 cm²",
+        optionB: "1 cm³",
+        optionC: "2 cm³",
+        correctAnswer: "1 cm³",
       }),
       shuffleOptions({
-        question: "Prahlada saw an ______ walking on the pillar.",
-        optionA: "insect",
-        optionB: "butterfly",
-        optionC: "ant",
-        correctAnswer: "ant",
+        question: "When we count cubes, we add the volume of each ______ cube.",
+        optionA: "small",
+        optionB: "big",
+        optionC: "colourful",
+        correctAnswer: "small",
       }),
       shuffleOptions({
-        question: "The demons ran away in ______.",
-        optionA: "terror",
-        optionB: "joy",
-        optionC: "peace",
-        correctAnswer: "terror",
+        question: "The three dimensions of a cuboid are length, breadth and ______.",
+        optionA: "diagonal",
+        optionB: "radius",
+        optionC: "height",
+        correctAnswer: "height",
       }),
       shuffleOptions({
-        question: "Lord Nrasimha blessed Prahlada to remain His ______.",
-        optionA: "king",
-        optionB: "devotee",
-        optionC: "warrior",
-        correctAnswer: "devotee",
+        question: "Volume tells us how much ______ a solid occupies.",
+        optionA: "time",
+        optionB: "space",
+        optionC: "mass",
+        correctAnswer: "space",
       }),
     ]),
   };
@@ -192,61 +198,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Hiranyakashipu declared himself God.",
+        question: "All solids occupy some amount of space.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Prahlada worshipped his father.",
+        question: "A cube and cuboid always have the same volume.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The spears killed Prahlada.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Mad elephants could not harm Prahlada.",
+        question: "Counting cubes is one method of finding the volume of a solid.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Holika had a shawl that caught fire quickly.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The wind helped Prahlada survive the fire.",
+        question: "A cube has equal length, breadth and height.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Hiranyakashipu struck the iron pillar with a sword.",
+        question: "The volume of a cuboid depends only on its height.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "1 m³ is equal to 1,000 litres.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Lord Shiva came out of the pillar.",
+        question: "Water displacement can help us know the volume of irregular solids.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "A cube of side 10 cm has volume 10 cm³.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Prahlada wished for riches and power.",
+        question: "Units must be the same before using the volume formula.",
         optionA: "True",
         optionB: "False",
-        correctAnswer: "False",
+        correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The Pole Star helps travellers at night.",
+        question: "A solid with more cubes always has a greater volume.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -254,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

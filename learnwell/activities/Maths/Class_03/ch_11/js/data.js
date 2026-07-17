@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 11: Khushi and Oscar";
+export const chapter = "Chapter - 11: Time";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who was a naughty girl in the story?",
-        optionA: "Anvi",
-        optionB: "Khushi",
-        optionC: "Rani",
-        correctAnswer: "Khushi",
+        question: "Which hand of the clock moves the fastest?",
+        optionA: "Hour hand",
+        optionB: "Minute hand",
+        optionC: "Second hand",
+        correctAnswer: "Second hand",
       }),
       shuffleOptions({
-        question: "What sound did Khushi’s anklets make?",
-        optionA: "Bark",
-        optionB: "Chirp",
-        optionC: "Jingle",
-        correctAnswer: "Jingle",
+        question: "How many minutes make one hour?",
+        optionA: "30",
+        optionB: "60",
+        optionC: "90",
+        correctAnswer: "60",
       }),
       shuffleOptions({
-        question: "Where did Khushi throw her socks?",
-        optionA: "Under the bed",
-        optionB: "On the sofa and under the chair",
-        optionC: "In the basket",
-        correctAnswer: "On the sofa and under the chair",
+        question: "What is the time when it is half past 4?",
+        optionA: "4:15",
+        optionB: "4:30",
+        optionC: "4:45",
+        correctAnswer: "4:30",
       }),
       shuffleOptions({
-        question: "Who brought the puppy home?",
-        optionA: "Anvi",
-        optionB: "Khushi",
-        optionC: "Mr. Kapil",
-        correctAnswer: "Mr. Kapil",
+        question: "How many days are there in a week?",
+        optionA: "5",
+        optionB: "7",
+        optionC: "10",
+        correctAnswer: "7",
       }),
       shuffleOptions({
-        question: "What did Oscar chew first?",
-        optionA: "Pillow",
-        optionB: "Doll",
-        optionC: "Spoon",
-        correctAnswer: "Doll",
+        question: "What is 3:15 called?",
+        optionA: "Quarter past 3",
+        optionB: "Quarter to 3",
+        optionC: "Half past 3",
+        correctAnswer: "Quarter past 3",
       }),
       shuffleOptions({
-        question: "What did Oscar knock off from the table?",
-        optionA: "Vase",
-        optionB: "Pen stand",
-        optionC: "Glass",
-        correctAnswer: "Pen stand",
+        question: "How many hours are there in 2 days?",
+        optionA: "24 hours",
+        optionB: "36 hours",
+        optionC: "48 hours",
+        correctAnswer: "48 hours",
       }),
       shuffleOptions({
-        question: "What was hanging on the door in the drawing room?",
-        optionA: "Bedsheet",
-        optionB: "Table cover",
-        optionC: "Socks",
-        correctAnswer: "Table cover",
+        question: "The minute hand moves ______ minutes from one number to the next.",
+        optionA: "2",
+        optionB: "5",
+        optionC: "10",
+        correctAnswer: "5",
       }),
       shuffleOptions({
-        question: "What did Oscar do to the bedsheet?",
-        optionA: "Folded it",
-        optionB: "Pulled it down",
-        optionC: "Sat on it",
-        correctAnswer: "Pulled it down",
+        question: "How many days does the month of August have?",
+        optionA: "28",
+        optionB: "30",
+        optionC: "31",
+        correctAnswer: "31",
       }),
       shuffleOptions({
-        question: "How did Khushi feel when Oscar tore her notebook?",
-        optionA: "Happy",
-        optionB: "Excited",
-        optionC: "Desperate",
-        correctAnswer: "Desperate",
+        question: "What is 7:45 called?",
+        optionA: "Quarter to 8",
+        optionB: "Quarter past 7",
+        optionC: "Half past 7",
+        correctAnswer: "Quarter to 8",
       }),
       shuffleOptions({
-        question: "What did Anvi ask Khushi to teach Oscar?",
-        optionA: "Games",
-        optionB: "Good habits",
-        optionC: "Magic tricks",
-        correctAnswer: "Good habits",
+        question: "Which month comes after March?",
+        optionA: "January",
+        optionB: "April",
+        optionC: "May",
+        correctAnswer: "April",
       }),
     ]),
   };
@@ -113,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Khushi wore ______ on her feet.",
-        optionA: "bracelets",
-        optionB: "anklets",
-        optionC: "bangles",
-        correctAnswer: "anklets",
+        question: "60 seconds make ______.",
+        optionA: "half an hour",
+        optionB: "one minute",
+        optionC: "one day",
+        correctAnswer: "one minute",
       }),
       shuffleOptions({
-        question: "Her schoolbag was thrown on the ______.",
-        optionA: "floor",
-        optionB: "bed",
-        optionC: "table",
-        correctAnswer: "floor",
+        question: "30 minutes is equal to ______.",
+        optionA: "half an hour",
+        optionB: "one hour",
+        optionC: "one week",
+        correctAnswer: "half an hour",
       }),
       shuffleOptions({
-        question: "The remote-control was lying behind the ______.",
-        optionA: "fridge",
-        optionB: "cupboard",
-        optionC: "sofa",
-        correctAnswer: "sofa",
+        question: "The hour hand completes one round in ______.",
+        optionA: "24 hours",
+        optionB: "6 hours",
+        optionC: "12 hours",
+        correctAnswer: "12 hours",
       }),
       shuffleOptions({
-        question: "The flower-vase’s flowers were lying on the ______.",
-        optionA: "floor",
-        optionB: "table",
-        optionC: "chair",
-        correctAnswer: "floor",
+        question: "February has 28 days in a ______.",
+        optionA: "normal year",
+        optionB: "leap year",
+        optionC: "century",
+        correctAnswer: "normal year",
       }),
       shuffleOptions({
-        question: "Oscar chewed Khushi’s ______.",
-        optionA: "pencil",
-        optionB: "doll",
-        optionC: "slipper",
-        correctAnswer: "doll",
+        question: "The minute hand takes ______ to complete one full circle.",
+        optionA: "30 minutes",
+        optionB: "60 minutes",
+        optionC: "90 minutes",
+        correctAnswer: "60 minutes",
       }),
       shuffleOptions({
-        question: "The pen stand was on the ______.",
-        optionA: "bed",
-        optionB: "chair",
-        optionC: "table",
-        correctAnswer: "table",
+        question: "1 day is equal to ______ hours.",
+        optionA: "20",
+        optionB: "22",
+        optionC: "24",
+        correctAnswer: "24",
       }),
       shuffleOptions({
-        question: "Oscar was called a ______ by Khushi.",
-        optionA: "joy",
-        optionB: "nuisance",
-        optionC: "baby",
-        correctAnswer: "nuisance",
+        question: "A leap year has ______ days.",
+        optionA: "366",
+        optionB: "365",
+        optionC: "360",
+        correctAnswer: "366",
       }),
       shuffleOptions({
-        question: "Khushi is now teaching Oscar to be a ______ dog.",
-        optionA: "naughty",
-        optionB: "good",
-        optionC: "big",
-        correctAnswer: "good",
+        question: "Half past 9 is written as ______.",
+        optionA: "9:15",
+        optionB: "9:30",
+        optionC: "9:45",
+        correctAnswer: "9:30",
       }),
       shuffleOptions({
-        question: "Anvi smiled and said it was to make Khushi realise her ______.",
-        optionA: "mistake",
-        optionB: "folly",
-        optionC: "fun",
-        correctAnswer: "folly",
+        question: "7 days make one ______.",
+        optionA: "month",
+        optionB: "week",
+        optionC: "year",
+        correctAnswer: "week",
       }),
       shuffleOptions({
-        question: "The puppy Oscar was like a new ______ to Khushi.",
-        optionA: "book",
-        optionB: "friend",
-        optionC: "toy",
-        correctAnswer: "toy",
+        question: "365 days make one ______.",
+        optionA: "month",
+        optionB: "week",
+        optionC: "year",
+        correctAnswer: "year",
       }),
     ]),
   };
@@ -191,67 +198,65 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Khushi was always a very tidy girl.",
+        question: "The hour hand moves faster than the minute hand.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Oscar was a kitten.",
+        question: "1 hour = 60 minutes.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "February always has 29 days.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Khushi threw her water bottle near the door.",
+        question: "Quarter past 8 means 8:15.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Mr. Kapil never tried to help Anvi.",
+        question: "6:30 is called half past 6.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "There are 52 weeks in a year.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "1 week = 10 days.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The television volume was always low.",
+        question: "The minute hand moves through 5 minutes between two numbers.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "24 hours make 1 day.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "A year always has 366 days.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Oscar tore Khushi’s notebook.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Khushi liked Oscar from the start and never complained.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Anvi smiled when Khushi complained about Oscar.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Khushi learned to be tidy in the end.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Oscar and Khushi became friends.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
       }),
     ]),
   };
 }
-
-export var activityData;

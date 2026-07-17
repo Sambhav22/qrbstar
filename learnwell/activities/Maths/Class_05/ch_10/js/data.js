@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 10: Smog";
+export const chapter = "Chapter - 10: Basic Geometrical Concepts";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "What does the word ‘smog’ mean?",
-        optionA: "Dusty wind",
-        optionB: "Smoky fog",
-        optionC: "Cloudy rain",
-        correctAnswer: "Smoky fog",
+        question: "A line segment has",
+        optionA: "No end points",
+        optionB: "One end point",
+        optionC: "Two end points",
+        correctAnswer: "Two end points",
       }),
       shuffleOptions({
-        question: "Which group is most affected by smog?",
-        optionA: "Farmers",
-        optionB: "Children and old people",
-        optionC: "Shopkeepers",
-        correctAnswer: "Children and old people",
+        question: "The common end point of two rays forming an angle is called",
+        optionA: "Arm",
+        optionB: "Vertex",
+        optionC: "Base",
+        correctAnswer: "Vertex",
       }),
       shuffleOptions({
-        question: "Which of these is a visible gas in smog?",
-        optionA: "Sulphur oxides",
-        optionB: "Carbon monoxide",
-        optionC: "CFCs",
-        correctAnswer: "Sulphur oxides",
+        question: "Lines that never meet even if extended are called",
+        optionA: "Intersecting lines",
+        optionB: "Parallel lines",
+        optionC: "Perpendicular lines",
+        correctAnswer: "Parallel lines",
       }),
       shuffleOptions({
-        question: "Which city is called one of the most polluted in the world?",
-        optionA: "New Delhi",
-        optionB: "Mumbai",
-        optionC: "Jaipur",
-        correctAnswer: "New Delhi",
+        question: "An angle measuring more than 180° and less than 360° is a",
+        optionA: "Reflex angle",
+        optionB: "Straight angle",
+        optionC: "Acute angle",
+        correctAnswer: "Reflex angle",
       }),
       shuffleOptions({
-        question: "In which season does smog become worse?",
-        optionA: "Summer",
-        optionB: "Winter",
-        optionC: "Rainy",
-        correctAnswer: "Winter",
+        question: "A triangle with all three sides equal is called",
+        optionA: "Scalene triangle",
+        optionB: "Isosceles triangle",
+        optionC: "Equilateral triangle",
+        correctAnswer: "Equilateral triangle",
       }),
       shuffleOptions({
-        question: "Which plant removes carbon monoxide?",
-        optionA: "Aloe Vera",
-        optionB: "Spider Plant",
-        optionC: "Snake Plant",
-        correctAnswer: "Spider Plant",
+        question: "A ray has",
+        optionA: "Two end points",
+        optionB: "No end points",
+        optionC: "One end point",
+        correctAnswer: "One end point",
       }),
       shuffleOptions({
-        question: "Which article of the Constitution gives us the right to clean air?",
-        optionA: "Article 14",
-        optionB: "Article 21",
-        optionC: "Article 370",
-        correctAnswer: "Article 21",
+        question: "An angle measuring exactly 180° is called a",
+        optionA: "Straight angle",
+        optionB: "Obtuse angle",
+        optionC: "Acute angle",
+        correctAnswer: "Straight angle",
       }),
       shuffleOptions({
-        question: "What does WHO stand for?",
-        optionA: "World Health Organisation",
-        optionB: "Water Health Organisation",
-        optionC: "World Humanity Office",
-        correctAnswer: "World Health Organisation",
+        question: "Lines that intersect at 90° are called",
+        optionA: "Perpendicular lines",
+        optionB: "Parallel lines",
+        optionC: "Horizontal lines",
+        correctAnswer: "Perpendicular lines",
       }),
       shuffleOptions({
-        question: "Which year saw a heavy smog in London?",
-        optionA: "1952",
-        optionB: "1942",
-        optionC: "1962",
-        correctAnswer: "1952",
+        question: "A triangle having one angle more than 90° is a",
+        optionA: "Obtuse-angled triangle",
+        optionB: "Acute-angled triangle",
+        optionC: "Right-angled triangle",
+        correctAnswer: "Obtuse-angled triangle",
       }),
       shuffleOptions({
-        question: "Which scheme was started in Delhi to control vehicles?",
-        optionA: "Even-odd",
-        optionB: "Free ride",
-        optionC: "Double road",
-        correctAnswer: "Even-odd",
+        question: "A complete angle measures",
+        optionA: "90°",
+        optionB: "180°",
+        optionC: "360°",
+        correctAnswer: "360°",
       }),
     ]),
   };
@@ -114,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Smog contains both __________ and invisible gases.",
-        optionA: "Visible",
-        optionB: "Harmful",
-        optionC: "Colourful",
-        correctAnswer: "Visible",
+        question: "A point is shown by a small ______.",
+        optionA: "line",
+        optionB: "dot",
+        optionC: "arrow",
+        correctAnswer: "dot",
       }),
       shuffleOptions({
-        question: "Invisible gases include carbon monoxide, CFCs and __________ gases.",
-        optionA: "Radioactive",
-        optionB: "Oxygen",
-        optionC: "Nitrogen",
-        correctAnswer: "Radioactive",
+        question: "Angles are measured using a ______.",
+        optionA: "ruler",
+        optionB: "divider",
+        optionC: "protractor",
+        correctAnswer: "protractor",
       }),
       shuffleOptions({
-        question: "AQI stands for __________.",
-        optionA: "Air Quality Index",
-        optionB: "Air Quantity Information",
-        optionC: "Air Quick Indicator",
-        correctAnswer: "Air Quality Index",
+        question: "The inside region of an angle is called its ______.",
+        optionA: "interior",
+        optionB: "boundary",
+        optionC: "exterior",
+        correctAnswer: "interior",
       }),
       shuffleOptions({
-        question: "Delhi’s AQI in November can go up to __________ or more.",
-        optionA: "100",
-        optionB: "1000",
-        optionC: "10,000",
-        correctAnswer: "1000",
+        question: "A line that goes endlessly in both directions is a ______.",
+        optionA: "ray",
+        optionB: "line segment",
+        optionC: "line",
+        correctAnswer: "line",
       }),
       shuffleOptions({
-        question: "Over __________ children die every year due to pollution-related diseases.",
-        optionA: "60,000",
-        optionB: "6,00,000",
-        optionC: "6,000",
-        correctAnswer: "6,00,000",
+        question: "A triangle has ______ sides.",
+        optionA: "2",
+        optionB: "4",
+        optionC: "3",
+        correctAnswer: "3",
       }),
       shuffleOptions({
-        question: "People should wear __________ during smog.",
-        optionA: "Caps",
-        optionB: "Masks",
-        optionC: "Gloves",
-        correctAnswer: "Masks",
+        question: "A triangle whose two sides are equal is called ______.",
+        optionA: "scalene triangle",
+        optionB: "isosceles triangle",
+        optionC: "equilateral triangle",
+        correctAnswer: "isosceles triangle",
       }),
       shuffleOptions({
-        question: "Burning __________ increases dust and smog.",
-        optionA: "Crop residue",
-        optionB: "Firewood",
-        optionC: "Garbage",
-        correctAnswer: "Crop residue",
+        question: "A straight angle looks like a ______ line.",
+        optionA: "bent",
+        optionB: "curved",
+        optionC: "straight",
+        correctAnswer: "straight",
       }),
       shuffleOptions({
-        question: "Industries should be shifted __________ cities.",
-        optionA: "Inside",
-        optionB: "Out of",
-        optionC: "Above",
-        correctAnswer: "Out of",
+        question: "The angles formed by two intersecting lines without a common arm are called ______ angles.",
+        optionA: "adjacent",
+        optionB: "complementary",
+        optionC: "vertically opposite",
+        correctAnswer: "vertically opposite",
       }),
       shuffleOptions({
-        question: "Cutting __________ leads to dust rising with the wind.",
-        optionA: "Trees",
-        optionB: "Crops",
-        optionC: "Roads",
-        correctAnswer: "Trees",
+        question: "The sum of all angles of a triangle is ______.",
+        optionA: "90°",
+        optionB: "180°",
+        optionC: "360°",
+        correctAnswer: "180°",
       }),
       shuffleOptions({
-        question: "Article 21 is a __________ right.",
-        optionA: "Fundamental",
-        optionB: "Social",
-        optionC: "Local",
-        correctAnswer: "Fundamental",
+        question: "A triangle whose all angles are less than 90° is called ______.",
+        optionA: "acute-angled triangle",
+        optionB: "obtuse-angled triangle",
+        optionC: "right-angled triangle",
+        correctAnswer: "acute-angled triangle",
       }),
     ]),
   };
@@ -192,61 +198,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Smog is formed by smoke + fog.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Delhi’s AQI has always remained below 100.",
+        question: "A line can be measured.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Schools are closed for children during heavy smog.",
+        question: "A ray extends endlessly in one direction.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Old vehicles should be encouraged to run more.",
+        question: "All equilateral triangles have angles of 60°.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Parallel lines intersect at one point.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Dust rises when construction material is kept on the road.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Global warming has no link with pollution.",
+        question: "A reflex angle is smaller than a right angle.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Masks help protect people during smog.",
+        question: "A line segment has a fixed length.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "WHO has declared a safe AQI level.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Smog improves human health.",
+        question: "Complementary angles add up to 180°.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Aloe Vera removes carcinogens from the air.",
+        question: "Perpendicular lines meet at 90°.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "A triangle cannot have more than one obtuse angle.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "The vertex is the point where the two arms of an angle meet.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -254,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

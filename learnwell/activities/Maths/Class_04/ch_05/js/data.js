@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 5: Friends are Forever";
+export const chapter = "Chapter - 5: Division";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who said “A friend in need is a friend indeed”?",
-        optionA: "Kalidas",
-        optionB: "Shakespeare",
-        optionC: "Tagore",
-        correctAnswer: "Shakespeare",
+        question: "When dividing by 10, the ones digit becomes the:",
+        optionA: "Quotient",
+        optionB: "Divisor",
+        optionC: "Remainder",
+        correctAnswer: "Remainder",
       }),
       shuffleOptions({
-        question: "Friends tell each other—",
-        optionA: "Stories and jokes",
-        optionB: "Homework answers",
-        optionC: "School rules",
-        correctAnswer: "Stories and jokes",
+        question: "Which of the following is always smaller than the divisor?",
+        optionA: "Quotient",
+        optionB: "Remainder",
+        optionC: "Dividend",
+        correctAnswer: "Remainder",
       }),
       shuffleOptions({
-        question: "Talking with friends helps to improve—",
-        optionA: "Singing",
-        optionB: "Language",
-        optionC: "Drawing",
-        correctAnswer: "Language",
+        question: "4,132 ÷ 100 gives which quotient?",
+        optionA: "41",
+        optionB: "413",
+        optionC: "41.32",
+        correctAnswer: "41",
       }),
       shuffleOptions({
-        question: "If you have a ball, you need—",
-        optionA: "Company of friends",
-        optionB: "Books",
-        optionC: "Money",
-        correctAnswer: "Company of friends",
+        question: "What do we call the number that is divided?",
+        optionA: "Remainder",
+        optionB: "Dividend",
+        optionC: "Quotient",
+        correctAnswer: "Dividend",
       }),
       shuffleOptions({
-        question: "Friendship is another name for—",
-        optionA: "Quarrels",
-        optionB: "Give-and-take",
-        optionC: "Fighting",
-        correctAnswer: "Give-and-take",
+        question: "What do we call the number that divides another number?",
+        optionA: "Divisor",
+        optionB: "Remainder",
+        optionC: "Dividend",
+        correctAnswer: "Divisor",
       }),
       shuffleOptions({
-        question: "John was—",
-        optionA: "Married with children",
-        optionB: "An orphan",
-        optionC: "A German officer",
-        correctAnswer: "Married with children",
+        question: "Division by 1 always gives:",
+        optionA: "0",
+        optionB: "The number itself",
+        optionC: "The divisor",
+        correctAnswer: "The number itself",
       }),
       shuffleOptions({
-        question: "Peter was—",
-        optionA: "Married",
-        optionB: "An orphan",
-        optionC: "A German",
-        correctAnswer: "An orphan",
+        question: "When dividing by 1000, which digits become the remainder?",
+        optionA: "Last 2 digits",
+        optionB: "Last 3 digits",
+        optionC: "Last 4 digits",
+        correctAnswer: "Last 3 digits",
       }),
       shuffleOptions({
-        question: "The German officer decided to shoot—",
-        optionA: "Ten British soldiers",
-        optionB: "Five German soldiers",
-        optionC: "Twenty Indian soldiers",
-        correctAnswer: "Ten British soldiers",
+        question: "In division, the number obtained after dividing is the:",
+        optionA: "Quotient",
+        optionB: "Divisor",
+        optionC: "Remainder",
+        correctAnswer: "Quotient",
       }),
       shuffleOptions({
-        question: "“Please leave John and shoot me instead.” Who said this?",
-        optionA: "John",
-        optionB: "Peter",
-        optionC: "Officer",
-        correctAnswer: "Peter",
+        question: "200 ÷ 100 =",
+        optionA: "20",
+        optionB: "2",
+        optionC: "200",
+        correctAnswer: "2",
       }),
       shuffleOptions({
-        question: "Peter made the—",
-        optionA: "Supreme sacrifice",
-        optionB: "Small sacrifice",
-        optionC: "No sacrifice",
-        correctAnswer: "Supreme sacrifice",
+        question: "If remainder = 0, the division is said to be:",
+        optionA: "Complete division",
+        optionB: "Long division",
+        optionC: "Impossible division",
+        correctAnswer: "Complete division",
       }),
     ]),
   };
@@ -113,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Friends enjoy together; they ______.",
-        optionA: "play",
-        optionB: "quarrel",
-        optionC: "fight",
-        correctAnswer: "play",
+        question: "6000 ÷ 1000 = ___",
+        optionA: "60",
+        optionB: "6",
+        optionC: "600",
+        correctAnswer: "6",
       }),
       shuffleOptions({
-        question: "Friends share their ______.",
-        optionA: "Toys and food",
-        optionB: "Exams",
-        optionC: "Homework",
-        correctAnswer: "Toys and food",
+        question: "The number left over after division is called the ____.",
+        optionA: "Dividend",
+        optionB: "Quotient",
+        optionC: "Remainder",
+        correctAnswer: "Remainder",
       }),
       shuffleOptions({
-        question: "True friends can ______ themselves for others.",
-        optionA: "Sacrifice",
-        optionB: "Hide",
-        optionC: "Quarrel",
-        correctAnswer: "Sacrifice",
+        question: "When dividing by 10, the digit in the ones place becomes the ____.",
+        optionA: "Quotient",
+        optionB: "Remainder",
+        optionC: "Divisor",
+        correctAnswer: "Remainder",
       }),
       shuffleOptions({
-        question: "John was worried about his wife and ______.",
-        optionA: "Children",
-        optionB: "Parents",
-        optionC: "Friends",
-        correctAnswer: "Children",
+        question: "18,325 ÷ 1000 has a remainder of ____.",
+        optionA: "325",
+        optionB: "18",
+        optionC: "32",
+        correctAnswer: "325",
       }),
       shuffleOptions({
-        question: "Peter had no ______.",
-        optionA: "Parents",
-        optionB: "Friends",
-        optionC: "Toys",
-        correctAnswer: "Parents",
+        question: "514 ÷ 100 = quotient ___ and remainder ___.",
+        optionA: "5 and 14",
+        optionB: "51 and 4",
+        optionC: "514 and 0",
+        correctAnswer: "5 and 14",
       }),
       shuffleOptions({
-        question: "The prisoners were captured in the ______ World War.",
-        optionA: "Second",
-        optionB: "First",
-        optionC: "Third",
-        correctAnswer: "Second",
+        question: "0 ÷ 67,450 = ___.",
+        optionA: "1",
+        optionB: "0",
+        optionC: "67,450",
+        correctAnswer: "0",
       }),
       shuffleOptions({
-        question: "Friends also study ______.",
-        optionA: "Together",
-        optionB: "Secretly",
-        optionC: "Alone",
-        correctAnswer: "Together",
+        question: "13,964 ÷ 100 gives a remainder of ___.",
+        optionA: "6",
+        optionB: "64",
+        optionC: "964",
+        correctAnswer: "64",
       }),
       shuffleOptions({
-        question: "Being ______ is a great virtue.",
-        optionA: "Friendly",
-        optionB: "Angry",
-        optionC: "Proud",
-        correctAnswer: "Friendly",
+        question: "When dividing by 1000, the quotient is obtained by removing the last ___ digits.",
+        optionA: "1",
+        optionB: "2",
+        optionC: "3",
+        correctAnswer: "3",
       }),
       shuffleOptions({
-        question: "The German officer was not ______.",
-        optionA: "Moved",
-        optionB: "Cruel",
-        optionC: "Strict",
-        correctAnswer: "Moved",
+        question: "A number divided by 1 gives ____.",
+        optionA: "0",
+        optionB: "The number itself",
+        optionC: "Half the number",
+        correctAnswer: "The number itself",
       }),
       shuffleOptions({
-        question: "Peter and John were ______ soldiers.",
-        optionA: "British",
-        optionB: "German",
-        optionC: "French",
-        correctAnswer: "British",
+        question: "The formula Dividend = Divisor × Quotient + ___ must always be true.",
+        optionA: "Remainder",
+        optionB: "Dividend",
+        optionC: "Divisor",
+        correctAnswer: "Remainder",
       }),
     ]),
   };
@@ -191,67 +198,65 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Friends speak their hearts out.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Friends cannot enjoy without quarrelling.",
+        question: "The remainder can be equal to the divisor.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Friends can understand things more quickly if they study together.",
+        question: "Division is repeated subtraction.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Peter had a wife and children.",
+        question: "The quotient is always larger than the dividend.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "John was unmarried.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The German soldiers were kind to prisoners.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Peter told the officer to shoot him instead of John.",
+        question: "In division, subtraction is done before bringing down the next digit.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "John was happy that Peter sacrificed for him.",
+        question: "When dividing by 10, the quotient is formed by removing the last digit.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Dividing any number by 0 is possible.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The German officer agreed to Peter’s request.",
+        question: "Dividend is the number that is divided.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The story shows the value of true friendship.",
+        question: "Remainder is always smaller than the divisor.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "When dividing by 100, the last two digits become the remainder.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "If remainder = 0, the divisor completely divides the dividend.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
       }),
     ]),
   };
 }
-
-export var activityData;

@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 14: The Fox and the Rabbit";
+export const chapter = "Chapter - 14: Speed, Distance and Time";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,74 +42,73 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "What was the weather like?",
-        optionA: "Cloudy",
-        optionB: "Bright and sunny",
-        optionC: "Rainy",
-        correctAnswer: "Bright and sunny",
+        question: "A car travels 132 km in 3 hours. What is its speed?",
+        optionA: "40 km/h",
+        optionB: "44 km/h",
+        optionC: "50 km/h",
+        correctAnswer: "44 km/h",
       }),
       shuffleOptions({
-        question: "Who wanted to take a nap in the well?",
-        optionA: "Fox",
-        optionB: "Rabbit",
-        optionC: "Farmer",
-        correctAnswer: "Rabbit",
+        question: "How many seconds are there in 2 hours?",
+        optionA: "3600 sec",
+        optionB: "7200 sec",
+        optionC: "1800 sec",
+        correctAnswer: "7200 sec",
       }),
       shuffleOptions({
-        question: "What struck the water with a splash?",
-        optionA: "Rabbit",
-        optionB: "Bucket",
-        optionC: "Fox",
-        correctAnswer: "Bucket",
+        question: "A runner covers 80 m in 10 seconds. What is his speed?",
+        optionA: "6 m/sec",
+        optionB: "12 m/sec",
+        optionC: "8 m/sec",
+        correctAnswer: "8 m/sec",
       }),
       shuffleOptions({
-        question: "Who ran to the well after seeing the rabbit?",
-        optionA: "Farmer",
-        optionB: "Fox",
-        optionC: "Hunter",
-        correctAnswer: "Fox",
+        question: "What is the speed of an object moving at 5 m/sec in km/h?",
+        optionA: "12 km/h",
+        optionB: "18 km/h",
+        optionC: "20 km/h",
+        correctAnswer: "18 km/h",
       }),
       shuffleOptions({
-        question: "Where were the farmers working?",
-        optionA: "Forest",
-        optionB: "Fields",
-        optionC: "Village",
-        correctAnswer: "Fields",
+        question: "A jeep covers 180 km in 4 hours. What is its speed?",
+        optionA: "40 km/h",
+        optionB: "45 km/h",
+        optionC: "50 km/h",
+        correctAnswer: "45 km/h",
       }),
       shuffleOptions({
-        question: "What did the fox hope to eat along with fish?",
-        optionA: "Rabbit",
-        optionB: "Deer",
-        optionC: "Squirrel",
-        correctAnswer: "Rabbit",
+        question: "What is obtained when total distance is divided by total time?",
+        optionA: "Highest speed",
+        optionB: "Average speed",
+        optionC: "Instant speed",
+        correctAnswer: "Average speed",
       }),
       shuffleOptions({
-        question: "Who dirtied the drinking water?",
-        optionA: "Rabbit",
-        optionB: "Fox",
-        optionC: "Farmer",
-        correctAnswer: "Fox",
+        question: "A bird runs at a speed of 20 m/sec. How far will it run in 5 seconds?",
+        optionA: "50 m",
+        optionB: "100 m",
+        correctAnswer: "100 m",
       }),
       shuffleOptions({
-        question: "Where did the rabbit laugh secretly?",
-        optionA: "Tree",
-        optionB: "Bush",
-        optionC: "Rock",
-        correctAnswer: "Bush",
+        question: "How many minutes are there in 72 seconds?",
+        optionA: "1.2 minutes",
+        optionB: "0.5 minutes",
+        optionC: "2.2 minutes",
+        correctAnswer: "1.2 minutes",
       }),
       shuffleOptions({
-        question: "What did the story show?",
-        optionA: "Cleverness saves",
-        optionB: "Cruelty is good",
-        optionC: "Silence is power",
-        correctAnswer: "Cleverness saves",
+        question: "What does speed depend on?",
+        optionA: "Only time",
+        optionB: "Both distance and time",
+        optionC: "Neither",
+        correctAnswer: "Both distance and time",
       }),
       shuffleOptions({
-        question: "What did the fox call the rabbit?",
-        optionA: "Clever",
-        optionB: "Not clever",
-        optionC: "Kind",
-        correctAnswer: "Not clever",
+        question: "A cyclist travels 24 km in 2 hours. What is his speed?",
+        optionA: "10 km/h",
+        optionB: "12 km/h",
+        optionC: "20 km/h",
+        correctAnswer: "12 km/h",
       }),
     ]),
   };
@@ -114,74 +119,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The rabbit went to the well because he was ______.",
-        optionA: "Hungry",
-        optionB: "Thirsty",
-        optionC: "Sleepy",
-        correctAnswer: "Thirsty",
+        question: "3000 m is equal to ______.",
+        optionA: "3 km",
+        optionB: "30 km",
+        optionC: "0.3 km",
+        correctAnswer: "3 km",
       }),
       shuffleOptions({
-        question: "The buckets in the well must be quite ______.",
-        optionA: "Cold",
-        optionB: "Cool",
-        optionC: "Hot",
-        correctAnswer: "Cool",
+        question: "Speed × Time = ______.",
+        optionA: "Distance",
+        optionB: "Minutes",
+        optionC: "Seconds",
+        correctAnswer: "Distance",
       }),
       shuffleOptions({
-        question: "The fox almost ______ when he saw the rabbit in the well.",
-        optionA: "Ran",
-        optionB: "Walked",
-        optionC: "Slept",
-        correctAnswer: "Ran",
+        question: "If speed is 20 km/h, in 3 hours the object travels ______ km.",
+        optionA: "40",
+        optionB: "60",
+        optionC: "100",
+        correctAnswer: "60",
       }),
       shuffleOptions({
-        question: "The rabbit told the fox to come ______.",
-        optionA: "Immediately",
-        optionB: "Tomorrow",
-        optionC: "Never",
-        correctAnswer: "Immediately",
+        question: "1 minute is equal to ______ seconds.",
+        optionA: "30",
+        optionB: "60",
+        optionC: "90",
+        correctAnswer: "60",
       }),
       shuffleOptions({
-        question: "The fox believed he would have a nice ______.",
-        optionA: "Nap",
-        optionB: "Meal",
-        optionC: "Bath",
-        correctAnswer: "Meal",
+        question: "14 m/sec is equal to ______ km/h.",
+        optionA: "30",
+        optionB: "50.4",
+        optionC: "70",
+        correctAnswer: "50.4",
       }),
       shuffleOptions({
-        question: "The fox was ______ than the rabbit.",
-        optionA: "Lighter",
-        optionB: "Heavier",
-        optionC: "Smaller",
-        correctAnswer: "Heavier",
+        question: "Speed tells us how ______ something moves.",
+        optionA: "fast",
+        optionB: "heavy",
+        optionC: "long",
+        correctAnswer: "fast",
       }),
       shuffleOptions({
-        question: "The buckets met ______.",
-        optionA: "At the top",
-        optionB: "Halfway",
-        optionC: "At the bottom",
-        correctAnswer: "Halfway",
+        question: "Time can be found using the formula: time = distance ÷ ______.",
+        optionA: "speed",
+        optionB: "hours",
+        optionC: "length",
+        correctAnswer: "speed",
       }),
       shuffleOptions({
-        question: "The rabbit laughed while standing behind a thick ______.",
-        optionA: "Bush",
-        optionB: "Rock",
-        optionC: "Wall",
-        correctAnswer: "Bush",
+        question: "A person cycles 24 km in 2 hours. His speed is ______ km/h.",
+        optionA: "10",
+        optionB: "12",
+        optionC: "20",
+        correctAnswer: "12",
       }),
       shuffleOptions({
-        question: "The rabbit told farmers the fox was ______ their drinking water.",
-        optionA: "Dirtying",
-        optionB: "Cleaning",
-        optionC: "Guarding",
-        correctAnswer: "Dirtying",
+        question: "If time decreases for the same distance, speed ______.",
+        optionA: "increases",
+        optionB: "decreases",
+        optionC: "remains zero",
+        correctAnswer: "increases",
       }),
       shuffleOptions({
-        question: "The farmers pulled the fox out of the ______.",
-        optionA: "Bucket",
-        optionB: "House",
-        optionC: "Field",
-        correctAnswer: "Bucket",
+        question: "Half an hour is equal to ______ minutes.",
+        optionA: "10",
+        optionB: "20",
+        optionC: "30",
+        correctAnswer: "30",
       }),
     ]),
   };
@@ -192,61 +197,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The rabbit saw a pond at the edge of the forest.",
+        question: "A higher speed means more distance covered in the same time.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "2 m/sec is equal to 7.2 km/h.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "If distance is zero, speed must also be zero.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Time = Distance × Speed.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The rabbit jumped into one of the buckets.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The rabbit felt happy at the bottom of the well.",
+        question: "Average speed is always greater than the highest speed.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The fox wanted both fishes and the rabbit.",
+        question: "m/sec is a smaller unit of speed compared to km/h.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The fox sat in the bucket to go up.",
+        question: "50 km/h equals 5000 m/min.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The rabbit jumped out as soon as he reached the top.",
+        question: "Faster objects take less time to cover the same distance.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The fox remained in the well until farmers came.",
+        question: "Speed can be zero even when time is not zero.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The rabbit told the truth about fishes in the well.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The farmers beat the fox before letting him go.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The rabbit’s cleverness saved him.",
+        question: "The chapter explains how to convert km/h into m/sec and m/sec into km/h.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -254,5 +259,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

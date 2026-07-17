@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 18: Beauty Lies Within";
+export const chapter = "Chapter - 18: Data Handling";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who was Neela’s teacher?",
-        optionA: "Naina",
-        optionB: "Smriti",
-        optionC: "Mohan",
-        correctAnswer: "Smriti",
+        question: "Which graph is used to compare two groups of data?",
+        optionA: "Pie chart",
+        optionB: "Double bar graph",
+        optionC: "Line graph",
+        correctAnswer: "Double bar graph",
       }),
       shuffleOptions({
-        question: "What accident scarred Neela’s face?",
-        optionA: "Car accident",
-        optionB: "Fire accident",
-        optionC: "Sports accident",
-        correctAnswer: "Fire accident",
+        question: "What does a larger sector in a pie chart represent?",
+        optionA: "Smaller value",
+        optionB: "Equal value",
+        optionC: "Larger value",
+        correctAnswer: "Larger value",
       }),
       shuffleOptions({
-        question: "How many races did Neela win?",
-        optionA: "Two",
-        optionB: "Three",
-        optionC: "Four",
-        correctAnswer: "Three",
+        question: "How many degrees are there in a complete pie chart?",
+        optionA: "360°",
+        optionB: "180°",
+        optionC: "90°",
+        correctAnswer: "360°",
       }),
       shuffleOptions({
-        question: "Who said Neela was an angel?",
-        optionA: "Teacher",
-        optionB: "Mother",
-        optionC: "Friend",
-        correctAnswer: "Mother",
+        question: "What does the scale in a bar graph help us understand?",
+        optionA: "Colour of bars",
+        optionB: "Value represented by bar height",
+        optionC: "Number of categories",
+        correctAnswer: "Value represented by bar height",
       }),
       shuffleOptions({
-        question: "What did Neela’s classmates borrow from her?",
-        optionA: "Toys",
-        optionB: "Notebooks",
-        optionC: "Money",
-        correctAnswer: "Notebooks",
+        question: "A double bar graph always shows how many bars for each category?",
+        optionA: "One",
+        optionB: "Two",
+        optionC: "Three",
+        correctAnswer: "Two",
       }),
       shuffleOptions({
-        question: "Who saved Neela from a crocodile in her dream?",
-        optionA: "Swan",
-        optionB: "Dove",
-        optionC: "Eagle",
-        correctAnswer: "Swan",
+        question: "Which chart shows data as parts of a whole?",
+        optionA: "Pie chart",
+        optionB: "Bar graph",
+        optionC: "Line graph",
+        correctAnswer: "Pie chart",
       }),
       shuffleOptions({
-        question: "Where did Neela feel like an outcaste?",
-        optionA: "Only at home",
-        optionB: "Only in school",
-        optionC: "Everywhere",
-        correctAnswer: "Everywhere",
+        question: "What do we call a part of a pie chart?",
+        optionA: "Bar",
+        optionB: "Sector",
+        optionC: "Column",
+        correctAnswer: "Sector",
       }),
       shuffleOptions({
-        question: "What did Neela see in the dream mirror?",
-        optionA: "Herself as ugly",
-        optionB: "Herself as beautiful",
-        optionC: "Herself as a child",
-        correctAnswer: "Herself as beautiful",
+        question: "When two bars in a bar graph are equal in height, what does it mean?",
+        optionA: "Values are same",
+        optionB: "Values are different",
+        optionC: "Values are unknown",
+        correctAnswer: "Values are same",
       }),
       shuffleOptions({
-        question: "How did people usually react to Neela?",
-        optionA: "With pity, horror, revulsion",
-        optionB: "With happiness",
-        optionC: "With friendliness",
-        correctAnswer: "With pity, horror, revulsion",
+        question: "Which graph uses rectangles of equal width to show data?",
+        optionA: "Bar graph",
+        optionB: "Pie chart",
+        optionC: "Map",
+        correctAnswer: "Bar graph",
       }),
       shuffleOptions({
-        question: "What did Neela cry out after seeing the dream mirror?",
-        optionA: "“I am ugly.”",
-        optionB: "“I look like a goddess.”",
-        optionC: "“I am an angel.”",
-        correctAnswer: "“I look like a goddess.”",
+        question: "If a bar is taller than another bar, what does it show?",
+        optionA: "Smaller value",
+        optionB: "Greater value",
+        optionC: "Zero value",
+        correctAnswer: "Greater value",
       }),
     ]),
   };
@@ -114,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Neela always stood ______ in her class.",
-        optionA: "second",
-        optionB: "first",
-        optionC: "last",
-        correctAnswer: "first",
+        question: "A pie chart is drawn inside a ______.",
+        optionA: "circle",
+        optionB: "square",
+        optionC: "triangle",
+        correctAnswer: "circle",
       }),
       shuffleOptions({
-        question: "Neela hid her face in her ______.",
-        optionA: "scarf",
-        optionB: "palms",
-        optionC: "notebook",
-        correctAnswer: "palms",
+        question: "A double bar graph compares ______ groups of data.",
+        optionA: "one",
+        optionB: "two",
+        optionC: "three",
+        correctAnswer: "two",
       }),
       shuffleOptions({
-        question: "She had only a ______ where her left eye should have been.",
-        optionA: "mark",
-        optionB: "slit",
-        optionC: "scar",
-        correctAnswer: "slit",
+        question: "A sector represents a ______ of the total data.",
+        optionA: "line",
+        optionB: "bar",
+        optionC: "fraction",
+        correctAnswer: "fraction",
       }),
       shuffleOptions({
-        question: "People showed pity, horror and ______ in their eyes.",
-        optionA: "joy",
-        optionB: "revulsion",
-        optionC: "surprise",
-        correctAnswer: "revulsion",
+        question: "A bar graph displays data using ______ bars.",
+        optionA: "equal-width",
+        optionB: "circular",
+        optionC: "dotted",
+        correctAnswer: "equal-width",
       }),
       shuffleOptions({
-        question: "Neela longed for a real ______.",
-        optionA: "friend",
-        optionB: "book",
-        optionC: "teacher",
-        correctAnswer: "friend",
+        question: "A full pie chart measures ______ degrees.",
+        optionA: "180",
+        optionB: "90",
+        optionC: "360",
+        correctAnswer: "360",
       }),
       shuffleOptions({
-        question: "The swan told Neela she was ______ inside.",
-        optionA: "ugly",
-        optionB: "beautiful",
-        optionC: "ordinary",
-        correctAnswer: "beautiful",
+        question: "Bars in a bar graph must have equal ______.",
+        optionA: "width",
+        optionB: "height",
+        optionC: "colour",
+        correctAnswer: "width",
       }),
       shuffleOptions({
-        question: "The swan showed Neela a ______ mirror.",
-        optionA: "round",
-        optionB: "broken",
-        optionC: "magic",
-        correctAnswer: "magic",
+        question: "A scale tells us how much each unit on the graph ______.",
+        optionA: "tastes",
+        optionB: "represents",
+        optionC: "sounds",
+        correctAnswer: "represents",
       }),
       shuffleOptions({
-        question: "Neela’s scar was still there, but her face was ______.",
-        optionA: "glowing",
-        optionB: "dull",
-        optionC: "pale",
-        correctAnswer: "glowing",
+        question: "A pie chart is useful for comparing parts of a ______.",
+        optionA: "whole",
+        optionB: "triangle",
+        optionC: "graph",
+        correctAnswer: "whole",
       }),
       shuffleOptions({
-        question: "Neela’s good qualities made her look like a ______.",
-        optionA: "goddess",
-        optionB: "queen",
-        optionC: "fairy",
-        correctAnswer: "goddess",
+        question: "A taller bar shows a ______ value.",
+        optionA: "smaller",
+        optionB: "greater",
+        optionC: "equal",
+        correctAnswer: "greater",
       }),
       shuffleOptions({
-        question: "The children ______ when Neela’s name was taken in comparison.",
-        optionA: "cried",
-        optionB: "giggled",
-        optionC: "clapped",
-        correctAnswer: "giggled",
+        question: "To draw a pie chart, data must be converted into ______.",
+        optionA: "pictures",
+        optionB: "fractions or angles",
+        optionC: "stories",
+        correctAnswer: "fractions or angles",
       }),
     ]),
   };
@@ -192,61 +198,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Neela was a lazy student.",
+        question: "A pie chart shows data using bars.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Neela’s classmates always supported her.",
+        question: "A double bar graph can compare boys’ and girls’ choices.",
         optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
+        optionB: "False 1",
+        correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Neela was a good runner.",
+        question: "A 90° sector in a pie chart represents 4 of the whole.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "People accepted Neela happily.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Neela felt like an outcaste.",
+        question: "All bars in a bar graph must be of equal width.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "A swan appeared in her dream.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The swan told Neela she was beautiful inside.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Neela saw herself ugly in the magic mirror.",
+        question: "A larger sector in a pie chart means a smaller value.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "When Neela woke up, her scar disappeared.",
+        question: "A full circle in a pie chart is 360 degrees.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Double bar graphs show only one bar per category.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The story teaches us that beauty lies within.",
+        question: "A scale is not needed in drawing bar graphs.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "A sector is a part of a pie chart.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Bar graphs help us compare data easily.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -254,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

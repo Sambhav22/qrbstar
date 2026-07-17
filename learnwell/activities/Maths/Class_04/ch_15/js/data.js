@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 15: I Wish I was";
+export const chapter = "Chapter - 15: Patterns";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,72 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who wrote the poem I Wish I Was?",
-        optionA: "William Blake",
-        optionB: "William Wilson",
-        optionC: "William Wordsworth",
-        correctAnswer: "William Wilson",
+        question: "What comes next in the pattern: 4, 14, 24, 34, …?",
+        optionA: "38",
+        optionB: "44",
+        optionC: "54",
+        correctAnswer: "44",
       }),
       shuffleOptions({
-        question: "Which animal is called the king of the water?",
-        optionA: "Eagle",
-        optionB: "Whale",
-        optionC: "Tiger",
-        correctAnswer: "Whale",
+        question: "Which number represents the code for the letter H?",
+        optionA: "7",
+        optionB: "8",
+        optionC: "9",
+        correctAnswer: "8",
       }),
       shuffleOptions({
-        question: "Which animal is described as stealthy?",
-        optionA: "Tiger",
-        optionB: "Puppy",
-        optionC: "Eagle",
-        correctAnswer: "Tiger",
+        question: "In a halving sequence, what comes after 32?",
+        optionA: "12",
+        optionB: "16",
+        correctAnswer: "16",
       }),
       shuffleOptions({
-        question: "Which animal is described as majestic?",
-        optionA: "Puppy",
-        optionB: "Whale",
-        optionC: "Eagle",
-        correctAnswer: "Eagle",
+        question: "What is the result of 35 × 35, using the multiplication pattern?",
+        optionA: "1025",
+        optionB: "1225",
+        optionC: "3525",
+        correctAnswer: "1225",
       }),
       shuffleOptions({
-        question: "Which animal is described as inquisitive?",
-        optionA: "Tiger",
-        optionB: "Puppy",
-        optionC: "Whale",
-        correctAnswer: "Puppy",
+        question: "What letter corresponds to the number 20 in the number code?",
+        optionA: "R",
+        optionB: "S",
+        optionC: "T",
+        correctAnswer: "T",
       }),
       shuffleOptions({
-        question: "The eagle swoops down to catch its –",
-        optionA: "Toy",
-        optionB: "Prey",
-        optionC: "Friend",
-        correctAnswer: "Prey",
+        question: "What comes next: 64, 54, 44, 34, …?",
+        optionA: "24",
+        optionB: "14",
+        optionC: "30",
+        correctAnswer: "24",
       }),
       shuffleOptions({
-        question: "The tiger’s thoughts are full of –",
-        optionA: "Blood and slaughter",
-        optionB: "Joy",
-        optionC: "Water",
-        correctAnswer: "Blood and slaughter",
+        question: "If a figure is rotated 90° clockwise, which direction does it face?",
+        optionA: "Left",
+        optionB: "Right",
+        optionC: "Up",
+        correctAnswer: "Right",
       }),
       shuffleOptions({
-        question: "The puppy shows a curious –",
-        optionA: "Frown",
-        optionB: "Smile",
-        optionC: "Laugh",
-        correctAnswer: "Frown",
+        question: "What comes next: 2, 6, 10, 14, …?",
+        optionA: "18",
+        optionB: "20",
+        correctAnswer: "18",
       }),
       shuffleOptions({
-        question: "The enormous animal the poet wishes to be is –",
-        optionA: "Whale",
-        optionB: "Tiger",
-        optionC: "Eagle",
-        correctAnswer: "Whale",
+        question: "What is the code for the word MEET?",
+        optionA: "13 5 5 20",
+        optionB: "14 5 5 21",
+        optionC: "13 6 6 20",
+        correctAnswer: "13 5 5 20",
       }),
       shuffleOptions({
-        question: "Who is imagining to be all these creatures?",
-        optionA: "The Poet",
-        optionB: "The Eagle",
-        optionC: "The Tiger",
-        correctAnswer: "The Poet",
+        question: "What is the product of 1111 × 1111 in the pattern?",
+        optionA: "12321",
+        optionB: "1234321",
+        optionC: "1234331",
+        correctAnswer: "1234321",
       }),
     ]),
   };
@@ -113,74 +118,73 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The whale is described as ___",
-        optionA: "Enormous",
-        optionB: "Small",
-        optionC: "Weak",
-        correctAnswer: "Enormous",
+        question: "The number after 320 in the halving pattern is ______.",
+        optionA: "180",
+        optionB: "160",
+        optionC: "80",
+        correctAnswer: "160",
       }),
       shuffleOptions({
-        question: "The tiger prowls over the ___",
-        optionA: "Plain",
-        optionB: "Forest",
-        optionC: "River",
-        correctAnswer: "Plain",
+        question: "The code for the letter O is ______.",
+        optionA: "14",
+        optionB: "15",
+        optionC: "16",
+        correctAnswer: "15",
       }),
       shuffleOptions({
-        question: "The eagle is scanning a ___",
-        optionA: "Desert",
-        optionB: "Canopy",
-        optionC: "Ocean",
-        correctAnswer: "Canopy",
+        question: "In a number tower, 9 + 6 = ______.",
+        optionA: "14",
+        optionB: "15",
+        correctAnswer: "15",
       }),
       shuffleOptions({
-        question: "The puppy is chasing its ___",
-        optionA: "Tail",
-        optionB: "Shadow",
-        optionC: "Friend",
-        correctAnswer: "Tail",
+        question: "The next number in the pattern 10, 20, 30, 40 is ______.",
+        optionA: "60",
+        optionB: "70",
+        optionC: "50",
+        correctAnswer: "50",
       }),
       shuffleOptions({
-        question: "The puppy looked round a lamp ___",
-        optionA: "Post",
-        optionB: "Pole",
-        optionC: "Tree",
-        correctAnswer: "Post",
+        question: "The product 15 × 15 ends with ______.",
+        optionA: "35",
+        optionB: "15",
+        optionC: "25",
+        correctAnswer: "25",
       }),
       shuffleOptions({
-        question: "The eagle swooped ___",
-        optionA: "Down",
-        optionB: "Up",
-        optionC: "Round",
-        correctAnswer: "Down",
+        question: "The reverse alphabet code of A is ______.",
+        optionA: "Z",
+        optionB: "Y",
+        optionC: "X",
+        correctAnswer: "Z",
       }),
       shuffleOptions({
-        question: "The tiger’s thoughts are full of ___",
-        optionA: "Slaughter",
-        optionB: "Milk",
-        optionC: "Fear",
-        correctAnswer: "Slaughter",
+        question: "In the sequence 111 × 111 = ______, the middle digit is the sum of digits.",
+        optionA: "13231",
+        optionB: "12321",
+        optionC: "11231",
+        correctAnswer: "12321",
       }),
       shuffleOptions({
-        question: "The poet describes the whale as ___",
-        optionA: "Plunging through the blue",
-        optionB: "Jumping on land",
-        optionC: "Flying in the sky",
-        correctAnswer: "Plunging through the blue",
+        question: "When a shape is rotated 180°, it appears ______.",
+        optionA: "Upside down",
+        optionB: "Same",
+        optionC: "Tilted",
+        correctAnswer: "Upside down",
       }),
       shuffleOptions({
-        question: "The puppy showed a curious ___",
-        optionA: "Frown",
-        optionB: "Smile",
-        optionC: "Bark",
-        correctAnswer: "Frown",
+        question: "The next term in the pattern 160, 80, 40, ______ is:",
+        optionA: "20",
+        optionB: "10",
+        optionC: "30",
+        correctAnswer: "20",
       }),
       shuffleOptions({
-        question: "The eagle spotted its ___",
-        optionA: "Prey",
-        optionB: "Nest",
-        optionC: "Toy",
-        correctAnswer: "Prey",
+        question: "The code for G is ______.",
+        optionA: "5",
+        optionB: "6",
+        optionC: "7",
+        correctAnswer: "7",
       }),
     ]),
   };
@@ -191,61 +195,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The poet wishes to be a blue whale.",
+        question: "The series 512 → 256 → 128 → 64 follows a halving pattern.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The poet wishes to be a lion.",
+        question: "In an addition tower, the top number is obtained by multiplying the two numbers below.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The eagle scans a sun-dappled canopy.",
+        question: "25 × 25 = 625 according to the multiplication pattern.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The tiger’s thoughts are full of joy.",
+        question: "A 90° anticlockwise rotation moves the figure to the left.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "The code for Z is 1.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The puppy is inquisitive.",
+        question: "The series 96, 86, 76, 66 decreases by 10 each step.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The whale is described as small.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The eagle swoops to catch its prey.",
+        question: "The product 111 × 111 is 12321.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The puppy is lazy in the poem.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The poet’s name is William Wilson.",
+        question: "The reverse alphabet code turns B → Y.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The tiger prowls over the plain.",
+        question: "The pattern 1, 11, 111 uses repeated digits.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "A full 360° rotation brings a shape back to its original position.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -253,5 +257,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

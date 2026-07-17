@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 4: Borrowing can Ruin";
+export const chapter = "Chapter - 4: Multiplication";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who gave the ring and chain to Varun?",
-        optionA: "Gopesh",
-        optionB: "Rahul",
-        optionC: "Varun’s father",
-        correctAnswer: "Rahul",
+        question: "What is the product of 13 × 4?",
+        optionA: "42",
+        optionB: "62",
+        optionC: "52",
+        correctAnswer: "52",
       }),
       shuffleOptions({
-        question: "Why did Varun want to borrow things?",
-        optionA: "He was poor",
-        optionB: "He wanted to show off",
-        optionC: "He was getting married",
-        correctAnswer: "He wanted to show off",
+        question: "Which number should be multiplied by 8 to get 64?",
+        optionA: "6",
+        optionB: "8",
+        optionC: "9",
+        correctAnswer: "8",
       }),
       shuffleOptions({
-        question: "What was the cost of the diamond ring?",
-        optionA: "5000",
-        optionB: "50000",
-        optionC: "10000",
-        correctAnswer: "50000",
+        question: "What is 17 × 3 equal to?",
+        optionA: "50",
+        optionB: "51",
+        optionC: "54",
+        correctAnswer: "51",
       }),
       shuffleOptions({
-        question: "Where did Varun go after losing the ring?",
-        optionA: "To Rahul",
-        optionB: "To jeweller",
-        optionC: "To police",
-        correctAnswer: "To jeweller",
+        question: "Which property states that 12 × 5 = 5 × 12?",
+        optionA: "Distributive",
+        optionB: "Commutative",
+        optionC: "Associative",
+        correctAnswer: "Commutative",
       }),
       shuffleOptions({
-        question: "Who was getting married?",
-        optionA: "Varun",
-        optionB: "Gopesh",
-        optionC: "Rahul",
-        correctAnswer: "Gopesh",
+        question: "What is 4 × 200 equal to?",
+        optionA: "400",
+        optionB: "600",
+        optionC: "800",
+        correctAnswer: "800",
       }),
       shuffleOptions({
-        question: "What kind of friend was Rahul?",
-        optionA: "Selfish",
-        optionB: "Helpful",
-        optionC: "Angry",
-        correctAnswer: "Helpful",
+        question: "Which number is the multiplicand in 432 × 3?",
+        optionA: "3",
+        optionB: "432",
+        optionC: "435",
+        correctAnswer: "432",
       }),
       shuffleOptions({
-        question: "What did Varun lose?",
-        optionA: "Golden chain",
-        optionB: "Diamond ring",
-        optionC: "Watch",
-        correctAnswer: "Diamond ring",
+        question: "What is 14 × 8?",
+        optionA: "112",
+        optionB: "108",
+        optionC: "120",
+        correctAnswer: "112",
       }),
       shuffleOptions({
-        question: "How was Varun in the beginning?",
-        optionA: "Joyless",
-        optionB: "Sad",
-        optionC: "Happy",
-        correctAnswer: "Happy",
+        question: "How many zeros will the product of 125 × 100 have?",
+        optionA: "2",
+        optionB: "3",
+        optionC: "4",
+        correctAnswer: "2",
       }),
       shuffleOptions({
-        question: "Why was the ring loose?",
-        optionA: "It was small",
-        optionB: "It didn’t fit Varun",
-        optionC: "It was not his",
-        correctAnswer: "It didn’t fit Varun",
+        question: "What is 19 × 4?",
+        optionA: "64",
+        optionB: "72",
+        optionC: "76",
+        correctAnswer: "76",
       }),
       shuffleOptions({
-        question: "Where did Varun dance?",
-        optionA: "On stage",
-        optionB: "At home",
-        optionC: "On road",
-        correctAnswer: "On stage",
+        question: "Multiplying any number by 1 gives—",
+        optionA: "0",
+        optionB: "the same number",
+        optionC: "double the number",
+        correctAnswer: "the same number",
       }),
     ]),
   };
@@ -113,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Varun took ______ of salary.",
-        optionA: "salary",
-        optionB: "advance",
-        optionC: "cheque",
-        correctAnswer: "advance",
+        question: "12 × 6 = ______",
+        optionA: "60",
+        optionB: "72",
+        optionC: "90",
+        correctAnswer: "72",
       }),
       shuffleOptions({
-        question: "Varun wanted to wear ______ clothes.",
-        optionA: "simple",
-        optionB: "branded",
-        optionC: "torn",
-        correctAnswer: "branded",
+        question: "4 × 30 = ______",
+        optionA: "120",
+        optionB: "140",
+        optionC: "160",
+        correctAnswer: "120",
       }),
       shuffleOptions({
-        question: "Varun wanted to look ______ at the marriage.",
-        optionA: "inferior",
-        optionB: "rich",
-        optionC: "sad",
-        correctAnswer: "rich",
+        question: "7 × 100 = ______",
+        optionA: "700",
+        optionB: "7000",
+        optionC: "70",
+        correctAnswer: "700",
       }),
       shuffleOptions({
-        question: "The ring had a ______ on it.",
-        optionA: "ruby",
-        optionB: "stone",
-        optionC: "diamond",
-        correctAnswer: "diamond",
+        question: "(6 × 2) × 5 = 6 × (2 × ______)",
+        optionA: "3",
+        optionB: "5",
+        optionC: "2",
+        correctAnswer: "5",
       }),
       shuffleOptions({
-        question: "Varun returned to the ______ to search for the ring.",
-        optionA: "stage",
-        optionB: "hall",
-        optionC: "room",
-        correctAnswer: "hall",
+        question: "18 × ______ = 54",
+        optionA: "2",
+        optionB: "3",
+        optionC: "4",
+        correctAnswer: "3",
       }),
       shuffleOptions({
-        question: "He searched ______ the carpet for the ring.",
-        optionA: "above",
-        optionB: "behind",
-        optionC: "under",
-        correctAnswer: "under",
+        question: "8 × ______ = 8000",
+        optionA: "1000",
+        optionB: "100",
+        optionC: "10",
+        correctAnswer: "1000",
       }),
       shuffleOptions({
-        question: "Varun had to repay a heavy loan with high ______.",
-        optionA: "bonus",
-        optionB: "interest",
-        optionC: "price",
-        correctAnswer: "interest",
+        question: "The result of a multiplication is called the ______",
+        optionA: "product",
+        optionB: "multiplier",
+        optionC: "multiplicand",
+        correctAnswer: "product",
       }),
       shuffleOptions({
-        question: "Varun was unable to find a ______ to marry.",
-        optionA: "house",
-        optionB: "girl",
-        optionC: "ring",
-        correctAnswer: "girl",
+        question: "5 × 11 = ______",
+        optionA: "45",
+        optionB: "55",
+        optionC: "65",
+        correctAnswer: "55",
       }),
       shuffleOptions({
-        question: "Now Varun leads a very ______ life.",
-        optionA: "ordinary",
-        optionB: "rich",
-        optionC: "colourful",
-        correctAnswer: "ordinary",
+        question: "A number multiplied by 0 is always ______",
+        optionA: "the number",
+        optionB: "1",
+        optionC: "0",
+        correctAnswer: "0",
       }),
       shuffleOptions({
-        question: "The ring was very ______.",
-        optionA: "cheap",
-        optionB: "costly",
-        optionC: "plastic",
-        correctAnswer: "costly",
+        question: "20 × ______ = 200",
+        optionA: "2",
+        optionB: "5",
+        optionC: "10",
+        correctAnswer: "10",
       }),
     ]),
   };
@@ -191,61 +198,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Varun was a businessman.",
+        question: "Multiplying any number by 0 always gives 0.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "The product of 18 × 4 is 92.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Varun wanted to be rich.",
+        question: "14 × 3 is equal to 42.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Varun borrowed a golden chain from Gopesh.",
+        question: "12 × 1 gives a new number.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Rahul warned Varun to be careful.",
+        question: "The distributive property is used in 5 × (10 + 2).",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Varun lost the ring during the dance.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Varun got another ring from the market.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Varun paid the loan easily in one year.",
+        question: "17 × 5 equals 95.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Varun still hopes something good will happen.",
+        question: "If we multiply numbers in any order, product remains same.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Gopesh was poor.",
+        question: "3 × 100 = 30.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Borrowing made Varun’s life worse.",
+        question: "The multiplier is the number to be multiplied.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "9 × 9 is 81.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -253,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 11: The Twin Trouble";
+export const chapter = "Chapter - 11: Symmetry";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,225 +42,221 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who stood first in his class?",
-        optionA: "Nikhil",
-        optionB: "Nitin",
-        optionC: "Both",
-        correctAnswer: "Nitin",
+        question: "Which shape has only one line of symmetry?",
+        optionA: "Kite",
+        optionB: "Rectangle",
+        optionC: "Circle",
+        correctAnswer: "Kite",
       }),
       shuffleOptions({
-        question: "What remark did Nikhil’s report card have?",
-        optionA: "Excellent",
-        optionB: "Little possibility of passing",
-        optionC: "Good",
-        correctAnswer: "Little possibility of passing",
+        question: "Which figure has infinite lines of symmetry?",
+        optionA: "Triangle",
+        optionB: "Circle",
+        optionC: "Square",
+        correctAnswer: "Circle",
       }),
       shuffleOptions({
-        question: "Which food was cooked on the day of result?",
-        optionA: "Paneer and dal",
-        optionB: "Eggs and lady’s finger",
-        optionC: "Rice and curry",
-        correctAnswer: "Eggs and lady’s finger",
+        question: "In reflection, which part of the object gets reversed?",
+        optionA: "Front",
+        optionB: "Back",
+        optionC: "Left–right orientation",
+        correctAnswer: "Left–right orientation",
       }),
       shuffleOptions({
-        question: "Who emptied the casserole of lady’s finger?",
-        optionA: "Father",
-        optionB: "Nitin",
-        optionC: "Nikhil",
-        correctAnswer: "Nitin",
+        question: "Which shape has its diagonals as lines of symmetry?",
+        optionA: "Rhombus",
+        optionB: "Rectangle",
+        optionC: "Trapezium",
+        correctAnswer: "Rhombus",
       }),
       shuffleOptions({
-        question: "What did Nitin think would make parents love him?",
-        optionA: "Failing in tests",
-        optionB: "Scoring full marks",
-        optionC: "Running away",
-        correctAnswer: "Failing in tests",
+        question: "Which polygon has as many lines of symmetry as its number of sides?",
+        optionA: "Any regular polygon",
+        optionB: "Any quadrilateral",
+        optionC: "Any triangle",
+        correctAnswer: "Any regular polygon",
       }),
       shuffleOptions({
-        question: "Who cried during the mathematics test?",
-        optionA: "Nikhil",
-        optionB: "Nitin",
-        optionC: "Father",
-        correctAnswer: "Nitin",
+        question: "Which shape has exactly two lines of symmetry?",
+        optionA: "Square",
+        optionB: "Rectangle",
+        optionC: "Scalene triangle",
+        correctAnswer: "Rectangle",
       }),
       shuffleOptions({
-        question: "Who took Nitin to the principal?",
-        optionA: "Mother",
-        optionB: "Teacher",
-        optionC: "Father",
-        correctAnswer: "Teacher",
+        question: "The line dividing a figure into two identical parts is called:",
+        optionA: "Midpoint",
+        optionB: "Line of symmetry",
+        optionC: "Diameter",
+        correctAnswer: "Line of symmetry",
       }),
       shuffleOptions({
-        question: "Who did the father thrash?",
-        optionA: "Nitin",
-        optionB: "Nikhil",
-        optionC: "Both",
-        correctAnswer: "Nikhil",
+        question: "Which of these is related to mirror reflection?",
+        optionA: "Rotation",
+        optionB: "Symmetry about a line",
+        optionC: "Enlargement",
+        correctAnswer: "Symmetry about a line",
       }),
       shuffleOptions({
-        question: "Who promised to treat both sons equally?",
-        optionA: "Mother",
-        optionB: "Father",
-        optionC: "Principal",
-        correctAnswer: "Father",
+        question: "A semi-circle is symmetric about which line?",
+        optionA: "Its curved boundary",
+        optionB: "Perpendicular bisector of its diameter",
+        optionC: "A diagonal",
+        correctAnswer: "Perpendicular bisector of its diameter",
       }),
       shuffleOptions({
-        question: "Who said “You are the star of my eyes”?",
-        optionA: "Principal",
-        optionB: "Father",
-        optionC: "Mother",
-        correctAnswer: "Father",
+        question: "Which triangle has no line of symmetry?",
+        optionA: "Isosceles",
+        optionB: "Equilateral",
+        optionC: "Scalene",
+        correctAnswer: "Scalene",
       }),
     ]),
   };
 }
-
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Nikhil had failed in ______ subjects.",
-        optionA: "two",
-        optionB: "three",
-        optionC: "four",
-        correctAnswer: "three",
+        question: "A circle has _______ lines of symmetry.",
+        optionA: "0",
+        optionB: "2",
+        optionC: "infinite",
+        correctAnswer: "infinite",
       }),
       shuffleOptions({
-        question: "Nitin’s father looked at his report card ______.",
-        optionA: "happily",
-        optionB: "cursorily",
-        optionC: "angrily",
-        correctAnswer: "cursorily",
+        question: "A square has _______ diagonal symmetry lines.",
+        optionA: "1",
+        optionB: "2",
+        optionC: "4",
+        correctAnswer: "2",
       }),
       shuffleOptions({
-        question: "Nitin discarded the food in the ______.",
-        optionA: "dustbin",
-        optionB: "garbage bin",
-        optionC: "kitchen",
-        correctAnswer: "garbage bin",
+        question: "The mirror image of an object forms the same distance _______ the mirror as the object.",
+        optionA: "under",
+        optionB: "behind",
+        optionC: "above",
+        correctAnswer: "behind",
       }),
       shuffleOptions({
-        question: "Nitin secured ______ position in class when he tried less.",
-        optionA: "first",
-        optionB: "tenth",
-        optionC: "last",
-        correctAnswer: "tenth",
+        question: "In reflection, only the _______ changes, not the size.",
+        optionA: "orientation",
+        optionB: "colour",
+        optionC: "measurement",
+        correctAnswer: "orientation",
       }),
       shuffleOptions({
-        question: "During maths test, Nitin decided not to solve even a single ______.",
-        optionA: "sum",
-        optionB: "question",
-        optionC: "problem",
-        correctAnswer: "question",
+        question: "A line segment has _______ lines of symmetry.",
+        optionA: "1",
+        optionB: "2",
+        optionC: "3",
+        correctAnswer: "2",
       }),
       shuffleOptions({
-        question: "The principal offered Nitin a glass of ______.",
-        optionA: "milk",
-        optionB: "water",
-        optionC: "juice",
-        correctAnswer: "water",
+        question: "A semi-circle has _______ line of symmetry.",
+        optionA: "one",
+        optionB: "two",
+        optionC: "three",
+        correctAnswer: "one",
       }),
       shuffleOptions({
-        question: "Father explained that Nikhil had been weak since his ______.",
-        optionA: "childhood",
-        optionB: "birth",
-        optionC: "illness",
-        correctAnswer: "birth",
+        question: "Regular polygons have symmetry equal to their _______.",
+        optionA: "diagonals",
+        optionB: "sides",
+        optionC: "angles",
+        correctAnswer: "sides",
       }),
       shuffleOptions({
-        question: "The principal said the greatest burden on a child’s psyche is his ______.",
-        optionA: "friends’ love",
-        optionB: "parents’ love",
-        optionC: "teacher’s love",
-        correctAnswer: "parents’ love",
+        question: "A rhombus is symmetric about its _______.",
+        optionA: "medians",
+        optionB: "diagonals",
+        optionC: "sides",
+        correctAnswer: "diagonals",
       }),
       shuffleOptions({
-        question: "Nitin realised he was loved greatly and promised to help ______.",
-        optionA: "Father",
-        optionB: "Mother",
-        optionC: "Nikhil",
-        correctAnswer: "Nikhil",
+        question: "A kite has _______ line of symmetry.",
+        optionA: "no",
+        optionB: "one",
+        optionC: "two",
+        correctAnswer: "one",
       }),
       shuffleOptions({
-        question: "The story ‘The Twin Trouble’ is based on a story by ______.",
-        optionA: "Ajila Girija Kumar",
-        optionB: "George Bernard Shaw",
-        optionC: "R.K. Narayan",
-        correctAnswer: "Ajila Girija Kumar",
+        question: "Reflection and symmetry are closely related because both involve a _______.",
+        optionA: "mirror line",
+        optionB: "number pattern",
+        optionC: "rotation point",
+        correctAnswer: "mirror line",
       }),
     ]),
   };
 }
-
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Nikhil stood first in his class.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Nitin wanted his parents’ attention.",
+        question: "A square has four lines of symmetry.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Nikhil’s favourite food was paneer.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Mother scolded Nitin for wasting food.",
+        question: "A scalene triangle has no line of symmetry.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Nitin really wanted to fail in the mathematics test.",
+        question: "Reflection changes the size of the object.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The teacher took Nitin to the principal.",
+        question: "A rectangle and a rhombus both have two lines of symmetry.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Father always praised Nitin more than Nikhil.",
+        question: "A line of symmetry divides a figure into two identical halves.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "All regular polygons have equal numbers of sides and lines of symmetry.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "A semi-circle is symmetric about its diameter.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "In a mirror image, the left side appears as the right side.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "A circle has only one line of symmetry.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The principal supported Nitin’s feelings.",
+        question: "Reflection symmetry is also known as mirror symmetry.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Father admitted he was partial to Nikhil due to his weakness.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "In the end, Nitin realised his parents did not love him.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
       }),
     ]),
   };
 }
-export var activityData;
-

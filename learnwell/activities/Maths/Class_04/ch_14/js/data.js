@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 14: The Clever Jackal";
+export const chapter = "Chapter - 14: Symmetry";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who found the elephant first?",
-        optionA: "Lion",
-        optionB: "Jackal",
-        optionC: "Wolf",
-        correctAnswer: "Jackal",
+        question: "Which figure always looks the same around its centre point?",
+        optionA: "Rectangle",
+        optionB: "Circle",
+        optionC: "Triangle",
+        correctAnswer: "Circle",
       }),
       shuffleOptions({
-        question: "Why could the jackal not eat the elephant?",
-        optionA: "It was too small",
-        optionB: "The skin was too hard",
-        optionC: "It was poisonous",
-        correctAnswer: "The skin was too hard",
+        question: "Which shape has all sides equal and therefore more than one line of symmetry?",
+        optionA: "Square",
+        optionB: "Kite",
+        optionC: "Scalene triangle",
+        correctAnswer: "Square",
       }),
       shuffleOptions({
-        question: "Who came after the jackal?",
-        optionA: "Wolf",
-        optionB: "Lion",
-        optionC: "Leopard",
-        correctAnswer: "Lion",
+        question: "Which type of triangle has exactly one line of symmetry?",
+        optionA: "Scalene",
+        optionB: "Isosceles",
+        optionC: "Right-angled",
+        correctAnswer: "Isosceles",
       }),
       shuffleOptions({
-        question: "What did the lion say about the elephant?",
-        optionA: "He would eat it",
-        optionB: "He never ate dead animals",
-        optionC: "He wanted to share it",
-        correctAnswer: "He never ate dead animals",
+        question: "What do we call the line that divides a figure into two mirror-image halves?",
+        optionA: "Diagonal",
+        optionB: "Line of symmetry",
+        optionC: "Radius",
+        correctAnswer: "Line of symmetry",
       }),
       shuffleOptions({
-        question: "Who tore the elephant’s skin?",
-        optionA: "Jackal",
-        optionB: "Leopard",
-        optionC: "Wolf",
-        correctAnswer: "Leopard",
+        question: "Which object from nature shows clear left–right symmetry?",
+        optionA: "Stone",
+        optionB: "Butterfly wings",
+        optionC: "Tree branch",
+        correctAnswer: "Butterfly wings",
       }),
       shuffleOptions({
-        question: "Why did the leopard run away?",
-        optionA: "Jackal told him the lion was coming",
-        optionB: "The wolf attacked him",
-        optionC: "He was full",
-        correctAnswer: "Jackal told him the lion was coming",
+        question: "Which flag shown in the chapter has a circle in the centre?",
+        optionA: "USA",
+        optionB: "Japan",
+        optionC: "Canada",
+        correctAnswer: "Japan",
       }),
       shuffleOptions({
-        question: "Who came last to eat the elephant?",
-        optionA: "Leopard",
-        optionB: "Wolf",
-        optionC: "Lion",
-        correctAnswer: "Wolf",
+        question: "A triangle with no equal sides has how many lines of symmetry?",
+        optionA: "1",
+        optionB: "2",
+        optionC: "0",
+        correctAnswer: "0",
       }),
       shuffleOptions({
-        question: "What did the wolf tell the jackal?",
-        optionA: "To leave the place",
-        optionB: "To call the lion",
-        optionC: "To share the food",
-        correctAnswer: "To leave the place",
+        question: "Which geometrical shape has both horizontal and vertical lines of symmetry?",
+        optionA: "Square",
+        optionB: "Parallelogram",
+        optionC: "Rectangle only",
+        correctAnswer: "Square",
       }),
       shuffleOptions({
-        question: "How did the jackal chase away the wolf?",
-        optionA: "By injuring him",
-        optionB: "By scaring him",
-        optionC: "By tricking him",
-        correctAnswer: "By injuring him",
+        question: "A leaf folded along its midrib shows what kind of symmetry?",
+        optionA: "Point symmetry",
+        optionB: "Line symmetry",
+        optionC: "No symmetry",
+        correctAnswer: "Line symmetry",
       }),
       shuffleOptions({
-        question: "What is the main quality of the jackal in the story?",
-        optionA: "Cleverness",
-        optionB: "Strength",
-        optionC: "Honesty",
-        correctAnswer: "Cleverness",
+        question: "In which shape do both diagonals act as lines of symmetry?",
+        optionA: "Square",
+        optionB: "Rectangle",
+        optionC: "Trapezium",
+        correctAnswer: "Square",
       }),
     ]),
   };
@@ -113,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The jackal found a dead ______ in the forest.",
-        optionA: "wolf",
-        optionB: "elephant",
-        optionC: "lion",
-        correctAnswer: "elephant",
+        question: "A figure that can be divided into two matching halves has ______.",
+        optionA: "symmetry",
+        optionB: "rotation",
+        optionC: "measurement",
+        correctAnswer: "symmetry",
       }),
       shuffleOptions({
-        question: "The lion did not eat because it was already ______.",
-        optionA: "hunted",
-        optionB: "dead",
-        optionC: "alive",
-        correctAnswer: "dead",
+        question: "The line that divides a shape into two equal parts is called the ______.",
+        optionA: "radius",
+        optionB: "line of symmetry",
+        optionC: "edge",
+        correctAnswer: "line of symmetry",
       }),
       shuffleOptions({
-        question: "The jackal thought of taking help from the ______.",
-        optionA: "wolf",
-        optionB: "leopard",
-        optionC: "lion",
-        correctAnswer: "leopard",
+        question: "A triangle with all equal sides has ______ lines of symmetry.",
+        optionA: "1",
+        optionB: "2",
+        optionC: "3",
+        correctAnswer: "3",
       }),
       shuffleOptions({
-        question: "The leopard tore the elephant’s ______.",
-        optionA: "ear",
-        optionB: "skin",
-        optionC: "tail",
-        correctAnswer: "skin",
+        question: "A rectangle has ______ lines of symmetry.",
+        optionA: "2",
+        optionB: "3",
+        optionC: "4",
+        correctAnswer: "2",
       }),
       shuffleOptions({
-        question: "The jackal promised to stand ______ while the leopard ate.",
-        optionA: "guard",
-        optionB: "still",
-        optionC: "far",
-        correctAnswer: "guard",
+        question: "A scalene triangle has ______ line(s) of symmetry.",
+        optionA: "zero",
+        optionB: "one",
+        optionC: "two",
+        correctAnswer: "zero",
       }),
       shuffleOptions({
-        question: "The leopard ran away when told the ______ had come.",
-        optionA: "wolf",
-        optionB: "lion",
-        optionC: "elephant",
-        correctAnswer: "lion",
+        question: "A circle has ______ lines of symmetry.",
+        optionA: "many",
+        optionB: "two",
+        optionC: "one",
+        correctAnswer: "many",
       }),
       shuffleOptions({
-        question: "The jackal could not bite the elephant’s ______.",
-        optionA: "skin",
-        optionB: "trunk",
-        optionC: "tail",
-        correctAnswer: "skin",
+        question: "The Japan flag shows a red circle in the ______.",
+        optionA: "corner",
+        optionB: "centre",
+        optionC: "bottom part",
+        correctAnswer: "centre",
       }),
       shuffleOptions({
-        question: "The wolf wanted to eat the dead ______.",
-        optionA: "lion",
-        optionB: "elephant",
-        optionC: "jackal",
-        correctAnswer: "elephant",
+        question: "A leaf folded along its midrib shows ______ symmetry.",
+        optionA: "point",
+        optionB: "line",
+        optionC: "no",
+        correctAnswer: "line",
       }),
       shuffleOptions({
-        question: "The jackal drove the wolf away after ______ him.",
-        optionA: "injuring",
-        optionB: "praising",
-        optionC: "ignoring",
-        correctAnswer: "injuring",
+        question: "A square has ______ diagonals.",
+        optionA: "one",
+        optionB: "two",
+        optionC: "three",
+        correctAnswer: "two",
       }),
       shuffleOptions({
-        question: "The jackal ate the food ______.",
-        optionA: "peacefully",
-        optionB: "sadly",
-        optionC: "quickly",
-        correctAnswer: "peacefully",
+        question: "Shapes that look the same when folded have ______ halves.",
+        optionA: "uneven",
+        optionB: "identical",
+        optionC: "curved",
+        correctAnswer: "identical",
       }),
     ]),
   };
@@ -191,61 +198,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The jackal thought the elephant was a great feast.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The lion ate the elephant.",
+        question: "A circle has only one line of symmetry.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The leopard tore the elephant’s skin.",
+        question: "A square has more lines of symmetry than a rectangle.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The jackal shouted to scare the leopard.",
+        question: "A triangle with two equal sides has exactly one line of symmetry.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "A rectangle has diagonal lines of symmetry.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The wolf came after the leopard.",
+        question: "Butterfly wings show line symmetry.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The jackal was afraid of the wolf.",
+        question: "A scalene triangle has no line of symmetry.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "All flags shown in the chapter have at least one line of symmetry.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The jackal injured the wolf.",
+        question: "A square remains the same when rotated by 90°.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The wolf chased away the jackal.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The jackal finally ate alone.",
+        question: "A circle shows point symmetry around its centre.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Cleverness helped the jackal to get food.",
+        question: "A leaf’s midrib acts as a line of symmetry.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -253,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

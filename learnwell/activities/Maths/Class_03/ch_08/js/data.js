@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 8: Appearance";
+export const chapter = "Chapter - 8: Measurement of Length";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "What did the cat say to the mouse?",
-        optionA: "Let’s hug",
-        optionB: "Let’s run",
-        optionC: "Let’s sing",
-        correctAnswer: "Let’s hug",
+        question: "Which unit is used to measure the distance between two cities?",
+        optionA: "Metres",
+        optionB: "Centimetres",
+        optionC: "Kilometres",
+        correctAnswer: "Kilometres",
       }),
       shuffleOptions({
-        question: "The mother mouse asked the son to be ______.",
-        optionA: "lazy",
-        optionB: "careful",
-        optionC: "funny",
-        correctAnswer: "careful",
+        question: "What is the standard unit of measuring length?",
+        optionA: "Metre",
+        optionB: "Kilometre",
+        optionC: "Centimetre",
+        correctAnswer: "Metre",
       }),
       shuffleOptions({
-        question: "The cock had ______ legs.",
-        optionA: "smooth",
-        optionB: "bare",
-        optionC: "broken",
-        correctAnswer: "bare",
+        question: "Which device is most suitable to measure the height of a pole?",
+        optionA: "Ruler",
+        optionB: "Measuring tape",
+        optionC: "Pencil",
+        correctAnswer: "Measuring tape",
       }),
       shuffleOptions({
-        question: "What was the cat's true nature?",
-        optionA: "Kind",
-        optionB: "Harmless",
-        optionC: "Dangerous",
-        correctAnswer: "Dangerous",
+        question: "How many centimetres make 1 metre?",
+        optionA: "10",
+        optionB: "1000",
+        optionC: "100",
+        correctAnswer: "100",
       }),
       shuffleOptions({
-        question: "Who saved the son mouse from danger?",
-        optionA: "The cock",
-        optionB: "His mother",
-        optionC: "The cat",
-        correctAnswer: "His mother",
+        question: "Which unit is best to measure the length of a pencil?",
+        optionA: "cm",
+        optionB: "km",
+        optionC: "m",
+        correctAnswer: "cm",
       }),
       shuffleOptions({
-        question: "The son mouse thought the cat looked ______.",
-        optionA: "wild",
-        optionB: "gentle",
-        optionC: "scary",
-        correctAnswer: "gentle",
+        question: "What should be the starting point while measuring with a ruler?",
+        optionA: "5 cm",
+        optionB: "1 cm",
+        optionC: "0 cm",
+        correctAnswer: "0 cm",
       }),
       shuffleOptions({
-        question: "What did the story teach?",
-        optionA: "Trust everyone",
-        optionB: "Appearances can be wrong",
-        optionC: "Never go outside",
-        correctAnswer: "Appearances can be wrong",
+        question: "Which unit is used to measure very long distances?",
+        optionA: "km",
+        optionB: "m",
+        optionC: "cm",
+        correctAnswer: "km",
       }),
       shuffleOptions({
-        question: "The cock’s coat was described as ______.",
-        optionA: "shiny",
-        optionB: "rough",
-        optionC: "soft",
-        correctAnswer: "rough",
+        question: "How many metres are there in 2 km?",
+        optionA: "200 m",
+        optionB: "2000 m",
+        optionC: "20,000 m",
+        correctAnswer: "2000 m",
       }),
       shuffleOptions({
-        question: "The cat invited the mouse to ______.",
-        optionA: "dance",
-        optionB: "embrace",
-        optionC: "play",
-        correctAnswer: "embrace",
+        question: "What will you use to measure the length of a classroom?",
+        optionA: "Measuring tape",
+        optionB: "Ruler",
+        optionC: "Thermometer",
+        correctAnswer: "Measuring tape",
       }),
       shuffleOptions({
-        question: "What kind of animal is a “mouser”?",
-        optionA: "One that runs fast",
-        optionB: "One that catches mice",
-        optionC: "One that sings",
-        correctAnswer: "One that catches mice",
+        question: "The length of a tube light shown in the chapter is closest to:",
+        optionA: "1 cm",
+        optionB: "4 cm",
+        optionC: "15 cm",
+        correctAnswer: "4 cm",
       }),
     ]),
   };
@@ -113,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The son mouse thought he was ______ enough to explore.",
-        optionA: "weak",
-        optionB: "grown-up",
-        optionC: "small",
-        correctAnswer: "grown-up",
+        question: "1 km is equal to ______ metres.",
+        optionA: "100",
+        optionB: "1000",
+        optionC: "10",
+        correctAnswer: "1000",
       }),
       shuffleOptions({
-        question: "The mother mouse was very ______.",
-        optionA: "careless",
-        optionB: "wise",
-        optionC: "rude",
-        correctAnswer: "wise",
+        question: "A scale usually has markings in ______.",
+        optionA: "cm",
+        optionB: "km",
+        optionC: "m",
+        correctAnswer: "cm",
       }),
       shuffleOptions({
-        question: "The world is not always as it ______.",
-        optionA: "smells",
-        optionB: "seems",
-        optionC: "sounds",
-        correctAnswer: "seems",
+        question: "The height of a child is commonly measured in ______.",
+        optionA: "km",
+        optionB: "m",
+        optionC: "cm",
+        correctAnswer: "cm",
       }),
       shuffleOptions({
-        question: "The son mouse ran when he saw the ______.",
-        optionA: "cock",
-        optionB: "cat",
-        optionC: "queen",
-        correctAnswer: "cock",
+        question: "250 cm is equal to ______.",
+        optionA: "2 m 50 cm",
+        optionB: "25 m",
+        optionC: "2500 m",
+        correctAnswer: "2 m 50 cm",
       }),
       shuffleOptions({
-        question: "The mouse wanted to make the cat his ______.",
-        optionA: "pet",
-        optionB: "friend",
-        optionC: "meal",
-        correctAnswer: "friend",
+        question: "A saree’s length is usually measured in ______.",
+        optionA: "metres",
+        optionB: "centimetres",
+        optionC: "kilometres",
+        correctAnswer: "metres",
       }),
       shuffleOptions({
-        question: "The cock had a rough ______.",
-        optionA: "tail",
-        optionB: "coat",
-        optionC: "wing",
-        correctAnswer: "coat",
+        question: "5 km is equal to ______ m.",
+        optionA: "5000 m",
+        optionB: "50 m",
+        optionC: "500 m",
+        correctAnswer: "5000 m",
       }),
       shuffleOptions({
-        question: "The cat was actually a ______.",
-        optionA: "mouse",
-        optionB: "mouser",
-        optionC: "monster",
-        correctAnswer: "mouser",
+        question: "A small eraser’s length is measured in ______.",
+        optionA: "cm",
+        optionB: "m",
+        optionC: "km",
+        correctAnswer: "cm",
       }),
       shuffleOptions({
-        question: "The mouse lived in a ______.",
-        optionA: "hole",
-        optionB: "tree",
-        optionC: "cage",
-        correctAnswer: "hole",
+        question: "When using a ruler, the object’s edge should be placed at ______.",
+        optionA: "0 mark",
+        optionB: "10 mark",
+        optionC: "5 mark",
+        correctAnswer: "0 mark",
       }),
       shuffleOptions({
-        question: "The mother mouse told the son about ______ animals.",
-        optionA: "friendly",
-        optionB: "clever",
-        optionC: "colourful",
-        correctAnswer: "clever",
+        question: "The length of a table is best measured in ______.",
+        optionA: "cm",
+        optionB: "m",
+        optionC: "km",
+        correctAnswer: "m",
       }),
       shuffleOptions({
-        question: "The son mouse realised he still had to ______.",
-        optionA: "eat",
-        optionB: "grow",
-        optionC: "learn",
-        correctAnswer: "learn",
+        question: "3 m 20 cm = ______ cm",
+        optionA: "32 cm",
+        optionB: "320 cm",
+        optionC: "302 cm",
+        correctAnswer: "320 cm",
       }),
     ]),
   };
@@ -191,67 +198,65 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The cat really wanted to hug the mouse.",
+        question: "1 metre is greater than 150 centimetres.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The cock was a dangerous creature.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The mother mouse didn’t care for her son.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The mouse judged the cat by her appearance.",
+        question: "6 km is equal to 6000 metres.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The cat killed the son mouse in the end.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The son mouse was too small to understand the world.",
+        question: "A measuring tape is better than a ruler for measuring long objects.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The cock spoke kindly to the mouse.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The story teaches us to be alert and careful.",
+        question: "75 cm is less than 1 metre.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The cat had soft fur and friendly eyes.",
+        question: "2 km 300 m is the same as 2300 m.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The cock wore a hat.",
+        question: "A metre rod is shorter than a ruler.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "800 cm is the same as 8 metres.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Centimetre is a larger unit than metre.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "3 m 5 cm equals 305 cm.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "The distance between mountains is measured in kilometres.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
       }),
     ]),
   };
 }
-
-export var activityData;

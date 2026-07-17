@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 12: The Jar of Greed";
+export const chapter = "Chapter - 12: Geometrical Constructions";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,219 +42,217 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who was desperate to see his wife in ornaments?",
-        optionA: "The landlord",
-        optionB: "The potter",
-        optionC: "The jeweller",
-        correctAnswer: "The potter",
+        question: "Which instrument is used to construct a circle of given radius?",
+        optionA: "Ruler",
+        optionB: "Compasses",
+        optionC: "Set square",
+        correctAnswer: "Compasses",
       }),
       shuffleOptions({
-        question: "What did the potter’s wife begin to do for saving money?",
-        optionA: "Save grains",
-        optionB: "Save coins",
-        optionC: "Save clothes",
-        correctAnswer: "Save coins",
+        question: "What is formed when two rays share a common endpoint?",
+        optionA: "A line",
+        optionB: "An angle",
+        optionC: "A curve",
+        correctAnswer: "An angle",
       }),
       shuffleOptions({
-        question: "What effect did cutting meals have on the couple?",
-        optionA: "They became stronger",
-        optionB: "They became weaker",
-        optionC: "They became richer",
-        correctAnswer: "They became weaker",
+        question: "Which tool helps in drawing a perpendicular at a point on a line?",
+        optionA: "Divider",
+        optionB: "Set square",
+        optionC: "Protractor",
+        correctAnswer: "Set square",
       }),
       shuffleOptions({
-        question: "What did the potter think of while strolling in the woods?",
-        optionA: "Jewellery",
-        optionB: "Furniture",
-        optionC: "Farming",
-        correctAnswer: "Jewellery",
+        question: "What is the fixed point inside a circle called?",
+        optionA: "Centre",
+        optionB: "Radius",
+        optionC: "Diameter",
+        correctAnswer: "Centre",
       }),
       shuffleOptions({
-        question: "How many jars were really full of gold?",
-        optionA: "Two",
-        optionB: "Four",
-        optionC: "Five",
-        correctAnswer: "Four",
+        question: "Which angle is obtained when a 90° angle is bisected?",
+        optionA: "60°",
+        optionB: "30°",
+        optionC: "45°",
+        correctAnswer: "45°",
       }),
       shuffleOptions({
-        question: "What was the fifth jar like?",
-        optionA: "Half-empty",
-        optionB: "Broken",
-        optionC: "Completely empty",
-        correctAnswer: "Half-empty",
+        question: "To copy an angle, what is drawn first?",
+        optionA: "A circle",
+        optionB: "A ray for the new angle base line",
+        optionC: "A perpendicular",
+        correctAnswer: "A ray for the new angle base line",
       }),
       shuffleOptions({
-        question: "Who advised the potter about the trap of the jars?",
-        optionA: "His wife",
-        optionB: "The landlord",
-        optionC: "The jeweller",
-        correctAnswer: "The landlord",
+        question: "The diameter of a circle is always:",
+        optionA: "Half the radius",
+        optionB: "Equal to radius",
+        optionC: "Twice the radius",
+        correctAnswer: "Twice the radius",
       }),
       shuffleOptions({
-        question: "What did the potter melt to fill the jar?",
-        optionA: "Pots",
-        optionB: "Ornaments",
-        optionC: "Utensils",
-        correctAnswer: "Ornaments",
+        question: "A perpendicular bisector of a line segment divides it into:",
+        optionA: "Two equal parts",
+        optionB: "Three equal parts",
+        optionC: "Four equal parts",
+        correctAnswer: "Two equal parts",
       }),
       shuffleOptions({
-        question: "What did the potter sell besides utensils?",
-        optionA: "House",
-        optionB: "Furniture",
-        optionC: "Land",
-        correctAnswer: "Furniture",
+        question: "Which method can construct a perpendicular from a point outside the line?",
+        optionA: "Only protractor",
+        optionB: "Ruler and compasses",
+        optionC: "Ruler and set square",
+        correctAnswer: "Ruler and set square",
       }),
       shuffleOptions({
-        question: "In the end, what remained with the potter?",
-        optionA: "Gold",
-        optionB: "Nothing",
-        optionC: "Jewellery",
-        correctAnswer: "Nothing",
+        question: "When arcs drawn from two points meet, they help in constructing a:",
+        optionA: "Tangent",
+        optionB: "Bisector",
+        optionC: "Diameter",
+        correctAnswer: "Bisector",
       }),
     ]),
   };
 }
-
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The potter’s wife began to save as much as ________.",
-        optionA: "possible",
-        optionB: "impossible",
-        optionC: "sufficient",
-        correctAnswer: "possible",
+        question: "A line segment is drawn using a ______.",
+        optionA: "protractor",
+        optionB: "ruler",
+        optionC: "set square",
+        correctAnswer: "ruler",
       }),
       shuffleOptions({
-        question: "They started eating only ________ meals a day.",
-        optionA: "one",
-        optionB: "two",
-        optionC: "three",
-        correctAnswer: "two",
+        question: "The distance from the centre of a circle to any point on the circle is the ______.",
+        optionA: "diameter",
+        optionB: "radius",
+        optionC: "chord",
+        correctAnswer: "radius",
       }),
       shuffleOptions({
-        question: "The jars were covered with ________.",
-        optionA: "lids",
-        optionB: "cloth",
-        optionC: "locks",
-        correctAnswer: "lids",
+        question: "An angle is measured with a ______.",
+        optionA: "compass",
+        optionB: "set square",
+        optionC: "protractor",
+        correctAnswer: "protractor",
       }),
       shuffleOptions({
-        question: "The wife exclaimed in joy when she saw the ________ jar.",
-        optionA: "first",
-        optionB: "fifth",
-        optionC: "last",
-        correctAnswer: "first",
+        question: "To construct a 30° angle, we first construct a ______ angle.",
+        optionA: "60°",
+        optionB: "45°",
+        optionC: "120°",
+        correctAnswer: "60°",
       }),
       shuffleOptions({
-        question: "The landlord laughed because the potter was caught in a ________.",
-        optionA: "trap",
-        optionB: "lie",
-        optionC: "theft",
-        correctAnswer: "trap",
+        question: "When copying a line segment, the width of the compasses must remain ______.",
+        optionA: "changed",
+        optionB: "fixed",
+        optionC: "doubled",
+        correctAnswer: "fixed",
       }),
       shuffleOptions({
-        question: "The potter’s face looked very ________ when landlord saw him.",
-        optionA: "cheerful",
-        optionB: "gloomy",
-        optionC: "happy",
-        correctAnswer: "gloomy",
+        question: "A perpendicular makes an angle of ______ with the given line.",
+        optionA: "30°",
+        optionB: "90°",
+        optionC: "120°",
+        correctAnswer: "90°",
       }),
       shuffleOptions({
-        question: "The voice from the tree promised ________ jars of gold.",
-        optionA: "three",
-        optionB: "five",
-        optionC: "ten",
-        correctAnswer: "five",
+        question: "While drawing a circle, the point where the compass needle rests is the ______.",
+        optionA: "radius",
+        optionB: "chord",
+        optionC: "centre",
+        correctAnswer: "centre",
       }),
       shuffleOptions({
-        question: "The potter asked the tree to take the jars ________.",
-        optionA: "away",
-        optionB: "inside",
-        optionC: "back home",
-        correctAnswer: "away",
+        question: "The bisector of an angle divides it into ______ parts.",
+        optionA: "equal",
+        optionB: "three",
+        optionC: "unequal",
+        correctAnswer: "equal",
       }),
       shuffleOptions({
-        question: "After returning the jars, the potter was finally ________.",
-        optionA: "sad",
-        optionB: "relaxed",
-        optionC: "angry",
-        correctAnswer: "relaxed",
+        question: "When constructing a 90° angle using compasses, arcs are drawn from points that were marked on the ______.",
+        optionA: "circle",
+        optionB: "ray OX",
+        optionC: "protractor",
+        correctAnswer: "ray OX",
       }),
       shuffleOptions({
-        question: "The story teaches us that ________ has no limit.",
-        optionA: "greed",
-        optionB: "wealth",
-        optionC: "poverty",
-        correctAnswer: "greed",
+        question: "A perpendicular bisector of a line segment meets it at the ______.",
+        optionA: "endpoint",
+        optionB: "midpoint",
+        optionC: "radius",
+        correctAnswer: "midpoint",
       }),
     ]),
   };
 }
-
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The potter was an expert craftsman.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The wife never agreed to save any money.",
+        question: "A circle can be drawn using only a ruler.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "They reduced their meals first to two, then to one.",
+        question: "A perpendicular bisector always passes through the midpoint of the segment.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The voice from the tree offered seven jars of gold.",
+        question: "A 45° angle can be constructed by bisecting a 120° angle.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The first four jars were full of molten gold.",
+        question: "Copying an angle requires drawing arcs with the same radius on both the original and new rays.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The potter was happy to see the fifth jar half-empty.",
+        question: "A diameter is the longest chord of a circle.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "A perpendicular from a point outside a line can be drawn using ruler and set square.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "The radius of a circle is always equal to half the diameter.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "A 30° angle is larger than a 60° angle.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The landlord had once been offered the same jars.",
+        question: "When constructing a bisector of an angle, arcs are drawn from both arms of the angle.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The fifth jar would always remain half-empty.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The landlord advised the potter to keep the jars safe.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The potter finally felt relaxed when the jars disappeared.",
+        question: "A 75° angle can be constructed by bisecting the angle between 60° and 90°.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -256,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-export var activityData;
-

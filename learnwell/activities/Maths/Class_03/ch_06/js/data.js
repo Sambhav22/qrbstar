@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 6: The Bear";
+export const chapter = "Chapter - 6: Fraction";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,71 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who did the poet meet?",
-        optionA: "A lion",
-        optionB: "A bear",
-        optionC: "A tiger",
-        correctAnswer: "A bear",
+        question: "What do we call a complete object?",
+        optionA: "Half",
+        optionB: "Whole",
+        optionC: "Quarter",
+        correctAnswer: "Whole",
       }),
       shuffleOptions({
-        question: "What was ahead of the poet?",
-        optionA: "A lake",
-        optionB: "A car",
-        optionC: "A tree",
-        correctAnswer: "A tree",
+        question: "What are the equal parts of a whole called?",
+        optionA: "Fractions",
+        optionB: "Numbers",
+        optionC: "Shapes",
+        correctAnswer: "Fractions",
       }),
       shuffleOptions({
-        question: "How high was the lowest branch?",
-        optionA: "Ten feet",
-        optionB: "Five feet",
-        optionC: "Twenty feet",
-        correctAnswer: "Ten feet",
+        question: "What is the top number of a fraction known as?",
+        optionA: "Denominator",
+        optionB: "Numerator",
+        optionC: "Whole",
+        correctAnswer: "Numerator",
       }),
       shuffleOptions({
-        question: "What expression did the poet use?",
-        optionA: "Oh no!",
-        optionB: "Golly gee!",
-        optionC: "Oh my God!",
-        correctAnswer: "Golly gee!",
+        question: "How is one-fourth written in numbers?",
+        optionA: "1 1",
+        optionB: "4",
+        correctAnswer: "4",
       }),
       shuffleOptions({
-        question: "What did the poet trust?",
-        optionA: "His gun",
-        optionB: "His luck",
-        optionC: "His shoes",
-        correctAnswer: "His luck",
+        question: "Which fraction means 1 part out of 3 equal parts?",
+        optionA: "4 1",
+        optionB: "3",
+        correctAnswer: "3",
       }),
       shuffleOptions({
-        question: "What did the bear ask the poet?",
-        optionA: "Do you have food?",
-        optionB: "Why don’t you run?",
-        optionC: "Where are you going?",
-        correctAnswer: "Why don’t you run?",
+        question: "Which part of the fraction tells total equal parts?",
+        optionA: "Numerator",
+        optionB: "Denominator",
+        optionC: "Whole",
+        correctAnswer: "Denominator",
       }),
       shuffleOptions({
-        question: "What did the poet do after seeing the bear?",
-        optionA: "Talked to it",
-        optionB: "Ran away",
-        optionC: "Climbed at once",
-        correctAnswer: "Ran away",
+        question: "What fraction shows two parts taken out of five equal parts? 2",
+        optionA: "5",
+        optionB: "2",
+        optionC: "6",
+        correctAnswer: "5",
       }),
       shuffleOptions({
-        question: "Where did the poet try to jump?",
-        optionA: "Onto a car",
-        optionB: "Into a lake",
-        optionC: "Onto a branch",
-        correctAnswer: "Onto a branch",
+        question: "What do we call a group of similar objects?",
+        optionA: "Whole",
+        optionB: "Collection",
+        optionC: "Denominator",
+        correctAnswer: "Collection",
       }),
       shuffleOptions({
-        question: "What did the poet miss at first?",
-        optionA: "His shoes",
-        optionB: "The branch",
-        optionC: "The bear",
-        correctAnswer: "The branch",
+        question: "Which of the following is a fraction of a whole? 1",
+        optionA: "2",
+        optionB: "5",
+        correctAnswer: "2",
       }),
       shuffleOptions({
-        question: "What did the poet catch on the way down?",
-        optionA: "The bear",
-        optionB: "The tree",
-        optionC: "The branch",
-        correctAnswer: "The branch",
+        question: "Which fraction shows three parts out of eight equal parts?",
+        optionA: "8 3",
+        optionB: "8",
+        optionC: "3",
+        correctAnswer: "8",
       }),
     ]),
   };
@@ -113,74 +117,72 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The poet met a great big ______.",
-        optionA: "dog",
-        optionB: "bear",
-        optionC: "cat",
-        correctAnswer: "bear",
+        question: "One-half is written as ______.",
+        optionA: "4 1",
+        optionB: "2",
+        correctAnswer: "2",
       }),
       shuffleOptions({
-        question: "He looked at me, I looked at ______.",
-        optionA: "him",
-        optionB: "tree",
-        optionC: "bear",
-        correctAnswer: "him",
+        question: "The number below the line in a fraction is called the ______.",
+        optionA: "Numerator",
+        optionB: "Denominator",
+        optionC: "Whole",
+        correctAnswer: "Denominator",
       }),
       shuffleOptions({
-        question: "The poet had no ______.",
-        optionA: "stick",
-        optionB: "gun",
-        optionC: "bag",
-        correctAnswer: "gun",
+        question: "One-third means 1 part out of ______ equal parts.",
+        optionA: "3",
+        optionB: "4",
+        optionC: "2",
+        correctAnswer: "3",
       }),
       shuffleOptions({
-        question: "The lowest branch was ______ feet up.",
-        optionA: "five",
-        optionB: "ten",
-        optionC: "fifteen",
-        correctAnswer: "ten",
+        question: "A group of same objects is called a ______.",
+        optionA: "Collection",
+        optionB: "Fraction",
+        optionC: "Shape",
+        correctAnswer: "Collection",
       }),
       shuffleOptions({
-        question: "I had to ______ and trust my luck.",
-        optionA: "sit",
-        optionB: "jump",
-        optionC: "run",
-        correctAnswer: "jump",
+        question: "The numerator shows how many parts are ______.",
+        optionA: "Total",
+        optionB: "Taken",
+        optionC: "Missing",
+        correctAnswer: "Taken",
       }),
       shuffleOptions({
-        question: "The poet ______ the branch on the way down.",
-        optionA: "hit",
-        optionB: "caught",
-        optionC: "missed",
-        correctAnswer: "caught",
+        question: "One-fourth is also called a ______.",
+        optionA: "Pair",
+        optionB: "Quarter",
+        optionC: "Whole",
+        correctAnswer: "Quarter",
       }),
       shuffleOptions({
-        question: "Don't you fret and don't you ______.",
-        optionA: "run",
-        optionB: "cry",
-        optionC: "frown",
-        correctAnswer: "frown",
+        question: "The fraction for five parts taken out of six equal parts is ______.",
+        optionA: "5 5",
+        optionB: "6",
+        optionC: "1",
+        correctAnswer: "6",
       }),
       shuffleOptions({
-        question: "The bear said he saw no ______.",
-        optionA: "stick",
-        optionB: "gun",
-        optionC: "net",
-        correctAnswer: "gun",
+        question: "The fraction three-sevenths is written as ______. 3",
+        optionA: "7",
+        optionB: "3",
+        correctAnswer: "7",
       }),
       shuffleOptions({
-        question: "The poet sized up the ______.",
-        optionA: "tree",
-        optionB: "bear",
-        optionC: "branch",
-        correctAnswer: "bear",
+        question: "Equal parts are needed to form a ______.",
+        optionA: "Number",
+        optionB: "Fraction",
+        optionC: "Shape",
+        correctAnswer: "Fraction",
       }),
       shuffleOptions({
-        question: "That's all there is, there is no ______.",
-        optionA: "poem",
-        optionB: "fun",
-        optionC: "more",
-        correctAnswer: "more",
+        question: "The denominator tells the total number of ______ parts.",
+        optionA: "Equal",
+        optionB: "Different",
+        optionC: "Random",
+        correctAnswer: "Equal",
       }),
     ]),
   };
@@ -191,61 +193,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The poet had a gun with him.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The bear was barking loudly.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The tree in the poem had a branch at ten feet height.",
+        question: "A fraction always has a numerator and a denominator.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The poet jumped and missed the branch at first.",
+        question: "One-fourth means 1 part out of 3 equal parts.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "Fractions can also be used for collections of objects.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The poet caught the branch after falling on the ground.",
+        question: "Unequal parts can be used to make fractions.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The bear and the poet became friends.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The poet found a cave ahead of him.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The poem ends by saying the poet met the bear again.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The branch helped save the poet.",
+        question: "One-half is greater than one-fourth.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The poet was afraid and ran away from the bear.",
+        question: "The denominator shows how many parts are taken.",
+        optionA: "True",
+        optionB: "False  1",
+        correctAnswer: "False  1",
+      }),
+      shuffleOptions({
+        question: "One-third is written as . 3",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "A whole is a complete object.",
+        optionA: "True",
+        optionB: "False 8",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Three-eighths is written as 3.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "The numerator is the upper number in a fraction.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -253,5 +255,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

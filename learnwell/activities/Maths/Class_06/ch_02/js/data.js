@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 2: Federigo’s Falcon";
+export const chapter = "Chapter - 2: Whole Numbers";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,225 +42,220 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Where did the story take place?",
-        optionA: "Rome",
-        optionB: "Florence",
-        optionC: "Venice",
-        correctAnswer: "Florence",
+        question: "Which number is the first natural number?",
+        optionA: "0",
+        optionB: "1",
+        optionC: "2",
+        correctAnswer: "1",
       }),
       shuffleOptions({
-        question: "What was Federigo famous for besides wealth?",
-        optionA: "Music",
-        optionB: "Courtliness",
-        optionC: "Medicine",
-        correctAnswer: "Courtliness",
+        question: "Which whole number lies to the immediate right of 8 on the number line?",
+        optionA: "9",
+        optionB: "7",
+        optionC: "10",
+        correctAnswer: "9",
       }),
       shuffleOptions({
-        question: "Whose death made Monna Giovanna a widow?",
-        optionA: "Her brother",
-        optionB: "Her husband",
-        optionC: "Her father",
-        correctAnswer: "Her husband",
+        question: "Which property is shown by 6 × 5 = 5 × 6?",
+        optionA: "Associative",
+        optionB: "Distributive",
+        optionC: "Commutative",
+        correctAnswer: "Commutative",
       }),
       shuffleOptions({
-        question: "Where did Monna Giovanna shift after her husband’s death?",
-        optionA: "City mansion",
-        optionB: "Countryside near Campi",
-        optionC: "Rome",
-        correctAnswer: "Countryside near Campi",
+        question: "Which of the following numbers can be arranged as a perfect square in dot pattern?",
+        optionA: "14",
+        optionB: "16",
+        optionC: "10",
+        correctAnswer: "16",
       }),
       shuffleOptions({
-        question: "The boy admired Federigo’s –",
-        optionA: "Dog",
-        optionB: "Falcon",
-        optionC: "Horse",
-        correctAnswer: "Falcon",
+        question: "What is the result of 300 × (10 – 1)?",
+        optionA: "2700",
+        optionB: "300",
+        optionC: "3000",
+        correctAnswer: "2700",
       }),
       shuffleOptions({
-        question: "What did Monna Giovanna promise her son?",
-        optionA: "She would buy him toys",
-        optionB: "She would get Federigo’s falcon",
-        optionC: "She would take him to Rome",
-        correctAnswer: "She would get Federigo’s falcon",
+        question: "Which number has no predecessor in the whole numbers?",
+        optionA: "0",
+        optionB: "1",
+        optionC: "2",
+        correctAnswer: "0",
       }),
       shuffleOptions({
-        question: "What did Federigo use to cover the dining table?",
-        optionA: "Red cloth",
-        optionB: "Whitest tablecloth",
-        optionC: "Woollen cloth",
-        correctAnswer: "Whitest tablecloth",
+        question: "Which number is greater?",
+        optionA: "432",
+        optionB: "423",
+        optionC: "432 is greater",
+        correctAnswer: "432 is greater",
       }),
       shuffleOptions({
-        question: "What proof did Federigo show that he had cooked the falcon?",
-        optionA: "Bones",
-        optionB: "Feathers, feet, beak",
-        optionC: "Ashes",
-        correctAnswer: "Feathers, feet, beak",
+        question: "Which operation on number line always moves us to the right?",
+        optionA: "Subtraction",
+        optionB: "Addition",
+        optionC: "Division",
+        correctAnswer: "Addition",
       }),
       shuffleOptions({
-        question: "What happened to the boy after not getting the falcon?",
-        optionA: "He recovered",
-        optionB: "He died",
-        optionC: "He left for Florence",
-        correctAnswer: "He died",
+        question: "Which is a triangular number?",
+        optionA: "4",
+        optionB: "6",
+        optionC: "8",
+        correctAnswer: "6",
       }),
       shuffleOptions({
-        question: "How did Federigo manage finances after marriage?",
-        optionA: "Carelessly",
-        optionB: "With prudence",
-        optionC: "Recklessly",
-        correctAnswer: "With prudence",
+        question: "Which is the multiplicative identity for whole numbers?",
+        optionA: "0",
+        optionB: "1",
+        optionC: "10",
+        correctAnswer: "1",
       }),
     ]),
   };
 }
-
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Federigo fell in love with ______.",
-        optionA: "Monna Lisa",
-        optionB: "Monna Giovanna",
-        optionC: "Monna Clara",
-        correctAnswer: "Monna Giovanna",
+        question: "The successor of 450 is ______.",
+        optionA: "449",
+        optionB: "451",
+        optionC: "452",
+        correctAnswer: "451",
       }),
       shuffleOptions({
-        question: "Federigo lost all his wealth by ______.",
-        optionA: "saving wisely",
-        optionB: "spending extravagantly",
-        optionC: "farming",
-        correctAnswer: "spending extravagantly",
+        question: "On the number line, every whole number to the right is ______ than the one before it.",
+        optionA: "greater",
+        optionB: "smaller",
+        optionC: "equal",
+        correctAnswer: "greater",
       }),
       shuffleOptions({
-        question: "Monna Giovanna went to the ______ with her son after becoming a widow.",
-        optionA: "countryside",
-        optionB: "market",
-        optionC: "city",
-        correctAnswer: "countryside",
+        question: "The smallest 4-digit natural number is ______.",
+        optionA: "999",
+        optionB: "1000",
+        optionC: "1001",
+        correctAnswer: "1000",
       }),
       shuffleOptions({
-        question: "The boy admired birds and ______.",
-        optionA: "dogs",
-        optionB: "cats",
-        optionC: "sheep",
-        correctAnswer: "dogs",
+        question: "72 × 1 = ______.",
+        optionA: "0",
+        optionB: "72",
+        optionC: "1",
+        correctAnswer: "72",
       }),
       shuffleOptions({
-        question: "Federigo wrung the neck of his ______ to cook for Monna Giovanna.",
-        optionA: "Falcon",
-        optionB: "Hen",
-        optionC: "Duck",
-        correctAnswer: "Falcon",
+        question: "Between 30 and 35, there are ______ whole numbers.",
+        optionA: "3",
+        optionB: "4",
+        optionC: "4 (31, 32, 33, 34)",
+        correctAnswer: "4 (31, 32, 33, 34)",
       }),
       shuffleOptions({
-        question: "Federigo’s falcon was considered among the best in the ______.",
-        optionA: "country",
-        optionB: "world",
-        optionC: "kingdom",
-        correctAnswer: "world",
+        question: "The predecessor of 10,001 is ______.",
+        optionA: "9999",
+        optionB: "10,000",
+        correctAnswer: "10,000",
       }),
       shuffleOptions({
-        question: "Monna Giovanna visited Federigo’s house with her ______.",
-        optionA: "servant",
-        optionB: "friend",
-        optionC: "son",
-        correctAnswer: "friend",
+        question: "A number remains unchanged when ______ is added to it.",
+        optionA: "1",
+        optionB: "0",
+        optionC: "10",
+        correctAnswer: "0",
       }),
       shuffleOptions({
-        question: "Federigo cursed himself because he had wasted all his ______.",
-        optionA: "wealth",
-        optionB: "land",
-        optionC: "cattle",
-        correctAnswer: "wealth",
+        question: "500 × (100 + 2) = 500 × 100 + ______.",
+        optionA: "500 × 1",
+        optionB: "500 × 2",
+        optionC: "500 × 0",
+        correctAnswer: "500 × 2",
       }),
       shuffleOptions({
-        question: "Monna Giovanna’s brothers mocked her decision to marry ______.",
-        optionA: "A rich nobleman",
-        optionB: "Federigo",
-        optionC: "A king",
-        correctAnswer: "Federigo",
+        question: "12 ÷ 1 = ______.",
+        optionA: "1",
+        optionB: "12",
+        optionC: "0",
+        correctAnswer: "12",
       }),
       shuffleOptions({
-        question: "The story “Federigo’s Falcon” was written by ______.",
-        optionA: "William Shakespeare",
-        optionB: "Giovanni Boccaccio",
-        optionC: "Homer",
-        correctAnswer: "Giovanni Boccaccio",
+        question: "A whole number that can be shown in a rectangular dot arrangement is ______.",
+        optionA: "7",
+        optionB: "10",
+        optionC: "3",
+        correctAnswer: "10",
       }),
     ]),
   };
 }
-
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Federigo lived lavishly in Campi.",
+        question: "Whole numbers include all natural numbers and 0.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "There is no greatest whole number.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Subtraction of whole numbers is commutative.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Monna Giovanna’s son directly asked Federigo for the falcon.",
+        question: "36 can be shown in a square dot pattern.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "0 is the multiplicative identity.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Federigo killed the falcon to serve as a meal.",
+        question: "6 is a triangular number.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Monna Giovanna was touched by Federigo’s generosity.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The boy recovered after receiving the falcon.",
+        question: "On the number line, moving left represents addition.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Monna Giovanna chose Federigo as her second husband.",
+        question: "Multiplication is associative for whole numbers.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Federigo had many servants in his countryside home.",
+        question: "0 has no predecessor in whole numbers.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Every whole number is also a natural number.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Monna Giovanna initially refused to marry again.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Federigo became rich again after marriage.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The story reflects themes of love, sacrifice, and irony.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
       }),
     ]),
   };
 }
-export var activityData;
-

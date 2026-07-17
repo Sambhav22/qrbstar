@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 12: Loving Papa";
+export const chapter = "Chapter - 12: Geometrical Shapes";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who called Reena for breakfast?",
-        optionA: "Father",
-        optionB: "Mother",
-        optionC: "Deven",
-        correctAnswer: "Mother",
+        question: "Which line runs straight up and down on a page?",
+        optionA: "Horizontal line",
+        optionB: "Vertical line",
+        optionC: "Slanting line",
+        correctAnswer: "Vertical line",
       }),
       shuffleOptions({
-        question: "What did Reena pick from the dining table?",
-        optionA: "Toast",
-        optionB: "Biscuit",
-        optionC: "Fruit",
-        correctAnswer: "Toast",
+        question: "Which of these has only one end point?",
+        optionA: "Line segment",
+        optionB: "Line",
+        optionC: "Ray",
+        correctAnswer: "Ray",
       }),
       shuffleOptions({
-        question: "Who was already sitting at the table?",
-        optionA: "Deven",
-        optionB: "Ivy",
-        optionC: "Papa",
-        correctAnswer: "Deven",
+        question: "What do we call two lines that never meet?",
+        optionA: "Intersecting lines",
+        optionB: "Parallel lines",
+        optionC: "Curved lines",
+        correctAnswer: "Parallel lines",
       }),
       shuffleOptions({
-        question: "What sound made the house lively?",
-        optionA: "Music",
-        optionB: "Anklets",
-        optionC: "Bell",
-        correctAnswer: "Anklets",
+        question: "Which part of an angle is the meeting point of its arms?",
+        optionA: "Centre",
+        optionB: "Vertex",
+        optionC: "Chord",
+        correctAnswer: "Vertex",
       }),
       shuffleOptions({
-        question: "What did Reena carry while rushing out of her room?",
-        optionA: "Doll",
-        optionB: "Ball",
-        optionC: "Book",
-        correctAnswer: "Doll",
+        question: "Which figure begins and ends at different points?",
+        optionA: "Closed figure",
+        optionB: "Open figure",
+        optionC: "Semi-circle",
+        correctAnswer: "Open figure",
       }),
       shuffleOptions({
-        question: "Who was talking to Father in the reading room?",
-        optionA: "Mr. Verma",
-        optionB: "Deven",
-        optionC: "Ivy",
-        correctAnswer: "Mr. Verma",
+        question: "Which line curves and does not remain straight?",
+        optionA: "Slanting line",
+        optionB: "Curved line",
+        optionC: "Vertical line",
+        correctAnswer: "Curved line",
       }),
       shuffleOptions({
-        question: "Who was Ivy?",
-        optionA: "Cat",
-        optionB: "Dog",
-        optionC: "Bird",
-        correctAnswer: "Dog",
+        question: "Which of the following is the longest chord in a circle?",
+        optionA: "Radius",
+        optionB: "Diameter",
+        optionC: "Arc",
+        correctAnswer: "Diameter",
       }),
       shuffleOptions({
-        question: "What did Reena drag calling it a train?",
-        optionA: "Chair",
-        optionB: "Table",
-        optionC: "Bench",
-        correctAnswer: "Chair",
+        question: "Which of these is formed when two rays meet?",
+        optionA: "Angle",
+        optionB: "Circle",
+        optionC: "Line",
+        correctAnswer: "Angle",
       }),
       shuffleOptions({
-        question: "What happened when Reena pressed the switch?",
-        optionA: "The bulb glowed",
-        optionB: "The fan turned",
-        optionC: "The bell rang",
-        correctAnswer: "The bulb glowed",
+        question: "Which of these describes the boundary of a circle?",
+        optionA: "Semi-circle",
+        optionB: "Chord",
+        optionC: "Circumference",
+        correctAnswer: "Circumference",
       }),
       shuffleOptions({
-        question: "What did Father lovingly call Reena?",
-        optionA: "My little angel",
-        optionB: "My little lovely doll",
-        optionC: "My fairy",
-        correctAnswer: "My little lovely doll",
+        question: "Every point on a circle is at the same distance from its—",
+        optionA: "Radius",
+        optionB: "Centre",
+        optionC: "Chord",
+        correctAnswer: "Centre",
       }),
     ]),
   };
@@ -113,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Reena was a ______-year-old girl.",
-        optionA: "three",
-        optionB: "four",
-        optionC: "five",
-        correctAnswer: "four",
+        question: "A line segment can be measured using a ______.",
+        optionA: "compass",
+        optionB: "ruler",
+        optionC: "divider",
+        correctAnswer: "ruler",
       }),
       shuffleOptions({
-        question: "Reena quickly put on her ______ before running.",
-        optionA: "shoes",
-        optionB: "slippers",
-        optionC: "sandals",
-        correctAnswer: "slippers",
+        question: "A ray starts at one point and goes on ______.",
+        optionA: "in both directions",
+        optionB: "forever in one direction",
+        optionC: "for a short distance",
+        correctAnswer: "forever in one direction",
       }),
       shuffleOptions({
-        question: "Father usually left home ______ in the morning.",
-        optionA: "late",
-        optionB: "early",
-        optionC: "never",
-        correctAnswer: "early",
+        question: "The space between the arms of an angle is its ______.",
+        optionA: "boundary",
+        optionB: "interior region",
+        optionC: "circumference",
+        correctAnswer: "interior region",
       }),
       shuffleOptions({
-        question: "Deven showed tricks with the family ______.",
-        optionA: "cat",
-        optionB: "dog",
-        optionC: "bird",
-        correctAnswer: "dog",
+        question: "A figure that does not close at the beginning point is an ______.",
+        optionA: "open figure",
+        optionB: "angle",
+        optionC: "arc",
+        correctAnswer: "open figure",
       }),
       shuffleOptions({
-        question: "Ivy stood on its ______ legs to dance.",
-        optionA: "hind",
-        optionB: "front",
-        optionC: "two",
-        correctAnswer: "hind",
+        question: "The distance from the centre to any point on the circle is called the ______.",
+        optionA: "diameter",
+        optionB: "radius",
+        optionC: "chord",
+        correctAnswer: "radius",
       }),
       shuffleOptions({
-        question: "Father had many ______ before him while working.",
-        optionA: "books and files",
-        optionB: "toys",
-        optionC: "plates",
-        correctAnswer: "books and files",
+        question: "A line that slants is called a ______ line.",
+        optionA: "horizontal",
+        optionB: "slanting (oblique) line",
+        optionC: "curved",
+        correctAnswer: "slanting (oblique) line",
       }),
       shuffleOptions({
-        question: "Reena thought the switch sound was ______.",
-        optionA: "boring",
-        optionB: "fascinating",
-        optionC: "useless",
-        correctAnswer: "fascinating",
+        question: "Half of a circle is called a ______.",
+        optionA: "chord",
+        optionB: "semi-circle",
+        optionC: "radius",
+        correctAnswer: "semi-circle",
       }),
       shuffleOptions({
-        question: "When Father shouted, Reena became ______.",
-        optionA: "happy",
-        optionB: "heartbroken",
-        optionC: "excited",
-        correctAnswer: "heartbroken",
+        question: "A straight path of points that extends endlessly is a ______.",
+        optionA: "line",
+        optionB: "ray",
+        optionC: "segment",
+        correctAnswer: "line",
       }),
       shuffleOptions({
-        question: "Tears rolled down Reena’s ______ cheeks.",
-        optionA: "rosy",
-        optionB: "pale",
-        optionC: "dark",
-        correctAnswer: "rosy",
+        question: "A line segment joining two points on a circle is a ______.",
+        optionA: "radius",
+        optionB: "diameter",
+        optionC: "chord",
+        correctAnswer: "chord",
       }),
       shuffleOptions({
-        question: "Reena thumped away to her ______.",
-        optionA: "room",
-        optionB: "kitchen",
-        optionC: "balcony",
-        correctAnswer: "room",
+        question: "The length around the circle is called the ______.",
+        optionA: "diameter",
+        optionB: "arc",
+        optionC: "circumference",
+        correctAnswer: "circumference",
       }),
     ]),
   };
@@ -191,67 +198,65 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Reena’s mother called her for breakfast.",
+        question: "A radius is always half of the diameter.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Reena drank her entire glass of milk.",
+        question: "Parallel lines meet at exactly one point.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Father was an advocate by profession.",
+        question: "A curved line may be open or closed.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Deven asked Reena to sit comfortably and eat.",
+        question: "All radii of a circle are equal.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Reena thought Father was enjoying the sound of her anklets.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The black switch was a forbidden article for Reena.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Father smiled when Reena pressed the switch again and again.",
+        question: "A line has two endpoints.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Reena muttered that Father was unthoughtful.",
+        question: "An angle is formed by two rays.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Father hugged and kissed Reena in the end.",
+        question: "A semi-circle is also a type of arc.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Reena remained angry with Father till the end of the story.",
+        question: "A line segment cannot be measured.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "The vertex of an angle lies between its two arms.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "A closed figure always ends at the same point where it begins.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
       }),
     ]),
   };
 }
-
-export var activityData;

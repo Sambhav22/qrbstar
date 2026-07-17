@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 10: Unknown Danger";
+export const chapter = "Chapter - 10: Metric Measures";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who lived with Bunny in the burrow?",
-        optionA: "His uncle",
-        optionB: "His mother",
-        optionC: "His friend",
-        correctAnswer: "His mother",
+        question: "Which unit is the smallest for measuring length?",
+        optionA: "Centimetre",
+        optionB: "Millimetre",
+        optionC: "Decimetre",
+        correctAnswer: "Millimetre",
       }),
       shuffleOptions({
-        question: "Who brought carrots for Bunny?",
-        optionA: "Rumy",
-        optionB: "Farmer",
-        optionC: "Cobra",
-        correctAnswer: "Rumy",
+        question: "Which unit is most suitable to measure the capacity of a water bottle?",
+        optionA: "Litre",
+        optionB: "Millilitre",
+        optionC: "Kilolitre",
+        correctAnswer: "Millilitre",
       }),
       shuffleOptions({
-        question: "What tree did Bunny decide to touch and return?",
-        optionA: "Mango",
-        optionB: "Neem",
-        optionC: "Banana",
-        correctAnswer: "Mango",
+        question: "Which unit is the basic unit of weight?",
+        optionA: "Gram",
+        optionB: "Kilogram",
+        optionC: "Milligram",
+        correctAnswer: "Gram",
       }),
       shuffleOptions({
-        question: "Who wanted to eat Bunny?",
-        optionA: "Cobra",
-        optionB: "Mongoose",
-        optionC: "Jackal",
-        correctAnswer: "Cobra",
+        question: "What should we do to convert metres into centimetres?",
+        optionA: "Divide",
+        optionB: "Multiply",
+        optionC: "Subtract",
+        correctAnswer: "Multiply",
       }),
       shuffleOptions({
-        question: "Who finally saved Bunny’s life?",
-        optionA: "Cobra",
-        optionB: "Mongoose",
-        optionC: "Farmer",
-        correctAnswer: "Mongoose",
+        question: "Which unit is the standard unit of capacity?",
+        optionA: "Litre",
+        optionB: "Decilitre",
+        optionC: "Centilitre",
+        correctAnswer: "Litre",
       }),
       shuffleOptions({
-        question: "Who wrote the Panchatantra stories?",
-        optionA: "Vishnu Sharma",
-        optionB: "Premchand",
-        optionC: "Kalidas",
-        correctAnswer: "Vishnu Sharma",
+        question: "Which of the following is equal to 1000 g?",
+        optionA: "1 kg",
+        optionB: "10 dag",
+        optionC: "100 mg",
+        correctAnswer: "1 kg",
       }),
       shuffleOptions({
-        question: "About how many years ago was Panchatantra written?",
-        optionA: "1000 years",
-        optionB: "2300 years",
-        optionC: "500 years",
-        correctAnswer: "2300 years",
+        question: "Which unit should be used to measure long distances like between two cities?",
+        optionA: "Kilometre",
+        optionB: "Metre",
+        optionC: "Centimetre",
+        correctAnswer: "Kilometre",
       }),
       shuffleOptions({
-        question: "Who called Bunny “soft and delicious”?",
-        optionA: "Cobra",
-        optionB: "Rumy",
-        optionC: "Mongoose",
-        correctAnswer: "Cobra",
+        question: "Which unit is used to measure very small liquid amounts like medicine drops?",
+        optionA: "Litre",
+        optionB: "Millilitre",
+        optionC: "Kilolitre",
+        correctAnswer: "Millilitre",
       }),
       shuffleOptions({
-        question: "Who advised Bunny not to go out alone?",
-        optionA: "Rumy",
-        optionB: "Mongoose",
-        optionC: "Farmer",
-        correctAnswer: "Mongoose",
+        question: "Which unit comes just smaller than a metre in the metric table?",
+        optionA: "Decimetre",
+        optionB: "Kilometre",
+        optionC: "Millimetre",
+        correctAnswer: "Decimetre",
       }),
       shuffleOptions({
-        question: "Bunny thanked the mongoose by calling him ______.",
-        optionA: "Uncle",
-        optionB: "Brother",
-        optionC: "Friend",
-        correctAnswer: "Uncle",
+        question: "Which unit of weight is used for gold ornaments?",
+        optionA: "Kilogram",
+        optionB: "Gram",
+        optionC: "Milligram",
+        correctAnswer: "Milligram",
       }),
     ]),
   };
@@ -113,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Bunny lived in a deep ______.",
-        optionA: "Burrow",
-        optionB: "Nest",
-        optionC: "Cave",
-        correctAnswer: "Burrow",
+        question: "1 l is equal to ______ ml.",
+        optionA: "100",
+        optionB: "1000",
+        optionC: "10",
+        correctAnswer: "1000",
       }),
       shuffleOptions({
-        question: "Rumy told Bunny he was too ______ to go out.",
-        optionA: "Young",
-        optionB: "Old",
-        optionC: "Naughty",
-        correctAnswer: "Young",
+        question: "1 cm is equal to ______ mm.",
+        optionA: "10 mm",
+        optionB: "100 mm",
+        optionC: "1 mm",
+        correctAnswer: "10 mm",
       }),
       shuffleOptions({
-        question: "Bunny thought he would only touch the ______ tree.",
-        optionA: "Mango",
-        optionB: "Apple",
-        optionC: "Guava",
-        correctAnswer: "Mango",
+        question: "3 kg is equal to ______ g.",
+        optionA: "300 g",
+        optionB: "3000 g",
+        optionC: "30 g",
+        correctAnswer: "3000 g",
       }),
       shuffleOptions({
-        question: "Bunny enjoyed the green ______ and trees full of fruits.",
-        optionA: "Meadow",
-        optionB: "River",
-        optionC: "Desert",
-        correctAnswer: "Meadow",
+        question: "5 m is equal to ______ cm.",
+        optionA: "50 cm",
+        optionB: "500 cm",
+        optionC: "5000 cm",
+        correctAnswer: "500 cm",
       }),
       shuffleOptions({
-        question: "The cobra said Bunny would make a nice ______.",
-        optionA: "Meal",
-        optionB: "Friend",
-        optionC: "Toy",
-        correctAnswer: "Meal",
+        question: "2500 ml is equal to 2 l ______ ml.",
+        optionA: "500 ml",
+        optionB: "250 ml",
+        optionC: "50 ml",
+        correctAnswer: "500 ml",
       }),
       shuffleOptions({
-        question: "Bunny offered ______ and fruits to the cobra.",
-        optionA: "Carrots",
-        optionB: "Rice",
-        optionC: "Bread",
-        correctAnswer: "Carrots",
+        question: "80 cm equals 0 m ______ cm.",
+        optionA: "8 cm",
+        optionB: "80 cm",
+        optionC: "0 m 80 cm",
+        correctAnswer: "0 m 80 cm",
       }),
       shuffleOptions({
-        question: "The cobra refused to eat ______.",
-        optionA: "Carrots",
-        optionB: "Mangoes",
-        optionC: "Apples",
-        correctAnswer: "Carrots",
+        question: "7000 g is equal to ______ kg.",
+        optionA: "7 kg",
+        optionB: "70 kg",
+        optionC: "700 kg",
+        correctAnswer: "7 kg",
       }),
       shuffleOptions({
-        question: "The mongoose warned Bunny not to go out ______.",
-        optionA: "Alone",
-        optionB: "With friends",
-        optionC: "At night",
-        correctAnswer: "Alone",
+        question: "150 ml is equal to ______ cl.",
+        optionA: "15 cl",
+        optionB: "150 cl",
+        optionC: "1.5 cl",
+        correctAnswer: "15 cl",
       }),
       shuffleOptions({
-        question: "The Panchatantra stories were written to teach ______.",
-        optionA: "Morals",
-        optionB: "Songs",
-        optionC: "Games",
-        correctAnswer: "Morals",
+        question: "6 l 300 ml is equal to ______ ml.",
+        optionA: "630 ml",
+        optionB: "6300 ml",
+        optionC: "603 ml",
+        correctAnswer: "6300 ml",
       }),
       shuffleOptions({
-        question: "Bunny shouted “______ save me!” when in danger.",
-        optionA: "Mummy",
-        optionB: "Uncle",
-        optionC: "Farmer",
-        correctAnswer: "Mummy",
+        question: "45 mm is equal to ______ cm.",
+        optionA: "4.5 cm",
+        optionB: "4 cm 5 mm",
+        optionC: "0.45 cm",
+        correctAnswer: "4.5 cm",
       }),
     ]),
   };
@@ -191,61 +198,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Bunny’s mother’s name was Rumy.",
+        question: "1 decimetre is equal to 10 centimetres.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Bunny promised not to go beyond the mango tree.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The cobra wanted to eat fruits and carrots.",
+        question: "1 hectolitre is smaller than 1 litre.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The mongoose saved Bunny from the cobra.",
+        question: "To convert a smaller unit into a bigger unit, we divide.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Bunny thanked the cobra for saving his life.",
+        question: "1000 ml is equal to 1 litre.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Milligram is the basic unit of weight.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The meadow outside was green and full of fruits.",
+        question: "Litre is the standard unit to measure liquids.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Bunny called the mongoose his uncle.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Rumy told Bunny he could go out whenever he wanted.",
+        question: "1 km is equal to 100 m.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Bunny was frightened when he saw the cobra.",
+        question: "Centimetre is bigger than metre.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "1 g = 1000 mg.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The story teaches children to obey their parents.",
+        question: "Millilitre is the smallest unit of capacity.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -253,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

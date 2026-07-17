@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 2: The Little Plant";
+export const chapter = "Chapter - 2: Roman Numerals";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Where was the little plant lying?",
-        optionA: "In a pot",
-        optionB: "In the heart of a seed",
-        optionC: "On the ground",
-        correctAnswer: "In the heart of a seed",
+        question: "Which Roman symbol represents 10?",
+        optionA: "V",
+        optionB: "X",
+        optionC: "L",
+        correctAnswer: "X",
       }),
       shuffleOptions({
-        question: "What was the plant doing inside the seed?",
-        optionA: "Sleeping",
-        optionB: "Dancing",
-        optionC: "Reading",
-        correctAnswer: "Sleeping",
+        question: "How many times can I be repeated in Roman numerals?",
+        optionA: "Four times",
+        optionB: "Two times",
+        optionC: "Three times",
+        correctAnswer: "Three times",
       }),
       shuffleOptions({
-        question: "Who asked the little plant to wake?",
-        optionA: "Moon and stars",
-        optionB: "Sunshine and raindrops",
-        optionC: "Wind and thunder",
-        correctAnswer: "Sunshine and raindrops",
+        question: "Which numeral shows subtraction?",
+        optionA: "VII",
+        optionB: "IV",
+        optionC: "XI",
+        correctAnswer: "IV",
       }),
       shuffleOptions({
-        question: "What did the sunshine say?",
-        optionA: "Sleep more",
-        optionB: "Wake and creep to the light",
-        optionC: "Play with me",
-        correctAnswer: "Wake and creep to the light",
+        question: "What is the value of L in Roman numerals?",
+        optionA: "10",
+        optionB: "50",
+        optionC: "100",
+        correctAnswer: "50",
       }),
       shuffleOptions({
-        question: "What did the raindrops say?",
-        optionA: "Wake",
-        optionB: "Shine",
-        optionC: "Sleep",
-        correctAnswer: "Wake",
+        question: "Which symbol cannot be repeated?",
+        optionA: "V",
+        optionB: "I",
+        optionC: "X",
+        correctAnswer: "V",
       }),
       shuffleOptions({
-        question: "Who wrote the poem The Little Plant?",
-        optionA: "K.L. Brown",
-        optionB: "William Wordsworth",
-        optionC: "Rabindranath Tagore",
-        correctAnswer: "K.L. Brown",
+        question: "What does the numeral XC represent?",
+        optionA: "40",
+        optionB: "90",
+        optionC: "110",
+        correctAnswer: "90",
       }),
       shuffleOptions({
-        question: "The little plant rose to ______.",
-        optionA: "Eat",
-        optionB: "See",
-        optionC: "Hide",
-        correctAnswer: "See",
+        question: "Which numeral is formed by adding 10 + 5?",
+        optionA: "XX",
+        optionB: "XV",
+        optionC: "VII",
+        correctAnswer: "XV",
       }),
       shuffleOptions({
-        question: "What did the little plant want to see?",
-        optionA: "The inside of the seed",
-        optionB: "The outside world",
-        optionC: "The stars",
-        correctAnswer: "The outside world",
+        question: "What is the value of C?",
+        optionA: "100",
+        optionB: "10",
+        optionC: "50",
+        correctAnswer: "100",
       }),
       shuffleOptions({
-        question: "The outside world was described as ______.",
-        optionA: "Wonderful",
-        optionB: "Terrible",
-        optionC: "Empty",
-        correctAnswer: "Wonderful",
+        question: "Which numeral is greater?",
+        optionA: "XL",
+        optionB: "LX",
+        optionC: "XX",
+        correctAnswer: "LX",
       }),
       shuffleOptions({
-        question: "Which two natural things helped the plant to grow?",
-        optionA: "Sunshine and raindrops",
-        optionB: "Wind and moon",
-        optionC: "Soil and clouds",
-        correctAnswer: "Sunshine and raindrops",
+        question: "Which numeral is written using the subtraction rule?",
+        optionA: "XI",
+        optionB: "VI",
+        optionC: "IX",
+        correctAnswer: "IX",
       }),
     ]),
   };
@@ -113,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "In the heart of a ______ lay fast asleep.",
-        optionA: "flower",
-        optionB: "seed",
-        optionC: "root",
-        correctAnswer: "seed",
+        question: "______ is the Roman numeral for 5.",
+        optionA: "V",
+        optionB: "X",
+        optionC: "L",
+        correctAnswer: "V",
       }),
       shuffleOptions({
-        question: "“Wake,” said the ______.",
-        optionA: "sunshine",
-        optionB: "moon",
-        optionC: "wind",
-        correctAnswer: "sunshine",
+        question: "The value of ______ is 50.",
+        optionA: "C",
+        optionB: "L",
+        optionC: "M",
+        correctAnswer: "L",
       }),
       shuffleOptions({
-        question: "“Wake,” said the voice of the ______ bright.",
-        optionA: "raindrops",
-        optionB: "clouds",
-        optionC: "stars",
-        correctAnswer: "raindrops",
+        question: "The numeral ______ represents 100.",
+        optionA: "C",
+        optionB: "L",
+        optionC: "D",
+        correctAnswer: "C",
       }),
       shuffleOptions({
-        question: "The little plant ______ the call.",
-        optionA: "ignored",
-        optionB: "heard",
-        optionC: "forgot",
-        correctAnswer: "heard",
+        question: "______ is equal to 80.",
+        optionA: "LX",
+        optionB: "LXXX",
+        optionC: "XL",
+        correctAnswer: "LXXX",
       }),
       shuffleOptions({
-        question: "And it rose to ______.",
-        optionA: "see",
-        optionB: "sleep",
-        optionC: "eat",
-        correctAnswer: "see",
+        question: "The symbol ______ can be subtracted only from V and X.",
+        optionA: "C",
+        optionB: "I",
+        optionC: "L",
+        correctAnswer: "I",
       }),
       shuffleOptions({
-        question: "The plant was lying ______.",
-        optionA: "in the heart of a seed",
-        optionB: "on a leaf",
-        optionC: "near the river",
-        correctAnswer: "in the heart of a seed",
+        question: "______ represents 9 in Roman numerals.",
+        optionA: "VIII",
+        optionB: "VI",
+        optionC: "IX",
+        correctAnswer: "IX",
       }),
       shuffleOptions({
-        question: "The world outside was ______.",
-        optionA: "wonderful",
-        optionB: "dark",
-        optionC: "empty",
-        correctAnswer: "wonderful",
+        question: "In Roman numerals, ______ means 40.",
+        optionA: "XL",
+        optionB: "LX",
+        optionC: "XX",
+        correctAnswer: "XL",
       }),
       shuffleOptions({
-        question: "The sunshine told the plant to ______.",
-        optionA: "creep to the light",
-        optionB: "go to sleep",
-        optionC: "stay quiet",
-        correctAnswer: "creep to the light",
+        question: "The numeral ______ is formed by adding 10 + 10 + 10.",
+        optionA: "XXX",
+        optionB: "XX",
+        optionC: "XV",
+        correctAnswer: "XXX",
       }),
       shuffleOptions({
-        question: "The raindrops were described as ______.",
-        optionA: "bright",
-        optionB: "weak",
-        optionC: "dull",
-        correctAnswer: "bright",
+        question: "Roman numerals do not have the symbol for ______.",
+        optionA: "5",
+        optionB: "10",
+        optionC: "0",
+        correctAnswer: "0",
       }),
       shuffleOptions({
-        question: "The poem describes how a ______ grows.",
-        optionA: "bird",
-        optionB: "plant",
-        optionC: "fish",
-        correctAnswer: "plant",
+        question: "The numeral ______ represents 70.",
+        optionA: "LXX",
+        optionB: "LX",
+        optionC: "LXXX",
+        correctAnswer: "LXX",
       }),
     ]),
   };
@@ -191,67 +198,65 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The little plant was asleep in the seed.",
+        question: "The Romans used letters of the English alphabet as symbols for numerals.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The moon asked the plant to wake.",
+        question: "The numeral C represents 500.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The sunshine told the plant to wake.",
+        question: "The numeral IX is formed using subtraction.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The raindrops told the plant to creep to the light.",
+        question: "Roman numeral LXX equals 70.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "The symbol V can be repeated three times.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The little plant heard the call.",
+        question: "The Romans did not have any symbol for zero.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The outside world was described as terrible.",
+        question: "The numeral XV is equal to 20.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The little plant rose to see the outside world.",
+        question: "The symbol I can be placed before X to show subtraction.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The sunshine and raindrops helped the plant grow.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The poem was written by K.L. Brown.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The little plant stayed inside the seed forever.",
+        question: "The numeral LX represents 80.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "The numeral XX is greater than XV.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
       }),
     ]),
   };
 }
-
-export var activityData;

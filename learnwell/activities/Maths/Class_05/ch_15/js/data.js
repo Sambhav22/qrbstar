@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 15: A Mouse Reached the Moon";
+export const chapter = "Chapter - 15: Temperature";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "How did the mouse travel to the moon?",
-        optionA: "Ship",
-        optionB: "Balloon",
-        optionC: "Rocket",
-        correctAnswer: "Balloon",
+        question: "What does a thermometer measure?",
+        optionA: "Weight",
+        optionB: "Temperature",
+        optionC: "Length",
+        correctAnswer: "Temperature",
       }),
       shuffleOptions({
-        question: "Where did the mouse finally reach?",
-        optionA: "Sun",
-        optionB: "Moon",
-        optionC: "Stars",
-        correctAnswer: "Moon",
+        question: "What is the freezing point of water in Celsius?",
+        optionA: "0°C",
+        optionB: "10°C",
+        optionC: "50°C",
+        correctAnswer: "0°C",
       }),
       shuffleOptions({
-        question: "Who was glad to see the mouse?",
-        optionA: "A rabbit",
-        optionB: "The man in the moon",
-        optionC: "A star",
-        correctAnswer: "The man in the moon",
+        question: "Which liquid is generally used in thermometers?",
+        optionA: "Water",
+        optionB: "Oil",
+        optionC: "Mercury",
+        correctAnswer: "Mercury",
       }),
       shuffleOptions({
-        question: "What food was found on the moon?",
-        optionA: "Cheese",
-        optionB: "Fruits",
-        optionC: "Rice",
-        correctAnswer: "Cheese",
+        question: "What is the boiling point of water in Fahrenheit?",
+        optionA: "180°F",
+        optionB: "212°F",
+        optionC: "150°F",
+        correctAnswer: "212°F",
       }),
       shuffleOptions({
-        question: "How long did the mouse stay on the moon?",
-        optionA: "Forever",
-        optionB: "For a while",
-        optionC: "For a year",
-        correctAnswer: "For a while",
+        question: "Which scale is marked from 0° to 100°?",
+        optionA: "Kelvin scale",
+        optionB: "Celsius scale",
+        optionC: "Fahrenheit scale",
+        correctAnswer: "Celsius scale",
       }),
       shuffleOptions({
-        question: "Who welcomed the mouse warmly?",
-        optionA: "The sun",
-        optionB: "The man in the moon",
-        optionC: "The stars",
-        correctAnswer: "The man in the moon",
+        question: "What happens to mercury when it is heated?",
+        optionA: "It expands and rises in the thermometer",
+        optionB: "It freezes",
+        optionC: "It disappears",
+        correctAnswer: "It expands and rises in the thermometer",
       }),
       shuffleOptions({
-        question: "What was the mouse’s reply when asked to stay?",
-        optionA: "He refused",
-        optionB: "He agreed",
-        optionC: "He kept quiet",
-        correctAnswer: "He agreed",
+        question: "What is the normal body temperature in Fahrenheit?",
+        optionA: "95°F",
+        optionB: "98.6°F",
+        optionC: "102°F",
+        correctAnswer: "98.6°F",
       }),
       shuffleOptions({
-        question: "What was missing on the moon?",
-        optionA: "Cheese",
-        optionB: "Fruits",
-        optionC: "Man",
-        correctAnswer: "Fruits",
+        question: "Which thermometer is used by doctors to measure body temperature?",
+        optionA: "Laboratory thermometer",
+        optionB: "Clinical thermometer",
+        optionC: "Digital clock",
+        correctAnswer: "Clinical thermometer",
       }),
       shuffleOptions({
-        question: "How did the man in the moon feel when he saw the mouse?",
-        optionA: "Angry",
-        optionB: "Glad",
-        optionC: "Worried",
-        correctAnswer: "Glad",
+        question: "What is the lower fixed point on the Fahrenheit scale?",
+        optionA: "0°F",
+        optionB: "10°F",
+        optionC: "32°F",
+        correctAnswer: "32°F",
       }),
       shuffleOptions({
-        question: "What type of text is “A Mouse Reached the Moon”?",
-        optionA: "Poem",
-        optionB: "Story",
-        optionC: "Article",
-        correctAnswer: "Poem",
+        question: "Who designed the Celsius thermometer?",
+        optionA: "Gabriel Fahrenheit",
+        optionB: "Anders Celsius",
+        optionC: "Isaac Newton",
+        correctAnswer: "Anders Celsius",
       }),
     ]),
   };
@@ -114,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The poem is about a ______.",
-        optionA: "Cat",
-        optionB: "Mouse",
-        optionC: "Rabbit",
-        correctAnswer: "Mouse",
+        question: "Water boils at ________ on the Celsius scale.",
+        optionA: "50°C",
+        optionB: "80°C",
+        optionC: "100°C",
+        correctAnswer: "100°C",
       }),
       shuffleOptions({
-        question: "The mouse travelled in a big ______.",
-        optionA: "Ship",
-        optionB: "Balloon",
-        optionC: "Train",
-        correctAnswer: "Balloon",
+        question: "The Fahrenheit thermometer is marked from 32°F to ________.",
+        optionA: "200°F",
+        optionB: "212°F",
+        optionC: "250°F",
+        correctAnswer: "212°F",
       }),
       shuffleOptions({
-        question: "The man in the moon was very ______ to see the mouse.",
-        optionA: "Sad",
-        optionB: "Glad",
-        optionC: "Angry",
-        correctAnswer: "Glad",
+        question: "The normal body temperature of a human body is ________.",
+        optionA: "90°F",
+        optionB: "98.6°F",
+        optionC: "110°F",
+        correctAnswer: "98.6°F",
       }),
       shuffleOptions({
-        question: "The mouse was ______ welcomed.",
-        optionA: "Warmly",
-        optionB: "Coldly",
-        optionC: "Rudely",
-        correctAnswer: "Warmly",
+        question: "The bulb of a thermometer contains ________.",
+        optionA: "Mercury",
+        optionB: "Water",
+        optionC: "Ink",
+        correctAnswer: "Mercury",
       }),
       shuffleOptions({
-        question: "The moon had nothing to eat except ______.",
-        optionA: "Fruits",
-        optionB: "Bread",
-        optionC: "Cheese",
-        correctAnswer: "Cheese",
+        question: "The Celsius thermometer was designed by ________.",
+        optionA: "Anders Celsius",
+        optionB: "Rutherford",
+        optionC: "Thomson",
+        correctAnswer: "Anders Celsius",
       }),
       shuffleOptions({
-        question: "The mouse said, “I’ll stay as long as you ______.”",
-        optionA: "Want",
-        optionB: "Please",
-        optionC: "Ask",
-        correctAnswer: "Please",
+        question: "Each short line on a clinical thermometer represents ________ degrees.",
+        optionA: "0.1",
+        optionB: "0.2",
+        optionC: "1.0",
+        correctAnswer: "0.2",
       }),
       shuffleOptions({
-        question: "The mouse stayed for a ______.",
-        optionA: "Month",
-        optionB: "While",
-        optionC: "Year",
-        correctAnswer: "While",
+        question: "The Fahrenheit scale lower fixed point is ________.",
+        optionA: "32°F",
+        optionB: "30°F",
+        optionC: "0°F",
+        correctAnswer: "32°F",
       }),
       shuffleOptions({
-        question: "The mouse met the man in the ______.",
-        optionA: "Sun",
-        optionB: "Moon",
-        optionC: "Star",
-        correctAnswer: "Moon",
+        question: "Temperature tells us how ________ or cold something is.",
+        optionA: "long",
+        optionB: "heavy",
+        optionC: "hot",
+        correctAnswer: "hot",
       }),
       shuffleOptions({
-        question: "The mouse was pleased with the ______ welcome.",
-        optionA: "Warm",
-        optionB: "Rude",
-        optionC: "Sad",
-        correctAnswer: "Warm",
+        question: "A thermometer should be read while holding it ________.",
+        optionA: "Vertically",
+        optionB: "Horizontally",
+        optionC: "Upside down",
+        correctAnswer: "Horizontally",
       }),
       shuffleOptions({
-        question: "The mouse reached the moon after sailing in ______.",
-        optionA: "Style",
-        optionB: "Fear",
-        optionC: "Silence",
-        correctAnswer: "Style",
+        question: "Mercury rises in the thermometer because it ________ on heating.",
+        optionA: "contracts",
+        optionB: "expands",
+        optionC: "breaks",
+        correctAnswer: "expands",
       }),
     ]),
   };
@@ -192,67 +198,65 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The mouse reached the sun.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The mouse went up in a balloon.",
+        question: "The normal body temperature is about 37°C.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The man in the moon was sad to see the mouse.",
+        question: "Water freezes at 10°C.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The mouse stayed for a while on the moon.",
+        question: "Mercury in thermometers rises when heated.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "There was cheese to eat on the moon.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The man in the moon did not talk to the mouse.",
+        question: "The Fahrenheit thermometer begins at 0°F.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The mouse was warmly welcomed.",
+        question: "Clinical thermometers are used to measure body temperature.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The mouse went by ship.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The mouse was glad to stay.",
+        question: "Water boils at 212°F.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The moon was full of trees.",
+        question: "A thermometer can be shaken while reading the temperature.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "Temperature is measured in degrees.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "A Celsius thermometer shows boiling water at 50°C.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "Mercury expands when it becomes hotter.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
       }),
     ]),
   };
 }
-
-export var activityData;

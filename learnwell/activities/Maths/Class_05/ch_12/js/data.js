@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 12: The Brat";
+export const chapter = "Chapter - 12: Profit and Loss";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who was called “the Brat”?",
-        optionA: "Roshan",
-        optionB: "Ankur",
-        optionC: "Bhushan",
-        correctAnswer: "Ankur",
+        question: "Which term refers to the price at which an article is bought?",
+        optionA: "SP",
+        optionB: "CP",
+        optionC: "Profit",
+        correctAnswer: "CP",
       }),
       shuffleOptions({
-        question: "Who noticed Ankur’s misbehaviour?",
-        optionA: "Teacher",
-        optionB: "Mother",
-        optionC: "Father",
-        correctAnswer: "Mother",
+        question: "If an item is sold at a higher price than its cost price, it results in a—",
+        optionA: "Loss",
+        optionB: "Profit",
+        optionC: "Overhead",
+        correctAnswer: "Profit",
       }),
       shuffleOptions({
-        question: "Which month was Ankur admitted to Class I?",
-        optionA: "March",
-        optionB: "April",
-        optionC: "May",
-        correctAnswer: "April",
+        question: "Loss is calculated using which expression?",
+        optionA: "SP – CP",
+        optionB: "CP – SP",
+        optionC: "SP + CP",
+        correctAnswer: "CP – SP",
       }),
       shuffleOptions({
-        question: "Who became Ankur’s first friend in school?",
-        optionA: "Rohit",
-        optionB: "Bhushan",
-        optionC: "Roshan",
-        correctAnswer: "Bhushan",
+        question: "The additional charges like transport or labour are called",
+        optionA: "CP",
+        optionB: "SP",
+        optionC: "Overheads",
+        correctAnswer: "Overheads",
       }),
       shuffleOptions({
-        question: "Who asked the class to clap for Ankur?",
-        optionA: "His mother",
-        optionB: "Teacher",
-        optionC: "Bhushan",
-        correctAnswer: "Teacher",
+        question: "What do we call the price at which an article is sold?",
+        optionA: "CP",
+        optionB: "SP",
+        optionC: "Profit",
+        correctAnswer: "SP",
       }),
       shuffleOptions({
-        question: "What did Ankur love the most?",
-        optionA: "Cartoons",
-        optionB: "Cricket",
-        optionC: "Sweets",
-        correctAnswer: "Cartoons",
+        question: "When SP < CP, the seller makes a—",
+        optionA: "Loss",
+        optionB: "Profit",
+        optionC: "Extra charge",
+        correctAnswer: "Loss",
       }),
       shuffleOptions({
-        question: "What did Ankur call Bhushan after the test?",
-        optionA: "Dumb",
-        optionB: "Clever",
-        optionC: "Brilliant",
-        correctAnswer: "Dumb",
+        question: "Which of the following is a component of a transaction?",
+        optionA: "Cost Price",
+        optionB: "Selling Price",
+        optionC: "Both a and b",
+        correctAnswer: "Both a and b",
       }),
       shuffleOptions({
-        question: "Who told Ankur the bee–dove story?",
-        optionA: "Teacher",
-        optionB: "Nalini",
-        optionC: "Bhushan",
-        correctAnswer: "Nalini",
+        question: "Profit is calculated as—",
+        optionA: "CP – SP",
+        optionB: "SP – CP",
+        optionC: "CP × SP",
+        correctAnswer: "SP – CP",
       }),
       shuffleOptions({
-        question: "What punishment did Ankur get?",
-        optionA: "Stand in corner",
-        optionB: "Pick papers",
-        optionC: "Miss games",
-        correctAnswer: "Pick papers",
+        question: "Profit percent is always calculated on—",
+        optionA: "SP",
+        optionB: "CP",
+        optionC: "Overheads",
+        correctAnswer: "CP",
       }),
       shuffleOptions({
-        question: "Who helped Ankur during his punishment?",
-        optionA: "Teacher",
-        optionB: "Bhushan",
-        optionC: "Other students",
-        correctAnswer: "Bhushan",
+        question: "Loss% = (Loss ÷ CP) × ______.",
+        optionA: "50",
+        optionB: "10",
+        optionC: "100",
+        correctAnswer: "100",
       }),
     ]),
   };
@@ -114,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Ankur was not yet ______ years old.",
-        optionA: "five",
-        optionB: "six",
-        optionC: "seven",
-        correctAnswer: "five",
+        question: "SP = CP + ______.",
+        optionA: "Loss",
+        optionB: "Profit",
+        optionC: "Overheads",
+        correctAnswer: "Profit",
       }),
       shuffleOptions({
-        question: "His parents gave him all ______ he asked for.",
-        optionA: "punishments",
-        optionB: "facilities",
-        optionC: "sweets",
-        correctAnswer: "facilities",
+        question: "CP stands for ______ Price.",
+        optionA: "Correct",
+        optionB: "Cost",
+        optionC: "Common",
+        correctAnswer: "Cost",
       }),
       shuffleOptions({
-        question: "Bhushan’s father had been ______ to the city.",
-        optionA: "shifted",
-        optionB: "transferred",
-        optionC: "moved",
-        correctAnswer: "transferred",
+        question: "If SP < CP, there is a ______.",
+        optionA: "Profit",
+        optionB: "Loss",
+        optionC: "Overhead",
+        correctAnswer: "Loss",
       }),
       shuffleOptions({
-        question: "Ankur scored extremely ______ in the unit test.",
-        optionA: "poorly",
-        optionB: "well",
-        optionC: "badly",
-        correctAnswer: "well",
+        question: "Extra charges spent on repairs are called ______.",
+        optionA: "CP",
+        optionB: "SP",
+        optionC: "Overheads",
+        correctAnswer: "Overheads",
       }),
       shuffleOptions({
-        question: "Bhushan did not ______ Ankur’s bossy behaviour.",
-        optionA: "ignore",
-        optionB: "mind",
-        optionC: "like",
-        correctAnswer: "mind",
+        question: "Profit = SP – ______.",
+        optionA: "CP",
+        optionB: "Loss",
+        optionC: "Overheads",
+        correctAnswer: "CP",
       }),
       shuffleOptions({
-        question: "A dove threw a ______ into the water.",
-        optionA: "stick",
-        optionB: "leaf",
-        optionC: "stone",
-        correctAnswer: "leaf",
+        question: "Loss = CP – ______.",
+        optionA: "CP",
+        optionB: "SP",
+        optionC: "Profit",
+        correctAnswer: "SP",
       }),
       shuffleOptions({
-        question: "The bee stung the hunter on his ______.",
-        optionA: "arm",
-        optionB: "leg",
-        optionC: "hand",
-        correctAnswer: "arm",
+        question: "Profit% = (Profit ÷ CP) × ______.",
+        optionA: "25",
+        optionB: "100",
+        optionC: "10",
+        correctAnswer: "100",
       }),
       shuffleOptions({
-        question: "The teacher asked Ankur to pick up ______ after school.",
-        optionA: "toys",
-        optionB: "waste papers",
-        optionC: "books",
-        correctAnswer: "waste papers",
+        question: "Selling Price is written as ______.",
+        optionA: "SP",
+        optionB: "SC",
+        optionC: "SL",
+        correctAnswer: "SP",
       }),
       shuffleOptions({
-        question: "Students ______ at Ankur when he was punished.",
-        optionA: "clapped",
-        optionB: "jeered",
-        optionC: "smiled",
-        correctAnswer: "jeered",
+        question: "Transport charges are included in ______.",
+        optionA: "Profit",
+        optionB: "Overheads",
+        optionC: "CP only",
+        correctAnswer: "Overheads",
       }),
       shuffleOptions({
-        question: "In the end, Ankur became a ______ boy.",
-        optionA: "selfish",
-        optionB: "well-behaved",
-        optionC: "brat",
-        correctAnswer: "well-behaved",
+        question: "When SP = CP, the seller makes ______.",
+        optionA: "No profit or loss",
+        optionB: "Profit",
+        optionC: "Loss",
+        correctAnswer: "No profit or loss",
       }),
     ]),
   };
@@ -192,67 +198,65 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Ankur’s parents never refused him anything.",
+        question: "Profit occurs when SP is more than CP.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Bhushan minded Ankur’s bossy behaviour a lot.",
+        question: "CP is the price at which an article is sold.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Nalini told a story of the crow and the pitcher.",
+        question: "Loss happens when CP is less than SP.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Ankur first refused to help Bhushan.",
+        question: "Overheads increase the effective cost price of an item.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Bhushan improved in the next test.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The punishment was to clean the blackboard.",
+        question: "SP = CP – Profit is used to calculate selling price during gain.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Ankur felt embarrassed when others jeered at him.",
+        question: "Loss% is calculated using the formula (Loss ÷ CP) × 100.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Bhushan left Ankur alone during his punishment.",
+        question: "Repairs cannot be considered overheads.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Ankur later explained the meaning of the story to Bhushan.",
+        question: "Profit% is always calculated on selling price.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "If CP and SP are equal, there is no profit or loss.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Finally, Ankur made many friends.",
+        question: "Loss occurs when SP is greater than CP.",
         optionA: "True",
         optionB: "False",
-        correctAnswer: "True",
+        correctAnswer: "False",
       }),
     ]),
   };
 }
-
-export var activityData;

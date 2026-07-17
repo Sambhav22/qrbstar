@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 13: Shivaji’s Adventure";
+export const chapter = "Chapter - 13: Area and Perimeter";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who was the Mughal emperor who supported Bijapur against Shivaji?",
-        optionA: "Akbar",
-        optionB: "Aurangzeb",
-        optionC: "Jahangir",
-        correctAnswer: "Aurangzeb",
+        question: "Which unit is best suited to measure the area of a big playground?",
+        optionA: "sq mm",
+        optionB: "sq cm",
+        optionC: "sq m",
+        correctAnswer: "sq m",
       }),
       shuffleOptions({
-        question: "Where did Shivaji meet Afzal?",
-        optionA: "In Delhi",
-        optionB: "At the foothills of Pratapgarh fort",
-        optionC: "In Bijapur",
-        correctAnswer: "At the foothills of Pratapgarh fort",
+        question: "What do we call the space covered by a closed figure?",
+        optionA: "Perimeter",
+        optionB: "Area",
+        optionC: "Volume",
+        correctAnswer: "Area",
       }),
       shuffleOptions({
-        question: "What protected Shivaji from Afzal’s dagger attack?",
-        optionA: "Armour under his clothes",
-        optionB: "A shield",
-        optionC: "His soldiers",
-        correctAnswer: "Armour under his clothes",
+        question: "Which of the following shapes always has all sides equal?",
+        optionA: "Rectangle",
+        optionB: "Square",
+        optionC: "Triangle",
+        correctAnswer: "Square",
       }),
       shuffleOptions({
-        question: "What was Afzal carrying hidden in his clothes?",
-        optionA: "A sword",
-        optionB: "A dagger",
-        optionC: "A revolver",
-        correctAnswer: "A dagger",
+        question: "What do we find when we add all sides of a closed figure?",
+        optionA: "Area",
+        optionB: "Diagonal",
+        optionC: "Perimeter",
+        correctAnswer: "Perimeter",
       }),
       shuffleOptions({
-        question: "What was erected for the meeting between Shivaji and Afzal?",
-        optionA: "A palace",
-        optionB: "A pavilion",
-        optionC: "A temple",
-        correctAnswer: "A pavilion",
+        question: "Which formula is used to find the area of a rectangle?",
+        optionA: "Length × Breadth",
+        optionB: "4 × side",
+        optionC: "2 × (length + breadth)",
+        correctAnswer: "Length × Breadth",
       }),
       shuffleOptions({
-        question: "Who hit Shivaji on the head with a sword?",
-        optionA: "Afzal’s attendant",
-        optionB: "Afzal himself",
-        optionC: "A Mughal soldier",
-        correctAnswer: "Afzal’s attendant",
+        question: "Which unit is used to measure the area of a country?",
+        optionA: "sq km",
+        optionB: "sq cm",
+        optionC: "sq m",
+        correctAnswer: "sq km",
       }),
       shuffleOptions({
-        question: "How many elephants did Shivaji capture after the battle?",
-        optionA: "25",
-        optionB: "65",
-        optionC: "125",
-        correctAnswer: "65",
+        question: "Which of these figures has opposite sides equal?",
+        optionA: "Square",
+        optionB: "Rectangle",
+        optionC: "Circle",
+        correctAnswer: "Rectangle",
       }),
       shuffleOptions({
-        question: "Afzal thought he could defeat Shivaji easily in the –",
-        optionA: "plains",
-        optionB: "fort",
-        optionC: "hills",
-        correctAnswer: "plains",
+        question: "What is the area of a square whose side is 3 cm?",
+        optionA: "6 sq cm",
+        optionB: "9 sq cm",
+        optionC: "12 sq cm",
+        correctAnswer: "9 sq cm",
       }),
       shuffleOptions({
-        question: "What did Afzal destroy on his way to Shivaji?",
-        optionA: "Cities, crops and temples",
-        optionB: "Palaces and wells",
-        optionC: "Forts and rivers",
-        correctAnswer: "Cities, crops and temples",
+        question: "Which of the following shows the perimeter of a square?",
+        optionA: "4 × side",
+        optionB: "side × side",
+        optionC: "length × breadth",
+        correctAnswer: "4 × side",
       }),
       shuffleOptions({
-        question: "After the battle, the Marathas became more –",
-        optionA: "weak",
-        optionB: "powerful",
-        optionC: "afraid",
-        correctAnswer: "powerful",
+        question: "Which unit is the smallest for measuring area?",
+        optionA: "sq metre",
+        optionB: "sq millimetre",
+        optionC: "sq kilometre",
+        correctAnswer: "sq millimetre",
       }),
     ]),
   };
@@ -113,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Shivaji gathered a bunch of ______ to fight the enemies.",
-        optionA: "men",
-        optionB: "boys",
-        optionC: "farmers",
-        correctAnswer: "boys",
+        question: "The area of a square is found by multiplying side × ______.",
+        optionA: "length",
+        optionB: "breadth",
+        optionC: "side",
+        correctAnswer: "side",
       }),
       shuffleOptions({
-        question: "Afzal was a commander of ______.",
-        optionA: "Mughals",
-        optionB: "Bijapur",
-        optionC: "Marathas",
-        correctAnswer: "Bijapur",
+        question: "The perimeter of a rectangle is 2 × (length + ______).",
+        optionA: "area",
+        optionB: "breadth",
+        optionC: "side",
+        correctAnswer: "breadth",
       }),
       shuffleOptions({
-        question: "Shivaji’s meeting with Afzal took place on ______ 1659.",
-        optionA: "10 April",
-        optionB: "10 November",
-        optionC: "15 August",
-        correctAnswer: "10 November",
+        question: "Area is measured in ______ units.",
+        optionA: "square",
+        optionB: "cubic",
+        optionC: "circular",
+        correctAnswer: "square",
       }),
       shuffleOptions({
-        question: "Shivaji wore ______ under his turban for protection.",
-        optionA: "an iron cap",
-        optionB: "a crown",
-        optionC: "a helmet",
-        correctAnswer: "an iron cap",
+        question: "The space inside a figure is called its ______.",
+        optionA: "length",
+        optionB: "perimeter",
+        optionC: "area",
+        correctAnswer: "area",
       }),
       shuffleOptions({
-        question: "Afzal grew overconfident when he saw Shivaji’s ______ body.",
-        optionA: "short and lean",
-        optionB: "strong",
-        optionC: "muscular",
-        correctAnswer: "short and lean",
+        question: "A square with side 5 cm has perimeter ______ cm.",
+        optionA: "15",
+        optionB: "20",
+        optionC: "25",
+        correctAnswer: "20",
       }),
       shuffleOptions({
-        question: "Shivaji used a ______ to attack Afzal.",
-        optionA: "Bichhva",
-        optionB: "spear",
-        optionC: "bow",
-        correctAnswer: "Bichhva",
+        question: "A rectangle has ______ pairs of equal sides.",
+        optionA: "one",
+        optionB: "two",
+        optionC: "three",
+        correctAnswer: "two",
       }),
       shuffleOptions({
-        question: "The sudden attack ______ the enemy soldiers.",
-        optionA: "confused",
-        optionB: "helped",
-        optionC: "pleased",
-        correctAnswer: "confused",
+        question: "Very large areas, such as states, are measured in ______.",
+        optionA: "sq cm",
+        optionB: "sq mm",
+        optionC: "sq km",
+        correctAnswer: "sq km",
       }),
       shuffleOptions({
-        question: "Shivaji hid his small army in the ______.",
-        optionA: "fort",
-        optionB: "hills",
-        optionC: "forests",
-        correctAnswer: "hills",
+        question: "To find area using square paper, we count the number of ______ squares.",
+        optionA: "coloured",
+        optionB: "complete",
+        optionC: "dotted",
+        correctAnswer: "complete",
       }),
       shuffleOptions({
-        question: "Afzal set out from Bijapur in ______ 1659.",
-        optionA: "April",
-        optionB: "November",
-        optionC: "July",
-        correctAnswer: "April",
+        question: "Perimeter tells us the total ______ around a closed figure.",
+        optionA: "distance",
+        optionB: "area",
+        optionC: "squares",
+        correctAnswer: "distance",
       }),
       shuffleOptions({
-        question: "Shivaji captured ______ camels.",
-        optionA: "4,000",
-        optionB: "12,000",
-        optionC: "2,000",
-        correctAnswer: "12,000",
+        question: "A square of side 10 cm has area ______ sq cm.",
+        optionA: "50",
+        optionB: "100",
+        optionC: "10",
+        correctAnswer: "100",
       }),
     ]),
   };
@@ -191,67 +198,65 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The meeting between Shivaji and Afzal took place inside the fort.",
+        question: "A rectangle always has all four sides equal.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Shivaji carried a revolver in the meeting.",
+        question: "Area is the amount of space a shape covers.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Perimeter is measured in square units.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Afzal embraced Shivaji to try and kill him.",
+        question: "A square of side 1 cm has area 1 sq cm.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Shivaji escaped Afzal’s grip with a powerful jerk.",
+        question: "Perimeter of a square is 4 × side.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Shivaji was badly wounded in the fight.",
+        question: "Square kilometres are used to measure very small areas.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Afzal was killed in the battle.",
+        question: "When counting area on grid paper, more-than-half squares are counted as full squares.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Shivaji captured 4,000 horses from the battle.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Shivaji was saved by his armour during Afzal’s attack.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The battle completely unnerved the Marathas.",
+        question: "The area of a rectangle is found by adding its length and breadth.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The Bijapur army fled after Afzal was killed.",
+        question: "Perimeter tells us how much boundary a shape has.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "A square has two pairs of equal sides.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
       }),
     ]),
   };
 }
-
-export var activityData;

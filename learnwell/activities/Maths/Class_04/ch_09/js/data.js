@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 9: Adventure";
+export const chapter = "Chapter - 9: Money";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who discovered America?",
-        optionA: "Vasco da Gama",
-        optionB: "Columbus",
-        optionC: "Galileo",
-        correctAnswer: "Columbus",
+        question: "What do we call the point used to separate rupees and paise while writing money?",
+        optionA: "Comma",
+        optionB: "Decimal point",
+        optionC: "Hyphen",
+        correctAnswer: "Decimal point",
       }),
       shuffleOptions({
-        question: "Who discovered the sea route to India?",
-        optionA: "Columbus",
-        optionB: "Vasco da Gama",
-        optionC: "Newton",
-        correctAnswer: "Vasco da Gama",
+        question: "How many paise are there in ₹4?",
+        optionA: "40",
+        optionB: "400",
+        optionC: "4",
+        correctAnswer: "400",
       }),
       shuffleOptions({
-        question: "What was the first boat made of?",
-        optionA: "Iron",
-        optionB: "Stone",
-        optionC: "Wood",
-        correctAnswer: "Wood",
+        question: "Which of the following shows “ten rupees and fifty paise”?",
+        optionA: "₹10.50",
+        optionB: "₹1.50",
+        optionC: "₹105.00",
+        correctAnswer: "₹10.50",
       }),
       shuffleOptions({
-        question: "What does adventure make life?",
-        optionA: "Boring",
-        optionB: "Joyful",
-        optionC: "Painful",
-        correctAnswer: "Joyful",
+        question: "What should we do to convert 8 rupees into paise?",
+        optionA: "Divide by 100",
+        optionB: "Multiply by 100",
+        optionC: "Add 100",
+        correctAnswer: "Multiply by 100",
       }),
       shuffleOptions({
-        question: "The aeroplane was invented after people tried to fly like which creature?",
-        optionA: "Birds",
-        optionB: "Fish",
-        optionC: "Horses",
-        correctAnswer: "Birds",
+        question: "345 paise is equal to how much in rupees?",
+        optionA: "₹3.45",
+        optionB: "₹34.50",
+        optionC: "₹0.35",
+        correctAnswer: "₹3.45",
       }),
       shuffleOptions({
-        question: "Adventure is not a ______ act.",
-        optionA: "Thoughtful",
-        optionB: "Reckless",
-        optionC: "Careful",
-        correctAnswer: "Reckless",
+        question: "What is the total of ₹2.50 and ₹3.25?",
+        optionA: "₹9.75",
+        optionB: "₹5.00",
+        optionC: "₹5.75",
+        correctAnswer: "₹5.75",
       }),
       shuffleOptions({
-        question: "Where did divers discover new animals?",
-        optionA: "Forest",
-        optionB: "Oceans",
-        optionC: "Deserts",
-        correctAnswer: "Oceans",
+        question: "Which amount is the greatest?",
+        optionA: "₹6.05",
+        optionB: "605 paise",
+        optionC: "Both are equal",
+        correctAnswer: "Both are equal",
       }),
       shuffleOptions({
-        question: "Astronauts proved that the earth is what shape?",
-        optionA: "Flat",
-        optionB: "Square",
-        optionC: "Spherical",
-        correctAnswer: "Spherical",
+        question: "How do we read ₹7.08?",
+        optionA: "five rupees eight paise",
+        optionB: "Seven rupees and eight paise",
+        optionC: "Seven point eight rupees",
+        correctAnswer: "Seven rupees and eight paise",
       }),
       shuffleOptions({
-        question: "Adventure sports can be learnt only with proper what?",
-        optionA: "Toys",
-        optionB: "Training",
-        optionC: "Food",
-        correctAnswer: "Training",
+        question: "What do we call the right-side digits after the decimal in money?",
+        optionA: "Rupees",
+        optionB: "Paise",
+        optionC: "Hundreds",
+        correctAnswer: "Paise",
       }),
       shuffleOptions({
-        question: "What did mountaineers explore?",
-        optionA: "Rivers",
-        optionB: "Mountains",
-        optionC: "Deserts",
-        correctAnswer: "Mountains",
+        question: "What is the result of converting 0.65 rupees into paise?",
+        optionA: "65 paise",
+        optionB: "650 paise",
+        optionC: "6 rupees",
+        correctAnswer: "65 paise",
       }),
     ]),
   };
@@ -113,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Adventure is a ______ to your resources, mental toughness and physical strength.",
-        optionA: "Game",
-        optionB: "Challenge",
-        optionC: "Fun",
-        correctAnswer: "Challenge",
+        question: "₹12.40 is equal to 12 rupees and ___ paise.",
+        optionA: "4",
+        optionB: "40",
+        optionC: "400",
+        correctAnswer: "40",
       }),
       shuffleOptions({
-        question: "Those who seek adventure are ______ in the world.",
-        optionA: "Respected",
-        optionB: "Ignored",
-        optionC: "Punished",
-        correctAnswer: "Respected",
+        question: "To convert paise into rupees, we ___ the amount by 100.",
+        optionA: "multiply",
+        optionB: "divide",
+        optionC: "subtract",
+        correctAnswer: "divide",
       }),
       shuffleOptions({
-        question: "Adventure takes us away from our ______ life.",
-        optionA: "Monotonous",
-        optionB: "Happy",
-        optionC: "Exciting",
-        correctAnswer: "Monotonous",
+        question: "250 paise = ___ rupees.",
+        optionA: "₹2.05",
+        optionB: "₹2.50",
+        optionC: "₹25",
+        correctAnswer: "₹2.50",
       }),
       shuffleOptions({
-        question: "A tree trunk was seen ______ in the river.",
-        optionA: "Sinking",
-        optionB: "Floating",
-        optionC: "Breaking",
-        correctAnswer: "Floating",
+        question: "One rupee contains ___ paise.",
+        optionA: "10",
+        optionB: "50",
+        optionC: "100",
+        correctAnswer: "100",
       }),
       shuffleOptions({
-        question: "Vasco da Gama discovered the sea route to ______.",
-        optionA: "India",
-        optionB: "America",
-        optionC: "Africa",
-        correctAnswer: "India",
+        question: "₹3.09 is written as 3 rupees and ___ paise.",
+        optionA: "9",
+        optionB: "90",
+        optionC: "5",
+        correctAnswer: "9",
       }),
       shuffleOptions({
-        question: "Columbus went on a long ______.",
-        optionA: "Voyage",
-        optionB: "Car ride",
-        optionC: "Walk",
-        correctAnswer: "Voyage",
+        question: "To convert ₹5 into paise, we ___ it by 100.",
+        optionA: "divide",
+        optionB: "multiply",
+        optionC: "add",
+        correctAnswer: "multiply",
       }),
       shuffleOptions({
-        question: "Adventure always gives a new ______.",
-        optionA: "Experience",
-        optionB: "Problem",
-        optionC: "Mistake",
-        correctAnswer: "Experience",
+        question: "706 paise = ___",
+        optionA: "₹70.06",
+        optionB: "₹7.06",
+        optionC: "₹0.76",
+        correctAnswer: "₹7.06",
       }),
       shuffleOptions({
-        question: "Astronauts proved that the earth is ______.",
-        optionA: "Flat",
-        optionB: "Square",
-        optionC: "Spherical",
-        correctAnswer: "Spherical",
+        question: "The decimal point separates rupees from ___.",
+        optionA: "paise",
+        optionB: "notes",
+        optionC: "coins",
+        correctAnswer: "paise",
       }),
       shuffleOptions({
-        question: "Adventure cultivates many new ______ in you.",
-        optionA: "Qualities",
-        optionB: "Problems",
-        optionC: "Mistakes",
-        correctAnswer: "Qualities",
+        question: "₹0.25 means ___ paise.",
+        optionA: "25",
+        optionB: "250",
+        optionC: "2.5",
+        correctAnswer: "25",
       }),
       shuffleOptions({
-        question: "Adventure is different from ______.",
-        optionA: "Stupidity",
-        optionB: "Courage",
-        optionC: "Fun",
-        correctAnswer: "Stupidity",
+        question: "₹9.80 is equal to 9 rupees and ___ paise.",
+        optionA: "80",
+        optionB: "8",
+        optionC: "800",
+        correctAnswer: "80",
       }),
     ]),
   };
@@ -191,67 +198,65 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Adventure makes life exciting and joyful.",
+        question: "₹1.50 is equal to 150 paise.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Adventure always guarantees success.",
+        question: "305 paise is less than ₹3.05.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Columbus discovered America.",
+        question: "While reading money, we always read the rupees before the paise.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Vasco da Gama discovered America.",
+        question: "To convert rupees into paise, we divide by 100.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "A child who has seen many places has more knowledge.",
+        question: "₹4.20 is read as “four rupees and twenty paise.”",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Adventure is the same as stupidity.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Astronauts confirmed that the earth is spherical.",
+        question: "50 paise is written as ₹0.50.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The boat was invented because stone floated on water.",
+        question: "1000 paise is equal to ₹100.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Adventure sports do not need any training.",
+        question: "Paise are written on the left side of the decimal point.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Adventure means new experiences.",
+        question: "₹8.00 and 800 paise represent the same amount.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "₹12.05 has more paise than ₹12.50.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
       }),
     ]),
   };
 }
-
-export var activityData;

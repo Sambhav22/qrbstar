@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 5: Going to School";
+export const chapter = "Chapter - 5: Division";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who was the first student to arrive at school?",
-        optionA: "Billi",
-        optionB: "Kachua",
-        optionC: "Medak",
-        correctAnswer: "Kachua",
+        question: "What is the result called that we get after dividing a number?",
+        optionA: "Dividend",
+        optionB: "Quotient",
+        optionC: "Remainder",
+        correctAnswer: "Quotient",
       }),
       shuffleOptions({
-        question: "Who was teaching in the jungle school?",
-        optionA: "Vanar",
-        optionB: "Hathi",
-        optionC: "Chuha",
-        correctAnswer: "Hathi",
+        question: "Which digit becomes the remainder when a number is divided by 10?",
+        optionA: "Tens digit",
+        optionB: "Ones digit",
+        optionC: "Hundreds digit",
+        correctAnswer: "Ones digit",
       }),
       shuffleOptions({
-        question: "What was Billi staring at?",
-        optionA: "The ground",
-        optionB: "The sun",
-        optionC: "The beehive",
-        correctAnswer: "The beehive",
+        question: "When zero is divided by any number (except zero), the result is:",
+        optionA: "The number itself",
+        optionB: "Zero",
+        optionC: "One",
+        correctAnswer: "Zero",
       }),
       shuffleOptions({
-        question: "What did the animals say about school at first?",
-        optionA: "It is fun",
-        optionB: "It is boring",
-        optionC: "It is easy",
-        correctAnswer: "It is boring",
+        question: "What do we call the number that divides another number?",
+        optionA: "Divisor",
+        optionB: "Remainder",
+        optionC: "Quotient",
+        correctAnswer: "Divisor",
       }),
       shuffleOptions({
-        question: "What comes before thunder?",
-        optionA: "Rain",
-        optionB: "Sound",
-        optionC: "Lightning",
-        correctAnswer: "Lightning",
+        question: "Dividing a number by 1 gives:",
+        optionA: "0",
+        optionB: "1",
+        optionC: "The number itself",
+        correctAnswer: "The number itself",
       }),
       shuffleOptions({
-        question: "Who eats carrots?",
-        optionA: "Gilhari",
-        optionB: "Khargosh",
-        optionC: "Medak",
-        correctAnswer: "Khargosh",
+        question: "When dividing by 1000, the remainder is made of the last:",
+        optionA: "1 digit",
+        optionB: "2 digits",
+        optionC: "3 digits",
+        correctAnswer: "3 digits",
       }),
       shuffleOptions({
-        question: "Who taught about the need for plants?",
-        optionA: "Hathi",
-        optionB: "Kachua",
-        optionC: "Vanar",
-        correctAnswer: "Kachua",
+        question: "Dividing 589 by itself gives:",
+        optionA: "589",
+        optionB: "0",
+        optionC: "1",
+        correctAnswer: "1",
       }),
       shuffleOptions({
-        question: "Who said: “Because I love grass”?",
-        optionA: "Vanar",
-        optionB: "Chuha",
-        optionC: "Khargosh",
-        correctAnswer: "Khargosh",
+        question: "Which operation is repeated subtraction?",
+        optionA: "Addition",
+        optionB: "Division",
+        optionC: "Multiplication",
+        correctAnswer: "Division",
       }),
       shuffleOptions({
-        question: "Who eats meat?",
-        optionA: "Billi",
-        optionB: "Gilhari",
-        optionC: "Chidia",
-        correctAnswer: "Billi",
+        question: "When 4523 is divided by 10, the remainder is:",
+        optionA: "4",
+        optionB: "3 (ones digit)",
+        optionC: "23",
+        correctAnswer: "3 (ones digit)",
       }),
       shuffleOptions({
-        question: "What did the animals decide at the end?",
-        optionA: "To eat more",
-        optionB: "To study daily",
-        optionC: "To fight",
-        correctAnswer: "To study daily",
+        question: "Which number cannot be a divisor?",
+        optionA: "5",
+        optionB: "1",
+        optionC: "0",
+        correctAnswer: "0",
       }),
     ]),
   };
@@ -113,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Gilhari was eating ______.",
-        optionA: "bananas",
-        optionB: "walnuts",
-        optionC: "flies",
-        correctAnswer: "walnuts",
+        question: "0 divided by any number except 0 is always ______.",
+        optionA: "1",
+        optionB: "the number",
+        optionC: "0",
+        correctAnswer: "0",
       }),
       shuffleOptions({
-        question: "Chuha was gnawing at ______.",
-        optionA: "grains",
-        optionB: "meat",
-        optionC: "insects",
-        correctAnswer: "grains",
+        question: "When a number is divided by 100, the remainder is made of the ______ digits.",
+        optionA: "last two",
+        optionB: "first two",
+        optionC: "middle two",
+        correctAnswer: "last two",
       }),
       shuffleOptions({
-        question: "Medak was gobbling up ______.",
-        optionA: "grains",
-        optionB: "flies",
-        optionC: "carrots",
-        correctAnswer: "flies",
+        question: "The number that is to be divided is called the ______.",
+        optionA: "divisor",
+        optionB: "quotient",
+        optionC: "dividend",
+        correctAnswer: "dividend",
       }),
       shuffleOptions({
-        question: "Chidia was pecking at ______.",
-        optionA: "nuts",
-        optionB: "insects",
-        optionC: "grass",
-        correctAnswer: "insects",
+        question: "When 758 is divided by 10, the quotient is ______.",
+        optionA: "85",
+        optionB: "75 (ones digit becomes remainder)",
+        optionC: "7",
+        correctAnswer: "75 (ones digit becomes remainder)",
       }),
       shuffleOptions({
-        question: "Vanar was eating ______.",
-        optionA: "bananas",
-        optionB: "grass",
-        optionC: "flies",
-        correctAnswer: "bananas",
+        question: "645 ÷ 645 gives the answer ______.",
+        optionA: "0",
+        optionB: "645",
+        optionC: "1",
+        correctAnswer: "1",
       }),
       shuffleOptions({
-        question: "Khargosh was biting into ______.",
-        optionA: "walnuts",
-        optionB: "carrots",
-        optionC: "meat",
-        correctAnswer: "carrots",
+        question: "In division by 1000, the quotient is formed by the digits except the last ______ digits.",
+        optionA: "1",
+        optionB: "3",
+        optionC: "2",
+        correctAnswer: "3",
       }),
       shuffleOptions({
-        question: "The beehive was being watched by ______.",
-        optionA: "Gilhari",
-        optionB: "Chidia",
-        optionC: "Billi",
-        correctAnswer: "Billi",
+        question: "The number left after division is called the ______.",
+        optionA: "dividend",
+        optionB: "remainder",
+        optionC: "quotient",
+        correctAnswer: "remainder",
       }),
       shuffleOptions({
-        question: "The teacher of the jungle school was ______.",
-        optionA: "Kachua",
-        optionB: "Hathi",
-        optionC: "Billi",
-        correctAnswer: "Hathi",
+        question: "4820 divided by 10 has remainder ______.",
+        optionA: "8",
+        optionB: "0 (ones digit)",
+        optionC: "20",
+        correctAnswer: "0 (ones digit)",
       }),
       shuffleOptions({
-        question: "Kachua’s classmates were enjoying under a ______.",
-        optionA: "rock",
-        optionB: "tree",
-        optionC: "bridge",
-        correctAnswer: "tree",
+        question: "A number divided by 1 gives ______.",
+        optionA: "the number itself",
+        optionB: "0",
+        optionC: "10",
+        correctAnswer: "the number itself",
       }),
       shuffleOptions({
-        question: "Plants are necessary for ______.",
-        optionA: "only plant-eaters",
-        optionB: "all animals",
-        optionC: "only humans",
-        correctAnswer: "all animals",
+        question: "623 ÷ 100 gives a quotient of ______.",
+        optionA: "6",
+        optionB: "62",
+        optionC: "623",
+        correctAnswer: "6",
       }),
     ]),
   };
@@ -191,61 +198,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Children were sitting and watching TV in the park.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Billi eats grains in the story.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Kachua was the only student who came on the second day.",
+        question: "A number divided by itself always gives 1.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Animals were excited about school at the beginning.",
+        question: "Zero can be used as a divisor.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Vanar eats bananas.",
+        question: "In division by 10, the ones digit becomes the remainder.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Khargosh eats meat.",
+        question: "0 ÷ 257 equals 0.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "When a number is divided by 1, the quotient changes.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Hathi taught why the sky is blue.",
+        question: "The remainder is always smaller than the divisor.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The animals already knew why lightning comes first.",
+        question: "When dividing by 100, the last two digits form the remainder.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "935 ÷ 1000 has a quotient of 9.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "At the end, animals agreed to attend school.",
+        question: "Division is another name for repeated subtraction.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Plants are necessary only for plant-eating animals.",
+        question: "In 745 ÷ 10, the remainder is 4.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
@@ -253,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 4: The Shrewd Deena";
+export const chapter = "Chapter - 4: Multiplication";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who was Deena?",
-        optionA: "Farmer",
-        optionB: "Woodcutter",
-        optionC: "Soldier",
-        correctAnswer: "Woodcutter",
+        question: "What is the value of 7 × 800?",
+        optionA: "5,600",
+        optionB: "560",
+        optionC: "56,000",
+        correctAnswer: "5,600",
       }),
       shuffleOptions({
-        question: "What was strange about the devil?",
-        optionA: "His eyes were red",
-        optionB: "His feet were opposite",
-        optionC: "He had two heads",
-        correctAnswer: "His feet were opposite",
+        question: "Which property is shown by 45 × 1 = 45?",
+        optionA: "Zero property",
+        optionB: "Property of One",
+        optionC: "Commutative property",
+        correctAnswer: "Property of One",
       }),
       shuffleOptions({
-        question: "What did Deena demand from the devil?",
-        optionA: "A new axe",
-        optionB: "A sack of gold",
-        optionC: "A palace",
-        correctAnswer: "A sack of gold",
+        question: "What is 9 × (20 + 3)?",
+        optionA: "180",
+        optionB: "207",
+        optionC: "203",
+        correctAnswer: "207",
       }),
       shuffleOptions({
-        question: "Who scolded the devil for being fooled?",
-        optionA: "His friend",
-        optionB: "His chief",
-        optionC: "His brother",
-        correctAnswer: "His chief",
+        question: "What is the product of 600 × 40?",
+        optionA: "2,400",
+        optionB: "24,000",
+        optionC: "240,000",
+        correctAnswer: "24,000",
       }),
       shuffleOptions({
-        question: "What lived in the cave?",
-        optionA: "Tiger",
-        optionB: "Lion",
-        optionC: "Bear",
-        correctAnswer: "Lion",
+        question: "Which of the following is a correct distributive form of 8 × 47?",
+        optionA: "(8 × 40) + (8 × 7)",
+        optionB: "(8 × 40) + (8 × 8)",
+        optionC: "(8 × 50) + (8 × 7)",
+        correctAnswer: "(8 × 40) + (8 × 7)",
       }),
       shuffleOptions({
-        question: "What animal did Deena call his “child”?",
-        optionA: "Hare",
-        optionB: "Horse",
-        optionC: "Goat",
-        correctAnswer: "Hare",
+        question: "What is 325 × 2?",
+        optionA: "550",
+        optionB: "650",
+        optionC: "600",
+        correctAnswer: "650",
       }),
       shuffleOptions({
-        question: "Where did the hare run and hide?",
-        optionA: "Behind foliage",
-        optionB: "Inside a house",
-        optionC: "Into a hole",
-        correctAnswer: "Behind foliage",
+        question: "Which number rounds to 90 when rounded to nearest ten?",
+        optionA: "86",
+        optionB: "92",
+        optionC: "Both a and b",
+        correctAnswer: "Both a and b",
       }),
       shuffleOptions({
-        question: "What did the devil try to carry around the hill?",
-        optionA: "Sack of gold",
-        optionB: "Horse",
-        optionC: "Tree branch",
-        correctAnswer: "Horse",
+        question: "3,000 × 5 equals:",
+        optionA: "1,500",
+        optionB: "15,000",
+        optionC: "150",
+        correctAnswer: "15,000",
       }),
       shuffleOptions({
-        question: "How many times did Deena ride the horse around the hill?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        correctAnswer: "Three",
+        question: "Which property is used?",
+        optionA: "Associative",
+        optionB: "Commutative",
+        optionC: "Zero property",
+        correctAnswer: "Commutative",
       }),
       shuffleOptions({
-        question: "What did Deena hit the devil with after blindfolding him?",
-        optionA: "A rope",
-        optionB: "A branch",
-        optionC: "A stone",
-        correctAnswer: "A branch",
+        question: "What is 9 × 90?",
+        optionA: "810",
+        optionB: "900",
+        optionC: "790",
+        correctAnswer: "810",
       }),
     ]),
   };
@@ -113,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Deena chose a tall, straight ______ to cut.",
-        optionA: "tree",
-        optionB: "pole",
-        optionC: "log",
-        correctAnswer: "tree",
+        question: "4,526 × 10 = ______",
+        optionA: "45,260",
+        optionB: "4,526",
+        optionC: "452,600",
+        correctAnswer: "45,260",
       }),
       shuffleOptions({
-        question: "The devil appeared when Deena was tying a ______.",
-        optionA: "noose",
-        optionB: "knot",
-        optionC: "rope ladder",
-        correctAnswer: "noose",
+        question: "Multiplying any number by 0 always gives ______.",
+        optionA: "0",
+        optionB: "the same number",
+        optionC: "double the number",
+        correctAnswer: "0",
       }),
       shuffleOptions({
-        question: "The devil plucked a sack of gold from the ______.",
-        optionA: "ground",
-        optionB: "air",
-        optionC: "tree",
-        correctAnswer: "air",
+        question: "7 × (100 + 5) = ______",
+        optionA: "735",
+        optionB: "750",
+        optionC: "705",
+        correctAnswer: "735",
       }),
       shuffleOptions({
-        question: "The devil fought with a ______ in the cave.",
-        optionA: "hare",
-        optionB: "lion",
-        optionC: "horse",
-        correctAnswer: "lion",
+        question: "1 × 8,345 = ______",
+        optionA: "8,345",
+        optionB: "0",
+        optionC: "1",
+        correctAnswer: "8,345",
       }),
       shuffleOptions({
-        question: "The hare ran across the ______ while being chased.",
-        optionA: "hill",
-        optionB: "brook",
-        optionC: "den",
-        correctAnswer: "brook",
+        question: "92 rounded to nearest 10 is ______.",
+        optionA: "100",
+        optionB: "90",
+        optionC: "80",
+        correctAnswer: "90",
       }),
       shuffleOptions({
-        question: "The devil could not finish carrying the ______ around the hill.",
-        optionA: "sack",
-        optionB: "horse",
-        optionC: "hare",
-        correctAnswer: "horse",
+        question: "(6 × 30) + (6 × 2) is equal to ______.",
+        optionA: "192",
+        optionB: "180",
+        optionC: "112",
+        correctAnswer: "192",
       }),
       shuffleOptions({
-        question: "Deena went around the hill on the horse ______ times.",
-        optionA: "once",
-        optionB: "twice",
-        optionC: "thrice",
-        correctAnswer: "thrice",
+        question: "2,400 × 2 = ______",
+        optionA: "4,800",
+        optionB: "2,400",
+        optionC: "4,200",
+        correctAnswer: "4,800",
       }),
       shuffleOptions({
-        question: "The devil’s loud whistle caused a small ______.",
-        optionA: "storm",
-        optionB: "fire",
-        optionC: "earthquake",
-        correctAnswer: "storm",
+        question: "8 × 1,000 = ______",
+        optionA: "800",
+        optionB: "8,000",
+        optionC: "80,000",
+        correctAnswer: "8,000",
       }),
       shuffleOptions({
-        question: "Deena tied a cloth to ______ the devil’s eyes.",
-        optionA: "cover",
-        optionB: "clean",
-        optionC: "wash",
-        correctAnswer: "cover",
+        question: "35 × 20 = ______",
+        optionA: "700",
+        optionB: "350",
+        optionC: "7,000",
+        correctAnswer: "700",
       }),
       shuffleOptions({
-        question: "At last, the devil ______ forever.",
-        optionA: "vanished",
-        optionB: "returned",
-        optionC: "stayed",
-        correctAnswer: "vanished",
+        question: "The property used in 3 × (4 + 6) is ______.",
+        optionA: "Zero property",
+        optionB: "Distributive property",
+        optionC: "Associative property",
+        correctAnswer: "Distributive property",
       }),
     ]),
   };
@@ -191,61 +198,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Deena was a woodcutter.",
+        question: "4,000 × 0 = 0",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The devil’s feet were in the normal direction.",
+        question: "Rounding 76 to the nearest ten gives 70.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Deena asked for silver coins from the devil.",
+        question: "50 × 9 = 450",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Multiplication by 1 does not change the number.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "90 × 100 = 9,000",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "64 × 2 is the same as 2 × 64.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "8 × (3 + 1) = (8 × 3) + (8 × 1)",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "7 × 900 = 63,000",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The lion knocked down the devil inside the cave.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Deena’s “child” was actually a hare.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The devil carried the horse around the hill successfully.",
+        question: "Estimation gives an exact answer.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Deena rode the horse around the hill three times.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The devil’s whistle filled the air with dust and mud.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Deena himself blew louder than the devil.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Deena lived happily with his family after getting gold. S",
+        question: "3 × 500 = 1,500",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -253,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

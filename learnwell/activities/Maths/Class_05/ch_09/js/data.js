@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 9: A Goat Tricks a Lion";
+export const chapter = "Chapter - 9: Measurement";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who got separated from the herd?",
-        optionA: "Brown lion",
-        optionB: "Brown goat",
-        optionC: "Jackal",
-        correctAnswer: "Brown goat",
+        question: "What is the value of 1 decagram (dag) in grams?",
+        optionA: "1 g",
+        optionB: "10 g",
+        optionC: "100 g",
+        correctAnswer: "10 g",
       }),
       shuffleOptions({
-        question: "Where did the goat go to rest?",
-        optionA: "Field",
-        optionB: "Cave",
-        optionC: "River",
-        correctAnswer: "Cave",
+        question: "Which unit is the most appropriate for measuring the capacity of a big water tank?",
+        optionA: "litre",
+        optionB: "millilitre",
+        optionC: "kilolitre",
+        correctAnswer: "kilolitre",
       }),
       shuffleOptions({
-        question: "Who lived in the cave?",
-        optionA: "Goat",
-        optionB: "Lion",
-        optionC: "Jackal",
-        correctAnswer: "Lion",
+        question: "What is the value of 1 centilitre (cl) in litres?",
+        optionA: "0.01 l",
+        optionB: "1 l",
+        optionC: "0.1 l",
+        correctAnswer: "0.01 l",
       }),
       shuffleOptions({
-        question: "What time did it become when the goat could not return?",
-        optionA: "Afternoon",
-        optionB: "Evening",
-        optionC: "Morning",
-        correctAnswer: "Evening",
+        question: "Which unit increases by 10 times when moving from centimetre to decimetre?",
+        optionA: "decimetre",
+        optionB: "millimetre",
+        optionC: "hectometre",
+        correctAnswer: "decimetre",
       }),
       shuffleOptions({
-        question: "Who was frightened by the goat’s brave words?",
-        optionA: "The jackal",
-        optionB: "The lion",
-        optionC: "The herd",
-        correctAnswer: "The lion",
+        question: "What is the weight of 1 hectogram (hg)?",
+        optionA: "10 g",
+        optionB: "100 g",
+        optionC: "1000 g",
+        correctAnswer: "100 g",
       }),
       shuffleOptions({
-        question: "The goat called herself the Queen of ______.",
-        optionA: "Lions",
-        optionB: "Jungle Goats",
-        optionC: "Elephants",
-        correctAnswer: "Jungle Goats",
+        question: "Which of the following is the smallest unit of length?",
+        optionA: "kilometre",
+        optionB: "metre",
+        optionC: "millimetre",
+        correctAnswer: "millimetre",
       }),
       shuffleOptions({
-        question: "The lion begged the goat to ______ him.",
-        optionA: "Kill",
-        optionB: "Let go",
-        optionC: "Feed",
-        correctAnswer: "Let go",
+        question: "What is the value of 1 kilolitre (kl)?",
+        optionA: "100 l",
+        optionB: "1000 l",
+        optionC: "10 l",
+        correctAnswer: "1000 l",
       }),
       shuffleOptions({
-        question: "Who tried to trick the lion later?",
-        optionA: "Jackal",
-        optionB: "Goat",
-        optionC: "Herd",
-        correctAnswer: "Jackal",
+        question: "Which unit would be best to measure the thickness of a book?",
+        optionA: "metre",
+        optionB: "centimetre",
+        optionC: "millimetre",
+        correctAnswer: "millimetre",
       }),
       shuffleOptions({
-        question: "Who was killed at the end?",
-        optionA: "Goat",
-        optionB: "Jackal",
-        optionC: "Lion",
-        correctAnswer: "Jackal",
+        question: "What is the mass of 1 milligram (mg) in grams?",
+        optionA: "0.1 g",
+        optionB: "0.01 g",
+        optionC: "0.001 g",
+        correctAnswer: "0.001 g",
       }),
       shuffleOptions({
-        question: "Which quality saved the goat’s life?",
-        optionA: "Strength",
-        optionB: "Wit and courage",
-        optionC: "Size",
-        correctAnswer: "Wit and courage",
+        question: "Which unit will you use to measure the capacity of a medicine bottle?",
+        optionA: "ml",
+        optionB: "l",
+        optionC: "kl",
+        correctAnswer: "ml",
       }),
     ]),
   };
@@ -114,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The goats went to the forest to ______.",
-        optionA: "Play",
-        optionB: "Graze",
-        optionC: "Sleep",
-        correctAnswer: "Graze",
+        question: "1 km is equal to ______ metres.",
+        optionA: "100",
+        optionB: "1000",
+        optionC: "10",
+        correctAnswer: "1000",
       }),
       shuffleOptions({
-        question: "The timid goat asked the brave goat to go ______.",
-        optionA: "Away",
-        optionB: "Ahead",
-        optionC: "Back",
-        correctAnswer: "Ahead",
+        question: "1 g is equal to ______ milligrams.",
+        optionA: "100 mg",
+        optionB: "1000 mg",
+        optionC: "10 mg",
+        correctAnswer: "1000 mg",
       }),
       shuffleOptions({
-        question: "The goat said, “I must return to the ______.”",
-        optionA: "River",
-        optionB: "Village",
-        optionC: "Cave",
-        correctAnswer: "Village",
+        question: "1 dl is equal to ______ litres.",
+        optionA: "1 l",
+        optionB: "0.1 l",
+        optionC: "0.01 l",
+        correctAnswer: "0.1 l",
       }),
       shuffleOptions({
-        question: "The lion thought, “She is not at all ______ of me.”",
-        optionA: "Afraid",
-        optionB: "Friendly",
-        optionC: "Happy",
-        correctAnswer: "Afraid",
+        question: "1 cm is equal to ______ metres.",
+        optionA: "0.01 m",
+        optionB: "1 m",
+        optionC: "0.1 m",
+        correctAnswer: "0.01 m",
       }),
       shuffleOptions({
-        question: "The goat claimed to have eaten twenty ______.",
-        optionA: "Tigers",
-        optionB: "Cheetahs",
-        optionC: "Lions",
-        correctAnswer: "Cheetahs",
+        question: "1 kg is equal to ______ grams.",
+        optionA: "100 g",
+        optionB: "1000 g",
+        optionC: "10 g",
+        correctAnswer: "1000 g",
       }),
       shuffleOptions({
-        question: "The goat also claimed to have eaten ten ______.",
-        optionA: "Elephants",
-        optionB: "Goats",
-        optionC: "Horses",
-        correctAnswer: "Elephants",
+        question: "1 ml is equal to ______ litres.",
+        optionA: "0.001 l",
+        optionB: "0.1 l",
+        optionC: "1 l",
+        correctAnswer: "0.001 l",
       }),
       shuffleOptions({
-        question: "The lion feared eating the goat because she was ______.",
-        optionA: "Small",
-        optionB: "Dirty",
-        optionC: "Old",
-        correctAnswer: "Dirty",
+        question: "1 hectolitre (hl) is equal to ______ litres.",
+        optionA: "10 l",
+        optionB: "100 l",
+        optionC: "1000 l",
+        correctAnswer: "100 l",
       }),
       shuffleOptions({
-        question: "The goat shouted that the jackal had brought only ______ lion.",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Five",
-        correctAnswer: "One",
+        question: "1 decimetre (dm) is equal to ______ metres.",
+        optionA: "0.1 m",
+        optionB: "1 m",
+        optionC: "0.01 m",
+        correctAnswer: "0.1 m",
       }),
       shuffleOptions({
-        question: "The lion became ______ on hearing the goat’s words.",
-        optionA: "Happy",
-        optionB: "Frightened",
-        optionC: "Proud",
-        correctAnswer: "Frightened",
+        question: "1 centigram (cg) is equal to ______ grams.",
+        optionA: "0.001 g",
+        optionB: "0.1 g",
+        optionC: "0.01 g",
+        correctAnswer: "0.01 g",
       }),
       shuffleOptions({
-        question: "The goat thanked God for her wit and ______.",
-        optionA: "Strength",
-        optionB: "Courage",
-        optionC: "Anger",
-        correctAnswer: "Courage",
+        question: "1 dal (decalitre) is equal to ______ litres.",
+        optionA: "1 l",
+        optionB: "100 l",
+        optionC: "10 l",
+        correctAnswer: "10 l",
       }),
     ]),
   };
@@ -192,67 +198,65 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "A herd of goats went to graze in the forest.",
+        question: "1 kl is equal to 1000 l.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The timid goat went ahead bravely.",
+        question: "1 mm is larger than 1 cm.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The brown goat entered the cave to rest.",
+        question: "1 dag is equal to 10 g.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The lion was the owner of the cave.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The goat called herself the Queen of Lions.",
+        question: "1 l is equal to 10 dl.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The lion begged the goat not to eat him.",
+        question: "1 m is equal to 100 cm.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The jackal wanted to save the goat’s life.",
+        question: "1 cg is equal to 0.01 g.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "1 kg is equal to 10,000 mg.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The lion killed the jackal in anger.",
+        question: "1 hm is greater than 1 dam.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The goat’s courage saved her life.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The goat and lion became friends in the end.",
+        question: "1 ml is equal to 0.01 l.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "1 dal is larger than 1 l.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
       }),
     ]),
   };
 }
-
-export var activityData;

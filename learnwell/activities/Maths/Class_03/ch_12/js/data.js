@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 12: The Temporary Friend";
+export const chapter = "Chapter - 12: Geometry";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who lived in the hole at the base of the banyan tree?",
-        optionA: "Owl",
-        optionB: "Mongoose",
-        optionC: "Mouse",
-        correctAnswer: "Mouse",
+        question: "Which shape has all its sides equal?",
+        optionA: "Rectangle",
+        optionB: "Square",
+        optionC: "Triangle",
+        correctAnswer: "Square",
       }),
       shuffleOptions({
-        question: "The cat got trapped in the net when she tried to –",
-        optionA: "Climb the tree",
-        optionB: "Catch the mouse",
-        optionC: "Sleep on it",
-        correctAnswer: "Catch the mouse",
+        question: "Which shape has no sides and no corners?",
+        optionA: "Circle",
+        optionB: "Triangle",
+        optionC: "Square",
+        correctAnswer: "Circle",
       }),
       shuffleOptions({
-        question: "Which animal was active during night only?",
-        optionA: "Cat",
-        optionB: "Owl",
-        optionC: "Mongoose",
-        correctAnswer: "Owl",
+        question: "Which solid shape can easily roll because it has a curved surface?",
+        optionA: "Cube",
+        optionB: "Cylinder",
+        optionC: "Sphere",
+        correctAnswer: "Sphere",
       }),
       shuffleOptions({
-        question: "The mouse dodged the cat and –",
-        optionA: "Got caught",
-        optionB: "Ran into the tree",
-        optionC: "Ran into his hole",
-        correctAnswer: "Ran into his hole",
+        question: "Which shape has 3 sides and 3 corners?",
+        optionA: "Rectangle",
+        optionB: "Triangle",
+        optionC: "Square",
+        correctAnswer: "Triangle",
       }),
       shuffleOptions({
-        question: "The cat wanted the mouse to come out and –",
-        optionA: "Thank her",
-        optionB: "Play with her",
-        optionC: "Scare him",
-        correctAnswer: "Play with her",
+        question: "Which solid shape has 6 faces, 12 edges and 8 vertices?",
+        optionA: "Cone",
+        optionB: "Cube",
+        optionC: "Cuboid",
+        correctAnswer: "Cuboid",
       }),
       shuffleOptions({
-        question: "Who looked at the mouse with red eyes?",
-        optionA: "Mongoose",
-        optionB: "Owl",
-        optionC: "Cat",
-        correctAnswer: "Owl",
+        question: "Which object is an example of a cylindrical shape?",
+        optionA: "Matchbox",
+        optionB: "Gas cylinder",
+        optionC: "Dice",
+        correctAnswer: "Gas cylinder",
       }),
       shuffleOptions({
-        question: "The mouse was saved from owl and mongoose because –",
-        optionA: "He climbed a tree",
-        optionB: "He sat near the trapped cat",
-        optionC: "He ran far away",
-        correctAnswer: "He sat near the trapped cat",
+        question: "Which shape has opposite sides equal?",
+        optionA: "Circle",
+        optionB: "Triangle",
+        optionC: "Rectangle",
+        correctAnswer: "Rectangle",
       }),
       shuffleOptions({
-        question: "What did the mouse do to help the cat?",
-        optionA: "Called the hunter",
-        optionB: "Bit the cat",
-        optionC: "Gnawed the net",
-        correctAnswer: "Gnawed the net",
+        question: "Which solid shape has 1 face, no edges and no vertices?",
+        optionA: "Sphere",
+        optionB: "Cone",
+        optionC: "square",
+        correctAnswer: "Sphere",
       }),
       shuffleOptions({
-        question: "What did the cat promise?",
-        optionA: "To be his protector",
-        optionB: "To chase him later",
-        optionC: "To climb the tree",
-        correctAnswer: "To be his protector",
+        question: "Which shape is formed when you trace a 1-rupee coin?",
+        optionA: "Square",
+        optionB: "Rectangle",
+        optionC: "Circle",
+        correctAnswer: "Circle",
       }),
       shuffleOptions({
-        question: "How did the hunter react on finding his net cut?",
-        optionA: "Laughed",
-        optionB: "Shouted",
-        optionC: "Shook his head and went away",
-        correctAnswer: "Shook his head and went away",
+        question: "Which solid shape has 1 curved surface, 1 flat face, 1 vertex and 1 edge?",
+        optionA: "Cone",
+        optionB: "Cylinder",
+        optionC: "Sphere",
+        correctAnswer: "Cone",
       }),
     ]),
   };
@@ -113,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The ______ laid his net under the tree.",
-        optionA: "farmer",
-        optionB: "hunter",
-        optionC: "woodcutter",
-        correctAnswer: "hunter",
+        question: "A cuboid has ______ faces.",
+        optionA: "4",
+        optionB: "5",
+        optionC: "6",
+        correctAnswer: "6",
       }),
       shuffleOptions({
-        question: "The mouse saw the ______ standing near his hole.",
-        optionA: "owl",
-        optionB: "mongoose",
-        optionC: "elephant",
-        correctAnswer: "mongoose",
+        question: "A circle has ______ corners.",
+        optionA: "0",
+        optionB: "1",
+        optionC: "2",
+        correctAnswer: "0",
       }),
       shuffleOptions({
-        question: "The mouse spoke to the cat from ______ the net.",
-        optionA: "above",
-        optionB: "in front",
-        optionC: "behind",
-        correctAnswer: "behind",
+        question: "A square has ______ equal sides.",
+        optionA: "2",
+        optionB: "3",
+        optionC: "4",
+        correctAnswer: "4",
       }),
       shuffleOptions({
-        question: "The cat promised to be the mouse’s ______.",
-        optionA: "food",
-        optionB: "enemy",
-        optionC: "friend",
-        correctAnswer: "friend",
+        question: "A cylinder has ______ edges.",
+        optionA: "0",
+        optionB: "1",
+        optionC: "2",
+        correctAnswer: "2",
       }),
       shuffleOptions({
-        question: "The cat made a soft ______ to thank the mouse.",
-        optionA: "bark",
-        optionB: "purr",
-        optionC: "chirp",
-        correctAnswer: "purr",
+        question: "A cone has ______ vertex.",
+        optionA: "1",
+        optionB: "2",
+        optionC: "3",
+        correctAnswer: "1",
       }),
       shuffleOptions({
-        question: "The mouse saved himself by thinking ______.",
-        optionA: "nervously",
-        optionB: "actively",
-        optionC: "lazily",
-        correctAnswer: "actively",
+        question: "A sphere has ______ curved surface.",
+        optionA: "1",
+        optionB: "2",
+        optionC: "3",
+        correctAnswer: "1",
       }),
       shuffleOptions({
-        question: "The cat was caught while chasing the ______.",
-        optionA: "owl",
-        optionB: "mouse",
-        optionC: "mongoose",
-        correctAnswer: "mouse",
+        question: "A rectangle has ______ corners.",
+        optionA: "2",
+        optionB: "3",
+        optionC: "4",
+        correctAnswer: "4",
       }),
       shuffleOptions({
-        question: "The owl could not see during the ______.",
-        optionA: "night",
-        optionB: "day",
-        optionC: "evening",
-        correctAnswer: "day",
+        question: "A triangle has ______ diagonals.",
+        optionA: "0",
+        optionB: "1",
+        optionC: "2",
+        correctAnswer: "0",
       }),
       shuffleOptions({
-        question: "The animals played a game of ______.",
-        optionA: "run and jump",
-        optionB: "hide-n-seek",
-        optionC: "catch me",
-        correctAnswer: "hide-n-seek",
+        question: "A cube has ______ edges.",
+        optionA: "8",
+        optionB: "10",
+        optionC: "12",
+        correctAnswer: "12",
       }),
       shuffleOptions({
-        question: "The cat was ______ when the mouse refused her.",
-        optionA: "disappointed",
-        optionB: "angry",
-        optionC: "sleeping",
-        correctAnswer: "disappointed",
+        question: "A line that divides a shape into two equal halves is called the ______.",
+        optionA: "middle line",
+        optionB: "line of symmetry",
+        optionC: "border",
+        correctAnswer: "line of symmetry",
       }),
     ]),
   };
@@ -191,67 +198,65 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The cat was friendly to all the animals.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The mouse gnawed the net to free the owl.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The mongoose lived in the hollow of the tree.",
+        question: "A sphere can roll because it has a curved surface.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The owl flew away when the hunter came.",
+        question: "A square has four sides of different lengths.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "A cone has both a plane surface and a curved surface.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The cat protected the mouse after being freed.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The mouse and cat became best friends forever.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The hunter successfully caught an animal.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "The cat tried to trick the mouse by her sweet voice.",
+        question: "A circle has no side and no corner.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The mouse was scared of the owl and mongoose.",
+        question: "A cuboid has the same number of edges as a cube.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "The mouse called the cat a permanent friend.",
+        question: "A cylinder has no vertex.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "A triangle always has equal sides.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "A sphere has one edge.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "A rectangle has opposite sides equal.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "A matchbox is an example of a cuboidal object.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
       }),
     ]),
   };
 }
-
-export var activityData;

@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 13: How Subhash Escaped to Germany";
+export const chapter = "Chapter - 13: Average";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who helped Subhash drive out of Calcutta?",
-        optionA: "Ramkrishan",
-        optionB: "Shishir",
-        optionC: "Bhagatram",
-        correctAnswer: "Shishir",
+        question: "What do we call the value obtained by dividing the sum of quantities by their number?",
+        optionA: "Total",
+        optionB: "Average",
+        optionC: "Difference",
+        correctAnswer: "Average",
       }),
       shuffleOptions({
-        question: "Subhash grew a ______ to change his appearance.",
-        optionA: "Long hair",
-        optionB: "Mustaches and beard",
-        optionC: "Scar",
-        correctAnswer: "Mustaches and beard",
+        question: "What should we do after adding all numbers to find the average?",
+        optionA: "Subtract from 100",
+        optionB: "Divide by the number of values",
+        optionC: "Multiply all values",
+        correctAnswer: "Divide by the number of values",
       }),
       shuffleOptions({
-        question: "What was the name Subhash gave on the train?",
-        optionA: "Maulvi Ziauddin",
-        optionB: "Maulvi Javed",
-        optionC: "Maulvi Ashraf",
-        correctAnswer: "Maulvi Ziauddin",
+        question: "Which quantity is used in finding an average?",
+        optionA: "Sum of all values",
+        optionB: "Number of values",
+        optionC: "Both a and b",
+        correctAnswer: "Both a and b",
       }),
       shuffleOptions({
-        question: "Where did Subhash stay first after escaping Calcutta?",
-        optionA: "Delhi",
-        optionB: "Dhanbad",
-        optionC: "Kabul",
-        correctAnswer: "Dhanbad",
+        question: "If three children have weights, what does their average tell us?",
+        optionA: "Highest weight",
+        optionB: "Middle child’s weight",
+        optionC: "Equal share of total weight if distributed fairly",
+        correctAnswer: "Equal share of total weight if distributed fairly",
       }),
       shuffleOptions({
-        question: "Who advised Subhash to act deaf and dumb?",
-        optionA: "Bhagatram",
-        optionB: "Akbar Shah",
-        optionC: "Shishir",
-        correctAnswer: "Bhagatram",
+        question: "What helps us compare daily attendance in school?",
+        optionA: "Calendar",
+        optionB: "Average attendance value",
+        optionC: "Temperature chart",
+        correctAnswer: "Average attendance value",
       }),
       shuffleOptions({
-        question: "Which hotel did Subhash check into at Peshawar?",
-        optionA: "Ashoka Hotel",
-        optionB: "Tajmahal Hotel",
-        optionC: "Oberoi Hotel",
-        correctAnswer: "Tajmahal Hotel",
+        question: "What does the average temperature of a week show?",
+        optionA: "The hottest day",
+        optionB: "The coldest day",
+        optionC: "The typical temperature for the week",
+        correctAnswer: "The typical temperature for the week",
       }),
       shuffleOptions({
-        question: "Who sheltered Subhash in Kabul?",
-        optionA: "Niranjan Singh",
-        optionB: "Uttamchand Malhotra",
-        optionC: "Sardar Baldev Singh",
-        correctAnswer: "Uttamchand Malhotra",
+        question: "What does a bar graph in this chapter help us compare?",
+        optionA: "Sizes of objects",
+        optionB: "Number of students present each day",
+        optionC: "Names of students",
+        correctAnswer: "Number of students present each day",
       }),
       shuffleOptions({
-        question: "Which embassy ignored Subhash’s request first?",
-        optionA: "Russian",
-        optionB: "German",
-        optionC: "Italian",
-        correctAnswer: "Russian",
+        question: "When the earnings of a shopkeeper vary each day, what does average earning show?",
+        optionA: "Lowest earning",
+        optionB: "Highest earning",
+        optionC: "His daily earning if it were the same each day",
+        correctAnswer: "His daily earning if it were the same each day",
       }),
       shuffleOptions({
-        question: "On which date did he leave Indian borders for Russia?",
-        optionA: "18 March 1941",
-        optionB: "3 April 1941",
-        optionC: "5 December 1940",
-        correctAnswer: "18 March 1941",
+        question: "What can we find using the heights of all children in a group?",
+        optionA: "Their growth rate",
+        optionB: "Their average height",
+        optionC: "Their weight",
+        correctAnswer: "Their average height",
       }),
       shuffleOptions({
-        question: "What was Subhash’s Italian passport name?",
-        optionA: "Count Orlando Mazzotta",
-        optionB: "Count Orlando Marzio",
-        optionC: "Count Orlando Singh",
-        correctAnswer: "Count Orlando Mazzotta",
+        question: "While comparing distances travelled each hour, why do we calculate an average?",
+        optionA: "To know the longest distance",
+        optionB: "To know the shortest distance",
+        optionC: "To know the distance usually travelled each hour",
+        correctAnswer: "To know the distance usually travelled each hour",
       }),
     ]),
   };
@@ -114,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Subhash kept ______ and Ramayana near him.",
-        optionA: "Quran",
-        optionB: "Geeta",
-        optionC: "Bible",
-        correctAnswer: "Geeta",
+        question: "The average is found by dividing the total ______ by the number of quantities.",
+        optionA: "time",
+        optionB: "sum",
+        optionC: "distance",
+        correctAnswer: "sum",
       }),
       shuffleOptions({
-        question: "Around ______ policemen were guarding his house.",
-        optionA: "65",
-        optionB: "100",
-        optionC: "35",
-        correctAnswer: "65",
+        question: "To find the average weight of children, we add all their ______.",
+        optionA: "ages",
+        optionB: "heights",
+        optionC: "weights",
+        correctAnswer: "weights",
       }),
       shuffleOptions({
-        question: "Subhash wore black sherwani, trousers, cap, and ______.",
-        optionA: "Round spectacles",
-        optionB: "Turban",
-        optionC: "Hat",
-        correctAnswer: "Round spectacles",
+        question: "The average number of students present shows the ______ attendance.",
+        optionA: "usual",
+        optionB: "lowest",
+        optionC: "highest",
+        correctAnswer: "usual",
       }),
       shuffleOptions({
-        question: "The car raced on ______ roads out of Calcutta.",
-        optionA: "Busy",
-        optionB: "Deserted",
-        optionC: "Muddy",
-        correctAnswer: "Deserted",
+        question: "A bar graph helps us compare the ______ for different days.",
+        optionA: "colours",
+        optionB: "students present",
+        optionC: "subjects",
+        correctAnswer: "students present",
       }),
       shuffleOptions({
-        question: "His elder brother in Dhanbad was named ______.",
-        optionA: "Niranjan Singh",
-        optionB: "Ashoknath Bose",
-        optionC: "Bhagatram",
-        correctAnswer: "Ashoknath Bose",
+        question: "The average marks help us know the student’s ______ performance.",
+        optionA: "single-day",
+        optionB: "overall",
+        optionC: "worst",
+        correctAnswer: "overall",
       }),
       shuffleOptions({
-        question: "At Peshawar station, Subhash met ______.",
-        optionA: "Akbar Shah",
-        optionB: "Savarkar",
-        optionC: "Gandhi",
-        correctAnswer: "Akbar Shah",
+        question: "We find the average when numbers are ______.",
+        optionA: "similar",
+        optionB: "changing or different",
+        optionC: "unknown",
+        correctAnswer: "changing or different",
       }),
       shuffleOptions({
-        question: "Before leaving, he daubed ______ on his head.",
-        optionA: "Ashes",
-        optionB: "Mother earth",
-        optionC: "Sand",
-        correctAnswer: "Mother earth",
+        question: "Dividing the total distance by hours gives the ______ distance per hour.",
+        optionA: "least",
+        optionB: "greatest",
+        optionC: "average",
+        correctAnswer: "average",
       }),
       shuffleOptions({
-        question: "Subhash reached Berlin by aeroplane from ______.",
-        optionA: "Kabul",
-        optionB: "Moscow",
-        optionC: "Delhi",
-        correctAnswer: "Moscow",
+        question: "The average height tells us the ______ height of the group.",
+        optionA: "usual or typical",
+        optionB: "tallest",
+        optionC: "shortest",
+        correctAnswer: "usual or typical",
       }),
       shuffleOptions({
-        question: "The Italian and German embassies worked in close ______.",
-        optionA: "Cooperation",
-        optionB: "Secrecy",
-        optionC: "Rivalry",
-        correctAnswer: "Cooperation",
+        question: "The average temperature gives an idea of the ______ weather.",
+        optionA: "weekly",
+        optionB: "daily",
+        optionC: "general or overall",
+        correctAnswer: "general or overall",
       }),
       shuffleOptions({
-        question: "His eyes streamed with ______ tears while leaving India.",
-        optionA: "Warm",
-        optionB: "Cold",
-        optionC: "Bitter",
-        correctAnswer: "Warm",
+        question: "The average of numbers becomes smaller if the new number added is very ______.",
+        optionA: "small",
+        optionB: "large",
+        optionC: "equal",
+        correctAnswer: "small",
       }),
     ]),
   };
@@ -192,61 +198,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Subhash was allowed to write letters during house arrest.",
+        question: "The average is always one of the given numbers.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "He pretended to be a sanyasi while in his room.",
+        question: "To find the average, we must always add all the numbers first.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Subhash left his house at 11 pm.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Shishir was Subhash’s comrade from Forward Bloc.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "Subhash disguised as a Maulvi during part of his journey.",
+        question: "The average of many numbers helps us compare data easily.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "At Peshawar, he was told to act deaf and dumb.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Subhash’s escape was discovered the next morning.",
+        question: "In a bar graph, the tallest bar shows the smallest value.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The Russian embassy helped him immediately.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "False",
-      }),
-      shuffleOptions({
-        question: "He finally reached Germany on 3 April 1941.",
+        question: "The average gives a fair idea of all values combined.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "Subhash promised his motherland he would return for freedom.",
+        question: "If one number becomes much larger, the average increases.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Average distance can be found by dividing total distance by time.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "Average earnings tell us the total earnings of all days.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "The average height helps compare students’ heights in a group.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "If all numbers are equal, the average will also be the same number.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -254,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

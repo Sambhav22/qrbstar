@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 1: The King Who Stunk";
+export const chapter = "Chapter - 1: Large Numbers";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,17 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
 
-  if (optionsArray.length > 2) {
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -36,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who inherited a huge fortune?",
-        optionA: "Naren",
-        optionB: "Commander",
-        optionC: "King",
-        correctAnswer: "Naren",
+        question: "Which is the smallest 8-digit number?",
+        optionA: "1,00,00,000",
+        optionB: "10,00,000",
+        optionC: "99,99,999",
+        correctAnswer: "1,00,00,000",
       }),
       shuffleOptions({
-        question: "What did Naren never like to do?",
-        optionA: "Work",
-        optionB: "Bathe",
-        optionC: "Eat",
-        correctAnswer: "Bathe",
+        question: "In the number 6,82,40,319, the digit 8 is at which place?",
+        optionA: "Ten lakhs place",
+        optionB: "Lakhs place",
+        optionC: "Crores place",
+        correctAnswer: "Crores place",
       }),
       shuffleOptions({
-        question: "Who surrounded Naren like flies around honey?",
-        optionA: "Servants",
-        optionB: "People",
-        optionC: "Soldiers",
-        correctAnswer: "People",
+        question: "Which number comes just before 75,00,000?",
+        optionA: "74,99,999",
+        optionB: "75,00,001",
+        optionC: "75,10,000",
+        correctAnswer: "74,99,999",
       }),
       shuffleOptions({
-        question: "Who made Naren’s crown?",
-        optionA: "Goldsmiths",
-        optionB: "Carpenters",
-        optionC: "Priests",
-        correctAnswer: "Goldsmiths",
+        question: "How many zeros does one crore have?",
+        optionA: "5",
+        optionB: "6",
+        optionC: "7",
+        correctAnswer: "7",
       }),
       shuffleOptions({
-        question: "Who sang hymns at the coronation?",
-        optionA: "Priests",
-        optionB: "Jesters",
-        optionC: "Soldiers",
-        correctAnswer: "Priests",
+        question: "In the International system, 1,000,000 is read as:",
+        optionA: "One million",
+        optionB: "Ten million",
+        optionC: "One hundred thousand",
+        correctAnswer: "One million",
       }),
       shuffleOptions({
-        question: "Who ordered the crown to be removed?",
-        optionA: "Great king",
-        optionB: "Naren",
-        optionC: "Boy",
-        correctAnswer: "Great king",
+        question: "The place value of 7 in 9,70,45,120 is:",
+        optionA: "7,00,000",
+        optionB: "70,00,000",
+        optionC: "7,00,00,000",
+        correctAnswer: "7,00,00,000",
       }),
       shuffleOptions({
-        question: "Who quietly watched the drama in a corner?",
-        optionA: "Boy",
-        optionB: "Commander",
-        optionC: "Priest",
-        correctAnswer: "Boy",
+        question: "Which is the largest 7-digit number?",
+        optionA: "9,99,999",
+        optionB: "8,99,999",
+        optionC: "5,99,999",
+        correctAnswer: "9,99,999",
       }),
       shuffleOptions({
-        question: "What type of water did the boy ask for?",
-        optionA: "Warm",
-        optionB: "Cold",
-        optionC: "Icy",
-        correctAnswer: "Warm",
+        question: "The smallest 9-digit number is:",
+        optionA: "1,00,00,001",
+        optionB: "10,00,00,000",
+        optionC: "1,00,00,000",
+        correctAnswer: "1,00,00,000",
       }),
       shuffleOptions({
-        question: "What happened after Naren took a bath?",
-        optionA: "Crown came off",
-        optionB: "He lost fortune",
-        optionC: "King praised him",
-        correctAnswer: "Crown came off",
+        question: "In 5,40,18,200, the digit 2 is at the:",
+        optionA: "Hundreds place",
+        optionB: "Tens place",
+        optionC: "Thousands place?",
+        correctAnswer: "Hundreds place",
       }),
       shuffleOptions({
-        question: "Why did people never complain about the smell?",
-        optionA: "Wanted favours",
-        optionB: "Loved him truly",
-        optionC: "Afraid of him",
-        correctAnswer: "Wanted favours",
+        question: "Which period comes after lakhs in the Indian system?",
+        optionA: "Thousands",
+        optionB: "Ones",
+        optionC: "Crores",
+        correctAnswer: "Crores",
       }),
     ]),
   };
@@ -114,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Naren lived in a ______.",
-        optionA: "Mansion",
-        optionB: "Hut",
-        optionC: "Cottage",
-        correctAnswer: "Mansion",
+        question: "The number 9,00,00,000 has ______ zeros.",
+        optionA: "6",
+        optionB: "7",
+        optionC: "8",
+        correctAnswer: "8",
       }),
       shuffleOptions({
-        question: "Nobody remembered when Naren last ______.",
-        optionA: "Bathed",
-        optionB: "Slept",
-        optionC: "Worked",
-        correctAnswer: "Bathed",
+        question: "In 4,31,27,089 the digit 4 is in the ______ place.",
+        optionA: "Crores place",
+        optionB: "Ten lakhs place",
+        optionC: "Lakhs place?",
+        correctAnswer: "Crores place",
       }),
       shuffleOptions({
-        question: "The crown covered his head and his ______.",
-        optionA: "Ears",
-        optionB: "Eyes",
-        optionC: "Nose",
-        correctAnswer: "Ears",
+        question: "The successor of 12,50,00,000 is ______.",
+        optionA: "12,49,99,999",
+        optionB: "12,50,00,001",
+        optionC: "13,00,00,000",
+        correctAnswer: "12,50,00,001",
       }),
       shuffleOptions({
-        question: "The great king entered when the crown was ______.",
-        optionA: "Placed",
-        optionB: "Broken",
-        optionC: "Lost",
-        correctAnswer: "Placed",
+        question: "In the International system, commas are placed after every ______ digits.",
+        optionA: "Two",
+        optionB: "Three",
+        optionC: "Four",
+        correctAnswer: "Three",
       }),
       shuffleOptions({
-        question: "Words stuck in Naren’s ______.",
-        optionA: "Throat",
-        optionB: "Mouth",
-        optionC: "Nose",
-        correctAnswer: "Throat",
+        question: "50,00,000 is read as ______ lakh.",
+        optionA: "Fifty",
+        optionB: "Five",
+        optionC: "Five hundred",
+        correctAnswer: "Fifty",
       }),
       shuffleOptions({
-        question: "People pressed their noses in their ______.",
-        optionA: "Sleeves",
-        optionB: "Books",
-        optionC: "Hands",
-        correctAnswer: "Sleeves",
+        question: "The digit at the hundreds place in 81,54,209 is ______.",
+        optionA: "2",
+        optionB: "0",
+        optionC: "9",
+        correctAnswer: "2",
       }),
       shuffleOptions({
-        question: "Naren cried on seeing the commander’s ______.",
-        optionA: "Sword",
-        optionB: "Shield",
-        optionC: "Horse",
-        correctAnswer: "Sword",
+        question: "The smallest 7-digit number is ______.",
+        optionA: "1,00,000",
+        optionB: "10,00,000",
+        optionC: "9,99,999",
+        correctAnswer: "10,00,000",
       }),
       shuffleOptions({
-        question: "Naren removed his splendid ______ before bathing.",
-        optionA: "Clothes",
-        optionB: "Crown",
-        optionC: "Shoes",
-        correctAnswer: "Clothes",
+        question: "In 9,04,10,500 the digit 0 at the end has a place value of ______.",
+        optionA: "0",
+        optionB: "10",
+        optionC: "100",
+        correctAnswer: "0",
       }),
       shuffleOptions({
-        question: "The filth on Naren’s body ______ after bathing.",
-        optionA: "Softened",
-        optionB: "Hardened",
-        optionC: "Changed colour",
-        correctAnswer: "Softened",
+        question: "1 million = ______ lakhs.",
+        optionA: "1",
+        optionB: "10",
+        optionC: "100",
+        correctAnswer: "10",
       }),
       shuffleOptions({
-        question: "After the bath, people no longer needed their ______.",
-        optionA: "Handkerchiefs",
-        optionB: "Shoes",
-        optionC: "Bags",
-        correctAnswer: "Handkerchiefs",
+        question: "The predecessor of 3,00,00,001 is ______.",
+        optionA: "3,00,00,000",
+        optionB: "2,99,99,999",
+        optionC: "2,99,00,001",
+        correctAnswer: "3,00,00,000",
       }),
     ]),
   };
@@ -192,61 +198,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Naren lived in a mansion.",
+        question: "The number 1,00,00,000 is read as one crore.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
       }),
       shuffleOptions({
-        question: "People liked Naren for his cleanliness.",
+        question: "In the number 8,54,20,310 the digit 8 is in the lakhs place.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Naren believed he was like a great king.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "Naren ordered his own coronation.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The great king praised Naren for bathing daily.",
+        question: "The face value of a digit depends on its position in the number.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The crown slipped off easily by itself.",
+        question: "10 million equals one crore.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "A little boy found the solution to the crown problem.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The crown came off after soap and water were used.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The commander promised reward to the boy.",
+        question: "The predecessor of any number is obtained by adding 1.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Naren sighed with relief after his bath.",
+        question: "A 7-digit number always begins from the lakhs period.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "In the International system, 100,000 is read as one hundred thousand.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "9,20,50,600 > 9,50,20,600.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "0 has the same place value in every position.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "The expanded form of 5,00,20,010 includes the term 20,000.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -254,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;

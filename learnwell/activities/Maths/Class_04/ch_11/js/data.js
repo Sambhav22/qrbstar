@@ -1,5 +1,6 @@
-export const chapter = "Chapter - 11: Mother";
+export const chapter = "Chapter - 11: Time";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
@@ -12,16 +13,22 @@ const shuffleQues = (ques) => {
 
 const shuffleOptions = (object) => {
   const { optionA, optionB, optionC } = object;
-  const optionsArray = [optionA, optionB, optionC].filter(Boolean);
+  const optionsArray = [optionA, optionB, optionC].filter(
+    (option) => option !== undefined
+  );
 
   for (let i = optionsArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [optionsArray[i], optionsArray[j]] = [optionsArray[j], optionsArray[i]];
+    [optionsArray[i], optionsArray[j]] = [
+      optionsArray[j],
+      optionsArray[i],
+    ];
   }
 
   object.optionA = optionsArray[0];
   object.optionB = optionsArray[1];
-  if (optionsArray.length > 2) {
+
+  if (optionsArray.length === 3) {
     object.optionC = optionsArray[2];
   } else {
     delete object.optionC;
@@ -35,74 +42,74 @@ if (localStorage.getItem("activityNumber") == 1) {
     activity: "Tick the correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "Who means so very much to the poet?",
-        optionA: "Teacher",
-        optionB: "Mother",
-        optionC: "Friend",
-        correctAnswer: "Mother",
+        question: "How many small divisions are there on a clock face?",
+        optionA: "24",
+        optionB: "12",
+        optionC: "60",
+        correctAnswer: "60",
       }),
       shuffleOptions({
-        question: "Where is Mother always, according to the poet?",
-        optionA: "In his heart",
-        optionB: "In his school",
-        optionC: "In his class",
-        correctAnswer: "In his heart",
+        question: "When the minute hand is at 3, the time is read as:",
+        optionA: "Quarter past the hour",
+        optionB: "Quarter to the hour",
+        optionC: "Half past the hour",
+        correctAnswer: "Quarter past the hour",
       }),
       shuffleOptions({
-        question: "What can the poet never do?",
-        optionA: "Repay",
-        optionB: "Forget",
-        optionC: "Sleep",
-        correctAnswer: "Repay",
+        question: "The hour hand completes how many rounds in one day?",
+        optionA: "1",
+        optionB: "2",
+        optionC: "24",
+        correctAnswer: "2",
       }),
       shuffleOptions({
-        question: "What does the poet treasure?",
-        optionA: "Heart of gold",
-        optionB: "Heart of silver",
-        optionC: "Heart of stone",
-        correctAnswer: "Heart of gold",
+        question: "The minute hand takes how long to complete one round of the clock?",
+        optionA: "1 minute",
+        optionB: "1 hour",
+        optionC: "12 hours",
+        correctAnswer: "1 hour",
       }),
       shuffleOptions({
-        question: "Without whose love the poet cannot imagine life?",
-        optionA: "Mother",
-        optionB: "Father",
-        optionC: "Sister",
-        correctAnswer: "Mother",
+        question: "The time between midnight and noon is called:",
+        optionA: "p.m.",
+        optionB: "a.m.",
+        optionC: "night time",
+        correctAnswer: "a.m.",
       }),
       shuffleOptions({
-        question: "Who is always giving?",
-        optionA: "Mother",
-        optionB: "Brother",
-        optionC: "Teacher",
-        correctAnswer: "Mother",
+        question: "0910 hours in 12-hour clock format is:",
+        optionA: "9:10 p.m.",
+        optionB: "9:10 a.m.",
+        optionC: "21:10",
+        correctAnswer: "9:10 a.m.",
       }),
       shuffleOptions({
-        question: "Who helps in any way?",
-        optionA: "Mother",
-        optionB: "Friend",
-        optionC: "Aunt",
-        correctAnswer: "Mother",
+        question: "The second hand moves from one small division to the next in:",
+        optionA: "1 second",
+        optionB: "5 seconds",
+        optionC: "10 seconds",
+        correctAnswer: "1 second",
       }),
       shuffleOptions({
-        question: "What does the poet say he will do “as long as he shall live”?",
-        optionA: "Work hard",
-        optionB: "Treasure mother’s heart",
-        optionC: "Repay her",
-        correctAnswer: "Treasure mother’s heart",
+        question: "A leap year has how many days?",
+        optionA: "365",
+        optionB: "366",
+        optionC: "360",
+        correctAnswer: "366",
       }),
       shuffleOptions({
-        question: "What kind of heart does the poet say Mother has?",
-        optionA: "Heart of stone",
-        optionB: "Heart of gold",
-        optionC: "Heart of wood",
-        correctAnswer: "Heart of gold",
+        question: "4:30 can be read as:",
+        optionA: "Quarter past 4",
+        optionB: "Half past 4",
+        optionC: "Quarter to 5",
+        correctAnswer: "Half past 4",
       }),
       shuffleOptions({
-        question: "Who has done loving things for the poet?",
-        optionA: "Mother",
-        optionB: "Teacher",
-        optionC: "Father",
-        correctAnswer: "Mother",
+        question: "The longest hand on a clock is the:",
+        optionA: "Hour hand",
+        optionB: "Minute hand",
+        optionC: "Second hand",
+        correctAnswer: "Minute hand",
       }),
     ]),
   };
@@ -113,74 +120,74 @@ if (localStorage.getItem("activityNumber") == 2) {
     activity: "Fill in the blank with correct option:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "You mean so very much to ______.",
-        optionA: "me",
-        optionB: "him",
-        optionC: "her",
-        correctAnswer: "me",
+        question: "The time 7:45 can also be read as 15 minutes ______ 8.",
+        optionA: "past",
+        optionB: "to",
+        optionC: "before",
+        correctAnswer: "to",
       }),
       shuffleOptions({
-        question: "That you are always in my ______.",
-        optionA: "dreams",
-        optionB: "heart",
-        optionC: "home",
-        correctAnswer: "heart",
+        question: "February has ______ days in a leap year.",
+        optionA: "28",
+        optionB: "29",
+        optionC: "31",
+        correctAnswer: "29",
       }),
       shuffleOptions({
-        question: "No matter where I ______.",
-        optionA: "play",
-        optionB: "go",
-        optionC: "hide",
-        correctAnswer: "go",
+        question: "1 hour is equal to ______ minutes.",
+        optionA: "60",
+        optionB: "30",
+        optionC: "100",
+        correctAnswer: "60",
       }),
       shuffleOptions({
-        question: "You’re always ______, always there to help.",
-        optionA: "giving",
-        optionB: "shouting",
-        optionC: "resting",
-        correctAnswer: "giving",
+        question: "24-hour clock time does not use ______.",
+        optionA: "digits",
+        optionB: "a.m./p.m.",
+        optionC: "hours",
+        correctAnswer: "a.m./p.m.",
       }),
       shuffleOptions({
-        question: "The loving things you’ve done for me, I never could ______.",
-        optionA: "repay",
-        optionB: "buy",
-        optionC: "keep",
-        correctAnswer: "repay",
+        question: "8:15 is also called ______ past 8.",
+        optionA: "half",
+        optionB: "quarter",
+        optionC: "ten minutes",
+        correctAnswer: "quarter",
       }),
       shuffleOptions({
-        question: "I can’t ______ what I’d do.",
-        optionA: "imagine",
-        optionB: "decide",
-        optionC: "run",
-        correctAnswer: "imagine",
+        question: "A day has ______ hours.",
+        optionA: "10",
+        optionB: "12",
+        optionC: "24",
+        correctAnswer: "24",
       }),
       shuffleOptions({
-        question: "Without the ______ you give.",
-        optionA: "love",
-        optionB: "gift",
-        optionC: "game",
-        correctAnswer: "love",
+        question: "120 seconds = ______ minutes.",
+        optionA: "1",
+        optionB: "2",
+        optionC: "3",
+        correctAnswer: "2",
       }),
       shuffleOptions({
-        question: "I’ll treasure your sweet heart of ______.",
-        optionA: "gold",
-        optionB: "stone",
-        optionC: "iron",
-        correctAnswer: "gold",
+        question: "The hour hand is the ______ hand on the clock.",
+        optionA: "shortest",
+        optionB: "longest",
+        optionC: "fastest",
+        correctAnswer: "shortest",
       }),
       shuffleOptions({
-        question: "As long as I shall ______.",
-        optionA: "live",
-        optionB: "jump",
-        optionC: "walk",
-        correctAnswer: "live",
+        question: "Digital watches commonly use the ______ system.",
+        optionA: "24-hour clock",
+        optionB: "10-hour clock",
+        optionC: "48-hour clock",
+        correctAnswer: "24-hour clock",
       }),
       shuffleOptions({
-        question: "I’ll treasure your sweet ______ of gold.",
-        optionA: "heart",
-        optionB: "voice",
-        optionC: "smile",
-        correctAnswer: "heart",
+        question: "4:50 p.m. in 24-hour clock format is ______ hours.",
+        optionA: "1250",
+        optionB: "1650",
+        optionC: "0450",
+        correctAnswer: "1650",
       }),
     ]),
   };
@@ -191,61 +198,61 @@ if (localStorage.getItem("activityNumber") == 3) {
     activity: "Write 'True' for True and 'False' for False statements:",
     questions: shuffleQues([
       shuffleOptions({
-        question: "The poet says Mother is always in his heart.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The poet can easily repay Mother’s love.",
+        question: "Quarter past 4 means the time is 4:45.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "Mother is always giving and helping.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The poet treasures Mother’s heart of stone.",
+        question: "The second hand moves slower than the hour hand.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "The poet will treasure Mother’s heart of gold forever.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The poet cannot imagine life without Mother’s love.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The loving things Mother has done are countless.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The poet will treasure Mother’s heart as long as he lives.",
-        optionA: "True",
-        optionB: "False",
-        correctAnswer: "True",
-      }),
-      shuffleOptions({
-        question: "The poem shows that Mother is careless.",
+        question: "12 noon is written with a.m. in time notation.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "False",
       }),
       shuffleOptions({
-        question: "A mother’s love is priceless, according to the poem.",
+        question: "1430 hours is equal to 2:30 p.m.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "1 minute equals 60 seconds.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "The hour hand completes 24 rounds in a day.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "False",
+      }),
+      shuffleOptions({
+        question: "Half past 9 means the time is 9:30.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "In a leap year, February has 29 days.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "2210 hours is equal to 10:10 p.m.",
+        optionA: "True",
+        optionB: "False",
+        correctAnswer: "True",
+      }),
+      shuffleOptions({
+        question: "The minute hand is longer than the hour hand.",
         optionA: "True",
         optionB: "False",
         correctAnswer: "True",
@@ -253,5 +260,3 @@ if (localStorage.getItem("activityNumber") == 3) {
     ]),
   };
 }
-
-export var activityData;
