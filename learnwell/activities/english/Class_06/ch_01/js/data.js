@@ -108,7 +108,6 @@ if (localStorage.getItem("activityNumber") == 1) {
     ]),
   };
 }
-export var activityData;
 
 if (localStorage.getItem("activityNumber") == 2) {
   activityData = {
@@ -187,7 +186,6 @@ if (localStorage.getItem("activityNumber") == 2) {
     ]),
   };
 }
-export var activityData;
 
 if (localStorage.getItem("activityNumber") == 3) {
   activityData = {
