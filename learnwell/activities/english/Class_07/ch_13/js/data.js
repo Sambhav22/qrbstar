@@ -1,5 +1,6 @@
 export const chapter = "Chapter - 13: Puss-in-Boots";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();

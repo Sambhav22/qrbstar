@@ -1,5 +1,6 @@
 export const chapter = "Chapter - 8: A Pair of Silk Stockings";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();

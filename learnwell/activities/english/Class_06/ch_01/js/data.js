@@ -255,3 +255,4 @@ if (localStorage.getItem("activityNumber") == 3) {
   };
 }
 export var activityData;
+

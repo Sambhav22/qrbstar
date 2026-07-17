@@ -1,5 +1,6 @@
 export const chapter = "Chapter - 1: The Lost Memory";
 export const noOfActivities = 3;
+export var activityData;
 
 const shuffleQues = (ques) => {
   let arr = ques.slice();
