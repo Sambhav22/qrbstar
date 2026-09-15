@@ -59,7 +59,7 @@ if (localStorage.getItem("activityNumber") == 1) {
         optionA: "Wash clothes",
         optionB: "Do homework",
         optionC: "Cook food",
-        correctAnswer: "Do homework",
+        correctAnswer: "",
       }),
       shuffleOptions({
         question: "How does a computer work?",
