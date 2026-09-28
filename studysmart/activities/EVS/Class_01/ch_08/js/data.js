@@ -7,93 +7,73 @@ if (localStorage.getItem("activityNumber") == 1) {
     "questions": [
       {
         "question": "What do we call the area around our home where we live and meet people?",
-        "options": {
-          "A": "Forest",
-          "B": "Neighbourhood",
-          "C": "River"
-        },
-        "answer": "B"
+        "optionA": "Forest",
+        "optionB": "Neighbourhood",
+        "optionC": "River",
+        "correctAnswer": "Neighbourhood"
       },
       {
         "question": "Where do people usually buy fruits and vegetables?",
-        "options": {
-          "A": "Market",
-          "B": "Bank",
-          "C": "School"
-        },
-        "answer": "A"
+        "optionA": "Market",
+        "optionB": "Bank",
+        "optionC": "School",
+        "correctAnswer": "Market"
       },
       {
         "question": "Which place is visited when someone wants to send letters or parcels?",
-        "options": {
-          "A": "Post office",
-          "B": "Hospital",
-          "C": "Park"
-        },
-        "answer": "A"
+        "optionA": "Post office",
+        "optionB": "Hospital",
+        "optionC": "Park",
+        "correctAnswer": "Post office"
       },
       {
         "question": "Where do children go to learn reading and writing?",
-        "options": {
-          "A": "Market",
-          "B": "School",
-          "C": "Police station"
-        },
-        "answer": "B"
+        "optionA": "Market",
+        "optionB": "School",
+        "optionC": "Police station",
+        "correctAnswer": "School"
       },
       {
         "question": "Which place has trees, grass, and swings where children can play?",
-        "options": {
-          "A": "Bank",
-          "B": "Park",
-          "C": "Post office"
-        },
-        "answer": "B"
+        "optionA": "Bank",
+        "optionB": "Park",
+        "optionC": "Post office",
+        "correctAnswer": "Park"
       },
       {
         "question": "Who helps to keep people safe in the neighbourhood?",
-        "options": {
-          "A": "Teacher",
-          "B": "Shopkeeper",
-          "C": "Police officer"
-        },
-        "answer": "C"
+        "optionA": "Teacher",
+        "optionB": "Shopkeeper",
+        "optionC": "Police officer",
+        "correctAnswer": "Police officer"
       },
       {
         "question": "Which place is usually busy with many shops and people buying things?",
-        "options": {
-          "A": "Market",
-          "B": "Hospital",
-          "C": "Police station"
-        },
-        "answer": "A"
+        "optionA": "Market",
+        "optionB": "Hospital",
+        "optionC": "Police station",
+        "correctAnswer": "Market"
       },
       {
         "question": "Where do people go to enjoy fresh air and relax?",
-        "options": {
-          "A": "Bank",
-          "B": "School",
-          "C": "Park"
-        },
-        "answer": "C"
+        "optionA": "Bank",
+        "optionB": "School",
+        "optionC": "Park",
+        "correctAnswer": "Park"
       },
       {
         "question": "Who brings letters and parcels to our homes?",
-        "options": {
-          "A": "Doctor",
-          "B": "Postman",
-          "C": "Teacher"
-        },
-        "answer": "B"
+        "optionA": "Doctor",
+        "optionB": "Postman",
+        "optionC": "Teacher",
+        "correctAnswer": "Postman"
       },
       {
         "question": "Where does a police officer work?",
-        "options": {
-          "A": "Police station",
-          "B": "Park",
-          "C": "Market"
-        },
-        "answer": "A"
+        "optionA": "Police station",
+        "optionB": "Park",
+        "optionC": "Market",
+        "correctAnswer": "Police station"
       }
     ]
   };
@@ -105,93 +85,73 @@ if (localStorage.getItem("activityNumber") == 2) {
     "questions": [
       {
         "question": "The place where we live with our neighbours is called a ______.",
-        "options": {
-          "A": "jungle",
-          "B": "neighbourhood",
-          "C": "island"
-        },
-        "answer": "B"
+        "optionA": "jungle",
+        "optionB": "neighbourhood",
+        "optionC": "island",
+        "correctAnswer": "neighbourhood"
       },
       {
         "question": "Fruits and vegetables are sold in the ______.",
-        "options": {
-          "A": "market",
-          "B": "school",
-          "C": "hospital"
-        },
-        "answer": "A"
+        "optionA": "market",
+        "optionB": "school",
+        "optionC": "hospital",
+        "correctAnswer": "market"
       },
       {
         "question": "Children go to ______ to study and learn new things.",
-        "options": {
-          "A": "school",
-          "B": "park",
-          "C": "bank"
-        },
-        "answer": "A"
+        "optionA": "school",
+        "optionB": "park",
+        "optionC": "bank",
+        "correctAnswer": "school"
       },
       {
         "question": "A ______ brings letters and parcels to our homes.",
-        "options": {
-          "A": "teacher",
-          "B": "doctor",
-          "C": "postman"
-        },
-        "answer": "C"
+        "optionA": "teacher",
+        "optionB": "doctor",
+        "optionC": "postman",
+        "correctAnswer": "postman"
       },
       {
         "question": "Letters and greeting cards are sent from the ______ office.",
-        "options": {
-          "A": "police",
-          "B": "post",
-          "C": "bank"
-        },
-        "answer": "B"
+        "optionA": "police",
+        "optionB": "post",
+        "optionC": "bank",
+        "correctAnswer": "post"
       },
       {
         "question": "People walk, play, and relax in a ______.",
-        "options": {
-          "A": "bank",
-          "B": "hospital",
-          "C": "park"
-        },
-        "answer": "C"
+        "optionA": "bank",
+        "optionB": "hospital",
+        "optionC": "park",
+        "correctAnswer": "park"
       },
       {
         "question": "A ______ officer helps to keep people safe.",
-        "options": {
-          "A": "post",
-          "B": "police",
-          "C": "market"
-        },
-        "answer": "B"
+        "optionA": "post",
+        "optionB": "police",
+        "optionC": "market",
+        "correctAnswer": "police"
       },
       {
         "question": "Many shops together make a ______.",
-        "options": {
-          "A": "park",
-          "B": "market",
-          "C": "hospital"
-        },
-        "answer": "B"
+        "optionA": "park",
+        "optionB": "market",
+        "optionC": "hospital",
+        "correctAnswer": "market"
       },
       {
         "question": "A ______ station is where police officers work.",
-        "options": {
-          "A": "police",
-          "B": "post",
-          "C": "bus"
-        },
-        "answer": "A"
+        "optionA": "police",
+        "optionB": "post",
+        "optionC": "bus",
+        "correctAnswer": "police"
       },
       {
         "question": "The ______ is the place where children read books and learn lessons.",
-        "options": {
-          "A": "school",
-          "B": "market",
-          "C": "park"
-        },
-        "answer": "A"
+        "optionA": "school",
+        "optionB": "market",
+        "optionC": "park",
+        "correctAnswer": "school"
       }
     ]
   };
@@ -203,83 +163,63 @@ if (localStorage.getItem("activityNumber") == 3) {
     "questions": [
       {
         "question": "A neighbourhood is the area around our home.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "A park is a place where people can play and relax.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "A market is a place where people buy and sell things.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "A postman delivers letters to homes.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Schools are places where children learn new things.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Police officers help keep the neighbourhood safe.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "A park is usually full of trees and grass.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "A market is a quiet place with no shops.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       },
       {
         "question": "A post office helps people send letters and parcels.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "A neighbourhood has many helpful places for people.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       }
     ]
   };

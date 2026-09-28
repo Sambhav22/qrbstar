@@ -7,93 +7,73 @@ if (localStorage.getItem("activityNumber") == 1) {
     "questions": [
       {
         "question": "Which plant has a thick woody stem called a trunk?",
-        "options": {
-          "A": "Creeper",
-          "B": "Herb",
-          "C": "Tree"
-        },
-        "answer": "C"
+        "optionA": "Creeper",
+        "optionB": "Herb",
+        "optionC": "Tree",
+        "correctAnswer": "Tree"
       },
       {
         "question": "Which plant is bushy and has many branches near the ground?",
-        "options": {
-          "A": "Shrub",
-          "B": "Herb",
-          "C": "Tree"
-        },
-        "answer": "A"
+        "optionA": "Shrub",
+        "optionB": "Herb",
+        "optionC": "Tree",
+        "correctAnswer": "Shrub"
       },
       {
         "question": "Which plant has soft green stems and is usually small?",
-        "options": {
-          "A": "Herb",
-          "B": "Shrub",
-          "C": "Tree"
-        },
-        "answer": "A"
+        "optionA": "Herb",
+        "optionB": "Shrub",
+        "optionC": "Tree",
+        "correctAnswer": "Herb"
       },
       {
         "question": "Which plant grows along the ground with weak stems?",
-        "options": {
-          "A": "Tree",
-          "B": "Creeper",
-          "C": "Shrub"
-        },
-        "answer": "B"
+        "optionA": "Tree",
+        "optionB": "Creeper",
+        "optionC": "Shrub",
+        "correctAnswer": "Creeper"
       },
       {
         "question": "Which plant grows upward by holding onto sticks or walls?",
-        "options": {
-          "A": "Herb",
-          "B": "Climber",
-          "C": "Tree"
-        },
-        "answer": "B"
+        "optionA": "Herb",
+        "optionB": "Climber",
+        "optionC": "Tree",
+        "correctAnswer": "Climber"
       },
       {
         "question": "Which plant is bigger than shrubs and herbs?",
-        "options": {
-          "A": "Herb",
-          "B": "Creeper",
-          "C": "Tree"
-        },
-        "answer": "C"
+        "optionA": "Herb",
+        "optionB": "Creeper",
+        "optionC": "Tree",
+        "correctAnswer": "Tree"
       },
       {
         "question": "Which plant makes our surroundings cool by giving shade?",
-        "options": {
-          "A": "Creeper",
-          "B": "Herb",
-          "C": "Tree"
-        },
-        "answer": "C"
+        "optionA": "Creeper",
+        "optionB": "Herb",
+        "optionC": "Tree",
+        "correctAnswer": "Tree"
       },
       {
         "question": "Which plant usually grows in parks and gardens like rose?",
-        "options": {
-          "A": "Shrub",
-          "B": "Tree",
-          "C": "Herb"
-        },
-        "answer": "A"
+        "optionA": "Shrub",
+        "optionB": "Tree",
+        "optionC": "Herb",
+        "correctAnswer": "Shrub"
       },
       {
         "question": "Which plant type includes mint and coriander?",
-        "options": {
-          "A": "Herb",
-          "B": "Shrub",
-          "C": "Tree"
-        },
-        "answer": "A"
+        "optionA": "Herb",
+        "optionB": "Shrub",
+        "optionC": "Tree",
+        "correctAnswer": "Herb"
       },
       {
         "question": "Which plant spreads on the ground and bears fruits like pumpkin?",
-        "options": {
-          "A": "Tree",
-          "B": "Creeper",
-          "C": "Shrub"
-        },
-        "answer": "B"
+        "optionA": "Tree",
+        "optionB": "Creeper",
+        "optionC": "Shrub",
+        "correctAnswer": "Creeper"
       }
     ]
   };
@@ -105,93 +85,73 @@ if (localStorage.getItem("activityNumber") == 2) {
     "questions": [
       {
         "question": "Trees have strong stems called ______.",
-        "options": {
-          "A": "trunks",
-          "B": "leaves",
-          "C": "flowers"
-        },
-        "answer": "A"
+        "optionA": "trunks",
+        "optionB": "leaves",
+        "optionC": "flowers",
+        "correctAnswer": "trunks"
       },
       {
         "question": "Herbs are ______ plants with soft stems.",
-        "options": {
-          "A": "big",
-          "B": "tall",
-          "C": "small"
-        },
-        "answer": "C"
+        "optionA": "big",
+        "optionB": "tall",
+        "optionC": "small",
+        "correctAnswer": "small"
       },
       {
         "question": "Shrubs have many branches near the ______.",
-        "options": {
-          "A": "ground",
-          "B": "sky",
-          "C": "roof"
-        },
-        "answer": "A"
+        "optionA": "ground",
+        "optionB": "sky",
+        "optionC": "roof",
+        "correctAnswer": "ground"
       },
       {
         "question": "Climbers grow upward with the help of ______.",
-        "options": {
-          "A": "soil",
-          "B": "support",
-          "C": "stones"
-        },
-        "answer": "B"
+        "optionA": "soil",
+        "optionB": "support",
+        "optionC": "stones",
+        "correctAnswer": "support"
       },
       {
         "question": "Creepers grow along the ______.",
-        "options": {
-          "A": "wall",
-          "B": "ground",
-          "C": "roof"
-        },
-        "answer": "B"
+        "optionA": "wall",
+        "optionB": "ground",
+        "optionC": "roof",
+        "correctAnswer": "ground"
       },
       {
         "question": "Plants make the Earth ______ and beautiful.",
-        "options": {
-          "A": "dry",
-          "B": "grey",
-          "C": "green"
-        },
-        "answer": "C"
+        "optionA": "dry",
+        "optionB": "grey",
+        "optionC": "green",
+        "correctAnswer": "green"
       },
       {
         "question": "Mint is an example of a ______.",
-        "options": {
-          "A": "tree",
-          "B": "shrub",
-          "C": "herb"
-        },
-        "answer": "C"
+        "optionA": "tree",
+        "optionB": "shrub",
+        "optionC": "herb",
+        "correctAnswer": "herb"
       },
       {
         "question": "Rose is an example of a ______.",
-        "options": {
-          "A": "herb",
-          "B": "shrub",
-          "C": "tree"
-        },
-        "answer": "B"
+        "optionA": "herb",
+        "optionB": "shrub",
+        "optionC": "tree",
+        "correctAnswer": "shrub"
       },
       {
         "question": "Pumpkin grows on a ______.",
-        "options": {
-          "A": "shrub",
-          "B": "creeper",
-          "C": "tree"
-        },
-        "answer": "B"
+        "optionA": "shrub",
+        "optionB": "creeper",
+        "optionC": "tree",
+        "correctAnswer": "creeper"
       },
       {
         "question": "Banyan is an example of a ______.",
-        "options": {
-          "A": "tree",
-          "B": "shrub",
-          "C": "herb"
-        },
-        "answer": "A"
+        "optionA": "tree",
+        "optionB": "shrub",
+        "optionC": "herb",
+        "correctAnswer": "tree"
       }
     ]
   };
@@ -203,83 +163,63 @@ if (localStorage.getItem("activityNumber") == 3) {
     "questions": [
       {
         "question": "Trees have thick woody stems called trunks.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Herbs are tall plants like trees.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       },
       {
         "question": "Shrubs have many branches near the ground.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Creepers grow along the ground.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Climbers need support to grow upward.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Trees give us shade.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Mint is a shrub.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       },
       {
         "question": "Pumpkin grows on a creeper.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Plants make the Earth green and beautiful.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Herbs have thick woody trunks.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       }
     ]
   };

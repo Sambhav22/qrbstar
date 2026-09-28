@@ -7,93 +7,73 @@ if (localStorage.getItem("activityNumber") == 1) {
     "questions": [
       {
         "question": "Who helps us learn new things in the family?",
-        "options": {
-          "A": "Father",
-          "B": "Cousin",
-          "C": "Friend"
-        },
-        "answer": "A"
+        "optionA": "Father",
+        "optionB": "Cousin",
+        "optionC": "Friend",
+        "correctAnswer": "Father"
       },
       {
         "question": "Who takes children for walks in the park?",
-        "options": {
-          "A": "Grandfather",
-          "B": "Brother",
-          "C": "Sister"
-        },
-        "answer": "A"
+        "optionA": "Grandfather",
+        "optionB": "Brother",
+        "optionC": "Sister",
+        "correctAnswer": "Grandfather"
       },
       {
         "question": "Who makes tasty food and sweet treats?",
-        "options": {
-          "A": "Mother",
-          "B": "Grandmother",
-          "C": "Sister"
-        },
-        "answer": "B"
+        "optionA": "Mother",
+        "optionB": "Grandmother",
+        "optionC": "Sister",
+        "correctAnswer": "Grandmother"
       },
       {
         "question": "Who plays games and dances with you?",
-        "options": {
-          "A": "Father",
-          "B": "Sister",
-          "C": "Grandfather"
-        },
-        "answer": "B"
+        "optionA": "Father",
+        "optionB": "Sister",
+        "optionC": "Grandfather",
+        "correctAnswer": "Sister"
       },
       {
         "question": "Who looks after everyone at home?",
-        "options": {
-          "A": "Cousin",
-          "B": "Brother",
-          "C": "Mother"
-        },
-        "answer": "C"
+        "optionA": "Cousin",
+        "optionB": "Brother",
+        "optionC": "Mother",
+        "correctAnswer": "Mother"
       },
       {
         "question": "Who is often our playmate at home?",
-        "options": {
-          "A": "Uncle",
-          "B": "Father",
-          "C": "Brother"
-        },
-        "answer": "C"
+        "optionA": "Uncle",
+        "optionB": "Father",
+        "optionC": "Brother",
+        "correctAnswer": "Brother"
       },
       {
         "question": "Who tells stories of olden days?",
-        "options": {
-          "A": "Grandfather",
-          "B": "Brother",
-          "C": "Cousin"
-        },
-        "answer": "A"
+        "optionA": "Grandfather",
+        "optionB": "Brother",
+        "optionC": "Cousin",
+        "correctAnswer": "Grandfather"
       },
       {
         "question": "Who comforts children with warm hugs?",
-        "options": {
-          "A": "Grandmother",
-          "B": "Friend",
-          "C": "Teacher"
-        },
-        "answer": "A"
+        "optionA": "Grandmother",
+        "optionB": "Friend",
+        "optionC": "Teacher",
+        "correctAnswer": "Grandmother"
       },
       {
         "question": "Who works hard for the family?",
-        "options": {
-          "A": "Brother",
-          "B": "Father",
-          "C": "Cousin"
-        },
-        "answer": "B"
+        "optionA": "Brother",
+        "optionB": "Father",
+        "optionC": "Cousin",
+        "correctAnswer": "Father"
       },
       {
         "question": "Who sings songs and plays with you?",
-        "options": {
-          "A": "Father",
-          "B": "Sister",
-          "C": "Uncle"
-        },
-        "answer": "B"
+        "optionA": "Father",
+        "optionB": "Sister",
+        "optionC": "Uncle",
+        "correctAnswer": "Sister"
       }
     ]
   };
@@ -105,93 +85,73 @@ if (localStorage.getItem("activityNumber") == 2) {
     "questions": [
       {
         "question": "A ______ works hard for the family.",
-        "options": {
-          "A": "brother",
-          "B": "father",
-          "C": "cousin"
-        },
-        "answer": "B"
+        "optionA": "brother",
+        "optionB": "father",
+        "optionC": "cousin",
+        "correctAnswer": "father"
       },
       {
         "question": "A ______ cooks food and looks after everyone.",
-        "options": {
-          "A": "sister",
-          "B": "mother",
-          "C": "aunt"
-        },
-        "answer": "B"
+        "optionA": "sister",
+        "optionB": "mother",
+        "optionC": "aunt",
+        "correctAnswer": "mother"
       },
       {
         "question": "A ______ tells stories of olden days.",
-        "options": {
-          "A": "father",
-          "B": "brother",
-          "C": "grandfather"
-        },
-        "answer": "C"
+        "optionA": "father",
+        "optionB": "brother",
+        "optionC": "grandfather",
+        "correctAnswer": "grandfather"
       },
       {
         "question": "A ______ makes tasty food and sweet treats.",
-        "options": {
-          "A": "cousin",
-          "B": "sister",
-          "C": "grandmother"
-        },
-        "answer": "C"
+        "optionA": "cousin",
+        "optionB": "sister",
+        "optionC": "grandmother",
+        "correctAnswer": "grandmother"
       },
       {
         "question": "A ______ is often a friend and playmate.",
-        "options": {
-          "A": "brother",
-          "B": "uncle",
-          "C": "teacher"
-        },
-        "answer": "A"
+        "optionA": "brother",
+        "optionB": "uncle",
+        "optionC": "teacher",
+        "correctAnswer": "brother"
       },
       {
         "question": "A ______ sings and dances with you.",
-        "options": {
-          "A": "father",
-          "B": "sister",
-          "C": "grandfather"
-        },
-        "answer": "B"
+        "optionA": "father",
+        "optionB": "sister",
+        "optionC": "grandfather",
+        "correctAnswer": "sister"
       },
       {
         "question": "A ______ teaches children new games.",
-        "options": {
-          "A": "cousin",
-          "B": "grandfather",
-          "C": "friend"
-        },
-        "answer": "B"
+        "optionA": "cousin",
+        "optionB": "grandfather",
+        "optionC": "friend",
+        "correctAnswer": "grandfather"
       },
       {
         "question": "A ______ comforts us with warm hugs.",
-        "options": {
-          "A": "grandmother",
-          "B": "uncle",
-          "C": "brother"
-        },
-        "answer": "A"
+        "optionA": "grandmother",
+        "optionB": "uncle",
+        "optionC": "brother",
+        "correctAnswer": "grandmother"
       },
       {
         "question": "A ______ helps us learn new things.",
-        "options": {
-          "A": "father",
-          "B": "cousin",
-          "C": "friend"
-        },
-        "answer": "A"
+        "optionA": "father",
+        "optionB": "cousin",
+        "optionC": "friend",
+        "correctAnswer": "father"
       },
       {
         "question": "A ______ cares for everyone at home.",
-        "options": {
-          "A": "cousin",
-          "B": "sister",
-          "C": "mother"
-        },
-        "answer": "C"
+        "optionA": "cousin",
+        "optionB": "sister",
+        "optionC": "mother",
+        "correctAnswer": "mother"
       }
     ]
   };
@@ -203,83 +163,63 @@ if (localStorage.getItem("activityNumber") == 3) {
     "questions": [
       {
         "question": "A brother is often a friend and playmate.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "A mother cooks food and looks after the family.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Families share unhappy moments together.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       },
       {
         "question": "A grandfather tells stories of olden days.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "A grandmother makes worst food.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       },
       {
         "question": "A sister plays games, sings and dances.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "A father helps us learn new things.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Family members hate for each other.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       },
       {
         "question": "Grandparents give children warm hugs.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Family members help each other.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       }
     ]
   };

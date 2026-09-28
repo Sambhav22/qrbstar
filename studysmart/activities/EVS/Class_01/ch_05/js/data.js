@@ -7,93 +7,73 @@ if (localStorage.getItem("activityNumber") == 1) {
     "questions": [
       {
         "question": "Which insects make honey?",
-        "options": {
-          "A": "Ants",
-          "B": "Bees",
-          "C": "Butterflies"
-        },
-        "answer": "B"
+        "optionA": "Ants",
+        "optionB": "Bees",
+        "optionC": "Butterflies",
+        "correctAnswer": "Bees"
       },
       {
         "question": "Which meal do we usually eat in the morning?",
-        "options": {
-          "A": "Breakfast",
-          "B": "Lunch",
-          "C": "Dinner"
-        },
-        "answer": "A"
+        "optionA": "Breakfast",
+        "optionB": "Lunch",
+        "optionC": "Dinner",
+        "correctAnswer": "Breakfast"
       },
       {
         "question": "Which food helps us stay strong and healthy?",
-        "options": {
-          "A": "Healthy food",
-          "B": "Junk food",
-          "C": "Dirty food"
-        },
-        "answer": "A"
+        "optionA": "Healthy food",
+        "optionB": "Junk food",
+        "optionC": "Dirty food",
+        "correctAnswer": "Healthy food"
       },
       {
         "question": "From where do fruits and vegetables come?",
-        "options": {
-          "A": "Stones",
-          "B": "Animals",
-          "C": "Plants"
-        },
-        "answer": "C"
+        "optionA": "Stones",
+        "optionB": "Animals",
+        "optionC": "Plants",
+        "correctAnswer": "Plants"
       },
       {
         "question": "Which meal is eaten in the afternoon?",
-        "options": {
-          "A": "Breakfast",
-          "B": "Lunch",
-          "C": "Dinner"
-        },
-        "answer": "B"
+        "optionA": "Breakfast",
+        "optionB": "Lunch",
+        "optionC": "Dinner",
+        "correctAnswer": "Lunch"
       },
       {
         "question": "What do we get from animals like hens?",
-        "options": {
-          "A": "Rice",
-          "B": "Eggs",
-          "C": "Wheat"
-        },
-        "answer": "B"
+        "optionA": "Rice",
+        "optionB": "Eggs",
+        "optionC": "Wheat",
+        "correctAnswer": "Eggs"
       },
       {
         "question": "What do bees work together to make?",
-        "options": {
-          "A": "Milk",
-          "B": "Juice",
-          "C": "Honey"
-        },
-        "answer": "C"
+        "optionA": "Milk",
+        "optionB": "Juice",
+        "optionC": "Honey",
+        "correctAnswer": "Honey"
       },
       {
         "question": "Where does rice grow?",
-        "options": {
-          "A": "Wet fields called paddies",
-          "B": "Deserts",
-          "C": "Mountains"
-        },
-        "answer": "A"
+        "optionA": "Wet fields called paddies",
+        "optionB": "Deserts",
+        "optionC": "Mountains",
+        "correctAnswer": "Wet fields called paddies"
       },
       {
         "question": "Which meal do we eat at night?",
-        "options": {
-          "A": "Lunch",
-          "B": "Dinner",
-          "C": "Breakfast"
-        },
-        "answer": "B"
+        "optionA": "Lunch",
+        "optionB": "Dinner",
+        "optionC": "Breakfast",
+        "correctAnswer": "Dinner"
       },
       {
         "question": "What should we do with extra food instead of throwing it?",
-        "options": {
-          "A": "Waste it",
-          "B": "Share it or give it to animals",
-          "C": "Hide it"
-        },
-        "answer": "B"
+        "optionA": "Waste it",
+        "optionB": "Share it or give it to animals",
+        "optionC": "Hide it",
+        "correctAnswer": "Share it or give it to animals"
       }
     ]
   };
@@ -105,93 +85,73 @@ if (localStorage.getItem("activityNumber") == 2) {
     "questions": [
       {
         "question": "Food gives us ______ to run and play.",
-        "options": {
-          "A": "energy",
-          "B": "colour",
-          "C": "noise"
-        },
-        "answer": "A"
+        "optionA": "energy",
+        "optionB": "colour",
+        "optionC": "noise",
+        "correctAnswer": "energy"
       },
       {
         "question": "Fruits and vegetables grow on ______.",
-        "options": {
-          "A": "plants",
-          "B": "clouds",
-          "C": "rocks"
-        },
-        "answer": "A"
+        "optionA": "plants",
+        "optionB": "clouds",
+        "optionC": "rocks",
+        "correctAnswer": "plants"
       },
       {
         "question": "We should eat ______ food to stay healthy.",
-        "options": {
-          "A": "dirty",
-          "B": "healthy",
-          "C": "stale"
-        },
-        "answer": "B"
+        "optionA": "dirty",
+        "optionB": "healthy",
+        "optionC": "stale",
+        "correctAnswer": "healthy"
       },
       {
         "question": "Honey is made by ______.",
-        "options": {
-          "A": "birds",
-          "B": "ants",
-          "C": "bees"
-        },
-        "answer": "C"
+        "optionA": "birds",
+        "optionB": "ants",
+        "optionC": "bees",
+        "correctAnswer": "bees"
       },
       {
         "question": "Rice grows in wet ______ called paddies.",
-        "options": {
-          "A": "fields",
-          "B": "roads",
-          "C": "houses"
-        },
-        "answer": "A"
+        "optionA": "fields",
+        "optionB": "roads",
+        "optionC": "houses",
+        "correctAnswer": "fields"
       },
       {
         "question": "Dinner is the ______ meal of the day.",
-        "options": {
-          "A": "first",
-          "B": "last",
-          "C": "middle"
-        },
-        "answer": "B"
+        "optionA": "first",
+        "optionB": "last",
+        "optionC": "middle",
+        "correctAnswer": "last"
       },
       {
         "question": "Lunch is usually eaten in the ______.",
-        "options": {
-          "A": "morning",
-          "B": "afternoon",
-          "C": "midnight"
-        },
-        "answer": "B"
+        "optionA": "morning",
+        "optionB": "afternoon",
+        "optionC": "midnight",
+        "correctAnswer": "afternoon"
       },
       {
         "question": "Food helps our body ______ strong.",
-        "options": {
-          "A": "grow",
-          "B": "break",
-          "C": "shrink"
-        },
-        "answer": "A"
+        "optionA": "grow",
+        "optionB": "break",
+        "optionC": "shrink",
+        "correctAnswer": "grow"
       },
       {
         "question": "Eggs come from ______.",
-        "options": {
-          "A": "soil",
-          "B": "rivers",
-          "C": "animals"
-        },
-        "answer": "C"
+        "optionA": "soil",
+        "optionB": "rivers",
+        "optionC": "animals",
+        "correctAnswer": "animals"
       },
       {
         "question": "We should not ______ food.",
-        "options": {
-          "A": "waste",
-          "B": "cook",
-          "C": "eat"
-        },
-        "answer": "A"
+        "optionA": "waste",
+        "optionB": "cook",
+        "optionC": "eat",
+        "correctAnswer": "waste"
       }
     ]
   };
@@ -203,83 +163,63 @@ if (localStorage.getItem("activityNumber") == 3) {
     "questions": [
       {
         "question": "Food gives us energy to play and think.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Bees work together to make honey.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Rice grows in wet fields called paddies.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Healthy food keeps us strong.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Junk food should be eaten too much every day.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       },
       {
         "question": "Fruits and vegetables come from plants.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Dinner is eaten at night.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Food is precious and should not be wasted.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Honey is made by birds.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       },
       {
         "question": "Extra food can be shared with animals.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       }
     ]
   };

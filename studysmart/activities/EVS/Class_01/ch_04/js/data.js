@@ -7,93 +7,73 @@ if (localStorage.getItem("activityNumber") == 1) {
     "questions": [
       {
         "question": "Which body part helps us breathe air?",
-        "options": {
-          "A": "Hands",
-          "B": "Nose",
-          "C": "Hair"
-        },
-        "answer": "B"
+        "optionA": "Hands",
+        "optionB": "Nose",
+        "optionC": "Hair",
+        "correctAnswer": "Nose"
       },
       {
         "question": "Which body part protects our heart?",
-        "options": {
-          "A": "Chest",
-          "B": "Legs",
-          "C": "Teeth"
-        },
-        "answer": "A"
+        "optionA": "Chest",
+        "optionB": "Legs",
+        "optionC": "Teeth",
+        "correctAnswer": "Chest"
       },
       {
         "question": "Which body part digests the food we eat?",
-        "options": {
-          "A": "Stomach",
-          "B": "Eyes",
-          "C": "Nose"
-        },
-        "answer": "A"
+        "optionA": "Stomach",
+        "optionB": "Eyes",
+        "optionC": "Nose",
+        "correctAnswer": "Stomach"
       },
       {
         "question": "Which body part helps us listen to sounds?",
-        "options": {
-          "A": "Nose",
-          "B": "Teeth",
-          "C": "Ears"
-        },
-        "answer": "C"
+        "optionA": "Nose",
+        "optionB": "Teeth",
+        "optionC": "Ears",
+        "correctAnswer": "Ears"
       },
       {
         "question": "Which body part helps us watch television?",
-        "options": {
-          "A": "Hands",
-          "B": "Eyes",
-          "C": "Feet"
-        },
-        "answer": "B"
+        "optionA": "Hands",
+        "optionB": "Eyes",
+        "optionC": "Feet",
+        "correctAnswer": "Eyes"
       },
       {
         "question": "Which habit keeps our body clean?",
-        "options": {
-          "A": "Not bathing",
-          "B": "Taking a bath daily",
-          "C": "Playing all day"
-        },
-        "answer": "B"
+        "optionA": "Not bathing",
+        "optionB": "Taking a bath daily",
+        "optionC": "Playing all day",
+        "correctAnswer": "Taking a bath daily"
       },
       {
         "question": "Which habit keeps our teeth healthy?",
-        "options": {
-          "A": "Brushing teeth twice a day",
-          "B": "Eating without brushing",
-          "C": "Never brushing"
-        },
-        "answer": "A"
+        "optionA": "Brushing teeth twice a day",
+        "optionB": "Eating without brushing",
+        "optionC": "Never brushing",
+        "correctAnswer": "Brushing teeth twice a day"
       },
       {
         "question": "Which clothes should we wear to stay clean?",
-        "options": {
-          "A": "Torn clothes",
-          "B": "Dirty clothes",
-          "C": "Clean clothes"
-        },
-        "answer": "C"
+        "optionA": "Torn clothes",
+        "optionB": "Dirty clothes",
+        "optionC": "Clean clothes",
+        "correctAnswer": "Clean clothes"
       },
       {
         "question": "Which part of the body helps us smell flowers?",
-        "options": {
-          "A": "Nose",
-          "B": "Eyes",
-          "C": "Ears"
-        },
-        "answer": "A"
+        "optionA": "Nose",
+        "optionB": "Eyes",
+        "optionC": "Ears",
+        "correctAnswer": "Nose"
       },
       {
         "question": "Which habit helps keep our hands clean?",
-        "options": {
-          "A": "Keeping nails long",
-          "B": "Cutting nails regularly",
-          "C": "Not washing hands"
-        },
-        "answer": "B"
+        "optionA": "Keeping nails long",
+        "optionB": "Cutting nails regularly",
+        "optionC": "Not washing hands",
+        "correctAnswer": "Cutting nails regularly"
       }
     ]
   };
@@ -105,93 +85,73 @@ if (localStorage.getItem("activityNumber") == 2) {
     "questions": [
       {
         "question": "The ______ protects our heart.",
-        "options": {
-          "A": "nose",
-          "B": "chest",
-          "C": "ears"
-        },
-        "answer": "B"
+        "optionA": "nose",
+        "optionB": "chest",
+        "optionC": "ears",
+        "correctAnswer": "chest"
       },
       {
         "question": "The ______ digests the food we eat.",
-        "options": {
-          "A": "stomach",
-          "B": "legs",
-          "C": "hair"
-        },
-        "answer": "A"
+        "optionA": "stomach",
+        "optionB": "legs",
+        "optionC": "hair",
+        "correctAnswer": "stomach"
       },
       {
         "question": "We ______ fresh air through our nose.",
-        "options": {
-          "A": "clap",
-          "B": "run",
-          "C": "breathe"
-        },
-        "answer": "C"
+        "optionA": "clap",
+        "optionB": "run",
+        "optionC": "breathe",
+        "correctAnswer": "breathe"
       },
       {
         "question": "We hear sounds with our ______.",
-        "options": {
-          "A": "teeth",
-          "B": "eyes",
-          "C": "ears"
-        },
-        "answer": "C"
+        "optionA": "teeth",
+        "optionB": "eyes",
+        "optionC": "ears",
+        "correctAnswer": "ears"
       },
       {
         "question": "We see the world with our ______.",
-        "options": {
-          "A": "eyes",
-          "B": "nose",
-          "C": "legs"
-        },
-        "answer": "A"
+        "optionA": "eyes",
+        "optionB": "nose",
+        "optionC": "legs",
+        "correctAnswer": "eyes"
       },
       {
         "question": "We should brush our teeth ______ a day.",
-        "options": {
-          "A": "once a month",
-          "B": "twice",
-          "C": "never"
-        },
-        "answer": "B"
+        "optionA": "once a month",
+        "optionB": "twice",
+        "optionC": "never",
+        "correctAnswer": "twice"
       },
       {
         "question": "We should take a bath ______.",
-        "options": {
-          "A": "never",
-          "B": "yearly",
-          "C": "daily"
-        },
-        "answer": "C"
+        "optionA": "never",
+        "optionB": "yearly",
+        "optionC": "daily",
+        "correctAnswer": "daily"
       },
       {
         "question": "We should wear ______ clothes.",
-        "options": {
-          "A": "dirty",
-          "B": "clean",
-          "C": "wet"
-        },
-        "answer": "B"
+        "optionA": "dirty",
+        "optionB": "clean",
+        "optionC": "wet",
+        "correctAnswer": "clean"
       },
       {
         "question": "We should keep our nails ______.",
-        "options": {
-          "A": "short and clean",
-          "B": "long and dirty",
-          "C": "broken"
-        },
-        "answer": "A"
+        "optionA": "short and clean",
+        "optionB": "long and dirty",
+        "optionC": "broken",
+        "correctAnswer": "short and clean"
       },
       {
         "question": "Clean habits keep our body ______.",
-        "options": {
-          "A": "healthy",
-          "B": "dirty",
-          "C": "tired"
-        },
-        "answer": "A"
+        "optionA": "healthy",
+        "optionB": "dirty",
+        "optionC": "tired",
+        "correctAnswer": "healthy"
       }
     ]
   };
@@ -203,83 +163,63 @@ if (localStorage.getItem("activityNumber") == 3) {
     "questions": [
       {
         "question": "Our stomach helps digest food.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Our chest protects the kidneys.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       },
       {
         "question": "We breathe through our nose.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Ears help us listen to music.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Eyes help us to breathe.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       },
       {
         "question": "Taking a bath keeps our body clean.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Wearing clean clothes keeps us healthy.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Dirty nails are good for health.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       },
       {
         "question": "Brushing teeth keeps them healthy.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Clean habits help us stay healthy.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       }
     ]
   };

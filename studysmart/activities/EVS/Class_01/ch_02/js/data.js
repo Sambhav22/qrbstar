@@ -7,93 +7,73 @@ if (localStorage.getItem("activityNumber") == 1) {
     "questions": [
       {
         "question": "What do friends share with each other?",
-        "options": {
-          "A": "Secrets",
-          "B": "Stones",
-          "C": "Shoes"
-        },
-        "answer": "A"
+        "optionA": "Secrets",
+        "optionB": "Stones",
+        "optionC": "Shoes",
+        "correctAnswer": "Secrets"
       },
       {
         "question": "Who were sharing colours at the art table in the story?",
-        "options": {
-          "A": "Aarav and Meena",
-          "B": "Riya and Rahul",
-          "C": "Aman and Rohan"
-        },
-        "answer": "A"
+        "optionA": "Aarav and Meena",
+        "optionB": "Riya and Rahul",
+        "optionC": "Aman and Rohan",
+        "correctAnswer": "Aarav and Meena"
       },
       {
         "question": "What do friends help with?",
-        "options": {
-          "A": "Sleeping",
-          "B": "Homework",
-          "C": "Hiding"
-        },
-        "answer": "B"
+        "optionA": "Sleeping",
+        "optionB": "Homework",
+        "optionC": "Hiding",
+        "correctAnswer": "Homework"
       },
       {
         "question": "What do friends do when we feel sad?",
-        "options": {
-          "A": "Ignore us",
-          "B": "Laugh at us",
-          "C": "Cheer us up"
-        },
-        "answer": "C"
+        "optionA": "Ignore us",
+        "optionB": "Laugh at us",
+        "optionC": "Cheer us up",
+        "correctAnswer": "Cheer us up"
       },
       {
         "question": "What do we run and jump while doing with friends?",
-        "options": {
-          "A": "Playing games",
-          "B": "Reading books",
-          "C": "Writing homework"
-        },
-        "answer": "A"
+        "optionA": "Playing games",
+        "optionB": "Reading books",
+        "optionC": "Writing homework",
+        "correctAnswer": "Playing games"
       },
       {
         "question": "What do children sometimes act out after reading?",
-        "options": {
-          "A": "Stories",
-          "B": "Songs",
-          "C": "Poems"
-        },
-        "answer": "A"
+        "optionA": "Stories",
+        "optionB": "Songs",
+        "optionC": "Poems",
+        "correctAnswer": "Stories"
       },
       {
         "question": "What do we draw with friends?",
-        "options": {
-          "A": "Shoes and bags",
-          "B": "Animals and houses",
-          "C": "Chairs and tables"
-        },
-        "answer": "B"
+        "optionA": "Shoes and bags",
+        "optionB": "Animals and houses",
+        "optionC": "Chairs and tables",
+        "correctAnswer": "Animals and houses"
       },
       {
         "question": "What do we mix while painting together?",
-        "options": {
-          "A": "Sand",
-          "B": "Water",
-          "C": "Colours"
-        },
-        "answer": "C"
+        "optionA": "Sand",
+        "optionB": "Water",
+        "optionC": "Colours",
+        "correctAnswer": "Colours"
       },
       {
         "question": "What can new friends become later?",
-        "options": {
-          "A": "Class monitors",
-          "B": "Best friends",
-          "C": "Teachers"
-        },
-        "answer": "B"
+        "optionA": "Class monitors",
+        "optionB": "Best friends",
+        "optionC": "Teachers",
+        "correctAnswer": "Best friends"
       },
       {
         "question": "What do friends make every activity?",
-        "options": {
-          "A": "More fun",
-          "B": "More difficult",
-          "C": "More boring"
-        },
-        "answer": "A"
+        "optionA": "More fun",
+        "optionB": "More difficult",
+        "optionC": "More boring",
+        "correctAnswer": "More fun"
       }
     ]
   };
@@ -105,93 +85,73 @@ if (localStorage.getItem("activityNumber") == 2) {
     "questions": [
       {
         "question": "Friends make us ______ and feel good.",
-        "options": {
-          "A": "cry",
-          "B": "smile",
-          "C": "sleep"
-        },
-        "answer": "B"
+        "optionA": "cry",
+        "optionB": "smile",
+        "optionC": "sleep",
+        "correctAnswer": "smile"
       },
       {
         "question": "Friends help us with our ______.",
-        "options": {
-          "A": "homework",
-          "B": "games",
-          "C": "lunch"
-        },
-        "answer": "A"
+        "optionA": "homework",
+        "optionB": "games",
+        "optionC": "lunch",
+        "correctAnswer": "homework"
       },
       {
         "question": "We run and jump while ______ with friends.",
-        "options": {
-          "A": "playing",
-          "B": "reading",
-          "C": "drawing"
-        },
-        "answer": "A"
+        "optionA": "playing",
+        "optionB": "reading",
+        "optionC": "drawing",
+        "correctAnswer": "playing"
       },
       {
         "question": "We read storybooks, comics and ______ together.",
-        "options": {
-          "A": "charts",
-          "B": "maps",
-          "C": "rhymes"
-        },
-        "answer": "C"
+        "optionA": "charts",
+        "optionB": "maps",
+        "optionC": "rhymes",
+        "correctAnswer": "rhymes"
       },
       {
         "question": "Drawing with friends is ______ and exciting.",
-        "options": {
-          "A": "slow",
-          "B": "boring",
-          "C": "creative"
-        },
-        "answer": "C"
+        "optionA": "slow",
+        "optionB": "boring",
+        "optionC": "creative",
+        "correctAnswer": "creative"
       },
       {
         "question": "We mix colours while ______.",
-        "options": {
-          "A": "running",
-          "B": "painting",
-          "C": "writing"
-        },
-        "answer": "B"
+        "optionA": "running",
+        "optionB": "painting",
+        "optionC": "writing",
+        "correctAnswer": "painting"
       },
       {
         "question": "We say ______ to make new friends.",
-        "options": {
-          "A": "hello",
-          "B": "goodbye",
-          "C": "thank you"
-        },
-        "answer": "A"
+        "optionA": "hello",
+        "optionB": "goodbye",
+        "optionC": "thank you",
+        "correctAnswer": "hello"
       },
       {
         "question": "Sharing toys helps us make ______ friends.",
-        "options": {
-          "A": "new",
-          "B": "angry",
-          "C": "old"
-        },
-        "answer": "A"
+        "optionA": "new",
+        "optionB": "angry",
+        "optionC": "old",
+        "correctAnswer": "new"
       },
       {
         "question": "Teamwork means working in a ______.",
-        "options": {
-          "A": "class",
-          "B": "room",
-          "C": "group"
-        },
-        "answer": "C"
+        "optionA": "class",
+        "optionB": "room",
+        "optionC": "group",
+        "correctAnswer": "group"
       },
       {
         "question": "Teamwork makes us feel proud and ______.",
-        "options": {
-          "A": "weak",
-          "B": "strong",
-          "C": "tired"
-        },
-        "answer": "B"
+        "optionA": "weak",
+        "optionB": "strong",
+        "optionC": "tired",
+        "correctAnswer": "strong"
       }
     ]
   };
@@ -203,83 +163,63 @@ if (localStorage.getItem("activityNumber") == 3) {
     "questions": [
       {
         "question": "Friends play and learn together.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Friends share toys and snacks.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Reading with friends helps us learn new things.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Drawing with friends can give us new ideas.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Painting together lets us use our imagination.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Friends always make our lives boring.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       },
       {
         "question": "Friends help each other while working in a team.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "We can make new friends by smiling and talking.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Teamwork means working alone.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       },
       {
         "question": "Friends make our lives happier.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       }
     ]
   };

@@ -7,93 +7,73 @@ if (localStorage.getItem("activityNumber") == 1) {
     "questions": [
       {
         "question": "What helps people travel from one place to another?",
-        "options": {
-          "A": "Transport",
-          "B": "Clothes",
-          "C": "Toys"
-        },
-        "answer": "A"
+        "optionA": "Transport",
+        "optionB": "Clothes",
+        "optionC": "Toys",
+        "correctAnswer": "Transport"
       },
       {
         "question": "Which vehicle moves on tracks?",
-        "options": {
-          "A": "Train",
-          "B": "Boat",
-          "C": "Helicopter"
-        },
-        "answer": "A"
+        "optionA": "Train",
+        "optionB": "Boat",
+        "optionC": "Helicopter",
+        "correctAnswer": "Train"
       },
       {
         "question": "Which vehicle floats on water?",
-        "options": {
-          "A": "Bus",
-          "B": "Ship",
-          "C": "Bicycle"
-        },
-        "answer": "B"
+        "optionA": "Bus",
+        "optionB": "Ship",
+        "optionC": "Bicycle",
+        "correctAnswer": "Ship"
       },
       {
         "question": "Which vehicle helps to put out a fire?",
-        "options": {
-          "A": "School bus",
-          "B": "Fire truck",
-          "C": "Train"
-        },
-        "answer": "B"
+        "optionA": "School bus",
+        "optionB": "Fire truck",
+        "optionC": "Train",
+        "correctAnswer": "Fire truck"
       },
       {
         "question": "Which vehicle keeps the city clean by collecting waste?",
-        "options": {
-          "A": "Bicycle",
-          "B": "Car",
-          "C": "Garbage truck"
-        },
-        "answer": "C"
+        "optionA": "Bicycle",
+        "optionB": "Car",
+        "optionC": "Garbage truck",
+        "correctAnswer": "Garbage truck"
       },
       {
         "question": "Which transport moves high in the sky?",
-        "options": {
-          "A": "Water transport",
-          "B": "Land transport",
-          "C": "Air transport"
-        },
-        "answer": "C"
+        "optionA": "Water transport",
+        "optionB": "Land transport",
+        "optionC": "Air transport",
+        "correctAnswer": "Air transport"
       },
       {
         "question": "Which vehicle helps keep us safe?",
-        "options": {
-          "A": "Ship",
-          "B": "Police car",
-          "C": "Aeroplane"
-        },
-        "answer": "B"
+        "optionA": "Ship",
+        "optionB": "Police car",
+        "optionC": "Aeroplane",
+        "correctAnswer": "Police car"
       },
       {
         "question": "Which vehicle takes sick people quickly to the hospital?",
-        "options": {
-          "A": "Ambulance",
-          "B": "Bus",
-          "C": "Truck"
-        },
-        "answer": "A"
+        "optionA": "Ambulance",
+        "optionB": "Bus",
+        "optionC": "Truck",
+        "correctAnswer": "Ambulance"
       },
       {
         "question": "Which transport moves on rivers, lakes, and seas?",
-        "options": {
-          "A": "Air transport",
-          "B": "Land transport",
-          "C": "Water transport"
-        },
-        "answer": "C"
+        "optionA": "Air transport",
+        "optionB": "Land transport",
+        "optionC": "Water transport",
+        "correctAnswer": "Water transport"
       },
       {
         "question": "Which transport moves on roads?",
-        "options": {
-          "A": "Land transport",
-          "B": "Water transport",
-          "C": "Air transport"
-        },
-        "answer": "A"
+        "optionA": "Land transport",
+        "optionB": "Water transport",
+        "optionC": "Air transport",
+        "correctAnswer": "Land transport"
       }
     ]
   };
@@ -105,93 +85,73 @@ if (localStorage.getItem("activityNumber") == 2) {
     "questions": [
       {
         "question": "Transport helps people ______ from one place to another.",
-        "options": {
-          "A": "cook",
-          "B": "sleep",
-          "C": "travel"
-        },
-        "answer": "C"
+        "optionA": "cook",
+        "optionB": "sleep",
+        "optionC": "travel",
+        "correctAnswer": "travel"
       },
       {
         "question": "Boats and ships move on ______.",
-        "options": {
-          "A": "sky",
-          "B": "road",
-          "C": "water"
-        },
-        "answer": "C"
+        "optionA": "sky",
+        "optionB": "road",
+        "optionC": "water",
+        "correctAnswer": "water"
       },
       {
         "question": "Aeroplanes fly in the ______.",
-        "options": {
-          "A": "river",
-          "B": "sky",
-          "C": "road"
-        },
-        "answer": "B"
+        "optionA": "river",
+        "optionB": "sky",
+        "optionC": "road",
+        "correctAnswer": "sky"
       },
       {
         "question": "Garbage trucks collect ______ from the city.",
-        "options": {
-          "A": "food",
-          "B": "waste",
-          "C": "clothes"
-        },
-        "answer": "B"
+        "optionA": "food",
+        "optionB": "waste",
+        "optionC": "clothes",
+        "correctAnswer": "waste"
       },
       {
         "question": "A ______ helps to put out a fire.",
-        "options": {
-          "A": "fire truck",
-          "B": "bus",
-          "C": "bicycle"
-        },
-        "answer": "A"
+        "optionA": "fire truck",
+        "optionB": "bus",
+        "optionC": "bicycle",
+        "correctAnswer": "fire truck"
       },
       {
         "question": "An ______ takes sick people to the hospital.",
-        "options": {
-          "A": "ambulance",
-          "B": "aeroplane",
-          "C": "ship"
-        },
-        "answer": "A"
+        "optionA": "ambulance",
+        "optionB": "aeroplane",
+        "optionC": "ship",
+        "correctAnswer": "ambulance"
       },
       {
         "question": "Cars and buses are means of ______ transport.",
-        "options": {
-          "A": "air",
-          "B": "land",
-          "C": "water"
-        },
-        "answer": "B"
+        "optionA": "air",
+        "optionB": "land",
+        "optionC": "water",
+        "correctAnswer": "land"
       },
       {
         "question": "Helicopters are ______ transport.",
-        "options": {
-          "A": "water",
-          "B": "land",
-          "C": "air"
-        },
-        "answer": "C"
+        "optionA": "water",
+        "optionB": "land",
+        "optionC": "air",
+        "correctAnswer": "air"
       },
       {
         "question": "Transport helps us save ______.",
-        "options": {
-          "A": "toys",
-          "B": "time",
-          "C": "books"
-        },
-        "answer": "B"
+        "optionA": "toys",
+        "optionB": "time",
+        "optionC": "books",
+        "correctAnswer": "time"
       },
       {
         "question": "A vehicle is something used for ______.",
-        "options": {
-          "A": "travelling",
-          "B": "sleeping",
-          "C": "cooking"
-        },
-        "answer": "A"
+        "optionA": "travelling",
+        "optionB": "sleeping",
+        "optionC": "cooking",
+        "correctAnswer": "travelling"
       }
     ]
   };
@@ -203,83 +163,63 @@ if (localStorage.getItem("activityNumber") == 3) {
     "questions": [
       {
         "question": "Boats float on water.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Aeroplanes fly in the sky.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Scooters are land transport vehicles.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Garbage trucks keep our city clean.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Helicopters are air transport.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Cars move on roads.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Ships travel on water.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Fire trucks help to put out fire.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Police cars help keep us safe.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Transport helps people carry goods and travel.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       }
     ]
   };

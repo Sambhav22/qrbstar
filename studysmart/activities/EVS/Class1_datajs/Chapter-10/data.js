@@ -7,93 +7,73 @@ if (localStorage.getItem("activityNumber") == 1) {
     "questions": [
       {
         "question": "Which animal is the biggest in the world?",
-        "options": {
-          "A": "Blue whale",
-          "B": "Elephant",
-          "C": "Horse"
-        },
-        "answer": "A"
+        "optionA": "Blue whale",
+        "optionB": "Elephant",
+        "optionC": "Horse",
+        "correctAnswer": "Blue whale"
       },
       {
         "question": "Which small insect can carry food bigger than its body?",
-        "options": {
-          "A": "Bee",
-          "B": "Ant",
-          "C": "Butterfly"
-        },
-        "answer": "B"
+        "optionA": "Bee",
+        "optionB": "Ant",
+        "optionC": "Butterfly",
+        "correctAnswer": "Ant"
       },
       {
         "question": "Which animal is big and strong and lives in forests?",
-        "options": {
-          "A": "Elephant",
-          "B": "Goat",
-          "C": "Cat"
-        },
-        "answer": "A"
+        "optionA": "Elephant",
+        "optionB": "Goat",
+        "optionC": "Cat",
+        "correctAnswer": "Elephant"
       },
       {
         "question": "Which animal is small and playful?",
-        "options": {
-          "A": "Horse",
-          "B": "Buffalo",
-          "C": "Rabbit"
-        },
-        "answer": "C"
+        "optionA": "Horse",
+        "optionB": "Buffalo",
+        "optionC": "Rabbit",
+        "correctAnswer": "Rabbit"
       },
       {
         "question": "Which animal gives us milk on farms?",
-        "options": {
-          "A": "Cow",
-          "B": "Tiger",
-          "C": "Deer"
-        },
-        "answer": "A"
+        "optionA": "Cow",
+        "optionB": "Tiger",
+        "optionC": "Deer",
+        "correctAnswer": "Cow"
       },
       {
         "question": "Which bird can fly high in the sky?",
-        "options": {
-          "A": "Dog",
-          "B": "Parrot",
-          "C": "Goat"
-        },
-        "answer": "B"
+        "optionA": "Dog",
+        "optionB": "Parrot",
+        "optionC": "Goat",
+        "correctAnswer": "Parrot"
       },
       {
         "question": "Which animal is kept at home for fun and friendship?",
-        "options": {
-          "A": "Lion",
-          "B": "Dog",
-          "C": "Elephant"
-        },
-        "answer": "B"
+        "optionA": "Lion",
+        "optionB": "Dog",
+        "optionC": "Elephant",
+        "correctAnswer": "Dog"
       },
       {
         "question": "Which insect makes honey?",
-        "options": {
-          "A": "Butterfly",
-          "B": "Ant",
-          "C": "Bee"
-        },
-        "answer": "C"
+        "optionA": "Butterfly",
+        "optionB": "Ant",
+        "optionC": "Bee",
+        "correctAnswer": "Bee"
       },
       {
         "question": "Which bird builds a nest to lay eggs?",
-        "options": {
-          "A": "Sparrow",
-          "B": "Rabbit",
-          "C": "Cat"
-        },
-        "answer": "A"
+        "optionA": "Sparrow",
+        "optionB": "Rabbit",
+        "optionC": "Cat",
+        "correctAnswer": "Sparrow"
       },
       {
         "question": "Which animal lives in the jungle and is very strong?",
-        "options": {
-          "A": "Goat",
-          "B": "Cow",
-          "C": "Tiger"
-        },
-        "answer": "C"
+        "optionA": "Goat",
+        "optionB": "Cow",
+        "optionC": "Tiger",
+        "correctAnswer": "Tiger"
       }
     ]
   };
@@ -105,93 +85,73 @@ if (localStorage.getItem("activityNumber") == 2) {
     "questions": [
       {
         "question": "The ______ whale is the biggest animal in the world.",
-        "options": {
-          "A": "grey",
-          "B": "blue",
-          "C": "white"
-        },
-        "answer": "B"
+        "optionA": "grey",
+        "optionB": "blue",
+        "optionC": "white",
+        "correctAnswer": "blue"
       },
       {
         "question": "Rabbits and mice are ______ animals.",
-        "options": {
-          "A": "big",
-          "B": "huge",
-          "C": "small"
-        },
-        "answer": "C"
+        "optionA": "big",
+        "optionB": "huge",
+        "optionC": "small",
+        "correctAnswer": "small"
       },
       {
         "question": "Cows and buffaloes give us ______.",
-        "options": {
-          "A": "eggs",
-          "B": "milk",
-          "C": "honey"
-        },
-        "answer": "B"
+        "optionA": "eggs",
+        "optionB": "milk",
+        "optionC": "honey",
+        "correctAnswer": "milk"
       },
       {
         "question": "Birds lay ______.",
-        "options": {
-          "A": "eggs",
-          "B": "seeds",
-          "C": "milk"
-        },
-        "answer": "A"
+        "optionA": "eggs",
+        "optionB": "seeds",
+        "optionC": "milk",
+        "correctAnswer": "eggs"
       },
       {
         "question": "Birds build ______ to keep their eggs safe.",
-        "options": {
-          "A": "nests",
-          "B": "houses",
-          "C": "caves"
-        },
-        "answer": "A"
+        "optionA": "nests",
+        "optionB": "houses",
+        "optionC": "caves",
+        "correctAnswer": "nests"
       },
       {
         "question": "Bees and butterflies are ______.",
-        "options": {
-          "A": "fish",
-          "B": "birds",
-          "C": "insects"
-        },
-        "answer": "C"
+        "optionA": "fish",
+        "optionB": "birds",
+        "optionC": "insects",
+        "correctAnswer": "insects"
       },
       {
         "question": "Ants can carry ______ bigger than themselves.",
-        "options": {
-          "A": "water",
-          "B": "food",
-          "C": "feathers"
-        },
-        "answer": "B"
+        "optionA": "water",
+        "optionB": "food",
+        "optionC": "feathers",
+        "correctAnswer": "food"
       },
       {
         "question": "Birds have ______ to fly.",
-        "options": {
-          "A": "wings",
-          "B": "horns",
-          "C": "paws"
-        },
-        "answer": "A"
+        "optionA": "wings",
+        "optionB": "horns",
+        "optionC": "paws",
+        "correctAnswer": "wings"
       },
       {
         "question": "Birds have feathers and ______.",
-        "options": {
-          "A": "tails",
-          "B": "horns",
-          "C": "beaks"
-        },
-        "answer": "C"
+        "optionA": "tails",
+        "optionB": "horns",
+        "optionC": "beaks",
+        "correctAnswer": "beaks"
       },
       {
         "question": "Animals make our world ______.",
-        "options": {
-          "A": "dull",
-          "B": "empty",
-          "C": "colourful"
-        },
-        "answer": "C"
+        "optionA": "dull",
+        "optionB": "empty",
+        "optionC": "colourful",
+        "correctAnswer": "colourful"
       }
     ]
   };
@@ -203,83 +163,63 @@ if (localStorage.getItem("activityNumber") == 3) {
     "questions": [
       {
         "question": "The blue whale is the biggest animal in the world.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Rabbits are small animals.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Ants are very strong insects.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Birds have wings and feathers.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Bees are insects.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Elephants are small animals.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       },
       {
         "question": "Birds build nests to keep their eggs.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Dogs are kept as pets at home.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Lions live in forests.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Animals should be treated with love and kindness.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       }
     ]
   };

@@ -7,93 +7,73 @@ if (localStorage.getItem("activityNumber") == 1) {
     "questions": [
       {
         "question": "What helps plants grow well on sunny days?",
-        "options": {
-          "A": "Sunlight",
-          "B": "Dust",
-          "C": "Fog"
-        },
-        "answer": "A"
+        "optionA": "Sunlight",
+        "optionB": "Dust",
+        "optionC": "Fog",
+        "correctAnswer": "Sunlight"
       },
       {
         "question": "What do we drink on a sunny day to stay safe?",
-        "options": {
-          "A": "Hot milk",
-          "B": "Cool water",
-          "C": "Soup"
-        },
-        "answer": "B"
+        "optionA": "Hot milk",
+        "optionB": "Cool water",
+        "optionC": "Soup",
+        "correctAnswer": "Cool water"
       },
       {
         "question": "What moves very fast on windy days?",
-        "options": {
-          "A": "Air",
-          "B": "Sand",
-          "C": "Water"
-        },
-        "answer": "A"
+        "optionA": "Air",
+        "optionB": "Sand",
+        "optionC": "Water",
+        "correctAnswer": "Air"
       },
       {
         "question": "What hides behind the clouds on cloudy days?",
-        "options": {
-          "A": "Stars",
-          "B": "Moon",
-          "C": "Sun"
-        },
-        "answer": "C"
+        "optionA": "Stars",
+        "optionB": "Moon",
+        "optionC": "Sun",
+        "correctAnswer": "Sun"
       },
       {
         "question": "What do plants and trees look like after rain?",
-        "options": {
-          "A": "Fresh and green",
-          "B": "Dry",
-          "C": "Brown"
-        },
-        "answer": "A"
+        "optionA": "Fresh and green",
+        "optionB": "Dry",
+        "optionC": "Brown",
+        "correctAnswer": "Fresh and green"
       },
       {
         "question": "What makes us feel cool on a hot day?",
-        "options": {
-          "A": "Rain",
-          "B": "Wind blowing",
-          "C": "Snow"
-        },
-        "answer": "B"
+        "optionA": "Rain",
+        "optionB": "Wind blowing",
+        "optionC": "Snow",
+        "correctAnswer": "Wind blowing"
       },
       {
         "question": "What tells us what clothes to wear?",
-        "options": {
-          "A": "Trees",
-          "B": "Weather",
-          "C": "Animals"
-        },
-        "answer": "B"
+        "optionA": "Trees",
+        "optionB": "Weather",
+        "optionC": "Animals",
+        "correctAnswer": "Weather"
       },
       {
         "question": "What covers most of the sky on cloudy days?",
-        "options": {
-          "A": "Birds",
-          "B": "Clouds",
-          "C": "Leaves"
-        },
-        "answer": "B"
+        "optionA": "Birds",
+        "optionB": "Clouds",
+        "optionC": "Leaves",
+        "correctAnswer": "Clouds"
       },
       {
         "question": "What can fly away on windy days?",
-        "options": {
-          "A": "",
-          "B": "Stones",
-          "C": "Leaves and papers"
-        },
-        "answer": "C"
+        "optionA": "",
+        "optionB": "Stones",
+        "optionC": "Leaves and papers",
+        "correctAnswer": "Leaves and papers"
       },
       {
         "question": "What makes the sky clear and bright?",
-        "options": {
-          "A": "Sunny weather",
-          "B": "Rainy weather",
-          "C": "Windy weather"
-        },
-        "answer": "A"
+        "optionA": "Sunny weather",
+        "optionB": "Rainy weather",
+        "optionC": "Windy weather",
+        "correctAnswer": "Sunny weather"
       }
     ]
   };
@@ -105,93 +85,73 @@ if (localStorage.getItem("activityNumber") == 2) {
     "questions": [
       {
         "question": "Plants get lots of ______ on sunny days.",
-        "options": {
-          "A": "dust",
-          "B": "sunlight",
-          "C": "smoke"
-        },
-        "answer": "B"
+        "optionA": "dust",
+        "optionB": "sunlight",
+        "optionC": "smoke",
+        "correctAnswer": "sunlight"
       },
       {
         "question": "We like to drink hot milk or ______ on cold days.",
-        "options": {
-          "A": "soup",
-          "B": "juice",
-          "C": "cold water"
-        },
-        "answer": "A"
+        "optionA": "soup",
+        "optionB": "juice",
+        "optionC": "cold water",
+        "correctAnswer": "soup"
       },
       {
         "question": "Weather changes because the ______, air and clouds keep moving.",
-        "options": {
-          "A": "moon",
-          "B": "sun",
-          "C": "stars"
-        },
-        "answer": "B"
+        "optionA": "moon",
+        "optionB": "sun",
+        "optionC": "stars",
+        "correctAnswer": "sun"
       },
       {
         "question": "On windy days the air moves very ______.",
-        "options": {
-          "A": "quietly",
-          "B": "slowly",
-          "C": "fast"
-        },
-        "answer": "C"
+        "optionA": "quietly",
+        "optionB": "slowly",
+        "optionC": "fast",
+        "correctAnswer": "fast"
       },
       {
         "question": "Plants and trees look ______ after rain.",
-        "options": {
-          "A": "weak",
-          "B": "dry",
-          "C": "fresh and green"
-        },
-        "answer": "C"
+        "optionA": "weak",
+        "optionB": "dry",
+        "optionC": "fresh and green",
+        "correctAnswer": "fresh and green"
       },
       {
         "question": "The sky is ______ and bright on sunny days.",
-        "options": {
-          "A": "clear",
-          "B": "dark",
-          "C": "foggy"
-        },
-        "answer": "A"
+        "optionA": "clear",
+        "optionB": "dark",
+        "optionC": "foggy",
+        "correctAnswer": "clear"
       },
       {
         "question": "Sometimes clouds bring ______.",
-        "options": {
-          "A": "sand",
-          "B": "rain",
-          "C": "dust"
-        },
-        "answer": "B"
+        "optionA": "sand",
+        "optionB": "rain",
+        "optionC": "dust",
+        "correctAnswer": "rain"
       },
       {
         "question": "Weather tells us what ______ to wear.",
-        "options": {
-          "A": "books",
-          "B": "clothes",
-          "C": "toys"
-        },
-        "answer": "B"
+        "optionA": "books",
+        "optionB": "clothes",
+        "optionC": "toys",
+        "correctAnswer": "clothes"
       },
       {
         "question": "Leaves and hats can ______ away in the wind.",
-        "options": {
-          "A": "fly",
-          "B": "melt",
-          "C": "sink"
-        },
-        "answer": "A"
+        "optionA": "fly",
+        "optionB": "melt",
+        "optionC": "sink",
+        "correctAnswer": "fly"
       },
       {
         "question": "The sun hides behind clouds on ______ days.",
-        "options": {
-          "A": "cloudy",
-          "B": "rainy",
-          "C": "windy"
-        },
-        "answer": "A"
+        "optionA": "cloudy",
+        "optionB": "rainy",
+        "optionC": "windy",
+        "correctAnswer": "cloudy"
       }
     ]
   };
@@ -203,83 +163,63 @@ if (localStorage.getItem("activityNumber") == 3) {
     "questions": [
       {
         "question": "Weather changes every day.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Sunny days make the sky clear and bright.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Windy weather makes the air move fast.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "We drink hot milk or soup on cold days.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Plants get sunlight on sunny days.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Clouds can hide the sun.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Rainy weather brings water from clouds.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Wind can make leaves fly away.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Weather tells us what to wear and when to play outside.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Plants and trees look fresh after rain.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       }
     ]
   };

@@ -7,93 +7,73 @@ if (localStorage.getItem("activityNumber") == 1) {
     "questions": [
       {
         "question": "What does a house give us?",
-        "options": {
-          "A": "Food",
-          "B": "Toys",
-          "C": "Shelter"
-        },
-        "answer": "C"
+        "optionA": "Food",
+        "optionB": "Toys",
+        "optionC": "Shelter",
+        "correctAnswer": "Shelter"
       },
       {
         "question": "Which house is made from natural materials like mud and straw?",
-        "options": {
-          "A": "Kutcha house",
-          "B": "Pucca house",
-          "C": "Brick house"
-        },
-        "answer": "A"
+        "optionA": "Kutcha house",
+        "optionB": "Pucca house",
+        "optionC": "Brick house",
+        "correctAnswer": "Kutcha house"
       },
       {
         "question": "Which house is stronger and lasts for many years?",
-        "options": {
-          "A": "Hut",
-          "B": "Pucca house",
-          "C": "Tent"
-        },
-        "answer": "B"
+        "optionA": "Hut",
+        "optionB": "Pucca house",
+        "optionC": "Tent",
+        "correctAnswer": "Pucca house"
       },
       {
         "question": "Which room in the house is used for sleeping?",
-        "options": {
-          "A": "Kitchen",
-          "B": "Bedroom",
-          "C": "Bathroom"
-        },
-        "answer": "B"
+        "optionA": "Kitchen",
+        "optionB": "Bedroom",
+        "optionC": "Bathroom",
+        "correctAnswer": "Bedroom"
       },
       {
         "question": "Which room is used for bathing?",
-        "options": {
-          "A": "Bathroom",
-          "B": "Bedroom",
-          "C": "Kitchen"
-        },
-        "answer": "A"
+        "optionA": "Bathroom",
+        "optionB": "Bedroom",
+        "optionC": "Kitchen",
+        "correctAnswer": "Bathroom"
       },
       {
         "question": "Which material is used to build pucca houses?",
-        "options": {
-          "A": "Straw",
-          "B": "Leaves",
-          "C": "Bricks and cement"
-        },
-        "answer": "C"
+        "optionA": "Straw",
+        "optionB": "Leaves",
+        "optionC": "Bricks and cement",
+        "correctAnswer": "Bricks and cement"
       },
       {
         "question": "What should we do to keep our house neat?",
-        "options": {
-          "A": "Break things",
-          "B": "Clean it regularly",
-          "C": "Throw waste on the floor"
-        },
-        "answer": "B"
+        "optionA": "Break things",
+        "optionB": "Clean it regularly",
+        "optionC": "Throw waste on the floor",
+        "correctAnswer": "Clean it regularly"
       },
       {
         "question": "Where should we throw waste in the house?",
-        "options": {
-          "A": "On the floor",
-          "B": "In the dustbin",
-          "C": "Outside the door"
-        },
-        "answer": "B"
+        "optionA": "On the floor",
+        "optionB": "In the dustbin",
+        "optionC": "Outside the door",
+        "correctAnswer": "In the dustbin"
       },
       {
         "question": "Which house is usually found in villages?",
-        "options": {
-          "A": "Kutcha house",
-          "B": "Apartment",
-          "C": "Flat"
-        },
-        "answer": "A"
+        "optionA": "Kutcha house",
+        "optionB": "Apartment",
+        "optionC": "Flat",
+        "correctAnswer": "Kutcha house"
       },
       {
         "question": "What should we close to keep dust and insects out?",
-        "options": {
-          "A": "Books",
-          "B": "Doors and windows",
-          "C": "Bags"
-        },
-        "answer": "B"
+        "optionA": "Books",
+        "optionB": "Doors and windows",
+        "optionC": "Bags",
+        "correctAnswer": "Doors and windows"
       }
     ]
   };
@@ -105,93 +85,73 @@ if (localStorage.getItem("activityNumber") == 2) {
     "questions": [
       {
         "question": "A house protects us from ______.",
-        "options": {
-          "A": "toys",
-          "B": "pencils",
-          "C": "rain and sun"
-        },
-        "answer": "C"
+        "optionA": "toys",
+        "optionB": "pencils",
+        "optionC": "rain and sun",
+        "correctAnswer": "rain and sun"
       },
       {
         "question": "Kutcha houses are made of ______ and straw.",
-        "options": {
-          "A": "mud",
-          "B": "iron",
-          "C": "glass"
-        },
-        "answer": "A"
+        "optionA": "mud",
+        "optionB": "iron",
+        "optionC": "glass",
+        "correctAnswer": "mud"
       },
       {
         "question": "Pucca houses are made with ______ and cement.",
-        "options": {
-          "A": "paper",
-          "B": "bricks",
-          "C": "leaves"
-        },
-        "answer": "B"
+        "optionA": "paper",
+        "optionB": "bricks",
+        "optionC": "leaves",
+        "correctAnswer": "bricks"
       },
       {
         "question": "We cook food in the ______.",
-        "options": {
-          "A": "kitchen",
-          "B": "bedroom",
-          "C": "bathroom"
-        },
-        "answer": "A"
+        "optionA": "kitchen",
+        "optionB": "bedroom",
+        "optionC": "bathroom",
+        "correctAnswer": "kitchen"
       },
       {
         "question": "We sleep in the ______.",
-        "options": {
-          "A": "bedroom",
-          "B": "kitchen",
-          "C": "living room"
-        },
-        "answer": "A"
+        "optionA": "bedroom",
+        "optionB": "kitchen",
+        "optionC": "living room",
+        "correctAnswer": "bedroom"
       },
       {
         "question": "We take a bath in the ______.",
-        "options": {
-          "A": "bedroom",
-          "B": "kitchen",
-          "C": "bathroom"
-        },
-        "answer": "C"
+        "optionA": "bedroom",
+        "optionB": "kitchen",
+        "optionC": "bathroom",
+        "correctAnswer": "bathroom"
       },
       {
         "question": "Kutcha houses are mostly found in ______.",
-        "options": {
-          "A": "forests",
-          "B": "rivers",
-          "C": "villages"
-        },
-        "answer": "C"
+        "optionA": "forests",
+        "optionB": "rivers",
+        "optionC": "villages",
+        "correctAnswer": "villages"
       },
       {
         "question": "Pucca houses are mostly found in ______.",
-        "options": {
-          "A": "deserts",
-          "B": "towns and cities",
-          "C": "mountains"
-        },
-        "answer": "B"
+        "optionA": "deserts",
+        "optionB": "towns and cities",
+        "optionC": "mountains",
+        "correctAnswer": "towns and cities"
       },
       {
         "question": "We should throw waste in the ______.",
-        "options": {
-          "A": "dustbin",
-          "B": "garden",
-          "C": "road"
-        },
-        "answer": "A"
+        "optionA": "dustbin",
+        "optionB": "garden",
+        "optionC": "road",
+        "correctAnswer": "dustbin"
       },
       {
         "question": "A clean house keeps us ______.",
-        "options": {
-          "A": "healthy",
-          "B": "tired",
-          "C": "sleepy"
-        },
-        "answer": "A"
+        "optionA": "healthy",
+        "optionB": "tired",
+        "optionC": "sleepy",
+        "correctAnswer": "healthy"
       }
     ]
   };
@@ -203,83 +163,63 @@ if (localStorage.getItem("activityNumber") == 3) {
     "questions": [
       {
         "question": "A house protects us from rain and sun.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Kutcha houses are made from mud and straw.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "Pucca houses are weak houses.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       },
       {
         "question": "A bedroom is used for sleeping.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "A bathroom is used for bathing.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "kutcha houses last longer than Pucca houses.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       },
       {
         "question": "We should keep our house clean.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "We should throw waste on the floor.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       },
       {
         "question": "Houses protect us from cold weather.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "A"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "True"
       },
       {
         "question": "A dustbin is used to collect useful things.",
-        "options": {
-          "A": "True",
-          "B": "False"
-        },
-        "answer": "B"
+        "optionA": "True",
+        "optionB": "False",
+        "correctAnswer": "False"
       }
     ]
   };
