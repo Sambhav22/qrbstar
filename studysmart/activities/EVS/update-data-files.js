@@ -3,10 +3,10 @@ const path = require("path");
 
 // Generated chapter files:
 // Class5_datajs/Chapter-01/data.js
-const sourceRoot = path.join(__dirname, "Class1_datajs");
+const sourceRoot = path.join(__dirname, "Class5_datajs");
 
 // Existing project folder
-const targetRoot = path.join(__dirname, "Class_01");
+const targetRoot = path.join(__dirname, "Class_05");
 
 const totalChapters = 19;
 
@@ -17,7 +17,7 @@ if (!fs.existsSync(sourceRoot)) {
 
 if (!fs.existsSync(targetRoot)) {
   console.error(`❌ Existing target folder not found: ${targetRoot}`);
-  console.error('Check that the folder is named exactly "Class_05".');
+  console.error('Check that the folder is named exactly "Class_02".');
   process.exit(1);
 }
 
@@ -47,14 +47,14 @@ for (let chapter = 1; chapter <= totalChapters; chapter++) {
   }
 
   if (!fs.existsSync(targetFile)) {
-    console.log(`⚠️ Target file not found: Class_05/ch_${number}/js/data.js`);
+    console.log(`⚠️ Target file not found: Class_02/ch_${number}/js/data.js`);
     skipped++;
     continue;
   }
 
   try {
     fs.copyFileSync(sourceFile, targetFile);
-    console.log(`✅ Replaced: Class_05/ch_${number}/js/data.js`);
+    console.log(`✅ Replaced: Class_02/ch_${number}/js/data.js`);
     replaced++;
   } catch (error) {
     console.error(`❌ Chapter ${number} failed: ${error.message}`);
